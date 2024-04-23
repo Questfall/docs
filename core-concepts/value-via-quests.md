@@ -1,4 +1,4 @@
-# 💸 Value via quests
+# 🏗️ Value via quests
 
 ## Binary quests
 
