@@ -1,12 +1,12 @@
 # Table of contents
 
-* [📜 Introduction](README.md)
+* [💡 Overview](README.md)
 
 ## Core concepts
 
 * [💰 Deflationary mining](core-concepts/deflationary-mining.md)
 * [💲 Project funding](core-concepts/project-funding.md)
-* [🏗️ Value via quests](core-concepts/value-via-quests.md)
+* [🎁 Value via quests](core-concepts/value-via-quests.md)
 * [🎭 Defending Sybil attacks](core-concepts/defending-sybil-attacks.md)
 * [🖥️ Off-chain computations](core-concepts/off-chain-computations.md)
 
