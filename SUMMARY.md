@@ -4,10 +4,10 @@
 
 ## Core concepts
 
-* [💰 Deflationary mining](core-concepts/deflationary-mining.md)
 * [💲 Project funding](core-concepts/project-funding.md)
-* [🍰 Creating and distributing value](core-concepts/creating-and-distributing-value.md)
-* [🎭 Defending Sybil attacks](core-concepts/defending-sybil-attacks.md)
+* [💰 Deflationary mining](core-concepts/deflationary-mining.md)
+* [✨ Creating and distributing value](core-concepts/creating-and-distributing-value.md)
+* [🎭 Preventing Sybil attacks](core-concepts/preventing-sybil-attacks.md)
 * [🖥️ Off-chain computations](core-concepts/off-chain-computations.md)
 
 ## Tokenomics
@@ -17,15 +17,10 @@
 * [👑 Founders NFT](tokenomics/founders-nft.md)
 * [⚡ Miners NFT](tokenomics/miners-nft.md)
 
-## Quests
+## Platform
 
-* [☑️ Binary quests](quests/binary-quests.md)
-* [📶 Quality quests](quests/quality-quests.md)
-
-## Rewards
-
-* [🪶 Authors](rewards/authors.md)
-* [⛏️ Users](rewards/users.md)
-* [🔬 Validators](rewards/validators.md)
-* [💵 Investors](rewards/investors.md)
-* [☕ Founders](rewards/founders.md)
+* [🪶 Creating quests](platform/creating-quests.md)
+* [⛏️ Completing quests](platform/completing-quests.md)
+* [✔️ Validating quests](platform/validating-quests.md)
+* [📈 Staking tokens](platform/staking-tokens.md)
+* [☕ Passive income](platform/passive-income.md)
