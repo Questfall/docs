@@ -1,2 +1,2 @@
-# ⚒️ Miners NFT
+# ⚡ Miners NFT
 

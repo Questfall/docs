@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Overview](README.md)
+* [📜 Introduction](README.md)
 
 ## Core concepts
 
@@ -13,14 +13,14 @@
 ## Tokenomics
 
 * [🪙 Questfall Tokens (QFT)](tokenomics/questfall-tokens-qft.md)
-* [📶 Experience Points (XP)](tokenomics/experience-points-xp.md)
+* [⭐ Experience Points (XP)](tokenomics/experience-points-xp.md)
 * [👑 Founders NFT](tokenomics/founders-nft.md)
-* [⚒️ Miners NFT](tokenomics/miners-nft.md)
+* [⚡ Miners NFT](tokenomics/miners-nft.md)
 
 ## Mining power
 
-* [🪶 Authors](mining-power/authors.md)
-* [⛏️ Users](mining-power/users.md)
-* [🔬 Validators](mining-power/validators.md)
-* [💵 Investors](mining-power/investors.md)
-* [☕ Founders](mining-power/founders.md)
+* [🪶 Authors](miners/authors.md)
+* [⛏️ Users](miners/users.md)
+* [🔬 Validators](miners/validators.md)
+* [💵 Investors](miners/investors.md)
+* [☕ Founders](miners/founders.md)

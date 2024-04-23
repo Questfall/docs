@@ -1,2 +1,2 @@
-# 📶 Experience Points (XP)
+# ⭐ Experience Points (XP)
 
