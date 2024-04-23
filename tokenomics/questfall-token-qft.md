@@ -1,0 +1,2 @@
+# 🪙 Questfall Token (QFT)
+
