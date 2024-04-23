@@ -1,6 +1,6 @@
 # Table of contents
 
-* [💡 Overview](README.md)
+* [💛 Welcome](README.md)
 
 ## Core concepts
 
