@@ -2,8 +2,8 @@
 
 QFT token:\
 1\. No allocations, can only be mined through activities on the Questfall platform\
-2\. QFT distribution shared on weekly checkpoints between Creators, Users, Validators, Staking, Founders \
-3\. QFT distribution = QFT issuance + QFT income\
+2\. Reward pool shared on weekly checkpoints between Creators, Users, Validators, Staking, Founders \
+3\. Reward Pool = QFT issuance + QFT income\
 4\. The QFT issuance decreases with each checkpoint. The decay rate is fixed to 1% for example\
 
 
