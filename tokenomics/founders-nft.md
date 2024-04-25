@@ -10,3 +10,7 @@ The sale is done through power points. \
 After the sale is concluded the power points are turned into NFTs \
 \
 \
+NFT perks:\
+1\. Sharing 12% of the QFT distribution providing passive income for holders\
+2\. Direct access to Founders chat\
+3\. Voting and proposal power\
