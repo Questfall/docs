@@ -4,14 +4,14 @@
 
 ## Core concepts
 
-* [💲 Project funding](core-concepts/project-funding.md)
+* [✨ Quests value](core-concepts/quests-value.md)
 * [💰 Deflationary mining](core-concepts/deflationary-mining.md)
-* [✨ Creating and distributing value](core-concepts/creating-and-distributing-value.md)
-* [🎭 Preventing Sybil attacks](core-concepts/preventing-sybil-attacks.md)
+* [🎭 Sybil attacks](core-concepts/sybil-attacks.md)
 * [🖥️ Off-chain computations](core-concepts/off-chain-computations.md)
 
 ## Tokenomics
 
+* [💲 Project funding](tokenomics/project-funding.md)
 * [🪙 Questfall Tokens (QFT)](tokenomics/questfall-tokens-qft.md)
 * [⭐ Experience Points (XP)](tokenomics/experience-points-xp.md)
 * [👑 Founders NFT](tokenomics/founders-nft.md)
