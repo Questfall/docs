@@ -4,7 +4,7 @@
 
 ## Core concepts
 
-* [✨ Quests value](core-concepts/quests-value.md)
+* [✨ Quest value](core-concepts/quest-value.md)
 * [💰 Deflationary mining](core-concepts/deflationary-mining.md)
 * [🎭 Sybil attacks](core-concepts/sybil-attacks.md)
 * [🖥️ Off-chain computations](core-concepts/off-chain-computations.md)
