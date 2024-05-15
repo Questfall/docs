@@ -19,8 +19,13 @@
 
 ## Platform
 
-* [🪶 Creating quests](platform/creating-quests.md)
-* [⛏️ Completing quests](platform/completing-quests.md)
-* [✔️ Validating quests](platform/validating-quests.md)
-* [📈 Staking tokens](platform/staking-tokens.md)
-* [☕ Passive income](platform/passive-income.md)
+* [💫 Quest types](platform/quest-types.md)
+* [🍰 Reward distribution](platform/reward-distribution.md)
+
+## Mining
+
+* [🪶 Creating quests](mining/creating-quests.md)
+* [⛏️ Completing quests](mining/completing-quests.md)
+* [✔️ Validating quests](mining/validating-quests.md)
+* [📈 Staking tokens](mining/staking-tokens.md)
+* [☕ Passive income](mining/passive-income.md)
