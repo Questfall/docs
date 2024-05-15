@@ -6,9 +6,9 @@ Founders will share the QFT from the Reward pool(on weekly checkpoints) for as l
 Initially, Founders will share 100% of the supply for the first 3 months.\
 60% to Investor Founders\
 40% to Team Founders\
-The team % will be used for deploying the first trading pool and marketing activities such as capsule events, game rewards.etc\
+The team % will be used for deploying the first trading pool and marketing activities such as capsule events, game rewards, NFT buyback+burn...etc\
 \
-**Explaining the reward system(Pool)**\
+**Explaining the reward Pool**\
 The reward system is formed by QFT issuance + QFT income\
 \
 **QFT mining(issuance)** \
