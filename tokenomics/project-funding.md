@@ -23,4 +23,4 @@ For the \~ first 3 months the issuance goes directly to Founders and after the p
 QFT income is produced by platform revenue. The income is added to the Issued QFT before weekly distribution. \
 \
 **Funding**\
-2 Million shares corresponding to 15% of the mining supply are \
+2 Million shares corresponding to 15% \
