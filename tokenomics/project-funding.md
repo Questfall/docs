@@ -2,9 +2,11 @@
 
 **Explaining the Founder status**\
 The Team and initial investors are part of the same Founders group\
-Founders will share the initial mining of QFT that will start \~3 months before the platform launch\
+Founders will share the QFT from the Reward pool(on weekly checkpoints) for as long as they keep their shares.\
+Initially, Founders will share 100% of the supply for the first 3 months.\
 60% to Investor Founders\
 40% to Team Founders\
+The team % will be used for deploying the first trading pool and marketing activities such as capsule events, game rewards.etc\
 \
 **Explaining the reward system(Pool)**\
 The reward system is formed by QFT issuance + QFT income\
