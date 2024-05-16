@@ -1,2 +1,0 @@
-# ✨ High quality quest
-

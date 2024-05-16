@@ -2,18 +2,15 @@
 
 * [💛 Welcome](README.md)
 
-## Core concepts
+## Platform
 
-* [📜 Quest vs Contracts](core-concepts/quest-vs-contracts.md)
-* [✨ High quality quest](core-concepts/high-quality-quest.md)
-* [💫 Different quest types](core-concepts/different-quest-types.md)
-* [💰 Deflationary mining](core-concepts/deflationary-mining.md)
-* [🍰 Reward distribution](core-concepts/reward-distribution.md)
-* [🖥️ Off-chain computations](core-concepts/off-chain-computations.md)
-* [💲 Project funding](core-concepts/project-funding.md)
+* [📜 Quest concept](platform/quest-concept.md)
+* [🖥️ Technology stack](platform/technology-stack.md)
+* [💲 Development funding](platform/development-funding.md)
 
 ## Tokenomics
 
+* [💰 Deflationary mining](tokenomics/deflationary-mining.md)
 * [🪙 Questfall Tokens (QFT)](tokenomics/questfall-tokens-qft.md)
 * [⭐ Experience Points (XP)](tokenomics/experience-points-xp.md)
 * [👑 Founders NFT](tokenomics/founders-nft.md)
@@ -21,6 +18,7 @@
 
 ## Mining
 
+* [🍰 Reward distribution](mining/reward-distribution.md)
 * [🪶 Creating quests](mining/creating-quests.md)
 * [⛏️ Completing quests](mining/completing-quests.md)
 * [✔️ Validating quests](mining/validating-quests.md)
