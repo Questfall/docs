@@ -4,23 +4,24 @@
 
 ## Core concepts
 
-* [✨ Quest value](core-concepts/quest-value.md)
+* [📜 Quest are Contracts](core-concepts/quest-are-contracts.md)
+* [💫 Quest types](core-concepts/quest-types.md)
+* [🏅 Rewarding Questgivers](core-concepts/rewarding-questgivers.md)
 * [💰 Deflationary mining](core-concepts/deflationary-mining.md)
+* [🍰 Reward distribution](core-concepts/reward-distribution.md)
 * [🎭 Sybil attacks](core-concepts/sybil-attacks.md)
 * [🖥️ Off-chain computations](core-concepts/off-chain-computations.md)
 
+***
+
+* [💲 Project funding](project-funding.md)
+
 ## Tokenomics
 
-* [💲 Project funding](tokenomics/project-funding.md)
 * [🪙 Questfall Tokens (QFT)](tokenomics/questfall-tokens-qft.md)
 * [⭐ Experience Points (XP)](tokenomics/experience-points-xp.md)
 * [👑 Founders NFT](tokenomics/founders-nft.md)
 * [⚡ Miners NFT](tokenomics/miners-nft.md)
-
-## Platform
-
-* [💫 Quest types](platform/quest-types.md)
-* [🍰 Reward distribution](platform/reward-distribution.md)
 
 ## Mining
 
