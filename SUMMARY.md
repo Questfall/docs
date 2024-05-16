@@ -4,17 +4,13 @@
 
 ## Core concepts
 
-* [📜 Quest are Contracts](core-concepts/quest-are-contracts.md)
-* [💫 Quest types](core-concepts/quest-types.md)
-* [🏅 Rewarding Questgivers](core-concepts/rewarding-questgivers.md)
+* [📜 Quest vs Contracts](core-concepts/quest-vs-contracts.md)
+* [✨ High quality quest](core-concepts/high-quality-quest.md)
+* [💫 Different quest types](core-concepts/different-quest-types.md)
 * [💰 Deflationary mining](core-concepts/deflationary-mining.md)
 * [🍰 Reward distribution](core-concepts/reward-distribution.md)
-* [🎭 Sybil attacks](core-concepts/sybil-attacks.md)
 * [🖥️ Off-chain computations](core-concepts/off-chain-computations.md)
-
-***
-
-* [💲 Project funding](project-funding.md)
+* [💲 Project funding](core-concepts/project-funding.md)
 
 ## Tokenomics
 
@@ -30,3 +26,7 @@
 * [✔️ Validating quests](mining/validating-quests.md)
 * [📈 Staking tokens](mining/staking-tokens.md)
 * [☕ Passive income](mining/passive-income.md)
+
+***
+
+* [📍 Roadmap](roadmap.md)
