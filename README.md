@@ -64,13 +64,19 @@ This approach will allow authors to receive a reward for publishing their books,
 For more details read about the rewarding for the [Author activity](mining/author-activity-30.md).
 {% endhint %}
 
-#### Quests applied to the real world
-
-
-
 #### Nonbinary quest completion
 
+Some quest completions are binary: either completed or not. But some quests assume deferent quality or quantity of completions, for example a drawing contest or a task to swap one token for another.
 
+On Questfall this kind of nonbinary quests (contests) will be first-class citizens. When such a quest is finished the leaderboard will be formed and the users will be rewarded according to their places and the formula set by the author.
+
+#### Quests applied to the real world
+
+When rewards are global the users are paid by the system and not by projects or other users. This means that anyone has a tool to make a world a better place. For example, our Team will create the ongoing quest "Plant a tree" from very beginning.&#x20;
+
+Moreover, global rewards and nonbinary quests will allow to order any intellectual work such as illustrations, animations, videos, music, design, code and so on.
+
+In addition to this, we will implement in the future versions of Questfall local quests, which will allow to find a needed worker (such as babysitter, maid, builder, gardener, pool cleaner, etc...) for your task near you.
 
 #### Global quest feed and quest promotion
 
