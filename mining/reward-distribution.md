@@ -1,2 +1,0 @@
-# 🍰 Reward distribution
-

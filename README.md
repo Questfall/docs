@@ -22,19 +22,19 @@ Deflationary mining concept (the article will follow) assumes that users who add
 
 In relation to Questfall project this concept applies as such:
 
-* Questfall Token (QFT) total supply is 10 000 000. This supply is issued weekly by decreasing portions. The amount of QFT that will be issued any particular week could be calculated by the formula. There is no pre-minting of the QFT, which means that the only way to obtain newly issued QFT is through mining. This also means that QFT can be obtained as a reward for certain valuable actions without having to buy it.
+* Questfall Token (QFT) total supply is 10 000 000, which is issued weekly by decreasing portions. The amount of QFT that will be issued any particular week could be calculated by the formula. There is no pre-minting of the QFT, which means that the only way to obtain newly issued QFT is through mining.&#x20;
 
 {% hint style="info" %}
 For more details read the [Questfall Tokens (QFT) sections](tokenomics/questfall-tokens-qft.md) of this documentation.
 {% endhint %}
 
-* QFTs issued each week are distributed with respect to contribution to those who has brought value to the system during the week.&#x20;
+* QFTs issued each week are distributed with respect to contribution to those who has brought value to the system during the week. This means that QFT can be obtained as a reward for certain valuable actions without having to buy it.
 
 {% hint style="info" %}
 For more details read the [Mining sections](broken-reference) of this documentation.
 {% endhint %}
 
-* By burning QFT any author can obtain off-chain system Credits (at a fixed USD price), which can be used for the quest promotion to the platform users.
+* By burning QFT any author can obtain off-chain system Credits (at a fixed USD price), which can be used for the quest promotion to the platform users. This means that after some market saturation period the circulating supply of QFT will steadily decline.
 
 {% hint style="info" %}
 For more details read the [Credits sections ](tokenomics/credits-off-chain.md)of this documentation.
@@ -42,13 +42,29 @@ For more details read the [Credits sections ](tokenomics/credits-off-chain.md)of
 
 #### Sybil attack defense
 
-To prevent bots and multi-accounts there will be used two approaches in Questfall: user stakes and user levels. Since the amount of QFT that is distributed each week to miners is fixed, the users will compete with each other for the share they receive. The basis of the miner's&#x20;
+To prevent bots and multi-accounts there will be used two approaches in Questfall: user stakes and user levels. Since the amount of QFT that is distributed each week to miners is fixed, the users will compete with each other for the share they receive. This miners' competition will force users to use any opportunity to gain any advantage.
 
+Thus, having bigger stake or getting higher RPG level will allow users to obtain advantage over others, which also makes bots and several accounts usage less profitable than focusing only on one account.
 
+{% hint style="info" %}
+For more details read about the rewarding for the [User activity](mining/user-activity-40.md).
+{% endhint %}
 
 ## Additional features
 
-#### Rewards for quality quests
+#### Author motivation for quality quests
+
+Most projects on the existing quest platform do not put a lot of resources in the quest creation, and the majority of quests are dumb tasks to join Discord or repost a Tweet. But this is not how things should be!
+
+On Questfall all the quests will have a rating which will be considered as a mining power for calculating rewards for authors for the quests they have created. And the more public will appreciate the quest the higher will be the reward for its author.&#x20;
+
+This approach will allow authors to receive a reward for publishing their books, articles, lessons, music, images, videos and so on. Quests like "Read a new chapter of my book and answer a question" could become a new paradigm to earn by creating intellectual products in the modern economy.
+
+{% hint style="info" %}
+For more details read about the rewarding for the [Author activity](mining/author-activity-30.md).
+{% endhint %}
+
+#### Quests applied to the real world
 
 
 
@@ -56,13 +72,14 @@ To prevent bots and multi-accounts there will be used two approaches in Questfal
 
 
 
-#### Global quest feed
+#### Global quest feed and quest promotion
 
+The quest platform is not that different from the any social media like Facebook or Tweeter. The only difference is the depth of the user reaction to the post. If social media format assumes only emoji reactions to the post, a quest will need some proof of its completion (that the user has taken demanded action).
 
+That is why the global quest feed is the straightforward analogous of the post feed in any social media. This approach not only allows a user to be in the trend of what is happening on the platform, but it also allows projects to promote their quests to the public by burning some QFT.
 
-#### Crowd-based quest completion verification
+#### Crowd-based validation of quest completions
 
+Our Team has created many quests on different popular platforms, and we always wanted to push the answers checking to somebody else. In Questfall any author will be able to let the miners (common users) verify the completions of the quest.
 
-
-#### Real-world quests
-
+This will not only allow miners to earn, but it will also solve any possible automation problem. For example, the cost of Tweeter API is very overpriced, but users can see a particular post for free. So, for author there will be no difference between if the server checked the action on Tweeter or the crowd.
