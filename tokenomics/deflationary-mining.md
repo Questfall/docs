@@ -1,2 +1,0 @@
-# 💰 Deflationary mining
-

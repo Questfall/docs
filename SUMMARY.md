@@ -5,7 +5,6 @@
 
 ## Tokenomics
 
-* [💰 Deflationary mining](tokenomics/deflationary-mining.md)
 * [💲 Initial Funding Event](platform/development-funding.md)
 * [🪙 Questfall Tokens (QFT)](tokenomics/questfall-tokens-qft.md)
 * [⭐ Experience Points (XP)](tokenomics/experience-points-xp.md)
@@ -18,5 +17,7 @@
 * [🪶 Creating quests](mining/creating-quests.md)
 * [⛏️ Completing quests](mining/completing-quests.md)
 * [✔️ Validating quests](mining/validating-quests.md)
-* [📈 Staking tokens](mining/staking-tokens.md)
-* [☕ Passive income](mining/passive-income.md)
+* [🚰 Liquidity Program](mining/liquidity-program.md)
+* [📈 Staking Program](mining/staking-program.md)
+* [⚙️ Project expenses](mining/project-expenses.md)
+* [☕ Founders' income](mining/founders-income.md)
