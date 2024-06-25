@@ -1,7 +1,7 @@
 # Table of contents
 
-* [About the project](README.md)
-* [Roadmap](roadmap.md)
+* [❕ About the project](README.md)
+* [📍 Roadmap](roadmap.md)
 
 ## Tokenomics
 
@@ -18,6 +18,6 @@
 * [⛏️ Completing quests](mining/completing-quests.md)
 * [✔️ Validating quests](mining/validating-quests.md)
 * [🚰 Liquidity Program](mining/liquidity-program.md)
-* [📈 Staking Program](mining/staking-program.md)
+* [📈 Staking Program](mining/staking-tokens.md)
 * [⚙️ Project expenses](mining/project-expenses.md)
-* [☕ Founders' income](mining/founders-income.md)
+* [☕ Founders' income](mining/passive-income.md)

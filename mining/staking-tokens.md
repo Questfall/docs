@@ -1,4 +1,4 @@
-# 📈 Staking tokens
+# 📈 Staking Program
 
 \
 Questfall is using 3 different staking approaches to secure the platform and rewards its users\

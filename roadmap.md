@@ -5,7 +5,7 @@ description: >-
   partnership connections as ongoing activities.
 ---
 
-# Roadmap
+# 📍 Roadmap
 
 ### Project Core development
 
