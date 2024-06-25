@@ -6,3 +6,9 @@ We believe that brining all the pieces together will finally make the quest conc
 
 
 
+
+
+Binary quests
+
+Quality quests
+

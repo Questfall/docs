@@ -3,11 +3,6 @@
 * [❕ About Questfall](README.md)
 * [📍 Roadmap](roadmap.md)
 
-## Platform
-
-* [📜 Quest concept](platform/quest-concept.md)
-* [🖥️ Technology stack](platform/technology-stack.md)
-
 ## Tokenomics
 
 * [💰 Deflationary mining](tokenomics/deflationary-mining.md)
