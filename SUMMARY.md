@@ -1,6 +1,7 @@
 # Table of contents
 
-* [💛 Welcome](README.md)
+* [❕ About Questfall](README.md)
+* [📍 Roadmap](roadmap.md)
 
 ## Platform
 
@@ -10,7 +11,7 @@
 ## Tokenomics
 
 * [💰 Deflationary mining](tokenomics/deflationary-mining.md)
-* [💲 Initial Funding Event](tokenomics/initial-funding-event.md)
+* [💲 Initial Funding Event](platform/development-funding.md)
 * [🪙 Questfall Tokens (QFT)](tokenomics/questfall-tokens-qft.md)
 * [⭐ Experience Points (XP)](tokenomics/experience-points-xp.md)
 * [👑 Founders NFT](tokenomics/founders-nft.md)
@@ -24,7 +25,3 @@
 * [✔️ Validating quests](mining/validating-quests.md)
 * [📈 Staking tokens](mining/staking-tokens.md)
 * [☕ Passive income](mining/passive-income.md)
-
-***
-
-* [📍 Roadmap](roadmap.md)
