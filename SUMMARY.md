@@ -27,5 +27,7 @@
 
 ***
 
+* [Page](page/README.md)
+  * [Page 2](page/page-2.md)
 * [📍 Roadmap](roadmap.md)
 * [Page 1](page-1.md)
