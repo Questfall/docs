@@ -37,7 +37,7 @@ For more details read the [Mining sections](broken-reference) of this documentat
 * By burning QFT any author can obtain off-chain system Credits (at a fixed USD price), which can be used for the quest promotion to the platform users.
 
 {% hint style="info" %}
-For more details read the [Credits sections ](tokenomics/experience-points-xp.md)of this documentation.
+For more details read the [Credits sections ](tokenomics/credits-off-chain.md)of this documentation.
 {% endhint %}
 
 #### Sybil attack defense

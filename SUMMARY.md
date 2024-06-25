@@ -7,7 +7,7 @@
 
 * [💲 Initial Funding Event](platform/development-funding.md)
 * [🪙 Questfall Tokens (QFT)](tokenomics/questfall-tokens-qft.md)
-* [⭐ Experience Points (XP)](tokenomics/experience-points-xp.md)
+* [⭐ Credits (off-chain)](tokenomics/credits-off-chain.md)
 * [👑 Founders NFT](tokenomics/founders-nft.md)
 * [⚡ Miners NFT](tokenomics/miners-nft.md)
 
