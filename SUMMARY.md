@@ -6,11 +6,11 @@
 
 * [📜 Quest concept](platform/quest-concept.md)
 * [🖥️ Technology stack](platform/technology-stack.md)
-* [💲 Development funding](platform/development-funding.md)
 
 ## Tokenomics
 
 * [💰 Deflationary mining](tokenomics/deflationary-mining.md)
+* [💲 Initial Funding Event](tokenomics/initial-funding-event.md)
 * [🪙 Questfall Tokens (QFT)](tokenomics/questfall-tokens-qft.md)
 * [⭐ Experience Points (XP)](tokenomics/experience-points-xp.md)
 * [👑 Founders NFT](tokenomics/founders-nft.md)
