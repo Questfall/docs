@@ -36,9 +36,11 @@ description: >-
 
 <mark style="color:yellow;">September 2024 - October 2024</mark>
 
-The main goal of the Initial Funding Event is to gather money for the project development and initial functioning via selling Founders NFTs to the public.
+The main goal of the Initial Funding Event is to gather money for the project development and initial functioning via selling Founders NFTs to the public. Every week 10% of Questfall Token (QFT) issuance is distributed between founders depending on the NFTs' parameter called "units".
 
-Status: <mark style="background-color:orange;">Not yet launched...</mark>&#x20;
+Founders will have a part of the weekly QFT issuance forever.
+
+Event status: <mark style="background-color:orange;">Not yet launched...</mark>&#x20;
 
 ***
 
@@ -46,7 +48,7 @@ Status: <mark style="background-color:orange;">Not yet launched...</mark>&#x20;
 
 <mark style="color:yellow;">November 2024</mark>
 
-
+The weekly issuance of Questfall Token (QFT) starts before the project launch. At the beginning 5% of all QFTs issued will go to the Team for project development and 95% will go to founders, who are considered as initial miners.
 
 ***
 
@@ -54,7 +56,7 @@ Status: <mark style="background-color:orange;">Not yet launched...</mark>&#x20;
 
 <mark style="color:yellow;">December 2024</mark>
 
-
+After the Liquidity Program is launched 10% of the QFT issuance will go to reward liquidity providers (based on their share in the liquidity pool) and accordingly the founders' portion in the issuance will drop to 85%.
 
 ***
 
@@ -62,7 +64,7 @@ Status: <mark style="background-color:orange;">Not yet launched...</mark>&#x20;
 
 <mark style="color:yellow;">February 2025</mark>
 
-
+After the Staking Program is launched 5% of the QFT issuance will go to reward those users who will lock their QFTs in the treasury (depending on the amount and lock time). The founders' portion will drop accordingly to 80%.
 
 ***
 
@@ -70,7 +72,7 @@ Status: <mark style="background-color:orange;">Not yet launched...</mark>&#x20;
 
 <mark style="color:yellow;">May 2025</mark>
 
-
+When Questfall is launched everyone will be able to create and complete quests, and 70% of the QFTs issued will go to reward for such quest activities on the platform. The founders' portion will drop to its final value of 10%.
 
 ***
 
