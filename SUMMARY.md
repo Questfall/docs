@@ -1,7 +1,7 @@
 # Table of contents
 
-* [❕ About Questfall](README.md)
-* [📍 Roadmap](roadmap.md)
+* [About](README.md)
+* [Roadmap](roadmap.md)
 
 ## Tokenomics
 
