@@ -12,4 +12,4 @@ Testing and fine-tuning blockchain code after it has been deployed is challengin
 
 Another reason to develop Questfall is that all existing quest platforms have significant weaknesses, the most crucial of which are the lack of a Sybil defence and poor tokenomics. This results in an overwhelming number of bots and uncertain rewards for users who do quests. We have first-hand experience of this, having tried to assemble a decentralised group of real people as a pool of initial validators for Elysium.
 
-Our vision is that all problems could be solved if the quest platform were treated as a complex social and technology system (similar to blockchain) rather than just as a quest-centric online service. This is what Questfall is all about: it is like blockchain, only a quest platform. We believe this is the only way to achieve a perfect quest platform.
+We believe that the only way to achieve a perfect quest platform, by solving all the issues is to treat Questfall as a complex social and technology system (similar to blockchain) rather than just as a quest-centric online service. This is what Questfall is all about: it is like blockchain, only a quest platform.
