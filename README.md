@@ -1,12 +1,12 @@
 ---
 description: >-
-  Questfall is an innovative quest platform, which is a spin-off project that
-  was born while working on the Elysium blockchain.
+  Questfall is an innovative quest platform that originated from our work on the
+  Elysium blockchain.
 ---
 
 # ❕ About the project
 
-Though quest platforms become more and more popular these days the new approach to people's interaction through quests is not settled down yet. All the teams are developing their vision not really knowing how it should work. That is why existing solutions has major drawbacks.
+While quest platforms are gaining popularity, a standardized approach to user interaction through quests is yet to be established. All the teams are developing their vision not really knowing how it should work. That is why existing solutions has major drawbacks.
 
 First, there are too many bots and multi-accounts on such platforms because there is no built-in solid Sybil attach defense. Second, there should be global rewards from the system for the quest activity, since the value of opinioned rewards by particular projects are not guaranteed.
 
