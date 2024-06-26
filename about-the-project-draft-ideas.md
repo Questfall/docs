@@ -4,7 +4,7 @@ description: 'Questfall: it''s like blockchain, only a quest platform'
 
 # About the project (draft ideas)
 
-For the past few years, our team has been working hard on the Elysium blockchain, which, like any other blockchain, is a complex system involving not only code, but also human interaction implying various psychological aspects. This inseparable combination of social and technological aspects is what makes blockchain, according to many experts, one of the most complex IT systems in the world.
+Over the past few years, our team has been working hard on the Elysium blockchain, which, like any other blockchain, is a complex system involving not only code, but also human interaction, implying various psychological aspects. This inseparable combination of social and technological factors makes blockchain, according to many experts, one of the most complex IT systems in the world.
 
 The social core of any blockchain consists of tokenomics and consensus. The social core of any blockchain consists of tokenomics and consensus. However, upon closer examination, it appears that the canonical Proof of Work consensus includes the Sybil defence. In Elysium, we have successfully decoupled the Sybil defence from the consensus through the use of RPG user levels. The idea is that users can level up by completing quests.
 
