@@ -1,7 +1,7 @@
 # Table of contents
 
 * [❕ About the project](README.md)
-* [About the project (draft ideas)](about-the-project-draft-ideas.md)
+* [About the project (draft)](about-the-project-draft.md)
 * [📍 Roadmap](roadmap.md)
 
 ## Tokenomics
