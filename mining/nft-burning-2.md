@@ -14,7 +14,7 @@ The current status: <mark style="background-color:orange;">Not yet launched...</
 
 ***
 
-## How the auction works
+### How the auction works
 
 Users who want to burn their NFTs for QFT should put NFT in the auction smart contract and set the price for the NFT's&#x20;
 
