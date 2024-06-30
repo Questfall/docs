@@ -1,16 +1,14 @@
+---
+description: >-
+  Marketing and partnerships are ongoing activities that adapt to market
+  conditions and are not mentioned in this roadmap.
+---
+
 # 📍 Roadmap
-
-{% hint style="info" %}
-Marketing and partnerships are ongoing activities that adapt to market conditions and are not mentioned in this roadmap.
-{% endhint %}
-
-***
 
 ### Initial Funding Event
 
 <mark style="color:yellow;">September 2024 - October 2024</mark>
-
-#### Preparations:
 
 * [ ] Whitepaper (this documentation)
 * [ ] Project website
