@@ -1,13 +1,10 @@
----
-description: >-
-  To have an idea and even its implementation is not enough. The success means
-  that people use the product and that is why we consider marketing and
-  partnership connections as ongoing activities.
----
-
 # 📍 Roadmap
 
-### Project Core development
+{% hint style="info" %}
+Marketing and partnerships are ongoing activities that adapt to market conditions and are not mentioned in this roadmap.
+{% endhint %}
+
+### Development of the project core
 
 <mark style="color:yellow;">January 2024 - June 2024</mark>
 
@@ -15,8 +12,10 @@ description: >-
 * [x] Deflationary mining tokenomics
 * [x] Sybil attack defense
 * [x] Technology stack
-* [x] Fundraising approach
-* [x] Liquidity and staking programs
+* [x] Founders' income and fundraising approach
+* [x] Rewards for liquidity providers and QFT holders
+* [x] Rewards for users and authors &#x20;
+* [x] NFT burning
 * [x] Marketing activities
 
 ***
@@ -36,51 +35,74 @@ description: >-
 
 <mark style="color:yellow;">September 2024 - October 2024</mark>
 
-The main goal of the Initial Funding Event is to gather money for the project development and initial functioning via selling Founders NFTs to the public. Every week 10% of Questfall Token (QFT) issuance is distributed between founders depending on the NFTs' parameter called "units".
+#### Preparations:
 
-Founders will have a part of the weekly QFT issuance forever.
+* [ ] Whitepaper (this documentation)
+* [ ] Project website
+* [ ] Illustrations (NFTs, whitepaper, etc...)
+* [ ] Initial Funding Event: webpage and smart contracts
 
-Event status: <mark style="background-color:orange;">Not yet launched...</mark>&#x20;
+The main goal of the Initial Funding Event is to raise money for project development and initial operations by selling [Founders NFTs](tokenomics/founders-nft.md) to the public.
+
+The main motivation to become a Founder is an infinite income stream from the Questfall platform. In order to achieve this, every Sunday at least 10% of the [weekly QFT fund](tokenomics/questfall-tokens-qft.md) will be distributed among the founders according to the NFT parameter called "[points](tokenomics/founders-nft.md)".
+
+The current status: <mark style="background-color:orange;">Not yet launched...</mark>&#x20;
 
 ***
 
-### Questfall Token (QFT) launch
+### Launch of Questfall Token (QFT)&#x20;
 
 <mark style="color:yellow;">November 2024</mark>
 
-The weekly issuance of Questfall Token (QFT) starts before the project launch. At the beginning 5% of all QFTs issued will go to the Team for project development and 95% will go to founders, who are considered as initial miners.
+The weekly issuance of [Questfall Token (QFT)](tokenomics/questfall-tokens-qft.md) will begin prior to the launch of the project.&#x20;
 
-Issuance status: <mark style="background-color:orange;">Not yet launched...</mark>&#x20;
+Initially, 5% of all QFT issued each week will go to the Team for project development and marketing, and 95% will go to the founders, who are considered to be the initial miners. The founders' percentage will drop to the final 10% when other rewarding activities are launched.
+
+The current status: <mark style="background-color:orange;">Not yet launched...</mark>&#x20;
 
 ***
 
-### Liquidity Program launch
+### Launch of the official swapping pool
 
 <mark style="color:yellow;">December 2024</mark>
 
-After the Liquidity Program is launched 10% of the QFT issuance will go to reward liquidity providers (based on their share in the liquidity pool) and accordingly the founders' portion in the issuance will drop to 85%.
+The official Uniswap QFT-USDT swapping pool will be launched by the Team and will offer rewards to liquidity providers.
 
-Program status: <mark style="background-color:orange;">Not yet launched...</mark>&#x20;
+Once the liquidity pool is operational, 10% of the weekly QFT issue will be used to reward liquidity providers according to their share of the pool, reducing the founders' percentage to 85%.
+
+The current status: <mark style="background-color:orange;">Not yet launched...</mark>&#x20;
 
 ***
 
-### Staking Program launch
+### Launch of QFT locking
 
 <mark style="color:yellow;">February 2025</mark>
 
+
+
 After the Staking Program is launched 5% of the QFT issuance will go to reward those users who will lock their QFTs in the treasury (depending on the amount and lock time). The founders' portion will drop accordingly to 80%.
 
-Program status: <mark style="background-color:orange;">Not yet launched...</mark>&#x20;
+The current status: <mark style="background-color:orange;">Not yet launched...</mark>&#x20;
 
 ***
 
-### Questfall launch
+### Launch of NFT burning
+
+<mark style="color:yellow;">April 2025</mark>
+
+After the Staking Program is launched 5% of the QFT issuance will go to reward those users who will lock their QFTs in the treasury (depending on the amount and lock time). The founders' portion will drop accordingly to 80%.
+
+The current status: <mark style="background-color:orange;">Not yet launched...</mark>&#x20;
+
+***
+
+### Launch of the Questfall platform
 
 <mark style="color:yellow;">May 2025</mark>
 
 When Questfall is launched everyone will be able to create and complete quests, and 70% of the QFTs issued will go to reward for such quest activities on the platform. The founders' portion will drop to its final value of 10%.
 
-Platform status: <mark style="background-color:orange;">Not yet launched...</mark>&#x20;
+The current status: <mark style="background-color:orange;">Not yet launched...</mark>&#x20;
 
 ***
 
