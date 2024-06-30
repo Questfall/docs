@@ -1,7 +1,7 @@
 ---
 description: >-
   To reduce the amount of both types of NFT in circulation, the system buys them
-  back and burns them.
+  back and burns.
 ---
 
 # 🔥 NFT burning (2%)

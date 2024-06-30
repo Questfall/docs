@@ -60,9 +60,9 @@ The current status: <mark style="background-color:orange;">Not yet launched...</
 
 <mark style="color:yellow;">February 2025</mark>
 
-In order to reduce the amount of QFT in circulation, the system will reward users for locking their tokens for a certain number of weeks (1-100).
+In order to reduce the amount of QFT in circulation, the system will reward users for locking their tokens for 15 weeks.
 
-Once locking is active, 5% of the weekly QFT issue will be used to reward those users who choose to lock their QFTs. The founder's percentage will be reduced accordingly to 82%.
+Once locking mechanism is active, 5% of the weekly QFT issue will be used to reward those users who choose to lock their QFTs. The founder's percentage will be reduced accordingly to 82%.
 
 * [ ] Smart contract for QFT locking
 * [ ] Personal web interface for locking
