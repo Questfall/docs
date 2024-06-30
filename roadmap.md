@@ -4,31 +4,6 @@
 Marketing and partnerships are ongoing activities that adapt to market conditions and are not mentioned in this roadmap.
 {% endhint %}
 
-### Development of the project core
-
-<mark style="color:yellow;">January 2024 - June 2024</mark>
-
-* [x] Quest mining concept
-* [x] Deflationary mining tokenomics
-* [x] Sybil attack defense
-* [x] Technology stack
-* [x] Founders' income and fundraising approach
-* [x] Rewards for liquidity providers and QFT holders
-* [x] Rewards for users and authors &#x20;
-* [x] NFT burning
-* [x] Marketing activities
-
-***
-
-### Preparation for going public
-
-<mark style="color:yellow;">May 2024 - August 2024</mark>
-
-* [ ] Whitepaper (this documentation)
-* [ ] Project website
-* [ ] Illustrations (NFTs, whitepaper, etc...)
-* [ ] Initial Funding Event: webpage and smart contracts
-
 ***
 
 ### Initial Funding Event
