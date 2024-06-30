@@ -1,10 +1,10 @@
 ---
-description: >-
-  Marketing and partnerships are ongoing activities that adapt to market
-  conditions and are not mentioned in this roadmap.
+description: Several years of our research are not included in this roadmap.
 ---
 
 # 📍 Roadmap
+
+> Marketing and partnerships are ongoing activities that adapt to market conditions and are not mentioned in this roadmap.
 
 ### Initial Funding Event
 
@@ -39,7 +39,7 @@ The current status: <mark style="background-color:orange;">Not yet launched...</
 
 ***
 
-### Official Swapping Pool
+### Uniswap Pool
 
 <mark style="color:yellow;">December 2024</mark>
 
@@ -54,7 +54,7 @@ The current status: <mark style="background-color:orange;">Not yet launched...</
 
 ***
 
-### QFT Locking
+### QFT locking
 
 <mark style="color:yellow;">February 2025</mark>
 
@@ -69,7 +69,7 @@ The current status: <mark style="background-color:orange;">Not yet launched...</
 
 ***
 
-### NFT Burning
+### NFT burning
 
 <mark style="color:yellow;">April 2025</mark>
 
