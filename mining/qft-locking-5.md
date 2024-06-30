@@ -26,4 +26,4 @@ At the initial lock, the QFT holder locks the tokens in the system for 15 weeks,
 
 For example, if the user has locked 100 QFTs, his locking power will be 1500 at the end of the first week and 1400 at the end of the second week. In other words, the multiplier used to calculate locking power decreases by one each week: 15, 14, 13, .... 1, 0.
 
-To receive the maximum locking power, a user can re-lock tokens at any time for a maximum of 15 weeks. This means that in order to receive the maximum locking reward in perpetuity, the user must increase his locking period on a weekly basis to the maximum value of 15 weeks.
+To receive the maximum locking power, a user can re-lock tokens at any time for a maximum of 15 weeks. This means that in order to receive the maximum locking reward in perpetuity, the user must re-lock his tokens on a weekly basis.
