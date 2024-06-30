@@ -92,7 +92,7 @@ The current status: <mark style="background-color:orange;">Not yet launched...</
 
 The launch of Questfall is the main goal at this stage. It will allow anyone to create and complete quests using the next generation crypto platform.
 
-Once users and authors can mine, 70% of the [weekly QFT fund](roadmap.md#questfall-token-qft) will go to reward for quest activities on the platform. The founder's percentage will be reduced accordingly to the final value of 10%.
+Once users and authors can mine, 70% of the [weekly QFT fund](roadmap.md#questfall-token-qft) will go to reward for quest activities on the platform. The founder's percentage will be reduced to the final value of 10%.
 
 * [ ] Platform interface design
 * [ ] Platform server code
