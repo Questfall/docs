@@ -5,7 +5,7 @@ description: Several years of our research are not included in this roadmap.
 # 📍 Roadmap
 
 {% hint style="info" %}
-Marketing and partnerships are ongoing activities that adapt to market conditions and are not mentioned in this roadmap.
+Marketing and partnerships are ongoing activities that we will adapt to market conditions and available resources and are therefore not included in this roadmap.
 {% endhint %}
 
 ### Initial Funding Event
