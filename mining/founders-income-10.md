@@ -26,8 +26,8 @@ The total amount of QFT to be rewarded to the founders in a given week is known 
 
 For example, if the QFT fund this week is 30,000 QFT and the total supply of Founder Points is 1,900,000, then each Founder Point earns 0.00158 QFT (30,000 \* 10% / 1,900,000).
 
-The reward is accrued for the particular NFT, and to get actual tokens in the wallet, founders must claim them. There is no need to claim the reward each week. The rewarded tokens accumulate and can be claimed all at once.
+The reward is accrued for the particular NFT, and to get actual tokens in the wallet, founders must claim them. There is no need to claim the reward each week as the rewarded tokens accumulate and can be claimed all at once. The need to claim rewarded QFTs means that the tokens are not actually issued until they are in the founder's wallet.
 
 {% hint style="info" %}
-This means that unclaimed tokens can be sold or even burned along with the NFT.
+Unclaimed tokens can be sold or even burned along with the NFT.
 {% endhint %}
