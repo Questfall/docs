@@ -19,4 +19,4 @@
 * [⏳ Liquidity providers (8%)](mining/liquidity-providers-8.md)
 * [🔓 QFT locking (5%)](mining/qft-locking-5.md)
 * [⚙️ - Project expenses (5%)](mining/project-expenses-5.md)
-* [☕ - Founders' income (10%)](mining/founders-income-10.md)
+* [☕ Founders' income (10%)](mining/founders-income-10.md)
