@@ -6,7 +6,7 @@ description: >-
 
 # 🔓 QFT locking (5%)
 
-Ensuring that tokens are not sold by the user for a certain period of time benefits the system. To encourage such behavior, 5% of the weekly QFT fund will be used to reward those users who lock their tokens in the system for 15 weeks.
+Ensuring that tokens are not sold by the user for a certain period of time benefits the system. To encourage such behavior, 5% of the [weekly QFT fund](../tokenomics/questfall-tokens-qft.md) will be used to reward those users who lock their tokens in the system for 15 weeks.
 
 {% hint style="info" %}
 We do not use the word "staking" as it implies the possibility of losing the stake, whereas locking guarantees that the amount cannot be reduced.
