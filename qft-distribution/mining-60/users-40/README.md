@@ -1,4 +1,4 @@
-# 🤦 - Users (40%)
+# 👥 - Users (40%)
 
 How to deploy quests?\
 1\. Acquire XP points \
