@@ -13,9 +13,9 @@
 
 ## QFT distribution
 
-* [⛏️ Mining (60%)](qft-distribution/mining-60/README.md)
+* [⛏️ - Mining (60%)](qft-distribution/mining-60/README.md)
   * [👥 - Users (40%)](qft-distribution/mining-60/users-40/README.md)
-    * [✅ - Quest completion (40%)](qft-distribution/mining-60/users-40/quest-completion-40.md)
+    * [✅ - Quest completion (40%)](qft-distribution/mining-60/users-40/quest-mining-40.md)
     * [🔋 - Humanity points](qft-distribution/mining-60/users-40/humanity-points.md)
     * [🔼 - User levels](qft-distribution/mining-60/users-40/user-levels.md)
   * [🗣️ - Authors (20%)](qft-distribution/mining-60/authors-20/README.md)

@@ -1,2 +1,0 @@
-# ✅ Quest mining (40%)
-
