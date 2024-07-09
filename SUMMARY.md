@@ -5,6 +5,8 @@
 ## Project overview
 
 * [🧠 - What makes Questfall different](project-overview/what-makes-questfall-different.md)
+* [🎭 - Sybil attack defense](project-overview/sybil-attack-defense.md)
+* [Page](project-overview/page.md)
 * [📍 Roadmap](project-overview/roadmap.md)
 
 ## Tokenomics
