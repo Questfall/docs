@@ -1,2 +1,0 @@
-# 💰 - Weekly QFT fund overview
-
