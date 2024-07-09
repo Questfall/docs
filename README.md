@@ -59,7 +59,7 @@ To prevent bots and multi-accounts there will be used two approaches in Questfal
 Thus, having bigger stake or getting higher RPG level will allow users to obtain advantage over others, which also makes bots and several accounts usage less profitable than focusing only on one account.
 
 {% hint style="info" %}
-For more details read about the rewarding for the [User activity](weekly-qft-fund-distribution/mining-65/users-40/).
+For more details read about the rewarding for the [User activity](weekly-qft-fund-distribution/mining-66/users-40/).
 {% endhint %}
 
 ## Additional features
@@ -73,7 +73,7 @@ On Questfall all the quests will have a rating which will be considered as a min
 This approach will allow authors to receive a reward for publishing their books, articles, lessons, music, images, videos and so on. Quests like "Read a new chapter of my book and answer a question" could become a new paradigm to earn by creating intellectual products in the modern economy.
 
 {% hint style="info" %}
-For more details read about the rewarding for the [Author activity](weekly-qft-fund-distribution/mining-65/authors-25/).
+For more details read about the rewarding for the [Author activity](weekly-qft-fund-distribution/mining-66/authors-26/).
 {% endhint %}
 
 #### Nonbinary quest completion
