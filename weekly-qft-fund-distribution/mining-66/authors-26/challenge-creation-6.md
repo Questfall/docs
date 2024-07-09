@@ -1,2 +1,0 @@
-# 📵 - Challenge creation (5%)
-
