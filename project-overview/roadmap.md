@@ -12,9 +12,9 @@ Marketing and partnerships are ongoing activities that we will adapt to market c
 
 <mark style="color:yellow;">September 2024 - October 2024</mark>
 
-The main goal of the Initial Funding Event is to raise money for project development and initial operations by selling [Founders NFTs](tokenomics/founders-nft.md) to the public.
+The main goal of the Initial Funding Event is to raise money for project development and initial operations by selling [Founders NFTs](../nfts/founders-nft.md) to the public.
 
-The main motivation to become a Founder is an endless income stream from the Questfall platform. In order to achieve this, every Sunday at least 10% of the [weekly QFT fund](tokenomics/questfall-tokens-qft.md) will be distributed among the founders according to the NFT parameter called "[points](tokenomics/founders-nft.md)".
+The main motivation to become a Founder is an endless income stream from the Questfall platform. In order to achieve this, every Sunday at least 10% of the [weekly QFT fund](../tokenomics/questfall-tokens-qft.md) will be distributed among the founders according to the NFT parameter called "[points](../nfts/founders-nft.md)".
 
 * [ ] Whitepaper (this documentation)
 * [ ] Questfall project webpage
@@ -29,7 +29,7 @@ The current status: <mark style="background-color:orange;">Not yet launched...</
 
 <mark style="color:yellow;">November 2024</mark>
 
-The weekly issuance of [Questfall Token (QFT)](tokenomics/questfall-tokens-qft.md) will begin prior to the launch of the project to reward founders.&#x20;
+The weekly issuance of [Questfall Token (QFT)](../tokenomics/questfall-tokens-qft.md) will begin prior to the launch of the project to reward founders.&#x20;
 
 Initially, 5% of all QFT issued each week will go to the Team for project development and marketing, and the remaining 95% will go to the founders, who are considered to be the initial miners. The founders' percentage will drop to the final 10% when all other rewarding activities are launched.
 

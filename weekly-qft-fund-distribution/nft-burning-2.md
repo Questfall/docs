@@ -6,9 +6,9 @@ description: >-
 
 # 🔥 NFT burning (2%)
 
-Our goal is to maximize the price of NFTs over the long term. To achieve this, 2% of the [weekly QFT fund](../tokenomics/questfall-tokens-qft.md) will be allocated for the purchase of [Miners ](../tokenomics/miners-nft.md)(1%) and [Founders](../tokenomics/founders-nft.md) (1%) NFTs from the market via auction, with the subsequent burning of these NFTs.
+Our goal is to maximize the price of NFTs over the long term. To achieve this, 2% of the [weekly QFT fund](../tokenomics/questfall-tokens-qft.md) will be allocated for the purchase of [Miners ](../nfts/miners-nft.md)(1%) and [Founders](../nfts/founders-nft.md) (1%) NFTs from the market via auction, with the subsequent burning of these NFTs.
 
-The buyback and burning of NFTs will begin shortly before the launch of Questfall and will continue until there are no NFTs left in circulation. This will not only ensure that the price of NFTs rises in the long term, but will also increase the share of the weekly reward for each Founder who does not burn their [points](../tokenomics/founders-nft.md).
+The buyback and burning of NFTs will begin shortly before the launch of Questfall and will continue until there are no NFTs left in circulation. This will not only ensure that the price of NFTs rises in the long term, but will also increase the share of the weekly reward for each Founder who does not burn their [points](../nfts/founders-nft.md).
 
 
 
