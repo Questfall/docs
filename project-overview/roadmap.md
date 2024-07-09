@@ -43,7 +43,7 @@ The current status: <mark style="background-color:orange;">Not yet launched...</
 
 ### Uniswap Pool
 
-<mark style="color:yellow;">December 2024</mark>
+<mark style="color:yellow;">January 2025</mark>
 
 The official Uniswap QFT-USDT swapping pool will be launched by the Team and will offer rewards to liquidity providers from very beginning.
 
@@ -56,13 +56,28 @@ The current status: <mark style="background-color:orange;">Not yet launched...</
 
 ***
 
-### QFT locking
+### QFT burning
 
 <mark style="color:yellow;">February 2025</mark>
 
+To ensure a minimum number of tokens are burned each week, the system will reward users for burning their tokens. Providing such rewards in advance allows founders to accumulate credits before Questfall launches, with minimal competition and therefore virtually free.
+
+Once the burning rewards are active, 4% of the weekly QFT issue will be used to proportionally reward users who burn their QFTs. The founder's percentage will be reduced accordingly to 83%.
+
+* [ ] Server for accumulating received Credits
+* [ ] Personal web interface for QFT burning
+
+The current status: <mark style="background-color:orange;">Not yet launched...</mark>&#x20;
+
+***
+
+### QFT locking
+
+<mark style="color:yellow;">March 2025</mark>
+
 In order to reduce the amount of QFT in circulation, the system will reward users for locking their tokens for 15 weeks.
 
-Once locking mechanism is active, 5% of the weekly QFT issue will be used to reward those users who choose to lock their QFTs. The founder's percentage will be reduced accordingly to 82%.
+Once locking mechanism is active, 5% of the weekly QFT issue will be used to reward those users who choose to lock their QFTs. The founder's percentage will be reduced accordingly to 78%.
 
 * [ ] Smart contract for QFT locking
 * [ ] Personal web interface for locking
@@ -73,11 +88,11 @@ The current status: <mark style="background-color:orange;">Not yet launched...</
 
 ### NFT burning
 
-<mark style="color:yellow;">April 2025</mark>
+<mark style="color:yellow;">May 2025</mark>
 
 In order to reduce the number of Miners and Founders NFTs in circulation, the system will use some of the QFT issue to buy back and burn these NFTs.
 
-Once NFT burning is active, 2% of the weekly QFT issue will be used to buy back and burn both types of Questfall NFTs from the secondary market. The founder's percentage will be reduced accordingly to 80%.
+Once NFT burning is active, 2% of the weekly QFT issue will be used to buy back and burn both types of Questfall NFTs from the secondary market. The founder's percentage will be reduced accordingly to 76%.
 
 * [ ] Smart contracts for auctions
 * [ ] Personal web interface for user bids
@@ -88,7 +103,7 @@ The current status: <mark style="background-color:orange;">Not yet launched...</
 
 ### Questfall, version 1.0
 
-<mark style="color:yellow;">May 2025</mark>
+<mark style="color:yellow;">June 2025</mark>
 
 The launch of Questfall is the main goal at this stage. It will allow anyone to create and complete quests using the next generation crypto platform.
 
