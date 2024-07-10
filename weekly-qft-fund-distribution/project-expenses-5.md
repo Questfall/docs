@@ -13,7 +13,7 @@ Money will be needed to maintain and develop the Questfall project once it is up
 The team will receive 5% of the weekly QFT fund to cover these necessary costs, to be used at our discretion depending on the current situation.
 
 {% hint style="info" %}
-The team will make every effort to avoid selling these funds on the secondary market. For example, we may use the tokens as prizes in various contests or give them to projects that promote their quests by burning QFT in exchange for the stablecoins.
+The Team will make every effort to avoid selling these funds on the secondary market. For example, we may use the tokens as prizes in various contests or give them to projects that promote their quests by burning QFT in exchange for the stablecoins.
 {% endhint %}
 
 

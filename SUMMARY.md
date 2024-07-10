@@ -22,7 +22,7 @@
 
 ## Weekly QFT fund distribution
 
-* [❕ - Overview](weekly-qft-fund-distribution/overview.md)
+* [❕ Overview](weekly-qft-fund-distribution/overview.md)
 * [⛏️ - Mining (66%)](weekly-qft-fund-distribution/mining-65/README.md)
   * [👥 - Users (40%)](weekly-qft-fund-distribution/mining-65/users-40/README.md)
     * [✅ - Quest completion (40%)](weekly-qft-fund-distribution/mining-65/users-40/quest-completion-40.md)
