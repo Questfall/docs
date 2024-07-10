@@ -5,10 +5,10 @@ The weekly QFT fund is at the heart of the Questfall tokenomics and is formed du
 * The weekly QFT issue, which can be calculated in advance [using the formula](../tokenomics/questfall-tokens-qft.md),
 
 {% hint style="info" %}
-Before Questfall is launched, the weekly issue will be the only source for the weekly QFT fund, so in the [Roadmap](../project-overview/roadmap.md) we use "weekly QFT issue" instead of "weekly QFT fund" as it is the same and clearer.
+Before Questfall is launched, the weekly issue will be the only source for the weekly QFT fund, so in the [Roadmap](../project-overview/roadmap.md) we use "weekly QFT issue" instead of "weekly QFT fund" as it is clearer.
 {% endhint %}
 
-* QFT tokens that come back this week into circulation after Credits have been purchased.
+* QFT tokens that come back during a week into circulation after Credits have been purchased.
 
 {% hint style="info" %}
 Not all QFT tokens are burned when Credits are bought, otherwise the miners' profits will fall in the long run as all the value goes to the QFT holders. More details can be found in the [Deflationary Mining](../project-overview/page.md) article, but in short, the greater the percentage of QFT that is burned, the more tokens are returned to circulation.
@@ -29,4 +29,4 @@ The full amount of the weekly QFT fund is distributed on Sunday evening in pre-d
 
 Since the percentage for each area is fixed, and the QFT issue is also known in advance, the base number of tokens for each area can be accurately calculated for a given week. The only variable that is not known in advance is the amount of QFT that will be returned to circulation after Credits have been purchased, but in the early years this amount will be tiny.
 
-The principles of reward distribution can be different in each area. For example, liquidity providers receive rewards based on their share of the pool, while author rewards are based on quest ratings and popularity. The detailed description of each area can be found in the following articles.
+The principles of reward distribution can be different in each area. For example, liquidity providers receive rewards based on their share of the pool, while authors mining power is based on quest ratings and popularity. The detailed description of each area can be found in the following articles.
