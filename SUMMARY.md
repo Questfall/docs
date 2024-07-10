@@ -35,5 +35,5 @@
 * [⏳ Liquidity providers (8%)](weekly-qft-fund-distribution/liquidity-providers-8.md)
 * [🔓 QFT locking (5%)](weekly-qft-fund-distribution/qft-locking-5.md)
 * [❤️‍🔥 QFT burning (4%)](weekly-qft-fund-distribution/qft-burning-5.md)
-* [⚙️ - Project expenses (5%)](weekly-qft-fund-distribution/project-expenses-5.md)
+* [⚙️ Project expenses (5%)](weekly-qft-fund-distribution/project-expenses-5.md)
 * [☕ Founder rewards (10%)](weekly-qft-fund-distribution/founder-rewards-10.md)
