@@ -1,6 +1,6 @@
 # ❕ Overview
 
-The weekly QFT fund is at the heart of the Questfall project and is formed during a given week from two sources:
+The weekly QFT fund is at the heart of the Questfall tokenomics and is formed during a given week from two sources:
 
 * The weekly QFT issue, which can be calculated in advance [using the formula](../tokenomics/questfall-tokens-qft.md),
 
