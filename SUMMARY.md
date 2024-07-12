@@ -1,12 +1,12 @@
 # Table of contents
 
-* [❕ - Introduction to Questfall](README.md)
+* [❕ - Introduction](README.md)
 
 ## Project overview
 
-* [🧠 - What makes Questfall different](project-overview/what-makes-questfall-different.md)
+* [✨ - Quest mining](project-overview/quest-mining.md)
 * [🎭 - Sybil attack defense](project-overview/sybil-attack-defense.md)
-* [📈 - Deflationary mining](project-overview/page.md)
+* [📈 - Deflationary tokenomics](project-overview/deflationary-tokenomics.md)
 * [📍 Roadmap](project-overview/roadmap.md)
 
 ## Tokenomics
@@ -31,6 +31,7 @@
   * [🗣️ - Authors (26%)](weekly-qft-fund-distribution/mining-65/authors-25/README.md)
     * [⭐ - Quest creation (20%)](weekly-qft-fund-distribution/mining-65/authors-25/quest-creation-20.md)
     * [📵 - Challenge creation (6%)](weekly-qft-fund-distribution/mining-65/authors-25/challenge-creation-5.md)
+* [🚧 Challenge authors (6%)](weekly-qft-fund-distribution/challenge-authors-6.md)
 * [🔥 NFT burning (2%)](weekly-qft-fund-distribution/nft-burning-2.md)
 * [⏳ Liquidity providers (8%)](weekly-qft-fund-distribution/liquidity-providers-8.md)
 * [🔓 QFT locking (5%)](weekly-qft-fund-distribution/qft-locking-5.md)
