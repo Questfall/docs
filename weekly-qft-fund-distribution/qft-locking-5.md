@@ -16,7 +16,7 @@ Token lock rewards begin before the launch of Questfall and will continue indefi
 
 
 
-The current status: <mark style="background-color:orange;">Not yet launched...</mark>&#x20;
+The current status: <mark style="background-color:orange;">coming before Questfall v1.0</mark>&#x20;
 
 ***
 

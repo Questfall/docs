@@ -12,7 +12,7 @@ The buyback and burning of NFTs will begin shortly before the launch of Questfal
 
 
 
-The current status: <mark style="background-color:orange;">Not yet launched...</mark>&#x20;
+The current status: <mark style="background-color:orange;">coming before Questfall v1.0</mark>&#x20;
 
 ***
 

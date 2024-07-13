@@ -1,4 +1,4 @@
-# 👥 - Users (40%)
+# ⛏️ - Quest completion (40%)
 
 How to deploy quests?\
 1\. Acquire XP points \
@@ -64,3 +64,11 @@ Validating binary and quality quests\
 1\. Binary quests consists of simple approved/denied based on the provided validation rules\
 2\. Quality quests consists of choosing between 2 submissions in order to create an individual quest leaderboard\
 \
+
+
+User levels
+
+Stamina
+
+
+

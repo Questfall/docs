@@ -1,2 +1,0 @@
-# ⭐ - Quest creation (20%)
-

@@ -1,4 +1,4 @@
-# ⭐ Experience Points (XP)
+# 💵 - Credits (off-chain)
 
 Xp points are used solely for creating quests on the platform. They cannot be traded or exchanged. \
 Each Creator account will come with 10.000 preloaded XP points for the duration of the Genesis launch event(2-3 months maybe?)\

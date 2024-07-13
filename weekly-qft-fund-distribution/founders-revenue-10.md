@@ -4,7 +4,7 @@ description: >-
   Questfall indefinitely.
 ---
 
-# ☕ Founder rewards (10%)
+# ☕ Founders' revenue (10%)
 
 It is hard to overstate the value of the Founders, as the Questfall platform would not exist without them. In recognition of their contribution, the Founders will receive 10% of the [weekly QFT fund](../tokenomics/questfall-tokens-qft.md) from the beginning and forever.
 
@@ -16,7 +16,7 @@ The Team will initially keep 600,000 [Founder Points](../nfts/founders-nft.md) a
 
 
 
-The current status: <mark style="background-color:orange;">Not yet launched...</mark>&#x20;
+The current status: <mark style="background-color:orange;">coming before Questfall v1.0</mark>&#x20;
 
 ***
 

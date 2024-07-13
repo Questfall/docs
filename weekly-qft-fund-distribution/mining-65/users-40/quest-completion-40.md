@@ -1,2 +1,0 @@
-# ✅ - Quest completion (40%)
-
