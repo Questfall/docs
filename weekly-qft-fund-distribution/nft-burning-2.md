@@ -4,7 +4,7 @@ description: >-
   back and burns.
 ---
 
-# 🔥 NFT burning (2%)
+# ❤️‍🔥 NFT burning (2%)
 
 Our goal is to maximize the price of NFTs over the long term. To achieve this, 2% of the [weekly QFT fund](../tokenomics/questfall-tokens-qft.md) will be allocated for the purchase of [Miners ](../nfts/miners-nft.md)(1%) and [Founders](../nfts/founders-nft.md) (1%) NFTs from the market via auction, with the subsequent burning of these NFTs.
 

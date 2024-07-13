@@ -4,7 +4,7 @@ description: >-
   who burn their tokens.
 ---
 
-# ❤️‍🔥 QFT burning (4%)
+# 🔥 QFT burning (4%)
 
 QFT tokens can be burned for [Credits](../tokenomics/credits-off-chain.md), which in turn can be used by users to replenish their [Stamina bar](broken-reference) or by authors to promote their quests. In order to increase the number of tokens burned, 4% of the [weekly QFT fund](overview.md) will be used to reward users who burn their QFTs for Credits during that week.
 
