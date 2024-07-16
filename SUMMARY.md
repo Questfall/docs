@@ -8,7 +8,7 @@
 * [🤖 - No bots](project-overview/no-bots.md)
 * [🎭 - No multi-accounts](project-overview/no-multi-accounts.md)
 * [👛 - Guaranteed rewards](project-overview/guaranteed-rewards.md)
-* [💡 - High quality quest](project-overview/high-quality-quest.md)
+* [💡 - High quality quests](project-overview/high-quality-quests.md)
 * [📶 - Nonbinary completion](project-overview/nonbinary-completion.md)
 * [🌲 - Real-world quests](project-overview/real-world-quests.md)
 * [📰 - Global quest feed](project-overview/global-quest-feed.md)
