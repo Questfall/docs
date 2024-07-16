@@ -39,6 +39,7 @@
 * [⚙️ Project expenses (5%)](weekly-qft-fund-distribution/project-expenses-5.md)
 * [☕ Founders' revenue (10%)](weekly-qft-fund-distribution/founders-revenue-10.md)
 
-***
+## Roadmap
 
-* [📍 Roadmap](roadmap.md)
+* [🌷 Version 1.0](roadmap/version-1.0.md)
+* [🌹 - Version 2.0](roadmap/version-2.0.md)
