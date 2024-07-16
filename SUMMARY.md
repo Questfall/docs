@@ -4,9 +4,10 @@
 
 ## Project overview
 
-* [✨ - Quest mining](project-overview/quest-mining.md)
+* [✨ Quest mining](project-overview/quest-mining.md)
 * [🎭 - Sybil attack defense](project-overview/sybil-attack-defense.md)
 * [📈 - Deflationary tokenomics](project-overview/deflationary-tokenomics.md)
+* [✈️ - Beyond version 1.0](project-overview/beyond-version-1.0.md)
 * [📍 Roadmap](project-overview/roadmap.md)
 
 ## Tokenomics
