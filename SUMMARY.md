@@ -1,11 +1,12 @@
 # Table of contents
 
-* [✨ Quest mining](README.md)
-* [❕ - Introduction](<README (1).md>)
+* [✨ Introduction](README.md)
+* [❕ - Introduction](introduction-1.md)
 
 ## Project overview
 
-* [🤖 - No bots or multi-accounts](project-overview/no-bots-or-multi-accounts.md)
+* [🤖 - No bots](project-overview/no-bots.md)
+* [🎭 - No multi-accounts](project-overview/no-multi-accounts.md)
 * [👛 - Guaranteed rewards](project-overview/guaranteed-rewards.md)
 * [💡 - High quality quest](project-overview/high-quality-quest.md)
 * [📶 - Nonbinary completion](project-overview/nonbinary-completion.md)
