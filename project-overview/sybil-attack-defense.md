@@ -1,2 +1,0 @@
-# 🎭 - Sybil attack defense
-

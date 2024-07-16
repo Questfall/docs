@@ -1,16 +1,49 @@
 ---
 description: >-
-  Today mining assumes brute-force computation of the hash, but it can be much
-  more...
+  Questfall is an innovative quest platform that introduces quest mining for the
+  first time.
 ---
 
 # ✨ Quest mining
 
-Mining is a concept where users are rewarded by the issuance of a token in proportion to the value they add to the system. This approach was first implemented in Bitcoin, but unfortunately it has not been taken any further than the Proof of Work consensus. And the main reason for that is Sybil attacks, simply put, bots and multi-accounts that allow abuse of the system.
+Over the past few years, our team has been working hard on the [Elysium blockchain](https://docs.elysium-chain.com/en), which was born out of the idea of quest mining. This approach implies taking the defense against Sybil attacks out of consensus, allowing new types of faster and more efficient consensuses to be created. Furthermore, unlike bitcoin hash brute-forcing, quest mining implies that value is added to the world during the process.
 
-There have been many attempts in recent years to implement different approaches to proving that a user is human - from various KYC systems with anonymous NFTs to all sorts of pedometers and clickers. However, none of these approaches have been successful because they all can be circumvented, giving the bot farmers an advantage.
+Questfall is a big practical step towards Elysium, as it implements two key social mechanics, we've developed for the blockchain: the defense against Sybil attacks and deflationary tokenomics. These concepts help us achieve our main goal of making Questfall the first quest platform without bots and multi-accounts, where people can actually earn money by quest mining, i.e. creating and completing meaningful tasks.
 
-So, it's no surprise that all the existing quest platforms have a huge number of bots and multi-accounts, making them virtually useless for the majority of users.&#x20;
 
-Our goal is to make Questfall the first quest platform without bots and multi-accounts, where people can actually earn money by quest mining, i.e. creating and completing quests. To achieve this, we have built the project concept around two main approaches: [Sybil Attack Defense](<README (1).md#sybil-attack-defense>) and [Deflationary Tokenomics](project-overview/deflationary-tokenomics.md).
+
+These concepts allow Questfall us to achieve the following:
+
+* No bots or multi-accounts in the system.
+* Users earn through quest mining, i.e. creating and completing quests.
+
+
+
+
+
+#### Author motivation for quality quests
+
+#### Nonbinary quest completion
+
+
+
+#### Quests applied to the real world
+
+#### Global quest feed and quest promotion
+
+
+
+#### Crowd-based validation of quest completions
+
+Our Team has created many quests on different popular platforms, and we always wanted to push the answers checking to somebody else. In Questfall any author will be able to let the miners (common users) verify the completions of the quest.
+
+This will not only allow miners to earn, but it will also solve any possible automation problem. For example, the cost of Tweeter API is very overpriced, but users can see a particular post for free. So, for author there will be no difference between if the server checked the action on Tweeter or the crowd.
+
+
+
+
+
+
+
+Our goal is to make Questfall the first quest platform without bots and multi-accounts, where people can actually earn money by quest mining, i.e. creating and completing quests. To achieve this, we have built the project concept around two main approaches: [Sybil Attack Defense](<README (1).md#sybil-attack-defense>) and [Deflationary Tokenomics](project-overview/guaranteed-rewards.md).
 

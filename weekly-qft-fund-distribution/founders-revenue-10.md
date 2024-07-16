@@ -9,7 +9,7 @@ description: >-
 It is hard to overstate the value of the Founders, as the Questfall platform would not exist without them. In recognition of their contribution, the Founders will receive 10% of the [weekly QFT fund](../tokenomics/questfall-tokens-qft.md) from the beginning and forever.
 
 {% hint style="info" %}
-In fact, the founders' percentage will be much higher before the other rewarded activities are launched as they are considered initial miners. Read more in the [roadmap](../project-overview/roadmap.md).
+In fact, the founders' percentage will be much higher before the other rewarded activities are launched as they are considered initial miners. Read more in the [roadmap](../roadmap.md).
 {% endhint %}
 
 The Team will initially keep 600,000 [Founder Points](../nfts/founders-nft.md) and sell 1,200,000 to the public during the [Initial Funding Event](../platform/development-funding.md). However, as the [NFT burns](nft-burning-2.md), the amount of Founder Points in circulation will decrease over time, meaning that the shares of the dedicated founders will increase.

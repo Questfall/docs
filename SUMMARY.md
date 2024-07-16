@@ -5,10 +5,14 @@
 
 ## Project overview
 
-* [🎭 - Sybil attack defense](project-overview/sybil-attack-defense.md)
-* [📈 - Deflationary tokenomics](project-overview/deflationary-tokenomics.md)
-* [✈️ - Beyond version 1.0](project-overview/beyond-version-1.0.md)
-* [📍 Roadmap](project-overview/roadmap.md)
+* [🤖 - No bots or multi-accounts](project-overview/no-bots-or-multi-accounts.md)
+* [👛 - Guaranteed rewards](project-overview/guaranteed-rewards.md)
+* [💡 - High quality quest](project-overview/high-quality-quest.md)
+* [📶 - Nonbinary completion](project-overview/nonbinary-completion.md)
+* [🌲 - Real-world quests](project-overview/real-world-quests.md)
+* [📰 - Global quest feed](project-overview/global-quest-feed.md)
+* [🪄 - Quest promotion](project-overview/quest-promotion.md)
+* [🙅‍♀️ - Crowd moderation](project-overview/crowd-moderation.md)
 
 ## Tokenomics
 
@@ -34,3 +38,7 @@
 * [🔥 QFT burning (4%)](weekly-qft-fund-distribution/qft-burning-5.md)
 * [⚙️ Project expenses (5%)](weekly-qft-fund-distribution/project-expenses-5.md)
 * [☕ Founders' revenue (10%)](weekly-qft-fund-distribution/founders-revenue-10.md)
+
+***
+
+* [📍 Roadmap](roadmap.md)
