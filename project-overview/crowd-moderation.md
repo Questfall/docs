@@ -1,4 +1,4 @@
-# 🙅‍♀️ - Crowd moderation
+# 👌 - Crowd moderation
 
 Our Team has created many quests on different popular platforms, and we always wanted to push the answers checking to somebody else. In Questfall any author will be able to let the miners (common users) verify the completions of the quest.
 

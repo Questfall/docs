@@ -1,5 +1,7 @@
 # 👛 - Guaranteed rewards
 
+Mining is a concept where users are rewarded by the issuance of a token in proportion to the value they add to the system. This approach was first implemented in Bitcoin, but unfortunately it has not been taken any further than the Proof of Work consensus. And the main reason for that is Sybil attacks, simply put, bots and multi-accounts that allow abuse of the system.
+
 #### Deflationary mining
 
 Deflationary mining concept (the article will follow) assumes that users who add value to the system are periodically rewarded with respect to their contribution (during the period) by the issuance of the token with the limited total supply. This way such users are considered miners, and it is assumed that tokens could be obtained through mining only. To add to such a mining deflationary flavor there should be a way to burn tokens for some valuable product of the system.

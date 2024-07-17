@@ -5,7 +5,7 @@
 
 ## Project overview
 
-* [🤖 - No bots](project-overview/no-bots.md)
+* [🤖 Anti-bot protection](project-overview/anti-bot-protection.md)
 * [🎭 - No multi-accounts](project-overview/no-multi-accounts.md)
 * [👛 - Guaranteed rewards](project-overview/guaranteed-rewards.md)
 * [💡 - High quality quests](project-overview/high-quality-quests.md)
@@ -13,7 +13,7 @@
 * [🌲 - Real-world quests](project-overview/real-world-quests.md)
 * [📰 - Global quest feed](project-overview/global-quest-feed.md)
 * [🪄 - Quest promotion](project-overview/quest-promotion.md)
-* [🙅‍♀️ - Crowd moderation](project-overview/crowd-moderation.md)
+* [👌 - Crowd moderation](project-overview/crowd-moderation.md)
 
 ## Tokenomics
 
