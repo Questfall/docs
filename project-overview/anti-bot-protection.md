@@ -27,7 +27,7 @@ In Questfall, we call these activities that prove you are human challenges, whic
 Challenges cannot be avoided and are random. So, if the challenge for the first account might be to draw a picture, for the second it might be to solve a logic problem, and for the third it might be to sing a song. Each of these tasks can be automated with modern AI, but not all of them at once, especially those that need to be done in the real world. To prevent abusing the system by creators of challenges all of them will be moderated by the crowd before they become active.
 
 {% hint style="info" %}
-This approach will work against bots, but robots with AI will be able to overcome challenges in the future because they will be able to perform tasks in the real world. But we expect that they will eventually be given civil rights and could be considered human. Calling someone a robot will not be appreciated by a society (even if the person is really a robot). But seriously speaking, there is no way to distinguish humans from robots remotely.
+This approach will work against bots, but robots with AI will be able to overcome challenges in the future because they will be able to perform tasks in the real world. But while there is no way to tell the difference between humans and robots remotely, robots can still be considered as mining farms, as they will be expensive and would not be able to work under many accounts at once.
 {% endhint %}
 
 In addition to challenges, humanity can be increased by burning Credits, this approach can be compared to the cost of electricity when mining Bitcoin. But in order to have Credits, a user must first burn some QFT, which adds value to the whole community and makes the system healthier.
