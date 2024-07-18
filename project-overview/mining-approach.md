@@ -15,7 +15,7 @@ Nowadays, teams prefer to mint all the tokens for themselves at once and then se
 Since Questfall has solid anti-bot protection, it can afford to use a mining approach that rewards people for adding value to the system. To achieve this, a portion of Questfall Tokens (QFT) are issued each week, and the system uses these tokens to reward users in different areas according to the value they create.
 
 {% hint style="info" %}
-Every QFT token is mined, none are pre-minted by the Team.
+The [QFT tokenomics](../tokenomics/questfall-tokens-qft.md) is described in detail in another article, for now we just want to emphasise that every QFT token is mined - none are pre-minted by the team.
 {% endhint %}
 
 There is no way to compare the creation of a quest and the provision of liquidity to the exchange pool, so the issue is divided into pre-determined shares between different areas. This can be thought of as different mining pools that have their own fixed percentage of the issue, where users compete with each other by providing comparable value.
