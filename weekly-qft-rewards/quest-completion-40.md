@@ -1,4 +1,4 @@
-# ⛏️ - Quest completion (40%)
+# ✅ - Quest completion (40%)
 
 How to deploy quests?\
 1\. Acquire XP points \

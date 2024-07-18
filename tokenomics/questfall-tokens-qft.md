@@ -1,4 +1,4 @@
-# 🪙 Questfall Tokens (QFT)
+# 🪙 - Questfall Tokens (QFT)
 
 QFT token:\
 1\. No allocations, can only be mined through activities on the Questfall platform\
@@ -30,4 +30,29 @@ the more users we get the more it will dilute. \
 Now imagine we get 10k active users\
 If the max supply is 1-10M the dilution will be something like 0.0001  and we cannot guarantee the price will offset the dilution.\
 \
-\
+
+
+#### Deflationary mining
+
+Deflationary mining concept (the article will follow) assumes that users who add value to the system are periodically rewarded with respect to their contribution (during the period) by the issuance of the token with the limited total supply. This way such users are considered miners, and it is assumed that tokens could be obtained through mining only. To add to such a mining deflationary flavor there should be a way to burn tokens for some valuable product of the system.
+
+In relation to Questfall project this concept applies as such:
+
+* Questfall Token (QFT) total supply is 10 000 000, which is issued weekly by decreasing portions. The amount of QFT that will be issued any particular week could be calculated by the formula. There is no pre-minting of the QFT, which means that the only way to obtain newly issued QFT is through mining.&#x20;
+
+{% hint style="info" %}
+For more details read the [Questfall Tokens (QFT) sections](questfall-tokens-qft.md) of this documentation.
+{% endhint %}
+
+* QFTs issued each week are distributed with respect to contribution to those who has brought value to the system during the week. This means that QFT can be obtained as a reward for certain valuable actions without having to buy it.
+
+{% hint style="info" %}
+For more details read the [Mining sections](broken-reference) of this documentation.
+{% endhint %}
+
+* By burning QFT any author can obtain off-chain system Credits (at a fixed USD price), which can be used for the quest promotion to the platform users. This means that after some market saturation period the circulating supply of QFT will steadily decline.
+
+{% hint style="info" %}
+For more details read the [Credits sections ](credits-off-chain.md)of this documentation.
+{% endhint %}
+

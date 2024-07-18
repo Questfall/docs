@@ -4,7 +4,7 @@ description: >-
   based on popularity and ranking.
 ---
 
-# ⭐ Quest creation (10%)
+# ✨ Quest creation (10%)
 
 Without motivation, authors create quests for no other reason than to promote their projects to the platform's audience, as can be seen on the popular existing quest platforms. This leads to the majority of quests being of very low quality, like silly tasks to join the Discord community or repost a tweet in X.
 

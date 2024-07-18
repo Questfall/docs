@@ -37,7 +37,7 @@ In relation to Questfall project this concept applies as such:
 * Questfall Token (QFT) total supply is 10 000 000, which is issued weekly by decreasing portions. The amount of QFT that will be issued any particular week could be calculated by the formula. There is no pre-minting of the QFT, which means that the only way to obtain newly issued QFT is through mining.&#x20;
 
 {% hint style="info" %}
-For more details read the [Questfall Tokens (QFT) sections](tokenomics/questfall-tokens-qft.md) of this documentation.
+For more details read the [Questfall Tokens (QFT) sections](../tokenomics/questfall-tokens-qft.md) of this documentation.
 {% endhint %}
 
 * QFTs issued each week are distributed with respect to contribution to those who has brought value to the system during the week. This means that QFT can be obtained as a reward for certain valuable actions without having to buy it.
@@ -49,7 +49,7 @@ For more details read the [Mining sections](broken-reference) of this documentat
 * By burning QFT any author can obtain off-chain system Credits (at a fixed USD price), which can be used for the quest promotion to the platform users. This means that after some market saturation period the circulating supply of QFT will steadily decline.
 
 {% hint style="info" %}
-For more details read the [Credits sections ](tokenomics/credits-off-chain.md)of this documentation.
+For more details read the [Credits sections ](../tokenomics/credits-off-chain.md)of this documentation.
 {% endhint %}
 
 #### Sybil attack defense

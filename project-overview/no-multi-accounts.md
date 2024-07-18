@@ -1,2 +1,0 @@
-# 🎭 - No multi-accounts
-

@@ -2,7 +2,7 @@
 description: Questfall is an innovative quest platform that introduces proper quest mining.
 ---
 
-# ✨ Introduction
+# 📌 Introduction
 
 Bitcoin introduced the concept of mining, but brute forcing the hash in the Proof of Work consensus brings no value to the world other than protecting the Bitcoin blockchain from Sybil attacks.
 
