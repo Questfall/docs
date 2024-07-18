@@ -25,18 +25,18 @@
 * [👑 - Founders NFT](nfts/founders-nft.md)
 * [⚡ - Miners NFT](nfts/miners-nft.md)
 
-## Weekly QFT rewards
+## Weekly QFT issue
 
-* [✅ - Quest completion (40%)](weekly-qft-rewards/quest-completion-40.md)
-* [✨ Quest creation (10%)](weekly-qft-rewards/quest-creation-10.md)
-* [🚧 Challenge creation (6%)](weekly-qft-rewards/challenge-creation-6.md)
-* [📅 Season rewards (10%)](weekly-qft-rewards/season-rewards-10.md)
-* [❤️‍🔥 NFT burning (2%)](weekly-qft-rewards/nft-burning-2.md)
-* [💰 Liquidity providers (8%)](weekly-qft-rewards/liquidity-providers-8.md)
-* [🧊 QFT freezing (5%)](weekly-qft-rewards/qft-freezing-5.md)
-* [🔥 QFT burning (4%)](weekly-qft-rewards/qft-burning-4.md)
-* [⚙️ Project expenses (5%)](weekly-qft-rewards/project-expenses-5.md)
-* [☕ Founders' revenue (10%)](weekly-qft-rewards/founders-revenue-10.md)
+* [✅ - Quest completion (40%)](weekly-qft-issue/quest-completion-40.md)
+* [✨ Quest creation (10%)](weekly-qft-issue/quest-creation-10.md)
+* [🚧 Challenge creation (6%)](weekly-qft-issue/challenge-creation-6.md)
+* [📅 Season rewards (10%)](weekly-qft-issue/season-rewards-10.md)
+* [❤️‍🔥 NFT burning (2%)](weekly-qft-issue/nft-burning-2.md)
+* [💰 Liquidity providers (8%)](weekly-qft-issue/liquidity-providers-8.md)
+* [🧊 QFT freezing (5%)](weekly-qft-issue/qft-freezing-5.md)
+* [🔥 QFT burning (4%)](weekly-qft-issue/qft-burning-4.md)
+* [⚙️ Project expenses (5%)](weekly-qft-issue/project-expenses-5.md)
+* [☕ Founders' revenue (10%)](weekly-qft-issue/founders-revenue-10.md)
 
 ## Roadmap
 

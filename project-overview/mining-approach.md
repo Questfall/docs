@@ -22,24 +22,24 @@ There is no way to compare the creation of a quest and the provision of liquidit
 
 In Questfall, 66% of the weekly issue is used to reward quest mining:
 
-* [40% to users who complete quests](../weekly-qft-rewards/quest-completion-40.md),
-* [10% to authors who create quests](../weekly-qft-rewards/quest-creation-10.md),
-* [6% to authors who create challenges](../weekly-qft-rewards/challenge-creation-6.md),
-* [10% to seasonal reward pool](../weekly-qft-rewards/season-rewards-10.md).
+* [40% to users who complete quests](../weekly-qft-issue/quest-completion-40.md),
+* [10% to authors who create quests](../weekly-qft-issue/quest-creation-10.md),
+* [6% to authors who create challenges](../weekly-qft-issue/challenge-creation-6.md),
+* [10% to seasonal reward pool](../weekly-qft-issue/season-rewards-10.md).
 
 The remaining 34% will be rewarded for adding value to the infrastructure:
 
-* [2% to users who burn their Miners NFTs or Founders NFTs](../weekly-qft-rewards/nft-burning-2.md),
-* [8% to users who provide liquidity to the official DEX pool](../weekly-qft-rewards/liquidity-providers-8.md),
-* [5% to users who freeze their QFT tokens](../weekly-qft-rewards/qft-freezing-5.md),
-* [4% to users who burn their QFT tokens to get Credits](../weekly-qft-rewards/qft-burning-4.md),
-* [5% to the Team for project expenses](../weekly-qft-rewards/project-expenses-5.md),
-* [10% to Founders](../weekly-qft-rewards/founders-revenue-10.md).
+* [2% to users who burn their Miners NFTs or Founders NFTs](../weekly-qft-issue/nft-burning-2.md),
+* [8% to users who provide liquidity to the official DEX pool](../weekly-qft-issue/liquidity-providers-8.md),
+* [5% to users who freeze their QFT tokens](../weekly-qft-issue/qft-freezing-5.md),
+* [4% to users who burn their QFT tokens to get Credits](../weekly-qft-issue/qft-burning-4.md),
+* [5% to the Team for project expenses](../weekly-qft-issue/project-expenses-5.md),
+* [10% to Founders](../weekly-qft-issue/founders-revenue-10.md).
 
 The principles by which the value contributed by users is valued can vary from one area to another. For example, liquidity providers receive rewards based on their share of the pool, while the authors' share of rewards is based on quest ratings and popularity.&#x20;
 
 {% hint style="info" %}
-The detailed description of each area can be found in the [Weekly QFT Rewards](broken-reference) section of this documentation.
+The detailed description of each area can be found in the [Weekly QFT issue](broken-reference) section of this documentation.
 {% endhint %}
 
 Since the percentage split is fixed, and the QFT issue is also known in advance, it would seem that the number of tokens for each area can be accurately calculated for a given week, but this is not the case as Questfall uses Deflationary Tokenomics, which adds some more detail.
