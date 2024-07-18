@@ -22,24 +22,24 @@ There is no way to compare the creation of a quest and the provision of liquidit
 
 In Questfall, 66% of the weekly issue is used to reward quest mining:
 
-* [40% to users who complete quests](../weekly-qft-issue/quest-completion-40.md),
-* [10% to authors who create quests](../weekly-qft-issue/quest-creation-10.md),
-* [6% to authors who create challenges](../weekly-qft-issue/challenge-creation-6.md),
-* [10% to seasonal reward pool](../weekly-qft-issue/season-rewards-10.md).
+* 40% to users who complete quests,
+* 10% to authors who create quests,
+* 6% to authors who create challenges,
+* 10% to seasonal reward pool.
 
 The remaining 34% will be rewarded for adding value to the infrastructure:
 
-* [2% to users who burn their Miners NFTs or Founders NFTs](../weekly-qft-issue/nft-burning-2.md),
-* [8% to users who provide liquidity to the official DEX pool](../weekly-qft-issue/liquidity-providers-8.md),
-* [5% to users who freeze their QFT tokens](../weekly-qft-issue/qft-freezing-5.md),
-* [4% to users who burn their QFT tokens to get Credits](../weekly-qft-issue/qft-burning-4.md),
-* [5% to the Team for project expenses](../weekly-qft-issue/project-expenses-5.md),
-* [10% to Founders](../weekly-qft-issue/founders-revenue-10.md).
+* 2% to users who burn their Miners NFTs or Founders NFTs,
+* 8% to users who provide liquidity to the official DEX pool,
+* 5% to users who freeze their QFT tokens,
+* 4% to users who burn their QFT tokens to get Credits,
+* 5% to the Team for project expenses,
+* 10% to Founders.
 
 The principles by which the value contributed by users is valued can vary from one area to another. For example, liquidity providers receive rewards based on their share of the pool, while the authors' share of rewards is based on quest ratings and popularity.&#x20;
 
 {% hint style="info" %}
-The detailed description of each area can be found in the [Weekly QFT issue](broken-reference) section of this documentation.
+While user shares are easy to determine in most areas, one of the key aspects that works against Sybil attacks is that the quest power of users who complete quests is calculated in such a way that it is more profitable to put effort into one account. This makes multi-accounting a losing strategy. See the [Quest completion](../weekly-qft-issue/quest-completion-40.md) article for more details.
 {% endhint %}
 
 Since the percentage split is fixed, and the QFT issue is also known in advance, it would seem that the number of tokens for each area can be accurately calculated for a given week, but this is not the case as Questfall uses Deflationary Tokenomics, which adds some more detail.
