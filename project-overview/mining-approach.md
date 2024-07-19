@@ -29,7 +29,7 @@ In Questfall, 66% of the weekly issue is used to reward quest mining:
 * 6% to authors who create challenges,
 * 10% to seasonal reward pool.
 
-The remaining 34% will be rewarded for adding value to the infrastructure:
+The remaining 34% is used to reward infrastructure support:
 
 * 2% to users who burn their Miners NFTs or Founders NFTs,
 * 8% to users who provide liquidity to the official DEX pool,
