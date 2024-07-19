@@ -1,7 +1,7 @@
 ---
 description: >-
-  Questfall tokens can only be mined as a reward for users who have brought
-  value to the system.
+  Questfall tokens can only be mined as a reward for those users who add value
+  to the system.
 ---
 
 # ⚒️ Mining approach
