@@ -44,4 +44,4 @@ The principles by which the value contributed by users is valued can vary from o
 While user shares are easy to determine in most areas, one of the key aspects that works against Sybil attacks is that the quest power of users who complete quests is calculated in such a way that it is more profitable to put effort into one account. This makes multi-accounting a losing strategy. See the [Quest completion](../weekly-qft-issue/quest-completion-40.md) article for more details.
 {% endhint %}
 
-Since the percentage split is fixed, and the QFT issue is also known in advance, it would seem that the number of tokens for each area can be accurately calculated for a given week, but this is not the case as Questfall uses Deflationary Tokenomics, which adds some more detail.
+Since the percentage split is fixed, and the QFT issue is also known in advance, the number of tokens for each area can be accurately calculated for a given week.
