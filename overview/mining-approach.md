@@ -41,7 +41,7 @@ The remaining 34% is used to reward infrastructure support:
 The principles by which the value contributed by users is valued can vary from one area to another. For example, liquidity providers receive rewards based on their share of the pool, while the authors' share of rewards is based on quest ratings and popularity.&#x20;
 
 {% hint style="info" %}
-While user shares are easy to determine in most areas, one of the key aspects that works against Sybil attacks is that the quest power of users who complete quests is calculated in such a way that it is more profitable to put effort into one account. This makes multi-accounting a losing strategy. See the [Quest completion](../weekly-qft-issue/quest-completion-40.md) article for more details.
+While user shares are easy to determine in most areas, one of the key aspects that works against Sybil attacks is that the quest power of users who complete quests is calculated in such a way that it is more profitable to put effort into one account. This makes multi-accounting a losing strategy. See the [Quest completion](../mining/quest-completion-40.md) article for more details.
 {% endhint %}
 
 Since the percentage split is fixed, and the QFT issue is also known in advance, the number of tokens for each area can be accurately calculated for a given week.
