@@ -1,54 +1,26 @@
-# 💸 - Deflationary tokenomics
+---
+description: >-
+  Deflation is a nightmare for all mainstream economists - they just do not know
+  how to cook it.
+---
 
-The weekly QFT fund is at the heart of the Questfall tokenomics and is formed during a given week from two sources:
+# 💸 Deflationary tokenomics
 
-* The weekly QFT issue, which can be calculated in advance [using the formula](../tokenomics/questfall-tokens-qft.md),
+When new tokens are issued, they take value from the holders, whereas burning tokens redistributes value to the remaining token holders. And while everyone will want to get newly printed tokens for free, burning without compensation leads to losses and is undesirable unless the user is an altruist who adds value to others at the expense of self-interest. Therefore, to make burning tokens attractive, users should receive some value from the system in return.
 
-{% hint style="info" %}
-Before Questfall is launched, the weekly issue will be the only source for the weekly QFT fund, so in the [Roadmap](../roadmap/version-1.0.md) we use "weekly QFT issue" instead of "weekly QFT fund" as it is clearer.
-{% endhint %}
+In Questfall, those users who burns QFTs will receive Credits (at a fixed price of $1), which in turn can be burned by authors to promote their quests or by users to gain humanity without completing challenges. This way, on the one hand QFT tokens will be issued every week, and on the other hand they will be simultaneously burned for Credits. Such dialectics has several advantages.
 
-* QFT tokens that come back during a week into circulation after Credits have been purchased.
+Firstly, the circulating supply of QFT will initially raise, since in the beginning there will not be any QFT tokens in existence, but after market saturation the number of circulating tokens will slowly decrease over time. That means that the price of QFT will raise in the long term even if the demand from the existing Questfall users, that want to get an edge on the platform, remains constant. This makes QFT tokenomics very different from any non-deflationary approach, which is essentially a Ponzi scheme, as old investors can only cash out at the expense of newcomers.
 
-{% hint style="info" %}
-Not all QFT tokens are burned when Credits are bought, otherwise the miners' profits will fall in the long run as all the value goes to the QFT holders. More details can be found in the [Deflationary Mining](mining-approach.md) article, but in short, the greater the percentage of QFT that is burned, the more tokens are returned to circulation.
-{% endhint %}
+Secondary, the raise of QFT price because of new incoming money from investors makes mining more profitable attracting as a result new users to quest activity and infrastructure support.
 
-The full amount of the weekly QFT fund is distributed on Sunday evening in pre-determined portions to users who have added value to the platform in various areas:
+Thirdly, QFT price volatility does not affect third-party projects who wants to promote their quests to Questfall audience since Credits needed for that have a fixed price in dollars. So, if someone wants to spend some stablecoins for promoting he will get the same number of Credits independent of the price of QFT. The price changes of QFT will only affect miners who will obtain different number of Credits for their QFTs.
 
-* 40% to users who complete quests
-* 20% to authors who create quests
-* 6% to authors who create challenges
-* 1% to users who burn their Miners NFTs
-* 1% to users who burn their Founders NFTs
-* 8% to users who provide liquidity to the official swapping pool
-* 5% to users who lock their QFT tokens
-* 4% to users who use (burn) their QFT to get Credits
-* 5% to the Team for project expenses
-* 10% to founders
+Fourthly, since QFT price will trend up in the long term the number of Credits (and as a result the value that can be obtained from the system) for one QFT token will grow over time. This is exactly how deflation works - the longer a consumer waits the more value he will receive for the same amount of money.
 
-Since the percentage for each area is fixed, and the QFT issue is also known in advance, the base number of tokens for each area can be accurately calculated for a given week. The only variable that is not known in advance is the amount of QFT that will be returned to circulation after Credits have been purchased, but in the early years this amount will be tiny.
+Fifthly, in case of QFT price drop the number of tokens that are burned will increase, since to obtain the same number of Credits, more QFTs should be burned. This leads to a rapid trend reversal due to a shrinking circulating supply.
 
-#### Deflationary mining
+To resume, deflationary tokenomics is much healthier than any other approach and is built on the idea that those earn who waits. But for tokens to burn there should be some value that system provides. The main value that people will be willing to pay for in Questfall is the access to the audience.
 
-Deflationary mining concept (the article will follow) assumes that users who add value to the system are periodically rewarded with respect to their contribution (during the period) by the issuance of the token with the limited total supply. This way such users are considered miners, and it is assumed that tokens could be obtained through mining only. To add to such a mining deflationary flavor there should be a way to burn tokens for some valuable product of the system.
 
-In relation to Questfall project this concept applies as such:
 
-* Questfall Token (QFT) total supply is 10 000 000, which is issued weekly by decreasing portions. The amount of QFT that will be issued any particular week could be calculated by the formula. There is no pre-minting of the QFT, which means that the only way to obtain newly issued QFT is through mining.&#x20;
-
-{% hint style="info" %}
-For more details read the [Questfall Tokens (QFT) sections](../tokenomics/questfall-tokens-qft.md) of this documentation.
-{% endhint %}
-
-* QFTs issued each week are distributed with respect to contribution to those who has brought value to the system during the week. This means that QFT can be obtained as a reward for certain valuable actions without having to buy it.
-
-{% hint style="info" %}
-For more details read the [Mining sections](broken-reference) of this documentation.
-{% endhint %}
-
-* By burning QFT any author can obtain off-chain system Credits (at a fixed USD price), which can be used for the quest promotion to the platform users. This means that after some market saturation period the circulating supply of QFT will steadily decline.
-
-{% hint style="info" %}
-For more details read the [Credits sections ](../tokenomics/credits-off-chain.md)of this documentation.
-{% endhint %}

@@ -6,7 +6,7 @@
 
 * [🤖 Anti-bot protection](project-overview/anti-bot-protection.md)
 * [⚒️ Mining approach](project-overview/mining-approach.md)
-* [💸 - Deflationary tokenomics](project-overview/deflationary-tokenomics.md)
+* [💸 Deflationary tokenomics](project-overview/deflationary-tokenomics.md)
 * [📰 - Global quest feed](project-overview/global-quest-feed.md)
 * [🔰 - User level system](project-overview/user-level-system.md)
 * [💡 - High quality quests](project-overview/high-quality-quests.md)

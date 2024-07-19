@@ -6,7 +6,11 @@ description: >-
 
 # ⚒️ Mining approach
 
-Mining means that tokens are periodically issued in decreasing amounts according to a pre-defined formula and are used to reward users in proportion to the value they add to the system during that period. This approach was first implemented in Bitcoin, but unfortunately it has not progressed much beyond the Proof of Work consensus due to Sybil attacks.
+Mining means that tokens are periodically issued in decreasing amounts according to a pre-defined formula and are used to reward users in proportion to the value they add to the system during that period.&#x20;
+
+This approach was first implemented in bitcoin and became very successful. The key success factor was the direct link between investment in the cryptocurrency and the development of the bitcoin network. If high demand for a particular stock on the stock market only allows the founders of a company to cash out with a profit or speculators to make money, the high price of bitcoin ensures the profitability of mining, attracting new participants and making the network more secure.
+
+Unfortunately, due to the threat of Sybil attacks, mining has not progressed much beyond the Proof of Work consensus.
 
 {% hint style="info" %}
 Nowadays, teams prefer to mint all the tokens for themselves at once and then sell them to the crowd. Of course, this approach does not make the system healthier or fairer.
