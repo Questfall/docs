@@ -36,4 +36,4 @@ Challenges cannot be avoided and are random. So, if the challenge for the first 
 This approach will work against bots, but robots with AI will be able to overcome challenges in the future because they will be able to perform tasks in the real world. But while there is no way to tell the difference between humans and robots remotely, robots can still be considered as mining farms, as they will be expensive and would not be able to work under many accounts at once.
 {% endhint %}
 
-In addition to challenges, humanity can be increased by burning Credits, this approach can be compared to the cost of electricity when mining Bitcoin. But in order to have Credits, a user must first burn some QFT, which adds value to the whole community and makes the system healthier.
+In addition to challenges, humanity can be increased by burning Questfall Token (QFT), which adds value to the entire community and makes the system healthier. This approach can be compared to the cost of electricity when mining Bitcoin.&#x20;
