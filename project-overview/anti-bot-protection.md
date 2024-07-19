@@ -6,7 +6,7 @@ description: >-
 
 # 🤖 Anti-bot protection
 
-We are serious about making Questfall a bot-free zone. This is a difficult task, as there have been many attempts in recent years to implement different approaches to prove that a user is human - from various KYC systems with anonymous NFTs to all sorts of pedometers and tappers on mobile devices. However, none of these approaches have been successful because in the long run they can all be circumvented.&#x20;
+We are serious about making Questfall a bot-free zone. This is a difficult task, as there have been many attempts in recent years to implement different approaches to prove that a user is human - from various KYC systems with confirmation in the form of NFT, to all sorts of pedometers and tappers on mobile devices. However, none of these approaches have been successful because in the long run they can all be circumvented.&#x20;
 
 {% hint style="info" %}
 KYC accounts are sold in bundles for pennies, while farms with thousands of phones fake the required actions on a massive scale.
