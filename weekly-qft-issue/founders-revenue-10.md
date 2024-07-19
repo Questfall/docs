@@ -6,13 +6,13 @@ description: >-
 
 # ☕ Founders' revenue (10%)
 
-It is hard to overstate the value of the Founders, as the Questfall platform would not exist without them. In recognition of their contribution, the Founders will receive 10% of the [weekly QFT fund](../tokenomics/questfall-tokens-qft.md) from the beginning and forever.
+It is hard to overstate the value of the Founders, as the Questfall platform would not exist without them. In recognition of their contribution, the Founders will receive 10% of the [weekly QFT fund](../assets/questfall-tokens-qft.md) from the beginning and forever.
 
 {% hint style="info" %}
 In fact, the founders' percentage will be much higher before the other rewarded activities are launched as they are considered initial miners. Read more in the [roadmap](../roadmap/version-1.0.md).
 {% endhint %}
 
-The Team will initially keep 600,000 [Founder Points](../nfts/founders-nft.md) and sell 1,200,000 to the public during the [Initial Funding Event](../platform/development-funding.md). However, as the [NFT burns](nft-burning-2.md), the amount of Founder Points in circulation will decrease over time, meaning that the shares of the dedicated founders will increase.
+The Team will initially keep 600,000 [Founder Points](../assets/founders-nft.md) and sell 1,200,000 to the public during the [Initial Funding Event](../roadmap/initial-funding-event.md). However, as the [NFT burns](nft-burning-2.md), the amount of Founder Points in circulation will decrease over time, meaning that the shares of the dedicated founders will increase.
 
 
 
@@ -22,7 +22,7 @@ The current status: <mark style="background-color:orange;">coming before Questfa
 
 ### How the reward is distributed
 
-The total amount of QFT to be rewarded to the founders in a given week is known in advance as it can be [calculated by the formula](../tokenomics/questfall-tokens-qft.md). This fixed number of tokens will be distributed to all [Founders NFT](../nfts/founders-nft.md) holders on Sundays, according to the individual Founders Points share of each NFT holder.&#x20;
+The total amount of QFT to be rewarded to the founders in a given week is known in advance as it can be [calculated by the formula](../assets/questfall-tokens-qft.md). This fixed number of tokens will be distributed to all [Founders NFT](../assets/founders-nft.md) holders on Sundays, according to the individual Founders Points share of each NFT holder.&#x20;
 
 For example, if the QFT fund this week is 30,000 QFT and the total supply of Founder Points is 1,900,000, then each Founder Point earns 0.00158 QFT (30,000 \* 10% / 1,900,000).
 

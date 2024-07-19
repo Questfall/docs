@@ -14,16 +14,18 @@
 * [🌲 - Real-world quests](project-overview/real-world-quests.md)
 * [👌 - Crowd validation](project-overview/crowd-validation.md)
 
-## Tokenomics
+## Roadmap
 
-* [💲 - Initial Funding Event](platform/development-funding.md)
-* [🪙 - Questfall Tokens (QFT)](tokenomics/questfall-tokens-qft.md)
-* [💵 - Credits (off-chain)](tokenomics/credits-off-chain.md)
+* [💲 - Initial Funding Event](roadmap/initial-funding-event.md)
+* [🌷 Version 1.0](roadmap/version-1.0.md)
+* [🌹 - Version 2.0](roadmap/version-2.0.md)
 
-## NFTs
+## Assets
 
-* [👑 - Founders NFT](nfts/founders-nft.md)
-* [⚡ - Miners NFT](nfts/miners-nft.md)
+* [🪙 - Questfall Tokens (QFT)](assets/questfall-tokens-qft.md)
+* [💵 - Credits (off-chain)](assets/credits-off-chain.md)
+* [👑 - Founders NFT](assets/founders-nft.md)
+* [⚡ - Miners NFT](assets/miners-nft.md)
 
 ## Weekly QFT issue
 
@@ -37,11 +39,6 @@
 * [🔥 QFT burning (4%)](weekly-qft-issue/qft-burning-4.md)
 * [⚙️ Project expenses (5%)](weekly-qft-issue/project-expenses-5.md)
 * [☕ Founders' revenue (10%)](weekly-qft-issue/founders-revenue-10.md)
-
-## Roadmap
-
-* [🌷 Version 1.0](roadmap/version-1.0.md)
-* [🌹 - Version 2.0](roadmap/version-2.0.md)
 
 ## Trash bin
 

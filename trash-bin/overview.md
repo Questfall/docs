@@ -2,7 +2,7 @@
 
 The weekly QFT fund is at the heart of the Questfall tokenomics and is formed during a given week from two sources:
 
-* The weekly QFT issue, which can be calculated in advance [using the formula](../tokenomics/questfall-tokens-qft.md),
+* The weekly QFT issue, which can be calculated in advance [using the formula](../assets/questfall-tokens-qft.md),
 
 {% hint style="info" %}
 Before Questfall is launched, the weekly issue will be the only source for the weekly QFT fund, so in the [Roadmap](../roadmap/version-1.0.md) we use "weekly QFT issue" instead of "weekly QFT fund" as it is clearer.

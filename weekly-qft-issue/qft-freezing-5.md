@@ -6,7 +6,7 @@ description: >-
 
 # 🧊 QFT freezing (5%)
 
-Ensuring that tokens are not sold by the user for a certain period of time benefits the system. To encourage such behavior, 5% of the [weekly QFT fund](../tokenomics/questfall-tokens-qft.md) will be used to reward those users who freeze (lock) their tokens in the system for 15 weeks.
+Ensuring that tokens are not sold by the user for a certain period of time benefits the system. To encourage such behavior, 5% of the [weekly QFT fund](../assets/questfall-tokens-qft.md) will be used to reward those users who freeze (lock) their tokens in the system for 15 weeks.
 
 {% hint style="info" %}
 We use the word _**freezing**_ because _**staking**_ implies the possibility of losing the money staked, and _**locking**_ implies the fixed reward for a fixed lock period. Freezing guarantees that the amount cannot be reduced and is much more flexible than a simple time lock.
