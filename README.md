@@ -6,7 +6,7 @@ description: Questfall is an innovative quest platform that introduces proper qu
 
 Bitcoin introduced the concept of mining, but brute forcing the hash in the Proof of Work consensus brings no value to the world other than protecting the Bitcoin blockchain from Sybil attacks.
 
-Over the past few years, our team has been working hard on [the Elysium blockchain](https://docs.elysium-chain.com/en), which was born out of the idea of quest mining. We dream of a blockchain where people earn cryptocurrency by doing quests that increase their level (like in RPGs), which acts as a defense against Sybil attacks, allowing only top users to participate in consensus.
+Over the past few years, our team has been working hard on [the Elysium blockchain](https://docs.elysium-chain.com/en), which was born out of the idea of quest mining. We dream of a blockchain where people earn cryptocurrency by completing quests to level up, like in role-playing games. These user levels in turn act as a defense against Sybil attacks, allowing only top users to participate in consensus.
 
 This approach not only allows a defense against Sybil attacks to be removed from the consensus, opening up the possibility of creating new types of faster and more efficient consensuses (such as [Proof of Victory](https://docs.elysium-chain.com/en/elysium/proof-of-victory)), but also implies that value is added to the world while mining.
 
