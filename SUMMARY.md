@@ -7,12 +7,11 @@
 * [🤖 Anti-bot protection](overview/anti-bot-protection.md)
 * [⚒️ Mining approach](overview/mining-approach.md)
 * [💸 Deflationary tokenomics](overview/deflationary-tokenomics.md)
-* [📰 - Global quest feed](overview/global-quest-feed.md)
-* [🔰 - User level system](overview/user-level-system.md)
-* [💡 - High quality quests](overview/high-quality-quests.md)
-* [📶 - Nonbinary completion](overview/nonbinary-completion.md)
+* [💚 Quest quality reward](overview/quest-quality-reward.md)
+* [📰 Global quest feed](overview/global-quest-feed.md)
 * [🌲 - Real-world quests](overview/real-world-quests.md)
-* [👌 - Crowd validation](overview/crowd-validation.md)
+* [🛡️ - Crowd validation](overview/crowd-validation.md)
+* [🔰 - User level system](overview/user-level-system.md)
 
 ## Roadmap
 
