@@ -18,7 +18,7 @@
 
 * [🌱 - Initial Funding Event](roadmap/initial-funding-event.md)
 * [🌷 Version 1.0](roadmap/version-1.0.md)
-* [🌹 - Version 2.0](roadmap/version-2.0.md)
+* [🌹 - Further development](roadmap/further-development.md)
 
 ## Assets
 
