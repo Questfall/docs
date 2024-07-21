@@ -10,8 +10,8 @@
 * [💚 Quest quality reward](overview/quest-quality-reward.md)
 * [📰 Global quest feed](overview/global-quest-feed.md)
 * [🔝 Quest promotion](overview/quest-promotion.md)
-* [🌲 - Real-world quests](overview/real-world-quests.md)
-* [🛡️ - Crowd validation](overview/crowd-validation.md)
+* [🌲 Real-world quests](overview/real-world-quests.md)
+* [🛡️ - Community moderation](overview/community-moderation.md)
 * [🔰 - User level system](overview/user-level-system.md)
 
 ## Roadmap
