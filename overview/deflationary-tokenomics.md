@@ -18,7 +18,7 @@ In bitcoin, it is assumed that once bitcoin issuance stops, miners will get thei
 
 Deflationary tokenomics solves this problem, as burning tokens reduces the circulating supply while increasing the miners' share. But burning without compensation results in losses and therefore only makes sense for altruists who benefit others at the expense of their own interests. Therefore, to make burning tokens attractive, users must receive some value from the system in return.
 
-In Questfall, users who burn QFTs receive Credits (at a fixed price of $1), which in turn can be burned by authors to promote their quests, or by users to gain humanity without completing challenges. In this way, on the one hand, QFT tokens are issued each week, and on the other, they are simultaneously burned for Credits. This dialectic has several advantages.
+In Questfall, users who burn Questfall Tokens (QFT) receive Credits at a fixed price of $1. These Credits in turn can be burned by authors to promote their quests, or by users to gain humanity without completing challenges. In this way, QFT tokens are issued each week as a reward to miners, while at the same time being burned for Credits. This dialectic has several advantages.
 
 1. Mining's share of system capitalization tends to be stable over the long term. This means that the percentage of the increase in circulating supply from mining will be more or less constant from year to year, which means that the miner's income will also increase as more money comes in, despite the declining QFT issue.
 2. The increase in the QFT price due to the influx of new money from investors makes mining more profitable, thus attracting new users to quest activity and infrastructure support.
