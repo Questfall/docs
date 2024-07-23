@@ -81,6 +81,6 @@ For example, our Team will create the ongoing 'Plant a tree' quest right from th
 However, there is a downside to this approach: since quests are not pre-moderated, they can be used for evil purposes. For example, quests such as 'Kill an animal' or 'Say nasty things about this company' may appear. To prevent potential harm to others, any user can complain about a particular quest, and the community will decide by [consensus ](poh-consensus.md)whether it is appropriate or not.
 
 {% hint style="info" %}
-This complaint mechanism could be used to punish good quests. To prevent this, the following logic will apply: if the community decides that the complaints are not justified, the complainants will be punished by reducing their humanity, otherwise the quest will be banned, and the complainants will receive a humanity bonus.
+But this complaint mechanism could also be used by evil to punish good quests. To prevent this, the following logic will apply: if the community decides that the complaints are not justified, the complainants will be punished by reducing their humanity, otherwise the quest will be banned, and the complainants will receive a humanity bonus.
 {% endhint %}
 
