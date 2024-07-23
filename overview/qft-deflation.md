@@ -1,10 +1,4 @@
----
-description: >-
-  Deflation is a nightmare for all mainstream economists - they just do not know
-  how to cook it.
----
-
-# 💸 Deflationary tokenomics
+# 💸 QFT deflation
 
 While the mining approach has worked very well in Bitcoin so far, it has a major problem in the long run. This problem is the imbalance between the value held by holders and the value received by miners - the ratio of BTCs in circulation to BTCs received by miners increases over time.
 

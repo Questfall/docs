@@ -11,7 +11,7 @@ Before Questfall is launched, the weekly issue will be the only source for the w
 * QFT tokens that come back during a week into circulation after Credits have been purchased.
 
 {% hint style="info" %}
-Not all QFT tokens are burned when Credits are bought, otherwise the miners' profits will fall in the long run as all the value goes to the QFT holders. More details can be found in the [Deflationary Mining](../overview/mining-approach.md) article, but in short, the greater the percentage of QFT that is burned, the more tokens are returned to circulation.
+Not all QFT tokens are burned when Credits are bought, otherwise the miners' profits will fall in the long run as all the value goes to the QFT holders. More details can be found in the [Deflationary Mining](../overview/quest-mining.md) article, but in short, the greater the percentage of QFT that is burned, the more tokens are returned to circulation.
 {% endhint %}
 
 The full amount of the weekly QFT fund is distributed on Sunday evening in pre-determined portions to users who have added value to the platform in various areas:

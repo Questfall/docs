@@ -4,7 +4,21 @@ description: >-
   humans can periodically prove that they are not bots.
 ---
 
-# 🤖 Anti-bot protection
+# 🎭 PoH consensus
+
+Unfortunately, due to the threat of Sybil attacks, mining has not progressed much beyond the Proof of Work consensus.
+
+{% hint style="info" %}
+Nowadays, teams prefer to mint all the tokens for themselves at once and then sell them to the crowd. Of course, this approach does not make the system healthier or fairer.
+{% endhint %}
+
+
+
+While user shares are easy to determine in most areas, one of the key aspects that works against Sybil attacks is that the quest power of users who complete quests is calculated in such a way that it is more profitable to put effort into one account. This makes multi-accounting a losing strategy. See the [Quest completion](../mining-pools/quest-completion-40.md) article for more details.
+
+
+
+
 
 We are serious about making Questfall a bot-free zone. This is a difficult task, as there have been many attempts in recent years to implement different approaches to prove that a user is human - from various KYC systems with confirmation in the form of NFT, to all sorts of pedometers and tappers on mobile devices. However, none of these approaches have been successful because in the long run they can all be circumvented.&#x20;
 
