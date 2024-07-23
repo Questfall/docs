@@ -5,8 +5,8 @@
 ## Overview
 
 * [⚒️ Quest mining](overview/quest-mining.md)
-* [🎭 PoH consensus](overview/poh-consensus.md)
-* [💸 QFT deflation](overview/qft-deflation.md)
+* [🎭 Community consensus](overview/community-consensus.md)
+* [💸 Utility-based deflation](overview/utility-based-deflation.md)
 
 ## Roadmap
 

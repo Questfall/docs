@@ -45,7 +45,7 @@ Most of the projects on the existing quest platforms do not put a lot of resourc
 Thanks to quest mining, Questfall is able to reward authors for the quality of their quests. To do this, every user is forced to vote on the quality of the quest after completing it. This rating will be used to calculate the reward for the quest author - the higher the rating, the bigger the reward for the author.
 
 {% hint style="info" %}
-A quest rating is actually not just a user's opinion on the quality of a quest, as it can be abused. Voting for the rating uses the "majority recursion" principle, which is described in detail in the [PoH consensus](poh-consensus.md) article.
+A quest rating is actually not just a user's opinion on the quality of a quest, as it can be abused. Voting for the rating uses the "majority recursion" principle, which is described in detail in the [PoH consensus](community-consensus.md) article.
 {% endhint %}
 
 In this way, authors who create content that is highly rated by the community will be rewarded for doing so. In other words, authors can be rewarded for publishing their books, articles, lessons, music, pictures, videos and so on. Quests such as 'Read the new chapter of my book and answer the question' could become a new paradigm for making money from the creation of intellectual products in today's economy.
@@ -65,7 +65,7 @@ The global quest feed not only allows users to keep up with what is happening on
 However, promoting a quest is not just about getting a certain spot in the global feed for a fee. To promote a quest, an author should spend Credits on the quest points that users will receive when they complete the quest. This means that promoted quests are not only more visible, but also more attractive for users to complete.
 
 {% hint style="info" %}
-Since Credits can only be obtained by burning QFT (at a fixed price of $1), promoting quests forces [QFT deflation](qft-deflation.md), which adds value to the entire community.
+Since Credits can only be obtained by burning QFT (at a fixed price of $1), promoting quests forces [QFT deflation](utility-based-deflation.md), which adds value to the entire community.
 {% endhint %}
 
 This way, the feed algorithm will push the most rated or promoted quests to the top, making quests that do not add value to the community less popular and allowing users to focus on quests that are educational, fun or offer a higher reward.
@@ -78,7 +78,7 @@ Quest mining rewards are not biased, and users are paid by the system itself, no
 For example, our Team will create the ongoing 'Plant a tree' quest right from the start. Since most oxygen is produced by algae, our second quest of this type would be 'Clean the Ocean'.
 {% endhint %}
 
-However, there is a downside to this approach: since quests are not pre-moderated, they can be used for evil purposes. For example, quests such as 'Kill an animal' or 'Say nasty things about this company' may appear. To prevent potential harm to others, any user can complain about a particular quest, and the community will decide by [consensus ](poh-consensus.md)whether it is appropriate or not.
+However, there is a downside to this approach: since quests are not pre-moderated, they can be used for evil purposes. For example, quests such as 'Kill an animal' or 'Say nasty things about this company' may appear. To prevent potential harm to others, any user can complain about a particular quest, and the community will decide by [consensus ](community-consensus.md)whether it is appropriate or not.
 
 {% hint style="info" %}
 But this complaint mechanism could also be used by evil to punish good quests. To prevent this, the following logic will apply: if the community decides that the complaints are not justified, the complainants will be punished by reducing their humanity, otherwise the quest will be banned, and the complainants will receive a humanity bonus.
