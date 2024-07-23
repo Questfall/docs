@@ -4,9 +4,9 @@ Mining means that tokens with a limited total supply are periodically issued in 
 
 The main advantage of this approach is the direct link between investment in the cryptocurrency and the development of the Bitcoin network. Whereas high demand for a particular security on the stock market allows only the founders of a company to cash out with a profit or speculators to make money, the high price of BTC ensures the profitability of mining, attracting new participants and making the blockchain more secure.
 
-But the key success factor that created the whole crypto phenomenon was that BTC could be obtained without paying for it. Paying for cryptocurrency adds value to people, while getting cryptocurrency produced by the computer system for the user's valuable actions is much more meaningful.
+But the key success factor that created the whole crypto phenomenon was that BTC could be obtained without paying for it. Paying for cryptocurrency adds value to people, while getting cryptocurrency produced by the computer system for the user's valuable actions is much more meaningful. Furthermore, if we assume that valuable actions are not limited to hash brute forcing and can actually be anything, then the mining concept fits perfectly into a quest platform.
 
-Valuable actions are not limited to hash brute forcing and can actually be anything, which is why the mining approach fits perfectly with a quest platform. So, it's no surprise that Questfall is built around the idea of quest mining, which means that the system rewards users with a decreasing number of Questfall Tokens (QFT) each week for various quest-related and infrastructure-supporting actions.
+So, it's no surprise that Questfall is built around the idea of quest mining, which means that the system rewards users with a decreasing number of Questfall Tokens (QFT) each week for various quest-related and infrastructure-supporting actions.
 
 {% hint style="info" %}
 The [QFT token](../assets/questfall-tokens-qft.md) is described in detail in another article, for now we just want to emphasize that every QFT token is mined - none are pre-minted by the Team.
