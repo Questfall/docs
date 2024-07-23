@@ -1,6 +1,6 @@
 # ⚒️ Quest mining
 
-Mining means that tokens with a limited total supply are periodically issued in decreasing amounts according to a pre-defined formula and distributed to users according to the value they add to the system. This approach was first implemented in Bitcoin and became very successful.
+Mining means that tokens with a limited total supply are periodically issued in decreasing amounts, determined by a pre-defined formula, and distributed to users according to the value they add to the system. This approach was first implemented in Bitcoin and became very successful.
 
 The key success factor was the direct link between investment in the cryptocurrency and the development of the Bitcoin network. Whereas high demand for a particular security on the stock market allows only the founders of a company to cash out with a profit or speculators to make money, the high price of BTC ensures the profitability of mining, attracting new participants and making the blockchain more secure.
 
