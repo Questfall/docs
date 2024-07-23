@@ -2,7 +2,7 @@
 
 Mining means that tokens with a limited total supply are periodically issued in decreasing amounts, determined by a pre-defined formula, and distributed to users according to the value they add to the system. This approach was first implemented in Bitcoin and became very successful.
 
-The main advantage of this approach is the direct link between investment in the cryptocurrency and the development of the Bitcoin network. Whereas high demand for a particular security on the stock market allows only the founders of a company to cash out with a profit or speculators to make money, the high price of BTC ensures the profitability of mining, attracting new participants and making the blockchain more secure.
+The main advantage of mining is that it creates a direct link between investment in the cryptocurrency and the development of the system. Whereas high demand for a particular security on the stock market allows only the founders of a company to cash out with a profit or speculators to make money, the high price of BTC ensures the profitability of mining, attracting new participants and making the blockchain more secure.
 
 But the key success factor that created the whole crypto phenomenon was that BTC could be obtained without paying for it. Paying for cryptocurrency adds value to people, while getting cryptocurrency produced by the computer system for the user's valuable actions is much more meaningful. Furthermore, if we assume that valuable actions are not limited to hash brute forcing and can actually be anything, then the mining concept fits perfectly into a quest platform.
 
