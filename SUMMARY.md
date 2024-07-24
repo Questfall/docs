@@ -5,8 +5,9 @@
 ## Overview
 
 * [⚒️ Quest mining](overview/quest-mining.md)
-* [🎭 Community consensus](overview/community-consensus.md)
-* [💸 Utility-based deflation](overview/utility-based-deflation.md)
+* [🛡️ Anti-cheat system](overview/anti-cheat-system.md)
+* [🎭 Sybil defense](overview/sybil-defense.md)
+* [💸 Deflation due usage](overview/deflation-due-usage.md)
 
 ## Roadmap
 
