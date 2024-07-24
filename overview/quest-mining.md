@@ -45,7 +45,7 @@ Most of the projects on the existing quest platforms do not put a lot of resourc
 Thanks to quest mining, Questfall is able to reward authors for the quality of their quests. To do this, every user is forced to vote on the quality of the quest after completing it. This rating will be used to calculate the reward for the quest author - the higher the rating, the bigger the reward for the author.
 
 {% hint style="info" %}
-A quest rating is actually not just a user's opinion on the quality of a quest, as it can be abused. Voting for the rating uses the "majority recursion" principle, which is described in detail in the [PoH consensus](community-consensus.md) article.
+A quest rating is actually not just a user's opinion on the quality of a quest, as it can be abused. Voting for the rating uses the "average voting" principle, which is described in detail in the [PoH consensus](community-consensus.md) article.
 {% endhint %}
 
 In this way, authors who create content that is highly rated by the community will be rewarded for doing so. In other words, authors can be rewarded for publishing their books, articles, lessons, music, pictures, videos and so on. Quests such as 'Read the new chapter of my book and answer the question' could become a new paradigm for making money from the creation of intellectual products in today's economy.
