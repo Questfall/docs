@@ -1,4 +1,4 @@
-# ⚡ Miners NFT
+# ⚡ - Mining NFTs
 
 Miners NFTs are used by users to increase their mining power on the platform. \
 They come in 4 tiers:\

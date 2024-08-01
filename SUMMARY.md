@@ -19,8 +19,8 @@
 
 * [🪙 - Questfall Tokens (QFT)](assets/questfall-tokens-qft.md)
 * [💵 - Credits (off-chain)](assets/credits-off-chain.md)
-* [👑 - Founder NFTs](assets/founder-nfts.md)
-* [⚡ - Mining NFTs](assets/mining-nfts.md)
+* [👑 - Founder NFTs](assets/founders-nft.md)
+* [⚡ - Mining NFTs](assets/miners-nft.md)
 
 ## Mining pools
 

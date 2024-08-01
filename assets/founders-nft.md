@@ -1,4 +1,4 @@
-# 👑 Founders NFT
+# 👑 - Founder NFTs
 
 The first investors in Questfall are treated as founders.\
 What does it mean?\
