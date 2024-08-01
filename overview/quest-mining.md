@@ -65,7 +65,7 @@ The global quest feed not only allows users to keep up with what is happening on
 However, promoting a quest is not just about getting a certain spot in the global feed for a fee. To promote a quest, an author should spend Credits on the quest points that users will receive when they complete the quest. This means that promoted quests are not only more visible, but also more attractive for users to complete.
 
 {% hint style="info" %}
-Since Credits can only be obtained by burning QFT (at a fixed price of $1), promoting quests forces [QFT deflation](utility-based-deflation.md), which adds value to the entire community.
+Since Credits can only be obtained by burning QFT (at a fixed price of $1), promoting quests forces [QFT deflation](deflationary-tokenomics.md), which adds value to the entire community.
 {% endhint %}
 
 This way, the feed algorithm will push the most rated or promoted quests to the top, making quests that do not add value to the community less popular and allowing users to focus on quests that are educational, fun or offer a higher reward.

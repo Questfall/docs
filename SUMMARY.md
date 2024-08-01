@@ -7,7 +7,7 @@
 * [⚒️ Quest mining](overview/quest-mining.md)
 * [🛡️ Anti-cheat system](overview/community-consensus.md)
 * [🎭 Sybil defense](overview/sybil-defense.md)
-* [💸 Deflation due usage](overview/utility-based-deflation.md)
+* [💸 Deflationary tokenomics](overview/deflationary-tokenomics.md)
 
 ## Roadmap
 

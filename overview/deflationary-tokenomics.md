@@ -1,4 +1,4 @@
-# 💸 Deflation due usage
+# 💸 Deflationary tokenomics
 
 While the mining approach has worked very well in Bitcoin so far, it has a major problem in the long run. This problem is the imbalance between the value held by holders and the value received by miners - the ratio of BTCs in circulation to BTCs received by miners increases over time.
 
@@ -7,7 +7,7 @@ When the bitcoin blockchain started, each reward for a block gave miners a tangi
 This could be compared to real-world company finances and how they are shared between workers as salaries and shareholders as dividends. The simplistic mining mechanism implemented in bitcoin assumes that dividends as a percentage of total company income will grow steadily over time until it reaches 100% in 2140. Not only does this seem unfair, but it is also dangerous for the system, as workers will eventually not earn enough.
 
 {% hint style="info" %}
-In bitcoin, it is assumed that once bitcoin issuance stops, miners will get their reward from transaction fees, but it will be a very different mechanism, and nobody knows in advance whether it will work or not.
+In Bitcoin, it is assumed that once BTC issuance stops, miners will get their reward from transaction fees, but it will be a very different mechanism, and nobody knows in advance whether it will work or not.
 {% endhint %}
 
 Deflationary tokenomics solves this problem, as burning tokens reduces the circulating supply while increasing the miners' share. But burning without compensation results in losses and therefore only makes sense for altruists who benefit others at the expense of their own interests. Therefore, to make burning tokens attractive, users must receive some value from the system in return.
