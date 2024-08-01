@@ -4,9 +4,9 @@ description: >-
   users who create challenges.
 ---
 
-# 🚧 Challenge authors (6%)
+# 🚧 Challenge creation (6%)
 
-For a solid defense against Sibil attacks, the number of challenges in the system should be sufficient in relation to the total number of users. Also, users should be motivated to create interesting and high-quality challenges.
+For a solid defense against Sybil attacks, the number of challenges in the system should be sufficient in relation to the total number of users. Also, users should be motivated to create interesting and high-quality challenges.
 
 To achieve this, any user can create a challenge, which becomes active once it has been approved by the crowd. The system will distribute 2% of the weekly QFT fund to reward authors whose challenges are accepted during the week.&#x20;
 
@@ -20,4 +20,4 @@ To keep the system self-cleaning, 10% of the lowest rated challenges will be rem
 
 
 
-The current status:  <mark style="background-color:orange;">coming in Questfall v1.0</mark>&#x20;
+The current status: <mark style="background-color:orange;">coming in Questfall v1.0</mark>&#x20;

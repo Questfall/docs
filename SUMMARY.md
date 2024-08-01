@@ -19,12 +19,12 @@
 
 * [🪙 - Questfall Tokens (QFT)](assets/questfall-tokens-qft.md)
 * [💵 - Credits (off-chain)](assets/credits-off-chain.md)
-* [👑 - Founders NFT](assets/founders-nft.md)
-* [⚡ - Miners NFT](assets/miners-nft.md)
+* [👑 - Founder NFTs](assets/founder-nfts.md)
+* [⚡ - Mining NFTs](assets/mining-nfts.md)
 
 ## Mining pools
 
-* [✅ - Quest completion (40%)](mining-pools/quest-completion-40.md)
+* [✅ Quest completion (40%)](mining-pools/quest-completion-40.md)
 * [✨ Quest creation (10%)](mining-pools/quest-creation-10.md)
 * [🚧 Challenge creation (6%)](mining-pools/challenge-creation-6.md)
 * [📅 Season rewards (10%)](mining-pools/season-rewards-10.md)
