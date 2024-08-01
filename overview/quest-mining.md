@@ -4,12 +4,12 @@ Mining means that tokens with a limited total supply are periodically issued in 
 
 The main advantage of mining is that it creates a direct link between investment in the cryptocurrency and the development of the system. Whereas high demand for a particular security on the stock market allows only the founders of a company to cash out with a profit or speculators to make money, the high price of BTC ensures the profitability of mining, attracting new participants and making the blockchain more secure.
 
-But the key success factor that created the whole crypto phenomenon was that BTC could be obtained without paying for it. Paying for cryptocurrency adds value to people, while getting cryptocurrency produced by the computer system for the user's valuable actions is much more meaningful. If we assume that valuable actions are not limited to hash brute forcing and can actually be anything, then the mining concept fits perfectly into a quest platform.
+But the key success factor that created the whole crypto phenomenon was that BTC could be obtained without paying for it. Paying for cryptocurrency transfers value to founders or holders (in other words, other people), while receiving newly issued cryptocurrency for valuable actions motivates adding value to the system itself.
 
-So, it's no surprise that Questfall is built around the idea of quest mining, which means that the system rewards users with a decreasing number of Questfall Tokens (QFT) each week for various quest-related and infrastructure-supporting actions.
+If we assume that valuable actions are not limited to hash brute forcing and can actually be anything, then the mining concept fits perfectly into a quest platform. So, it's no surprise that Questfall is built around the idea of quest mining, which means that the system rewards users with a decreasing number of Questfall Tokens (QFT) each week for various quest-related and infrastructure-supporting actions.
 
 {% hint style="info" %}
-The [QFT token](../assets/questfall-tokens-qft.md) is described in detail in another article, for now we just want to emphasize that every QFT token is mined - none are pre-minted by the Team.
+Each QFT token is mined, i.e. used to reward valuable actions when issued, and is not pre-minted by the Team.
 {% endhint %}
 
 ### Reward distribution by pools
@@ -36,11 +36,11 @@ The remaining 34% is used to reward infrastructure support:
 * 5% to the Team for project expenses,
 * 10% to Founders.
 
-The principles by which the value contributed by users is estimated can vary from one area to another. For example, liquidity providers are rewarded based on their share of the pool, while authors - based on their quest ratings and popularity.
+The principles for valuing user contributions can vary from one area to another. For example, liquidity providers are rewarded based on their share of the pool, while authors are rewarded based on quest ratings and popularity.
 
 ### Motivation for quality quests
 
-Most of the projects on the existing quest platforms do not put a lot of resources into creating quests, and as a result, most of them are dumb tasks like joining Discord or reposting a Tweet. This happens because projects are primarily interested in promoting themselves, and quest platforms give them access to the userbase without any demands on the quality of the quests. As a result, project teams will simply take the most efficient route, using as little effort as possible.
+Most of the projects on the existing quest platforms do not put a lot of resources into creating quests, and as a result, most of them are dumb tasks like joining Discord or reposting a Tweet. This happens because projects are primarily interested in promoting themselves, and quest platforms give them access to the userbase without any demands on the quality of the quests. As a result, project teams simply take the most efficient route with the least amount of effort.
 
 Thanks to quest mining, Questfall is able to reward authors for the quality of their quests. To do this, every user is forced to vote on the quality of the quest after completing it. This rating will be used to calculate the reward for the quest author - the higher the rating, the bigger the reward for the author.
 
