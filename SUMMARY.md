@@ -5,7 +5,7 @@
 ## Overview
 
 * [⚒️ Quest mining](overview/quest-mining.md)
-* [🛡️ Anti-cheat system](overview/community-consensus.md)
+* [🛡️ Defense system](overview/defense-system.md)
 * [🎭 Community consensus](<overview/community-consensus (1).md>)
 * [💸 Deflationary tokenomics](overview/deflationary-tokenomics.md)
 
