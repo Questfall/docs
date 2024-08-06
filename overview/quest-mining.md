@@ -62,7 +62,7 @@ This makes Questfall similar to sites like Facebook or Tweeter.
 
 The global quest feed not only allows users to keep up with what is happening on Questfall, but it also helps projects to promote their quests to all users of the platform, since the system can influence the visibility of quests in the feed.&#x20;
 
-However, promoting a quest is not just about getting a certain spot in the global feed for a fee. To promote a quest, an author should spend Credits on the quest points that users will receive when they complete the quest. This means that promoted quests are not only more visible, but also more attractive for users to complete.
+However, promoting a quest is not just about getting a certain spot in the global feed for a fee. To promote a quest, an author should spend Credits on the _**Quest Points**_ that users will receive when they complete the quest. This means that promoted quests are not only more visible, but also more attractive for users to complete.
 
 {% hint style="info" %}
 Since Credits can only be obtained by burning QFT (at a fixed price of $1), promoting quests forces [QFT deflation](deflationary-tokenomics.md), which adds value to the entire community.

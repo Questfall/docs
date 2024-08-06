@@ -1,4 +1,4 @@
-# 🛡️ Anti-cheat system
+# 🛡️ Defense system
 
 Despite its simplicity and versatility, the concept of mining requires a condition that is rather difficult to fulfil. The system shouldn't reward users for the fake value they claim to have created.
 
@@ -11,7 +11,7 @@ Not surprisingly, there have been many attempts in recent years to build mining 
 However, none of these approaches have been successful because, in the long run, they are all open to abuse. KYC accounts are sold in bundles for pennies, while farms of thousands of phones fake the required actions on a massive scale. So, today's teams prefer to take the easy way out and mint all the tokens for themselves at once and then sell them to the crowd.
 
 {% hint style="info" %}
-This is actually nothing new. At the dawn of the stock market more than 150 years ago, anyone could issue their own securities and sell them to the public through newspaper advertisements. And until the state started to regulate the securities market, there were much bigger ups and downs compared to the modern crypto market.
+This is actually nothing new. At the dawn of the stock market more than 150 years ago, anyone could issue their own securities and sell them to the public through newspaper advertisements. And until the government started to regulate the securities market, it had much bigger ups, downs and scams than the modern crypto market.
 {% endhint %}
 
 But the complexity of the task and the lack of successful cases does not mean that we have to give up and go back to where our great-grandparents came from. In fact, our Team has come up with two solutions for fair human competition.
@@ -23,10 +23,10 @@ The first is the online tournament, which lasts a few minutes and requires every
 
 While everyone is trying to implement some silver bullet like calculating a hash in Bitcoin, the variety of tasks to prove humanity is a protection in itself (like a different game code for each tournament). So even if one type of such activity is hacked and automated, it does not help much because there are hundreds more that follow in an unpredictable way.
 
-In Questfall, we call these activities that prove you are human _**challenges**_, which are actually just a special kind of quest. The idea is that anyone can create challenges for others, and the task can be anything. By doing challenges, users earn _**humanity**_, which allows them to mine more - it is used as a multiplier when calculating _**quest power**_. Without challenges, users will still be able to complete quests, but they will not earn much because of the empty humanity. Moreover, humanity is consumed while doing quests, so users will need to do challenges regularly to keep their quest power multiplier high.
+In Questfall, we call these activities that prove you are human _**challenges**_, which are actually just a special kind of quest. The idea is that anyone can create challenges for others, and the task can be anything. By doing challenges, users earn _**Humanity**_, which allows them to mine more - it is used as a multiplier when calculating _**Quest Power**_. Without challenges, users will still be able to complete quests, but they will not earn much because of the empty Humanity. Moreover, Humanity is consumed while doing quests, so users will need to do challenges regularly to keep their quest power multiplier high.
 
 {% hint style="info" %}
-Humanity can be thought of as stamina in RPGs. In addition to challenges, humanity can be increased by burning Questfall Token (QFT), which adds value to the entire community and makes the system healthier. This approach can be compared to the cost of electricity when mining Bitcoin.&#x20;
+Humanity can be thought of as stamina in RPGs. In addition to challenges, Humanity can be increased by burning Questfall Token (QFT), which adds value to the entire community and makes the system healthier. This approach can be compared to the cost of electricity when mining Bitcoin.&#x20;
 {% endhint %}
 
 Challenges cannot be bypassed and are randomly assigned, so the first account's challenge might be to draw a picture, the second to solve a logic problem and the third to sing a song. Each of these tasks can be automated with modern AI, but not all of them at once, especially those that need to be done in the real world.
