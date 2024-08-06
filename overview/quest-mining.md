@@ -40,7 +40,7 @@ The principles for valuing user contributions can vary from one area to another.
 
 ### Motivation for quality quests
 
-Most of the projects on the existing quest platforms do not put a lot of resources into creating quests, and as a result, most of them are dumb tasks like joining Discord or reposting a Tweet. This happens because projects are primarily interested in promoting themselves, and quest platforms give them access to the userbase without any demands on the quality of the quests. As a result, project teams simply take the most efficient route with the least amount of effort.
+The vast majority of projects on the existing quest platforms do not put a lot of resources into creating quests, and as a result, most of them are silly tasks like joining Discord or reposting a Tweet. This happens because projects are primarily interested in promoting themselves, and quest platforms give them access to the userbase without any demands on the quality of the quests. As a result, project teams simply take the most efficient route with the least amount of effort.
 
 Thanks to quest mining, Questfall is able to reward authors for the quality of their quests. To do this, every user is forced to vote on the quality of the quest after completing it. This rating will be used to calculate the reward for the quest author - the higher the rating, the bigger the reward for the author.
 
@@ -48,11 +48,11 @@ Thanks to quest mining, Questfall is able to reward authors for the quality of t
 A quest rating is actually not just a user's opinion on the quality of a quest, as it can be abused. Read more in the [Community consensus](<community-consensus (1).md>) article.
 {% endhint %}
 
-In this way, authors who create content that is highly rated by the community will be rewarded for doing so. In other words, authors can be rewarded for publishing their books, articles, lessons, music, pictures, videos and so on. Quests such as 'Read the new chapter of my book and answer the question' could become a new paradigm for making money from the creation of intellectual products in today's economy.
+In this way, authors who create content that is highly rated by the community will be rewarded for doing so. In other words, authors can be rewarded for publishing their books, articles, lessons, music, pictures, videos and so on. Quests such as '_Read the new chapter of my book and answer the question_' could become a new paradigm for making money from the creation of intellectual products in today's economy.
 
 ### Global quest feed
 
-None of the existing quest platforms have implemented quest mining, so it is assumed that their users will receive rewards from the particular projects they do quests for. This approach not only makes user rewards arbitrary and optional, but also makes it pointless to spread effort across quests from different projects.
+None of the existing quest platforms have implemented quest mining, so it is assumed that their users receive rewards from the particular projects they do quests for. This approach not only makes user rewards arbitrary and optional, but also makes it pointless to spread effort across quests from different projects.
 
 Global rewards from the system, thanks to quest mining, allow Questfall to have a global quest feed, which is the direct analogue to the post feed in any social media platform. The only difference is the depth of user interaction with the content. If the social media format does not require a mandatory response to the post, a quest will need some proof that a user has taken a certain action.
 
