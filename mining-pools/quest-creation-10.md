@@ -2,18 +2,44 @@
 
 <mark style="background-color:orange;">Coming in Questfall v1.0</mark>&#x20;
 
-<table data-header-hidden data-full-width="true"><thead><tr><th width="522"></th><th></th></tr></thead><tbody><tr><td></td><td> <mark style="background-color:orange;">Coming in Questfall v1.0</mark> </td></tr></tbody></table>
+Without motivation, authors create quests for no other reason than to promote their projects to the site's audience, as can be seen on the popular existing quest platforms. This leads to the majority of quests being of very low quality, like silly tasks to join the Discord community or repost a tweet in X.
 
-Without motivation, authors create quests for no other reason than to promote their projects to the platform's audience, as can be seen on the popular existing quest platforms. This leads to the majority of quests being of very low quality, like silly tasks to join the Discord community or repost a tweet in X.
+On the other hand, rewards for quests that are appreciated by the community create a very different economic situation. Global system rewards, based on the mining concept, allow authors to create any kind of content and earn (without selling) by providing value to the community.
 
-On the other hand, rewards for quests that are valued by the community create a very different economic situation. In this case, authors can create any kind of content and earn (without selling) by providing value to the community.
+{% hint style="info" %}
+It can be anything: books, articles, lessons, music, pictures, videos and so on.
+{% endhint %}
 
-In order to achieve this, 10% of the newly created QFTs will be distributed each week to users who have created quests with an end date that week, based on the author's Karma adjusted for the popularity and rating of the quest.
+In order to achieve this, 10% of the newly created QFTs will be distributed each week to users who have created quests with an end date that week, based on the popularity and rating of the quest.
+
+***
+
+### Author Reputation
+
+Each author in Questfall has a Reputation attribute, which is essentially a moving average of the author's quest ratings.
+
+$$
+Reputation_{n}=\frac{9*Reputation_{n-1}+Rating_{n}}{10}
+$$
+
+This means that Reputation range is the same as the rating range, which goes from 0 to 10 in either direction, depending on the rating of the author's new quests.&#x20;
+
+For example, if a new author posts a quest that receives a 7.5 rating, the author's reputation will be calculated accordingly: $$\frac{9*0+7.5}{10}=0.75$$. If the author has a reputation of 5 and the new quest has a rating of 8.4, the author's reputation will increase: $$\frac{9*5+8.4}{10}=5.34$$, but if the rating is lower (say 3.4), the author's reputation will decrease: $$\frac{9*5+3.4}{10}=4.84$$.
+
+{% hint style="info" %}
+Because of the voting process, malicious authors can't abuse the quest rating to increase their reputation. Read more about this in [Quest completion](quest-completion-40.md) article.
+{% endhint %}
+
+### Quest Points
+
+
+
+### Mining Power
+
+Each quest has an end date when it closes. At the end of the week, the system will collect all quests that have ended during the week and calculate each quest's Mining Power as the product of the quest completions and the quest's rating.
+
+
 
 {% hint style="info" %}
 Since quest completion is moderated by the community, and quest ratings are based on a "majority wins" voting, there is no way for malicious authors to abuse the system by creating a large number of pointless quests.
 {% endhint %}
-
-### Authors Mining Power
-
-Each quest has an end date when it closes. At the end of the week, the system will collect all quests that have ended during the week and calculate each quest's mining power as the product of the quest completions and the quest's rating.

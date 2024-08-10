@@ -19,3 +19,9 @@ This way Quest Points earned by users are individual for each author or even eac
 
 
 The current status: <mark style="background-color:orange;">coming in Questfall v1.0</mark>&#x20;
+
+***
+
+### Quest Rating
+
+Qu
