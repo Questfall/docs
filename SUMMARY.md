@@ -24,9 +24,9 @@
 
 ## Mining pools
 
-* [✅ Quest completion (40%)](mining-pools/quest-completion-40.md)
 * [✨ Quest creation (10%)](mining-pools/quest-creation-10.md)
 * [🚧 Challenge creation (6%)](mining-pools/challenge-creation-6.md)
+* [✅ Quest completion (40%)](mining-pools/quest-completion-40.md)
 * [📅 Season rewards (10%)](mining-pools/season-rewards-10.md)
 * [❤️‍🔥 NFT burning (2%)](mining-pools/nft-burning-2.md)
 * [💰 Liquidity providers (8%)](mining-pools/liquidity-providers-8.md)
