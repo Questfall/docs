@@ -2,6 +2,8 @@
 
 <mark style="background-color:orange;">Coming in Questfall v1.0</mark>&#x20;
 
+> <mark style="background-color:orange;">Coming in Questfall v1.0</mark>&#x20;
+
 Without motivation, authors create quests for no other reason than to promote their projects to the site's audience, as can be seen on the popular existing quest platforms. This leads to the majority of quests being of very low quality, like silly tasks to join the Discord community or repost a tweet in X.
 
 On the other hand, rewards for quests that are appreciated by the community create a very different economic situation. Global system rewards, based on the mining concept, allow authors to create any kind of content and earn (without selling) by providing value to the community.
