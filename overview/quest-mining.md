@@ -29,7 +29,7 @@ In Questfall, 66% of the weekly issue is used to reward quest miners:
 
 The remaining 34% is used to reward infrastructure support:
 
-* 2% to users who burn their Miners NFTs or Founders NFTs,
+* 2% to users who burn their Mining NFTs or Founder NFTs,
 * 8% to users who provide liquidity to the official DEX pool,
 * 5% to users who freeze their QFT tokens,
 * 4% to users who burn their QFT tokens to get Credits,

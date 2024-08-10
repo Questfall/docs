@@ -11,7 +11,7 @@ Each quest has an end date when it closes. At the end of the week, the system wi
 <img src="../.gitbook/assets/file.excalidraw.svg" alt="" class="gitbook-drawing">
 
 {% hint style="info" %}
-Since quest completion is moderated by the community, and quest ratings are based on a "majority wins" system, there is no way for malicious authors to abuse the system by creating a large number of pointless quests.
+Since quest completion is moderated by the community, and quest ratings are based on a "majority wins" voting, there is no way for malicious authors to abuse the system by creating a large number of pointless quests.
 {% endhint %}
 
 
