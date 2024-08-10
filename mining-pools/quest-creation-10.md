@@ -1,8 +1,10 @@
 # ✨ Quest creation (10%)
 
-<mark style="background-color:orange;">Coming in Questfall v1.0</mark>&#x20;
+```html
+<div style="text-align: right"> Coming in Questfall v1.0 </div>
+```
 
-> <mark style="background-color:orange;">Coming in Questfall v1.0</mark>&#x20;
+<mark style="background-color:orange;">Coming in Questfall v1.0</mark>&#x20;
 
 Without motivation, authors create quests for no other reason than to promote their projects to the site's audience, as can be seen on the popular existing quest platforms. This leads to the majority of quests being of very low quality, like silly tasks to join the Discord community or repost a tweet in X.
 
