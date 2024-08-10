@@ -1,10 +1,6 @@
 # ✨ Quest creation (10%)
 
-```html
-<div style="text-align: right"> Coming in Questfall v1.0 </div>
-```
-
-<mark style="background-color:orange;">Coming in Questfall v1.0</mark>&#x20;
+&#x20;<mark style="background-color:orange;">Coming in Questfall v1.0</mark>&#x20;
 
 Without motivation, authors create quests for no other reason than to promote their projects to the site's audience, as can be seen on the popular existing quest platforms. This leads to the majority of quests being of very low quality, like silly tasks to join the Discord community or repost a tweet in X.
 
@@ -34,11 +30,35 @@ For example, if a new author posts a quest that receives a 7.5 rating, the autho
 Because of the voting process, malicious authors can't abuse the quest rating to increase their reputation. Read more about this in [Quest completion](quest-completion-40.md) article.
 {% endhint %}
 
+***
+
 ### Quest Points
 
+Users who complete quests receive Quest Points, which are used to calculate their individual Mining Power. The number of Quest Points is directly related to the reputation of the quest author. The higher the Reputation of an author, the more Quest Points users will receive for completing that author's quests.
 
+{% tabs %}
+{% tab title="Chart" %}
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>The number of Quest Points in a quest depending on the author's Reputation.</p></figcaption></figure>
+{% endtab %}
+
+{% tab title="Details" %}
+The amount of Quest Points in the quest increases exponentially (from 10 to 1010) with the reputation of the author, according to the formula below:
+
+$$
+QuestPoints=10+Reptuation^{3}
+$$
+
+For example, users who complete a quest from an author with a reputation of 5.4 will each receive $$10+5.4^{3}=167.464$$ Quest Points, while a quest from an author with a reputation of 7.4 will give each user $$10+7.4^{3}=415.224$$ Quest Points.
+{% endtab %}
+{% endtabs %}
+
+
+
+***
 
 ### Mining Power
+
+Since the ordering of quests in the global feed depends primarily on the number of Quest Points, a high reputation of authors will ensure high visibility (and as a consequence, popularity) of his quests.
 
 Each quest has an end date when it closes. At the end of the week, the system will collect all quests that have ended during the week and calculate each quest's Mining Power as the product of the quest completions and the quest's rating.
 
