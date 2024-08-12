@@ -36,7 +36,7 @@ Humanity can be thought of as stamina in RPGs, which can be invested in the futu
 
 Challenges are randomly assigned, but users can bypass the current challenge and move on to the next one for 1,000 Humanity. As Humanity can be negative, bypassing many challenges will prevent a user from mining QFT or leveling up, forcing him to regain Humanity.
 
-Users can also complain about the current challenge to bypass it, and if the community vote decides that the complaint is valid, the challenge will be banned, and the complainer will receive 10,000 Humanity as a result. If the community decides that the complaint is not justified, the complainant will be punished with the same 10,000 Humanity.
+Users can also complain about the current challenge to bypass it, and if the community vote decides that the complaint is valid, the challenge will be banned, and the complainer will receive 10,000 Humanity as a reward. If the community decides that the complaint is not justified, the complainant will be punished by reducing his Humanity by the same 10,000.
 
-Another way to avoid challenges and gain Humanity is to burn 5 credits, and get 10,000 Humanity in return. In this way, a user brings value to the entire community by burning QFT for Credits, and as QFT is a limited resource, there is no threat of a Sybil attack.
+Another way to avoid challenges and gain Humanity is to burn 5 Credits and get 10,000 Humanity in return. In this way, a user brings value to the entire community by burning QFT for Credits, and as QFT is a limited resource, there is no threat of a Sybil attack.
 
