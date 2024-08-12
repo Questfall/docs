@@ -27,36 +27,46 @@ This means that Reputation range is the same as the rating range, which goes fro
 For example, if a new author posts a quest that receives a 7.5 rating, the author's reputation will be calculated accordingly: $$\frac{9*0+7.5}{10}=0.75$$. If the author has a reputation of 5 and the new quest has a rating of 8.4, the author's reputation will increase: $$\frac{9*5+8.4}{10}=5.34$$, but if the rating is lower (say 3.4), the author's reputation will decrease: $$\frac{9*5+3.4}{10}=4.84$$.
 
 {% hint style="info" %}
-Because of the voting process, malicious authors can't abuse the quest rating to increase their reputation. Read more about this in [Quest completion](quest-completion-40.md) article.
+Because of the voting mechanic, malicious authors can't abuse the quest rating to increase their Reputation. Read more about this in [Quest completion](quest-completion-40.md) article.
 {% endhint %}
 
 ***
 
 ### Quest Points
 
-Users who complete quests receive Quest Points, which are used to calculate their individual Mining Power. The number of Quest Points is directly related to the reputation of the quest author. The higher the Reputation of an author, the more Quest Points users will receive for completing that author's quests.
+Users who complete quests receive Quest Points, which are used to calculate their individual User Mining Power. The number of Quest Points is directly related to the reputation of the quest author. The higher the Reputation of an author, the more Quest Points users will receive for completing that author's quests.
 
 {% tabs %}
 {% tab title="Chart" %}
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>The number of Quest Points in a quest depending on the author's Reputation.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Details" %}
-The amount of Quest Points in the quest increases exponentially (from 10 to 1010) with the reputation of the author, according to the formula below:
+The amount of Quest Points in the quest increases exponentially (from 10 to 110) with the reputation of the author, according to the formula below:
 
 $$
-QuestPoints=10+Reptuation^{3}
+QuestPoints=10+Reptuation^{2}
 $$
 
-For example, users who complete a quest from an author with a reputation of 5.4 will each receive $$10+5.4^{3}=167.464$$ Quest Points, while a quest from an author with a reputation of 7.4 will give each user $$10+7.4^{3}=415.224$$ Quest Points.
+For example, users who complete a quest from an author with a reputation of 5.4 will each receive $$10+5.4^{2}=39.16$$ Quest Points, while a quest from an author with a reputation of 7.4 will give each user $$10+7.4^{2}=64.76$$ Quest Points.
 {% endtab %}
 {% endtabs %}
 
+Authors can also add Quest Points to their quests by burning some Credits. The minimum amount is 5 Credits (equivalent to $5), which will add the amount of Quest Points to the quest as if the author had 5 Reputation or 135 Quest Points. The more Credits are burned, the higher the imaginary Reputation will be. There will be no upper limit to the number of Credits an author can burn, as the maximum Reputation 10 will be an unreachable limit.
 
+{% tabs %}
+{% tab title="Chart" %}
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="Details" %}
+The Reputation that is additionally applied&#x20;
+{% endtab %}
+{% endtabs %}
 
 ***
 
-### Mining Power
+### Author Mining Power
 
 Since the ordering of quests in the global feed depends primarily on the number of Quest Points, a high reputation of authors will ensure high visibility (and as a consequence, popularity) of his quests.
 
