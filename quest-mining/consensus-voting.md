@@ -1,5 +1,5 @@
 ---
-icon: square-poll-vertical
+icon: message-check
 ---
 
 # Consensus voting

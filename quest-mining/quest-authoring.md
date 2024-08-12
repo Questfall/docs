@@ -1,4 +1,8 @@
-# ✨ Quest creation (10%)
+---
+icon: pencil
+---
+
+# Quest authoring
 
 &#x20;<mark style="background-color:orange;">Coming in Questfall v1.0</mark>&#x20;
 
@@ -35,7 +39,7 @@ For example, if a new author posts a quest that receives a 7.5 rating, the autho
 {% endtabs %}
 
 {% hint style="info" %}
-Because of the voting mechanic, malicious authors can't abuse the quest rating to increase their Reputation. Read more about this in [Quest completion](quest-completion-40.md) article.
+Because of the voting mechanic, malicious authors can't abuse the quest rating to increase their Reputation. Read more about this in [Quest completion](quest-completion.md) article.
 {% endhint %}
 
 ***

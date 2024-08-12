@@ -1,4 +1,8 @@
-# ✅ Quest completion (40%)
+---
+icon: check
+---
+
+# Quest completion
 
 Rewarding quest completion by ordinary users is at the core of the quest mining concept, along with quest creation by authors. This is what makes Questfall unique, as QFTs are earned by completing quests, not by buying tokens.
 

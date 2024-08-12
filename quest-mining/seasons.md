@@ -1,4 +1,8 @@
-# 📅 Season rewards (10%)
+---
+icon: calendar-star
+---
+
+# Seasons
 
 While the concept of mining is fair enough on its own, platforms like Questfall (where users create value for others) offer additional rewards for the most loyal and engaged users, as this encourages long-term audience retention and therefore value.
 

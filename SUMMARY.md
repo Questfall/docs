@@ -22,24 +22,27 @@
 * [👑 - Founder NFTs](assets/founders-nft.md)
 * [⚡ - Mining NFTs](assets/miners-nft.md)
 
-## Mechanics
+## Quest Mining
 
-* [✨ Quest creation (10%)](mechanics/quest-creation-10.md)
-* [Consensus voting](mechanics/consensus-voting.md)
-* [Humanity](mechanics/humanity.md)
-* [User levels](mechanics/user-levels.md)
-* [🚧 Challenge creation (6%)](mechanics/challenge-creation-6.md)
-* [✅ Quest completion (40%)](mechanics/quest-completion-40.md)
-* [📅 Season rewards (10%)](mechanics/season-rewards-10.md)
-* [❤️‍🔥 NFT burning (2%)](mechanics/nft-burning-2.md)
-* [💰 Liquidity providers (8%)](mechanics/liquidity-providers-8.md)
-* [🧊 QFT freezing (5%)](mechanics/qft-freezing-5.md)
-* [🔥 QFT burning (4%)](mechanics/qft-burning-4.md)
-* [⚙️ Project expenses (5%)](mechanics/project-expenses-5.md)
-* [☕ Founders' revenue (10%)](mechanics/founders-revenue-10.md)
+* [Quest authoring](quest-mining/quest-authoring.md)
+* [Consensus voting](quest-mining/consensus-voting.md)
+* [Humanity](quest-mining/humanity.md)
+* [User levels](quest-mining/user-levels.md)
+* [Quest completion](quest-mining/quest-completion.md)
+* [Seasons](quest-mining/seasons.md)
+
+## Infrastructure support
+
+* [❤️‍🔥 NFT burning (2%)](infrastructure-support/nft-burning-2.md)
+* [💰 Liquidity providers (8%)](infrastructure-support/liquidity-providers-8.md)
+* [🧊 QFT freezing (5%)](infrastructure-support/qft-freezing-5.md)
+* [🔥 QFT burning (4%)](infrastructure-support/qft-burning-4.md)
+* [⚙️ Project expenses (5%)](infrastructure-support/project-expenses-5.md)
+* [☕ Founders' revenue (10%)](infrastructure-support/founders-revenue-10.md)
 
 ## Trash bin
 
+* [🚧 Challenge creation (6%)](trash-bin/challenge-creation-6.md)
 * [❕ - Introduction](trash-bin/introduction.md)
 * [❕ Overview](trash-bin/overview.md)
 * [💚 Quest quality reward](trash-bin/quest-quality-reward.md)
