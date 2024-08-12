@@ -8,7 +8,7 @@ Each author in Questfall has a Reputation attribute, which is essentially a movi
 
 {% tabs %}
 {% tab title="Chart" %}
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Reputation of the author depends on the rating of his quests.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>Reputation of the author depends on the rating of his quests.</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Details" %}
@@ -23,6 +23,6 @@ For example, if a new author posts a quest that receives a 7.5 rating, the autho
 {% endtabs %}
 
 {% hint style="info" %}
-Because of the voting mechanic, malicious authors can't abuse the quest rating to increase their Reputation. Read more about voting process in [Consensus Voting](user-voting.md) article.
+Because of the voting mechanic, malicious authors can't abuse the quest rating to increase their Reputation. Read more about voting process in [Consensus Voting](../mechanics/consensus-voting.md) article.
 {% endhint %}
 

@@ -21,13 +21,12 @@
 * [💵 - Credits (off-chain)](assets/credits-off-chain.md)
 * [👑 - Founder NFTs](assets/founders-nft.md)
 * [⚡ - Mining NFTs](assets/miners-nft.md)
-* [- Challenge NFT](assets/challenge-nft.md)
 
 ## Quest Mining
 
-* [User Humanity](quest-mining/user-humanity.md)
-* [User Voting](quest-mining/user-voting.md)
-* [User Level](quest-mining/user-level.md)
+* [User Humanity](mechanics/humanity.md)
+* [User Voting](mechanics/consensus-voting.md)
+* [User Level](mechanics/user-levels.md)
 * [Author Reputation](quest-mining/author-reputation.md)
 * [Quest Points](quest-mining/quest-points.md)
 * [Quest Promotion](quest-mining/quest-promotion.md)
@@ -35,7 +34,7 @@
 * [Author Mining](quest-mining/author-mining.md)
 * [User Mining](quest-mining/user-mining.md)
 * [Guardian Mining](quest-mining/guardian-mining.md)
-* [Seasonal Rewards](quest-mining/seasonal-rewards.md)
+* [Seasonal Rewards](mechanics/season-rewards-10.md)
 
 ## Infrastructure support
 
@@ -48,9 +47,9 @@
 
 ## Trash bin
 
-* [Challenges](trash-bin/challenges.md)
-* [Quest completion](trash-bin/quest-completion.md)
-* [Quest creation](trash-bin/quest-creation.md)
+* [Challenges](mechanics/challenge-creation-6.md)
+* [Quest completion](mechanics/quest-completion-40.md)
+* [Quest creation](mechanics/quest-creation-10.md)
 * [❕ - Introduction](trash-bin/introduction.md)
 * [❕ Overview](trash-bin/overview.md)
 * [💚 Quest quality reward](trash-bin/quest-quality-reward.md)

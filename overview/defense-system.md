@@ -31,7 +31,7 @@ Without challenges, users will still be able to complete quests, but they will n
 Humanity can be thought of as stamina in RPGs. In addition to challenges, Humanity can be increased by burning Questfall Token (QFT), which adds value to the entire community and makes the system healthier. This approach can be compared to the cost of electricity when mining Bitcoin.&#x20;
 {% endhint %}
 
-Challenges cannot be bypassed and are randomly assigned, so the first account's challenge might be to draw a picture, the second to solve a logic problem and the third to sing a song. Each of these tasks can be automated with modern AI, but not all of them at once, especially those that need to be done in the real world.
+Challenges cannot be bypassed for free and are randomly assigned, so the first account's challenge might be to draw a picture, the second to solve a logic problem and the third to sing a song. Each of these tasks can be automated with modern AI, but not all of them at once, especially those that need to be done in the real world.
 
 {% hint style="info" %}
 This approach will work against bots, but robots with AI will be able to overcome challenges in the future because they will be able to perform tasks in the real world. But while there is no way to tell the difference between humans and robots remotely, robots can still be considered as mining farms, as they will be expensive and would not be able to work under many accounts at once.
