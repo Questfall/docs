@@ -4,7 +4,7 @@
 
 Without motivation, authors create quests for no other reason than to promote their projects to the site's audience, as can be seen on the popular existing quest platforms. This leads to the majority of quests being of very low quality, like silly tasks to join the Discord community or repost a tweet in X.
 
-On the other hand, rewards for quests that are appreciated by the community create a very different economic situation. Global system rewards, based on the mining concept, allow authors to create any kind of content and earn (without selling) by providing value to the community.
+On the other hand, rewards for quests that are appreciated by the community create a very different economic situation. Global system rewards, based on the mining concept, allow authors to earn without selling by providing value to the community in the form of any content.
 
 {% hint style="info" %}
 It can be anything: books, articles, lessons, music, pictures, videos and so on.
@@ -16,15 +16,23 @@ In order to achieve this, 10% of the newly created QFTs will be distributed each
 
 ### Author Reputation
 
-Each author in Questfall has a Reputation attribute, which is essentially a moving average of the author's quest ratings.
+Each author in Questfall has a Reputation attribute, which is essentially a moving average of the author's quest ratings. This means that Reputation range is the same as the rating range, which goes from 0 to 10 in either direction, depending on the rating of the author's latest quests.
+
+{% tabs %}
+{% tab title="Chart" %}
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption><p>Reputation depending on the quest ratings</p></figcaption></figure>
+{% endtab %}
+
+{% tab title="Details" %}
+Reputation is calculated using the following formula:
 
 $$
 Reputation_{n}=\frac{9*Reputation_{n-1}+Rating_{n}}{10}
 $$
 
-This means that Reputation range is the same as the rating range, which goes from 0 to 10 in either direction, depending on the rating of the author's new quests.&#x20;
-
 For example, if a new author posts a quest that receives a 7.5 rating, the author's reputation will be calculated accordingly: $$\frac{9*0+7.5}{10}=0.75$$. If the author has a reputation of 5 and the new quest has a rating of 8.4, the author's reputation will increase: $$\frac{9*5+8.4}{10}=5.34$$, but if the rating is lower (say 3.4), the author's reputation will decrease: $$\frac{9*5+3.4}{10}=4.84$$.
+{% endtab %}
+{% endtabs %}
 
 {% hint style="info" %}
 Because of the voting mechanic, malicious authors can't abuse the quest rating to increase their Reputation. Read more about this in [Quest completion](quest-completion-40.md) article.
@@ -38,7 +46,7 @@ Users who complete quests receive Quest Points, which are used to calculate thei
 
 {% tabs %}
 {% tab title="Chart" %}
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Details" %}

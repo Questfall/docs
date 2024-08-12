@@ -22,18 +22,21 @@
 * [👑 - Founder NFTs](assets/founders-nft.md)
 * [⚡ - Mining NFTs](assets/miners-nft.md)
 
-## Mining pools
+## Mechanics
 
-* [✨ Quest creation (10%)](mining-pools/quest-creation-10.md)
-* [🚧 Challenge creation (6%)](mining-pools/challenge-creation-6.md)
-* [✅ Quest completion (40%)](mining-pools/quest-completion-40.md)
-* [📅 Season rewards (10%)](mining-pools/season-rewards-10.md)
-* [❤️‍🔥 NFT burning (2%)](mining-pools/nft-burning-2.md)
-* [💰 Liquidity providers (8%)](mining-pools/liquidity-providers-8.md)
-* [🧊 QFT freezing (5%)](mining-pools/qft-freezing-5.md)
-* [🔥 QFT burning (4%)](mining-pools/qft-burning-4.md)
-* [⚙️ Project expenses (5%)](mining-pools/project-expenses-5.md)
-* [☕ Founders' revenue (10%)](mining-pools/founders-revenue-10.md)
+* [✨ Quest creation (10%)](mechanics/quest-creation-10.md)
+* [Consensus voting](mechanics/consensus-voting.md)
+* [Humanity](mechanics/humanity.md)
+* [User levels](mechanics/user-levels.md)
+* [🚧 Challenge creation (6%)](mechanics/challenge-creation-6.md)
+* [✅ Quest completion (40%)](mechanics/quest-completion-40.md)
+* [📅 Season rewards (10%)](mechanics/season-rewards-10.md)
+* [❤️‍🔥 NFT burning (2%)](mechanics/nft-burning-2.md)
+* [💰 Liquidity providers (8%)](mechanics/liquidity-providers-8.md)
+* [🧊 QFT freezing (5%)](mechanics/qft-freezing-5.md)
+* [🔥 QFT burning (4%)](mechanics/qft-burning-4.md)
+* [⚙️ Project expenses (5%)](mechanics/project-expenses-5.md)
+* [☕ Founders' revenue (10%)](mechanics/founders-revenue-10.md)
 
 ## Trash bin
 
