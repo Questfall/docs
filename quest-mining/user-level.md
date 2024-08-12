@@ -2,5 +2,5 @@
 icon: crown
 ---
 
-# User levels
+# User Level
 

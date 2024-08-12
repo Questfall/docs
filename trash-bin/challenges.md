@@ -1,4 +1,8 @@
-# 🚧 Challenge creation (6%)
+---
+icon: head-side-gear
+---
+
+# Challenges
 
 For a solid defense against Sybil attacks, the number of challenges in the system should be sufficient in relation to the total number of users. To achieve this, any user can create a challenge, which becomes active once it has been approved by the community. The system will distribute 2% of the newly created QFTs each week to reward authors whose challenges are accepted during that week.&#x20;
 

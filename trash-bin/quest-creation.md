@@ -2,19 +2,17 @@
 icon: pencil
 ---
 
-# Quest authoring
+# Quest creation
 
-&#x20;<mark style="background-color:orange;">Coming in Questfall v1.0</mark>&#x20;
+As can be seen on existing quest platforms, without motivation, authors create quests just to lure the audience to other places with more exclusive interactions. This leads to the majority of quests being of very low quality, like silly tasks to join the Discord community or repost a tweet in X.
 
-Without motivation, authors create quests for no other reason than to promote their projects to the site's audience, as can be seen on the popular existing quest platforms. This leads to the majority of quests being of very low quality, like silly tasks to join the Discord community or repost a tweet in X.
-
-On the other hand, rewards for quests that are appreciated by the community create a very different economic situation. Global system rewards, based on the mining concept, allow authors to earn without selling by providing value to the community in the form of any content.
+On the other hand, rewarding quests that are appreciated by the community create a very different economic situation. Global system rewards, based on the mining concept, allow authors to earn without direct sales by providing content to the community in the form of quests.
 
 {% hint style="info" %}
-It can be anything: books, articles, lessons, music, pictures, videos and so on.
+The content provided in the form of a quest can be anything: books, articles, lessons, music, pictures, videos and so on.
 {% endhint %}
 
-In order to achieve this, 10% of the newly created QFTs will be distributed each week to users who have created quests with an end date that week, based on the popularity and rating of the quest.
+To encourage authors to create quality content in the form of quests, 10% of the newly created QFTs will be distributed each week to reward creators based on the popularity and rating of their quests.
 
 ***
 
@@ -24,7 +22,7 @@ Each author in Questfall has a Reputation attribute, which is essentially a movi
 
 {% tabs %}
 {% tab title="Chart" %}
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption><p>Reputation depending on the quest ratings</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Reputation of the author depends on the rating of his quests.</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Details" %}
@@ -41,6 +39,8 @@ For example, if a new author posts a quest that receives a 7.5 rating, the autho
 {% hint style="info" %}
 Because of the voting mechanic, malicious authors can't abuse the quest rating to increase their Reputation. Read more about this in [Quest completion](quest-completion.md) article.
 {% endhint %}
+
+
 
 ***
 
