@@ -30,10 +30,7 @@
 * [Author Reputation](quest-mining/author-reputation.md)
 * [Quest Points](quest-mining/quest-points.md)
 * [Quest Promotion](quest-mining/quest-promotion.md)
-* [Miner Rewards](quest-mining/miner-rewards.md)
-* [Author Mining](quest-mining/author-mining.md)
-* [User Mining](quest-mining/user-mining.md)
-* [Guardian Mining](quest-mining/guardian-mining.md)
+* [Weekly Rewards](quest-mining/weekly-rewards.md)
 * [Seasonal Rewards](mechanics/season-rewards-10.md)
 
 ## Infrastructure support
@@ -47,6 +44,9 @@
 
 ## Trash bin
 
+* [Guardian Mining](trash-bin/guardian-mining.md)
+* [User Mining](trash-bin/user-mining.md)
+* [Author Mining](trash-bin/author-mining.md)
 * [Challenges](mechanics/challenge-creation-6.md)
 * [Quest completion](mechanics/quest-completion-40.md)
 * [Quest creation](mechanics/quest-creation-10.md)
