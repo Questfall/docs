@@ -24,7 +24,7 @@
 
 ## Quest Mining
 
-* [User Humanity](mechanics/humanity.md)
+* [Humanity and Challenges](quest-mining/humanity-and-challenges.md)
 * [User Voting](mechanics/consensus-voting.md)
 * [User Level](mechanics/user-levels.md)
 * [Author Reputation](quest-mining/author-reputation.md)
