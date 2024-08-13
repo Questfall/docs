@@ -21,7 +21,7 @@ Users can also report the current challenge to bypass it, and if the community v
 As challenges cannot be freely bypassed, they are, in contrast to quests, pre-moderated by the community. In the pre-moderation phase, users decide whether the challenge is appropriate, feasible and unique. They will also check that the challenge has an individual answer for each user, which is an important security requirement.
 
 {% hint style="info" %}
-For example, writing "New York" backwards is a bad challenge because it gives the same answer for every account, whereas writing usernames backwards gives individual answers.
+For example, writing "New York" backwards is a bad challenge because it gives the same answer for every account, whereas writing usernames backwards gives individual answers and makes it harder to automate for many accounts.
 {% endhint %}
 
 During pre-moderation, the community will assign a difficulty level to a challenge, which will result in a certain amount of Humanity being awarded to users for completing it. The difficulty level can range from 0 to 10, and the Humanity gain will vary accordingly from 1,000 to 5,000.
@@ -38,12 +38,12 @@ $$
 Humanity=400*ChallengeDifficulty+1000
 $$
 
-For example, for the 3.4 challenge difficulty, Humanity will be equal $$400*3.4+1000=2360$$, and for the medium difficulty of 5.0, Humanity will be equal to 3,000.
+For example, for the 3.4 challenge difficulty, Humanity is calculated as such: $$400*3.4+1000=2360$$.
 {% endtab %}
 {% endtabs %}
 
 With this approach, the medium difficulty (5.0) challenge will increase the user's Humanity by 3000, which will be enough to complete 200 quests (as each quest costs 15 Humanity). This should be enough for a full day of quest mining.
 
-Besides challenges, users can gain Humanity by spending Credits, which are actually burned. For 5 Credits, a user can increase his Humanity by 10,000. In this way, a user adds value to the entire community by burning QFT for Credits.
+Besides challenges, users can gain Humanity by spending Credits, which are then burned. For 5 Credits, a user's Humanity increases by 10,000. In this way, a user adds value to the entire community by burning QFT for Credits.
 
 As a result, Humanity can be earned by completing challenges that can't be automated by bots, or it can be bought with money (by burning QFT). Both approaches keep Humanity as a limited resource, making Sybil attacks impossible.
