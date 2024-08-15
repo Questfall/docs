@@ -2,9 +2,9 @@
 icon: fingerprint
 ---
 
-# Humanity and Challenges
+# Humanity
 
-Humanity is a very important in Questfall, as it is the limited resource that is consumed during quest mining, and therefore prevents Sybil attacks. Each quest costs **15 Humanity** to complete, and each vote costs **1 Humanity** to cast. It's very similar to stamina in RPGs, but unlike stamina, Humanity can be negative, and obviously if a user doesn't have enough Humanity, he won't be able to complete quests or cast votes.
+Humanity is very important in Questfall, as it is the limited resource that is consumed during quest mining, and therefore prevents Sybil attacks. Each quest costs **15 Humanity** to complete, and each vote costs **1 Humanity** to cast. It's very similar to stamina in RPGs, but unlike stamina, Humanity can be negative, and obviously if a user doesn't have enough Humanity, he won't be able to complete quests or cast votes.
 
 {% hint style="info" %}
 Completing quests allows users to mine and earn in the present, while voting allows users to level up and increase the efficiency of mining in the future.

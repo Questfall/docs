@@ -23,6 +23,6 @@ For example, if a new author posts a quest that receives a 7.5 rating, the autho
 {% endtabs %}
 
 {% hint style="info" %}
-Because of the voting mechanic, malicious authors can't abuse the quest rating to increase their Reputation. Read more about voting process in [Consensus Voting](../mechanics/consensus-voting.md) article.
+Because of the voting mechanic, malicious authors can't abuse the quest rating to increase their Reputation. Read more about voting process in [Consensus Voting](community-vote.md) article.
 {% endhint %}
 
