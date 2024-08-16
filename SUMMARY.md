@@ -25,11 +25,13 @@
 ## Quest Mining
 
 * [Humanity](quest-mining/humanity.md)
-* [Community Vote](quest-mining/community-vote.md)
-* [Leveling Up](quest-mining/leveling-up.md)
+* [Levels](quest-mining/levels.md)
+* [Voting](quest-mining/voting.md)
+* [Quest Ratings](quest-mining/quest-ratings.md)
 * [Author Reputation](quest-mining/author-reputation.md)
 * [Quest Points](quest-mining/quest-points.md)
 * [Quest Promotion](quest-mining/quest-promotion.md)
+* [Mining Power](quest-mining/mining-power.md)
 * [Weekly Rewards](quest-mining/weekly-rewards.md)
 * [Seasonal Rewards](mechanics/season-rewards-10.md)
 
@@ -41,20 +43,3 @@
 * [🔥 QFT burning (4%)](mechanics/qft-burning-4.md)
 * [⚙️ Project expenses (5%)](mechanics/project-expenses-5.md)
 * [☕ Founders' revenue (10%)](mechanics/founders-revenue-10.md)
-
-## Trash bin
-
-* [Guardian Mining](trash-bin/guardian-mining.md)
-* [User Mining](trash-bin/user-mining.md)
-* [Author Mining](trash-bin/author-mining.md)
-* [Challenges](mechanics/challenge-creation-6.md)
-* [Quest completion](mechanics/quest-completion-40.md)
-* [Quest creation](mechanics/quest-creation-10.md)
-* [❕ - Introduction](trash-bin/introduction.md)
-* [❕ Overview](trash-bin/overview.md)
-* [💚 Quest quality reward](trash-bin/quest-quality-reward.md)
-* [📰 Global quest feed](trash-bin/global-quest-feed.md)
-* [🔝 Quest promotion](trash-bin/quest-promotion.md)
-* [🌲 Real-world quests](trash-bin/real-world-quests.md)
-* [🔰 Merit superiority](trash-bin/merit-superiority.md)
-* [📰 Global feed](trash-bin/global-feed.md)

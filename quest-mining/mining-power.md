@@ -1,0 +1,6 @@
+---
+icon: bolt
+---
+
+# Mining Power
+

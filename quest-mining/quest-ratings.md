@@ -1,0 +1,6 @@
+---
+icon: star
+---
+
+# Quest Ratings
+
