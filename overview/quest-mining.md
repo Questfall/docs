@@ -1,4 +1,8 @@
-# ⚒️ Quest mining
+---
+icon: pickaxe
+---
+
+# Quest mining
 
 Mining means that tokens with a limited total supply are periodically issued in decreasing amounts, determined by a pre-defined formula, and distributed to users according to the value they add to the system. This approach was first implemented in Bitcoin and became very successful.
 
@@ -24,8 +28,7 @@ In Questfall, 66% of the weekly issue is used to reward quest miners:
 
 * 40% to users who complete quests,
 * 10% to authors who create quests,
-* 6% to authors who create challenges,
-* 10% to seasonal reward pool.
+* 16% to seasonal reward pool.
 
 The remaining 34% is used to reward infrastructure support:
 
@@ -36,7 +39,7 @@ The remaining 34% is used to reward infrastructure support:
 * 5% to the Team for project expenses,
 * 10% to Founders.
 
-The principles for valuing user contributions can vary from one area to another. For example, liquidity providers are rewarded based on their share of the pool, while authors are rewarded based on quest ratings and popularity.
+The principles for valuing user contributions can vary from one area to another. For example, liquidity providers are rewarded based on their share of the pool, while authors are rewarded based on their quest ratings and popularity.
 
 ### Motivation for quality quests
 
@@ -45,7 +48,7 @@ The vast majority of projects on the existing quest platforms do not put a lot o
 Thanks to quest mining, Questfall is able to reward authors for the quality of their quests. To do this, every user is forced to vote on the quality of the quest after completing it. This rating will be used to calculate the reward for the quest author - the higher the rating, the bigger the reward for the author.
 
 {% hint style="info" %}
-A quest rating is actually not just a user's opinion on the quality of a quest, as it can be abused. Read more in the [Community consensus](<community-consensus (1).md>) article.
+A quest rating is actually not just a user's opinion on the quality of a quest, as it can be abused. Read more in the [Quest Ratings](../quest-mining/quest-ratings.md) article.
 {% endhint %}
 
 In this way, authors who create content that is highly rated by the community will be rewarded for doing so. In other words, authors can be rewarded for publishing their books, articles, lessons, music, pictures, videos and so on. Quests such as '_Read the new chapter of my book and answer the question_' could become a new paradigm for making money from the creation of intellectual products in today's economy.
@@ -62,7 +65,7 @@ This makes Questfall similar to sites like Facebook or Tweeter.
 
 The global quest feed not only allows users to keep up with what is happening on Questfall, but it also helps projects to promote their quests to all users of the platform, since the system can influence the visibility of quests in the feed.&#x20;
 
-However, promoting a quest is not just about getting a certain spot in the global feed for a fee. To promote a quest, an author should spend Credits on the _**Quest Points**_ that users will receive when they complete the quest. This means that promoted quests are not only more visible, but also more attractive for users to complete.
+However, promoting a quest is not just about getting a certain spot in the global feed for a fee. To promote a quest, an author should spend Credits on the [Quest Points](../quest-mining/quest-points.md) that users will receive when they complete the quest. This means that promoted quests are not only more visible, but also more attractive for users to complete.
 
 {% hint style="info" %}
 Since Credits can only be obtained by burning QFT (at a fixed price of $1), promoting quests forces [QFT deflation](deflationary-tokenomics.md), which adds value to the entire community.
@@ -81,6 +84,6 @@ For example, our Team will create the ongoing 'Plant a tree' quest right from th
 However, there is a downside to this approach: since quests are not pre-moderated, they can be used for evil purposes. For example, quests such as 'Kill an animal' or 'Say nasty things about this company' may appear. To prevent potential harm to others, any user can complain about a particular quest, and the community will decide by [consensus](<community-consensus (1).md>) whether it is appropriate or not.
 
 {% hint style="info" %}
-But this complaint mechanism could also be used by evil to punish good quests. To prevent this, the following logic will apply: if the community decides that the complaints are not justified, the complainants will be punished by reducing their Humanity, otherwise the quest will be banned, and the complainants will receive a Humanity bonus.
+But this complaint mechanism could also be used by evil to punish good quests. To prevent this, the following logic will apply: if the community decides by [consensus voting](../quest-mining/consensus-voting.md) that the complaints are not justified, the complainants will be punished, otherwise the quest will be banned, and the complainants will be rewarded.
 {% endhint %}
 

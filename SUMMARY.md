@@ -4,10 +4,10 @@
 
 ## Overview
 
-* [⚒️ Quest mining](overview/quest-mining.md)
+* [Quest mining](overview/quest-mining.md)
+* [Deflationary tokenomics](overview/deflationary-tokenomics.md)
 * [🛡️ Defense system](overview/defense-system.md)
 * [🎭 Community consensus](<overview/community-consensus (1).md>)
-* [💸 Deflationary tokenomics](overview/deflationary-tokenomics.md)
 
 ## Roadmap
 
@@ -26,7 +26,7 @@
 
 * [Humanity](quest-mining/humanity.md)
 * [Levels](quest-mining/leveling-up.md)
-* [Voting](quest-mining/community-vote.md)
+* [Consensus Voting](quest-mining/consensus-voting.md)
 * [Quest Ratings](quest-mining/quest-ratings.md)
 * [Author Reputation](quest-mining/author-reputation.md)
 * [Quest Points](quest-mining/quest-points.md)
