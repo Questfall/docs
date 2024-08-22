@@ -25,8 +25,8 @@
 ## Quest Mining
 
 * [Humanity](quest-mining/humanity.md)
-* [Levels](quest-mining/levels.md)
-* [Voting](quest-mining/voting.md)
+* [Levels](quest-mining/leveling-up.md)
+* [Voting](quest-mining/community-vote.md)
 * [Quest Ratings](quest-mining/quest-ratings.md)
 * [Author Reputation](quest-mining/author-reputation.md)
 * [Quest Points](quest-mining/quest-points.md)

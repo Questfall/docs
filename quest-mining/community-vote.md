@@ -2,5 +2,5 @@
 icon: message-check
 ---
 
-# User Voting
+# Voting
 
