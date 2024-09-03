@@ -29,7 +29,7 @@ Exactly this approach is the core principle of Questfall. But it is taken much f
 Egregore voting is based on a very simple idea - users are rewarded for voting in line with the majority, or punished for being in the minority. This forces users to vote not for their personal opinion, but for the opinion they think the majority will have. In other words, they give their vote to Egregore.
 
 {% hint style="info" %}
-The term "egregore" refers to a collective consciousness or thoughtform that is created when a group of people share common beliefs, emotions or intentions. Simply put, it is the 'normality' that is shared by many people and by which society lives, as we all know what is considered good or bad by current social norms.
+The term 'egregore' refers to a collective consciousness or thoughtform that is created when a group of people share common beliefs, emotions or intentions. Simply put, it is the 'normality' that is shared by many people and by which society lives, as we all know what is considered good or bad by current social norms.
 {% endhint %}
 
 The thing is, Egregor's view on any given issue is not set in stone - judgments of good and evil shift over time as social norms change. So in order to vote correctly (as the majority) and thus win, users need to be involved in the project community. This is similar to fashion - if you want to be stylish, you need to keep up with the latest trends.
