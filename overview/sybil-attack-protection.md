@@ -42,8 +42,10 @@ Correct voting allows users to level up, as the majority will receive XP, which 
 
 The crucial part of such votes is that they should be given to users randomly, so that they can't pick specific problems to vote for. Otherwise, malicious users will be able to vote correctly on the main account by hand, and clone their actions to many other accounts by code. On the other hand, if each account is given a different problem to vote for, it will not be possible to automate leveling through vote cloning.
 
+And of course there should be enough voting going on at any given time so that the probability of two different accounts voting for the same problem is close to zero. However, this will not be an issue as the most common type of voting will be to check quest completion, which will be many for every quest in the system.
+
 {% hint style="info" %}
-More details can be found in the [Egregore voting](../quest-mining/egregore-voting.md) article.
+There will be other issues to vote on. For example, with Egregore Voting, the community will decide whether a quest is appropriate when it is reported. See the [Egregore Voting](../quest-mining/egregore-voting.md) article for more details.
 {% endhint %}
 
 This approach assumes no restrictions, only a different rate of progression through the levels depending on the voting results. This means that quest mining (not voting!) can be abused by cloning completions on different accounts via code, as quests can be freely chosen by users.
