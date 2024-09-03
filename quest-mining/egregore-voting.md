@@ -1,4 +1,8 @@
-# 🎭 Community consensus
+---
+icon: message-check
+---
+
+# Egregore Voting
 
 One of the most important achievements of human civilization has been to resolve conflicts without bloodshed. This is achieved through the involvement of an outside authority whose decision is accepted by both sides of the conflict as the source of truth.&#x20;
 

@@ -52,7 +52,7 @@ The vast majority of projects on the existing quest platforms do not put a lot o
 Thanks to quest mining, Questfall is able to reward authors for the quality of their quests. To do this, every user is forced to vote on the quality of the quest after completing it. This rating will be used to calculate the reward for the quest author - the higher the rating, the bigger the reward for the author.
 
 {% hint style="info" %}
-A quest rating is actually not just a user's opinion on the quality of a quest, as it can be abused. Read more in the [Quest Ratings](../quest-mining/quest-ratings.md) article.
+A quest rating is actually not just a user's opinion on the quality of a quest, as it can be abused. Read more in the [Quest Ratings](../quest-mining/quest-rating.md) article.
 {% endhint %}
 
 In this way, authors who create content that is highly rated by the community will be rewarded for doing so. In other words, authors can be rewarded for publishing their books, articles, lessons, music, pictures, videos and so on. Quests such as '_Read the new chapter of my book and answer the question_' could become a new paradigm for making money from the creation of intellectual products in today's economy.
@@ -85,9 +85,9 @@ Quest mining rewards are not biased, and users are paid by the system itself, no
 For example, our Team will create the ongoing 'Plant a tree' quest right from the start. Since most oxygen is produced by algae, our second quest of this type would be 'Clean the Ocean'.
 {% endhint %}
 
-However, there is a downside to this approach: since quests are not pre-moderated, they can be used for evil purposes. For example, quests such as 'Kill an animal' or 'Say nasty things about this company' may appear. To prevent potential harm to others, any user can complain about a particular quest, and the community will decide by [consensus](<community-consensus (1).md>) whether it is appropriate or not.
+However, there is a downside to this approach: since quests are not pre-moderated, they can be used for evil purposes. For example, quests such as 'Kill an animal' or 'Say nasty things about this company' may appear. To prevent potential harm to others, any user can complain about a particular quest, and the community will decide by [consensus](broken-reference) whether it is appropriate or not.
 
 {% hint style="info" %}
-But this complaint mechanism could also be used by evil to punish good quests. To prevent this, the following logic will apply: if the community decides by [consensus voting](../quest-mining/consensus-voting.md) that the complaints are not justified, the complainants will be punished, otherwise the quest will be banned, and the complainants will be rewarded.
+But this complaint mechanism could also be used by evil to punish good quests. To prevent this, the following logic will apply: if the community decides by [consensus voting](../quest-mining/egregore-voting.md) that the complaints are not justified, the complainants will be punished, otherwise the quest will be banned, and the complainants will be rewarded.
 {% endhint %}
 
