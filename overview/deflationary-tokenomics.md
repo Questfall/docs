@@ -28,7 +28,7 @@ The defaltionary nature of QFT also implies that the number of tokens in circula
 This makes QFT tokenomics very different from any non-deflationary approach, which is essentially a Ponzi scheme, as existing holders can only cash out at the expense of newcomers.
 {% endhint %}
 
-Thanks to the Credits concept, such QFT price hikes (or any kind of volatility) will not affect third-party projects that promote their quests to the Questfall audience, as the Credits needed to do so have a fixed price in dollars. So if someone wants to spend some Stablecoins on promotion, he will get the same number of Credits regardless of the price of QFT.
+Thanks to the Credits concept, the increase (or decrease) in the price of QFT will not affect third-party projects that promote their quests to the Questfall audience, as the Credits required to do so have a fixed price in dollars. So if someone wants to spend some stablecoins on promotion, he will get the same number of Credits regardless of the price of QFT.
 
 Furthermore, at times when the price of QFT falls, the number of tokens burned by third-party projects will increase, as more QFTs must be burned to obtain the same number of Credits. This leads to a rapid trend reversal due to a shrinking circulating supply.
 
