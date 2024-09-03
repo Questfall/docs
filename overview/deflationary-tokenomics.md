@@ -18,31 +18,24 @@ Deflationary tokenomics solves this problem, as burning tokens reduces the circu
 
 In Questfall, users who burn Questfall Tokens (QFT) receive Credits at a fixed price of $1, which can be used to gain benefits on the platform: authors can promote their quests, and users can level up faster. Another way for users to gain an advantage is to mint a Mining NFT for QFTs, which will also be burned by the system.
 
-In this way, QFT tokens are issued each week as a reward to miners, while at the same time being burned for Credits or NFTs. This dialectic has several advantages.
+In this way, QFT tokens are issued each week to reward miners, while at the same time they are burned for Credits and NFTs. This dialectic has several advantages.
 
-1. The portion of QFT's capitalisation that is used to reward miners will not decrease despite the decline in token issuance.
-2. The increase in the QFT price due to the influx of new money from investors will make mining more profitable, thus attracting new users to quest activity and infrastructure support.
-3. The supply of QFT tokens in circulation will initially increase, as there will be no QFT tokens to begin with, but as the market saturates, the number of QFT tokens in circulation will slowly decrease over time. This means that the price of QFT will rise in the long run, even if the demand from existing Questfall users who want to get an edge on the platform remains constant.&#x20;
-4. Mining's share of system capitalization tends to be stable over the long term. This means that the percentage of the increase in circulating supply from mining will be more or less constant from year to year.
+Firstly, it solves the inherent problem of bitcoin's approach to mining, as the miners' share of the system's capitalisation tends to be stable over the long term. In other words, the portion of QFT's capitalisation that is used to reward miners will not decrease despite the decline in token issuance.
 
-{% hint style="info" %}
-As a result, the portion of QFT's capitalisation that is used to reward miners will not decrease despite the decline in token issuance.
-{% endhint %}
-
-1. The increase in the QFT price due to the influx of new money from investors makes mining more profitable, thus attracting new users to quest activity and infrastructure support.
-
-{% hint style="info" %}
-This means that the miner's income will also increase as more money comes in, despite the declining QFT issue. So the more investors see the potential of the platform, the more miners will be in the system.
-{% endhint %}
-
-1. The supply of QFT tokens in circulation will initially increase, as there will be no QFT tokens to begin with, but as the market saturates, the number of QFT tokens in circulation will slowly decrease over time. This means that the price of QFT will rise in the long run, even if the demand from existing Questfall users who want to get an edge on the platform remains constant.&#x20;
+The defaltionary nature of QFT also implies that the number of tokens in circulation will initially increase as there are no tokens to begin with, but as the market saturates, the number of QFTs in circulation will slowly decrease over time. This means that the price of QFT will rise in the long run, even if the demand from existing Questfall users who want to get an edge on the platform remains constant.
 
 {% hint style="info" %}
 This makes QFT tokenomics very different from any non-deflationary approach, which is essentially a Ponzi scheme, as existing holders can only cash out at the expense of newcomers.
 {% endhint %}
 
-4. The volatility of the QFT price does not affect third-party projects that want to promote their quests to the Questfall audience, as the Credits needed to do so have a fixed price in dollars. So, if someone wants to spend some stablecoins on promotion, they will get the same number of Credits regardless of the price of QFT. The QFT price changes will only affect miners and holders, who will receive a different number of Credits for their QFTs.
-5. As the price of QFT tends to rise in the long term, the number of Credits (and therefore the value that can be obtained from the system) for a QFT token will increase over time. This is exactly how deflation works - the longer consumers wait, the more value they will receive for the same amount of money.
-6. As the price of QFT falls, the number of tokens burned will increase, as more QFTs will have to be burned to obtain the same number of Credits. This leads to a rapid trend reversal due to a shrinking circulating supply.
+Thanks to the Credits concept, such QFT price hikes (or any kind of volatility) will not affect third-party projects that promote their quests to the Questfall audience, as the Credits needed to do so have a fixed price in dollars. So if someone wants to spend some Stablecoins on promotion, he will get the same number of Credits regardless of the price of QFT.
 
-In summary, deflationary tokenomics is not just a fix for the mining approach - it is a much healthier and fairer system, based on the idea that those who wait, earn.
+Furthermore, at times when the price of QFT falls, the number of tokens burned by third-party projects will increase, as more QFTs must be burned to obtain the same number of Credits. This leads to a rapid trend reversal due to a shrinking circulating supply.
+
+The QFT price changes will only affect miners and holders, who will receive a different number of Credits for their QFTs. As the price of QFT tends to rise in the long term, the number of Credits (and therefore the value that can be obtained from the system) for a QFT token will increase over time. This is exactly how deflation works - the longer a consumer waits, the more value he will receive for the same amount of money.
+
+{% hint style="info" %}
+Although Worren Buffet said that "the stock market is a device for transferring money from the impatient to the patient", in reality this is not true. Deflationary tokenomics is the only way to implement a system in which those who wait earn.
+{% endhint %}
+
+And of course, this approach leaves the core mining advantage intact - the increase in the QFT price due to the influx of new money from investors will make mining more profitable, thus attracting new users to quest activity and infrastructure support, resulting in Questfall's popularisation. And the more popular Questfall becomes, the more investors will be interested in QFT, creating a positive feedback loop.
