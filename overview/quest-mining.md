@@ -6,15 +6,15 @@ icon: pickaxe
 
 Mining, first implemented in Bitcoin, creates an economy completely different from modern capitalism by establishing a direct link between investment in the cryptocurrency and the development of the system.
 
-Whereas high demand for a particular security on the stock market allows only the founders of a company to cash out with a profit or speculators to make money, the high price of cryptocurrency ensures the profitability of mining, attracting new participants and making the Bitcoin blockchain more secure.
+While high demand for a particular security on the stock market allows only the founders of a company to cash out with a profit or speculators to make money, the high price of cryptocurrency ensures the profitability of mining, attracts new participants and, in the case of Proof of Work, makes the blockchain more secure.
 
 {% hint style="info" %}
-Mining in the broadest sense means that tokens with a limited total supply are periodically issued in decreasing amounts, determined by a pre-defined formula, and distributed to users according to the value they add to the system.
+Here and throughout, we take mining in a more abstract sense than just brute forcing a hash in Proof of Work. By mining we mean tokenomics, where tokens with a limited total supply are periodically issued in decreasing amounts, determined by a pre-defined formula, and distributed to users according to the value they add to the system.
 {% endhint %}
 
-The mining approach has been very successful because it allows newly issued coins to be obtained for valuable actions, such as hash brute forcing, without the need to pay for a cryptocurrency.&#x20;
+The mining approach has been very successful because it allows newly issued coins to be obtained for valuable actions, such as creating a new block in the chain, without having to pay for a cryptocurrency. And if we assume that such valuable actions can actually be anything, then the mining concept fits perfectly into a quest mining concept.&#x20;
 
-If we assume that such valuable actions can actually be anything, then the mining concept fits perfectly into a quest mining concept. So it's no surprise that Questfall is built around the concept of mining, which means that the system rewards users with a decreasing number of Questfall Tokens (QFT) each week for various quest-related and infrastructure-supporting actions.
+So it's no surprise that Questfall is built around the concept of mining, which means that the system rewards users with a decreasing number of Questfall Tokens (QFT) each week for various quest-related and infrastructure-supporting actions.
 
 {% hint style="info" %}
 Each QFT token is mined, i.e. used to reward valuable actions when issued, and is not pre-minted by the Team.
@@ -22,7 +22,7 @@ Each QFT token is mined, i.e. used to reward valuable actions when issued, and i
 
 ### Reward distribution by pools
 
-There is no way to compare the creation of a quest and the provision of liquidity to the DEX pool, so the QFT issue is divided into pre-determined shares between different areas. This can be thought of as different mining pools, each with its own fixed percentage of the issue, where users compete by providing comparable value.
+There is no way to compare the creation of a quest and the provision of liquidity to the DEX pool, so the QFT issue is divided into pre-determined shares between different areas. It can be thought of as different mining pools, each receiving a fixed percentage of the issue to reward users who compete by providing comparable value.
 
 {% hint style="info" %}
 As the percentage split is fixed, and the QFT issue is also known in advance, the number of tokens for each area can be accurately calculated for a given week.
@@ -32,7 +32,7 @@ In Questfall, 66% of the weekly issue is used to reward quest miners:
 
 * 40% to users who complete quests,
 * 10% to authors who create quests,
-* 16% to seasonal reward pool.
+* 16% to seasonal reward pool (11.2% to users and 4.8% to authors).
 
 The remaining 34% is used to reward infrastructure support:
 
@@ -47,9 +47,9 @@ The principles for valuing user contributions can vary from one area to another.
 
 ### Motivation for quality quests
 
-The vast majority of projects on the existing quest platforms do not put a lot of resources into creating quests, and as a result, most of them are silly tasks like joining Discord or reposting a Tweet. This happens because projects are primarily interested in promoting themselves, and quest platforms give them access to the userbase without any demands on the quality of the quests. As a result, project teams simply take the most efficient route with the least amount of effort.
+The vast majority of projects on the existing quest platforms do not put a lot of resources into creating quests, and as a result, most of them are silly tasks like joining Discord or reposting a Tweet. This happens because projects are primarily interested in promoting themselves, and quest platforms give them access to the userbase without any demands on the quality of the quests. As a result, project teams simply take the most efficient path that requires the least effort.
 
-Thanks to quest mining, Questfall is able to reward authors for the quality of their quests. To do this, every user is forced to vote on the quality of the quest after completing it. This rating will be used to calculate the reward for the quest author - the higher the rating, the bigger the reward for the author.
+Thanks to quest mining, Questfall is able to reward authors for the quality of their quests. To do this, every user is forced to vote on the quality of the quest after completing it. These ratings have a direct impact on quest author rewards - the more good quests an author creates, the greater his overall reward.
 
 {% hint style="info" %}
 A quest rating is actually not just a user's opinion on the quality of a quest, as it can be abused. Read more in the [Quest Ratings](../quest-mining/quest-rating.md) article.
