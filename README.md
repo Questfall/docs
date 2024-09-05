@@ -2,7 +2,11 @@
 
 Bitcoin introduced the concept of mining, but brute forcing the hash in the Proof of Work consensus brings no value to the world other than protecting the Bitcoin blockchain from [Sybil attacks](https://en.wikipedia.org/wiki/Sybil\_attack).
 
-Over the past few years, our team has been working hard on [the Elysium blockchain](https://docs.elysium-chain.com/en), which was born out of the idea of quest mining. We dream of a blockchain where people earn cryptocurrency by completing quests and can level up to increase their mining power, like in role-playing games.&#x20;
+Over the past few years, our team has been working hard on [the Elysium blockchain](https://docs.elysium-chain.com/en), which was born out of the idea of quest mining. We dream of a blockchain where people earn cryptocurrency by completing quests and can level up to increase their mining power, like in role-playing games.
+
+{% hint style="info" %}
+In addition to quest mining, which creates value, such a levelling system can be used as a solid defence against Sybil attacks.
+{% endhint %}
 
 As our team worked on the details of such quest mining, at a certain point we realized that it could be implemented as a standalone project to test and tweak the mechanics before integrating it into the core of the Elysium blockchain.
 
