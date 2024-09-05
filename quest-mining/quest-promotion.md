@@ -18,4 +18,10 @@ The Reputation that is additionally applied&#x20;
 
 ***
 
-### A
+However, promoting a quest is not just about getting a certain spot in the global feed for a fee. To promote a quest, an author should spend Credits on the [Quest Points](quest-points.md) that users will receive when they complete the quest. This means that promoted quests are not only more visible, but also more attractive for users to complete.
+
+{% hint style="info" %}
+Since Credits can only be obtained by burning QFT (at a fixed price of $1), promoting quests forces [QFT deflation](../overview/deflationary-tokenomics.md), which adds value to the entire community.
+{% endhint %}
+
+This way, the feed algorithm will push the most rated or promoted quests to the top, making quests that do not add value to the community less popular and allowing users to focus on quests that are educational, fun or offer a higher reward.

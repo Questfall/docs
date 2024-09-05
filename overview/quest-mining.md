@@ -49,19 +49,23 @@ The principles for valuing user contributions can vary from one area to another.
 
 The vast majority of projects on the existing quest platforms do not put a lot of resources into creating quests, and as a result, most of them are silly tasks like joining Discord or reposting a Tweet. This happens because projects are primarily interested in promoting themselves, and quest platforms give them access to the userbase without any demands on the quality of the quests. As a result, project teams simply take the most efficient path that requires the least effort.
 
-Thanks to quest mining, Questfall is able to reward authors for the quality of their quests. To do this, every user is forced to vote on the quality of the quest after completing it. These ratings have a direct impact on quest author rewards - the more good quests an author creates, the greater his overall reward.
+Thanks to quest mining, Questfall is able to reward authors for the quality of their quests. In order to do this, every user will be forced to vote on the quest's rating after it has been completed, thus affecting the author's reward.
 
 {% hint style="info" %}
 A quest rating is actually not just a user's opinion on the quality of a quest, as it can be abused. Read more in the [Quest Ratings](../quest-mining/quest-rating.md) article.
 {% endhint %}
 
-In this way, authors who create content that is highly rated by the community will be rewarded for doing so. In other words, authors can be rewarded for publishing their books, articles, lessons, music, pictures, videos and so on. Quests such as '_Read the new chapter of my book and answer the question_' could become a new paradigm for making money from the creation of intellectual products in today's economy.
+In this way, authors who create content that is highly rated by the community will be rewarded for doing so. In other words, authors can be rewarded for publishing their books, articles, lessons, music, pictures, videos and so on.&#x20;
+
+{% hint style="info" %}
+Quests such as '_Read the new chapter of my book and answer the question_' could become a new paradigm for making money from the creation of intellectual products in today's economy.
+{% endhint %}
 
 ### Global quest feed
 
-None of the existing quest platforms have implemented quest mining, so it is assumed that their users receive rewards from the particular projects they do quests for. This approach not only makes user rewards arbitrary and optional, but also makes it pointless to spread effort across quests from different projects.
+None of the existing quest platforms have implemented quest mining, so it is assumed that their users receive rewards from the particular projects they do quests for. This approach not only makes user rewards arbitrary and optional, but also forces users to focus on a few specific projects, skipping many other activities on the platform.
 
-Global rewards from the system, thanks to quest mining, allow Questfall to have a global quest feed, which is the direct analogue to the post feed in any social media platform. The only difference is the depth of user interaction with the content. If the social media format does not require a mandatory response to the post, a quest will need some proof that a user has taken a certain action.
+Global rewards from the system, thanks to quest mining, allow Questfall to have a global quest feed, which is the direct analogue to the post feed in any social media platform. The only difference is the depth of user interaction with the content. If the social media format does not require a mandatory response to the post, a quest will need some proof that a user has taken a requested action.
 
 {% hint style="info" %}
 This makes Questfall similar to sites like Facebook or Tweeter.
@@ -69,25 +73,17 @@ This makes Questfall similar to sites like Facebook or Tweeter.
 
 The global quest feed not only allows users to keep up with what is happening on Questfall, but it also helps projects to promote their quests to all users of the platform, since the system can influence the visibility of quests in the feed.&#x20;
 
-However, promoting a quest is not just about getting a certain spot in the global feed for a fee. To promote a quest, an author should spend Credits on the [Quest Points](../quest-mining/quest-points.md) that users will receive when they complete the quest. This means that promoted quests are not only more visible, but also more attractive for users to complete.
-
 {% hint style="info" %}
-Since Credits can only be obtained by burning QFT (at a fixed price of $1), promoting quests forces [QFT deflation](deflationary-tokenomics.md), which adds value to the entire community.
+When projects promote their quests, they add value to the entire community. Read more in the [Quest Promotion](../quest-mining/quest-promotion.md) article.
 {% endhint %}
-
-This way, the feed algorithm will push the most rated or promoted quests to the top, making quests that do not add value to the community less popular and allowing users to focus on quests that are educational, fun or offer a higher reward.
 
 ### Real-world quests
 
 Quest mining rewards are not biased, and users are paid by the system itself, not by projects or other users. This means that anyone can use Questfall not only to make money, but also to make the world a better place. The only requirement for such quests is that they are appreciated by the community.
 
 {% hint style="info" %}
-For example, our Team will create the ongoing 'Plant a tree' quest right from the start. Since most oxygen is produced by algae, our second quest of this type would be 'Clean the Ocean'.
+For example, users can benefit for creating such quests as 'Plant a tree' or 'Clean the Ocean'.
 {% endhint %}
 
-However, there is a downside to this approach: since quests are not pre-moderated, they can be used for evil purposes. For example, quests such as 'Kill an animal' or 'Say nasty things about this company' may appear. To prevent potential harm to others, any user can complain about a particular quest, and the community will decide by [consensus](broken-reference) whether it is appropriate or not.
-
-{% hint style="info" %}
-But this complaint mechanism could also be used by evil to punish good quests. To prevent this, the following logic will apply: if the community decides by [consensus voting](../quest-mining/egregore-voting.md) that the complaints are not justified, the complainants will be punished, otherwise the quest will be banned, and the complainants will be rewarded.
-{% endhint %}
+However, there is a downside to this approach: since quests are not pre-moderated, they can be used for evil purposes. For example, quests such as 'Kill an animal' or 'Say nasty things about this company' may appear. To prevent potential harm to others, any user can report a quest and the community will vote on whether or not it is appropriate.
 
