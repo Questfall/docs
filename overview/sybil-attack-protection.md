@@ -10,9 +10,11 @@ In Bitcoin, obtaining the hash needed to link the newly created block to the las
 
 However, if mining power represents, for example, the number of quests completed, such completions can be easily manipulated because the system is not smart enough to distinguish the quality of such completions. It blindly uses a set of rules and the numbers given as input to distribute the reward.
 
-The problem is that if it is possible to sell a fake into the system, cheaters will flood it with fakes, while users who add real value will receive only a tiny fraction of the system's reward. Eventually this will break the system completely.
+{% hint style="info" %}
+The mining approach assumes that users compete with each other for a fixed reward, but if it's possible to sell a fake into the system, the real value, which is relatively 'expensive', can't compete with the 'cheap' fakes. And eventually only fakes will remain in the system.
+{% endhint %}
 
-One of the common solutions to this problem is to impose some limits on the value that can be added to the system. And the most popular approach, which has been tried many times in recent years, is to build mining around the limits of human nature itself. From various KYC systems with confirmation in the form of NFT, to all sorts of pedometers and tappers on mobile devices.
+One of the common solutions that has been tried many times in recent years to prevent counterfeiting is to build mining around the limits of human nature itself. From various KYC systems with confirmation in the form of NFT, to all sorts of pedometers and tappers on mobile devices.
 
 However, none of these approaches have been successful because, in the long run, they are all open to abuse. KYC accounts are sold in bundles for pennies, while farms of thousands of phones fake the required actions on a massive scale. So, today's teams prefer to take the easy way out and mint all the tokens for themselves at once and then sell them to the crowd.
 
@@ -20,11 +22,11 @@ However, none of these approaches have been successful because, in the long run,
 This is actually nothing new. At the dawn of the stock market more than 150 years ago, anyone could issue their own securities and sell them to the public through newspaper advertisements. And until the government started to regulate the securities market, it had much bigger ups, downs and scams than the modern crypto market.
 {% endhint %}
 
-The main problem with such approaches is that the defence is based on a one-off cost - there is no need to constantly spend resources to generate value for the system. Users simply need to buy a phone or obtain an NFT for each account, and then they are free to automate the mining process with bots.
+The core problem with such approaches is that the defence is based on a one-off cost - there is no need to constantly spend resources to generate value for the system. Users simply need to buy a phone or obtain an NFT for each account, and then they are free to automate the mining process with code.
 
-Bitcoin is built on much more robust protection when users have to spend a limited resource (electricity) and are rewarded for creating value according to the rules. The core principle is that users who follow the rules are rewarded, and those who don't are punished by spending resources for nothing.
+Bitcoin is built on a much more robust protection, which assumes that users have to spend a limited resource (electricity) and are rewarded for creating value according to the rules. This principle can be formulated as "rewarding users who follow the rules and punishing those who don't (by spending resources for nothing)".
 
-Exactly this approach is the core principle of Questfall. But it is taken much further by using two crucial concepts: Egregore Voting and User Levels.
+Being at the heart of Questfall, this approach is taken much further by using two crucial concepts: Egregore Voting and User Levels.
 
 Egregore voting is based on a very simple idea - users are rewarded for voting in line with the majority, or punished for being in the minority. This forces users to vote not for their personal opinion, but for the opinion they think the majority will have. In other words, they give their vote to Egregore.
 
