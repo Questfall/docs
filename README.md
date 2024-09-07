@@ -5,7 +5,7 @@ Bitcoin introduced the concept of mining, but brute forcing the hash in the Proo
 Over the past few years, our team has been working hard on [the Elysium blockchain](https://docs.elysium-chain.com/en), which was born out of the idea of quest mining. We dream of a blockchain where people earn cryptocurrency by completing quests and can level up to increase their mining power, like in role-playing games.
 
 {% hint style="info" %}
-This approach creates a hierarchy of users, which in itself is a solid defence against Sybil attacks. In Bitcoin, for example, the defence is also implemented with a hierarchy of users based on their computing power.
+This approach creates a hierarchy of users, which is essentially a defence against Sybil attacks. In Bitcoin, for example, the defence is implemented with a hierarchy of users based on their computing power.
 {% endhint %}
 
 As our team worked on the details of such a quest mining approach, at a certain point we realized that it could be implemented as a standalone project to test and tweak the mechanics before integrating it into the core of the Elysium blockchain.
