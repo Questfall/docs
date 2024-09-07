@@ -22,10 +22,10 @@ Each QFT token is mined, i.e. used to reward valuable actions when issued, and i
 
 ### Reward distribution by pools
 
-There is no way to compare the creation of a quest and the provision of liquidity to the DEX pool, so the QFT issue is divided into pre-determined shares between different areas. It can be thought of as different mining pools, each receiving a fixed percentage of the issue to reward users who compete by providing comparable value.
+There is no way to compare the creation of a quest and the provision of liquidity to the DEX pool, so the QFT issue is divided into pre-determined shares between different areas. It can be thought of as different mining pools, each receiving a fixed percentage of the weekly issue and distributing rewards to users based on the comparative value they bring to the system.
 
 {% hint style="info" %}
-As the percentage split is fixed, and the QFT issue is also known in advance, the number of tokens for each area can be accurately calculated for a given week.
+As the percentage split is fixed, and the QFT issue is also known in advance, the number of tokens for each of these pools can be accurately calculated for a given week.
 {% endhint %}
 
 In Questfall, 66% of the weekly issue is used to reward quest miners:
@@ -43,16 +43,18 @@ The remaining 34% is used to reward infrastructure support:
 * 5% to the Team for project expenses,
 * 10% to Founders.
 
-The principles for valuing user contributions can vary from one area to another. For example, liquidity providers are rewarded based on their share of the pool, while authors are rewarded based on their quest ratings and popularity.
+The principles for valuing user contributions can vary from one pool to another. For example, liquidity providers are rewarded based on their share of the pool, while authors are rewarded based on their quest ratings and popularity.
 
 ### Motivation for quality quests
 
-The vast majority of projects on the existing quest platforms do not put a lot of resources into creating quests, and as a result, most of them are silly tasks like joining Discord or reposting a Tweet. This happens because projects are primarily interested in promoting themselves, and quest platforms give them access to the userbase without any demands on the quality of the quests. As a result, project teams simply take the most efficient path that requires the least effort.
+The vast majority of projects on the existing quest platforms do not put a lot of resources into creating quests, and as a result, most of them are silly tasks like joining Discord or reposting a Tweet.&#x20;
 
-Thanks to quest mining, Questfall is able to reward authors for the quality of their quests. In order to do this, every user will be forced to vote on the quest's rating after it has been completed, thus affecting the author's reward.
+This happens because projects are primarily interested in promoting themselves, and quest platforms give them access to the userbase without any demands on the quality of the quests. As a result, project teams simply take the most efficient path that requires the least effort.
+
+Thanks to quest mining, Questfall is able to reward authors for the quality of their quests. In order to do this, every user will be rewarded for voting on the rating of the quests he has completed, which will affect the author's reward.
 
 {% hint style="info" %}
-A quest rating is actually not just a user's opinion on the quality of a quest, as it can be abused. Read more in the [Quest Ratings](../quest-mining/quest-rating.md) article.
+In order to prevent malicious authors from abusing the rating system, votes will be weighted differently depending on the level of the user. Read more in the [Quest Ratings](../quest-mining/quest-rating.md) article.
 {% endhint %}
 
 In this way, authors who create content that is highly rated by the community will be rewarded for doing so. In other words, authors can be rewarded for publishing their books, articles, lessons, music, pictures, videos and so on.&#x20;
@@ -74,16 +76,16 @@ This makes Questfall similar to sites like Facebook or Tweeter.
 The global quest feed not only allows users to keep up with what is happening on Questfall, but it also helps projects to promote their quests to all users of the platform, since the system can influence the visibility of quests in the feed.&#x20;
 
 {% hint style="info" %}
-When projects promote their quests, they add value to the entire community. Read more in the [Quest Promotion](../quest-mining/quest-promotion.md) article.
+Promoting quests requires adding value to the entire community. Read more in the [Quest Promotion](../quest-mining/quest-promotion.md) article.
 {% endhint %}
 
 ### Real-world quests
 
-Quest mining rewards are not biased, and users are paid by the system itself, not by projects or other users. This means that anyone can use Questfall not only to make money, but also to make the world a better place. The only requirement for such quests is that they are appreciated by the community.
+Quest mining rewards are not biased, and users are paid by the system itself, not by projects or other users. This means that anyone can use Questfall not only to make money, but also to make the world a better place.
 
 {% hint style="info" %}
 For example, users can benefit for creating such quests as 'Plant a tree' or 'Clean the Ocean'.
 {% endhint %}
 
-However, there is a downside to this approach: since quests are not pre-moderated, they can be used for evil purposes. For example, quests such as 'Kill an animal' or 'Say nasty things about this company' may appear. To prevent potential harm to others, any user can report a quest and the community will vote on whether or not it is appropriate.
+However, there is a downside to this approach: since quests are not pre-moderated, they can be used for evil purposes. For example, quests such as 'Kill an animal' or 'Say nasty things about this company' may appear. To prevent potential harm to others, any user can report a quest and the [community will vote](../quest-mining/egregore-voting.md) on whether or not it is appropriate.
 
