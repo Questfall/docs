@@ -2,7 +2,25 @@
 icon: message-check
 ---
 
-# Egregore Voting
+# Community Moderation
+
+To protect the system from such abuse, community moderation is based on voting, with the following rules:
+
+1. Each item to be moderated is voted on using the binary options (yes/no, good/bad, etc). The votes have different weights and a winning majority is calculated based on the vote weights.
+2.
+3. The weight of a user's vote is directly correlated to his level. This makes it impossible for a large number of new accounts to be registered and used to manipulate voting results.
+4. Users can't choose specific items to vote on when moderating - the system assigns them randomly. This prevents the same automated vote being cast from many accounts.
+5. Along with the real problems that need moderation system generates fakes, that should not pass moderation. Since the system knows what should be the correct vote it can punish malicious voters and reward good ones independent of who is the majority. In other words such fakes are used as honeypots.
+6. If a user votes As a result of moderation voting the majority wins (gains XP) and minority loses (the amount of XP needed to reach the next levels increases). It is assumed that the majority cast votes properly, since the weights of the votes increases with user level and many low level users can't brake the voting.
+7. The amount of XP that is used as reward is less than the amount of XP that is used for punishement. This makes a random voting a losing strategy, since the amount of XP to get to the next level will grow after many iterations.&#x20;
+
+
+
+{% hint style="info" %}
+There will be other issues to vote on. For example, with Egregore Voting, the community will decide whether a quest is appropriate when it is reported. See the [Egregore Voting](community-moderation.md) article for more details.
+{% endhint %}
+
+
 
 One of the most important achievements of human civilization has been to resolve conflicts without bloodshed. This is achieved through the involvement of an outside authority whose decision is accepted by both sides of the conflict as the source of truth.&#x20;
 

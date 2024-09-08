@@ -87,5 +87,5 @@ Quest mining rewards are not biased, and users are paid by the system itself, no
 For example, users can benefit for creating such quests as 'Plant a tree' or 'Clean the Ocean'.
 {% endhint %}
 
-However, there is a downside to this approach: since quests are not pre-moderated, they can be used for evil purposes. For example, quests such as 'Kill an animal' or 'Say nasty things about this company' may appear. To prevent potential harm to others, any user can report a quest and the [community will vote](../quest-mining/egregore-voting.md) on whether or not it is appropriate.
+However, there is a downside to this approach: since quests are not pre-moderated, they can be used for evil purposes. For example, quests such as 'Kill an animal' or 'Say nasty things about this company' may appear. To prevent potential harm to others, any user can report a quest and the [community will vote](../quest-mining/community-moderation.md) on whether or not it is appropriate.
 

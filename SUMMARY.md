@@ -23,8 +23,8 @@
 
 ## Quest Mining
 
-* [Egregore Voting](quest-mining/egregore-voting.md)
-* [User Level](quest-mining/user-level.md)
+* [Community Moderation](quest-mining/community-moderation.md)
+* [User Levels](quest-mining/user-levels.md)
 * [Quest Rating](quest-mining/quest-rating.md)
 * [Author Reputation](quest-mining/author-reputation.md)
 * [Quest Points](quest-mining/quest-points.md)
