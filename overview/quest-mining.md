@@ -4,7 +4,7 @@ icon: pickaxe
 
 # Quest mining
 
-Mining, first implemented in Bitcoin, creates an economy completely different from modern capitalism by establishing a direct link between investment in the cryptocurrency and the development of the system.
+Mining, first implemented in Bitcoin, creates an economy completely different from modern capitalism by establishing a direct link between investment in the system and its development.
 
 While high demand for a particular security on the stock market allows only the founders of a company to cash out with a profit or speculators to make money, the high price of cryptocurrency ensures the profitability of mining, attracts new participants and, in the case of Proof of Work, makes the blockchain more secure.
 
@@ -20,12 +20,10 @@ So it's no surprise that Questfall is built around the concept of mining, which 
 Each QFT token is mined, i.e. used to reward valuable actions when issued, and is not pre-minted by the Team.
 {% endhint %}
 
-### Reward distribution by pools
-
 There is no way to compare the creation of a quest and the provision of liquidity to the DEX pool, so the QFT issue is divided into pre-determined shares between different areas. It can be thought of as different mining pools, each receiving a fixed percentage of the weekly issue and distributing rewards to users based on the comparative value they bring to the system.
 
 {% hint style="info" %}
-As the percentage split is fixed, and the QFT issue is also known in advance, the number of tokens for each of these pools can be accurately calculated for a given week.
+As the percentage split is fixed, and the QFT issue is determined by the pre-defined formula, the number of tokens allocated to each of these pools can be accurately calculated for any given week.
 {% endhint %}
 
 In Questfall, 66% of the weekly issue is used to reward quest miners:

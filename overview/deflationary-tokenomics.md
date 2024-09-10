@@ -4,19 +4,23 @@ icon: chart-line-up
 
 # Deflationary tokenomics
 
-While the mining approach has worked very well in Bitcoin so far, it has a major problem in the long run. This problem is the imbalance between the value held by holders and the value received by miners - the ratio of BTCs received by miners to BTCs in circulation decreases over time.
+While the mining approach has worked very well in Bitcoin so far, it has a major problem in the long run. There is an imbalance between the value held by holders and the value received by miners - the ratio of miner rewards to supply in circulation declines over time.
 
 When the Bitcoin blockchain started, each reward for a block gave miners a tangible share of the circulating supply, but today there are almost 20 million bitcoins in circulation and the remaining 1 million+ tokens will be mined over the next 125 years. This means that miners get a smaller and smaller share of the circulating supply, and since they are rewarded by issuing BTCs that gain value by taking it away from existing holders, their share of Bitcoin's capitalisation shrinks over time.
 
-This could be compared to the finances of a company in the real world, and how income is divided between salaries for employees and dividends for shareholders. The simplistic mining mechanism implemented in Bitcoin assumes that dividends as a percentage of total company income will grow steadily over time until it reaches 100%. Not only does this seem unfair, but it is also dangerous for the system, as workers will eventually not earn enough.
+This could be compared to the finances of a company in the real world, and how income is divided between salaries for employees and dividends for shareholders. If the simplified mining mechanism implemented in Bitcoin is applied to a real company, dividends as a percentage of total income will grow steadily over time until it reaches 100%. Not only does this seem unfair, but it is also dangerous for the system, as workers will eventually not earn enough.
 
 {% hint style="info" %}
-In Bitcoin, it is assumed that once BTC issuance stops, miners will get their reward from transaction fees, but it will be a very different mechanism, and nobody knows in advance whether it will work or not.
+Bitcoin assumes that once BTCs are no longer issued in 2140, miners will be paid through transaction fees, but this is a very different economic model and no one knows in advance whether it will work or not.
 {% endhint %}
 
-Deflationary tokenomics solves this problem, as burning tokens reduces the circulating supply while increasing the miners' share. But burning without compensation results in losses and therefore only makes sense for altruists who benefit others at the expense of their own interests. Therefore, to make burning tokens attractive, users must receive some value from the system in return.
+Deflation can solve this problem, as burning tokens reduces the supply in circulation, thus increasing the miners' share. But burning for nothing causes losses, and therefore only makes sense for altruists who benefit others at the expense of their own interests. To make burning tokens attractive, the system should give something in return.
 
-In Questfall, users who burn Questfall Tokens (QFT) receive Credits at a fixed price of $1, which can be used to gain benefits on the platform: authors can promote their quests, and users can level up faster. Another way for users to gain an advantage is to mint a Mining NFT for QFTs, which will also be burned by the system.
+In Questfall, users can burn QFT tokens to gain one of three benefits: authors can promote their quests to increase their visibility, users can mint Mining NFT to increase their mining power, or gain XP to level up without moderation.
+
+{% hint style="info" %}
+These benefits are paid for with off-chain Credits, which can only be obtained by burning QFT at a fixed price of $1.
+{% endhint %}
 
 In this way, QFT tokens are issued each week to reward miners, while at the same time they are burned for Credits and NFTs. This dialectic has several advantages.
 

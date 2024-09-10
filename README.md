@@ -1,4 +1,8 @@
-# 📌 Introduction
+---
+icon: map-pin
+---
+
+# Introduction
 
 Bitcoin introduced the concept of mining, but brute forcing the hash in the Proof of Work consensus brings no value to the world other than protecting the Bitcoin blockchain from [Sybil attacks](https://en.wikipedia.org/wiki/Sybil\_attack).
 
