@@ -4,21 +4,19 @@ icon: chart-line-up
 
 # Deflationary tokenomics
 
-While the mining approach has worked very well in Bitcoin so far, it has a major problem in the long run. There is an imbalance between the value received by miners and the value held by holders - the ratio of rewards to supply declines over time.
+While the mining approach has worked very well in Bitcoin so far, it has a major problem in the long run. There is an imbalance between the value received by miners and the value held by holders.
 
-When the Bitcoin blockchain started, each reward for a block gave miners a tangible share of the circulating supply, but today there are almost 20 million bitcoins in circulation and the remaining 1 million+ BTCs will be mined over the next 125 years.&#x20;
-
-This means that miners get a smaller and smaller share of the circulating supply, and since they are rewarded by issuing BTCs that gain value by taking it away from existing holders, their share of Bitcoin's capitalisation shrinks over time.
+When the Bitcoin blockchain started, each reward for a block gave miners a tangible share of the circulating supply, but today there are nearly 20 million BTCs in circulation, and the remaining 1 million+ will be mined over the next 125 years. As a result, miners get a smaller and smaller share of the circulating supply, and since they are rewarded by issuing BTCs that gain value by taking it away from existing holders, their share of Bitcoin's capitalisation shrinks over time.
 
 This could be compared to the finances of a company in the real world, and how income is divided between salaries for employees and dividends for shareholders. If the simplified mining mechanism implemented in Bitcoin is applied to a real company, dividends as a percentage of total income will grow steadily over time until it reaches 100%. Not only does this seem unfair, but it is also dangerous for the system, as workers will eventually not earn enough.
 
 {% hint style="info" %}
-Bitcoin assumes that once BTCs are no longer issued in 2140, miners will be paid through transaction fees, but this is a very different economic model and no one knows in advance whether it will work or not.
+Bitcoin assumes that miners will be paid with transaction fees once BTCs are no longer issued in 2140, but this is a very different economic model and no one knows in advance whether it will work or not.
 {% endhint %}
 
-Deflation can solve this problem, as burning tokens reduces the supply in circulation, thus increasing the miners' share. But burning for nothing causes losses, and therefore only makes sense for altruists who benefit others at the expense of their own interests. To make burning tokens attractive, the system should give something in return.
+Deflation can solve this problem, as burning tokens reduces the supply in circulation, thus increasing the miners' share. But burning for nothing causes losses, and therefore only makes sense for altruists who benefit others at the expense of their own interests. In other words, for a deflationary model to work, the system should give something in return for burnt tokens.
 
-In Questfall, users can burn QFT tokens to gain one of three benefits: authors can promote their quests to increase their visibility, users can mint Mining NFT to increase their mining power, or gain XP to level up without moderation.
+In Questfall, users can burn QFT tokens to gain one of three benefits: authors can attract more users to their quests through promotion, users can increase their mining power with Mining NFT, or level up without moderation.
 
 {% hint style="info" %}
 These benefits are paid for with off-chain Credits, which can only be obtained by burning QFT at a fixed price of $1. See the [Credits](../assets/credits-off-chain.md) article for more details.
