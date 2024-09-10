@@ -16,10 +16,14 @@ Bitcoin assumes that miners will be paid with transaction fees once BTCs are no 
 
 Deflation can solve this problem, as burning tokens reduces the supply in circulation, thus increasing the miners' share. But burning for nothing causes losses, and therefore only makes sense for altruists who benefit others at the expense of their own interests. In other words, for a deflationary model to work, the system should give something in return for burnt tokens.
 
-In Questfall, users can burn QFT tokens to gain one of three benefits: authors can attract more users to their quests through promotion, users can increase their mining power with Mining NFT, or level up without moderation.
+In Questfall, users can burn QFT tokens to gain one of three benefits:&#x20;
+
+* authors can attract more users to their quests through promotion;
+* users can increase their mining power by minting Mining NFT;
+* users can level up without participating in moderation.
 
 {% hint style="info" %}
-These benefits are paid for with off-chain Credits, which can only be obtained by burning QFT at a fixed price of $1. See the [Credits](../assets/credits-off-chain.md) article for more details.
+These benefits can be purchased with off-chain Credits, which can only be obtained by burning QFT at a fixed price of $1. See the [Credits](../assets/credits-off-chain.md) article for more details.
 {% endhint %}
 
 In this way, QFT tokens are issued each week to reward miners, while at the same time they are burned for Credits. This dialectic has several advantages.
