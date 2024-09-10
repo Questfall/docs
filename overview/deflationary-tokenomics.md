@@ -4,9 +4,11 @@ icon: chart-line-up
 
 # Deflationary tokenomics
 
-While the mining approach has worked very well in Bitcoin so far, it has a major problem in the long run. There is an imbalance between the value held by holders and the value received by miners - the ratio of miner rewards to supply in circulation declines over time.
+While the mining approach has worked very well in Bitcoin so far, it has a major problem in the long run. There is an imbalance between the value held by holders and the value received by miners - the ratio of rewards to supply declines over time.
 
-When the Bitcoin blockchain started, each reward for a block gave miners a tangible share of the circulating supply, but today there are almost 20 million bitcoins in circulation and the remaining 1 million+ tokens will be mined over the next 125 years. This means that miners get a smaller and smaller share of the circulating supply, and since they are rewarded by issuing BTCs that gain value by taking it away from existing holders, their share of Bitcoin's capitalisation shrinks over time.
+When the Bitcoin blockchain started, each reward for a block gave miners a tangible share of the circulating supply, but today there are almost 20 million bitcoins in circulation and the remaining 1 million+ tokens will be mined over the next 125 years.&#x20;
+
+This means that miners get a smaller and smaller share of the circulating supply, and since they are rewarded by issuing BTCs that gain value by taking it away from existing holders, their share of Bitcoin's capitalisation shrinks over time.
 
 This could be compared to the finances of a company in the real world, and how income is divided between salaries for employees and dividends for shareholders. If the simplified mining mechanism implemented in Bitcoin is applied to a real company, dividends as a percentage of total income will grow steadily over time until it reaches 100%. Not only does this seem unfair, but it is also dangerous for the system, as workers will eventually not earn enough.
 
