@@ -4,7 +4,7 @@ icon: chart-line-up
 
 # Deflationary tokenomics
 
-While the mining approach has worked very well in Bitcoin so far, it has a major problem in the long run. There is an imbalance between the value received by miners and the value held by holders.
+While the mining approach has worked very well in Bitcoin so far, it has a major problem in the long run. There is an imbalance between the rewards to miners and the value held by holders.
 
 When the Bitcoin blockchain started, each reward for a block gave miners a tangible share of the circulating supply, but today there are nearly 20 million BTCs in circulation, and the remaining 1 million+ will be mined over the next 125 years. As a result, miners get a smaller and smaller share of the circulating supply, and since they are rewarded by issuing BTCs that gain value by taking it away from existing holders, their share of Bitcoin's capitalisation shrinks over time.
 
@@ -40,9 +40,11 @@ This makes QFT tokenomics very different from any non-deflationary approach, whi
 
 As the price of Credits is fixed in dollars, the increase (or decrease) in the price of QFT will not affect third-party projects promoting their quests to the Questfall audience. If someone wants to spend stablecoins on promotion, he will get the same number of Credits regardless of the price of QFT.
 
-Furthermore, at times when the price of QFT falls, the number of tokens burned by third-party projects will increase, as more QFTs must be burned to obtain the same number of Credits. This leads to a rapid trend reversal due to a shrinking circulating supply.
+Furthermore, at times when the price of QFT falls, the number of tokens burned by third-party projects will increase, as more QFTs must be burned to obtain the same number of Credits. This leads to a rapid trend reversal as the shrinking of the circulating supply accelerates.
 
-The QFT price changes will only affect miners and holders, who will receive a different number of Credits for their QFTs. As the price of QFT tends to rise in the long term, the number of Credits for a QFT token will increase over time. This is exactly how deflation works - the longer a consumer waits, the more value he will receive for the same amount of money.
+The QFT price changes will only affect miners and holders, who will receive a different number of Credits for their QFTs. As the price of QFT tends to rise in the long term, the number of Credits for a QFT token will increase over time.&#x20;
+
+This is exactly how deflation works - the longer a consumer waits, the more value he will receive for the same amount of money.
 
 {% hint style="info" %}
 Although Worren Buffet said that "the stock market is a device for transferring money from the impatient to the patient", in reality this does not work. Deflationary tokenomics is the only way to implement a system in which those who wait earn.
