@@ -11,7 +11,7 @@ When the Bitcoin blockchain started, each reward for a block gave miners a tangi
 This could be compared to the finances of a company in the real world, and how income is divided between salaries for employees and dividends for shareholders. If the simplified mining mechanism implemented in Bitcoin is applied to a real company, dividends as a percentage of total income will grow steadily over time until it reaches 100%. Not only does this seem unfair, but it is also dangerous for the system, as workers will eventually not earn enough.
 
 {% hint style="info" %}
-Bitcoin assumes that miners will be paid with transaction fees once BTCs are no longer issued in 2140, but this is a very different economic model and no one knows in advance whether it will work or not.
+Bitcoin assumes that miners will only earn from transaction fees once BTCs are no longer issued in 2140, but this is a very different economic model and no one knows in advance whether it will work or not.
 {% endhint %}
 
 Deflation can solve this problem, as burning tokens reduces the supply in circulation, thus increasing the miners' share. But burning for nothing causes losses, and therefore only makes sense for altruists who benefit others at the expense of their own interests. In other words, for a deflationary model to work, the system should give something in return for burnt tokens.
@@ -50,4 +50,4 @@ This is exactly how deflation works - the longer a consumer waits, the more valu
 Although Worren Buffet said that "the stock market is a device for transferring money from the impatient to the patient", in reality this does not work. Deflationary tokenomics is the only way to implement a system in which those who wait earn.
 {% endhint %}
 
-And of course, this approach leaves the core mining advantage intact - the increase in the QFT price due to the influx of new money from investors will make mining more profitable, thus attracting new users. And in turn, new users make Questfall more popular, which attracts new investor money, creating a positive feedback loop.
+And of course, this approach leaves the core mining advantage intact - the increase in the QFT price due to the influx of new money from investors will make mining more profitable, attracting new users and thus making QFT more attractive to investors, creating a positive feedback loop.
