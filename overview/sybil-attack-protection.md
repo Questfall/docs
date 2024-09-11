@@ -16,7 +16,7 @@ However, such fair mining is difficult to achieve without Proof of Work. For exa
 Perhaps in the future AI will evolve to the point where it can become an infallible judge, but for now it is more robust to use the algorithm that blindly uses a set of rules and the numbers given as input to distribute the reward among the miners.
 {% endhint %}
 
-The problem is that if it's possible to sell a generated fake into the system, the real value, which takes effort to create, can't compete with the fakes, which are created by thousands in a second. In the end, only fakes will be added to the system, because the reward for each unit of value will be so small that it will not make sense to put effort into creating a real value.
+The problem is that if it's possible to sell a generated fake into the system, the real value, which takes effort to create, can't compete with the fakes, which are created by thousands in a second. In the end, only fakes will be added to the system, because the reward for each unit of value will be so small that it will not make sense to invest the effort required by the rule.
 
 One of the most common solutions that has been tried in recent years to prevent fraud in the absence of Proof of Work is to use the limits of human nature itself. From various KYC systems with confirmation in the form of NFT, to all sorts of pedometers and tappers on mobile devices.
 
@@ -30,7 +30,9 @@ So at the moment there is no real approach to fair mining other than Proof of Wo
 This approach is far from innovative: at the dawn of the stock market more than 150 years ago, anyone could issue their own securities and sell them to the public through newspaper advertisements.
 {% endhint %}
 
-However, the problem could be solved by changing the goal slightly - from "don't reward cheaters" to "don't reward cheaters at the expense of good users". In Questfall, fair mining is achieved through three key mechanics:&#x20;
+However, crypto projects should be about innovation and driving progress, so we have a solution to fair mining outside the Proof of Work consensus. And for that, the goal should be changed slightly - from "don't reward cheaters" to "don't reward cheaters at the expense of good users".
+
+In Questfall, this goal, and therefore fair mining, is achieved through three key mechanics:
 
 * community moderation in form of voting ([read more](../quest-mining/community-moderation.md));
 * user levels that create a pyramidal hierarchy ([read more](../quest-mining/user-levels.md));
@@ -42,24 +44,24 @@ In fact, such a vote is a community consensus on each of the completions, and li
 
 Users can progress through the levels if their votes are mostly in line with the majority of other voters. More specifically, if they vote the same as the majority, users are rewarded - they gain XP which allows them to level up, otherwise they are penalised - the amount of XP needed to get to the next level increases.
 
-A key aspect of protecting consensus is that the majority is weighted, which means that votes are not equal - the higher the level of the user, the more weight his vote has. In other words, the more correctly a user votes, the more power he has. This makes it impossible for a large number of new accounts to be registered and used to manipulate the voting results, as high level users will protect the voting from abuse and as a result such new accounts will be punished.
+A key aspect of protecting consensus in Questfall is that the majority is weighted, which means that votes are not equal - the higher the level of the user, the more weight his vote has. In other words, the more correctly a user votes, the more power he gains. This makes it impossible for a large number of new accounts to be registered and used to manipulate the voting results, as high level users will protect the voting from abuse and as a result such new accounts will be punished.
 
 {% hint style="info" %}
-There are other measures to protect the consensus, but here a weighted majority is enough. Read all the details in the [Community Moderation](../quest-mining/community-moderation.md) article.
+For other measures to protect consensus, see the [Community Moderation](../quest-mining/community-moderation.md) article.
 {% endhint %}
 
-Another key factor is that while validating quest completions can easily be done by hand for free, automating it with code requires ongoing costs. Even if we leave aside the problem of distinguishing fake completions in order to vote properly (which will require a pretty smart AI), there is another problem. The majority of completions will be in the form of content on third party platforms (like X, Youtube, Facebok, Discord, etc) and these platforms ban bots to prevent DDoS attacks and content parsing.
+Another key factor is that although validation of completions can easily be done by hand for free, automating it with code requires ongoing costs. Even if we leave aside the problem of distinguishing fake completions in order to vote properly (which will require a pretty smart AI), there is another problem. The majority of completions will be in the form of content on third party platforms (like X, Youtube, Facebok, Discord, etc) and these platforms ban bots to prevent DDoS attacks and content parsing.
 
 {% hint style="info" %}
 For example, there is only one official way to access tweets with the code - [a paid API](https://developer.x.com/en/docs/x-api/getting-started/about-x-api).
 {% endhint %}
 
-As a result, ordinary users can easily earn XP to level up by voting for completions, while malicious actors who want to get an edge with bots will have ongoing costs for the AI to properly judge completions and to overcome the anti-bot protection on popular platforms. In other words, progressing through levels requires effort or money, and as a result, users form a pyramid because the higher the level, the fewer users will have it.
+As a result, ordinary users can easily earn XP to level up by voting for completions, while malicious actors who want to get an edge with bots will have ongoing costs for the AI to properly judge completions and to overcome the anti-bot protection on popular platforms. In other words, progressing through levels requires effort or money, and as a result, users form a pyramid because the higher the level, the more resources a user should have spent to reach it.
 
-The final layer of protection is that the mining rewards for different user levels are fixed and do not depend on activity at other levels. This means that a user can earn more for doing the same number of quests (by completing them, not by voting) as he levels up, because the competition decreases with each level. So if a good miner is not getting paid enough for his efforts, all he has to do is level up by adding value to the system in the form of moderation or QFT burning.
+The final piece of the protection is that the mining rewards for different user levels are fixed and do not depend on activity at other levels. This means that a user can earn more for doing the same number of quests (by completing them, not by voting) as he levels up, because the competition decreases with each level. So if a good miner is not getting paid enough for his efforts, all he has to do is level up by adding value to the system in the form of moderation or QFT burning.
 
 {% hint style="info" %}
-The rewards for each level depend only on the number of levels with active users. Read more in the [User Rewards](../quest-mining/user-rewards.md) article.
+The rewards for each level only depend on the number of levels with active users. So any user can level up to the point where there are no other miners, so he can mine without any competition. Read more in the [User Rewards](../quest-mining/user-rewards.md) article.
 {% endhint %}
 
-This approach assumes that there are no restrictions on the mining process, only different levels of competition depending on the performance of each user. This means that multiple accounts and bots can be used to scale mining power during quest mining. However, the proportion of bots will decrease with each level, as XP cannot be earned with code without ongoing costs, and it is therefore more profitable to invest money in a particular account to level up and earn with less competition than to compete with your own bots.
+This approach assumes that there are no restrictions on the mining process, only different levels of competition depending on the performance of each user. This means that multiple accounts and bots can be used to scale mining power during quest mining. However, the proportion of bots will decrease with each level, as XP cannot be earned with code without ongoing costs, and it is therefore more profitable to invest money in a particular account to level it up and earn with less competition than to compete with own bots.
