@@ -27,16 +27,14 @@ A phone or NFT allows a user to automate the necessary actions or scale the mini
 So at the moment there is no real approach to fair mining other than Proof of Work, and today's teams prefer to take the easy way out and mint all the tokens for themselves at once and then sell them to the crowd.
 
 {% hint style="info" %}
-This is actually nothing new. At the dawn of the stock market more than 150 years ago, anyone could issue their own securities and sell them to the public through newspaper advertisements.
+This approach is far from innovative: at the dawn of the stock market more than 150 years ago, anyone could issue their own securities and sell them to the public through newspaper advertisements.
 {% endhint %}
 
-However, this does not mean that fair mining is impossible outside the Proof of Work consensus - we just need to look at the problem from a different angle. And all we have to do is change the goal slightly - from "don't reward cheaters" to "don't reward cheaters at the expense of good users".
-
-In Questfall, this goal is achieved through three key mechanics:&#x20;
+However, the problem could be solved by changing the goal slightly - from "don't reward cheaters" to "don't reward cheaters at the expense of good users". In Questfall, fair mining is achieved through three key mechanics:&#x20;
 
 * community moderation in form of voting ([read more](../quest-mining/community-moderation.md));
-* user levels that increase the efficiency of mining ([read more](../quest-mining/user-levels.md));
-* fixed rewards for each floor of the levels pyramid ([read more](../quest-mining/user-rewards.md)).
+* user levels that create a pyramidal hierarchy ([read more](../quest-mining/user-levels.md));
+* fixed rewards for each level of the pyramid ([read more](../quest-mining/user-rewards.md)).
 
 Community moderation helps the system to distinguish between fake quest completions and real ones through user voting. In this way, the problem of protecting the system from fakes is shifted from completions to voting.&#x20;
 
@@ -44,11 +42,11 @@ In fact, such a vote is a community consensus on each of the completions, and li
 
 Users can progress through the levels if their votes are mostly in line with the majority of other voters. More specifically, if they vote the same as the majority, users are rewarded - they gain XP which allows them to level up, otherwise they are penalised - the amount of XP needed to get to the next level increases.
 
-{% hint style="info" %}
-There are other rules for voting, not so important ([read all the details](../quest-mining/community-moderation.md))
-{% endhint %}
+A key aspect of protecting consensus is that the majority is weighted, which means that votes are not equal - the higher the level of the user, the more weight his vote has. In other words, the more correctly a user votes, the more power he has. This makes it impossible for a large number of new accounts to be registered and used to manipulate the voting results, as high level users will protect the voting from abuse and as a result such new accounts will be punished.
 
-One key aspect of protection is that the majority is weighted, which means that votes are not equal - the higher the level of the user, the more weight his vote has. In other words, the more correctly a user votes, the more power he has. This makes it impossible for a large number of new accounts to be registered and used to manipulate the voting results, as high level users will protect the voting from abuse and as a result such new accounts will be punished.
+{% hint style="info" %}
+There are other measures to protect the consensus, but here a weighted majority is enough. Read all the details in the [Community Moderation](../quest-mining/community-moderation.md) article.
+{% endhint %}
 
 Another key factor is that while validating quest completions can easily be done by hand for free, automating it with code requires ongoing costs. Even if we leave aside the problem of distinguishing fake completions in order to vote properly (which will require a pretty smart AI), there is another problem. The majority of completions will be in the form of content on third party platforms (like X, Youtube, Facebok, Discord, etc) and these platforms ban bots to prevent DDoS attacks and content parsing.
 
@@ -56,20 +54,12 @@ Another key factor is that while validating quest completions can easily be done
 For example, there is only one official way to access tweets with the code - [a paid API](https://developer.x.com/en/docs/x-api/getting-started/about-x-api).
 {% endhint %}
 
-As a result common user can easily earn XP to level up by voting for completions, while malicious actors who want to get and edge with bots will have on-going costs for AI to properly judge the completions and to overcome the protection against bots on popular platforms. In other words, progressing through levels requiers efforts or money and as a result users form a pyramid, as the higher the level, the fewer users will have it.&#x20;
+As a result, ordinary users can easily earn XP to level up by voting for completions, while malicious actors who want to get an edge with bots will have ongoing costs for the AI to properly judge completions and to overcome the anti-bot protection on popular platforms. In other words, progressing through levels requires effort or money, and as a result, users form a pyramid because the higher the level, the fewer users will have it.
 
-And the last brick in the wall is that the rewards for different user levels are fixed and do not depend on the activity on other levels. So raising a level allows a user to mine more with the same mining power as the competition lowers with each level. As a result, if a good miner is earning too little for his efforts, all he has to do is level up by adding value to the system in the form of moderation or QFT burning.
-
-{% hint style="info" %}
-The share of bots will decrease with each level, as XP gain cannot be automated without ongoing costs, and as a result it is more profitable to invest money in one account to level it up, and earn with less competition than to compete with own bots.
-{% endhint %}
-
-This approach assumes that there are no restrictions on the mining process, only different levels of competition depending on the performance of each user. This means that multiple accounts and bots can be used to scale mining power during quest mining.
-
-But the leveling system protects good users from being influenced by bad ones, because users form a pyramid with their levels. The higher the level, the fewer users will have it. So it is possible that there will be a lot of bots on the first level, but the higher the level of the user, the fewer competitors there will be on the same level of the pyramid, including bots.
-
-Crucially, the rewards for different levels are fixed and do not depend on the number of users at other levels. So tenth level users will only be competing with each other for a fixed reward that does not depend on the number or mining power of first level users (or bots).
+The final layer of protection is that the mining rewards for different user levels are fixed and do not depend on activity at other levels. This means that a user can earn more for doing the same number of quests (by completing them, not by voting) as he levels up, because the competition decreases with each level. So if a good miner is not getting paid enough for his efforts, all he has to do is level up by adding value to the system in the form of moderation or QFT burning.
 
 {% hint style="info" %}
-This approach can be compared to the independent sections of a submarine. Read the article about [User rewards](../quest-mining/user-rewards.md) for more details.
+The rewards for each level depend only on the number of levels with active users. Read more in the [User Rewards](../quest-mining/user-rewards.md) article.
 {% endhint %}
+
+This approach assumes that there are no restrictions on the mining process, only different levels of competition depending on the performance of each user. This means that multiple accounts and bots can be used to scale mining power during quest mining. However, the proportion of bots will decrease with each level, as XP cannot be earned with code without ongoing costs, and it is therefore more profitable to invest money in a particular account to level up and earn with less competition than to compete with your own bots.
