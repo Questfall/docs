@@ -56,12 +56,12 @@ Another key factor is that although validation of completions can easily be done
 For example, there is only one official way to access tweets with the code - [a paid API](https://developer.x.com/en/docs/x-api/getting-started/about-x-api).
 {% endhint %}
 
-As a result, ordinary users can easily earn XP to level up by voting for completions, while malicious actors who want to get an edge with bots will have ongoing costs for the AI to properly judge completions and to overcome the anti-bot protection on popular platforms. In other words, progressing through levels requires effort or money, and as a result, users form a pyramid because the higher the level, the more resources a user should have spent to reach it.
+As a result, regular users can easily earn XP by moderating, while bad actors looking to gain an advantage with bots will have to pay not only for the AI to correctly score completions, but also for APIs (or proxies) to overcome anti-bot protection on popular platforms. In other words, progressing through levels requires effort or money, and as a result, users form a pyramid because the higher the level, the more resources a user should have spent to reach it.
 
 The final piece of the protection is that the mining rewards for different user levels are fixed and do not depend on activity at other levels. This means that a user can earn more for doing the same number of quests (by completing them, not by voting) as he levels up, because the competition decreases with each level. So if a good miner is not getting paid enough for his efforts, all he has to do is level up by adding value to the system in the form of moderation or QFT burning.
 
 {% hint style="info" %}
-The rewards for each level only depend on the number of levels with active users. So any user can level up to the point where there are no other miners, so he can mine without any competition. Read more in the [User Rewards](../quest-mining/user-rewards.md) article.
+The rewards for each level only depend on the number of levels with active users. So any user can level up to the point where he can open a new level as the top user and mine the full reward without any competition. Read more in the [User Rewards](../quest-mining/user-rewards.md) article.
 {% endhint %}
 
 This approach assumes that there are no restrictions on the mining process, only different levels of competition depending on the performance of each user. This means that multiple accounts and bots can be used to scale mining power during quest mining. However, the proportion of bots will decrease with each level, as XP cannot be earned with code without ongoing costs, and it is therefore more profitable to invest money in a particular account to level it up and earn with less competition than to compete with own bots.
