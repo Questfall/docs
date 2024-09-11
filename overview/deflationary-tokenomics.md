@@ -4,7 +4,7 @@ icon: chart-line-up
 
 # Deflationary tokenomics
 
-While the mining approach has worked very well in Bitcoin so far, it has a major problem in the long run. There is an imbalance between the rewards to miners and the value held by holders.
+While the mining approach has worked very well in Bitcoin so far, it has a major problem in the long run. There is a growing imbalance between the reward given to miners and the value held by holders.
 
 When the Bitcoin blockchain started, each reward for a block gave miners a tangible share of the circulating supply, but today there are nearly 20 million BTCs in circulation, and the remaining 1 million+ will be mined over the next 125 years. As a result, miners get a smaller and smaller share of the circulating supply, and since they are rewarded by issuing BTCs that gain value by taking it away from existing holders, their share of Bitcoin's capitalisation shrinks over time.
 
