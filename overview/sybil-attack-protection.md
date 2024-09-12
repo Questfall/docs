@@ -52,7 +52,7 @@ We would like to emphasise that this is not some artificial restriction we are p
 
 Since moderation consumes limited resources (either effort or money), XP can also be considered a limited resource, but only as a means of protecting consensus, with no value in itself. In other words, users will not moderate just for XP if it does not give them an advantage in mining.
 
-However, increasing mining power with level is a bad idea because if a fixed reward is given to all miners based on their mining power, there is an opportunity for abuse. As there are no restrictions on who can become a miner, a malicious actor could register many new accounts and clone completions on all of them, increasing his total mining power to any point using only first level accounts.
+However, increasing mining power with level is a bad idea because if a fixed reward is given to all miners based on their mining power, there is an opportunity for abuse. As there are no restrictions on who can become a miner, a malicious actor could register many new accounts and clone completions on all of them, increasing his overall mining power by any amount using only first level accounts.
 
 To solve this problem, we need to consider that users will form a pyramid - the number of users will decrease with each level. This happens because the higher the level, the more resources a user should have spent to reach it.
 
@@ -64,4 +64,4 @@ The rewards for each level only depend on the number of levels with active miner
 
 So if a good miner is not getting paid enough for his efforts because of bots (or any other reason), all he has to do is level up by adding value to the system in the form of moderation or QFT burning.
 
-In addition, the percentage of bots will decrease with each level, as XP cannot be earned with code without ongoing costs, and it is therefore more profitable to invest money in a particular account to level it and earn with less competition than to compete with own bots.
+In addition, this approach reduces the motivation for bad actors to level many bots at once, as XP cannot be earned with code without ongoing costs, and it is therefore more profitable to invest money in a particular account to level it and earn with less competition than to compete with one's own bots.
