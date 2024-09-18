@@ -34,7 +34,7 @@ In Questfall, 66% of the weekly issue is used to reward quest miners:
 
 The remaining 34% is used to reward infrastructure support:
 
-* 2% to users who burn their Mining NFTs or Founder NFTs,
+* 2% to users who burn their Founder NFTs,
 * 8% to users who provide liquidity to the official DEX pool,
 * 5% to users who freeze their QFT tokens,
 * 4% to users who burn their QFT tokens to get Credits,
@@ -45,7 +45,7 @@ The principles for valuing user contributions can vary from one pool to another.
 
 ### Motivation for quality quests
 
-The vast majority of projects on the existing quest platforms do not put a lot of resources into creating quests, and as a result, most of them are silly tasks like joining Discord or reposting a Tweet.&#x20;
+The vast majority of projects on the existing quest platforms do not put a lot of resources into creating quests, and as a result, most of them are silly tasks like joining Discord or reposting a tweet.
 
 This happens because projects are primarily interested in promoting themselves, and quest platforms give them access to the userbase without any demands on the quality of the quests. As a result, project teams simply take the most efficient path that requires the least effort.
 
@@ -79,10 +79,10 @@ Promoting quests requires adding value to the entire community. Read more in the
 
 ### Real-world quests
 
-Quest mining rewards are not biased, and users are paid by the system itself, not by projects or other users. This means that anyone can use Questfall not only to make money, but also to make the world a better place.
+Quest mining rewards are not biased, and users are paid by the system itself, not by projects or other users. This makes it possible to make the world a better place through quests, as the motivation for users is provided by the system, and authors do not have to worry about it.
 
 {% hint style="info" %}
-For example, users can benefit for creating such quests as 'Plant a tree' or 'Clean the Ocean'.
+For example, users can be rewarded for completing quests such as 'Plant a tree' or 'Clean up the ocean'.
 {% endhint %}
 
 However, there is a downside to this approach: since quests are not pre-moderated, they can be used for evil purposes. For example, quests such as 'Kill an animal' or 'Say nasty things about this company' may appear. To prevent potential harm to others, any user can report a quest and the [community will vote](../quest-mining/community-moderation.md) on whether or not it is appropriate.
