@@ -1,8 +1,12 @@
 ---
-icon: message-check
+icon: stairs
 ---
 
-# Community Moderation
+# Levels
+
+The most important parameter that characterises a user in Questfall is his level. The higher a user's level, the greater his mining power and voting weight in the community consensus. This means that high-level users, who are most interested in the stability and success of the platform, have a great deal of influence.
+
+
 
 To protect the system from such abuse, community moderation is based on voting, with the following rules:
 
@@ -17,7 +21,7 @@ To protect the system from such abuse, community moderation is based on voting, 
 
 
 {% hint style="info" %}
-There will be other issues to vote on. For example, with Egregore Voting, the community will decide whether a quest is appropriate when it is reported. See the [Egregore Voting](community-moderation.md) article for more details.
+There will be other issues to vote on. For example, with Egregore Voting, the community will decide whether a quest is appropriate when it is reported. See the [Egregore Voting](broken-reference) article for more details.
 {% endhint %}
 
 
@@ -53,3 +57,4 @@ In other words, by the time users have the power to influence the voting results
 {% endhint %}
 
 This is the same as putting every penny earned from Bitcoin mining into an ASIC farm and hoping that one day it will have enough hash power for a 51% attack, allowing the blockchain to be completely rewritten. But unlike Bitcoin, where computing power can be bought, high levels in Questfall can only be earned by performing valuable actions and constantly proving that a user is human.
+

@@ -2,7 +2,7 @@
 icon: heart
 ---
 
-# Author Reputation
+# Reputation
 
 Each author in Questfall has a Reputation attribute, which is essentially a moving average of the author's quest ratings. This means that Reputation range is the same as the rating range, which goes from 0 to 10 in either direction, depending on the rating of the author's latest quests.
 
@@ -23,6 +23,6 @@ For example, if a new author posts a quest that receives a 7.5 rating, the autho
 {% endtabs %}
 
 {% hint style="info" %}
-Because of the voting mechanic, malicious authors can't abuse the quest rating to increase their Reputation. Read more about voting process in [Consensus Voting](community-moderation.md) article.
+Because of the voting mechanic, malicious authors can't abuse the quest rating to increase their Reputation. Read more about voting process in [Consensus Voting](broken-reference) article.
 {% endhint %}
 

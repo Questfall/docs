@@ -1,8 +1,8 @@
 ---
-icon: gem
+icon: trophy
 ---
 
-# User rewards
+# Leagues
 
 As can be seen on existing quest platforms, without motivation, authors create quests just to lure the audience to other places with more exclusive interactions. This leads to the majority of quests being of very low quality, like silly tasks to join the Discord community or repost a tweet in X.
 

@@ -1,8 +1,8 @@
 ---
-icon: hexagon-plus
+icon: gem
 ---
 
-# Quest Points
+# Crystals
 
 Users who complete quests receive Quest Points, which are used to calculate their individual User Mining Power. The number of Quest Points is directly related to the reputation of the quest author. The higher the Reputation of an author, the more Quest Points users will receive for completing that author's quests.
 

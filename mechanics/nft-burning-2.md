@@ -1,6 +1,6 @@
 # ❤️‍🔥 NFT burning (2%)
 
-Our goal is to maximise the price of NFTs over the long term. In order to achieve this, 2% of the newly created QFTs are allocated each week to the purchase of [Mining ](../assets/miners-nft.md)(1%) and [Founder](../assets/founders-nft.md) (1%) NFTs from the market via auction, with the subsequent burning of these NFTs.
+Our goal is to maximise the price of NFTs over the long term. In order to achieve this, 2% of the newly created QFTs are allocated each week to the purchase of [Mining ](broken-reference)(1%) and [Founder](../assets/founders-nft.md) (1%) NFTs from the market via auction, with the subsequent burning of these NFTs.
 
 There will be two independent auctions each week, one for Mining NFTs and one for Founder NFTs. In these two auctions, the system will use 1% of the weekly token creation for each type of NFT to buy back NFTs offered by users. User bids will be ranked according to the price of the NFT parameter - one cent for Mining NFTs or one point for Founder NFTs.
 

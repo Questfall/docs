@@ -52,7 +52,7 @@ This happens because projects are primarily interested in promoting themselves, 
 Thanks to quest mining, Questfall is able to reward authors for the quality of their quests. In order to do this, every user will be rewarded for voting on the rating of the quests he has completed, which will affect the author's reward.
 
 {% hint style="info" %}
-In order to prevent malicious authors from abusing the rating system, votes will be weighted differently depending on the level of the user. Read more in the [Quest Ratings](../quest-mining/quest-rating.md) article.
+In order to prevent malicious authors from abusing the rating system, votes will be weighted differently depending on the level of the user. Read more in the [Quest Ratings](../author-mining/ratings.md) article.
 {% endhint %}
 
 In this way, authors who create content that is highly rated by the community will be rewarded for doing so. In other words, authors can be rewarded for publishing their books, articles, lessons, music, pictures, videos and so on.&#x20;
@@ -74,7 +74,7 @@ This makes Questfall similar to sites like Facebook or Tweeter.
 The global quest feed not only allows users to keep up with what is happening on Questfall, but it also helps projects to promote their quests to all users of the platform, since the system can influence the visibility of quests in the feed.&#x20;
 
 {% hint style="info" %}
-Promoting quests requires adding value to the entire community. Read more in the [Quest Promotion](../quest-mining/quest-promotion.md) article.
+Promoting quests requires adding value to the entire community. Read more in the [Quest Promotion](../author-mining/promotion.md) article.
 {% endhint %}
 
 ### Real-world quests
@@ -85,5 +85,5 @@ Quest mining rewards are not biased, and users are paid by the system itself, no
 For example, users can be rewarded for completing quests such as 'Plant a tree' or 'Clean up the ocean'.
 {% endhint %}
 
-However, there is a downside to this approach: since quests are not pre-moderated, they can be used for evil purposes. For example, quests such as 'Kill an animal' or 'Say nasty things about this company' may appear. To prevent potential harm to others, any user can report a quest and the [community will vote](../quest-mining/community-moderation.md) on whether or not it is appropriate.
+However, there is a downside to this approach: since quests are not pre-moderated, they can be used for evil purposes. For example, quests such as 'Kill an animal' or 'Say nasty things about this company' may appear. To prevent potential harm to others, any user can report a quest and the [community will vote](broken-reference) on whether or not it is appropriate.
 

@@ -18,9 +18,9 @@ Deflation can solve this problem, as burning tokens reduces the supply in circul
 
 In Questfall, users can burn QFT tokens to gain one of three benefits:&#x20;
 
-* authors can attract users to their quests through promotion ([read more](../quest-mining/quest-promotion.md));
-* users can increase their mining power by minting Mining NFT ([read more](../assets/miners-nft.md));
-* users can level up without participating in moderation ([read more](../quest-mining/user-levels.md)).
+* authors can attract users to their quests through promotion ([read more](../author-mining/promotion.md));
+* users can increase their mining power by minting Mining NFT ([read more](broken-reference));
+* users can level up without participating in moderation ([read more](../user-mining/levels.md)).
 
 {% hint style="info" %}
 These benefits can be purchased with off-chain Credits, which can only be obtained by burning QFT at a fixed price of $1. See the [Credits](../assets/credits-off-chain.md) article for more details.

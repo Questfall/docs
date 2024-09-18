@@ -37,7 +37,7 @@ To protect the system from such attacks, Questfall uses the concept of levels, t
 User levels are used to weight the consensus majority, which means that votes are not equal - the higher the level, the more weight a user vote has. In other words, the more correctly a user votes, the more power he gains. This makes it impossible for a large number of new accounts to be registered and used to manipulate the voting results, as high level users will protect the voting from abuse and as a result such new accounts will be punished.
 
 {% hint style="info" %}
-For other measures to protect consensus, see the [Community Moderation](../quest-mining/community-moderation.md) article.
+For other measures to protect consensus, see the [Community Moderation](broken-reference) article.
 {% endhint %}
 
 In this way, progressing through the levels requires two key resources: intelligence and access to third-party platforms where the majority of quest completions are published. And while these resources are considered free when checking completions by hand, there is an ongoing cost when moderating by code.
@@ -59,7 +59,7 @@ To solve this problem, we need to consider that users will form a pyramid - the 
 To take advantage of this, Questfall splits the global mining reward into fixed parts, one for each user level. This means that the reward for a given level does not depend on the activity of other levels. As a result, competition decreases as a user progresses through the levels.&#x20;
 
 {% hint style="info" %}
-The rewards for each level only depend on the number of levels with active miners. So any user can level up to the point where he can open a new level as the top user and mine the full reward without any competition. Read more in the [User Rewards](../quest-mining/user-rewards.md) article.
+The rewards for each level only depend on the number of levels with active miners. So any user can level up to the point where he can open a new level as the top user and mine the full reward without any competition. Read more in the [User Rewards](broken-reference) article.
 {% endhint %}
 
 So if a good miner is not getting paid enough for his efforts because of bots (or any other reason), all he has to do is level up by adding value to the system in the form of moderation or QFT burning.
