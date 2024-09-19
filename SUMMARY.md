@@ -8,12 +8,8 @@
 * [Sybil attack protection](overview/sybil-attack-protection.md)
 * [Deflationary tokenomics](overview/deflationary-tokenomics.md)
 * [RPG gamification](overview/rpg-gamification.md)
-
-## Roadmap
-
-* [🌱 - Initial Funding Event](roadmap/initial-funding-event.md)
-* [🌷 Version 1.0](roadmap/version-1.0.md)
-* [🌹 - Further development](roadmap/further-development.md)
+* [- Initial funding event](overview/initial-funding-event.md)
+* [Roadmap](overview/roadmap.md)
 
 ## Assets
 
