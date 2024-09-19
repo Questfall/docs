@@ -8,8 +8,6 @@
 * [Sybil attack protection](overview/sybil-attack-protection.md)
 * [Deflationary tokenomics](overview/deflationary-tokenomics.md)
 * [RPG gamification](overview/rpg-gamification.md)
-* [- Initial funding event](overview/initial-funding-event.md)
-* [Roadmap](overview/roadmap.md)
 
 ## Assets
 
@@ -47,3 +45,8 @@
 * [🔥 QFT burning (4%)](mechanics/qft-burning-4.md)
 * [⚙️ Project expenses (5%)](mechanics/project-expenses-5.md)
 * [☕ Founders' revenue (10%)](mechanics/founders-revenue-10.md)
+
+***
+
+* [Roadmap](roadmap.md)
+* [Initial funding event](initial-funding-event.md)
