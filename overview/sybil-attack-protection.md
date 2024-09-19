@@ -26,11 +26,15 @@ As a result, no matter how good the mining is, there is currently no solution ot
 Selling the entire supply of tokens is anything but innovative. At the dawn of the stock market more than 150 years ago, anyone could issue their own securities and sell them to the public through newspaper advertisements.
 {% endhint %}
 
-However, crypto projects should be about innovation and driving progress, so our Team has implemented the solution, at least for the case of quest mining. And the first thing we need to do is to move the quality assessment from the computer to the real users.
+However, crypto projects should be about innovation and driving progress, so our Team has implemented the solution, at least for the case of quest mining. It is based on shifting the problem of distinguishing the quality of human-generated content from the algorithm to the community.
 
 In Questfall, users can participate in community moderation by voting on each other's quest completions to distinguish between fake quest completions and real ones. This shifts the problem of protecting the system from the quality of the completion to the binary result of the vote.
 
-In fact, we are talking about a community consensus on each of the completions, and like any other consensus, if it costs nothing to vote, it is vulnerable to [Sybil attacks](https://en.wikipedia.org/wiki/Sybil\_attack). Specifically, a Sybil attack is possible if each vote has the same weight of 1 and there is no limit to the number of accounts that can be registered. So if a user has 5 accounts, the total weight of all his votes is 5. In this way, a malicious actor can gain any vote weight by creating as many accounts as needed.
+In fact, we are talking about a community consensus on each of the completions, and like any other consensus, if it costs nothing to vote, it is vulnerable to [Sybil attacks](https://en.wikipedia.org/wiki/Sybil\_attack).&#x20;
+
+{% hint style="info" %}
+A Sybil attack is possible if each vote has the same weight of 1 and there is no limit to the number of accounts that can be registered. So if a user has 5 accounts, the total weight of all his votes is 5. In this way, a malicious actor can gain any vote weight by creating as many accounts as needed.
+{% endhint %}
 
 To protect the system from such attacks, Questfall uses the concept of [levels](../user-mining/levels.md), through which users can advance if they vote in line with the majority of other voters. More specifically, if they vote the same as the majority, users are rewarded - they gain XP which allows them to level up, otherwise they are punished - the amount of XP needed to get to the next level increases.
 
@@ -42,21 +46,23 @@ For other measures to protect consensus, see the [Levels](../user-mining/levels.
 
 In this way, progressing through the levels requires two key resources: intelligence and access to third-party platforms where the majority of quest completions are published. And while these resources are considered free when checking completions by hand, there is an ongoing cost when moderating by code.
 
-Firstly, such a moderation bot needs to access the content of a completion on third-party platforms (like X, Youtube, Facebook, Discord, etc). But these platforms ban bots to prevent DDoS attacks and content parsing. For example, there is only one official way to access tweets with the code - [a paid API](https://developer.x.com/en/docs/x-api/getting-started/about-x-api).
+First, accessing a completion's content via code on third-party platforms (such as X, Youtube, Facebook, Discord, etc.) is not free, as these platforms ban bots to prevent DDoS attacks and content parsing. For example, there is only one official way to access tweets with the code - [a paid API](https://developer.x.com/en/docs/x-api/getting-started/about-x-api).
 
-Then this bot will have to score the completion somehow - if it scores wrong, it will be penalised, so it will need the help of a pretty smart AI to vote correctly (which may still not work).
+Second, to be able to judge the quality of a completion in the same way as a human, a bot will need the help of a fairly intelligent AI, which may not always work correctly and will be penalised regularly as a result. And of course, the more intelligent and accurate the AI, the more expensive it will be to develop and operate.
 
 {% hint style="info" %}
-We would like to emphasise that moderators add real value to the system because centralised moderation, if implemented as part of Questfall, will be very expensive not only to implement (if at all possible) but also to run. And this high cost plays a defensive role against abuse of the system.
+This is a real problem, as these costs prevent the centralised moderation implemented as part of Questfall. And it's precisely these costs that protect the system from Syibl attacks, as moderators without limited resources can only do blind voting, which they cannot profit from. For this reason, XP can also be considered a limited resource, as it requires either effort or money.
 {% endhint %}
 
-Since moderation consumes limited resources (either effort or money), XP can also be considered a limited resource, but only as a means of protecting consensus, with no value in itself. In other words, users will not moderate just for XP if it does not give them an advantage in mining.
+As a result, the higher the level of the user, the more value he has added to the system, and the less likely he is to be one of the Sybil accounts. However, increasing mining power with level is a bad idea because if a fixed reward is given to all miners based on their mining power, there is an opportunity for abuse.
 
-However, increasing mining power with level is a bad idea because if a fixed reward is given to all miners based on their mining power, there is an opportunity for abuse. As there are no restrictions on who can become a miner, a malicious actor could register many new accounts and clone completions on all of them, increasing his overall mining power by any amount using only first level accounts.
+{% hint style="info" %}
+As there are no restrictions on who can become a miner, a malicious actor could register many new accounts and clone completions on all of them, increasing his overall mining power by any amount using only first level accounts.
+{% endhint %}
 
-To solve this problem, we need to consider that users will form a pyramid - the number of users will decrease with each level. This happens because the higher the level, the more resources a user should have spent to reach it.
+To solve this problem, we need to consider that users form a pyramid - the number of users will decrease with each level, as each new level requires more of the limited resources a user should have spent to reach it.
 
-To take advantage of this, the global mining reward will be divided into fixed portions that will be distributed to different [leagues ](../user-mining/leagues.md)that group users of different level ranges. This means that the reward for a particular league does not depend on the activity in other leagues. As a result, competition decreases as a user progresses through levels and therefore leagues.
+To take advantage of this, the global mining reward in Questfall will be divided into fixed portions that will be distributed to different [leagues ](../user-mining/leagues.md)that group users of different level ranges. This means that the reward for a particular league does not depend on the activity in other leagues. As a result, competition decreases as a user progresses through levels and therefore leagues.
 
 {% hint style="info" %}
 The rewards for each league only depend on the number of leagues with active miners. So any user can level up to the point where he can open a new league as the top user and mine the full reward without any competition.
