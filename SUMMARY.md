@@ -19,7 +19,7 @@
 
 * [🪙 - Questfall Tokens (QFT)](assets/questfall-tokens-qft.md)
 * [💵 - Credits (off-chain)](assets/credits-off-chain.md)
-* [💢 - Runes (off-chain + NFTs)](assets/runes-off-chain-+-nfts.md)
+* [💢 - Items (off-chain + NFTs)](assets/items-off-chain-+-nfts.md)
 * [👑 - Founder NFTs](assets/founders-nft.md)
 
 ## User mining
@@ -28,6 +28,8 @@
 * [Levels](user-mining/levels.md)
 * [Crystals](user-mining/crystals.md)
 * [Runes](user-mining/runes.md)
+* [Elixirs](user-mining/elixirs.md)
+* [Potions](user-mining/potions.md)
 * [Lootboxes](user-mining/lootboxes.md)
 * [Leagues](user-mining/leagues.md)
 * [Rewards](user-mining/rewards.md)

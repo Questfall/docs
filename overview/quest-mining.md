@@ -20,7 +20,9 @@ So it's no surprise that Questfall is built around the concept of mining, which 
 Each QFT token is mined, i.e. used to reward valuable actions when issued, and is not pre-minted by the Team.
 {% endhint %}
 
-There is no way to compare the creation of a quest and the provision of liquidity to the DEX pool, so the QFT issue is divided into pre-determined shares between different areas. It can be thought of as different mining pools, each receiving a fixed percentage of the weekly issue and distributing rewards to users based on the comparative value they bring to the system.
+Of course, quest mining requires different activities to be rewarded, and this creates a problem because there is no way to compare, for example, creating a quest and providing liquidity to the DEX pool.&#x20;
+
+Therefore, QFT issue is divided into pre-determined proportions between different areas. It can be thought of as different mining pools, each receiving a fixed percentage of the weekly issue and distributing rewards to users based on the comparative value they bring to the system.
 
 {% hint style="info" %}
 As the percentage split is fixed, and the QFT issue is determined by the pre-defined formula, the number of tokens allocated to each of these pools can be accurately calculated for any given week.
