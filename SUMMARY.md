@@ -19,7 +19,7 @@
 
 * [🪙 - Questfall Tokens (QFT)](assets/questfall-tokens-qft.md)
 * [💵 - Credits (off-chain)](assets/credits-off-chain.md)
-* [💢 - Items (off-chain + NFTs)](assets/items-off-chain-+-nfts.md)
+* [💢 - Items (off-chain + NFTs)](assets/runes-off-chain-+-nfts.md)
 * [👑 - Founder NFTs](assets/founders-nft.md)
 
 ## User mining

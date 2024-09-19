@@ -51,7 +51,7 @@ The vast majority of projects on the existing quest platforms do not put a lot o
 
 This happens because projects are primarily interested in promoting themselves, and quest platforms give them access to the userbase without any demands on the quality of the quests. As a result, project teams simply take the most efficient path that requires the least effort.
 
-Thanks to quest mining, Questfall is able to reward authors for the quality of their quests. In order to do this, every user will be rewarded for voting on the rating of the quests he has completed, which will affect the author's reward.
+On the other hand, quest mining in Questfall is based on rewarding authors according to the value they bring to the community. In order to estimate the value created by authors, users who complete a particular quest are rewarded for voting on its rating, thus influencing the author's reward.
 
 {% hint style="info" %}
 In order to prevent malicious authors from abusing the rating system, votes will be weighted differently depending on the level of the user. Read more in the [Quest Ratings](../author-mining/ratings.md) article.
