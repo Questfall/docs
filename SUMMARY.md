@@ -46,7 +46,8 @@
 * [⚙️ Project expenses (5%)](mechanics/project-expenses-5.md)
 * [☕ Founders' revenue (10%)](mechanics/founders-revenue-10.md)
 
-***
+## Roadmap
 
-* [Roadmap](roadmap.md)
-* [Initial funding event](initial-funding-event.md)
+* [Preparation](roadmap/preparation.md)
+* [Initial funding event](roadmap/initial-funding-event.md)
+* [Roadmap](roadmap/roadmap.md)

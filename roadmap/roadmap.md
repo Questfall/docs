@@ -1,6 +1,6 @@
 ---
+icon: square
 description: Several years of our research are not included in this roadmap.
-icon: calendar-check
 ---
 
 # Roadmap

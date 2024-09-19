@@ -1,8 +1,8 @@
 ---
-icon: piggy-bank
+icon: square
 ---
 
-# - Initial funding event
+# Initial funding event
 
 **Explaining the Founder status**\
 The Team and initial investors are part of the same Founders group\
