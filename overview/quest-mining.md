@@ -81,11 +81,8 @@ Promoting quests requires adding value to the entire community. Read more in the
 
 ### Real-world quests
 
-Quest mining rewards are not biased, and users are paid by the system itself, not by projects or other users. This makes it possible to make the world a better place through quests, as the motivation for users is provided by the system, and authors do not have to worry about it.
+Quest mining rewards are not biased, and users are paid by the system itself, not by projects or other users. This makes it possible to make the world a better place through quests, as the motivation for users is provided by the system, and authors do not have to worry about it. For example, users can be rewarded for completing quests such as 'Plant a tree' or 'Clean up the ocean'.
 
 {% hint style="info" %}
-For example, users can be rewarded for completing quests such as 'Plant a tree' or 'Clean up the ocean'.
+Of course, this approach also opens up the possibility of quests causing harm to others, as the system blindly motivates users to complete every quest. However, this problem is addressed by [decentralised moderation](../user-mining/levels.md), where the community decides whether a reported quest is appropriate or not.
 {% endhint %}
-
-However, there is a downside to this approach: since quests are not pre-moderated, they can be used for evil purposes. For example, quests such as 'Kill an animal' or 'Say nasty things about this company' may appear. To prevent potential harm to others, any user can report a quest and the community will vote on whether or not it is appropriate.
-

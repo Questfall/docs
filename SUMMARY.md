@@ -49,5 +49,5 @@
 ## Roadmap
 
 * [Preparation](roadmap/preparation.md)
-* [Initial funding event](roadmap/initial-funding-event.md)
+* [Raising Event](roadmap/raising-event.md)
 * [Roadmap](roadmap/roadmap.md)
