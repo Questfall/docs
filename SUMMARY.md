@@ -4,10 +4,10 @@
 
 ## Overview
 
-* [Quest mining](overview/quest-mining.md)
-* [Sybil attack protection](overview/sybil-attack-protection.md)
-* [Deflationary tokenomics](overview/deflationary-tokenomics.md)
-* [RPG gamification](overview/rpg-gamification.md)
+* [Quest Mining](overview/quest-mining.md)
+* [Sybil Protection](overview/sybil-protection.md)
+* [Deflationary Tokenomics](overview/deflationary-tokenomics.md)
+* [RPG System](overview/rpg-system.md)
 
 ## Assets
 
@@ -21,6 +21,7 @@
 * [Character](user-mining/character.md)
 * [Levels](user-mining/levels.md)
 * [Crystals](user-mining/crystals.md)
+* [Materials](user-mining/materials.md)
 * [Runes](user-mining/runes.md)
 * [Elixirs](user-mining/elixirs.md)
 * [Potions](user-mining/potions.md)

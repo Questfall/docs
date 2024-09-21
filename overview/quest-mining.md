@@ -2,7 +2,7 @@
 icon: pickaxe
 ---
 
-# Quest mining
+# Quest Mining
 
 Mining, first implemented in Bitcoin, creates an economy completely different from modern capitalism by establishing a direct link between investment in the system and its development.
 
@@ -39,7 +39,7 @@ The remaining 34% is used to reward infrastructure support:
 * 2% to users who burn their Founder NFTs,
 * 8% to users who provide liquidity to the official DEX pool,
 * 5% to users who freeze their QFT tokens,
-* 4% to users who burn their QFT tokens to get Credits,
+* 4% for users buying Gold via QFT burn.
 * 5% to the Team for project expenses,
 * 10% to Founders.
 
