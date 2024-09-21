@@ -12,7 +12,7 @@
 ## Assets
 
 * [🪙 - Questfall Tokens (QFT)](assets/questfall-tokens-qft.md)
-* [💵 - Credits (off-chain)](assets/credits-off-chain.md)
+* [- Gold (off-chain)](assets/gold-off-chain.md)
 * [💢 - Items (off-chain + NFTs)](assets/runes-off-chain-+-nfts.md)
 * [👑 - Founder NFTs](assets/founders-nft.md)
 

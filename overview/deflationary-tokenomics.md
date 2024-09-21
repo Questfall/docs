@@ -16,19 +16,19 @@ Bitcoin assumes that miners will only earn from transaction fees once BTCs are n
 
 Deflation can solve this problem, as burning tokens reduces the supply in circulation, thus increasing the miners' share. But burning for nothing causes losses, and therefore only makes sense for altruists who benefit others at the expense of their own interests. In other words, for a deflationary model to work, the system should give something in return for burnt tokens.
 
-In Questfall, users can burn QFT tokens to purchase off-chain [Credits](../assets/credits-off-chain.md) at a fixed price of $1. These Credits can be used on the platform to trade items or pay for mining bonuses and quest promotion.
+In Questfall, users can burn QFT tokens to purchase off-chain [Gold](../assets/gold-off-chain.md) at a fixed price of $1, which can be used on the platform to trade items or pay for mining bonuses and quest promotion.
 
 {% hint style="info" %}
-QFT burning is the only way to get Credits.
+QFT burning is the only way to get Gold.
 {% endhint %}
 
-In this way, QFT tokens are issued each week to reward miners, while at the same time they are burned for Credits. This dialectic has several advantages.
+In this way, QFT tokens are issued each week to reward miners, while at the same time they are burned for Gold. This dialectic has several advantages.
 
 Firstly, it solves the inherent problem of Bitcoin's approach to mining, as the miners' share of the system's capitalisation tends to be stable over the long term. In other words, the portion of QFT's capitalisation that is used to reward miners will not decrease despite the decline in token issuance.
 
 The defaltionary nature of QFT also implies that the number of tokens in circulation will initially increase as there are no tokens to begin with, but as the market saturates, the number of QFTs in circulation will slowly decrease over time.&#x20;
 
-As a result, the price of QFT will rise in the long run, even if the number of active Questfall users remains constant. In other words, the decrease in circulating supply is caused by user activity.
+As a result, the price of QFT will rise in the long run, even if the number of active Questfall users remains constant, because the decrease in the circulating supply is caused by user activity.
 
 This makes QFT tokenomics very different from any non-deflationary approach, which is essentially a Ponzi scheme where existing holders can only cash out at the expense of many newcomers.
 
@@ -36,11 +36,11 @@ This makes QFT tokenomics very different from any non-deflationary approach, whi
 If we look at the price of a token as the capitalisation of the project divided by the number of tokens, we can see the difference more clearly. In the conventional approach, the price goes up as the numerator (capitalisation) goes up, whereas in deflation, the price goes up as the denominator (number of tokens) goes down.
 {% endhint %}
 
-As the price of Credits is fixed in dollars, the QFT price change will not affect third-party projects that promote their quests to the Questfall audience. If someone wants to spend stablecoins on promotion, he will get the same number of Credits regardless of the price of QFT.
+As the price of Gold is fixed in dollars, the QFT price change will not affect third-party projects that promote their quests to the Questfall audience. If someone wants to spend stablecoins on a promotion, he will get the same amount of Gold regardless of the price of QFT.
 
-Furthermore, at times when the price of QFT falls, the number of tokens burned by third-party projects will increase, as more QFTs must be burned to obtain the same number of Credits. This leads to a rapid trend reversal as the shrinking of the circulating supply accelerates.
+Furthermore, at times when the price of QFT falls, the number of tokens burned by third-party projects will increase, as more QFTs must be burned to obtain the same amount of Gold. This leads to a rapid trend reversal as the shrinking of the circulating supply accelerates.
 
-The QFT price changes will only affect miners and holders, who will receive a different number of Credits for their QFTs. And as the price of QFT tends to rise in the long term, the number of Credits for a QFT token will increase over time.&#x20;
+The QFT price changes will only affect miners and holders, who will receive a different amount of Gold for their QFTs. And as the price of QFT tends to rise in the long term, the amount of Gold for a QFT token will increase over time.&#x20;
 
 This is exactly how deflation works - the longer a consumer waits, the more value he will receive for the same amount of money.
 

@@ -14,7 +14,7 @@ But if we take something that we humans find meaningful as a value for mining (p
 Perhaps in the future AI will evolve to the point where it can become an infallible judge, but that will be another story, far from the decentralised systems.
 {% endhint %}
 
-This makes it possible to generate tons of very low quality fakes and get rewarded for them, because the algorithm can't distinguish between good and bad quality and rewards every item the same. This makes counterfeiting a profitable strategy, and eventually there will be so many fakes that the reward for each item will be too small to justify the effort required to create a high quality item.
+This makes it possible to generate tons of very low quality fakes and get rewarded for them, because the algorithm can't distinguish between good and bad quality and rewards every item the same. This makes counterfeiting a profitable strategy, and eventually there will be so many fakes that the reward for each item will be too small to justify the effort of making quality items.
 
 One of the most common solutions tried in recent years to prevent the generation of fakes is to prove that a user is human. This can be thought of as a one-off CAPTCHA. From various KYC systems with confirmation in the form of NFT, to all sorts of pedometers and tappers on mobile devices.
 
