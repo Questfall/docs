@@ -24,9 +24,9 @@ However, this introduces another problem: since QFT tokens are burned when Gold 
 Stablecoin liquidity pools, which are typically used to support withdrawals, create demand and add value to the stablecoins themselves, not the system. Such pools are also a prime target for hackers, who can drain the liquidity completely, making in-game assets worthless.
 {% endhint %}
 
-This is where the RPG system comes in. Not only does it help solve the problem of extracting value from the system without liquidity pools, but it also fits like a glove into the user levels used to protect the system from Sybil attacks.&#x20;
+This is where the RPG system comes in. Not only does it help solve the problem of extracting value from the system without liquidity pools (we will return to this problem a little later), but it also fits like a glove into the user levels used to protect the system from Sybil attacks.
 
-Furthermore, the RPG approach itself increases user engagement by allowing many possible strategies in addition to the basic one of completing as many quests as possible.
+In addition, the RPG approach itself increases user engagement and retention by adding complexity, increasing the role of user skill, and allowing for a variety of strategies beyond the basic quest grinding.
 
 {% hint style="info" %}
 In this article, we will look at the big picture, rather than going into deep details that may change as Questfall is developed.
