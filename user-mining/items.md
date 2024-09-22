@@ -2,5 +2,5 @@
 icon: puzzle-piece
 ---
 
-# Materials
+# Items
 

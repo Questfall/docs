@@ -12,19 +12,15 @@
 ## Assets
 
 * [🪙 - Questfall Tokens (QFT)](assets/questfall-tokens-qft.md)
-* [- Gold (off-chain)](assets/gold-off-chain.md)
-* [💢 - Items (off-chain + NFTs)](assets/runes-off-chain-+-nfts.md)
+* [- Gold (in-game)](assets/gold-in-game.md)
+* [💢 - Runes (in-game + NFTs)](assets/runes-in-game-+-nfts.md)
 * [👑 - Founder NFTs](assets/founders-nft.md)
 
 ## User mining
 
 * [Character](user-mining/character.md)
 * [Levels](user-mining/levels.md)
-* [Crystals](user-mining/crystals.md)
-* [Materials](user-mining/materials.md)
-* [Runes](user-mining/runes.md)
-* [Elixirs](user-mining/elixirs.md)
-* [Potions](user-mining/potions.md)
+* [Items](user-mining/items.md)
 * [Lootboxes](user-mining/lootboxes.md)
 * [Leagues](user-mining/leagues.md)
 * [Rewards](user-mining/rewards.md)
@@ -49,6 +45,12 @@
 
 ## Roadmap
 
-* [Preparation](roadmap/preparation.md)
+* [System design](roadmap/system-design.md)
 * [Raising Event](roadmap/raising-event.md)
 * [Roadmap](roadmap/roadmap.md)
+* [QFT launch](roadmap/qft-launch.md)
+* [Uniswap Pool](roadmap/uniswap-pool.md)
+* [QFT burning](roadmap/qft-burning.md)
+* [QFT freezing](roadmap/qft-freezing.md)
+* [Founder NFTs burning](roadmap/founder-nfts-burning.md)
+* [Questfall, version 1.0](roadmap/questfall-version-1.0.md)
