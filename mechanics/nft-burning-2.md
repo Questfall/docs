@@ -1,4 +1,8 @@
-# ❤️‍🔥 NFT burning (2%)
+---
+icon: fire
+---
+
+# NFT burning (2%)
 
 Our goal is to maximise the price of NFTs over the long term. In order to achieve this, 2% of the newly created QFTs are allocated each week to the purchase of [Mining ](broken-reference)(1%) and [Founder](../assets/founders-nft.md) (1%) NFTs from the market via auction, with the subsequent burning of these NFTs.
 

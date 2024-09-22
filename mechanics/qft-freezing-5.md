@@ -1,4 +1,8 @@
-# 🧊 QFT freezing (5%)
+---
+icon: snowflake
+---
+
+# QFT freezing (5%)
 
 Ensuring that tokens are not sold by the user for a certain period of time benefits the system. To encourage such behavior, 5% of the newly created QFTs will be used each week to reward those users who freeze their tokens in the system for 15 weeks. The rewards for token freezing will begin before the launch of Questfall and will continue indefinitely, reducing the amount of QFT in circulation at any given time by frozen tokens.
 

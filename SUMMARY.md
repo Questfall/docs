@@ -11,10 +11,9 @@
 
 ## Assets
 
-* [🪙 - Questfall Tokens (QFT)](assets/questfall-tokens-qft.md)
-* [- Gold (in-game)](assets/gold-in-game.md)
-* [💢 - Runes (in-game + NFTs)](assets/runes-in-game-+-nfts.md)
-* [👑 - Founder NFTs](assets/founders-nft.md)
+* [- Questfall Tokens (QFT)](assets/questfall-tokens-qft.md)
+* [- Rune NFTs](assets/rune-nfts.md)
+* [- Founder NFTs](assets/founders-nft.md)
 
 ## User mining
 
@@ -36,12 +35,12 @@
 
 ## Infrastructure support
 
-* [❤️‍🔥 NFT burning (2%)](mechanics/nft-burning-2.md)
-* [💰 Liquidity providers (8%)](mechanics/liquidity-providers-8.md)
-* [🧊 QFT freezing (5%)](mechanics/qft-freezing-5.md)
-* [🔥 QFT burning (4%)](mechanics/qft-burning-4.md)
-* [⚙️ Project expenses (5%)](mechanics/project-expenses-5.md)
-* [☕ Founders' revenue (10%)](mechanics/founders-revenue-10.md)
+* [NFT burning (2%)](mechanics/nft-burning-2.md)
+* [Liquidity providers (8%)](mechanics/liquidity-providers-8.md)
+* [QFT freezing (5%)](mechanics/qft-freezing-5.md)
+* [QFT burning (4%)](mechanics/qft-burning-4.md)
+* [Project expenses (5%)](mechanics/project-expenses-5.md)
+* [Founders' revenue (10%)](mechanics/founders-revenue-10.md)
 
 ## Roadmap
 

@@ -16,7 +16,7 @@ Bitcoin assumes that miners will only earn from transaction fees once BTCs are n
 
 Deflation can solve this problem, as burning tokens reduces the supply in circulation, thus increasing the miners' share. But burning for nothing causes losses, and therefore only makes sense for altruists who benefit others at the expense of their own interests. In other words, for a deflationary model to work, the system should give something in return for burnt tokens.
 
-In Questfall, users can burn QFT tokens to purchase off-chain [Gold](../assets/gold-in-game.md) at a fixed price of $1, which can be used on the platform to trade items or pay for mining bonuses and quest promotion.
+In Questfall, users can burn QFT tokens to purchase off-chain [Gold](broken-reference) at a fixed price of $1, which can be used on the platform to trade items or pay for mining bonuses and quest promotion.
 
 {% hint style="info" %}
 QFT burning is the only way to get Gold.

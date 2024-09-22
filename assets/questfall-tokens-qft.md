@@ -1,4 +1,8 @@
-# 🪙 - Questfall Tokens (QFT)
+---
+icon: coin-vertical
+---
+
+# - Questfall Tokens (QFT)
 
 QFT token:\
 1\. No allocations, can only be mined through activities on the Questfall platform\
@@ -53,6 +57,6 @@ For more details read the [Mining sections](broken-reference) of this documentat
 * By burning QFT any author can obtain off-chain system Credits (at a fixed USD price), which can be used for the quest promotion to the platform users. This means that after some market saturation period the circulating supply of QFT will steadily decline.
 
 {% hint style="info" %}
-For more details read the [Credits sections ](gold-in-game.md)of this documentation.
+For more details read the [Credits sections ](broken-reference)of this documentation.
 {% endhint %}
 

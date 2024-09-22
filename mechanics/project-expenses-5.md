@@ -1,4 +1,8 @@
-# ⚙️ Project expenses (5%)
+---
+icon: gear-code
+---
+
+# Project expenses (5%)
 
 Money will be needed to maintain and develop the Questfall project once it is up and running. The main expenses that will require funding will be the following:
 
