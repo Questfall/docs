@@ -14,10 +14,10 @@ With each level a user gets a free attribute point that can be applied to any of
 * <mark style="color:orange;">**Vigour**</mark>: Increases the character's stamina limit;
 * <mark style="color:red;">**Regeneration**</mark>: Increases the rate at which the character's stamina replenishes;
 * <mark style="color:green;">**Intelligence**</mark>: Increases spell memory and the number of active spells available;
-* <mark style="color:yellow;">**Core**</mark>: Increases maximum mana capacity;
-* <mark style="color:yellow;">**Recharge**</mark>: Increases the rate at which mana is collected from the word;
-* <mark style="color:yellow;">**Precision**</mark>: Increases the efficiency of crafting and disassembling items;
-* <mark style="color:yellow;">**Luck**</mark>: Increases the chance of receiving more items from loot boxes;
+* <mark style="color:blue;">**Core**</mark>: Increases maximum mana capacity;
+* <mark style="color:blue;">**Recharge**</mark>: Increases the rate at which mana is collected from the word;
+* <mark style="color:blue;">**Precision**</mark>: Increases the efficiency of crafting and disassembling items;
+* <mark style="color:blue;">**Luck**</mark>: Increases the chance of receiving more items from loot boxes;
 
 By completing quests users earn activity points (ACT) and by participating in moderation users earn experience points (XP).
 
