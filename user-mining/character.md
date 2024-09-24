@@ -10,8 +10,8 @@ Every users starts mining quests as a character of level 1. And by participating
 
 With each level a user gets a free attribute point that can be applied to any of the character attributes:
 
-* <mark style="color:yellow;background-color:blue;">Constitution</mark>: Increases the amount of weight a character can carry in his inventory;
-* <mark style="color:yellow;background-color:blue;">Vigour</mark>: Increases the character's stamina limit;
+* **Constitution**: Increases the amount of weight a character can carry in his inventory;
+* **Vigour**: Increases the character's stamina limit;
 * **Regeneration**: Increases the rate at which the character's stamina replenishes;
 * **Intelligence**: Increases spell memory and the number of active spells available;
 * **Core**: Increases maximum mana capacity;
