@@ -5,10 +5,10 @@
 ## Overview
 
 * [Quest Mining](overview/quest-mining.md)
-* [Meaningful Quests](overview/meaningful-quests.md)
+* [Global Feed](overview/global-feed.md)
 * [Sybil Protection](overview/sybil-protection.md)
 * [Deflationary Tokenomics](overview/deflationary-tokenomics.md)
-* [RPG System](overview/rpg-system.md)
+* [RPG Involvement](overview/rpg-involvement.md)
 
 ## Assets
 

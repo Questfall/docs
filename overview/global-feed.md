@@ -1,10 +1,28 @@
 ---
-icon: icons
+icon: rss
 ---
 
-# Meaningful Quests
+# Global Feed
 
-### Meaningful quests
+Existing quest platform workflows assume that users receive rewards directly from quest authors. As a result, user rewards are arbitrary and optional.&#x20;
+
+Such an approach also forces users to focus on a few specific projects while skipping others, as there is no point in completing just one quest from a particular author, because the reward usually requires completion of all of the author's quests.
+
+On the other hand, system rewards, thanks to quest mining, allow Questfall to have a global quest feed, which brings many benefits to the platform.
+
+{% hint style="info" %}
+The global quest feed is the direct analogue to the post feed on any social media platform. The only difference is that the social media format does not require a mandatory response to the post, while a quest requires some proof that a user has taken a requested action. This makes Questfall similar to sites like Facebook or X.
+{% endhint %}
+
+The global quest feed brings many advantages to the platform. allows users to complete only the quests they are interested in, regardless of the author of the quest.
+
+not only allows users to keep up with what is happening on Questfall, but it also helps projects to promote their quests to all users of the platform, since the system can influence the visibility of quests in the feed.&#x20;
+
+{% hint style="info" %}
+Promoting quests requires adding value to the entire community. Read more in the [Promotion](../author-mining/promotion.md) article.
+{% endhint %}
+
+###
 
 The vast majority of projects on the existing quest platforms do not put a lot of resources into creating quests, and as a result, most of them are silly tasks like joining Discord or reposting a tweet.
 
@@ -26,20 +44,4 @@ Quest mining rewards are not biased, and users are paid by the system itself, no
 
 {% hint style="info" %}
 Of course, this approach also opens up the possibility of quests causing harm to others, as the system blindly motivates users to complete every quest. However, this problem is addressed by [decentralised moderation](../user-mining/levels.md), where the community decides whether a reported quest is appropriate or not.
-{% endhint %}
-
-### Global quest feed
-
-None of the existing quest platforms have implemented quest mining, so it is assumed that their users receive rewards from the particular projects they do quests for. This approach not only makes user rewards arbitrary and optional, but also forces users to focus on a few specific projects, skipping many other activities on the platform.
-
-Global rewards from the system, thanks to quest mining, allow Questfall to have a global quest feed, which is the direct analogue to the post feed in any social media platform. The only difference is the depth of user interaction with the content. If the social media format does not require a mandatory response to the post, a quest will need some proof that a user has taken a requested action.
-
-{% hint style="info" %}
-This makes Questfall similar to sites like Facebook or Tweeter.
-{% endhint %}
-
-The global quest feed not only allows users to keep up with what is happening on Questfall, but it also helps projects to promote their quests to all users of the platform, since the system can influence the visibility of quests in the feed.&#x20;
-
-{% hint style="info" %}
-Promoting quests requires adding value to the entire community. Read more in the [Promotion](../author-mining/promotion.md) article.
 {% endhint %}

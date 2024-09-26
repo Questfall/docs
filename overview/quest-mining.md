@@ -28,13 +28,7 @@ Therefore, QFT issue is divided into pre-determined proportions between differen
 As the percentage split is fixed, and the QFT issue is determined by the pre-defined formula, the number of tokens allocated to each of these pools can be accurately calculated for any given week.
 {% endhint %}
 
-In Questfall, 66% of the weekly issue is used to reward quest miners:
-
-* 40% to users who complete quests;
-* 10% to authors who create quests;
-* 16% to seasonal reward pool (11.2% to users and 4.8% to authors).
-
-The remaining 34% is used to support infrastructure:
+In Questfall, a third of the weekly issue (34%) is used to support the infrastructure:
 
 * 1% to buy back and burn Founder NFTs;
 * 5% to reward liquidity providers;
@@ -43,12 +37,26 @@ The remaining 34% is used to support infrastructure:
 * 8% to cover Gold withdrawals;
 * 10% to Founders.
 
-The principles for valuing user contributions can vary from one pool to another.
+{% hint style="info" %}
+Details of the reward distribution in each of these pools can be found in the relevant articles.
+{% endhint %}
 
-For example, the most important and most rewarded activity (40% + 4.8% of the weekly issue) is quest completion. Completing each quest earns users different amounts of ACT points, depending on the author's [reputation](../author-mining/reputation.md), the quest's [promotion](../author-mining/promotion.md), the character's [garment](../user-mining/items.md) and even [magic](../user-mining/magic.md).
+The remaining two-thirds of the weekly issue (66%) is used to reward the quest miners:
 
-ACT points increase a user's activity score, which can be thought of as a user's mining power, and is used at the end of the week or season to calculate the user's share of the quest completion pool reward.
+* 40% to users who complete quests;
+* 10% to authors who create quests;
+* 16% to seasonal reward pool (11.2% to users and 4.8% to authors).
 
-On the other hand, the author's mining power is calculated based on the popularity of his quests. In other words, each completion of an author's quests during a week or season is added up and used as the author's share of the reward.
+The overall approach to reward distribution at the end of a week or season for completing quests is based on user activity, which can be thought of as individual mining power. This activity score is calculated as the sum of the ACT points earned by a given user by completing quests during the period.
 
-An author can increase the number of quests completed not only by promoting his quests, but more importantly by creating quests that are appreciated by the community, as the higher the author's reputation, the more ACT points users will receive for completing his quests. In this way, the higher the [ratings ](../author-mining/ratings.md)of the author's quests, the more motivated users will be to complete them.
+Each quest has its own pre-determined ACT reward based on the reputation of the quest author and the quest promotion. While all users will receive the same amount of ACT points from the same quest, the reward can be further adjusted based on the user's individual bonuses from items and magic.
+
+The author's mining power, on the other hand, is based on the popularity of his quests. In other words, the author's share of the reward is determined by how many users complete his quests in a week or season.
+
+An author can increase his reward by gaining a reputation for creating quests that are appreciated by the community, as the higher the author's reputation, the more ACT points users will receive for completing his quests.
+
+{% hint style="info" %}
+Authors can also promote their quests by adding ACT points directly to their quests by paying for them in a way that adds value to the entire community. See the [Promotion ](../author-mining/promotion.md)article for more details.
+{% endhint %}
+
+The increased amount of ACT points users receive for completing a particular quest not only makes it more attractive to complete, but also makes it more visible in the system thanks to the global quest feed.
