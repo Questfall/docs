@@ -22,7 +22,7 @@ To upgrade books, users need to merge 5 books of the same type and rarity. For e
 \
 When learning a spell the book is consumed forever and cannot be sold back. Spells can be unlearned by simply deleting them. \
 \
-Inteligence is the main attribute for spells. It increases the number of spells a user can learn and the number of active spells available. \
+Intelligence is the main attribute for spells. It increases the number of spells a user can learn and the number of active spells available. \
 \
 Spells consume Mana. The more powerful the spell, the more mana it consumes.\
 Mana is a limited resource used to cast spells. It regenerates slowly after some time. Mana capacity and regeneration can be increased by putting skill points in character attributes or by equipping certain items.\
