@@ -28,3 +28,5 @@ By completing quests users earn activity points (ACT) and by participating in mo
 
 Earned ACT points are used to distribute reward at the end of the week and at the end of the season. ACT can be thought of as a mining power, which reset each reward perdiod (one week for a regular mining and three month for seasons).
 
+\
+The user's inventory is limited by weight. The weight a user can carry can be increased by putting attribute points in Precision skill. \
