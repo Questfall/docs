@@ -1,5 +1,5 @@
 ---
-icon: web-awesome
+icon: crown
 ---
 
 # - Founder NFTs

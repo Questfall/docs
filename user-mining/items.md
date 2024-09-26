@@ -1,8 +1,8 @@
 ---
-icon: clothes-hanger
+icon: puzzle-piece
 ---
 
-# Garment
+# Items
 
 Garment are pieces of clothing equipment used by players to increase their stats and gain an edge over other users when doing certain activities on the platform.\
 \

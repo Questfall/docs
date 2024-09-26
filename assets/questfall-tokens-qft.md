@@ -1,5 +1,5 @@
 ---
-icon: coin-vertical
+icon: coin-blank
 ---
 
 # - Questfall Tokens (QFT)

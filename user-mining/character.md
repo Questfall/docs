@@ -4,7 +4,12 @@ icon: person
 
 # Character
 
-In Questfall, each user is represented as a character that is described with numeric parameters, the most important of which is the number of level.&#x20;
+In Questfall, each user is represented as a character that has the following abilities:
+
+* Complete quests
+* Use items to&#x20;
+
+numeric parameters, the most important of which is the number of level.&#x20;
 
 Every users starts mining quests as a character of level 1. And by participating in moderation users earn experience points (XP) that are used to increase their level.
 

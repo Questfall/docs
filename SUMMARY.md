@@ -12,17 +12,16 @@
 ## Assets
 
 * [- Questfall Tokens (QFT)](assets/questfall-tokens-qft.md)
-* [- Garment NFTs](assets/garment-nfts.md)
-* [- Magic Book NFTs](assets/magic-book-nfts.md)
+* [- Item NFTs](assets/item-nfts.md)
 * [- Founder NFTs](assets/founders-nft.md)
 
 ## User mining
 
 * [Character](user-mining/character.md)
-* [Garment](user-mining/garment.md)
+* [Items](user-mining/items.md)
 * [Magic](user-mining/magic.md)
 * [Levels](user-mining/levels.md)
-* [Lootboxes](user-mining/lootboxes.md)
+* [Loot boxes](user-mining/loot-boxes.md)
 * [Leagues](user-mining/leagues.md)
 * [Rewards](user-mining/rewards.md)
 * [Seasons](user-mining/seasons.md)
