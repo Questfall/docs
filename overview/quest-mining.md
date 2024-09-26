@@ -45,7 +45,7 @@ The remaining 34% is used to support infrastructure:
 
 The principles for valuing user contributions can vary from one pool to another. For example, liquidity providers are rewarded based on their share of the pool, while authors are rewarded based on their quest ratings and popularity.
 
-### Motivation for quality quests
+### Meaningful quests
 
 The vast majority of projects on the existing quest platforms do not put a lot of resources into creating quests, and as a result, most of them are silly tasks like joining Discord or reposting a tweet.
 
