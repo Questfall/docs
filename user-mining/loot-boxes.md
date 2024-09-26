@@ -2,7 +2,7 @@
 icon: treasure-chest
 ---
 
-# Lootboxes
+# Loot boxes
 
 Loot boxes are the only way to obtain items. \
 Users can obtain lootboxes by buying them from the system with Gold or by doing certain activities on the platfrom. \
@@ -34,9 +34,13 @@ Each box requiers 10 individual map fragments. After acquiring all fragments the
 Higher the luck, higher the chances of getting extra items\
 \
 Opening system depending on Luck\
-If a user have +1 Luck then his lootbox will yield exactly 1 random item\
-If a users has +2 Luck then he will get to choose between 2 item cards.\
 \
+If a user has +1 Luck then his lootbox will yield exactly 1 random item. \
+If a user has +4 Luck then he can win minimum 1 item and maximum 4 depending on how lucky he is when he chooses the cards. \
+How it works?\
+There are 4 cards upside down.\
+After choosing one card the users receive the item(the first choice yields 100% an item) and the card is returned to the deck as a "dead-end" card\
+Now the 4 cards consist of 3 item cards + 1 dead end card. If the users chooses the Item card, the game continues if he chooses the dead end card, the game ends. \
 \
 \
 \
