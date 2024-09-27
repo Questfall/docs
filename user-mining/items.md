@@ -51,10 +51,11 @@ Consumable items\
 Cannot be upgraded\
 \
 Potions\
-Potions have the same rarity tiers as items\
+Potions do not have rarity tiers\
 There are 2 types of potions, Mana and Stamina. \
 Upon consuming they regenerate their respective power. \
+they can be found in loot boxes and traded on the marketplace\
 \
 Elixirs\
-Elixirs can permanently increase character attributes upon consumption. \
-Same rarity tiers as items
+Same rarity tiers as items. \
+D,E.F tiers give temporary attribute boost while C,B,A offer permanent attribute points upon consumption\
