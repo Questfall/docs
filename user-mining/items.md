@@ -38,10 +38,23 @@ Mythic items have 3 upgradable stat and 3 non upgradable\
 Salvaging gives essence based on the rarity of the item. This process can be influenced by Precision attribute which provides extra essence depending on it's level\
 To lvl up items users need to spend Essence. The essence required to lvl up increases with each item level\
 \
+Items have weight and their storage is limited. \
+\
 Item Levels\
 Each Garment equipment has levels. In order to equip items users need to meet the required level of the item.\
 \
 Equipping items\
 When users equip or unequip items they need to spend essence. \
 \
-Items have weight and their storage is limited. \
+\
+Consumable items\
+Cannot be upgraded\
+\
+Potions\
+Potions have the same rarity tiers as items\
+There are 2 types of potions, Mana and Stamina. \
+Upon consuming they regenerate their respective power. \
+\
+Elixirs\
+Elixirs can permanently increase character attributes upon consumption. \
+Same rarity tiers as items

@@ -30,3 +30,23 @@ Earned ACT points are used to distribute reward at the end of the week and at th
 
 \
 The user's inventory is limited by weight. The weight a user can carry can be increased by putting attribute points in Precision skill. \
+\
+Character slots\
+Each character has 4 slots to equip learned spells(read more on magic section)\
+And 8 slots to equip garment items(read more on item section)\
+\
+\
+Characters bars\
+\
+Stamina \
+Completing quests requires stamina. \
+Stamina can be increased by assigning attribute points to Vigour skill \
+Stamina replenishes slowly over a certain period of time and it is influenced by the Regeneration skill. The more points in regeneration the faster it replenishes\
+\
+Mana\
+Mana is used to cast spells. The Core attribute increases mana capacity while intelligence increases the number of spells a user can learn and the active spells.(read more in magic)\
+\
+Stamina and mana can be replenished by consuming potions(read more in items)\
+\
+XP\
+Experience bar?
