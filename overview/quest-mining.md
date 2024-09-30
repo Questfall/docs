@@ -17,7 +17,7 @@ The mining approach has been very successful because it allows newly issued coin
 So it's no surprise that Questfall is built around the concept of mining, which means that the system rewards users with a decreasing number of Questfall Tokens (QFT) each week for various quest and infrastructure actions.
 
 {% hint style="info" %}
-Each QFT token is mined, i.e. it is used to reward valuable actions when it is issued. It is not pre-minted by the Team.
+Each QFT token is issued as a user reward for valuable actions, and none are pre-minted by the Team.
 {% endhint %}
 
 Quest mining requires different activities to be rewarded, and this creates a problem because there is no way to compare, for example, creating a quest and providing liquidity to the DEX pool.&#x20;
@@ -47,16 +47,22 @@ The remaining two-thirds of the weekly issue (66%) is used to reward the quest m
 * 10% to authors who create quests;
 * 16% to seasonal reward pool (11.2% to users and 4.8% to authors).
 
-The overall approach to reward distribution at the end of a week or season for completing quests is based on user activity, which can be thought of as individual mining power. This activity score is calculated as the sum of the ACT points earned by a given user by completing quests during the period.
+At the end of each week or season, rewards for completing quests are distributed based on a user's activity score, which acts like a personal mining power. This activity score is simply the total number of ACT points a user earns by completing quests during the period.
 
-Each quest has its own pre-determined ACT reward based on the reputation of the quest author and the quest promotion. While all users will receive the same amount of ACT points from the same quest, the reward can be further adjusted based on the user's individual bonuses from items and magic.
-
-The author's mining power, on the other hand, is based on the popularity of his quests. In other words, the author's share of the reward is determined by how many users complete his quests in a week or season.
-
-An author can increase his reward by gaining a reputation for creating quests that are appreciated by the community, as the higher the author's reputation, the more ACT points users will receive for completing his quests.
+Each quest is worth a certain number of ACT points, which all users who complete the quest will receive as a basic reward. However, while the basic reward for the quest is the same for all users, the final number of ACT points received can be increased by individual user bonuses.
 
 {% hint style="info" %}
-Authors can also promote their quests by adding ACT points directly to their quests by paying for them in a way that adds value to the entire community. See the [Promotion ](../author-mining/promotion.md)article for more details.
+Individual bonuses are based on the [RPG System](rpg-system.md).
 {% endhint %}
 
-The increased amount of ACT points users receive for completing a particular quest not only makes it more attractive to complete, but also makes it more visible in the system thanks to the global quest feed.
+The number of ACT points users receive as a basic reward for a given quest is based on the quest author's reputation, which is simply a moving average of the community ratings of that author's quests.&#x20;
+
+In other words, the higher the ratings of the author's quests, the higher his reputation, and the more ACT points will be used to reward his future quests.
+
+{% hint style="info" %}
+In order to prevent malicious authors from abusing the rating system, votes are weighted differently depending on the user level. Read more in the [Ratings](../author-mining/ratings.md) article.
+{% endhint %}
+
+This way, authors with a higher reputation will create more rewarding quests, which will motivate users to complete them. And since the author's mining power is represented by the number of quests users complete in a week or season, an author's reward is directly affected by his reputation.
+
+This approach makes quest quality the cornerstone of the system, as the most profitable strategy for authors is to create fun, educational or entertaining quests that are appreciated by the community, while users are motivated to complete quests created by the most diligent authors.

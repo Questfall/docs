@@ -8,7 +8,7 @@ Each author in Questfall has a Reputation attribute, which is essentially a movi
 
 {% tabs %}
 {% tab title="Chart" %}
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>Reputation of the author depends on the rating of his quests.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>Reputation of the author depends on the rating of his quests.</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Details" %}

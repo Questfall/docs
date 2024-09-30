@@ -8,7 +8,7 @@ Users who complete quests receive Quest Points, which are used to calculate thei
 
 {% tabs %}
 {% tab title="Chart" %}
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Details" %}

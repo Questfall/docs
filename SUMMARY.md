@@ -6,15 +6,9 @@
 
 * [Quest Mining](overview/quest-mining.md)
 * [Global Feed](overview/global-feed.md)
-* [Sybil Protection](overview/sybil-protection.md)
-* [Deflationary Tokenomics](overview/deflationary-tokenomics.md)
-* [RPG Involvement](overview/rpg-involvement.md)
-
-## Assets
-
-* [- Questfall Tokens (QFT)](assets/questfall-tokens-qft.md)
-* [- Item NFTs](assets/item-nfts.md)
-* [- Founder NFTs](assets/founders-nft.md)
+* [Token Burning](overview/token-burning.md)
+* [Sybil Defence](overview/sybil-defence.md)
+* [RPG System](overview/rpg-system.md)
 
 ## User mining
 
@@ -37,12 +31,20 @@
 
 ## Infrastructure support
 
-* [NFT burning (2%)](mechanics/nft-burning-2.md)
-* [Liquidity providers (8%)](mechanics/liquidity-providers-8.md)
-* [QFT freezing (5%)](mechanics/qft-freezing-5.md)
-* [QFT burning (4%)](mechanics/qft-burning-4.md)
-* [Project expenses (5%)](mechanics/project-expenses-5.md)
-* [Founders' revenue (10%)](mechanics/founders-revenue-10.md)
+* [NFT burning (2%)](infrastructure-support/nft-burning-2.md)
+* [Liquidity providers (8%)](infrastructure-support/liquidity-providers-8.md)
+* [QFT freezing (5%)](infrastructure-support/qft-freezing-5.md)
+* [QFT burning (4%)](infrastructure-support/qft-burning-4.md)
+* [Project expenses (5%)](infrastructure-support/project-expenses-5.md)
+* [Founders' revenue (10%)](infrastructure-support/founders-revenue-10.md)
+
+## Assets
+
+* [- Questfall Tokens (QFT)](assets/questfall-tokens-qft.md)
+* [- Items (in-game + NFTs)](assets/items-in-game-+-nfts.md)
+* [- Gold (in-game)](assets/gold-in-game.md)
+* [- Gift NFTs](assets/gift-nfts.md)
+* [- Founder NFTs](assets/founder-nfts.md)
 
 ## Roadmap
 
