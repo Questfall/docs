@@ -1,5 +1,5 @@
 ---
-icon: pickaxe
+icon: money-bills
 ---
 
 # Quest Mining
@@ -60,7 +60,7 @@ The number of ACT points users receive as a basic reward for a given quest is ba
 In other words, the higher the ratings of the author's quests, the higher his reputation, and the more ACT points will be used to reward his future quests.
 
 {% hint style="info" %}
-In order to prevent malicious authors from abusing the rating system, votes are weighted differently depending on the user level. Read more in the [Ratings](../author-mining/ratings.md) article.
+In order to prevent malicious authors from abusing the rating system, votes are weighted differently depending on the user level. Read more in the [Ratings](../authors/ratings.md) article.
 {% endhint %}
 
 This way, authors with a higher reputation will create more rewarding quests, which will motivate users to complete them. And since the author's mining power is represented by the number of quests users complete in a week or season, an author's reward is directly affected by his reputation.

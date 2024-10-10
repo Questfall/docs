@@ -10,33 +10,37 @@
 * [Sybil Defence](overview/sybil-defence.md)
 * [RPG System](overview/rpg-system.md)
 
-## User mining
+## Users
 
-* [Character](user-mining/character.md)
-* [Items](user-mining/items.md)
-* [Magic](user-mining/magic.md)
-* [Levels](user-mining/levels.md)
-* [Loot boxes](user-mining/loot-boxes.md)
-* [Leagues](user-mining/leagues.md)
-* [Rewards](user-mining/rewards.md)
-* [Seasons](user-mining/seasons.md)
+* [Character](users/character.md)
+* [Mining](users/mining.md)
+* [Moderating](users/moderating.md)
+* [Crafting](users/crafting.md)
+* [Trading](users/trading.md)
+* [Spellcasting](users/spellcasting.md)
+* [Fighting](users/fighting.md)
+* [Items](users/items.md)
+* [Loot boxes](users/loot-boxes.md)
+* [Leagues](users/leagues.md)
+* [Rewards](users/rewards.md)
+* [Seasons](users/seasons.md)
 
-## Author mining
+## Authors
 
-* [Ratings](author-mining/ratings.md)
-* [Reputation](author-mining/reputation.md)
-* [Promotion](author-mining/promotion.md)
-* [Rewards](author-mining/rewards.md)
-* [Seasons](author-mining/seasons.md)
+* [Ratings](authors/ratings.md)
+* [Reputation](authors/reputation.md)
+* [Promotion](authors/promotion.md)
+* [Rewards](authors/rewards.md)
+* [Seasons](authors/seasons.md)
 
-## Infrastructure support
+## Infrastructure
 
-* [NFT burning (2%)](infrastructure-support/nft-burning-2.md)
-* [Liquidity providers (8%)](infrastructure-support/liquidity-providers-8.md)
-* [QFT freezing (5%)](infrastructure-support/qft-freezing-5.md)
-* [QFT burning (4%)](infrastructure-support/qft-burning-4.md)
-* [Project expenses (5%)](infrastructure-support/project-expenses-5.md)
-* [Founders' revenue (10%)](infrastructure-support/founders-revenue-10.md)
+* [NFT burning (2%)](infrastructure/nft-burning-2.md)
+* [Liquidity providers (8%)](infrastructure/liquidity-providers-8.md)
+* [QFT freezing (5%)](infrastructure/qft-freezing-5.md)
+* [QFT burning (4%)](infrastructure/qft-burning-4.md)
+* [Project expenses (5%)](infrastructure/project-expenses-5.md)
+* [Founders' revenue (10%)](infrastructure/founders-revenue-10.md)
 
 ## Assets
 
