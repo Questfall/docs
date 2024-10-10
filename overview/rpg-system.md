@@ -66,7 +66,7 @@ As well as clothing and consumables (potions and elixirs) that improve the perfo
 Spells can be thought of as official hacks and can do almost anything in the system, from increasing the ACT reward of a particular quest to freezing the stamina bar so that it is not spent.
 
 {% hint style="info" %}
-A separate article is dedicated to the [magic system](../users/spellcasting.md).
+A separate article is dedicated to the [magic system](../users/magic.md).
 {% endhint %}
 
 Of course, there are many more details about how Questfall's RPG system works, and one article is not enough to describe them all. The main takeaway for now is that the RPG system brings many benefits to the platform by making quest mining more personal.

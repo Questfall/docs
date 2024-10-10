@@ -1,5 +1,5 @@
 ---
-icon: puzzle-piece
+icon: box
 ---
 
 # Items

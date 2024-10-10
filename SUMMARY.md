@@ -13,14 +13,11 @@
 ## Users
 
 * [Character](users/character.md)
-* [Mining](users/mining.md)
-* [Moderating](users/moderating.md)
-* [Crafting](users/crafting.md)
-* [Trading](users/trading.md)
-* [Spellcasting](users/spellcasting.md)
-* [Fighting](users/fighting.md)
 * [Items](users/items.md)
-* [Loot boxes](users/loot-boxes.md)
+* [Levels](users/levels.md)
+* [Magic](users/magic.md)
+* [Warfare](users/warfare.md)
+* [Loot](users/loot.md)
 * [Leagues](users/leagues.md)
 * [Rewards](users/rewards.md)
 * [Seasons](users/seasons.md)

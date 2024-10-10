@@ -33,21 +33,6 @@ An attribute point, which is gained with each level, can be used to improve one 
 
 Because users can allocate the points they earn to any attribute, they can focus on certain areas and gain specific advantages. This allows users to customize their character to suit their individual mining strategy. Of course, users can make mistakes as their characters develop, so when a user joins a new league, he can redistribute attribute points once for free. However, any subsequent redistribution within that league will cost  <mark style="background-color:blue;">100 \* LeagueNumber</mark>  Gold.
 
-#### Clothing Slots
-
-Clothing items are the primary means by which users can improve their characters through the various effects that items contain, from increasing mining power to improving essence rate. The number of clothing slots is limited to six for all users and cannot be increased:
-
-* Head (helmets, hoods, hats);
-* Chest (robes, tunics, shirts);
-* Leg (pants, trousers);
-* Feet (boots, shoes);
-* Hand (gloves, gauntlets);
-* Back (capes, cloaks, mantles).&#x20;
-
-Although clothing items can be of different levels and rarities, there are no restrictions on equipping them other than type - obviously boots can't be equipped in the hand slot.
-
-However, if the level of the item is higher than the user's level, it will be downgraded (while equipped) to the user's level. Additionally, stamina consumption rises as the total weight of equipped items increases. Finally, each item consumes essence at the moment of equipping - the heavier the item, the more essence is consumed.
-
 #### Stored Items
 
 Users can store items in the character's inventory, from which items can be:
@@ -67,6 +52,21 @@ Inventory can hold any number of items, but there is a weight limit. If a user's
 
 The weight limit of the newly created character is <mark style="background-color:blue;">10 kg</mark> , and it can be further increased by adding more attribute points to the Inventory attribute - each point increases the limit by <mark style="background-color:blue;">10%</mark> .
 
+#### Clothing Slots
+
+Clothing items are the primary means by which users can improve their characters through the various effects that items contain, from increasing mining power to improving essence rate. The number of clothing slots is limited to six for all users and cannot be increased:
+
+* Head (helmets, hoods, hats);
+* Chest (robes, tunics, shirts);
+* Leg (pants, trousers);
+* Feet (boots, shoes);
+* Hand (gloves, gauntlets);
+* Back (capes, cloaks, mantles).&#x20;
+
+Although clothing items can be of different levels and rarities, there are no restrictions on equipping them other than type - obviously boots can't be equipped in the hand slot.
+
+However, if the level of the item is higher than the user's level, it will be downgraded (while equipped) to the user's level. Additionally, stamina consumption rises as the total weight of equipped items increases. Finally, each item consumes essence at the moment of equipping - the heavier the item, the more essence is consumed ( <mark style="background-color:blue;">1 essence per 1g</mark> ).
+
 #### Mining Power
 
 #### Mana Reserve
@@ -85,4 +85,4 @@ The weight limit of the newly created character is <mark style="background-color
 
 #### Activity Score
 
-Earned ACT points are used to distribute reward at the end of the week and at the end of the season. ACT can be thought of as a mining power, which reset each reward perdiod (one week for a regular mining and three month for seasons).
+Earned ACT points are used to distribute reward at the end of the week or season. ACT can be thought of as a mining power, which reset each reward perdiod (one week for a regular mining and three month for seasons).
