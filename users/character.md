@@ -31,7 +31,7 @@ An attribute point, which is gained with each level, can be used to improve one 
 * **Crafting**: increases the efficiency of essence usage, adds marketplace slots;
 * **Luck**: increases the chances of getting different bonuses, adds cards in loot boxes.
 
-Because users can allocate the points they earn to any attribute, they can focus on certain areas and gain specific advantages. This allows users to customize their character to suit their individual mining strategy. Of course, users can make mistakes as their characters develop, so when a user joins a new league, he can redistribute attribute points once for free. However, any subsequent redistribution within that league will cost _<mark style="background-color:blue;">100 \* LeagueNumber</mark>_ Gold.
+Because users can allocate the points they earn to any attribute, they can focus on certain areas and gain specific advantages. This allows users to customize their character to suit their individual mining strategy. Of course, users can make mistakes as their characters develop, so when a user joins a new league, he can redistribute attribute points once for free. However, any subsequent redistribution within that league will cost  <mark style="background-color:blue;">100 \* LeagueNumber</mark>  Gold.
 
 #### Clothing Slots
 
