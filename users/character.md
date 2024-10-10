@@ -18,7 +18,7 @@ A character's level is defined by two numbers: the level itself and the amount o
 For example, if the user votes against the majority on a particular quest completion, or if the user reports a quest that the community agrees is appropriate, and so on.
 {% endhint %}
 
-Leveling up provides several benefits to a user. As the level increases, so does the weight of a user's vote in community moderation decisions. Level also determines the league in which the user is placed, meaning that a higher-level user can mine with less competition. Finally, with each level, a user receives one free attribute point that can be used to upgrade the character.
+Leveling up provides several benefits to a user. As the level increases, so does the weight of a user's vote in community moderation decisions. Level also determines the league in which the user is placed, meaning that a higher-level user can mine with less competition. Finally, with each level, a user receives <mark style="background-color:blue;">1 attribute point</mark> that can be used to upgrade the character.
 
 #### Character Attributes
 
@@ -60,13 +60,13 @@ Mana Limit
 
 Stamina Limit
 
-Spell Grimoire
+Spell Slots
 
 Marketplace Slots
 
-Gold Satchel
+Gold Balance
 
-Essence Vessel
+Essence Balance
 
 Activity Score
 
