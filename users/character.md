@@ -4,34 +4,36 @@ icon: person
 
 # Character
 
-In Questfall, as in most RPGs, each user is represented by a character, which is the user's avatar on the platform and evolves over time through quest mining, completion moderating, PvP fighting, spell casting, item crafting and trading.&#x20;
+In Questfall, as in most RPGs, each user is represented by a character, which is the user's avatar on the platform and through which a user performs various tasks: quest mining, completion moderation, warfare, magic, crafting, and trading.
 
 The system is designed to balance different character traits and system resources, requiring users to carefully manage their character's development according to their individual strategy. Here's an in-depth look at the key components that make up a character.
 
 #### Character Level
 
-One of the most important character parameters is level. While users start as a level 1 character, they can level up by acquiring XP either through proper moderation (by voting with the majority) or by paying directly with gold into the system.
+One of the most important character parameters is level. While users start as a level 1 character, they can level up by acquiring XP either through proper moderation (by voting with the majority) or by paying directly with Gold into the system.
 
 A character's level is defined by two numbers: the level itself and the amount of XP required to advance to the next level. Although the level cannot be lowered, the amount of XP required to reach the next level can be increased if the user is penalized for going against the majority.&#x20;
 
 {% hint style="info" %}
-For example, if the user votes against the majority on a particular quest completion, or if the user reports a quest that the community agrees is appropriate, and so on.
+For example, the XP required for the next level increases if the user does not vote with the majority on a particular quest completion, or if the user reports a quest that the community agrees is appropriate, and so on.
 {% endhint %}
 
 Leveling up provides several benefits to a user. As the level increases, so does the weight of a user's vote in community moderation decisions. Level also determines the league in which the user is placed, meaning that a higher-level user can mine with less competition. Finally, with each level, a user receives <mark style="background-color:blue;">1 attribute point</mark> that can be used to upgrade the character.
 
 #### Character Attributes
 
-An attribute point, which is gained with each level, can be used to improve one of the character's six attributes:
+Attribute points, which are gained by levelling up, can be used to improve a character's attributes:
 
-* **Mining:** increases mining power, increases the stamina reserve;
+* <mark style="color:yellow;">**Mining**</mark>**:** increases mining boost, increases the stamina reserve;
 * **Inventory**: increases the weight limit of stored items;
 * **Magic**: increases the mana reserve, adds spell slots;
 * **Regeneration**: increases the speed of mana and stamina replenishment;
 * **Crafting**: improves the essence rate, adds marketplace slots;
 * **Luck**: increases the chances of getting different bonuses, adds cards in loot boxes.
 
-Because users can allocate the points they earn to any attribute, they can focus on certain areas and gain specific advantages. This allows users to customize their character to suit their individual mining strategy. Of course, users can make mistakes as their characters develop, so when a user joins a new league, he can redistribute attribute points once for free. However, any subsequent redistribution within that league will cost  <mark style="background-color:blue;">100 \* LeagueNumber</mark>  Gold.
+Because users can allocate the points they earn to any attribute, they can focus on certain areas and gain specific benefits in those areas, customizing a character to fit their individual mining strategy.
+
+Of course, users can make mistakes as their characters develop, so when a user joins a new league, he can redistribute attribute points once for free. However, any subsequent redistribution within that league will cost  <mark style="background-color:blue;">100 \* LeagueCount</mark>  Gold.
 
 #### Stored Items
 
@@ -48,7 +50,7 @@ Users can store items in the character's inventory, from which items can be:
 * sold for Gold on the in-game marketplace (potions and low-rarity items: F, E, D),
 * withdrawn as NFT (high-rarity items: C, B, A).
 
-Inventory can hold any number of items, but there is a weight limit. If a user's inventory is overloaded, the user will not be able to perform actions that result in the acquisition of new items, such as opening loot boxes or making purchases from the in-game marketplace.
+Inventory can hold any number of items, but there is a weight limit. If a user's inventory is overloaded, the user will not be able to perform actions that result in the acquisition of new items, such as opening loot boxes, making purchases from the in-game marketplace, or bringing in an item from NFT.
 
 The weight limit of the newly created character is <mark style="background-color:blue;">10 kg</mark> , and it can be further increased by adding more attribute points to the Inventory attribute - each point increases the limit by <mark style="background-color:blue;">10%</mark> .
 
@@ -67,7 +69,21 @@ Although clothing items can be of different levels and rarities, there are no re
 
 However, if the level of the item is higher than the user's level, it will be downgraded (while equipped) to the user's level. Additionally, stamina consumption rises as the total weight of equipped items increases. Finally, each item consumes essence at the moment of equipping - the heavier the item, the more essence is consumed ( <mark style="background-color:blue;">1 essence per 1g</mark> ).
 
-#### Mining Power
+#### Activity Score
+
+Earned ACT points are used to distribute reward at the end of the week or season. ACT can be thought of as a mining power, which reset each reward perdiod (one week for a regular mining and three month for seasons).
+
+#### Mining Boost
+
+Although all users who complete the same quest will receive the same number of ACT points, the activity score will actually increase for each of them individually. The ACT points that a user receives play the role of a minimum base, which is increased by the mining boost.
+
+The mining boost acts as a multiplier for the ACT points received by a user. Initially it is equal to 1, but it increases by <mark style="background-color:blue;">10%</mark> for every point of <mark style="color:yellow;">mining</mark> attribute added.
+
+{% hint style="info" %}
+For example, if a user receives 10 ACT points for completing a quest and has Mining of 5 (one initial point and four additional attribute points), he will actually increase his Activity Score by: $$10*1.1^{4}=14.64$$.
+{% endhint %}
+
+As well as increasing the Mining attribute, the Mining Boost parameter can also be increased by using clothing with the appropriate effects and elixirs.
 
 #### Mana Reserve
 
@@ -79,10 +95,7 @@ However, if the level of the item is higher than the user's level, it will be do
 
 #### Gold Balance
 
-#### Essence Rate
-
 #### Essence Balance
 
-#### Activity Score
+#### Essence Rate
 
-Earned ACT points are used to distribute reward at the end of the week or season. ACT can be thought of as a mining power, which reset each reward perdiod (one week for a regular mining and three month for seasons).
