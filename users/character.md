@@ -71,7 +71,9 @@ However, if the level of the item is higher than the **Character Level**, it wil
 
 #### Activity Score
 
-Earned **ACT** points are used to distribute reward at the end of the week or season. **ACT** can be thought of as a mining power, which reset each reward perdiod (one week for a regular mining and three month for seasons).
+The Activity Score is used to distribute the rewards for quest mining. It can be thought of as a mining power that resets every reward period (one week for regular mining and three months for seasonal mining). Throughout the period, the Activity Score can only increase.&#x20;
+
+Users can gain Activity Score by earning ACT points, either by completing quests or by participating in warfare. When a user earns ACT points, they are amplified by the Mining Booster and the result is added to the current Activity Score.
 
 #### Mining Booster
 
