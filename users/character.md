@@ -73,17 +73,17 @@ However, if the level of the item is higher than the **Character Level**, it wil
 
 Earned **ACT** points are used to distribute reward at the end of the week or season. **ACT** can be thought of as a mining power, which reset each reward perdiod (one week for a regular mining and three month for seasons).
 
-#### Mining Boost
+#### Mining Booster
 
-Although all users who complete the same quest will receive the same number of **ACT** points, the **Activity Score** will actually increase for each of them individually. The **ACT** points that a user receives play the role of a minimum base, which is increased by the **Mining Boost**.
+Although all users who complete the same quest will receive the same number of **ACT** points, the **Activity Score** will actually increase for each of them individually. The **ACT** points that a user receives play the role of a minimum base, which is increased by the **Mining Booster**.
 
-The **Mining Boost** acts as a multiplier for the **ACT** points received by a user. Initially equal to 1, it increases by <mark style="background-color:orange;">10%</mark> for every point added to the <mark style="color:yellow;">Mining</mark> attribute.
+The **Mining Booster** acts as a multiplier for the **ACT** points received by a user. Initially equal to 1, it increases by <mark style="background-color:orange;">10%</mark> for every point added to the <mark style="color:red;">Mining</mark> attribute.
 
 {% hint style="info" %}
-For example, if a user receives **10 ACT** points for completing a quest and has <mark style="color:yellow;">Mining</mark> of 5 (one initial point and four additional attribute points), he will actually increase his **Activity Score** by: $$10*1.1^{4}=14.64$$.
+For example, if a user receives **10 ACT** points for completing a quest and has <mark style="color:red;">Mining</mark> of 5 (one initial point and four additional attribute points), he will actually increase his **Activity Score** by: $$10*1.1^{4}=14.64$$.
 {% endhint %}
 
-As well as increasing the <mark style="color:yellow;">Mining</mark> attribute, the **Mining Boost** can also be increased by using clothing with the appropriate effects and elixirs.
+As well as increasing the <mark style="color:red;">Mining</mark> attribute, the **Mining Boost** can also be increased by using clothing with the appropriate effects and elixirs.
 
 #### Mana Reserve
 
