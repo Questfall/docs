@@ -75,15 +75,15 @@ Earned ACT points are used to distribute reward at the end of the week or season
 
 #### Mining Boost
 
-Although all users who complete the same quest will receive the same number of ACT points, the activity score will actually increase for each of them individually. The ACT points that a user receives play the role of a minimum base, which is increased by the mining boost.
+Although all users who complete the same quest will receive the same number of ACT points, the activity score will actually increase for each of them individually. The ACT points that a user receives play the role of a minimum base, which is increased by the **Mining Boost**.
 
-The mining boost acts as a multiplier for the ACT points received by a user. Initially it is equal to 1, but it increases by <mark style="background-color:blue;">10%</mark> for every point of <mark style="color:yellow;">mining</mark> attribute added.
+The **Mining Boost** acts as a multiplier for the ACT points received by a user. Initially equal to 1, it increases by <mark style="background-color:blue;">10%</mark> for every point added to the <mark style="color:yellow;">Mining</mark> attribute.
 
 {% hint style="info" %}
-For example, if a user receives 10 ACT points for completing a quest and has Mining of 5 (one initial point and four additional attribute points), he will actually increase his Activity Score by: $$10*1.1^{4}=14.64$$.
+For example, if a user receives 10 ACT points for completing a quest and has <mark style="color:yellow;">Mining</mark> of 5 (one initial point and four additional attribute points), he will actually increase his **Activity Score** by: $$10*1.1^{4}=14.64$$.
 {% endhint %}
 
-As well as increasing the Mining attribute, the Mining Boost parameter can also be increased by using clothing with the appropriate effects and elixirs.
+As well as increasing the <mark style="color:yellow;">Mining</mark> attribute, the **Mining Boost** can also be increased by using clothing with the appropriate effects and elixirs.
 
 #### Mana Reserve
 
