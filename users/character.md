@@ -10,30 +10,30 @@ The system is designed to balance different character traits and system resource
 
 #### Character Level
 
-One of the most important character parameters is level. While users start as a level 1 character, they can level up by acquiring XP either through proper moderation (by voting with the majority) or by paying directly with Gold into the system.
+One of the most important character parameters is level. While users start as a level 1 character, they can level up by acquiring **XP** either through proper moderation (by voting with the majority) or by paying directly with **Gold** into the system.
 
-A character's level is defined by two numbers: the level itself and the amount of XP required to advance to the next level. Although the level cannot be lowered, the amount of XP required to reach the next level can be increased if the user is penalized for going against the majority.&#x20;
+A character's level is defined by two numbers: the level itself and the amount of **XP** required to advance to the next level. Although the level cannot be lowered, the amount of **XP** required to reach the next level can be increased if the user is penalized for going against the majority.&#x20;
 
 {% hint style="info" %}
-For example, the XP required for the next level increases if the user does not vote with the majority on a particular quest completion, or if the user reports a quest that the community agrees is appropriate, and so on.
+For example, the **XP** required for the next level increases if the user does not vote with the majority on a particular quest completion, or if the user reports a quest that the community agrees is appropriate, and so on.
 {% endhint %}
 
-Leveling up provides several benefits to a user. As the level increases, so does the weight of a user's vote in community moderation decisions. Level also determines the league in which the user is placed, meaning that a higher-level user can mine with less competition. Finally, with each level, a user receives <mark style="background-color:blue;">1 attribute point</mark> that can be used to upgrade the character.
+Leveling up provides several benefits to a user. As the level increases, so does the weight of a user's vote in community moderation decisions. Level also determines the league in which the user is placed, meaning that a higher-level user can mine with less competition. Finally, with each level, a user receives <mark style="background-color:orange;">1 attribute point</mark> that can be used to upgrade the character.
 
 #### Character Attributes
 
 Attribute points, which are gained by levelling up, can be used to improve a character's attributes:
 
-* <mark style="color:yellow;">**Mining**</mark>**:** increases mining boost, increases the stamina reserve;
-* **Inventory**: increases the weight limit of stored items;
-* **Magic**: increases the mana reserve, adds spell slots;
-* **Regeneration**: increases the speed of mana and stamina replenishment;
-* **Crafting**: improves the essence rate, adds marketplace slots;
-* **Luck**: increases the chances of getting different bonuses, adds cards in loot boxes.
+* <mark style="color:yellow;">**Mining**</mark>**:** increases the **Mining Boost**, increases the **Stamina Reserve**;
+* <mark style="color:yellow;">**Inventory**</mark>: increases the weight limit of **Stored Items**;
+* <mark style="color:yellow;">**Magic**</mark>: increases the **Mana reserve**, adds **Spell Slots**;
+* <mark style="color:yellow;">**Regeneration**</mark>: increases the speed of mana and stamina replenishment;
+* <mark style="color:yellow;">**Crafting**</mark>: improves the **Essence Rate**, adds **Marketplace Slots**;
+* <mark style="color:yellow;">**Luck**</mark>: increases the chances of getting different bonuses, adds cards in loot boxes.
 
 Because users can allocate the points they earn to any attribute, they can focus on certain areas and gain specific benefits in those areas, customizing a character to fit their individual mining strategy.
 
-Of course, users can make mistakes as their characters develop, so when a user joins a new league, he can redistribute attribute points once for free. However, any subsequent redistribution within that league will cost  <mark style="background-color:blue;">100 \* LeagueCount</mark>  Gold.
+Of course, users can make mistakes as their characters develop, so when a user joins a new league, he can redistribute attribute points once for free. However, any subsequent redistribution within that league will cost  <mark style="background-color:orange;">100 \* LeagueCount</mark>  **Gold**.
 
 #### Stored Items
 
@@ -52,11 +52,11 @@ Users can store items in the character's inventory, from which items can be:
 
 Inventory can hold any number of items, but there is a weight limit. If a user's inventory is overloaded, the user will not be able to perform actions that result in the acquisition of new items, such as opening loot boxes, making purchases from the in-game marketplace, or bringing in an item from NFT.
 
-The weight limit of the newly created character is <mark style="background-color:blue;">10 kg</mark> , and it can be further increased by adding more attribute points to the Inventory attribute - each point increases the limit by <mark style="background-color:blue;">10%</mark> .
+The weight limit of the newly created character is <mark style="background-color:orange;">10 kg</mark> , and it can be further increased by adding more attribute points to the <mark style="color:yellow;">Inventory</mark> attribute - each point increases the limit by <mark style="background-color:orange;">10%</mark> .
 
 #### Clothing Slots
 
-Clothing items are the primary means by which users can improve their characters through the various effects that items contain, from increasing mining power to improving essence rate. The number of clothing slots is limited to six for all users and cannot be increased:
+Clothing items are the primary means by which users can improve their characters through the various effects that items contain, from increasing the **Mining Boost** to improving the **Essence Rate**. The number of **Clothing Slots** is limited to six for all users and cannot be increased:
 
 * Head (helmets, hoods, hats);
 * Chest (robes, tunics, shirts);
@@ -67,11 +67,11 @@ Clothing items are the primary means by which users can improve their characters
 
 Although clothing items can be of different levels and rarities, there are no restrictions on equipping them other than type - obviously boots can't be equipped in the hand slot.
 
-However, if the level of the item is higher than the user's level, it will be downgraded (while equipped) to the user's level. Additionally, stamina consumption rises as the total weight of equipped items increases. Finally, each item consumes essence at the moment of equipping - the heavier the item, the more essence is consumed ( <mark style="background-color:blue;">1 essence per 1g</mark> ).
+However, if the level of the item is higher than the **Character Level**, it will be downgraded (while equipped) to the **Character Level**. Additionally, stamina consumption rises as the total weight of equipped items increases. Finally, each item consumes **Essence** at the moment of equipping - the heavier the item, the more **Essence** is consumed ( <mark style="background-color:orange;">1 Essence per 1g</mark> ).
 
 #### Activity Score
 
-Earned ACT points are used to distribute reward at the end of the week or season. ACT can be thought of as a mining power, which reset each reward perdiod (one week for a regular mining and three month for seasons).
+Earned **ACT** points are used to distribute reward at the end of the week or season. **ACT** can be thought of as a mining power, which reset each reward perdiod (one week for a regular mining and three month for seasons).
 
 #### Mining Boost
 
