@@ -24,12 +24,12 @@ Leveling up provides several benefits to a user. As the level increases, so does
 
 Attribute points, which are gained by levelling up, can be used to improve a character's attributes:
 
-* <mark style="color:purple;">**Mining**</mark>**:** increases the **Mining Boost**, increases the **Stamina Reserve**;
-* <mark style="color:purple;">**Inventory**</mark>: increases the weight limit of **Stored Items**;
-* <mark style="color:purple;">**Magic**</mark>: increases the **Mana reserve**, adds **Spell Slots**;
-* <mark style="color:purple;">**Regeneration**</mark>: increases the speed of mana and stamina replenishment;
-* <mark style="color:purple;">**Crafting**</mark>: improves the **Essence Rate**, adds **Marketplace Slots**;
-* <mark style="color:purple;">**Luck**</mark>: increases the chances of getting different bonuses, adds cards in loot boxes.
+* **Mining:** increases the **Mining Boost**, increases the **Stamina Reserve**;
+* **Inventory**: increases the weight limit of **Stored Items**;
+* **Magic**: increases the **Mana reserve**, adds **Spell Slots**;
+* **Regeneration**: increases the speed of mana and stamina replenishment;
+* **Crafting**: improves the **Essence Rate**, adds **Marketplace Slots**;
+* **Luck**: increases the chances of getting different bonuses, adds cards in loot boxes.
 
 Because users can allocate the points they earn to any attribute, they can focus on certain areas and gain specific benefits in those areas, customizing a character to fit their individual mining strategy.
 
@@ -52,7 +52,7 @@ Users can store items in the character's inventory, from which items can be:
 
 Inventory can hold any number of items, but there is a weight limit. If a user's inventory is overloaded, the user will not be able to perform actions that result in the acquisition of new items, such as opening loot boxes, making purchases from the in-game marketplace, or bringing in an item from NFT.
 
-The weight limit of the newly created character is <mark style="background-color:purple;">10 kg</mark> , and it can be further increased by adding more attribute points to the <mark style="color:purple;">Inventory</mark> attribute - each point increases the limit by <mark style="background-color:purple;">10%</mark> .
+The weight limit of the newly created character is <mark style="background-color:purple;">10 kg</mark> , and it can be further increased by adding more attribute points to the **Inventory** attribute - each point increases the limit by <mark style="background-color:purple;">10%</mark> .
 
 #### Clothing Slots
 
@@ -77,13 +77,13 @@ Earned **ACT** points are used to distribute reward at the end of the week or se
 
 Although all users who complete the same quest will receive the same number of **ACT** points, the **Activity Score** will actually increase for each of them individually. The **ACT** points that a user receives play the role of a minimum base, which is increased by the **Mining Booster**.
 
-The **Mining Booster** acts as a multiplier for the **ACT** points received by a user. Initially equal to 1, it increases by <mark style="background-color:purple;">10%</mark> for every point added to the <mark style="color:purple;">Mining</mark> attribute.
+The **Mining Booster** acts as a multiplier for the **ACT** points received by a user. Initially equal to 1, it increases by <mark style="background-color:purple;">10%</mark> for every point added to the **Mining** attribute.
 
 {% hint style="info" %}
-For example, if a user receives **10 ACT** points for completing a quest and has <mark style="color:purple;">Mining</mark> of 5 (one initial point and four additional attribute points), he will actually increase his **Activity Score** by: $$10*1.1^{4}=14.64$$.
+For example, if a user receives **10 ACT** points for completing a quest and has **Mining** of 5 (one initial point and four additional attribute points), he will actually increase his **Activity Score** by: $$10*1.1^{4}=14.64$$.
 {% endhint %}
 
-As well as increasing the <mark style="color:purple;">Mining</mark> attribute, the **Mining Boost** can also be increased by using clothing with the appropriate effects and elixirs.
+As well as increasing the **Mining** attribute, the **Mining Booster** can also be increased by using clothing with the appropriate effects and elixirs.
 
 #### Mana Reserve
 
