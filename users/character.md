@@ -18,18 +18,20 @@ A character's level is defined by two numbers: the level itself and the amount o
 For example, the **XP** required for the next level increases if the user does not vote with the majority on a particular quest completion, or if the user reports a quest that the community agrees is appropriate, and so on.
 {% endhint %}
 
-Leveling up provides several benefits to a user. As the level increases, so does the weight of a user's vote in community moderation decisions. Level also determines the league in which the user is placed, meaning that a higher-level user can mine with less competition. Finally, with each level, a user receives <mark style="background-color:purple;">1 attribute point</mark> that can be used to upgrade the character.
+Leveling up provides several benefits to a user. As the level increases, so does the weight of a user's vote in community moderation decisions. Level also determines the league in which the user is placed, meaning that a higher-level user can mine with less competition. Finally, with each level, a user receives <mark style="background-color:purple;">2 attribute points</mark> that can be used to upgrade the character.
 
 #### Character Attributes
 
 Attribute points, which are gained by levelling up, can be used to improve a character's attributes:
 
-* **Mining:** increases the **Mining Boost**, increases the **Stamina Reserve**;
+* **Mining:** increases the **Stamina Reserve**, adds to **Mining Efficiency**;
+* **Regeneration**: increases the recovery rate of **Stamina Reserve**;
 * **Inventory**: increases the weight limit of **Stored Items**;
-* **Magic**: increases the **Mana reserve**, adds **Spell Slots**;
-* **Regeneration**: increases the speed of mana and stamina replenishment;
-* **Crafting**: improves the **Essence Rate**, adds **Marketplace Slots**;
-* **Luck**: increases the chances of getting different bonuses, adds cards in loot boxes.
+* **Magic**: increases the **Mana Reserve**, adds **Spell Slots**;
+* **Recharge**: increases the recharge rate of **Mana Reserve**;
+* **Crafting**: reduces essence consumption for crafting, adds **Marketplace Slots**;
+* **Warfare**: reduces mana consumption for warrior moves, adds **Warrior Slots**;
+* **Luck**: increases **Bonus Chances**, adds lootbox cards.
 
 Because users can allocate the points they earn to any attribute, they can focus on certain areas and gain specific benefits in those areas, customizing a character to fit their individual mining strategy.
 
@@ -73,31 +75,47 @@ However, if the level of the item is higher than the **Character Level**, it wil
 
 The **Activity Score** is used to distribute the rewards for quest mining. It can be thought of as a mining power that resets every reward period (one week for regular mining and three months for seasonal mining). Throughout the period, the **Activity Score** can only increase.&#x20;
 
-Users can gain **Activity Score** by earning **ACT** points, either by completing quests or by participating in warfare. When a user earns **ACT** points, they are amplified by the **Mining Booster** and the result is added to the current **Activity Score**.
+Users can gain **Activity Score** by earning **ACT** points, either by completing quests or by participating in warfare. When a user earns **ACT** points, they are amplified by the **Mining Efficiency** and the result is added to the current **Activity Score**.
 
-#### Mining Booster
+#### Mining Efficiency
 
-Although all users who complete the same quest will receive the same number of **ACT** points, the **Activity Score** will actually increase for each of them individually. The **ACT** points that a user receives play the role of a minimum base, which is increased by the **Mining Booster**.
-
-The **Mining Booster** acts as a multiplier for the **ACT** points received by a user. Initially equal to 1, it increases by <mark style="background-color:purple;">10%</mark> for every point added to the **Mining** attribute.
+Although all users who complete the same quest receive the same number of **ACT** points, the **Activity Score** is actually increased for each of them individually. The **ACT** points that a user receives play the role of a minimum base, which is multiplied by the **Mining Efficiency**. It starts at 1, and incrementally increases by <mark style="background-color:purple;">10%</mark> for each point added to the **Mining** attribute.
 
 {% hint style="info" %}
-For example, if a user receives **10 ACT** points for completing a quest and has **Mining** of 5 (one initial point and four additional attribute points), he will actually increase his **Activity Score** by: $$10*1.1^{4}=14.64$$.
+For example, if a user receives **10 ACT** points for completing a quest and has a **Mining** attribute of 5 (one initial point and four additional attribute points), he will actually increase his **Activity Score** by: $$10*1.1^{4}=14.64$$.
 {% endhint %}
 
-As well as increasing the **Mining** attribute, the **Mining Booster** can also be increased by using clothing with the appropriate effects and elixirs.
-
-#### Mana Reserve
+As well as increasing the **Mining** attribute, the **Mining Efficiency** can also be increased by using clothing with the appropriate effects and elixirs.
 
 #### Stamina Reserve
+
+Stamina is consumed when a user completes a quest and is automatically restored over time. It acts as a rate limiter, preventing bots from completing thousands of quests per second and overloading the Questfall server.
+
+In addition to its technical utility, stamina is part of an RPG system because its consumption is directly affected by the total weight of the clothing worn. The heavier the clothing, the more stamina is consumed. This forces the user to invest points in the **Mining** attribute, as the clothing becomes heavier as the user progresses through the levels.
+
+A first-level character starts with a **Stamina Reserve** of <mark style="background-color:purple;">100</mark> , and each point in the **Mining** attribute increases the **Stamina Reserve** linearly by <mark style="background-color:purple;">100</mark> . If no clothing is equipped, each quest will consume <mark style="background-color:purple;">1 stamina</mark> . However, each additional kilogram of equipped clothing will incrementally increase the stamina consumption <mark style="background-color:purple;">by 1</mark> .
+
+{% hint style="info" %}
+The first kilogram adds 1 to stamina consumption, the second kilogram adds 2, and so on. This means that if the equipped clothing weighs 5 kg, each quest will consume 1 + 1 + 2 + 3 + 4 + 5 = 16 stamina.
+{% endhint %}
+
+Another crucial parameter that affects a character's **Stamina Reserve** is the speed of its recovery. Initially, when the **Regeneration** attribute equals 1, the character restores <mark style="background-color:purple;">10 stamina per hour</mark> . With each additional point in **Regeneration**, the amount of stamina restored per hour incrementally increases <mark style="background-color:purple;">by 10%</mark> .
+
+{% hint style="info" %}
+When the Regeneration attribute is 20, a character recovers $$10*1.1^{19}=61.16$$stamina per hour (or more than 1 stamina per minute).
+{% endhint %}
+
+#### Mana Reserve
 
 #### Spell Slots
 
 #### Marketplace Slots
 
+#### Warriors Slots
+
 #### Gold Balance
 
 #### Essence Balance
 
-#### Essence Rate
+#### Bonus Chances
 
