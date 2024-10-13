@@ -102,7 +102,7 @@ The first kilogram adds 1 to stamina consumption, the second kilogram adds 2, an
 Another crucial parameter that affects a character's **Stamina Reserve** is the speed of its recovery. Initially, when the **Regeneration** attribute equals 1, the character restores <mark style="background-color:purple;">10 stamina per hour</mark> . With each additional point in **Regeneration**, the amount of stamina restored per hour incrementally increases <mark style="background-color:purple;">by 10%</mark> .
 
 {% hint style="info" %}
-When the Regeneration attribute is 20, a character recovers $$10*1.1^{19}=61.16$$stamina per hour (or more than 1 stamina per minute).
+When the Regeneration attribute is 20, a character recovers $$10*1.1^{19}=61.16$$ stamina per hour (or more than 1 stamina per minute).
 {% endhint %}
 
 #### Mana Reserve
