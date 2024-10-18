@@ -1,8 +1,8 @@
 ---
-icon: box
+icon: ruler-combined
 ---
 
-# Items
+# Crafting
 
 Garment are pieces of clothing equipment used by players to increase their stats and gain an edge over other users when doing certain activities on the platform.\
 \

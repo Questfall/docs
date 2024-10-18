@@ -40,7 +40,7 @@ In fact, we are talking about a community consensus on each of the completions, 
 A Sybil attack is possible if each vote has the same weight of 1 and there is no limit to the number of accounts that can be registered. So if a user has 5 accounts, the total weight of all his votes is 5. In this way, a malicious actor can gain any vote weight by creating as many accounts as needed.
 {% endhint %}
 
-To protect the system from such attacks, Questfall uses the concept of [levels](../users/levels.md), through which users can advance if they vote in line with the majority of other voters.&#x20;
+To protect the system from such attacks, Questfall uses the concept of [levels](../users/moderation.md), through which users can advance if they vote in line with the majority of other voters.&#x20;
 
 More specifically, if they vote the same as the majority, users are rewarded - they gain XP points which allows them to level up, otherwise they are punished - the amount of XP needed to get to the next level increases.
 
@@ -53,7 +53,7 @@ User levels are in turn used to weight the consensus majority, which means that 
 This makes it impossible for a large number of new accounts to be registered and used to manipulate the voting results, as high level users will protect the voting from abuse and as a result such new accounts will be punished.
 
 {% hint style="info" %}
-For other measures to protect consensus, see the [Levels](../users/levels.md) article.
+For other measures to protect consensus, see the [Levels](../users/moderation.md) article.
 {% endhint %}
 
 In this way, progressing through the levels requires two key resources: intelligence and access to third-party platforms where the majority of quest completions are published. And while these resources are considered free when checking completions by hand, there is an ongoing cost when moderating by code.
