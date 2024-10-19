@@ -179,24 +179,24 @@ Thus, if the Luck attribute is 10, the probability of getting a missing shard or
 
 #### **Lootbox Cards**
 
-Loot boxes are the primary source of all RPG items (such as Clothing, Potions, Elixirs, Spellbooks, and Warriors) in the system. They can be opened either by spending 100 Gold or by collecting a full set of Chest Shards.
+Loot boxes are the primary source of all RPG items (such as Clothing, Potions, Elixirs, Spellbooks, and Warriors) in the system. They can be opened either by spending <mark style="background-color:purple;">100</mark> **Gold** or by collecting a full set of **Chest Shards**.
 
 By default, a loot box provides one item, with the chance of receiving an item depending on its rarity.&#x20;
 
-Users can increase their chances of receiving more items by placing points in their Luck attribute. For every 10 points of Luck, users will receive an additional card when they open a loot box, providing additional turns with the opportunity to receive more items.
+Users can increase their chances of receiving more items by placing points in their **Luck** attribute. For every <mark style="background-color:purple;">10</mark> points of **Luck**, users will receive an additional card when they open a loot box, providing additional turns with the opportunity to receive more items.
 
 {% hint style="info" %}
-The Luck attribute does not affect the probability of getting rarer items.
+The **Luck** attribute does not affect the probability of getting rarer items.
 {% endhint %}
 
-The process of opening a loot box consists of several turns, based on the number of cards provided by the Luck attribute. Here is an example for the user with 30 Luck (3 extra cards):
+The process of opening a loot box consists of several turns, based on the number of cards provided by the **Luck** attribute. Here is an example for the user with 30 **Luck** (3 extra cards):
 
 * **Turn 1**: The user is dealt 4 cards face down and must blindly choose one. All four cards contain items, so the user is guaranteed to receive an item after the first turn.
 * **Turn 2**: The user is dealt 4 more cards. One card is a "finish" card, which ends the opening process, while the remaining three are item cards, which give the user one more item and continue the opening into the next turn.
 * **Turn 3**: The user is dealt another 4 cards. This time, 2 out of the 4 cards are finish cards. Choosing a finish card will end the opening, leaving the user with two items won in previous turns.
 * **Turn 4**: The user is dealt 4 cards for the last time. Only 1 card contains an item, while the other 3 are finish cards. Since a hypothetical fifth turn would consist entirely of finish cards, this is the last turn. If the user selects a finish card, he will end the loot box opening with a total of 3 items. But if the user selects the item card, he will receive 4 items in total.
 
-As a result, the maximum number of items a user can potentially receive from a single loot box is equal to the number of cards granted by their Luck attribute. However, the actual number of items obtained depends on the user's choices and actual luck throughout the opening process.
+As a result, the maximum number of items a user can potentially receive from a single loot box is equal to the number of cards granted by their **Luck** attribute. However, the actual number of items obtained depends on the user's choices and actual luck throughout the opening process.
 
 #### Bonus Chances
 
