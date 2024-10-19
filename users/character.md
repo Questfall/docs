@@ -135,13 +135,9 @@ A first-level character starts with <mark style="background-color:purple;">2</ma
 
 #### Marketplace Slots
 
-There is a limited number of **Marketplace Slots** where a user can place his items for sale, otherwise the marketplace could be used to overcome the limitations introduced by the inventory weight limit.
+There are a limited number of **Marketplace Slots** where a user can place items to sell for **Gold**, otherwise the marketplace could be used to overcome the limitations imposed by the inventory weight limit.
 
-A first-level character starts with <mark style="background-color:purple;">1</mark> **Marketplace Slot**, and each subsequent **Marketplace Slot** requires another <mark style="background-color:purple;">10</mark> points of **Crafting**.
-
-{% hint style="info" %}
-The second **Marketplace Slot** opens when **Crafting** reaches 10, then at 20, 30, and so on.
-{% endhint %}
+A first-level character starts with <mark style="background-color:purple;">3</mark> **Marketplace Slots**, and each subsequent **Marketplace Slot** requires another <mark style="background-color:purple;">5</mark> points of **Crafting**. In other words, additional **Marketplace Slots** will open when **Crafting** reaches 5, then at 10, 15, and so on.
 
 #### Gold Balance
 
@@ -164,7 +160,7 @@ Each character can have an unlimited amount of non-tradable **Essence**, which i
 **Essence** can only be gained by disassembling items, which contain <mark style="background-color:purple;">1</mark> **Essence** per gram of weight. However, depending on the character's **Crafting** attribute, some **Essence** will be lost during the disassembly process. A first level character will lose <mark style="background-color:purple;">90%</mark> of the **Essence** in an item when disassembling it, but each additional point of **Crafting** will gradually reduce the loss <mark style="background-color:purple;">by 1%</mark> .
 
 {% hint style="info" %}
-If a user with a **Crafting** attribute of 1 disassembles a 1 kg item, he will receive $$1000*(100-90)/100 = 100$$ **Essence**. If a user with a **Crafting** of 20 disassembles the same item, he will receive $$1000*(100-90/1.01^{19})/100=255$$**Essence**.
+If a user with a **Crafting** attribute of 1 disassembles a 1 kg item, he will receive $$1000*(100-90)/100 = 100$$ **Essence**. If a user with a **Crafting** of 20 disassembles the same item, he will receive $$1000*(100-90/1.01^{19})/100=255$$ **Essence**.
 {% endhint %}
 
 **Chest Shards**
@@ -173,17 +169,34 @@ Upon every quest completion, users receive a random Chest Shard, which does not 
 
 Every time a user collects a full set of shards during a week, he can open a free loot box. This way, a user can collect the set multiple times during a week, opening up several loot boxes, but at the end of the week there will be unused shards that will be burned.
 
-Initially, a first-level character is 20 times more likely to get a Chest Shard that he already has than he is to get a missing shard. This can be thought of as getting a random shard from the urn filled with single missing shards and 20 clones of each shard already collected. To increase the number of missing shards in the urn, a user can place points in the Luck attribute, each of which increases the number of missing shards by 1.
+Initially, a first-level character is <mark style="background-color:purple;">10</mark> times more likely to get a Chest Shard that he already has than he is to get a missing shard. This can be thought of as getting a random shard from the urn filled with single missing shards and 10 clones of each shard already collected. To increase the number of missing shards in the urn, a user can place points in the Luck attribute, each of which increases the number of missing shards <mark style="background-color:purple;">by 1</mark> .
 
 {% hint style="info" %}
-For example, if there is a set of 5 shards: A,B,C,D,E, and a user already has shards A, B, and C (the number of shards owned does not matter), then with a Luck of 5 the next shard will be randomly chosen from the imaginary urn where there are Ax20, Bx20, Cx20, Dx5, Ex5.
+For example, if there is a set of 5 shards: A,B,C,D,E, and a user already has shards A, B, and C (the number of shards owned does not matter), then with a Luck of 5 the next shard will be randomly chosen from the imaginary urn where there are Ax10, Bx10, Cx10, Dx5, Ex5.
 {% endhint %}
 
-Thus, if the Luck attribute is equal to 20, the probability of getting the missing shard or already collected is the same, and with each additional point of Luck, getting the missing shard becomes more probable.
+Thus, if the Luck attribute is 10, the probability of getting a missing shard or one already collected is the same. However, if the Luck attribute is 20, the chances of obtaining the missing shard are twice as high.
 
 #### **Lootbox Cards**
 
+Loot boxes are the primary source of all RPG items (such as Clothing, Potions, Elixirs, Spellbooks, and Warriors) in the system. They can be opened either by spending 100 Gold or by collecting a full set of Chest Shards.
 
+By default, a loot box provides one item, with the chance of receiving an item depending on its rarity.&#x20;
+
+Users can increase their chances of receiving more items by placing points in their Luck attribute. For every 10 points of Luck, users will receive an additional card when they open a loot box, providing additional turns with the opportunity to receive more items.
+
+{% hint style="info" %}
+The Luck attribute does not affect the probability of getting rarer items.
+{% endhint %}
+
+The process of opening a loot box consists of several turns, based on the number of cards provided by the Luck attribute. Here is an example for the user with 30 Luck (3 extra cards):
+
+* **Turn 1**: The user is dealt 4 cards face down and must blindly choose one. All four cards contain items, so the user is guaranteed to receive an item after the first turn.
+* **Turn 2**: The user is dealt 4 more cards. One card is a "finish" card, which ends the opening process, while the remaining three are item cards, which give the user one more item and continue the opening into the next turn.
+* **Turn 3**: The user is dealt another 4 cards. This time, 2 out of the 4 cards are finish cards. Choosing a finish card will end the opening, leaving the user with two items won in previous turns.
+* **Turn 4**: The user is dealt 4 cards for the last time. Only 1 card contains an item, while the other 3 are finish cards. Since a hypothetical fifth turn would consist entirely of finish cards, this is the last turn. If the user selects a finish card, he will end the loot box opening with a total of 3 items. But if the user selects the item card, he will receive 4 items in total.
+
+As a result, the maximum number of items a user can potentially receive from a single loot box is equal to the number of cards granted by their Luck attribute. However, the actual number of items obtained depends on the user's choices and actual luck throughout the opening process.
 
 #### Bonus Chances
 
