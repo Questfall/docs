@@ -66,6 +66,8 @@ The weight limit of the newly created character is <mark style="background-color
 For example, if the **Inventory** attribute has 15 points, the weight limit will be 15 kg.
 {% endhint %}
 
+***
+
 ### Clothing Slots
 
 Clothing items are the primary means by which users can improve their characters through the various effects that items contain, from increasing the **Mining Efficiency** to adding more **Spell Slots**. The number of **Clothing Slots** is limited to six for all users and cannot be increased:
@@ -81,11 +83,15 @@ Although clothing items can be of different levels and rarities, there are no re
 
 However, if the level of the item is higher than the **Character Level**, it will be downgraded (while equipped) to the **Character Level**. Additionally, stamina consumption rises as the total weight of equipped items increases. Finally, each item consumes **Essence** at the moment of equipping - the heavier the item, the more **Essence** is consumed.
 
+***
+
 ### Activity Score
 
 The **Activity Score** is used to distribute the rewards for quest mining. It can be thought of as a mining power that resets every reward period (one week for regular mining and three months for seasonal mining). Throughout the period, the **Activity Score** can only increase.&#x20;
 
 Users can gain **Activity Score** by earning **ACT** points, either by completing quests or by participating in warfare. When a user earns **ACT** points, they are amplified by the **Mining Efficiency** and the result is added to the current **Activity Score**.
+
+***
 
 ### Mining Efficiency
 
@@ -96,6 +102,8 @@ For example, if a user receives **10 ACT** points for completing a quest and has
 {% endhint %}
 
 As well as increasing the **Mining** attribute, the **Mining Efficiency** can also be increased by using clothing and elixirs with the appropriate effects .
+
+***
 
 ### Stamina Reserve
 
@@ -117,6 +125,8 @@ When the Regeneration attribute is 20, a character recovers 4 stamina per minute
 
 As in most other RPGs, stamina can be restored instantly at any time with the Stamina Potion, which can be obtained from the loot box or purchased with **Gold** from other users in the marketplace.
 
+***
+
 ### Mana Reserve
 
 Mana is used for magical actions such as casting spells or moving warriors around the battlefield. It recharges automatically over time or can be recharged instantly with Mana Potion.
@@ -124,6 +134,8 @@ Mana is used for magical actions such as casting spells or moving warriors aroun
 Each spell requires a different amount of mana to cast, depending on the spell itself and its rarity, and each warrior requires a different amount of mana to move, depending on the rarity and level of the warrior.
 
 A first-level character starts with a **Mana Reserve** of <mark style="background-color:purple;">1000</mark>, and each point in the **Magic** attribute increases the **Mana Reserve** linearly by <mark style="background-color:purple;">1000</mark>. Also initially, when the **Recharge** attribute equals 1, the character restores <mark style="background-color:purple;">1</mark> mana per minute. With each point added to the **Recharge**, attribute the amount of mana restored per minute increases by <mark style="background-color:purple;">1</mark> mana.
+
+***
 
 ### Spell Slots
 
@@ -133,17 +145,23 @@ A user can have a limited number of active spells available for casting, determi
 The second slot unlocks at 10 **Magic** points, the third at 30, the fourth at 60, and so on.
 {% endhint %}
 
+***
+
 ### Warriors Slots
 
 The number of **Warrior Slots** limits the count of warriors that can be active on the warfare map at any given moment. Defeated warriors are automatically moved to the inventory, but new warriors can be deployed immediately instead.&#x20;
 
 A first-level character starts with <mark style="background-color:purple;">2</mark> **Warrior Slots**, and each additional point in the **Warfare** attribute adds <mark style="background-color:purple;">2</mark> more **Warrior Slots**.
 
+***
+
 ### Marketplace Slots
 
 There are a limited number of **Marketplace Slots** where a user can place items to sell for **Gold**, otherwise the marketplace could be used to overcome the limitations imposed by the inventory weight limit.
 
 A first-level character starts with <mark style="background-color:purple;">3</mark> **Marketplace Slots**, and each subsequent **Marketplace Slot** requires another <mark style="background-color:purple;">5</mark> points of **Crafting**. In other words, additional **Marketplace Slots** will open when **Crafting** reaches 5, then at 10, 15, and so on.
+
+***
 
 ### Gold Balance
 
@@ -157,6 +175,8 @@ Each character can have an unlimited amount of **Gold**, which does not add weig
 * promoting quests by increasing the **ACT** reward;
 * purchasing a portion of the QFT issue via auction.
 
+***
+
 ### Essence Balance
 
 Each character can have an unlimited amount of non-tradable **Essence**, which does not add weight to the inventory. **Essence** is consumed as items are leveled or evolved.
@@ -167,7 +187,9 @@ Each character can have an unlimited amount of non-tradable **Essence**, which d
 If a user with a **Crafting** attribute of 1 disassembles a 1 kg item, he will receive $$1000*(100-90)/100 = 100$$ **Essence**. If a user with a **Crafting** of 20 disassembles the same item, he will receive $$1000*(100-90/1.01^{19})/100=255$$ **Essence**.
 {% endhint %}
 
-### **Chest Shards**
+***
+
+#### **Chest Shards**
 
 Upon each approved quest completion, users are rewarded with a random **Chest Shard** that does not add weight to their inventory. These shards, like puzzle pieces, make up the weekly set, which can contain a different number of shards from week to week (from 10 to 100).
 
@@ -185,7 +207,9 @@ For example, if there is a set of 5 shards: A,B,C,D,E, and a user already has sh
 
 This method of counting chances does not take into account the different number of collected and missing shards. Even if the chance of getting the single missing shard is maximum and almost 2 times higher than the chance of getting any of the 9 collected shards, it is still more likely to get one of the collected shards (9 chances out of 11) than the missing shard (2 chances out of 11).
 
-### **Lootbox Cards**
+***
+
+#### **Lootbox Cards**
 
 Loot boxes are the primary source of all RPG items (such as Clothing, Potions, Elixirs, Spellbooks, and Warriors) in the system. They can be opened either by spending <mark style="background-color:purple;">100</mark> **Gold** or by collecting a full set of **Chest Shards**.
 
@@ -206,7 +230,9 @@ The process of opening a loot box consists of several turns, based on the number
 
 As a result, the maximum number of items a user can potentially receive from a single loot box is equal to the number of cards granted by their **Luck** attribute. However, the actual number of items obtained depends on the user's choices and actual luck throughout the opening process.
 
-### Bonus Chances
+***
+
+#### Bonus Chances
 
 Many activities in Questfall offer a chance to receive bonuses or reduce costs, such as:
 
