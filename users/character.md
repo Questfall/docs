@@ -209,7 +209,7 @@ Many activities in Questfall offer a chance to receive bonuses or reduce costs, 
 * Using only half the Stamina for a quest;
 * &#x20;And many more...
 
-Initially, the chance to win a bonus is 11 in 1010. Each point of Luck increases the chance of winning by 1 and the chance of losing by 10. Although it seems contradictory, in fact, with each point of Luck the probability of getting a bonus will increase from initial \~1% to unattainable maximum of 10%.
+Initially, the chance to win a bonus is <mark style="background-color:purple;">11</mark> in <mark style="background-color:purple;">1010</mark>. Each point of Luck increases the chance of winning by <mark style="background-color:purple;">1</mark> and the chance of losing by <mark style="background-color:purple;">10</mark>. Although it seems contradictory, in fact, with each point of Luck the probability of getting a bonus will increase from initial \~1% to unattainable maximum of 10%.
 
 {% hint style="info" %}
 For example, if Luck is 10 the chances of getting the bonus will be 20/1100=1.8%, while with luck 50 the chance will raise to: 60/1500=4%.
