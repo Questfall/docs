@@ -163,17 +163,21 @@ If a user with a **Crafting** attribute of 1 disassembles a 1 kg item, he will r
 
 **Chest Shards**
 
-Upon every quest completion, users receive a random Chest Shard, which does not add weight to the inventory. These Chest Shards, like puzzle pieces, make up the weekly set, which can contain a varying number of shards (from 10 to 100).&#x20;
+Upon each approved quest completion, users are rewarded with a random Chest Shard that does not add weight to their inventory. These shards, like puzzle pieces, make up the weekly set, which can contain a different number of shards from week to week (from 10 to 100).
 
-Every time a user collects a full set of shards during a week, he can open a free loot box. This way, a user can collect the set multiple times during a week, opening up several loot boxes, but at the end of the week there will be unused shards that will be burned.
+Every time a user collects a full set of shards during a week, he receives a free loot box (the collected set of shards is burned). This way, a user can collect the set numerous times during a week, opening multiple loot boxes. At the end of the week, unused shards will be burned.
 
-Initially, a first-level character is <mark style="background-color:purple;">10</mark> times more likely to get a Chest Shard that he already has than he is to get a missing shard. This can be thought of as getting a random shard from the urn filled with single missing shards and 10 clones of each shard already collected. To increase the number of missing shards in the urn, a user can place points in the Luck attribute, each of which increases the number of missing shards by <mark style="background-color:purple;">1</mark>.
+Thus, at any given moment, the shards are divided into two parts: shards that have already been collected in any quantity and shards that are still missing. The probability of getting collected shards and missing shards is different and is affected by the Luck attribute.
+
+Initially, a first-level character receives a random Chest Shard from an imaginary urn, where there is 32 units of each missing shard and 61 units of each collected shard. As a result, the odds of getting a particular collected shard are almost 2 times greater than the odds of getting a particular missing shard.
+
+However, for each point of Luck, the number of units of missing shards increases by 2, while the number of units of collected shards increases by 1. As a result, the chance of getting a particular missing shard relative to the chance of getting a particular collected shard increases from 1:2 to 2:1 with each additional point of Luck.
 
 {% hint style="info" %}
-For example, if there is a set of 5 shards: A,B,C,D,E, and a user already has shards A, B, and C (the number of shards owned does not matter), then with a Luck of 5 the next shard will be randomly chosen from the imaginary urn where there are Ax10, Bx10, Cx10, Dx5, Ex5.
+For example, if there is a set of 5 shards: A,B,C,D,E, and a user already has shards of different amounts of A, B, and C, then with a Luck of 10 the next shard will be randomly selected from the imaginary urn containing Ax70, Bx70, Cx70, Dx50, Ex50. With a Luck of 50, the imaginary urn will contain Ax110, Bx110, Cx110, Dx130, Ex130.
 {% endhint %}
 
-Thus, if the Luck attribute is 10, the probability of getting a missing shard or one already collected is the same. However, if the Luck attribute is 20, the chances of obtaining the missing shard are twice as high.
+This method of counting chances does not take into account the different number of collected and missing shards. Even if the chance of getting the single missing shard is maximum and almost 2 times higher than the chance of getting any of the 9 collected shards, it is still more likely to get one of the collected shards (9 chances out of 11) than the missing shard (2 chances out of 11).
 
 #### **Lootbox Cards**
 
@@ -184,7 +188,7 @@ By default, a loot box provides one item, with the chance of receiving an item d
 Users can increase their chances of receiving more items by placing points in their **Luck** attribute. For every <mark style="background-color:purple;">10</mark> points of **Luck**, users will receive an additional card when they open a loot box, providing additional turns with the opportunity to receive more items.
 
 {% hint style="info" %}
-The **Luck** attribute does not affect the probability of getting rarer items.
+The **Luck** attribute does not directly affect the chance of getting rarer items, it only increases the chance of getting more items from a single loot box. However, this actually makes it more likely to get a rarer item because there is more room for chance to work.
 {% endhint %}
 
 The process of opening a loot box consists of several turns, based on the number of cards provided by the **Luck** attribute. Here is an example for the user with 30 **Luck** (3 extra cards):
@@ -207,7 +211,7 @@ Many activities in Questfall offer a chance to receive bonuses or reduce costs, 
 * Spending only half the Essence to level up or evolve an item;
 * Spending only half the Mana on a spell;
 * Using only half the Stamina for a quest;
-* &#x20;And many more...
+* And many more...
 
 Initially, the chance to win a bonus is <mark style="background-color:purple;">11</mark> in <mark style="background-color:purple;">1010</mark>. Each point of Luck increases the chance of winning by <mark style="background-color:purple;">1</mark> and the chance of losing by <mark style="background-color:purple;">10</mark>. Although it seems contradictory, in fact, with each point of Luck the probability of getting a bonus will increase from initial \~1% to unattainable maximum of 10%.
 
