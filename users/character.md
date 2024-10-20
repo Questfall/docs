@@ -39,10 +39,10 @@ Attribute points, which are gained by levelling up, can be used to improve a cha
 
 Because users can allocate the points they earn to any attribute, they can focus on certain areas and gain specific benefits in those areas, customizing a character to fit their individual mining strategy.
 
-Of course, users can make mistakes as their characters develop, so when a user joins a new league, he can redistribute attribute points once for free. However, any subsequent redistribution within that league will cost <mark style="background-color:purple;">1000 \* LeagueCount</mark> **Gold**.
+Of course, users can make mistakes as their characters develop, so when a user joins a new league, he can redistribute attribute points once for free. However, any subsequent redistribution within that league will cost <mark style="background-color:purple;">1000 \* League</mark> **Gold**.
 
 {% hint style="info" %}
-The Zero League is considered a tutorial as there is no QFT reward for it. Accordingly, there is no cost to redistribute attribute points.
+The Zero League is considered a tutorial and there is no cost to redistribute attribute points. In the First League, the cost of redistributing attribute points is 1000 Gold ($10), in the Second League it is 2000 ($20), and so on.
 {% endhint %}
 
 ***
@@ -84,10 +84,10 @@ The weight limit of the newly created character is <mark style="background-color
 For example, if the **Inventory** attribute has 15 points, the weight limit will be 15 kg.
 {% endhint %}
 
-The weight of each item is directly affected by its rarity and level, and can be calculated using the following formula: $$Item (grams) = Level^{2}*Rarity$$.
+The weight of each item is directly affected by its rarity and level, and can be calculated using the following formula: <mark style="background-color:purple;">10 \* Level \* Rarity</mark>.
 
 {% hint style="info" %}
-For example, a level 1 common (F) item weighs 1 grams. While the same item of level 10 will weight 100 grams. The 20 level Epic (C) item will weight 1.6 kg.
+For example, a level 1 common (F) item weighs 10 grams. While the same item of level 10 will weight 100 grams. The 20 level Epic (C) item will weight 800 grams.
 {% endhint %}
 
 ***
@@ -105,7 +105,7 @@ Clothing items are the primary means by which users can improve their characters
 
 Although clothing items can be of different levels and rarities, there are no restrictions on equipping them other than type (obviously boots can't be equipped in the hand slot).
 
-However, if the level of the item is higher than the **Character Level**, it will be downgraded (while equipped) to the **Character Level**. Additionally, stamina consumption rises as the total weight of equipped items increases. Finally, each item consumes **Essence** at the moment of equipping - the heavier the item, the more **Essence** is consumed.
+However, if the level of the item is higher than the **Character Level**, it will be downgraded (while equipped) to the **Character Level**. Additionally, stamina consumption rises as the total weight of equipped items increases. Finally, each item consumes **Essence** at the moment of equipping - the heavier the item, the more **Essence** is consumed (<mark style="background-color:purple;">0.2</mark> Essence for each gram).
 
 ***
 
