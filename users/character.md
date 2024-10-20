@@ -41,6 +41,24 @@ Because users can allocate the points they earn to any attribute, they can focus
 
 Of course, users can make mistakes as their characters develop, so when a user joins a new league, he can redistribute attribute points once for free. However, any subsequent redistribution within that league will cost <mark style="background-color:purple;">1000 \* LeagueCount</mark> **Gold**.
 
+{% hint style="info" %}
+The Zero League is considered a tutorial as there is no QFT reward for it. Accordingly, there is no cost to redistribute attribute points.
+{% endhint %}
+
+***
+
+### Activity Score
+
+The **Activity Score** is used to distribute the rewards for quest mining. It can be thought of as a mining power that resets every reward period (one week for regular mining and three months for seasonal mining). Throughout the period, the **Activity Score** can only increase.&#x20;
+
+Although all users who complete the same quest receive the same number of **ACT** points, the **Activity Score** is actually increased for each of them individually. The **ACT** points that a user receives play the role of a minimum base, which is multiplied by the mining efficiency. This efficiency multiplier starts at <mark style="background-color:purple;">1.01</mark>, and increases by <mark style="background-color:purple;">0.01</mark> for each point added to the **Mining** attribute.
+
+{% hint style="info" %}
+For example, if a user receives **10 ACT** points for completing a quest and has a **Mining** attribute of 30, he will actually increase his **Activity Score** by: 10+10x0.01x30) = 13.
+{% endhint %}
+
+As well as increasing the **Mining** attribute, the mining efficiency can also be increased by using clothing and elixirs with the appropriate effects .
+
 ***
 
 ### Stored Items
@@ -66,6 +84,12 @@ The weight limit of the newly created character is <mark style="background-color
 For example, if the **Inventory** attribute has 15 points, the weight limit will be 15 kg.
 {% endhint %}
 
+The weight of each item is directly affected by its rarity and level, and can be calculated using the following formula: $$Item (grams) = Level^{2}*Rarity$$.
+
+{% hint style="info" %}
+For example, a level 1 common (F) item weighs 1 grams. While the same item of level 10 will weight 100 grams. The 20 level Epic (C) item will weight 1.6 kg.
+{% endhint %}
+
 ***
 
 ### Clothing Slots
@@ -82,26 +106,6 @@ Clothing items are the primary means by which users can improve their characters
 Although clothing items can be of different levels and rarities, there are no restrictions on equipping them other than type (obviously boots can't be equipped in the hand slot).
 
 However, if the level of the item is higher than the **Character Level**, it will be downgraded (while equipped) to the **Character Level**. Additionally, stamina consumption rises as the total weight of equipped items increases. Finally, each item consumes **Essence** at the moment of equipping - the heavier the item, the more **Essence** is consumed.
-
-***
-
-### Activity Score
-
-The **Activity Score** is used to distribute the rewards for quest mining. It can be thought of as a mining power that resets every reward period (one week for regular mining and three months for seasonal mining). Throughout the period, the **Activity Score** can only increase.&#x20;
-
-Users can gain **Activity Score** by earning **ACT** points, either by completing quests or by participating in warfare. When a user earns **ACT** points, they are amplified by the **Mining Efficiency** and the result is added to the current **Activity Score**.
-
-***
-
-### Mining Efficiency
-
-Although all users who complete the same quest receive the same number of **ACT** points, the **Activity Score** is actually increased for each of them individually. The **ACT** points that a user receives play the role of a minimum base, which is multiplied by the **Mining Efficiency**. It starts at <mark style="background-color:purple;">1.01</mark>, and increases by <mark style="background-color:purple;">0.01</mark> for each point added to the **Mining** attribute.
-
-{% hint style="info" %}
-For example, if a user receives **10 ACT** points for completing a quest and has a **Mining** attribute of 30, he will actually increase his **Activity Score** by: 10+10x0.01x30) = 13.
-{% endhint %}
-
-As well as increasing the **Mining** attribute, the **Mining Efficiency** can also be increased by using clothing and elixirs with the appropriate effects .
 
 ***
 
@@ -179,17 +183,23 @@ Each character can have an unlimited amount of **Gold**, which does not add weig
 
 ### Essence Balance
 
-Each character can have an unlimited amount of non-tradable **Essence**, which does not add weight to the inventory. **Essence** is consumed as items are leveled or evolved.
+Each character can have an unlimited amount of non-tradable **Essence**, which does not add weight to the inventory.&#x20;
 
-**Essence** can only be gained by disassembling items, which contain <mark style="background-color:purple;">1</mark> **Essence** per gram of weight. However, depending on the character's **Crafting** attribute, some **Essence** will be lost during the disassembly process. A first level character will lose <mark style="background-color:purple;">90%</mark> of the **Essence** in an item when disassembling it, but each additional point of **Crafting** will gradually reduce the loss by <mark style="background-color:purple;">1%</mark>.
+**Essence** can only be gained by disassembling items, and the heavier the item, the more **Essence** it will contain. A first-level character can extract <mark style="background-color:purple;">0.1</mark> **Essence** per gram, but each additional point of **Crafting** increases the amount of **Essence** per gram by <mark style="background-color:purple;">0.1</mark>.
 
 {% hint style="info" %}
-If a user with a **Crafting** attribute of 1 disassembles a 1 kg item, he will receive $$1000*(100-90)/100 = 100$$ **Essence**. If a user with a **Crafting** of 20 disassembles the same item, he will receive $$1000*(100-90/1.01^{19})/100=255$$ **Essence**.
+While a user with a **Crafting** of 1 will receive 100 Essence for disassembling a 1 kg item, a user with a Crafting of 20 will receive 2000 **Essence** for the same item. And a user with a Crafting of 50 will receive 5000 **Essence**.
+{% endhint %}
+
+**Essence** is needed to level up items and evolve their rarity. The amount of Essence needed to be invested in the item can be calculated by the formula: $$Essence = 5*Level^{2}*Rarity$$. This approach allows to calculate any levelling or evolution of the item by subtracting the amount of Essence already invested in the item from the requirements for the final parameters.
+
+{% hint style="info" %}
+For example, a common (F) item requires 5x100x1=500 Essence to level up from level 1 to level 10. To level up this item another ten levels to level 20, it will require 5x400x1-500=1500 Essence. In order to evolve this level 20 item to uncommon rarity (E), the following amount of Essence is required: 5x400x2-2000=2000.
 {% endhint %}
 
 ***
 
-#### **Chest Shards**
+### **Chest Shards**
 
 Upon each approved quest completion, users are rewarded with a random **Chest Shard** that does not add weight to their inventory. These shards, like puzzle pieces, make up the weekly set, which can contain a different number of shards from week to week (from 10 to 100).
 
@@ -209,7 +219,7 @@ This method of counting chances does not take into account the different number 
 
 ***
 
-#### **Lootbox Cards**
+### **Lootbox Cards**
 
 Loot boxes are the primary source of all RPG items (such as Clothing, Potions, Elixirs, Spellbooks, and Warriors) in the system. They can be opened either by spending <mark style="background-color:purple;">100</mark> **Gold** or by collecting a full set of **Chest Shards**.
 
@@ -232,7 +242,7 @@ As a result, the maximum number of items a user can potentially receive from a s
 
 ***
 
-#### Bonus Chances
+### Bonus Chances
 
 Many activities in Questfall offer a chance to receive bonuses or reduce costs, such as:
 
