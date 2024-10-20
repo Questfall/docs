@@ -97,10 +97,10 @@ Stamina is consumed when a user completes a quest and is automatically restored 
 
 In addition to its technical utility, stamina is part of an RPG system because its consumption is directly affected by the total weight of the clothing worn. The heavier the clothing, the more stamina is consumed. This forces the user to invest points in the **Mining** attribute, as the clothing becomes heavier as the user progresses through the levels.
 
-A first-level character starts with a **Stamina Reserve** of <mark style="background-color:purple;">1000</mark>, and each point in the **Mining** attribute increases the **Stamina Reserve** linearly by <mark style="background-color:purple;">1000</mark>. If no clothing is equipped, each quest will consume <mark style="background-color:purple;">10</mark> stamina and each vote while moderating will consume <mark style="background-color:purple;">1</mark> stamina. However, each gram of equipped clothing will increase the stamina consumption by <mark style="background-color:purple;">0.02</mark>.
+A first-level character starts with a **Stamina Reserve** of <mark style="background-color:purple;">1000</mark>, and each point in the **Mining** attribute increases the **Stamina Reserve** linearly by <mark style="background-color:purple;">1000</mark>. If no clothing is equipped, each quest will consume <mark style="background-color:purple;">10</mark> stamina and each vote while moderating will consume <mark style="background-color:purple;">1</mark> stamina. However, each gram of equipped clothing increases the stamina required to complete a quest by <mark style="background-color:purple;">0.05</mark> and the stamina required to vote in a moderation by <mark style="background-color:purple;">0.005</mark>.
 
 {% hint style="info" %}
-If the equipped clothing weighs 5 kg, the amount of stamina consumed per quest will be: 10+5x1000x0.01=60.
+If the equipped clothing weighs 5 kg, the amount of stamina consumed per quest will be: 10+5x1000x0.05=260. Per moderation vote: 1+5x1000x0.005=26.
 {% endhint %}
 
 Another crucial parameter that affects a character's **Stamina Reserve** is the speed of its recovery. Initially, when the **Regeneration** attribute equals 1, the character restores <mark style="background-color:purple;">0.2</mark> stamina per minute. With each additional point in **Regeneration**, the amount of stamina restored per minute increases by <mark style="background-color:purple;">0.2</mark>.
@@ -117,7 +117,7 @@ Mana is used for magical actions such as casting spells or moving warriors aroun
 
 Each spell requires a different amount of mana to cast, depending on the spell itself and its rarity, and each warrior requires a different amount of mana to move, depending on the rarity and level of the warrior.
 
-A first-level character starts with a **Mana Reserve** of <mark style="background-color:purple;">100</mark> , and each point in the **Magic** attribute increases the **Mana Reserve** linearly by <mark style="background-color:purple;">100</mark> . Also initially, when the **Recharge** attribute equals 1, the character restores <mark style="background-color:purple;">1 mana per minute</mark> . With each point added to the **Recharge**, attribute the amount of mana restored per minute increases linearly by <mark style="background-color:purple;">1 mana</mark> .
+A first-level character starts with a **Mana Reserve** of <mark style="background-color:purple;">1000</mark>, and each point in the **Magic** attribute increases the **Mana Reserve** linearly by <mark style="background-color:purple;">1000</mark>. Also initially, when the **Recharge** attribute equals 1, the character restores <mark style="background-color:purple;">1</mark> mana per minute. With each point added to the **Recharge**, attribute the amount of mana restored per minute increases by <mark style="background-color:purple;">1</mark> mana.
 
 #### Spell Slots
 
@@ -129,7 +129,7 @@ The second slot unlocks at 10 **Magic** points, the third at 30, the fourth at 6
 
 #### Warriors Slots
 
-**Warrior Slots** limit the number of warriors that can be active on the warfare map at any given moment. Defeated warriors are automatically moved to the inventory, but new warriors can be deployed immediately instead.&#x20;
+The number of **Warrior Slots** limits the count of warriors that can be active on the warfare map at any given moment. Defeated warriors are automatically moved to the inventory, but new warriors can be deployed immediately instead.&#x20;
 
 A first-level character starts with <mark style="background-color:purple;">2</mark> **Warrior Slots**, and each additional point in the **Warfare** attribute adds <mark style="background-color:purple;">2</mark> more **Warrior Slots**.
 
@@ -141,9 +141,7 @@ A first-level character starts with <mark style="background-color:purple;">3</ma
 
 #### Gold Balance
 
-Each character can have an unlimited amount of **Gold**. The **Gold** is stored in a special magical pouch, and its weight does not count against the inventory weight limit.
-
-The **Gold Balance** can only be increased by burning **QFT** or selling low-rarity items on the marketplace.&#x20;
+Each character can have an unlimited amount of **Gold**, which does not add weight to the inventory. The **Gold Balance** can only be increased by burning **QFT** or selling low-rarity items on the marketplace.&#x20;
 
 **Gold** can be spent on:&#x20;
 
@@ -155,9 +153,9 @@ The **Gold Balance** can only be increased by burning **QFT** or selling low-rar
 
 #### Essence Balance
 
-Each character can have an unlimited amount of non-tradable **Essence**, which is consumed as items are leveled or evolved. **Essence** is stored in a special magic flask, and its weight does not count against inventory weight limit.
+Each character can have an unlimited amount of non-tradable **Essence**, which does not add weight to the inventory. **Essence** is consumed as items are leveled or evolved.
 
-**Essence** can only be gained by disassembling items, which contain <mark style="background-color:purple;">1</mark> **Essence** per gram of weight. However, depending on the character's **Crafting** attribute, some **Essence** will be lost during the disassembly process. A first level character will lose <mark style="background-color:purple;">90%</mark> of the **Essence** in an item when disassembling it, but each additional point of **Crafting** will gradually reduce the loss <mark style="background-color:purple;">by 1%</mark> .
+**Essence** can only be gained by disassembling items, which contain <mark style="background-color:purple;">1</mark> **Essence** per gram of weight. However, depending on the character's **Crafting** attribute, some **Essence** will be lost during the disassembly process. A first level character will lose <mark style="background-color:purple;">90%</mark> of the **Essence** in an item when disassembling it, but each additional point of **Crafting** will gradually reduce the loss <mark style="background-color:purple;">by 1%</mark>.
 
 {% hint style="info" %}
 If a user with a **Crafting** attribute of 1 disassembles a 1 kg item, he will receive $$1000*(100-90)/100 = 100$$ **Essence**. If a user with a **Crafting** of 20 disassembles the same item, he will receive $$1000*(100-90/1.01^{19})/100=255$$ **Essence**.
@@ -165,11 +163,11 @@ If a user with a **Crafting** attribute of 1 disassembles a 1 kg item, he will r
 
 **Chest Shards**
 
-Upon every quest completion, users receive a random Chest Shard, which does not add weight to the inventory. These Chest Shards, like puzzle pieces, can form the weekly set, which can contain a varying number of shards (from 10 to 100).&#x20;
+Upon every quest completion, users receive a random Chest Shard, which does not add weight to the inventory. These Chest Shards, like puzzle pieces, make up the weekly set, which can contain a varying number of shards (from 10 to 100).&#x20;
 
 Every time a user collects a full set of shards during a week, he can open a free loot box. This way, a user can collect the set multiple times during a week, opening up several loot boxes, but at the end of the week there will be unused shards that will be burned.
 
-Initially, a first-level character is <mark style="background-color:purple;">10</mark> times more likely to get a Chest Shard that he already has than he is to get a missing shard. This can be thought of as getting a random shard from the urn filled with single missing shards and 10 clones of each shard already collected. To increase the number of missing shards in the urn, a user can place points in the Luck attribute, each of which increases the number of missing shards <mark style="background-color:purple;">by 1</mark> .
+Initially, a first-level character is <mark style="background-color:purple;">10</mark> times more likely to get a Chest Shard that he already has than he is to get a missing shard. This can be thought of as getting a random shard from the urn filled with single missing shards and 10 clones of each shard already collected. To increase the number of missing shards in the urn, a user can place points in the Luck attribute, each of which increases the number of missing shards by <mark style="background-color:purple;">1</mark>.
 
 {% hint style="info" %}
 For example, if there is a set of 5 shards: A,B,C,D,E, and a user already has shards A, B, and C (the number of shards owned does not matter), then with a Luck of 5 the next shard will be randomly chosen from the imaginary urn where there are Ax10, Bx10, Cx10, Dx5, Ex5.
@@ -200,3 +198,19 @@ As a result, the maximum number of items a user can potentially receive from a s
 
 #### Bonus Chances
 
+Many activities in Questfall offer a chance to receive bonuses or reduce costs, such as:
+
+* Earning 2x Essence when disassembling an item;
+* Receiving 2 Chest Shards as a quest reward;
+* Earning 2x ACT as a quest reward;
+* Getting 2x chances to win when attacking on warfare map;
+* Spending only half the Essence to level up or evolve an item;
+* Spending only half the Mana on a spell;
+* Using only half the Stamina for a quest;
+* &#x20;And many more...
+
+Initially, the chance to win a bonus is 11 in 1010. Each point of Luck increases the chance of winning by 1 and the chance of losing by 10. Although it seems contradictory, in fact, with each point of Luck the probability of getting a bonus will increase from initial \~1% to unattainable maximum of 10%.
+
+{% hint style="info" %}
+For example, if Luck is 10 the chances of getting the bonus will be 20/1100=1.8%, while with luck 50 the chance will raise to: 60/1500=4%.
+{% endhint %}
