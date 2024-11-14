@@ -6,7 +6,6 @@ icon: treasure-chest
 
 ## Effects
 
-
 ## Loot boxes
 
 ### Drop Rates
