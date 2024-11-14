@@ -1,5 +1,4 @@
 ---
-icon: treasure-chest
 ---
 
 # Items
