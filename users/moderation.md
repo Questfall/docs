@@ -47,7 +47,7 @@ Users who voted with the majority are rewarded with energy and those who voted w
 Guessing the right answers is a losing strategy as the average penalty for wrong answers is double the reward for the right answers. 
 
 {% hint style="info" %}
-Energy rewards is different for each type of moderation when voting with majority or minority: 
+Energy rewards is different for each type of moderation when voting with majority or minority.
 Witness: +10/0 | Approve: 0/-20 | reported quests +10/-20 (also for the reporter)
 {% endhint %}
 
