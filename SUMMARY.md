@@ -16,12 +16,11 @@
 * [Activity](users/Activity.md)
 * [Energy](users/Energy.md)
 * [Items](users/Items.md)
+* [Crafting](users/crafting.md)
+* [Trading](users/trading.md)
 * [Magic](users/magic.md)
 * [Rewards](users/rewards.md)
-* [Trading](users/trading.md)
 * [Warfare](users/warfare.md)
-* [Leagues](users/leagues.md)
-
 
 ## Authors
 
