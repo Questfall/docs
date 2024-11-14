@@ -42,14 +42,14 @@ Loot boxes are the only way new items are released into circulation.
 
 The function of a loot box is closer to gold than in-game items:
 
-•	Loot boxes do not influence the carried weight or stamina consumption
-•	There is no upper limit to how many loot boxes can be bought or carried
-•	Loot boxes can be stored indefinitely and be opened at any time without using essence
+*  Loot boxes do not influence the carried weight or stamina consumption
+*  There is no upper limit to how many loot boxes can be bought or carried
+*  Loot boxes can be stored indefinitely and be opened at any time without using essence
 
 There are a few limitations regarding loot boxes:
 
-•	They can’t be traded with other users
-•	Loot box can’t be opened if the character weight limit is fully used
+*  They can’t be traded with other users
+*  Loot box can’t be opened if the character weight limit is fully used
 
 
 ### Drop Rates
@@ -93,12 +93,13 @@ For example A level 10 rare (D) robe gives +1% to mining efficiency, +5 to mana,
 
 All tier of clothing has upgradeable effects and the higher tier also has non-upgradable effects. The number of upgradable and non-upgradable effects is based on the tier:
 
-Common   (F) 1/0\
-Advanced (E) 2/0\
-Rare     (D) 3/0\
-Legendary(C) 3/1\
-Epic 	 (B) 3/2\
-Mythic   (A) 3/3
+*  1/0 - Common (F) 	
+*  2/0 - Advanced (E) 	
+*  3/0 - Rare (D) 	
+*  3/1 - Legendary (C) 	
+*  3/2 - Epic (B) 	
+*  3/3 - Mythic (A) 	
+
 
 #### Elixirs
 
