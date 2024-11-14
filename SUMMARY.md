@@ -13,6 +13,7 @@
 ## Users
 
 * [Character](users/character.md)
+* [Items](users/items.md)
 * [Mining](users/mining.md)
 * [Crafting](users/crafting.md)
 * [Moderation](users/moderation.md)
