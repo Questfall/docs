@@ -15,7 +15,6 @@
 * [Character](users/character.md)
 * [Activity](users/Activity.md)
 * [Energy](users/Energy.md)
-* [Items](users/Items.md)
 * [Magic](users/magic.md)
 * [Rewards](users/rewards.md)
 * [Mining](users/mining.md)
