@@ -4,6 +4,24 @@ icon: treasure-chest
 
 # Items
 
+There are variety of in-game items:
+
+### Clothing
+
+Head (helmets, hoods, hats);
+Chest (robes, tunics, shirts, vests);
+Leg (pants, trousers);
+Feet (boots, shoes);
+Hand (gloves, gauntlets);
+Back (capes, cloaks, mantles). 
+
+### Spellbooks
+
+### Elixirs
+
+### Potions
+
+
 ## Effects
 
 ## Loot boxes
