@@ -18,14 +18,10 @@
 * [Items](users/Items.md)
 * [Magic](users/magic.md)
 * [Rewards](users/rewards.md)
-* [Mining](users/mining.md)
-* [Crafting](users/crafting.md)
-* [Moderation](users/moderation.md)
 * [Trading](users/trading.md)
 * [Warfare](users/warfare.md)
-* [Loot](users/loot.md)
 * [Leagues](users/leagues.md)
-* [Seasons](users/seasons.md)
+
 
 ## Authors
 

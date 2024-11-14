@@ -1,6 +1,0 @@
----
-icon: pickaxe
----
-
-# Mining
-

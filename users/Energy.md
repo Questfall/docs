@@ -73,4 +73,6 @@ In fake moderation, the quest information is mixed in such a way that humans can
 
 Fake quests allow the system to keep a 50/50 balance between right and wrong answers so the user can’t succeed by accepting every moderation. 
 
-## Buying of Energy
+## Buying of Energy and XP
+
+### XP Pool
