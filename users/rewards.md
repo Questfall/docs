@@ -34,11 +34,7 @@ In addition to having less competition in a higher league, the users can be moti
 
 While the concept of mining is fair enough on its own, platforms like Questfall (where users create value for others) offer additional rewards for the most loyal and engaged users, as this encourages long-term audience retention and therefore value.
 
-To achieve this, 10% of the newly created QFTs will be placed each week in the Seasonal Reward Pool, which will be distributed in full each season to the users with the highest seasonal mining power in two categories:
-
-* Quest Completion (80% of the Seasonal Reward Pool),
-* Quest Creation (20% of the Seasonal Reward Pool),
-
+To achieve this, 16% of the newly created QFTs will be placed each week in the **Seasonal Reward Pool**, which will be distributed in full each season to **Users** (11.2%) and **Authors** (4.8%) with the highest seasonal mining power.
 
 {% hint style="info" %}
 A common season will last three months (twelve weeks), during which a fund of approximately 120% of average weekly token creation will be collected. By rewarding only the most engaged users, the system will ensure that they receive a noticeable reward.
