@@ -21,8 +21,11 @@ There are variety of in-game items:
 
 ### Potions
 
+***
 
 ## Effects
+
+***
 
 ## Loot boxes
 
@@ -51,8 +54,11 @@ There are a few limitations regarding loot boxes:
 *  They can’t be traded with other users
 *  Loot box can’t be opened if the character weight limit is fully used
 
+***
 
 ### Drop Rates
+
+***
 
 ## Crafting
 
@@ -109,5 +115,7 @@ The tier of elixirs can be evolved with essence.
 
 The tier of spellbook effects the power of the spell.
 Five spellbooks of the same type and tier can be crafted into one book of the next tier. 
+
+***
 
 ## Marketplace Trading

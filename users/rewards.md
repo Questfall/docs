@@ -29,6 +29,7 @@ If there were only four leagues with active users, each league would have 10% of
 
 In addition to having less competition in a higher league, the users can be motivated to get to a new league for a free attribute reset. When a user joins a new league, he can redistribute the character's attribute points once for free and thus re-design their game approach. 
 
+***
 
 ## Seasons
 
@@ -43,21 +44,3 @@ A common season will last three months (twelve weeks), during which a fund of ap
 This approach also allows for seasonal collaborations with other projects, which not only brings additional rewards to users, but also encourages QFT burning, as to become a Questfall Season Partner, a third-party team must burn QFT.
 
 ---
-
-Users who complete quests receive Quest Points, which are used to calculate their individual User Mining Power. The number of Quest Points is directly related to the reputation of the quest author. The higher the Reputation of an author, the more Quest Points users will receive for completing that author's quests.
-
-{% tabs %}
-{% tab title="Chart" %}
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
-{% endtab %}
-
-{% tab title="Details" %}
-The amount of Quest Points in the quest increases exponentially (from 10 to 110) with the reputation of the author, according to the formula below:
-
-$$
-QuestPoints=10+Reptuation^{2}
-$$
-
-For example, users who complete a quest from an author with a reputation of 5.4 will each receive $$10+5.4^{2}=39.16$$ Quest Points, while a quest from an author with a reputation of 7.4 will give each user $$10+7.4^{2}=64.76$$ Quest Points.
-{% endtab %}
-{% endtabs %}
