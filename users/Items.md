@@ -1,10 +1,15 @@
+---
+icon: treasure-chest
+---
+
 # Items
 
-## Item Effects
+## Effects
 
 
 ## Loot boxes
 
+### Drop Rates
 
 ## Crafting
 
