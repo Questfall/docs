@@ -59,7 +59,10 @@ Potions do not have tier or level and there is only one size of both types.
 
 The higher the **tier** of the item the **more bonuses** it gives and the **heavier** it is.
 
-In addition to the tier, clothing has also **level.** The higher the clothing level the heavier it is and the more bonuses it can potentially give. The character is able to wear clothing of any level. If the level of the item is higher than the Character Level, the item and its effects will be downgraded (while equipped) to the Character Level. 
+In addition to the tier, clothing has also **level.** The higher the clothing level the more bonuses it has and the more it weighs.
+
+The character can wear clothing of any level. If the level of the item is higher than the Character Level, the item and its effects will be downgraded (while equipped) to the Character Level while the weight stays the same.
+
 
 For more details about tier and level bonuses see [Crafting](crafting.md).
 
