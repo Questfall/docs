@@ -2,5 +2,4 @@
 icon: pickaxe
 ---
 
-# Mining
-
+# Activity

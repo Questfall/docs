@@ -260,3 +260,7 @@ Initially, the chance to win a bonus is <mark style="background-color:purple;">1
 {% hint style="info" %}
 For example, if **Luck** is 10 the chances of getting the bonus will be 20/1100=1.8%, while with **Luck** 50 the chance will raise to: 60/1500=4%.
 {% endhint %}
+
+***
+
+### Energy to raise user level

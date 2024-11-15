@@ -1,77 +1,6 @@
----
-icon: check-double
----
+
 
 # Moderation
-
-One of the unique features of Questfall is its completely decentralized moderation which allows the community to decide the validity of quest completions and reports. This system allows anyone to participate in moderation and by design is still protected from abuse.
-
-Moderating provides users with the **energy** that is needed for **leveling (XP)** and **quest promotion**. As moderation is the only free source of energy there will always be enough users willing to do it.
-
-### Types of Moderations
-
-There are **three types of moderation** in the system:
-
-1.**Witnessing** – Users vote if the link content is equal to the screenshot provided by the user completing the quest.
-
-This is the first step of making sure the quest completion is valid. Witnessing is needed to make sure that there is unchangeable information to vote for in the approving state. 
-
-2.**Approving** – Users vote if the quest is done correctly.
-
-Based on the completion terms and extra information provided by the author moderators vote if the quest should be accepted or declined.
-
-3.**Reported quest or completion** – Users vote if the reported quest or completion breaks community rules.
-
-Reported quests or completions go to moderation only if there are enough reports in it. The reporters either win or lose energy based on the moderation voting result. If a reported quest or completion is voted to be against the community rules the user responsible for it gets a high penalty. 
-
-### Voting principles
-
-The moderation voting is designed in a way that it rewards real users and penalizes those trying to abuse or automate the system.
-
-The following principles apply to the moderation voting:
-
-**Vote weight**
-
-The weight of a user's vote is directly correlated to his level. This makes it impossible for many new accounts to be registered and used to manipulate voting results.
-
-This means that high-level users, who are most interested in the platform's stability and success, have a great deal of influence in moderation.
-
-**Binary voting**
-
-Each item moderated is voted on using the binary options yes/no. The votes have different weights and a winning majority is calculated based on the vote weights. 
-
-Users who voted with the majority are rewarded with energy and those who voted with the minority lose or do not get energy. 
-
-**Reward balance**
-
-Guessing the right answers is a losing strategy as the average penalty for wrong answers is double the reward for the right answers. 
-
-{% hint style="info" %}
-Energy rewards is different for each type of moderation when voting with majority or minority: 
-Witness: +10/0 | Approve: 0/-20 | reported quests +10/-20 (also for the reporter)
-{% endhint %}
-
-The user receives the reward or punishment when the moderation is fully settled.
-
-**Randomly assigned moderations**
-
-Users can't choose specific items to vote on when moderating - the system assigns them randomly. This prevents the same automated vote from being cast from many accounts.
-
-Specific moderation can be bypassed only by spending energy. 
-
-The system keeps a balance by providing users with different types of moderation and an equal amount of right/wrong answers.
-
-**Fake moderations**
-
-Along with the real problems that need moderation system generates fakes, that should not pass moderation. Since the system knows what should be the correct vote it can punish malicious voters and reward good ones independent of who is the majority. In other words, such fakes are used as honeypots.
-
-{% hint style="info" %}
-In fake moderation, the quest information is mixed in such a way that humans can recognize it being a non-valid completion but bots can’t. 
-{% endhint %}
-
-Fake quests allow the system to keep a 50/50 balance between right and wrong answers so the user can’t succeed by accepting every moderation. 
-
----
 
 The most important parameter that characterises a user in Questfall is his level. The higher a user's level, the greater his mining power and voting weight in the community consensus. This means that high-level users, who are most interested in the stability and success of the platform, have a great deal of influence.
 
@@ -127,3 +56,81 @@ In other words, by the time users have the power to influence the voting results
 
 This is the same as putting every penny earned from Bitcoin mining into an ASIC farm and hoping that one day it will have enough hash power for a 51% attack, allowing the blockchain to be completely rewritten. But unlike Bitcoin, where computing power can be bought, high levels in Questfall can only be earned by performing valuable actions and constantly proving that a user is human.
 
+# Crafting
+
+Garment are pieces of clothing equipment used by players to increase their stats and gain an edge over other users when doing certain activities on the platform.\
+\
+In Questfall the Garment equipment can be obtained through lootboxes, can be bought and sold on the marketplace and it can be salvaged to obtain essence.\
+\
+There are 8 different garment pieces that can be equipped on the character\
+\
+1\. Headwear\
+2\. Torso\
+3\. Legwear\
+4\. Footwear\
+5\. Handwear\
+6\. Cape\
+7\. Belt\
+8\. Accessories(rings, necklace, trinkets)\
+\
+There are 6 different rarity tiers for the garment equipment. \
+Common(F)\
+Advanced or Refined(E)\
+Rare (D)\
+Legendary (C)\
+Epic (B)\
+Mythic(A)\
+\
+Each item has stats that can be upgraded and non upgradable stats \
+Common items have 1 upgradable stats\
+Advanced items have 2 upgradable stats\
+Rare Items have 3 upgradable stats\
+Legendary items have 3 upgradable stat and 1 non upgradable\
+Epic items have 3 upgradable stat and 2 non upgradable\
+Mythic items have 3 upgradable stat and 3 non upgradable\
+\
+Salvaging gives essence based on the rarity of the item. This process can be influenced by Precision attribute which provides extra essence depending on it's level\
+To lvl up items users need to spend Essence. The essence required to lvl up increases with each item level\
+\
+Items have weight and their storage is limited. \
+\
+Item Levels\
+Each Garment equipment has levels. In order to equip items users need to meet the required level of the item.\
+\
+Equipping items\
+When users equip or unequip items they need to spend essence. \
+\
+\
+Consumable items\
+Cannot be upgraded\
+\
+Potions\
+Potions do not have rarity tiers\
+There are 2 types of potions, Mana and Stamina. \
+Upon consuming they regenerate their respective power. \
+they can be found in loot boxes and traded on the marketplace\
+\
+Elixirs\
+Same rarity tiers as items. \
+D,E.F tiers give temporary attribute boost while C,B,A offer permanent attribute points upon consumption\
+
+# Quest points
+
+
+Users who complete quests receive Quest Points, which are used to calculate their individual User Mining Power. The number of Quest Points is directly related to the reputation of the quest author. The higher the Reputation of an author, the more Quest Points users will receive for completing that author's quests.
+
+{% tabs %}
+{% tab title="Chart" %}
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="Details" %}
+The amount of Quest Points in the quest increases exponentially (from 10 to 110) with the reputation of the author, according to the formula below:
+
+$$
+QuestPoints=10+Reptuation^{2}
+$$
+
+For example, users who complete a quest from an author with a reputation of 5.4 will each receive $$10+5.4^{2}=39.16$$ Quest Points, while a quest from an author with a reputation of 7.4 will give each user $$10+7.4^{2}=64.76$$ Quest Points.
+{% endtab %}
+{% endtabs %}

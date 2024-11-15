@@ -13,16 +13,12 @@
 ## Users
 
 * [Character](users/character.md)
-* [Mining](users/mining.md)
+* [Activity](users/Activity.md)
+* [Items](users/Items.md)
 * [Crafting](users/crafting.md)
-* [Moderation](users/moderation.md)
-* [Magic](users/magic.md)
 * [Trading](users/trading.md)
-* [Warfare](users/warfare.md)
-* [Loot](users/loot.md)
-* [Leagues](users/leagues.md)
+* [Magic](users/magic.md)
 * [Rewards](users/rewards.md)
-* [Seasons](users/seasons.md)
 
 ## Authors
 
