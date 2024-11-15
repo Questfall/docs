@@ -4,7 +4,7 @@ icon: treasure-chest
 
 # Items
 
-By wearing, learning, or consuming the in-game items give bonuses to the character and game play. 
+ There are a variety of in-game items comprising **Clothing**, **Spellbooks**, **Elixirs**, and **Potions** which give bonuses to the character and game play. 
 
 Items can be acquired from **loot boxes** and **marketplace.** 
 
