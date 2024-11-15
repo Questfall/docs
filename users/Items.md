@@ -4,13 +4,9 @@ icon: treasure-chest
 
 # Items
 
-By wearing, consuming and learning the in-game items give bonuses to the character and game play. 
-
-Items can give various benefits like bonuses to mining power, character attributes, mana, stamina or spell slots.
-
+By wearing, learning, or consuming the in-game items give bonuses to the character and game play. 
 
 Items can be acquired from **loot boxes** and **marketplace.** 
-
 
 ### Clothing
 
@@ -22,6 +18,8 @@ There are multiple types of clothing in the game and the character has six slots
 * **Feet** (boots, shoes)
 * **Hand** (gloves, gauntlets)
 * **Back** (capes, cloaks, mantles) 
+
+Wearing clothing can give various benefits like bonuses to mining power, character attributes, mana, stamina, or spell slots.
 
 ### Spellbooks
 
@@ -61,7 +59,7 @@ Potions do not have tier or level and there is only one size of both types.
 
 The higher the **tier** of the item the **more bonuses** it gives and the **heavier** it is.
 
-In addition to the tier clothing has also **level.** The higher the item level the heavier it is and the more bonuses it can potentially give. Character is able to wear clothing of any level. If the level of the item is higher than the Character Level, the item and its effects will be downgraded (while equipped) to the Character Level. 
+In addition to the tier, clothing has also **level.** The higher the clothing level the heavier it is and the more bonuses it can potentially give. The character is able to wear clothing of any level. If the level of the item is higher than the Character Level, the item and its effects will be downgraded (while equipped) to the Character Level. 
 
 For more details about tier and level bonuses see [Crafting](crafting.md).
 
