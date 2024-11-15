@@ -39,7 +39,7 @@ For example A level 20 common (F) helmet gives +2% to mining efficiency, and by 
 For example A level 10 rare (D) robe gives +1% to mining efficiency, +5 to mana, and +5 stamina, by upgrading it to level 11 it gives 1.1% to mining efficiency, +5.5 to mana, and +5.5 to stamina. 
 {% endhint %}
 
-All tier of clothing has upgradeable effects and the higher tier also has non-upgradable effects. The number of upgradable and non-upgradable effects is based on the tier:
+All tier of clothing has upgradeable effects and the higher tier also has non-upgradable effects. The number of **upgradable** and **non-upgradable** effects is based on the tier:
 
 *  1/0 - Common (F) 	
 *  2/0 - Advanced (E) 	
@@ -55,7 +55,7 @@ The tier of elixirs can be evolved with essence.
 
 #### Spellbooks
 
-The tier of spellbook effects the power of the spell.
+By upgrading a spell book the user can have the same spell with more power.
 Five spellbooks of the same type and tier can be crafted into one book of the next tier. 
 
 ***
