@@ -30,9 +30,9 @@
 
 ## Moderation
 
-* [Majority Wins](moderation/Majority%20Wins.md)
-* [Types of Voting](moderation/Types%20of%20Voting.md)
-* [Voting Principles](moderation/Voting%20Principles.md)
+* [Majority Wins](moderation/majority%20wins.md)
+* [Types of Voting](moderation/types%20of%20voting.md)
+* [Voting Principles](moderation/voting%20principles.md)
 
 ## Infrastructure
 
