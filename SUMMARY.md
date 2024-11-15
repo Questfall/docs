@@ -28,6 +28,12 @@
 * [Rewards](authors/rewards.md)
 * [Seasons](authors/seasons.md)
 
+## Moderation
+
+* [Majority Wins](moderation/Majority%20Wins.md)
+* [Types of Voting](moderation/Types%20of%20Voting.md)
+* [Voting Principles](moderation/Voting%20Principles.md)
+
 ## Infrastructure
 
 * [NFT burning (2%)](infrastructure/nft-burning-2.md)

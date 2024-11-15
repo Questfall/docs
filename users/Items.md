@@ -37,13 +37,13 @@ The gold spent on buying loot boxes is automatically burned by the system.
 
 By default, a loot box provides one item, with the chance of it being any type, tier, or level. Users can increase their chances of receiving more items by placing points in the Luck attribute. 
 
-You can read more about the function of **chest shards** and **luck attribute** mechanics in the [character section](character.md)
+For more details about the function of **chest shards** and **luck attribute** see the [character section](character.md).
 
 {% hint style="info" %}
 Loot boxes are the only way new items are released into circulation. 
 {% endhint %}
 
-The function of a loot box is closer to gold than in-game items:
+The function of a loot box is closer to in-game gold than items:
 
 *  Loot boxes do not influence the carried weight or stamina consumption
 *  There is no upper limit to how many loot boxes can be bought or carried
