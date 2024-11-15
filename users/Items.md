@@ -4,9 +4,14 @@ icon: treasure-chest
 
 # Items
 
-There are variety of in-game items:
+By wearing, consuming and learning the in-game items give bonuses to the character and game play. 
 
-### Clothing
+Items can be acquired from **loot boxes** and **marketplace.** 
+
+
+#### Clothing
+
+There are multiple types of clothing in the game and the character has six slots to wear them, one for each body part:
 
 * **Head** (helmets, hoods, hats)
 * **Chest** (robes, tunics, shirts, vests)
@@ -15,19 +20,59 @@ There are variety of in-game items:
 * **Hand** (gloves, gauntlets)
 * **Back** (capes, cloaks, mantles) 
 
-### Spellbooks
+#### Spellbooks
 
-### Elixirs
+#### Elixirs
 
-### Potions
+There are seven types of elixirs, one for each of the character attributes.
+
+Consuming the elixir gives a **temporary** or **permanent** increase to one of the attributes of the character.
+
+**Lower-tier elixirs** (F, E, D) give a temporary attribute boost.
+**Higher-tier elixirs** (C, B, A) give a permanent attribute boost.
+
+The tier of the elixir can be upgraded by crafting.
+
+
+
+
+
+#### Potions
+
+There are two different types of potions: 
+
+* **Stamina Potions** - Consuming fully replenishes the stamina reserves.
+
+* **Mana Potions** - Consuming fully replenishes the mana reserves. 
+
+Potions do not have tier or level and there is only one size of both types.
 
 ***
 
-## Effects
+### Tier and Level
+
+**Clothing**, **spellbooks** and **elixirs** comes in six different tiers:
+
+Common (F) 	
+Advanced (E) 	
+Rare (D) 	
+Legendary (C) 	
+Epic (B) 	
+Mythic (A) 	
+
+The higher the tier of the item the more bonuses it gives and heavier it is.
+
+In addition to the tier clothing has also **level.** 
+
+Character is able to wear clothing of any level. If the level of the item is higher than the Character Level, the item and its effects will be downgraded (while equipped) to the Character Level. 
 
 ***
 
-## Loot boxes
+### Item Bonuses
+
+***
+
+### Loot boxes
 
 **Loot boxes** are the primary source of all **RPG items**. They can be obtained by buying directly from the system for **100 gold** (1$) each or by collecting a full set of **chest shards**. Chest shards can be earned by completing quests.
 
@@ -38,6 +83,9 @@ The gold spent on buying loot boxes is automatically burned by the system.
 By default, a loot box provides one item, with the chance of it being any type, tier, or level. Users can increase their chances of receiving more items by placing points in the Luck attribute. 
 
 For more details about the function of **chest shards** and **luck attribute** see the [character section](character.md).
+
+The items **drop rate** from a loot box decreases 10 times with each tier. For example, Legendary (C) item is 10 times less likely to drop from a loot box than the same item as Rare (D). 
+
 
 {% hint style="info" %}
 Loot boxes are the only way new items are released into circulation. 
@@ -54,11 +102,9 @@ There are a few limitations regarding loot boxes:
 *  They can’t be traded with other users
 *  Loot box can’t be opened if the character weight limit is fully used
 
-***
-
-### Drop Rates
 
 ***
+
 
 
 
