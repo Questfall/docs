@@ -64,4 +64,4 @@ Fake quests allow the system to keep a 50/50 balance between right
 and wrong answers so the user can’t succeed by accepting every
 moderation. 
 
-***
+* * *
