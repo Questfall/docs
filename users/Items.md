@@ -9,7 +9,7 @@ By wearing, consuming and learning the in-game items give bonuses to the charact
 Items can be acquired from **loot boxes** and **marketplace.** 
 
 
-#### Clothing
+### Clothing
 
 There are multiple types of clothing in the game and the character has six slots to wear them, one for each body part:
 
@@ -20,21 +20,18 @@ There are multiple types of clothing in the game and the character has six slots
 * **Hand** (gloves, gauntlets)
 * **Back** (capes, cloaks, mantles) 
 
-#### Spellbooks
+### Spellbooks
 
-#### Elixirs
+### Elixirs
 
-There are seven types of elixirs, one for each of the character attributes.
+There are **seven types of elixirs**, one for each of the character attributes.
 
 Consuming the elixir gives a **temporary** or **permanent** increase to one of the attributes of the character.
 
-**Lower-tier elixirs** (F, E, D) give a temporary attribute boost.
+**Lower-tier elixirs** (F, E, D) give a temporary attribute boost.\
 **Higher-tier elixirs** (C, B, A) give a permanent attribute boost.
 
 The tier of the elixir can be upgraded by crafting.
-
-
-
 
 
 #### Potions
@@ -42,7 +39,6 @@ The tier of the elixir can be upgraded by crafting.
 There are two different types of potions: 
 
 * **Stamina Potions** - Consuming fully replenishes the stamina reserves.
-
 * **Mana Potions** - Consuming fully replenishes the mana reserves. 
 
 Potions do not have tier or level and there is only one size of both types.
@@ -53,14 +49,14 @@ Potions do not have tier or level and there is only one size of both types.
 
 **Clothing**, **spellbooks** and **elixirs** comes in six different tiers:
 
-Common (F) 	
-Advanced (E) 	
-Rare (D) 	
-Legendary (C) 	
-Epic (B) 	
-Mythic (A) 	
+* Common (F) 	
+* Advanced (E) 	
+* Rare (D)	
+* Legendary (C) 	
+* Epic (B) 	
+* Mythic (A) 	
 
-The higher the tier of the item the more bonuses it gives and heavier it is.
+The higher the **tier** of the item the **more bonuses** it gives and the **heavier** it is.
 
 In addition to the tier clothing has also **level.** 
 
