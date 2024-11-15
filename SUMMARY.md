@@ -30,8 +30,6 @@
 
 ## Moderation
 
-* [Majority Wins](moderation/majority%20wins.md)
-* [Types of Voting](moderation/types%20of%20voting.md)
 * [System Fakes](moderation/system%20fakes.md)
 * [Rewards and Punishments](moderation/rewards%20and%20punishments.md)
 
