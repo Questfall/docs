@@ -27,7 +27,7 @@ Wearing clothing can give various benefits like bonuses to mining power, charact
 
 There are **seven types of elixirs**, one for each of the character attributes.
 
-Consuming the elixir gives a **temporary** or **permanent** increase to one of the attributes of the character.
+Consuming the elixir gives a **temporary** or **permanent** increase to one of the attributes.
 
 **Lower-tier elixirs** (F, E, D) give a temporary attribute boost.\
 **Higher-tier elixirs** (C, B, A) give a permanent attribute boost.
