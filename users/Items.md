@@ -6,6 +6,9 @@ icon: treasure-chest
 
 By wearing, consuming and learning the in-game items give bonuses to the character and game play. 
 
+Items can give various benefits like bonuses to mining power, character attributes, mana, stamina or spell slots.
+
+
 Items can be acquired from **loot boxes** and **marketplace.** 
 
 
@@ -34,7 +37,7 @@ Consuming the elixir gives a **temporary** or **permanent** increase to one of t
 The tier of the elixir can be upgraded by crafting.
 
 
-#### Potions
+### Potions
 
 There are two different types of potions: 
 
@@ -58,15 +61,12 @@ Potions do not have tier or level and there is only one size of both types.
 
 The higher the **tier** of the item the **more bonuses** it gives and the **heavier** it is.
 
-In addition to the tier clothing has also **level.** 
+In addition to the tier clothing has also **level.** The higher the item level the heavier it is and the more bonuses it can potentially give. Character is able to wear clothing of any level. If the level of the item is higher than the Character Level, the item and its effects will be downgraded (while equipped) to the Character Level. 
 
-Character is able to wear clothing of any level. If the level of the item is higher than the Character Level, the item and its effects will be downgraded (while equipped) to the Character Level. 
-
-***
-
-### Item Bonuses
+For more details about tier and level bonuses see [Crafting](crafting.md).
 
 ***
+
 
 ### Loot boxes
 
