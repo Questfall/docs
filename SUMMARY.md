@@ -10,15 +10,15 @@
 * [Sybil Defence](overview/sybil-defence.md)
 * [RPG System](overview/rpg-system.md)
 
-## Users
+## mining
 
-* [Character](users/character.md)
-* [Activity](users/Activity.md)
-* [Items](users/Items.md)
-* [Crafting](users/crafting.md)
-* [Trading](users/trading.md)
-* [Magic](users/magic.md)
-* [Rewards](users/rewards.md)
+* [Character](mining/character.md)
+* [Quests](mining/Quests.md)
+* [Items](mining/Items.md)
+* [Crafting](mining/crafting.md)
+* [Trading](mining/trading.md)
+* [Magic](mining/magic.md)
+* [Rewards](mining/rewards.md)
 
 ## Authors
 
