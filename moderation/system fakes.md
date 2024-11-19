@@ -4,10 +4,9 @@ icon: snooze
 
 # System Fakes
 
-Users can't choose specific items to vote on when moderating - the **system assigns them randomly.** This prevents the same automated vote from being cast
-from many accounts.
+Users can't choose specific items to vote on when moderating - the **system assigns them randomly.** This prevents the same automated vote from being cast from many accounts.
 
-The system keeps a balance by providing users with different types of moderation and an equal amount of right/wrong answers and a moderation can be bypassed only by spending energy. 
+The system keeps a balance by providing users with different types of moderation and an equal amount of right/wrong answers and a moderation can be bypassed only by spending silver. 
 
 Along with the real problems that need moderation system generates **fakes**, that should not pass moderation.
 

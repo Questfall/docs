@@ -5,7 +5,7 @@ icon: coins
 # Rewards and Punishments
 
 
-Energy reward is unique for each type of moderation:
+Silver reward is unique for each type of moderation:
 
 * Witness +10/0 
 * Approve 0/-20  

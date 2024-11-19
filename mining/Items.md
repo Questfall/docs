@@ -25,15 +25,14 @@ Wearing clothing can give various benefits like bonuses to mining power, charact
 
 ### Elixirs
 
-There are **seven types of elixirs**, one for each of the character attributes.
+The effects of Elixirs vary a lot ranging from attribute boosts to reducing the cooldown of all of the character spells. 
 
-Consuming the elixir gives a **temporary** or **permanent** increase to one of the attributes.
+Consuming the elixir gives either a **temporary** or **permanent** effects.
 
-**Lower-tier elixirs** (F, E, D) give a temporary attribute boost.\
-**Higher-tier elixirs** (C, B, A) give a permanent attribute boost.
+**Lower-tier elixirs** (F, E, D) give temporary effects.\
+**Higher-tier elixirs** (C, B, A) give permanent effects.
 
 The tier of the elixir can be upgraded by crafting.
-
 
 ### Potions
 
@@ -57,7 +56,7 @@ Potions do not have tier or level and there is only one size of both types.
 * Epic (B) 	
 * Mythic (A) 	
 
-The higher the **tier** of the item the **more bonuses** it gives and the **heavier** it is.
+The higher the **tier** of the item the **more powerful** and **heavier** it is.
 
 In addition to the tier, clothing has also **level.** The higher the clothing level the more bonuses it has and the more it weighs.
 

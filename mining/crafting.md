@@ -10,12 +10,12 @@ This creates an additional layer of game mechanics and gives users the ability t
 
 ### Item weight
 
-The item's weight, amount of essence it contains, and tier and level are directly correlated. The heavier the item the more essence is needed for upgrading it. By disassembling an item user gets a percentage of the essence it contains.
+The item's **weight**, amount of **essence it contains**, and **tier and level** are directly **correlated**. The heavier the item the more essence is needed for upgrading it. By disassembling an item user gets a percentage of the essence it contains.
 For more details see the [essence balance](character.md)
 
-Essence is a highly valued resource as in addition to crafting it is needed to equip and unequip clothing and spell books and it can’t be bought or traded.
+Essence is a highly valued resource as in addition to crafting it is needed to equip and unequip clothing and it can’t be bought or traded.
 
-The crafting efficiency can be increased by adding points to the crafting attribute.
+The crafting efficiency can be increased by adding points to the **crafting attribute**.
 
 ### Item Crafting
 

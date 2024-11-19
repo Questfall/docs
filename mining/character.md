@@ -263,4 +263,4 @@ For example, if **Luck** is 10 the chances of getting the bonus will be 20/1100=
 
 ***
 
-### Energy to raise user level
+### Silver and user level

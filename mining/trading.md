@@ -20,8 +20,10 @@ The marketplace offers free trade between users but there are some rules to it:
 * Every trade has a 5% gold fee which is burned immediately by the system.
 * Items can be traded only for gold and can’t be exchanged for other items.
 * User can buy items from the marketplace only if the character can carry its weight.
-* Only the lower-tier items F, E, and D can be traded within the marketplace. Higher-tier items C, B, and A can be withdrawn and traded only on-chain.
+* Only the lower-tier items F, E, and D can be traded within the marketplace. 
 
 *** 
 
 ### On-Chain Trading
+
+Higher-tier items C, B, and A can be withdrawn and traded only on-chain.
