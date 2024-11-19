@@ -8,6 +8,8 @@ icon: shirt
 
 Items can be acquired from **loot boxes** and **marketplace.** 
 
+* * *
+
 ### Clothing
 
 There are multiple types of clothing and the character has six slots to wear them, one for each body part:
@@ -72,7 +74,6 @@ In addition to the tier, clothing has also **level.** The higher the clothing le
 For more details about tier and level bonuses see [Crafting](crafting.md).
 
 ***
-
 
 ### Loot boxes
 
