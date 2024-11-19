@@ -1,5 +1,5 @@
 ---
-icon: treasure-chest
+icon: shirt
 ---
 
 # Items
