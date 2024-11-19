@@ -4,14 +4,13 @@ icon: ruler-combined
 
 # Crafting
 
-Crafting allows users to upgrade clothing and spell books with essence and disassemble any item for essence.
+Crafting allows users to upgrade clothing with essence and disassemble any item for essence. Additionally, spell books can be upgraded by merging them together.
 
 This creates an additional layer of game mechanics and gives users the ability to get an edge by advancing their equipment. Crafting adds value to all types of items in Questfall as any item can be disassembled and used as a source of essence.
 
 ### Item weight
 
-The item's **weight**, amount of **essence it contains**, and **tier and level** are directly **correlated**. The heavier the item the more essence is needed for upgrading it. By disassembling an item user gets a percentage of the essence it contains.
-For more details see the [essence balance](character.md)
+The item's **weight**, amount of **essence it contains**, and **tier and level** are directly **correlated**. By disassembling any item user gets a percentage of the essence it contains. For more details see the [essence balance](character.md)
 
 Essence is a highly valued resource as in addition to crafting it is needed to equip and unequip clothing and it can’t be bought or traded.
 
@@ -24,7 +23,7 @@ The amount of boosts an item gives depends on its tier and level which can be up
 
 #### Clothing
 
-Users can freely choose to upgrade either the tier or level of clothing. Any level item can be evolved by tier and any tier item can be increased in level. The cost/benefit ratio is the same with both upgrades but evolving the tier often consumes more essence at one time as it has a greater effect on item bonuses. 
+The heavier the clothing the more essence is needed for upgrading it. Users can freely choose to upgrade either the **tier** or **level** of clothing. Any level item can be evolved by tier and any tier item can be increased in level. The cost/benefit ratio is the same with both upgrades but evolving the tier often consumes more essence at one time as it has a greater effect on item bonuses. 
 
 * **The tier upgrade** adds randomly a new effect to the clothing and the item level stays the same. When the item gets a new upgradable effect (F -> E, E -> D), the power of the new effect is based on the clothing level.
 
