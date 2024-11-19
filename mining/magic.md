@@ -14,18 +14,18 @@ Each spell has **6 levels of power** represented by the tiers of spell books. Th
 To **upgrade** the spell books tier, users need to merge 5 books of the same type and rarity for one higher-tier book. For example, 5 common (F) books with the same spell can merged to create an Advanced (E) book of the same spell.
 {% endhint %}
 
-Casting a spell **consumes mana**, so the ability to cast powerful or multiple spells is also based on the character's mana reserves. The more powerful the spell, the more mana it consumes. In addition to mana cost, each spell has a **cooldown period** ranging from an hour to a day after it is cast.
+Casting a spell **consumes mana**, so the ability to cast powerful or multiple spells is also based on the character's mana reserves. The more powerful the spell, the more mana it consumes. In addition to mana cost, some spells have a **cooldown period** which always lengthens as the power increases.
 
 ### Spell examples
 
 DETAILS COMING LATER
 
- Pauses the stamina usage for some time
+Pauses the stamina usage for some time
 
 Increases all the effects of clothing by % for some time 
 
 Gives a 50% chance to transform an elixir randomly to another one with the same tier.
 
-Increase the chance of getting missing Shards by % from completing a quest
+Increase the chance of getting missing Shards by % from a quest
 
 * * *
