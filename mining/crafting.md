@@ -20,12 +20,9 @@ The crafting efficiency can be increased by adding points to the **crafting attr
 
 ***
 
-### Item Crafting
+### Clothing
 
-The amount of boosts an item gives depends on its tier and level which can be upgraded by crafting.
-
-
-#### Clothing
+The amount of boosts clothing gives depends on its tier and level which can be upgraded by crafting.
 
 The heavier the clothing the more essence is needed for upgrading it. Users can freely choose to upgrade either the **tier** or **level** of clothing. Any level item can be evolved by tier and any tier item can be increased in level. The cost/benefit ratio is the same with both upgrades but evolving the tier often consumes more essence at one time as it has a greater effect on item bonuses. 
 
@@ -51,7 +48,7 @@ All tier of clothing has upgradeable effects and the higher tier also has non-up
 *  3/3 - Mythic (A) 	
 
 
-#### Spellbooks
+### Spellbooks
 
 Each spell has **6 levels of power** represented by the tiers of spell books. The power of spells increases exponentially with the tiers.
 
