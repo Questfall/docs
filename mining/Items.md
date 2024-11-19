@@ -8,7 +8,7 @@ icon: shirt
 
 Items can be acquired from **loot boxes** and **marketplace.** 
 
-* * *
+***
 
 ### Clothing
 
