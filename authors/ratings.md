@@ -4,4 +4,6 @@ icon: star
 
 # Ratings
 
-Every user can like or dislike quests he has completed. The quest rating&#x20;
+When succesfully completing a quest, the users must rate the quest from 1-10. 
+
+### Average rating

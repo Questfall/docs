@@ -10,7 +10,7 @@ Items can be acquired from **loot boxes** and **marketplace.**
 
 ### Clothing
 
-There are multiple types of clothing in the game and the character has six slots to wear them, one for each body part:
+There are multiple types of clothing and the character has six slots to wear them, one for each body part:
 
 * **Head** (helmets, hoods, hats)
 * **Chest** (robes, tunics, shirts, vests)
@@ -25,14 +25,15 @@ Wearing clothing can give various benefits like bonuses to mining power, charact
 
 ### Elixirs
 
-The effects of Elixirs vary a lot ranging from attribute boosts to reducing the cooldown of all of the character spells. 
 
-Consuming the elixir gives either a **temporary** or **permanent** effects.
+The effects of **elixirs** vary a lot ranging from attribute boosts to reducing the cooldown of all of the character spells. 
+
+Consuming an elixir gives either a **temporary** or **permanent** effects.
 
 **Lower-tier elixirs** (F, E, D) give temporary effects.\
 **Higher-tier elixirs** (C, B, A) give permanent effects.
 
-There are **four** categories of Elixirs:
+There are **four categories of Elixirs**:
 
 * **Attribute Elixirs** – Increases the attribute points of the character. 
 * **Mystic Elixirs** – These affect primarily the mana and spells, like reducing the mana cost of all the character's spells. 
