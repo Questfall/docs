@@ -4,7 +4,7 @@ icon: ruler-combined
 
 # Crafting
 
-Crafting allows users to upgrade items with essence and disassemble items for essence.
+Crafting allows users to upgrade clothing and spell books with essence and disassemble any item for essence.
 
 This creates an additional layer of game mechanics and gives users the ability to get an edge by advancing their equipment. Crafting adds value to all types of items in Questfall as any item can be disassembled and used as a source of essence.
 
@@ -21,7 +21,6 @@ The crafting efficiency can be increased by adding points to the **crafting attr
 
 The amount of boosts an item gives depends on its tier and level which can be upgraded by crafting.
 
-All types of clothing, elixirs, and spellbooks can be evolved to a higher tier and clothes can be also leveled up.
 
 #### Clothing
 
@@ -49,13 +48,10 @@ All tier of clothing has upgradeable effects and the higher tier also has non-up
 *  3/3 - Mythic (A) 	
 
 
-#### Elixirs
-
-The tier of elixirs can be evolved with essence.
-
 #### Spellbooks
 
-By upgrading a spell book the user can have the same spell with more power.
-Five spellbooks of the same type and tier can be crafted into one book of the next tier. 
+Each spell has **6 levels of power** represented by the tiers of spell books. The power of spells increases exponentially with the tiers.
+
+To **upgrade** the spell books tier, users need to merge 5 books of the same type and rarity for one higher-tier book.
 
 ***

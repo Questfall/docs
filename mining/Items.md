@@ -21,12 +21,13 @@ There are multiple types of clothing and the character has six slots to wear the
 
 Wearing clothing can give various benefits like bonuses to mining power, character attributes, mana, stamina, or spell slots.
 
+The character can wear clothing of any level. If the level of the item is higher than the Character Level, the item and its effects will be downgraded (while equipped) to the Character Level while the weight stays the same.
+
 ### Spellbooks
 
 ### Elixirs
 
-
-The effects of **elixirs** vary a lot ranging from attribute boosts to reducing the cooldown of all of the character spells. 
+The **elixirs** provide beneficial effects to the character which vary a lot ranging from attribute boosts to reducing the cooldown of all of the character spells. 
 
 Consuming an elixir gives either a **temporary** or **permanent** effects.
 
@@ -40,8 +41,7 @@ There are **four categories of Elixirs**:
 * **Power Elixirs** - Gives a boost to the mining power, stamina, and the ability to carry and trade more items.
 * **Fortune Elixirs** – Increases the changes for lucky strikes, like boosting the probability of doubling bonuses.
 
-
-The tier of the elixir can be upgraded by crafting.
+Elixirs do not have level and the tier can't be upgraded.
 
 ### Potions
 
@@ -68,9 +68,6 @@ Potions do not have tier or level and there is only one size of both types.
 The higher the **tier** of the item the **more powerful** and **heavier** it is.
 
 In addition to the tier, clothing has also **level.** The higher the clothing level the more bonuses it has and the more it weighs.
-
-The character can wear clothing of any level. If the level of the item is higher than the Character Level, the item and its effects will be downgraded (while equipped) to the Character Level while the weight stays the same.
-
 
 For more details about tier and level bonuses see [Crafting](crafting.md).
 
