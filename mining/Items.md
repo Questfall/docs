@@ -32,6 +32,14 @@ Consuming the elixir gives either a **temporary** or **permanent** effects.
 **Lower-tier elixirs** (F, E, D) give temporary effects.\
 **Higher-tier elixirs** (C, B, A) give permanent effects.
 
+There are **four** categories of Elixirs:
+
+* **Attribute Elixirs** – Increases the attribute points of the character. 
+* **Mystic Elixirs** – These affect primarily the mana and spells, like reducing the mana cost of all the character's spells. 
+* **Power Elixirs** - Gives a boost to the mining power, stamina, and the ability to carry and trade more items.
+* **Fortune Elixirs** – Increases the changes for lucky strikes, like boosting the probability of doubling bonuses.
+
+
 The tier of the elixir can be upgraded by crafting.
 
 ### Potions
@@ -90,7 +98,7 @@ Loot boxes are the only way new items are released into circulation.
 The function of a loot box is closer to in-game gold than items:
 
 *  Loot boxes do not influence the carried weight or stamina consumption
-*  There is no upper limit to how many loot boxes can be bought or carried
+*  There is no limit to how many loot boxes can be bought or carried
 *  Loot boxes can be stored indefinitely and be opened at any time without using essence
 
 There are a few limitations regarding loot boxes:
