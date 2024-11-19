@@ -4,6 +4,8 @@ icon: sparkles
 
 # Magic
 
+**IMAGE OF SPELL SLOTS WITH SPELLS**
+
 Users can learn and cast **spells** to gain advantages on the platform. Spells can enhance the user's performance in various ways, like affecting quest rewards, character abilities, stamina usage, or items. 
 
 The spells can be learned from **spell books** and unlearned by simply deleting them. When learning, a spell the book is consumed, and the spell appears on one of the character **spell slots**. Each character starts with one spell slot, and the number of slots can be increased by adding points to **magic attribute** and through items.

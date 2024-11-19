@@ -13,6 +13,7 @@
 ## mining
 
 * [Character](mining/character.md)
+* [Quests](mining/Quests.md)
 * [Items](mining/Items.md)
 * [Crafting](mining/crafting.md)
 * [Trading](mining/trading.md)

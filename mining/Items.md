@@ -12,6 +12,8 @@ Items can be acquired from **loot boxes** and **marketplace.**
 
 ### Clothing
 
+**IMAGE OF CLOTHING**
+
 There are multiple types of clothing and the character has six slots to wear them, one for each body part:
 
 * **Head** (helmets, hoods, hats)
@@ -27,7 +29,11 @@ The character can wear clothing of any level. If the level of the item is higher
 
 ### Spellbooks
 
+**IMAGE OF SPELL BOOK**
+
 ### Elixirs
+
+**IMAGE OF ELIXIR**
 
 The **elixirs** provide beneficial effects to the character which vary a lot ranging from attribute boosts to reducing the cooldown of all of the character spells. 
 
@@ -46,6 +52,8 @@ There are **four categories of Elixirs**:
 Elixirs do not have level and the tier can't be upgraded.
 
 ### Potions
+
+**IMAGE OF POTION**
 
 There are two different types of potions: 
 
@@ -76,6 +84,8 @@ For more details about tier and level bonuses see [Crafting](crafting.md).
 ***
 
 ### Loot boxes
+
+**IMAGE OF LOOT BOX**
 
 **Loot boxes** are the primary source of all **RPG items**. They can be obtained by buying directly from the system for **100 gold** (1$) each or by collecting a full set of **chest shards**. Chest shards can be earned by completing quests.
 
