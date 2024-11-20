@@ -4,6 +4,10 @@ icon: coins
 
 # Rewards
 
+With this system, the users don’t need to live just in the hope of rewards or grind quests for nothing. The Questfall's unique reward system allows ordinary users to be fairly rewarded with QFT for their effort in completing quests. 
+
+***
+
 ## Leagues
 
 The leagues allow a fair sharing of rewards and prevent bots and multi-accounts from taking the reward of real dedicated users. 

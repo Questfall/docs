@@ -2,7 +2,7 @@
 icon: heart
 ---
 
-# Reputation Score
+# Reputation
 
 Each author in Questfall has a **Reputation Score** ranging from 1 to 10, which results from the **ratings** users have given to the author's quests. The reputation score reflects the community's opinion about the general quality of the author's quests. 
 
