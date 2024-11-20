@@ -27,9 +27,13 @@ Wearing clothing can give various benefits like bonuses to mining power, charact
 
 The character can wear clothing of any level. If the level of the item is higher than the Character Level, the item and its effects will be downgraded (while equipped) to the Character Level while the weight stays the same.
 
-### Spellbooks
+The level and tier of clothing can be upgraded.
+
+### Spell Books
 
 **IMAGE OF SPELL BOOK**
+
+Spell Books do not have a level and the tier can be upgraded.
 
 ### Elixirs
 
@@ -49,7 +53,7 @@ There are **four categories of Elixirs**:
 * **Power Elixirs** - Gives a boost to the mining power, stamina, and the ability to carry and trade more items.
 * **Fortune Elixirs** – Increases the changes for lucky strikes, like boosting the probability of doubling bonuses.
 
-Elixirs do not have level and the tier can't be upgraded.
+Elixirs do not have a level and the tier can't be upgraded.
 
 ### Potions
 
@@ -60,7 +64,7 @@ There are two different types of potions:
 * **Stamina Potions** - Consuming fully replenishes the stamina reserves.
 * **Mana Potions** - Consuming fully replenishes the mana reserves. 
 
-Potions do not have tier or level and there is only one size of both types.
+Potions do not have a tier or level and there is only one size of both types.
 
 ***
 
