@@ -26,7 +26,6 @@
 * [Reputation](authors/reputation.md)
 * [Promotion](authors/promotion.md)
 * [Rewards](authors/rewards.md)
-* [Seasons](authors/seasons.md)
 
 ## Moderation
 

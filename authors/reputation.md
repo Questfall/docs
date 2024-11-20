@@ -19,8 +19,10 @@ The final author reputation score is calculated based on this formula:
 New reputation = (Prev Reputation * 1m + Vote) / 1m
 {% endhint %}
 
+
+
 ***
 
-### Multiplier for Promotion
+
 
 
