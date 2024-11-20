@@ -6,13 +6,13 @@ icon: star
 
 The quality of the author's quest is reflected in the **rating** users give to it. 
 
-To finalize the completion of a quest, each user must rate the quest from **0-10**. The ratings on a quest will directly impact the author's **reputation score**. 
+To finalize the completion of a quest, each user must rate the quest from 1-10. The ratings on a quest will directly impact the author's **reputation score**. 
 
 To prevent users from making multiple accounts spamming high ratings on a self-made low-value quest, a certain number of votes and vote weight are needed for the voting to be valid. 
 
 ***
 
-### Average rating
+### Average Rating
 
 To encourage the giving of fair ratings on a quest and to prevent rating manipulation, the user is incentivized to vote close to the average rating. Users either gain or lose a small % of mining efficiency based on how close one voted to the average of all votes. The closer the user votes for the average, the more mining efficiency one gains, and the farther, the more mining efficiency one loses.
 
