@@ -18,7 +18,7 @@ icon: pickaxe
 
 ### Hidden
 
-### completed
+### Completed
 
 ***
 
