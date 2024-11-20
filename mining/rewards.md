@@ -4,7 +4,9 @@ icon: coins
 
 # Rewards
 
-In Questfall the users don’t need to live just in the hope of rewards or grind quests for nothing. The unique reward system allows ordinary users to be generously rewarded with QFT for their effort in completing quests.
+In Questfall the users don’t need to live just in the hope of rewards or grind quests for nothing. The unique reward system allows ordinary users to be generously rewarded with QFT for their effort in completing quests. 
+
+There is no pre-mining of the QFT and the limited total supply of tokens is issued weekly in decreasing amounts determined by a pre-defined formula, and 40% of this QFT weekly issue goes directly to users.
 
 ***
 
