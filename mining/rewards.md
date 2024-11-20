@@ -4,7 +4,7 @@ icon: coins
 
 # Rewards
 
-With this system, the users don’t need to live just in the hope of rewards or grind quests for nothing. The Questfall's unique reward system allows ordinary users to be fairly rewarded with QFT for their effort in completing quests. 
+In Questfall the users don’t need to live just in the hope of rewards or grind quests for nothing. The unique reward system allows ordinary users to be generously rewarded with QFT for their effort in completing quests.
 
 ***
 
