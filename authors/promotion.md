@@ -29,7 +29,7 @@ The Reputation that is additionally applied&#x20;
 
 The author’s reputation works as a **multiplier** for the promotional weight of the burned silver. The higher the reputation the less Silver needs to be burned for reaching the same promotional potential. To increase the reputation the authors are motivated to create high-quality quests valued by the community.
 
-Each Author starts with the author's reputation of 1. This means that the Silver cost ratio for promotion is 1/1, if you burn 100 silver its effect on promotion is 100 promotional points. As the author’s reputation gets higher the multiplier increases and real promotional cost decreases, for example, if the author's reputation is 5, 100 silver results in 500 promotional points.
+Each Author starts with the reputation of 1. This means that the Silver cost ratio for promotion is 1/1, if you burn 100 silver its effect on promotion is 100 points. As the author’s reputation gets higher the multiplier increases and real promotional cost decreases, for example, if the author's reputation is 5, 100 silver results in 500 points.
 
 {% hint style="info" %}
 The Silver effect on promotion is calculated by the formula **x * y = k**
@@ -38,6 +38,6 @@ The Silver effect on promotion is calculated by the formula **x * y = k**
 * **k** - ?
 {% endhint %}
 
-The author’s reputation stays in 1 until there are enough completions on the author’s quests. On the launch of Questfall, the author must reach 10k completions to have their reputation adjusted. This number will increase with the platform's growth as it is automatically adjusted by the active weighted votes given by users throughout the week. 
+The author’s reputation stays in 1 until there are enough completions on the author’s quests. On the launch of Questfall, the author must reach 10k weighed votes to have their reputation adjusted. This number will increase with the platform's growth as it is automatically adjusted by the accepted votes given by users throughout the week.
 
 ***
