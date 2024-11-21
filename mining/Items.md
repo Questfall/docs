@@ -46,6 +46,11 @@ Consuming an elixir gives either a **temporary** or **permanent** effects.
 **Lower-tier elixirs** (F, E, D) give temporary effects.\
 **Higher-tier elixirs** (C, B, A) give permanent effects.
 
+{% hint style="info" %}
+There are full lines of elixirs that come in all 6 tiers and others
+that are unique to only one or a few tiers. For Example, some elixirs may have only permanent effects like when consumed give an extra marketplace slot. {% hint style="info" %}
+{% endhint %}
+
 There are four categories of elixirs:
 
 * **Attribute Elixirs** – Increases the attribute points of the character. 
