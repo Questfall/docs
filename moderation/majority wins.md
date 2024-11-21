@@ -4,9 +4,9 @@ icon: dice-d20
 
 # Majority Wins
 
-One of the unique features of Questfall is its completely decentralized **Moderation** which allows the community to decide the validity of quest completions and reports. This system allows anyone to participate in moderation and by design is still protected from abuse.
+One of the Questfall's unique features is its completely decentralized **Moderation** which allows the community to decide the validity of quest completions and reports. This system allows anyone to participate in moderation and is, by design, is still protected from abuse.
 
-Moderating provides users with the **Silver** that is needed for **Leveling (XP)** and **Quest Promotion**. As moderation is the primary and only free source of silver there will always be enough users willing to do it.
+Moderating provides users with the **Silver** needed for **Leveling (XP)** and **Quest Promotion**. As moderation is the primary and only free source of silver, there will always be enough users willing to do it.
 
 {% hint style="info" %}
 The moderation voting is designed in a way that it rewards real
