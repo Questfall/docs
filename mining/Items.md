@@ -113,7 +113,7 @@ The items drop rate from a loot box decreases 10 times with each tier. For examp
 Loot boxes are the only way new items are released into circulation. 
 {% endhint %}
 
-The function of a loot box is closer to in-game gold than items:
+The function of a loot box is closer to in-game Gold than items:
 
 *  Loot boxes do not influence the carried weight or stamina consumption
 *  There is no limit to how many loot boxes can be bought or carried

@@ -17,7 +17,7 @@ To prevent users from making multiple accounts spamming high ratings on a self-m
 
 **IMAGE OF AVERAGE RATING CURVE**
 
-To encourage the giving of fair ratings on a quest and to prevent rating manipulation, the user is incentivized to vote close to the **Average Rating**. Users gain or lose a small % of mining efficiency based on how close one voted to the average of all votes. If the user votes on the neutral zone the mining efficiency stays unchanged. The closer the user votes for the average, the more mining efficiency one gains, and the farther, the likelier it is to get the maximum mining efficiency penalty.
+To encourage the giving of fair ratings on a quest and to prevent rating manipulation, the user is incentivized to vote close to the **Average Rating**. Users gain or lose a small % of mining efficiency based on how close one voted to the average of all votes. The closer the user votes for the average, the more mining efficiency one gains, and the farther, the likelier it is to get the maximum mining efficiency penalty. If the user votes on the neutral zone the mining efficiency stays unchanged.
 
 {% hint style="info" %}
 With each quest voting the user can gain or lose up to 0.2% of mining efficiency.
