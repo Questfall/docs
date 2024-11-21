@@ -1,4 +1,12 @@
 
+# QFT burning (4%)
+
+QFT tokens can be burned for [Credits](broken-reference), which in turn can be used by users to replenish their Humanity or by authors to promote their quests. In order to increase the number of tokens burned, 4% of the newly created QFTs will be used each week to reward users who burn their QFTs for Credits during that week.
+
+This approach creates an arbitrage by ensuring that if less than 4% of the weekly token creation is burned during a week, there is an opportunity to burn QFTs and return more than that as a reward. In effect, 4% of the weekly token creation becomes a floor that guarantees a minimum amount of QFT burned per week.&#x20;
+
+Meanwhile, for Credits, users receive value (quest promotion or Humanity) from the system, which implies burning more than 4% of the weekly token creation.
+
 # Promotion
 
 Authors can also add Quest Points to their quests by burning some Credits. The minimum amount is 5 Credits (equivalent to $5), which will add the amount of Quest Points to the quest as if the author had 5 Reputation or 135 Quest Points. The more Credits are burned, the higher the imaginary Reputation will be. There will be no upper limit to the number of Credits an author can burn, as the maximum Reputation 10 will be an unreachable limit.
