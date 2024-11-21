@@ -8,6 +8,10 @@ Authors can **promote** their quests by burning Silver. The more Silver is burne
 
 **Silver** can be acquired through **Moderation** or by buying it with **Gold**.
 
+{% hint style="info" %}
+For convenience, the users can use Gold directly for promotion so that the burning of it to Silver happens automatically.
+{% endhint %}
+
 Promoting quests benefits the author, miners, and the whole system:
 * **More Visibility** – The more Silver is burned for promoting a quest the higher it will appear on the quest feed. This results in more users seeing and completing the quest.
 * **Reward for Miners** – The mining point reward of a quest increases as more Silver is used for promoting it. This makes the quest more attractive to miners which leads to more completions and higher ratings.
