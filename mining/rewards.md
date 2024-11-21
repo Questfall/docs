@@ -12,7 +12,7 @@ There is no pre-mining of the QFT and the limited total supply of tokens is issu
 
 ## Leagues
 
-The leagues allow a fair sharing of rewards and prevent bots and multi-accounts from taking the reward of real dedicated users. 
+The **Leagues** allow a fair sharing of rewards and prevent bots and multi-accounts from taking the reward of real dedicated users. 
 
 The leagues group the users based on their level in **15-level sections** in the following way:
 

@@ -4,9 +4,9 @@ icon: rectangle-ad
 
 # Promotion
 
-Authors can **promote** their quests by **burning Silver**. The more Silver is burned, the higher the mining points in the quest are, and the more visible and attractive it is to users. 
+Authors can **promote** their quests by burning Silver. The more Silver is burned, the higher the mining points in the quest are, and the more visible and attractive it is to users. 
 
-**Silver** can be acquired through **moderation** or by buying it with **gold**.
+**Silver** can be acquired through **Moderation** or by buying it with **Gold**.
 
 Promoting quests benefits the author and the miners:
 * **More Visibility** – The more Silver is burned for promoting a quest the higher it will appear on the quest feed. This results in more users seeing and completing the quest.
@@ -29,14 +29,14 @@ The Reputation that is additionally applied&#x20;
 
 ### Reputation as Multiplier
 
-The author’s reputation works as a **multiplier** for the promotional weight of the burned silver. The higher the reputation the less Silver needs to be burned for reaching the same promotional potential. To increase the reputation the authors are motivated to create high-quality quests valued by the community.
+The **Author’s Reputation** works as a **Multiplier** for the promotional weight of the burned Silver. The higher the reputation the less Silver needs to be burned for reaching the same promotional potential. To increase the reputation the authors are motivated to create high-quality quests valued by the community.
 
-Each Author starts with the reputation of 1. This means that the Silver cost ratio for promotion is 1/1, if you burn 100 silver its effect on promotion is 100 points. As the author’s reputation gets higher the multiplier increases and real promotional cost decreases, for example, if the author's reputation is 5, 100 silver results in 500 points.
+Each Author starts with the reputation of 1. This means that the Silver cost ratio for promotion is 1/1, if you burn 100 Silver its effect on promotion is 100 points. As the author’s reputation gets higher the multiplier increases and real promotional cost decreases, for example, if the author's reputation is 5, 100 silver results in 500 points.
 
 {% hint style="info" %}
 The Silver effect on promotion is calculated by the formula **x * y = k**
 * **x** - Amount of mining points (equal to 100)
-* **y** - Amount of silver spent
+* **y** - Amount of Silver spent
 * **k** - ?
 {% endhint %}
 

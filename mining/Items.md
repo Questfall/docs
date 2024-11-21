@@ -6,7 +6,7 @@ icon: shirt
 
  There are a variety of in-game items comprising **Clothing**, **Spellbooks**, **Elixirs**, and **Potions** which give bonuses to the character and game play. 
 
-Items can be acquired from **loot boxes** and **marketplace.** 
+Items can be acquired from **Loot Boxes** and **Marketplace.** 
 
 ***
 
@@ -14,7 +14,7 @@ Items can be acquired from **loot boxes** and **marketplace.**
 
 **IMAGE OF CLOTHING**
 
-There are multiple types of clothing and the character has six slots to wear them, one for each body part:
+There are multiple types of **Clothing** and the character has six slots to wear them, one for each body part:
 
 * **Head** (helmets, hoods, hats)
 * **Chest** (robes, tunics, shirts, vests)
@@ -39,14 +39,14 @@ Spell Books do not have a level and the tier can be upgraded.
 
 **IMAGE OF ELIXIR**
 
-The **elixirs** provide beneficial effects to the character which vary a lot ranging from attribute boosts to reducing the cooldown of all of the character spells. 
+The **Elixirs** provide beneficial effects to the character which vary a lot ranging from attribute boosts to reducing the cooldown of all of the character spells. 
 
 Consuming an elixir gives either a **temporary** or **permanent** effects.
 
 **Lower-tier elixirs** (F, E, D) give temporary effects.\
 **Higher-tier elixirs** (C, B, A) give permanent effects.
 
-There are **four categories of Elixirs**:
+There are four categories of elixirs:
 
 * **Attribute Elixirs** – Increases the attribute points of the character. 
 * **Mystic Elixirs** – These affect primarily the mana and spells, like reducing the mana cost of all the character's spells. 
@@ -59,7 +59,7 @@ Elixirs do not have a level and the tier can't be upgraded.
 
 **IMAGE OF POTION**
 
-There are two different types of potions: 
+There are two different types of **Potions**: 
 
 * **Stamina Potions** - Consuming fully replenishes the stamina reserves.
 * **Mana Potions** - Consuming fully replenishes the mana reserves. 
@@ -70,7 +70,7 @@ Potions do not have a tier or level and there is only one size of both types.
 
 ### Tier and Level
 
-**Clothing**, **spellbooks** and **elixirs** comes in six different tiers:
+**Clothing**, **Spell books** and **Elixirs** comes in six different **Tiers**:
 
 * Common (F) 	
 * Advanced (E) 	
@@ -79,9 +79,9 @@ Potions do not have a tier or level and there is only one size of both types.
 * Epic (B) 	
 * Mythic (A) 	
 
-The higher the **tier** of the item the **more powerful** and **heavier** it is.
+The higher the tier of the item the more powerful and heavier it is.
 
-In addition to the tier, clothing has also **level.** The higher the clothing level the more bonuses it has and the more it weighs.
+In addition to the tier, clothing has also level. The higher the clothing level the more bonuses it has and the more it weighs.
 
 For more details about tier and level bonuses see [Crafting](crafting.md).
 
@@ -91,17 +91,17 @@ For more details about tier and level bonuses see [Crafting](crafting.md).
 
 **IMAGE OF LOOT BOX**
 
-**Loot boxes** are the primary source of all **RPG items**. They can be obtained by buying directly from the system for **100 gold** (1$) each or by collecting a full set of **chest shards**. Chest shards can be earned by completing quests.
+**Loot Boxes** are the primary source of all **RPG items**. They can be obtained by buying directly from the system for **100 Gold** (1$) each or by collecting a full set of **Chest Shards**. Chest shards can be earned by completing quests.
 
 {% hint style="info" %}
-The gold spent on buying loot boxes is automatically burned by the system.
+The Gold spent on buying loot boxes is automatically burned by the system.
 {% endhint %}
 
 By default, a loot box provides one item, with the chance of it being any type, tier, or level. Users can increase their chances of receiving more items by placing points in the Luck attribute. 
 
-For more details about the function of **chest shards** and **luck attribute** see the [character section](character.md).
+For more details about the function of **Chest Shards** and **Luck Attribute** see the [character section](character.md).
 
-The items **drop rate** from a loot box decreases 10 times with each tier. For example, Legendary (C) item is 10 times less likely to drop from a loot box than the same item as Rare (D). 
+The items drop rate from a loot box decreases 10 times with each tier. For example, Legendary (C) item is 10 times less likely to drop from a loot box than the same item as Rare (D). 
 
 
 {% hint style="info" %}
