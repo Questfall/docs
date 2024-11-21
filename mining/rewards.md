@@ -8,7 +8,7 @@ In Questfall the users don’t need to grind quests for nothing or wait for rewa
 
 There is no pre-mining of the QFT and the limited total supply of tokens is issued weekly in decreasing amounts determined by a pre-defined formula, and 40% of this QFT weekly issue goes directly to miners.
 
-***
+* * *
 
 ## Leagues
 
@@ -16,9 +16,9 @@ The leagues allow a fair sharing of rewards and prevent bots and multi-accounts 
 
 The leagues group the users based on their level in **15-level sections** in the following way:
 
-First-league    5-20\
-Second-league   20-35\
-Third-league    35-50\
+First-league  5-20\
+Second-league 20-35\
+Third-league 35-50\
 And so on without a top limit
 
 {% hint style="info" %}
