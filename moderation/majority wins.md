@@ -15,7 +15,7 @@ users and penalizes those trying to abuse or automate the system.
 
 ### Binary Voting
 
-The System uses a **Binary Voting** - each item moderated is voted on using the binary options yes/no. The votes have different weights and a winning majority is calculated based on the vote weights. 
+The System uses a **Binary Voting** - each moderation is voted on using the binary options yes/no. The votes have different weights and a winning majority is calculated based on the vote weights. 
 
 Users who voted with the majority are rewarded with Silver and those who voted with the minority lose or do not get Silver.
 
