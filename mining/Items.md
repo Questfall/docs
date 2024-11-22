@@ -135,21 +135,27 @@ All the users have access to the in-game **marketplace** where items can be boug
 
 ### Trading for Gold
 
-The lower-tier items F, E, and D are traded only for Gold.
+The **lower-tier** items F, E, and D are traded only for **Gold**.
 
-Each user has a limited number of marketplace slots where lower-tier items from inventory can be placed for sale for a chosen fixed Gold price.
+Each user has a limited number of marketplace slots where lower-tier items can be placed for sale for a chosen fixed Gold price.
 
+Marketplace trading of low-tier items is directly linked to the character's inventory – All bought items go directly to inventory and those placed on sale are moved from the inventory to the marketplace slots.
+
+{% hint style="info" %}
 First-level character starts with 3 Marketplace Slots, and each subsequent Marketplace Slot requires another 5 points of Crafting attribute.
+{% endhint %}
 
 ### Trading for QFT
 
-The higher-tier items C, B, and A, are traded only for QFT.
+The **higher-tier** items C, B, and A, are traded only for **QFT**.
 
 To trade higher-tier items the users need to withdraw the item on-chain as NFT and then it can be placed on sale to the marketplace for a fixed price of QFT. 
  
  By buying or placing higher-tier items on sale, the user must pay the Polygon gas fee for each transaction – when the item is withdrawn, deposited, bought, or placed for sale. 
-
+ 
+{% hint style="info" %}
 Trading on-chain does not occupy marketplace slots. The on-chain marketplace is like a store independent of the inventory.
+{% endhint %}
 
 ### Marketplace Rules
 
