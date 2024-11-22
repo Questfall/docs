@@ -8,6 +8,16 @@ icon: pickaxe
 
 ### Completion Types
 
+Screenshot
+Text
+
+Quiz
+Video
+Survey
+
+Link
+transaction
+
 ***
 
 ### Quest Duration

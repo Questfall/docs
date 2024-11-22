@@ -47,8 +47,8 @@ Consuming an elixir gives either a **temporary** or **permanent** effects.
 **Higher-tier elixirs** (C, B, A) give permanent effects.
 
 {% hint style="info" %}
-There are full lines of elixirs that come in all 6 tiers and others
-that are unique to only one or a few tiers. For Example, some elixirs may have only permanent effects like when consumed give an extra marketplace slot.
+There are full lines of elixirs that come in all six tiers and others
+that are unique to only one or a few tiers. For Example, elixir can have only permanent effects like giving an extra marketplace slot.
 {% endhint %}
 
 There are four categories of elixirs:
