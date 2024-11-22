@@ -16,7 +16,7 @@ Most spells can enhance the user's performance, for example, by increasing quest
 
 The spells can be learned from **Spell Books** and unlearned by simply deleting them. When learning, a spell the book is consumed, and the spell appears on one of the character **Spell Slots**. Each character starts with one spell slot, and the number of slots can be increased by adding points to **Magic Attribute** and through items.
 
-Each spell has six levels of power corresponding to the tiers of spell books. The power of spells increases exponentially with the tiers making Mythic (A) spells over 10 times more powerful than Common (F) spells. 
+Each spell has six levels of power corresponding to the tiers of spell books. The power of spells increases exponentially with the tiers making Mythic (A) spells close to 100 times as powerful as Common (F) spells.
 
 {% hint style="info" %}
 To upgrade the spell books tier, users need to merge five books of the same type and rarity for one higher-tier book. For example, five common (F) books with the same spell can merged to create an Advanced (E) book of the same spell.
