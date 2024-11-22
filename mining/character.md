@@ -264,3 +264,9 @@ For example, if **Luck** is 10 the chances of getting the bonus will be 20/1100=
 ***
 
 ### Silver and Level
+
+For the user to gain **XP** and progress through levels they need **Silver**, which can be acquired from moderation, and by burning Gold. 
+
+Silver can be traded for XP within an individualized XP pool that resets every week. The trading works with the same principles as an automated market maker (AMM), the Silver price of XP increases the more XP is bought in the same week. And of course, the XP can’t be traded back to Silver.  
+
+***
