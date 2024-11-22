@@ -20,8 +20,7 @@ The buyback and burning of NFTs will begin shortly before the launch of Questfal
 In fact, the last owners of each type of NFT will be able to get as many QFTs as they are willing to wait for, as the amount the system will offer for burning NFTs will increase each week.
 {% endhint %}
 
-
-
+***
 
 
 The current status: <mark style="background-color:orange;">coming before Questfall v1.0</mark>&#x20;

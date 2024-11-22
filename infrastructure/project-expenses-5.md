@@ -16,8 +16,6 @@ The team will receive 5% of the newly created QFTs each week to be used at our d
 The Team will make every effort to avoid selling these funds on the secondary market. For example, we may use the tokens as prizes in various contests or give them to projects that promote their quests by burning QFT in exchange for the stablecoins.
 {% endhint %}
 
-
-
-
+***
 
 The current status: <mark style="background-color:orange;">coming before Questfall v1.0</mark>&#x20;

@@ -10,4 +10,6 @@ This approach creates an arbitrage by ensuring that if less than 4% of the weekl
 
 Meanwhile, for Gold, users receive value (quest promotion, items, and XP) from the system, which indicates that more than 4% of the weekly token creation is expected to be burned.
 
+***
+
 The current status: <mark style="background-color:orange;">coming before Questfall v1.0</mark>&#x20;

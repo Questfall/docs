@@ -20,8 +20,6 @@ The reward is accrued for the particular NFT, and to get actual tokens in the wa
 
 The need to claim rewarded QFTs means that the tokens are not actually issued until they are in the founder's wallet. This approach also implies that **unclaimed tokens are sold or even burned along with the Founder NFT**.
 
-
-
-
+***
 
 The current status: <mark style="background-color:orange;">coming before Questfall v1.0</mark>&#x20;

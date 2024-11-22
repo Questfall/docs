@@ -18,8 +18,6 @@ To receive the maximum freezing power, a user can re-freeze tokens at any time f
 We use the word _**freezing**_ because _**staking**_ implies the possibility of losing the money staked, and _**locking**_ implies the fixed reward for a fixed lock period. Freezing guarantees that the number of tokens owned by the user cannot be reduced, while the mechanism is based on user competition, making it much more flexible and attractive than a simple time lock.
 {% endhint %}
 
-
-
-
+***
 
 The current status: <mark style="background-color:orange;">coming before Questfall v1.0</mark>&#x20;
