@@ -16,7 +16,6 @@
 * [Quests](mining/Quests.md)
 * [Items](mining/Items.md)
 * [Crafting](mining/crafting.md)
-* [Trading](mining/trading.md)
 * [Magic](mining/magic.md)
 * [Rewards](mining/rewards.md)
 
@@ -36,6 +35,7 @@
 
 ## Infrastructure
 
+* [Marketplace](infrastructure/marketplace.md)
 * [NFT burning (2%)](infrastructure/nft-burning-2.md)
 * [Liquidity providers (8%)](infrastructure/liquidity-providers-8.md)
 * [QFT freezing (5%)](infrastructure/qft-freezing-5.md)

@@ -12,7 +12,7 @@ Items can be acquired from **Loot Boxes** and **Marketplace.**
 
 ### Clothing
 
-**IMAGE OF CLOTHING**
+IMAGE OF CLOTHING
 
 There are multiple types of **Clothing** and the character has six slots to wear them, one for each body part:
 
@@ -31,13 +31,13 @@ The level and tier of clothing can be upgraded. Clothing has upgradable and non-
 
 ### Spell Books
 
-**IMAGE OF SPELL BOOK**
+IMAGE OF SPELL BOOK
 
 Spell Books do not have a level and the tier can be upgraded.
 
 ### Elixirs
 
-**IMAGE OF ELIXIR**
+IMAGE OF ELIXIR
 
 The **Elixirs** provide beneficial effects to the character which vary a lot ranging from attribute boosts to reducing the cooldown of all of the character spells. 
 
@@ -62,7 +62,7 @@ Elixirs do not have a level and the tier can't be upgraded.
 
 ### Potions
 
-**IMAGE OF POTION**
+IMAGE OF POTION
 
 There are two different types of **Potions**: 
 
@@ -94,7 +94,7 @@ For more details about tier and level bonuses see [Crafting](crafting.md).
 
 ### Loot boxes
 
-**IMAGE OF LOOT BOX**
+IMAGE OF LOOT BOX
 
 **Loot Boxes** are the primary source of all **RPG items**. They can be obtained by buying directly from the system for **100 Gold** (1$) each or by collecting a full set of **Chest Shards**. Chest shards can be earned by completing quests.
 
@@ -127,6 +127,38 @@ There are a few limitations regarding loot boxes:
 
 ***
 
+### Marketplace Trading
 
+IMAGE OF QUESTFALL MARKETPLACE
+
+All the users have access to the in-game **marketplace** where items can be bought or sold for **Gold** (F, E, D) and **QFT** (C, B, A) between the users.
+
+### Trading for Gold
+
+The lower-tier items F, E, and D are traded only for Gold.
+
+Each user has a limited number of marketplace slots where lower-tier items from inventory can be placed for sale for a chosen fixed Gold price.
+
+First-level character starts with 3 Marketplace Slots, and each subsequent Marketplace Slot requires another 5 points of Crafting attribute.
+
+### Trading for QFT
+
+The higher-tier items C, B, and A, are traded only for QFT.
+
+To trade higher-tier items the users need to withdraw the item on-chain as NFT and then it can be placed on sale to the marketplace for a fixed price of QFT. 
+ 
+ By buying or placing higher-tier items on sale, the user must pay the Polygon gas fee for each transaction – when the item is withdrawn, deposited, bought, or placed for sale. 
+
+Trading on-chain does not occupy marketplace slots. The on-chain marketplace is like a store independent of the inventory.
+
+### Marketplace Rules
+
+The marketplace offers free trade between users but there are some rules to both types of trading:
+
+* Every trade has a 5% fee (Gold/QFT) which is burned immediately by the system.
+* Items can be traded only for Gold or QFT and can’t be exchanged for other items.
+* User can buy items from the marketplace only if the character can carry its weight.
+
+***
 
 

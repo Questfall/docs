@@ -24,6 +24,7 @@ A first-level character starts with 3 Marketplace Slots, and each subsequent Mar
 
 ***
 
+
 ### Trading for QFT
 
 The higher-tier items C, B, and A, are traded only for QFT.
@@ -45,8 +46,6 @@ The marketplace offers free trade between users but there are some rules to both
 ***
 
 ### Sorting of Items
-
-
 
 
 *** 
