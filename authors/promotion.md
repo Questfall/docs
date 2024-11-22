@@ -16,7 +16,7 @@ Promoting quests benefits the author, miners, and the whole system:
 * **More Visibility** – The more Silver is burned for promoting a quest the higher it will appear on the quest feed. This results in more users seeing and completing the quest.
 * **Reward for Miners** – The mining point reward of a quest increases as more Silver is used for promoting it. This makes the quest more attractive to miners which leads to more completions and higher ratings.
 * **Author Reward** - As the weekly QFT reward for authors is calculated based on the amount of completions on the author’s quests, promoting quests directly contributes for a higher weekly reward.
-* **QFT Burning** – Promoting quests contributes to deflation within the system as QFT is constantly burned for Gold, and then converted to Silver for quest promotion.
+* **QFT Burning** – Quests promotion contributes to deflation within the system as QFT is constantly burned for Gold, and then converted to Silver for quest promotion.
 
 There will be no upper limit to the number of Silver an author can burn, as the maximum Reputation 10 will be an unreachable limit.
 
