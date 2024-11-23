@@ -22,7 +22,7 @@ transaction
 
 ### Quest Duration
 
-Each quest's duration ranges from 1 to 7 days depending on the number of days the author chose to promote their quest. Users can submit answers for review as long as the quest is active. 
+Each quest's duration ranges from 1 to 30 days depending on the number of days the author chose to promote their quest. Users can submit answers for review as long as the quest is active. 
 
 ***
 
@@ -48,7 +48,7 @@ Undesirable quests can be hidden from the feed.
 
 Each quest has a **Mining Score** count that works as a **Base Reward** for the quest. By completing the quests users get the base reward of mining points which is then multiplied by the user's mining efficiency bonuses.
 
-The base rewards of quests range from 1 (no promotion) up to <100 (100 is unreachable) depending on the author's promotion size. 
+The base rewards of quests range from 10 (no promotion) up to <1000 (1000 is unreachable) depending on the author's promotion size. 
 
 
 ### Mining Efficiency 
