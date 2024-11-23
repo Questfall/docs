@@ -28,7 +28,7 @@ Each quest's duration ranges from 1 to 7 days depending on the number of days th
 
 ### Quest Sorting
 
-Users can **Sort** their quest feed based on the author they have chosen to **Follow**, the quests they have noted as **Marked** or **Hidden**, and **Completed** quests.
+In addition to the global quest feed, users can **Sort** the feed based on the author they have chosen to **Follow**, the quests they have tagged as **Marked** or **Hidden**, and **Completed** quests.
 
 ### Followed
 
@@ -53,8 +53,7 @@ By increasing the personal **Mining Efficiency** bonus a user can receive more m
 
 For example, if the base reward for the quest is 50 mining points and the user has 100% of the mining bonus, they receive 100 mining points from completing the quest.
 
-Mining efficiency can be increased with in-game items and spells. These can give either constant mining bonuses that apply to every quest or bonuses that apply to specific quests.
-
+Constant mining efficiency bonus can be increased by wearing clothing, elixirs, rating quests, and adding points to the mining attribute. Spells and Elixirs can give mining bonuses for a limited time or to a specific quest.
 
 ***
 
@@ -69,5 +68,7 @@ A user can try to re-submit an acceptable answer when there are unused retries a
 ***
 
 ### Reporting of Quests
+
+
 
 ***
