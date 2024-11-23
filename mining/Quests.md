@@ -28,15 +28,17 @@ Each quest's duration ranges from 1 to 7 days depending on the number of days th
 
 ### Quest Sorting
 
-Users can sort the quest feed based on the author they have chosen to follow, the quests they have tagged as marked or hidden, and completed quests.
+Users can sort the quest feed to display all, followed, marked, hidden, or completed quests.
 
 ### Followed
 
-The authors can be followed as creators or groups in any popular social media platform. Users can choose to sort the feed to show quests only from those authors they are following. 
+The authors can be followed as creators in popular social media platforms. Users can choose to sort the feed to show quests only from those authors they are following. 
 
 ### Marked
 
 ### Hidden
+
+Undesirable quests can be hidden from the feed.
 
 ### Completed
 
