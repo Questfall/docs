@@ -163,7 +163,7 @@ The marketplace offers free trade between users but there are some rules to both
 
 * Every trade has a 5% fee (Gold/QFT) which is burned immediately by the system.
 * Items can be traded only for Gold or QFT and can’t be exchanged for other items.
-* User can buy items from the marketplace only if the character can carry its weight.
+* User can transfer items to inventory (buying or depositing) only if the character can carry its weight.
 
 ***
 
