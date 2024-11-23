@@ -48,3 +48,5 @@ The Silver effect on promotion is calculated by the formula **x * y = k**
 The author’s reputation stays in 1 until there are enough completions on the author’s quests. On the launch of Questfall, the author must reach 10k weighed votes to have their reputation adjusted. This number will increase with the platform's growth as it is automatically adjusted by the accepted votes given by users throughout the week.
 
 ***
+
+### Cost of Promotion
