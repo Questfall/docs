@@ -8,15 +8,16 @@ icon: pickaxe
 
 ### Completion Types
 
-Screenshot
-Text
+The completion requirements of a quest are up to the author's imagination, but the forms in which the quest is completed are limited.
 
-Quiz
-Video
-Survey
+For the completion of a quest the required submission type can be one of the following:
 
-Link
-transaction
+* **Link** – 
+* **Text** –
+* **Quiz** –
+* **Survey** – 
+* **Transaction** – 
+
 
 ***
 
@@ -44,6 +45,8 @@ Undesirable quests can be hidden from the global feed by the user.
 Feed can be sorted to display all the hidden quests.
 
 ### Completed
+
+The completed quests are automatically removed from the global feed and moved to the completed section.
 
 ***
 
@@ -78,7 +81,7 @@ A user can try to re-submit an acceptable answer when there are unused retries a
 
 To make the platform a safe and enjoyable environment, users can report quests seen as inappropriate or breaking the server rules. 
 
-Users can be motivated to report quests not only cause of their goodwill but also because of a Silver reward. There is a system that rewards users for valid reports and punishes them for wrong ones.
+Users can be motivated to report quests not only cause of their goodwill but also because of a Silver reward. The system rewards users for valid reports and punishes them for wrong ones.
 
 The reporting of quests works as follows:
 
