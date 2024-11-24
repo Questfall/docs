@@ -27,13 +27,20 @@ Wearing clothing can give various benefits like bonuses to mining power, charact
 
 The character can wear clothing of any level. If the level of the item is higher than the Character Level, the item and its effects will be downgraded (while equipped) to the Character Level while the weight stays the same.
 
-The level and tier of clothing can be upgraded. Clothing has upgradable and non-upgradable stats based on tier, see the [Crafting](crafting.md) for details.
+The level and tier of clothing can be upgraded. Clothing has upgradable and non-upgradable stats based on tier. 
+
+For more details see [Crafting](crafting.md).
 
 ### Spell Books
 
 IMAGE OF SPELL BOOK
 
+Users can learn spells from the spell books by consuming them. 
+For each spell, there are six tiers of spell books.
+
 Spell Books do not have a level and the tier can be upgraded.
+
+For more details see [Magic](magic.md).
 
 ### Elixirs
 
