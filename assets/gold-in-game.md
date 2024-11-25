@@ -1,6 +1,6 @@
 ---
-icon: sack
+icon: sack-dollar
 ---
 
-# - Gold (in-game)
+# Gold (in-game)
 

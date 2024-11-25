@@ -19,7 +19,7 @@ The System uses a **Binary Voting** - each moderation is voted on using the bina
 
 Users who voted with the majority are rewarded with Silver and those who voted with the minority lose or do not get Silver.
 
-The weight of a user's vote is directly correlated to his level. This makes it impossible for many new accounts to be registered and used to manipulate voting results.
+The weight of a user's vote is directly correlated to his level and increases by one with each level. This makes it impossible for many new accounts to be registered and used to manipulate voting results.
 
 {% hint style="info" %}
 high-level users, who are most interested in the platform's stability and success, have a great deal of influence in moderation.

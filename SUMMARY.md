@@ -48,7 +48,8 @@
 * [- Questfall Tokens (QFT)](assets/questfall-tokens-qft.md)
 * [- Items (in-game + NFTs)](assets/items-in-game-+-nfts.md)
 * [- Gold (in-game)](assets/gold-in-game.md)
-* [- Gift NFTs](assets/gift-nfts.md)
+* [- Silver (in-game)](assets/Silver-in-game.md)
+* [- Limited Edition Loot Boxes](assets/limited%20edition%20loot%20boxes.md)
 * [- Founder NFTs](assets/founder-nfts.md)
 
 ## Roadmap
