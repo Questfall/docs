@@ -6,15 +6,16 @@ icon: coin-blank
 
 ### Questfall Token (QFT) 
 
-* Total supply of 10 000 000 QFT
+* Total Supply of 10 000 000 QFT
 * On Polygon Blockchain
-* Issued weekly in decreasing portions based on a pre-defined formula.
-* No pre-minting, can be earned by activities on Questfall and by holding founders NFT.
+* [Issued Weekly](../overview/quest-mining.md) in decreasing portions based on a pre-defined formula.
+* There is no premining - QFT can be earned by activities on Questfall and by holding founders NFT.
+* [Deflationary Tokenomics](../overview/deflationary-tokenomics.md) - Tokens are constantly burned by Questfall users for system benefits.
 
 ### QFT Utility: 
 
-* Can be burned to Gold (fixed USD price) that can be used for quest promotion and in-game advancements.
-* Can be used to provide liquidity in the official QFT pool. 
-* Can be frozen for QFT rewards.
+* Can be burned to [Gold](gold-in-game.md) (fixed USD price) that can be used for quest promotion and in-game advancements.
+* Can be used to [Provide Liquidity](../infrastructure/liquidity-providers-8.md) in the official QFT pool. 
+* Can be [Frozen](../infrastructure/qft-freezing-5.md) for QFT rewards.
 * Can be used as any other on-chain cryptocurrency – Investment, trading, sending, etc.
 
