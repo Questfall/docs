@@ -10,12 +10,13 @@ icon: coin-blank
 * On Polygon Blockchain
 * [Issued Weekly](../overview/quest-mining.md) in decreasing portions based on a pre-defined formula.
 * There is no pre-mining or minting - QFT can be earned by activities on Questfall and by holding founders NFT.
-* [Deflationary Tokenomics](../overview/deflationary-tokenomics.md) - Tokens are constantly burned by Questfall users for system benefits.
+* [Deflationary Tokenomics](../overview/deflationary-tokenomics.md) - Tokens are constantly burned by Questfall users for system benefits. After some market saturation period, the circulating supply of QFT will steadily decline.
 
 ### QFT Utility: 
 
-* Can be burned to [Gold](gold-in-game.md) (fixed USD price) that can be used for quest promotion and in-game advancements.
+* Can be burned to Questfall [Gold](gold-in-game.md) (fixed USD price) that can be used for quest promotion and in-game advancements.
+* Can be used for trading higher-tier items in the in-game marketplace.
 * Can be used to [Provide Liquidity](../infrastructure/liquidity-providers-8.md) in the official QFT pool. 
-* Can be [Frozen](../infrastructure/qft-freezing-5.md) for QFT rewards.
+* Can be [Frozen](../infrastructure/qft-freezing-5.md) for taking tokens out of circulation and receiving a QFT reward.
 * Can be used as any other on-chain cryptocurrency – Investment, trading, sending, etc.
 
