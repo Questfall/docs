@@ -16,12 +16,11 @@ icon: sack-dollar
 
 ### Gold Utility
 
-* Burning to Silver
-* Buying loot boxes
-* Buying XP to level up without moderating
-* Purchasing low-rarity items from other users in the marketplace
-* Promoting quests to make them more visible and increasing the reward
+* Burning to [Silver](Silver-in-game.md)
+* Buying of [Loot Boxes](../mining/Items.md)
+* Buying of XP to increase the character level
+* Purchasing of low-rarity items from other users in the [Marketplace](../mining/Items.md)
+* [Promoting](/authors/promotion.md) of quests to make them more visible and increasing the reward
 * Donation to author spaces, Gold donation is received as Silver
-* Purchasing a portion of the QFT issue via auction
 
 ***
