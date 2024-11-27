@@ -14,7 +14,7 @@ icon: coin-blank
 
 ### QFT Utility 
 
-* Can be burned to Questfall [Gold](gold-in-game.md) (fixed USD price) that can be used for quest promotion and in-game advancements.
+* Can be burned to [Gold](gold-in-game.md) (fixed price of 1 Gold = 0.01$) that can be used for quest promotion and in-game advancements.
 * Can be used for trading higher-tier items in the in-game marketplace.
 * Can be used to [Provide Liquidity](../infrastructure/liquidity-providers-8.md) in the official QFT pool. 
 * Can be [Frozen](../infrastructure/qft-freezing-5.md) for taking tokens out of circulation and receiving a QFT reward.

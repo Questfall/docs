@@ -6,7 +6,9 @@ icon: sack-dollar
 
 ### Gold
 
-* Unlimited total supply 
+* The value of one Gold is fixed to 0.01$
+* Unlimited total supply
+* Can be issued only by burning QFT 
 * Gold is constantly burned by users for system benefits
 * Character can store an unlimited amount of Gold
 * Does not consume inventory weight
