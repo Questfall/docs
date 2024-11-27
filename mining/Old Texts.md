@@ -1,4 +1,16 @@
 
+### Activity Score
+
+The **Activity Score** is used to distribute the rewards for quest mining. It can be thought of as a mining power that resets every reward period (one week for regular mining and three months for seasonal mining). Throughout the period, the **Activity Score** can only increase.&#x20;
+
+Although all users who complete the same quest receive the same number of **ACT** points, the **Activity Score** is actually increased for each of them individually. The **ACT** points that a user receives play the role of a minimum base, which is multiplied by the mining efficiency. This efficiency multiplier starts at <mark style="background-color:purple;">1.01</mark>, and increases by <mark style="background-color:purple;">0.01</mark> for each point added to the **Mining** attribute.
+
+{% hint style="info" %}
+For example, if a user receives **10 ACT** points for completing a quest and has a **Mining** attribute of 30, he will actually increase his **Activity Score** by: 10+10x0.01x30) = 13.
+{% endhint %}
+
+As well as increasing the **Mining** attribute, the mining efficiency can also be increased by using clothing and elixirs with the appropriate effects .
+
 # - Questfall Tokens (QFT)
 
 QFT token:\
