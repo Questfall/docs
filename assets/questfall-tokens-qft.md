@@ -20,3 +20,4 @@ icon: coin-blank
 * Can be [Frozen](../infrastructure/qft-freezing-5.md) for taking tokens out of circulation and receiving a QFT reward.
 * Can be used as any other on-chain cryptocurrency – Investment, trading, sending, etc.
 
+***
