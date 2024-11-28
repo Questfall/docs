@@ -57,15 +57,16 @@ The Zero League is considered a tutorial and there is no cost to redistribute at
 
 ### Mining Score
 
-The **Mining Score** is used to distribute the rewards for quest mining. It can be thought of as a mining power that resets every reward period (one week for regular mining and three months for seasonal mining). Throughout the period, the **Mining Score** can only increase.&#x20;
+The **Mining Score** is the total number of earned mining points in a period and is used to distribute the rewards for quest mining. It resets every reward period (one week for regular mining and three months for seasonal mining). Throughout the period, the **Mining Score** can only increase.&#x20;
 
-Although all users who complete the same quest receive the same number of **Mining Points**, the **Mining Score** is actually increased for each of them individually. The **Mining Points** that a user receives play the role of a minimum base, which is multiplied by the mining efficiency. This efficiency multiplier starts at <mark style="background-color:purple;">1.01</mark>, and increases by <mark style="background-color:purple;">0.01</mark> for each point added to the **Mining** attribute.
+The **Mining Score** increases for each user individually. Although all users who complete the same quest receive the same number of **Mining Points** as a base reward, the total number of received **Mining Points** comes after it is multiplied by the mining efficiency. This efficiency multiplier starts at <mark style="background-color:purple;">1.01</mark>, and increases by <mark style="background-color:purple;">0.01</mark> for each point added to the **Mining** attribute.
 
 {% hint style="info" %}
 For example, if a user receives **10 Mining Points** for completing a quest and has a **Mining** attribute of 30, he will actually increase his **Mining Score** by: 10+10x0.01x30) = 13.
 {% endhint %}
 
-As well as increasing the **Mining** attribute, the mining efficiency can also be increased by using clothing and elixirs with the appropriate effects .
+As well as increasing the **Mining** attribute, the mining efficiency can also be increased by using clothing and elixirs with the appropriate effects.
+
 
 ***
 

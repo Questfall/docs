@@ -19,8 +19,11 @@ This results in a moving average type formula that considers all the votes given
 {% hint style="info" %}
 The final author reputation score is calculated based on this formula: 
 
-New reputation = (Prev Reputation * 1m + Vote) / 1m
+New reputation = (Prev Reputation * x + Vote) / x
+
+**x** = Variable based on the total number of users and average user level.
 {% endhint %}
+
 
 
 ***

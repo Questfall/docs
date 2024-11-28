@@ -52,7 +52,7 @@ The completed quests are automatically removed from the global feed and moved to
 
 ### Base Reward
 
-Each quest has a **Mining Score** count that works as a **Base Reward** for the quest. By completing the quests users get the base reward of mining points which is then multiplied by the user's mining efficiency bonuses.
+Each quest has a **Base Reward** of a certain number of **Mining Points**. By completing the quests users get the base reward of mining points which is then multiplied by the user's mining efficiency bonuses.
 
 The base rewards of quests range from 10 (no promotion) up to <1000 (1000 is unreachable) depending on the author's promotion size. 
 

@@ -27,7 +27,7 @@ User’s levels 0-5 are part of a  Zero League that is considered a tutorial and
 
 The **40% weekly miners reward** is shared equally with each league with active users. The user has to compete for the weekly QFT reward only with users in the same league. As entering a higher league takes more effort than a lower one, the number of users competing for the same reward decreases with each league.
 
-The user's weekly **QFT reward** is based on the **league level** and **total number of mining points**.
+The user's weekly **QFT reward** is based on the **league level** and **Mining Score**.
 
 {% hint style="info" %}
 If there were only four leagues with active users, each league would have 10% of the weekly QFT reward to share. Each user would earn a portion of this 10% based on their total number of mining points relative to the total number of points mined in that league.
