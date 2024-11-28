@@ -57,7 +57,7 @@ The position of the promoted quest on the global quest feed is based on the base
 Within the promotion, the author can see the amount of the mining point reward within the quest and what placement in the global quest feed they will have with a chosen quest duration and burned Silver amount. 
 
 {% hint style="info" %}
-This formula is used to calculate the initial price of mining points in Silver. This amount is then adjusted with the author's reputation multiplier to get the real price of Silver for each user. 
+This formula is used to calculate the initial price of mining points in Silver. This amount is then adjusted with the author's reputation multiplier to get the real Silver price of mining points for each user. 
 
  **x * y = k**
 * **x** - Amount of mining points (equal to 1000)

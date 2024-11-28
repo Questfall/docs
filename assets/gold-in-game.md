@@ -6,8 +6,8 @@ icon: sack-dollar
 
 ### Gold
 
-* The value of one Gold is fixed to 0.01$
 * Unlimited total supply
+* The value of one Gold is fixed to 0.01$ 
 * Can be issued only by burning QFT 
 * Gold is constantly burned by users for system benefits
 * Character can store an unlimited amount of Gold
@@ -16,11 +16,11 @@ icon: sack-dollar
 
 ### Gold Utility
 
-* Burning to [Silver](Silver-in-game.md)
-* Buying of [Loot Boxes](../mining/Items.md)
-* Buying of XP to increase the character level
-* Purchasing of low-rarity items from other users in the [Marketplace](../mining/Items.md)
-* [Promoting](/authors/promotion.md) of quests to make them more visible and increasing the reward
-* Donation to author spaces, Gold donation is received as Silver
+* Can be burned to [Silver](Silver-in-game.md) (1 Gold = 10 Silver)
+* Can be used for the buying of [Loot Boxes](../mining/Items.md)
+* Can be used for the buying of XP to increase the character level
+* Can be used for the purchasing of low-rarity items from other users in the [Marketplace](../mining/Items.md)
+* Can be used for [Promoting](/authors/promotion.md) of quests to make them more visible and increasing the reward
+* Can be donated to author spaces, Gold donation is received as Silver
 
 ***
