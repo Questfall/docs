@@ -16,10 +16,10 @@ The **Leagues** allow a fair sharing of rewards and prevent bots and multi-accou
 
 The leagues group the users based on their level in **15-level sections** in the following way:
 
-First-league  5-20\
-Second-league 20-35\
-Third-league 35-50\
-And so on without a top limit
+* First-league  5-20\
+* Second-league 20-35\
+* Third-league 35-50\
+* And so on without a top limit
 
 {% hint style="info" %}
 User’s levels 0-5 are part of a  Zero League that is considered a tutorial and does not provide rewards.
@@ -41,7 +41,7 @@ In addition to having less competition in a higher league, the users can be moti
 
 While the concept of mining is fair enough on its own, platforms like Questfall (where users create value for others) offer additional rewards for the most loyal and engaged users, as this encourages long-term audience retention and therefore value.
 
-To achieve this, 16% of the newly created QFTs will be placed each week in the **Seasonal Reward Pool**, which will be distributed in full each season to **Users** (11.2%) and **Authors** (4.8%) with the highest total number of mining- and author points.
+To achieve this, 16% of the newly created QFTs will be placed each week in the **Seasonal Reward Pool**, from which **11.2%** will be distributed each season to **Users** with the highest mining score. 
 
 {% hint style="info" %}
 A common season will last three months (twelve weeks), during which a fund of approximately 120% of average weekly token creation will be collected. By rewarding only the most engaged users, the system will ensure that they receive a noticeable reward.

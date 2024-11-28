@@ -4,7 +4,7 @@ icon: rectangle-ad
 
 # Promotion
 
-Authors can **promote** their quests by burning Silver. The more Silver is burned, the higher the mining points in the quest are, and the more visible and attractive it is to users. 
+Authors can **promote** their quests by burning Silver. The more Silver is burned, the higher the base reward of a quest is, and the more visible and attractive it is to users. 
 
 **Silver** can be acquired through **Moderation** or by buying it with **Gold**. 
 
