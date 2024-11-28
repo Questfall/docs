@@ -24,3 +24,7 @@ IMAGE OF QUEST CREATION FORM
 ### Silver Donations
 
 ***
+
+### Banner Promotion
+
+***
