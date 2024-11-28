@@ -10,8 +10,11 @@ icon: coins
 
 ### Seasons
 
-Each **Season** a high QFT reward is offered to a handful of authors valued by the community and those dedicated to perfecting their craft of quest creation.
+Each week, 16% of the total weekly issue of QFT goes to the **Seasonal Reward Pool**, and **4.8%** of this will be distributed as a reward to the most dedicated authors.
 
-Each week 16% of the total weekly issue of QFT goes to the seasonal reward pool and **4.8%** of this will be distributed as a reward to the most dedicated authors. The authors who have accumulated the most author points during the season will receive the reward at the end of the season. As the reward accumulates over time this means that almost 60% of the average weekly token creation is rewarded to the most successful authors.
+At the end of a **Season**, accumulated QFT reward is offered to a handful of authors valued by the community and those dedicated to perfecting their craft of quest creation.
+
+The authors who have collected the most author points during the 3-month long season will receive a reward at the end of the season. As the reward accumulates over time, almost 60% of the average weekly token issue is rewarded to the most successful authors.
+
 
 ***
