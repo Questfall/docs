@@ -2,7 +2,7 @@
 icon: sack-dollar
 ---
 
-# Liquidity providers (8%)
+# Liquidity providers (5%)
 
 In order for investors to buy Questfall Tokens (QFT) or for miners to sell their QFTs without significant price influence, it is necessary to ensure sufficient liquidity. This will be achieved through the use of 8% of the newly created QFTs, which will be allocated each week to reward liquidity providers according to their average share in the pool during a week.
 

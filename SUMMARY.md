@@ -37,12 +37,12 @@
 ## Infrastructure
 
 * [Marketplace](infrastructure/marketplace.md)
-* [NFT burning (2%)](infrastructure/nft-burning-2.md)
-* [Liquidity providers (8%)](infrastructure/liquidity-providers-8.md)
-* [QFT freezing (5%)](infrastructure/qft-freezing-5.md)
-* [QFT burning (4%)](infrastructure/qft-burning-4.md)
-* [Project expenses (5%)](infrastructure/project-expenses-5.md)
-* [Founders' revenue (10%)](infrastructure/founders-revenue-10.md)
+* [NFT Burning (1%)](infrastructure/nft-burning-2.md)
+* [Liquidity Providers (5%)](infrastructure/liquidity-providers-8.md)
+* [QFT Freezing (5%)](infrastructure/qft-freezing-5.md)
+* [Project Expenses (5%)](infrastructure/project-expenses-5.md)
+* [Gold Withdrawals (8%)](infrastructure/gold%20withdrawals.md)
+* [Founders' Revenue (10%)](infrastructure/founders-revenue-10.md)
 
 ## Assets
 
