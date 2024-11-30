@@ -18,9 +18,17 @@ A user can be the creator of only one author space but can be part of an unlimit
 
 IMAGE OF QUEST CREATION FORM
 
+Within the author's space users can create and publish quests. 
+The creation of a new quest is a two-part process:
+
+1. First users fill in all the relevant information about the quest like cover image, instructions, and submission types, and then save it as a draft.
+2. This draft can be deployed after the user has chosen the duration of the quest and the amount of Silver to burn for promotion.
+
 ***
 
 ###  Quests Sorting
+
+Author can view the quests 
 
 Active,  
 Finished,
@@ -30,6 +38,12 @@ Drafts
 ***
 
 ### Special Rewards
+
+Through promotion, the author can increase the base reward of their quests to make them more appealing to users. Additionally, authors can set a special reward for those users who mine the most points exclusively with the author's quests. 
+
+The special reward can attract users to compete for the rewards resulting in many completions on the author's quests. 
+
+For this purpose, each author space has a leaderboard showing the users who have gained the most mining points from the author's quests on a reward period.
 
 ***
 
