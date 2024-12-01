@@ -9,7 +9,7 @@ icon: rectangle-ad
 Within the author space, users can manage all the necessary things related to authors like creating quests, reviewing submitted answers, seeing the stats, or claiming earned author rewards. Also, it works like a profile page on social media platforms so here users can find the author's quests, follow him and know all the relevant information about the author.
 
 {% hint style="info" %}
-A user can be the creator of only one author space but can be part of an unlimited amount by invitation. Like when a team or company wants to manage its official Questfall author space, many users can have the rights to manage it and create quests for it.
+A user can be the creator of only one author space but can be part of an unlimited amount by invitation. Like when a team or company wants to manage its official Questfall author space, many users can have the rights to use it and create quests for it.
 {% endhint %}
 
 ***
@@ -31,9 +31,9 @@ The creation of a new quest is a two-part process:
 Within the author space, all the created quests are sorted in four ways:
 
 * **Drafts** – Quests that users of author space have completed as drafts but haven’t published. Every new quest is first saved as a draft.
-* **Active** – Published quests that haven’t ended or reported. The author can see the remaining duration of published quests within this section.
+* **Active** – Published quests that haven’t ended or reported. Here the author can see the remaining duration of published quests.
 * **Reported** – All the quests published by the author space that have been reported. The falsely reported and those removed from the quest feed can be found in this section.
-* **Ended** – Quests that have ended. The author can find all the accepted submitted answers on his quests in this section.
+* **Ended** – Quests that have ended. Here the author can find all the accepted submitted answers on his quests.
 
 
 ***
