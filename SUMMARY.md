@@ -21,7 +21,7 @@
 
 ## Authors
 
-* [Author Spaces](authors/author%20space.md)
+* [Author Spaces](authors/author%20spaces.md)
 * [Ratings](authors/ratings.md)
 * [Reputation](authors/reputation.md)
 * [Promotion](authors/promotion.md)

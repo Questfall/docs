@@ -49,7 +49,7 @@ For this purpose, each author space has a leaderboard showing the users who have
 
 ### Silver Donations
 
-Each author space has a silver balance that can be used to promote the created quests. The owner of the author's space can freely add Silver to the account balance by Silver or burning Gold or QFT (burned immediately to Silver). Anyone else can add to this balance by donating Silver or Gold to the author's space.
+Each author space has a silver balance that can be used to promote the created quests. The owner of the author's space can freely increase the Silver balance on the account by adding Silver or burning Gold or QFT (burned immediately to Silver). Anyone else can add to this balance by donating Silver or Gold to the author's space.
 
 {% hint style="info" %}
 Personal resources can be used directly for promotion by the quest creator without manually moving the Silver to the author space first.
