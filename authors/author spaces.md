@@ -16,7 +16,7 @@ A user can be the creator of only one author space but can be part of an unlimit
 
 ### Quest Creation
 
-IMAGE OF QUEST CREATION FORM
+IMAGE OF QUEST CREATION FORM 1 & 2
 
 Within the author's space users can create and publish quests. 
 The creation of a new quest is a two-part process:
@@ -28,12 +28,13 @@ The creation of a new quest is a two-part process:
 
 ###  Quests Sorting
 
-Author can view the quests 
+Within the author space, all the created quests are sorted in four ways:
 
-Active,  
-Finished,
-Reported,
-Drafts
+* **Drafts** – Quests that users of author space have completed as drafts but haven’t published. Every new quest is first saved as a draft.
+* **Active** – Published quests that haven’t ended or reported. The author can see the remaining duration of published quests within this section.
+* **Reported** – All the quests published by the author space that have been reported. The falsely reported and those removed from the quest feed can be found in this section.
+* **Ended** – Quests that have ended. The author can find all the accepted submitted answers on his quests in this section.
+
 
 ***
 
