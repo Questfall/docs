@@ -21,6 +21,6 @@ icon: sack-dollar
 * Can be used for the trading of low-rarity items in the [Marketplace](../mining/Items.md)
 * Can be used for the buying of XP to increase the [character Level](../mining/character.md)
 * Can be used for [Promoting](/authors/promotion.md) of quests to make them more visible and increasing the reward
-* Can be donated to author spaces, Gold donation is received as Silver
+* Can be donated to author spaces for promotion. Gold donation is received as Silver
 
 ***
