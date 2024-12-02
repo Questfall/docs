@@ -40,7 +40,7 @@ Within the author space, all the created quests are sorted in four ways:
 
 ### Special Rewards
 
-Through promotion, the author can increase the base reward of their quests to make them more appealing to users. Additionally, authors can set a special reward for those users who mine the most points exclusively with the author's quests. 
+Through promotion, the author can increase the base reward of their quests to make them more appealing to users. Additionally, authors can set a **Special Reward** for those users who mine the most points exclusively with the author's quests. 
 
 The special reward can attract users to compete for the rewards resulting in many completions on the author's quests. 
 
@@ -50,7 +50,7 @@ For this purpose, each author space has a leaderboard showing the users who have
 
 ### Silver Donations
 
-Each author space has a silver balance that can be used to promote the created quests. The owner of the author's space can freely increase the Silver balance on the account by adding Silver or burning Gold or QFT (burned immediately to Silver). Anyone else can add to this balance by donating Silver or Gold to the author's space.
+Each author space has a silver balance that can be used to promote the created quests. The owner of the author's space can freely increase the Silver balance on the account by adding Silver or burning Gold or QFT. Anyone else can add to this balance by **Donating Silver** or Gold to the author's space. Gold or QFT transferred or donated to author space is automatically burned to silver.
 
 {% hint style="info" %}
 Personal resources can be used directly for promotion by the quest creator without manually moving the Silver to the author space first.
@@ -63,5 +63,16 @@ There is no limit to the amount of Silver an author's space can hold and the Sil
 ***
 
 ### Banner Promotion
+
+Within the Questfall platform, two **Marketing Banners** are visible for all users – one for the team to promote collaborations, and another for author spaces to promote themselves. Promoting the author space this way can make it known to the community and increase the number of followers and quest completions.
+
+Author spaces can buy a one-day slot for featuring them on the banner. There are available slots on sale only for the next 30 days.
+
+The prices of the one-day slots increase exponentially the farther we go from the current day. This guarantees there are always author spaces willing to pay the price for featuring as the price for the current day is so low.
+
+As the demand for banner promotion grows, the author spaces are willing to pay more and buy days further in the future to make sure to get a spot.
+
+There is no limitation to how many one-day spots a single author space can buy.
+
 
 ***

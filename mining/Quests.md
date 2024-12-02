@@ -53,7 +53,7 @@ By increasing the personal **Mining Efficiency** bonus a user can receive more m
 
 For example, if the base reward for the quest is 50 mining points and the user has 100% of the mining bonus, they receive 100 mining points from completing the quest.
 
-Constant mining efficiency bonus can be increased by wearing clothing, elixirs, rating quests, and adding points to the mining attribute. Spells and Elixirs can give mining bonuses for a limited time or to a specific quest.
+Constant mining efficiency bonus can be increased by clothing, elixirs, rating quests, and adding points to the mining attribute. Spells and Elixirs can give mining bonuses for a limited time or to a specific quest.
 
 ***
 
