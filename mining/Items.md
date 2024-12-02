@@ -138,15 +138,15 @@ There are a few limitations regarding loot boxes:
 
 IMAGE OF QUESTFALL MARKETPLACE
 
-All the users have access to the in-game **marketplace** where items can be bought or sold for **Gold** (F, E, D) and **QFT** (C, B, A) between the users.
+All the users have access to the two **marketplaces** where items can be bought or sold for **Gold** (in-game) and **QFT** (on-chain) between the users.
+
+Marketplace trading of items is directly linked to the character's inventory – All bought items go directly to inventory and those placed on sale are moved from the inventory to the marketplace slots.
 
 ### Trading for Gold
 
-The **lower-tier** items F, E, and D are traded only for **Gold**.
+In the in-game marketplace the **lower-tier** items F, E, and D are traded for **Gold**.
 
 Each user has a limited number of marketplace slots where lower-tier items can be placed for sale for a chosen fixed Gold price.
-
-Marketplace trading of low-tier items is directly linked to the character's inventory – All bought items go directly to inventory and those placed on sale are moved from the inventory to the marketplace slots.
 
 {% hint style="info" %}
 First-level character starts with 3 Marketplace Slots, and each subsequent Marketplace Slot requires another 5 points of Crafting attribute.
@@ -154,14 +154,14 @@ First-level character starts with 3 Marketplace Slots, and each subsequent Marke
 
 ### Trading for QFT
 
-The **higher-tier** items C, B, and A, are traded only for **QFT**.
+In the on-chain marketplace the **higher-tier** items C, B, and A, are traded for **QFT**.
 
-To trade higher-tier items the users need to withdraw the item on-chain as NFT and then it can be placed on sale to the marketplace for a fixed price of QFT. 
- 
- By buying or placing higher-tier items on sale, the user must pay the Polygon gas fee for each transaction – when the item is withdrawn, deposited, bought, or placed for sale. 
- 
+Users can place the higher-tier items on sale to the marketplace directly from the inventory for a fixed price of QFT. Trading on-chain does not use the character's marketplace slots and allows users to place any number of items on sale.
+
+Also, these items can be withdrawn from- and deposited into the inventory as NFTs. For more details about on-chain trading of items see [Marketplace](../infrastructure/marketplace.md).
+
 {% hint style="info" %}
-Trading on-chain does not occupy marketplace slots. The on-chain marketplace is like a store independent of the inventory.
+As the trading of higher-tier items happens on-chain the user must pay the polygon gas fee for each transaction.
 {% endhint %}
 
 ### Marketplace Rules
