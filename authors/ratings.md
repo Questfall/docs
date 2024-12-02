@@ -4,7 +4,7 @@ icon: star
 
 # Ratings
 
-The quality of the author's quest is reflected in the **Rating** users give to it. 
+The quality of the author's quest is reflected in the **Rating** users give to it and this incentivizes authors to focus on producing high-quality quests valued by the community.
 
 To finalize the completion of a quest, each user must rate the quest from 1-10. The ratings are weighted by user level and will directly impact the author's **Reputation Score**. 
 
