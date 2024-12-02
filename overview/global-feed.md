@@ -27,11 +27,11 @@ In other words, authors can earn by publishing their books, articles, lessons, m
 This approach also makes it possible to make the world a better place through quests. For example, a high reputation author could create a quest to plant a tree or clean up an ocean, and that quest could work as a flash mob.
 
 {% hint style="info" %}
-Of course, this approach also opens up the possibility of quests causing harm to others. This problem is addressed by [decentralised moderation](../users/moderation.md), where the community decides whether a reported quest is appropriate or not.
+Of course, this approach also opens up the possibility of quests causing harm to others. This problem is addressed by [decentralised moderation](../moderation/majority%20wins.md), where the community decides whether a reported quest is appropriate or not.
 {% endhint %}
 
 In addition, the concept of mining and the Global Feed do not eliminate the existing approach of teams spending resources to promote their projects.
 
-Project teams can do this by adding ACT points directly to their quests, which will increase the reward and make the quest more visible in the Global Feed, as quests are primarily sorted by ACT reward (making quests with higher rewards more visible to users).
+Project teams can do this by adding mining points directly to their quests, which will increase the reward and make the quest more visible in the Global Feed, as quests are primarily sorted by mining reward (making quests with higher rewards more visible to users).
 
 Of course, such a promotion will not be free and will require QFT burning, thus adding value to the entire community by making QFT a deflationary token.

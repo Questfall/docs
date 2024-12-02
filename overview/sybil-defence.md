@@ -40,7 +40,7 @@ In fact, we are talking about a community consensus on each of the completions, 
 A Sybil attack is possible if each vote has the same weight of 1 and there is no limit to the number of accounts that can be registered. So if a user has 5 accounts, the total weight of all his votes is 5. In this way, a malicious actor can gain any vote weight by creating as many accounts as needed.
 {% endhint %}
 
-To protect the system from such attacks, Questfall uses the concept of [levels](../users/moderation.md), through which users can advance if they vote in line with the majority of other voters.&#x20;
+To protect the system from such attacks, Questfall uses the concept of [levels](../mining/character.md), through which users can advance if they vote in line with the majority of other voters.&#x20;
 
 More specifically, if they vote the same as the majority, users are rewarded - they gain XP points which allows them to level up, otherwise they are punished - the amount of XP needed to get to the next level increases.
 
@@ -53,7 +53,7 @@ User levels are in turn used to weight the consensus majority, which means that 
 This makes it impossible for a large number of new accounts to be registered and used to manipulate the voting results, as high level users will protect the voting from abuse and as a result such new accounts will be punished.
 
 {% hint style="info" %}
-For other measures to protect consensus, see the [Levels](../users/moderation.md) article.
+For other measures to protect consensus, see [Moderation](../moderation/majority%20wins.md) articles.
 {% endhint %}
 
 In this way, progressing through the levels requires two key resources: intelligence and access to third-party platforms where the majority of quest completions are published. And while these resources are considered free when checking completions by hand, there is an ongoing cost when moderating by code.
@@ -74,7 +74,7 @@ As there are no restrictions on who can become a miner, a malicious actor could 
 
 To solve this problem, we need to consider that users form a pyramid - the number of users will decrease with each level, as each new level requires more of the limited resources a user should have spent to reach it.
 
-To take advantage of this, the global mining reward in Questfall will be divided into fixed portions that will be distributed to different [leagues ](../users/leagues.md)that group users of different level ranges. This means that the reward for a particular league does not depend on the activity in other leagues. As a result, competition decreases as a user progresses through levels and therefore leagues.
+To take advantage of this, the global mining reward in Questfall will be divided into fixed portions that will be distributed to different [leagues ](../mining/rewards.md)that group users of different level ranges. This means that the reward for a particular league does not depend on the activity in other leagues. As a result, competition decreases as a user progresses through levels and therefore leagues.
 
 {% hint style="info" %}
 The rewards for each league only depend on the number of leagues with active miners. So any user can level up to the point where he can open a new league as the top user and mine the full reward without any competition.

@@ -47,17 +47,17 @@ The remaining two-thirds of the weekly issue (66%) is used to reward the quest m
 * 10% to authors who create quests;
 * 16% to seasonal reward pool (11.2% to users and 4.8% to authors).
 
-At the end of each week or season, rewards for completing quests are distributed based on a user's activity score, which acts like a personal mining power. This activity score is simply the total number of ACT points a user earns by completing quests during the period.
+At the end of each week or season, rewards for completing quests are distributed based on a user's mining score, which acts like a personal mining power. This mining score is simply the total number of mining points a user earns by completing quests during the period.
 
-Each quest is worth a certain number of ACT points, which all users who complete the quest will receive as a basic reward. However, while the basic reward for the quest is the same for all users, the final number of ACT points received can be increased by individual user bonuses.
+Each quest is worth a certain number of mining points, which all users who complete the quest will receive as a basic reward. However, while the basic reward for the quest is the same for all users, the final number of mining points received can be increased by individual user bonuses.
 
 {% hint style="info" %}
 Individual bonuses are based on the [RPG System](rpg-system.md).
 {% endhint %}
 
-The number of ACT points users receive as a basic reward for a given quest is based on the quest author's reputation, which is simply a moving average of the community ratings of that author's quests.&#x20;
+The number of mining points users receive as a basic reward for a given quest is based on the quest author's reputation, which is simply a moving average of the community ratings of that author's quests.&#x20;
 
-In other words, the higher the ratings of the author's quests, the higher his reputation, and the more ACT points will be used to reward his future quests.
+In other words, the higher the ratings of the author's quests, the higher his reputation, and the more mining points will be used to reward his future quests.
 
 {% hint style="info" %}
 In order to prevent malicious authors from abusing the rating system, votes are weighted differently depending on the user level. Read more in the [Ratings](../authors/ratings.md) article.

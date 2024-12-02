@@ -63,7 +63,7 @@ Questfall will have two separate marketplaces: in-game, where items are traded f
 
 As well as clothing and consumables (potions and elixirs) that improve the performance of miners by increasing their stats, there are also magic spells that can have a major impact on mining strategy.
 
-Spells can be thought of as official hacks and can do almost anything in the system, from increasing the ACT reward of a particular quest to freezing the stamina bar so that it is not spent.
+Spells can be thought of as official hacks and can do almost anything in the system, from increasing the mining point reward of a particular quest to freezing the stamina bar so that it is not spent.
 
 {% hint style="info" %}
 A separate article is dedicated to the [magic system](../users/magic.md).
