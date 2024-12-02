@@ -38,15 +38,7 @@ The author’s reputation stays in 1 until there are enough completions on the a
 
 ### Cost of Promotion
 
-The author can choose the amount of Silver they want to burn to promote their quest. Each quest has a minimum promotional amount of 1000 Silver to prevent system abuse. There is no upper limit to how much Silver can be burned for promotion. 
-
-The author can choose the uptime for a quest from 1 to 30 days. The longer the duration of a quest the higher the total cost of the promotion. However, each subsequent day of the promotion becomes cheaper by 10%, so the longer the promotions the better the price for a single day of promotional time. 
-
-The position of the promoted quest on the global quest feed is based on the base mining points in a quest resulting from the amount of burned Silver. The higher the base mining points of a quest the higher it will be on the global quest feed and the more mining points users receive as a reward by completing the quest. The duration of a quest does not affect the quests position in the quest feed.
-
-Within the promotion, the author can see the amount of the mining point reward within the quest and what placement in the global quest feed they will have with a chosen quest duration and burned Silver amount. 
-
-There will be no upper limit to the number of Silver an author can burn, as the maximum base mining point reward of 1000 will be an unreachable limit.
+The author can choose the amount of Silver they want to burn to promote their quest. Each quest has a minimum promotional amount of 1000 Silver to prevent system abuse. There is no upper limit to how much Silver can be burned for promotion as the maximum base mining point reward of 1000 will be an unreachable limit.
 
 {% tabs %}
 {% tab title="Chart" %}
@@ -57,6 +49,12 @@ There will be no upper limit to the number of Silver an author can burn, as the 
 The Reputation that is additionally applied&#x20;
 {% endtab %}
 {% endtabs %}
+
+The author can choose the uptime for a quest from 1 to 30 days. The longer the duration of a quest the higher the total cost of the promotion. However, each subsequent day of the promotion becomes cheaper by 10%, so the longer the promotions the better the price for a single day of promotional time. 
+
+The position of the promoted quest on the global quest feed is based on the base mining points in a quest resulting from the amount of burned Silver. The higher the base mining points of a quest the higher it will be on the global quest feed and the more mining points users receive as a reward by completing the quest. The duration of a quest does not affect the quests position in the quest feed.
+
+Within the promotion, the author can see the amount of the mining point reward within the quest and what placement in the global quest feed they will have with a chosen quest duration and burned Silver amount. 
 
 {% hint style="info" %}
 This formula is used to calculate the initial price of mining points in Silver. This amount is then adjusted with the author's reputation multiplier to get the real Silver price of mining points for each user. 

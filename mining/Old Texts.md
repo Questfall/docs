@@ -1,4 +1,18 @@
 
+# Promotion
+
+There will be no upper limit to the number of Silver an author can burn, as the maximum base mining point reward of 1000 will be an unreachable limit.
+
+{% tabs %}
+{% tab title="Chart" %}
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="Details" %}
+The Reputation that is additionally applied&#x20;
+{% endtab %}
+{% endtabs %}
+
 # NFT burning (1%)
 
 Our goal is to maximise the price of NFTs over the long term. In order to achieve this, 2% of the newly created QFTs are allocated each week to the purchase of [Mining ](broken-reference)(1%) and [Founder](../assets/founder-nfts.md) (1%) NFTs from the market via auction, with the subsequent burning of these NFTs.
