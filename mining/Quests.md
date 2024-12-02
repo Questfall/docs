@@ -33,20 +33,10 @@ The length of the quest does not affect the size of the reward.
 
 Users can sort the quest feed to display all, followed, marked, hidden, or completed quests.
 
-### Followed
-
-The authors can be followed as creators in popular social media platforms. Users can choose to sort the feed to show quests only from those authors they are following. 
-
-### Marked
-
-### Hidden
-
-Undesirable quests can be hidden from the global feed by the user. 
-Feed can be sorted to display all the hidden quests.
-
-### Completed
-
-The completed quests are automatically removed from the global feed and moved to the completed section.
+* **Followed** - The authors can be followed as creators in popular social media platforms. Users can choose to sort the feed to show quests only from those authors they are following. 
+* **Marked** - The users can mark those quests they see as interesting or important and create and display a feed based on them. 
+* **Hidden** - Undesirable quests can be hidden from the global feed by the user. Feed can be sorted to display all the hidden quests.
+* **Completed** - The completed quests are automatically removed from the global feed and moved to the completed section.
 
 ***
 
