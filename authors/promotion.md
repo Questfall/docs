@@ -14,25 +14,15 @@ By burning Gold the user receives 10 times the amount of Silver. For example, If
 For convenience, the users can use Gold directly for promotion so that the burning of it to Silver happens automatically. 
 {% endhint %}
 
+***
 
+### Promotion Benefits
 
 Promoting quests benefits the author, miners, and the whole system:
 * **More Visibility** – The more Silver is burned for promoting a quest the higher it will appear on the quest feed. This results in more users seeing and completing the quest.
 * **Reward for Miners** – The mining point reward of a quest increases as more Silver is used for promoting it. This makes the quest more attractive to miners which leads to more completions and higher ratings.
 * **Author Reward** - As the weekly QFT reward for authors is calculated based on the amount of completions on the author’s quests, promoting quests directly contributes for a higher weekly reward.
 * **QFT Burning** – Quests promotion contributes to deflation within the system as QFT is constantly burned for Gold, and then converted to Silver for quest promotion.
-
-There will be no upper limit to the number of Silver an author can burn, as the maximum Reputation 10 will be an unreachable limit.
-
-{% tabs %}
-{% tab title="Chart" %}
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
-{% endtab %}
-
-{% tab title="Details" %}
-The Reputation that is additionally applied&#x20;
-{% endtab %}
-{% endtabs %}
 
 ***
 
@@ -56,6 +46,18 @@ The position of the promoted quest on the global quest feed is based on the base
 
 Within the promotion, the author can see the amount of the mining point reward within the quest and what placement in the global quest feed they will have with a chosen quest duration and burned Silver amount. 
 
+There will be no upper limit to the number of Silver an author can burn, as the maximum base mining point reward of 1000 will be an unreachable limit.
+
+{% tabs %}
+{% tab title="Chart" %}
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="Details" %}
+The Reputation that is additionally applied&#x20;
+{% endtab %}
+{% endtabs %}
+
 {% hint style="info" %}
 This formula is used to calculate the initial price of mining points in Silver. This amount is then adjusted with the author's reputation multiplier to get the real Silver price of mining points for each user. 
 
@@ -64,5 +66,7 @@ This formula is used to calculate the initial price of mining points in Silver. 
 * **y** - Amount of Silver spent
 * **k** - ?
 {% endhint %}
+
+
 
 ***
