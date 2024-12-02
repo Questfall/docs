@@ -23,7 +23,7 @@ For the completion of a quest the required submission type can be one of the fol
 
 ### Quest Duration
 
-Users can submit answers to quests as long as it’s active. Each quest's duration ranges from 1 to 30 days depending on the number of days the author chose to promote their quest. 
+Each quest's duration ranges from 1 to 30 days depending on the number of days the author chose to promote their quest. Users can submit answers to the quest as long as it’s active. 
 
 The length of the quest does not affect the size of the reward.
 
@@ -51,7 +51,9 @@ The base rewards of quests range from 10 (no promotion) up to <1000 (1000 is unr
 
 By increasing the personal **Mining Efficiency** bonus a user can receive more mining points from each completed quest. The base reward of a quest is multiplied by the mining efficiency % bonus the user has. 
 
+{% hint style="info" %}
 For example, if the base reward for the quest is 50 mining points and the user has 100% of the mining bonus, they receive 100 mining points from completing the quest.
+{% endhint %}
 
 Constant mining efficiency bonus can be increased by clothing, elixirs, rating quests, and adding points to the mining attribute. Spells and Elixirs can give mining bonuses for a limited time or to a specific quest.
 
@@ -61,7 +63,11 @@ Constant mining efficiency bonus can be increased by clothing, elixirs, rating q
 
 Each answer submission for a quest is reviewed by the system automatically or by the moderators. If the submission is accepted, the user receives the reward, and the quest is moved from the global quest feed to the completed feed.
 
-If the submission is declined, the base reward of the quest decreases based on the number of retries the author has set for the quest. For example, if there are a maximum of five retries on a quest, each wrong submission decreases the base reward by 1/5 for the user.
+If the submission is declined, the base reward of the quest decreases based on the number of retries the author has set for the quest. 
+
+{% hint style="info" %}
+For example, if there are a maximum of five retries on a quest, each wrong submission decreases the base reward by 1/5 for the user.
+{% endhint %}
 
 A user can try to re-submit an acceptable answer when there are unused retries and the quest is still active.
 
