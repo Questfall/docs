@@ -1,7 +1,0 @@
----
-icon: crown
----
-
-# - Founder NFTs
-
-
