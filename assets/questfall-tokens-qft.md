@@ -9,7 +9,7 @@ icon: coin-blank
 * Total Supply of 10 000 000 QFT
 * On Polygon Blockchain
 * Issued weekly for [Multiple Pools](../overview/quest-mining.md) in decreasing portions based on a pre-defined formula.
-* No tokens are pre-minted or sold by the team - QFT can be earned by activities on Questfall and by holding founders NFT.
+* No tokens are pre-minted or sold by the team - QFT can be earned first by holding [Founders NFT](../assets/founder-nfts.md) and later also by activities on Questfall.
 * [Deflationary Tokenomics](../overview/deflationary-tokenomics.md) - Tokens are constantly burned by Questfall users for system benefits. After some market saturation period, the circulating supply of QFT will steadily decline.
 
 ### QFT Utility 

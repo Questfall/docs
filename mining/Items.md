@@ -161,7 +161,7 @@ Users can place the higher-tier items on sale to the marketplace directly from t
 Also, these items can be withdrawn from- and deposited into the inventory as NFTs. For more details about on-chain trading of items see [Marketplace](../infrastructure/marketplace.md).
 
 {% hint style="info" %}
-As the trading of higher-tier items happens on-chain the user must pay the polygon gas fee for each transaction.
+As the trading of higher-tier items happens on-chain the user must pay the Polygon gas fee for each transaction.
 {% endhint %}
 
 ### Marketplace Rules
