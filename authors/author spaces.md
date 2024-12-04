@@ -74,6 +74,6 @@ The prices of the one-day slots increase exponentially the farther we go from th
 
 As the demand for banner promotion grows, the author spaces are willing to pay more and buy days further in the future to make sure to get a spot. There is no limitation to how many one-day spots a single author space can buy.
 
-To ensure no inappropriate author spaces are promoted, the users can report the Banner. Reported banners are voted by the moderators in the same way as [Reported Quests](../mining/Quests.md).
+To ensure no inappropriate author spaces are promoted users above a certain level can report the banner. Reported banners are voted by the moderators and rewarded in the same way as [Reported Quests](../mining/Quests.md).
 
 ***
