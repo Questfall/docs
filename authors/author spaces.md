@@ -4,6 +4,8 @@ icon: rectangle-ad
 
 # Author Spaces
 
+IMAGE OF AUTHOR SPACE
+
 **Author Space** is the profile and workspace for the individual author or project. So for the author to be able to start to create quests, first they need to set up their author space. 
 
 Within the author space, users can manage all the necessary things related to authors like creating quests, reviewing submitted answers, seeing the stats, or claiming earned author rewards. Also, it works like a profile page on social media platforms so here users can find the author's quests, follow him and know all the relevant information about the author.
@@ -70,9 +72,8 @@ Author spaces can buy with Silver or Gold a one-day slot for featuring them on t
 
 The prices of the one-day slots increase exponentially the farther we go from the current day. This guarantees there are always author spaces willing to pay the price for featuring as the price for the current day is so low.
 
-As the demand for banner promotion grows, the author spaces are willing to pay more and buy days further in the future to make sure to get a spot.
+As the demand for banner promotion grows, the author spaces are willing to pay more and buy days further in the future to make sure to get a spot. There is no limitation to how many one-day spots a single author space can buy.
 
-There is no limitation to how many one-day spots a single author space can buy.
-
+To ensure no inappropriate author spaces are promoted, the users can report the Banner. Reported banners are voted by the moderators in the same way as [Reported Quests](../mining/Quests.md).
 
 ***
