@@ -4,6 +4,8 @@ icon: shirt
 
 # Items
 
+IMAGE OF INVENTORY WITH ITEMS
+
  There are a variety of in-game **Items** comprising **Clothing**, **Spellbooks**, **Elixirs**, and **Potions** which give bonuses to the character and game play. 
 
 Items can be acquired from **Loot Boxes** and **Marketplace.** 

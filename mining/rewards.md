@@ -16,6 +16,8 @@ The **Leagues** allow a fair sharing of rewards and prevent bots and multi-accou
 
 The leagues group the users based on their level in **15-level sections** in the following way:
 
+(IMAGE OF LEAGUES PYRAMID INSTEAD OF TEXT)
+
 * First-league  5-20
 * Second-league 20-35
 * Third-league 35-50

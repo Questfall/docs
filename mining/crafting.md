@@ -4,6 +4,8 @@ icon: ruler-combined
 
 # Crafting
 
+IMAGE OF CRAFTING
+
 **Crafting** allows users to upgrade **Clothing** with essence and disassemble any item for essence. Additionally, **Spell Books** can be upgraded by merging them together.
 
 This creates an additional layer of game mechanics and gives users the ability to get an edge by advancing their equipment. Crafting adds value to all types of items in Questfall as any item can be disassembled and used as a source of **Essence**.

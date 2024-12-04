@@ -1,5 +1,5 @@
 ---
-icon: sack-dollar
+icon: coins
 ---
 
 # Liquidity providers (5%)

@@ -28,6 +28,8 @@ Casting a spell consumes **Mana**, so the ability to cast powerful or multiple s
 
 ### Spell Examples
 
+IMAGE OF SPELL CARD
+
 DETAILS COMING LATER
 
 Pauses the stamina usage for some time
