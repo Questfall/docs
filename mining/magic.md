@@ -6,7 +6,7 @@ icon: sparkles
 
 **IMAGE OF SPELL SLOTS WITH SPELLS**
 
-Users can learn and cast **Magic Spells** to gain advantages on the platform. Spells affect the outside objects rather than directly influencing the character.
+Users can learn and cast **Spells** to gain advantages on the platform. Spells affect the outside objects rather than directly influencing the character.
 
 Most spells can enhance the user's performance, for example, by increasing quest rewards, affecting item bonuses, or freezing stamina usage. However, some spells can have global effects on the platform like changing the overall theme for some time.
 

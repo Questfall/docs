@@ -12,7 +12,7 @@ This creates an additional layer of game mechanics and gives users the ability t
 
 ***
 
-### Item weight
+### Item Weight
 
 The item's weight, amount of essence it contains, and tier and level are directly correlated. By disassembling any item user gets a percentage of the essence it contains. For more details see the [Essence Balance](character.md)
 

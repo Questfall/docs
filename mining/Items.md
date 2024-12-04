@@ -97,11 +97,11 @@ The higher the tier of the item the more powerful and heavier it is.
 
 In addition to the tier, clothing has also level. The higher the clothing level the more bonuses it has and the more it weighs.
 
-For more details about tier and level bonuses see [Crafting](crafting.md).
+For more details about tier and level bonuses, and item weight see [Crafting](crafting.md).
 
 ***
 
-### Loot boxes
+### Loot Boxes
 
 IMAGE OF LOOT BOX
 
