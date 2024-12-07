@@ -14,11 +14,11 @@ This creates an additional layer of game mechanics and gives users the ability t
 
 ### Item Weight
 
-The item's weight, amount of essence it contains, and tier and level are directly correlated. By disassembling any item user gets a percentage of the essence it contains. For more details see the [Essence Balance](character.md)
+The item's weight, amount of essence it contains, and tier and level are directly correlated. By disassembling any item user gets a percentage of the essence it contains. The number of essences received from disassembling an item can be increased by adding points to the **Crafting Attribute**. For more details see the [Essence Balance](character.md).
 
 Essence is a highly valued resource as in addition to crafting it is needed to equip and unequip clothing and it can’t be bought or traded.
 
-The crafting efficiency can be increased by adding points to the **Crafting Attribute**.
+
 
 ***
 
