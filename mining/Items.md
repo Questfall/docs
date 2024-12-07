@@ -62,7 +62,7 @@ that are unique to only one or a few tiers. For Example, elixir can have only pe
 
 There are four categories of elixirs:
 
-* **Attribute Elixirs** – Increases the attribute points of the character. 
+* **Attribute Elixirs** – Increases the base attribute points of the character. These points can’t be redistributed with an attribute reset.
 * **Mystic Elixirs** – These affect primarily the mana and spells, like reducing the mana cost of all the character's spells. 
 * **Power Elixirs** - Gives a boost to the mining power, stamina, and the ability to carry and trade more items.
 * **Fortune Elixirs** – Increases the changes for lucky strikes, like boosting the probability of doubling bonuses.

@@ -31,13 +31,13 @@ The heavier the clothing the more essence is needed for upgrading it. Users can 
 * **The tier upgrade** adds randomly a new effect to the clothing and the item level stays the same. When the item gets a new upgradable effect (F -> E, E -> D), the power of the new effect is based on the clothing level.
 
 {% hint style="info" %}
-For example A level 20 common (F) helmet gives +2% to mining efficiency, and by evolving it to Advanced (E), it will give +2% to mining efficiency and +10 to mana. (+0.5 mana for each level)
+For example A level 20 common (F) helmet gives +6% to mining efficiency, and by evolving it to Advanced (E), it will give +6% to mining efficiency and +2000 to mana. (+100 mana for each level)
 {% endhint %}
 
 * **The level upgrade** linearly increases the effect of all the upgradable bonuses within the clothing. All the non-upgradable bonuses stay the same. 
 
 {% hint style="info" %}
-For example A level 10 rare (D) robe gives +1% to mining efficiency, +5 to mana, and +5 stamina, by upgrading it to level 11 it gives 1.1% to mining efficiency, +5.5 to mana, and +5.5 to stamina. 
+For example A level 10 rare (D) robe gives +4% to mining efficiency, +1000 to mana, and +1000 stamina, by upgrading it to level 11 it gives 4.4% to mining efficiency, +1100 to mana, and +1100 to stamina. 
 {% endhint %}
 
 All tier of clothing has upgradeable effects and the higher tier also has non-upgradable effects. The number of **upgradable** and **non-upgradable** effects is based on the tier:
