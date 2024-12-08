@@ -108,22 +108,13 @@ IMAGE OF LOOT BOX
 
 **Loot Boxes** are the primary source of all **RPG items**. They can be obtained by buying directly from the system for **100 Gold** (1$) each or by collecting a full set of [Chest Shards](./character.md).
 
-By default, a loot box provides one item, with the chance of it being any type, tier, or level. Users can increase their chances of receiving more items by placing points in the [Luck attribute](./character.md). 
+By default, a loot box provides one item, with the chance of it being any type, tier, or level. Users can increase their chances of receiving more items by placing points in the [Luck attribute](./character.md) and by consuming a specific elixir.
 
 {% hint style="info" %}
 The Gold spent on buying loot boxes is automatically burned by the system.
 {% endhint %}
 
-The function of a loot box is closer to in-game Gold than items:
-
-*  Loot boxes do not influence the carried weight or stamina consumption
-*  There is no limit to how many loot boxes can be bought or carried
-*  Loot boxes can be stored indefinitely and be opened at any time without using essence
-
-There are a few limitations regarding loot boxes:
-
-*  They can’t be traded with other users
-*  Loot box can’t be opened if the character weight limit is fully used
+The function of a loot box is closer to in-game Gold than items as they do not influence the carried weight or stamina consumption and can be opened without using essence. As the items found in the loot box have weight, the box can’t be opened if the character weight limit is fully used. The loot boxes are individualized for the user and can’t be traded with other users.  
 
 ### Drop Rates
 
