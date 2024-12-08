@@ -6,7 +6,7 @@ icon: star
 
 The quality of the author's quest is reflected in the **Rating** users give to it and this incentivizes authors to focus on producing high-quality quests valued by the community.
 
-To finalize the completion of a quest, each user must rate the quest from 1-10. The ratings are weighted by user level and will directly impact the author's **Reputation Score**. 
+To finalize the completion of a quest, each user must rate the quest from 1 to 10. The ratings are weighted by user level and will directly impact the author's **Reputation Score**. 
 
 {% hint style="info" %}
 The weight of the users' vote increases linearly with the level. Each level increases the vote weight by one. For example, a level 30 user has a vote weight of 30.
