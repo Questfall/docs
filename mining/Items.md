@@ -65,7 +65,7 @@ There are four categories of elixirs:
 * **Attribute Elixirs** – Increases the base attribute points of the character. Each attribute has one elixir, and these points can’t be redistributed with an attribute reset.
 * **Mystic Elixirs** – These affect things related to magic, spells, and mana, like reducing the mana cost of all the character's spells. 
 * **Power Elixirs** - Gives a boost to the mining power, stamina, and the ability to carry more items, like speeding up the stamina recovery.
-* **Fortune Elixirs** – These affect things related to lucky strikes, loot boxes, shards, and trading, like boosting the probability of doubling bonuses.
+* **Fortune Elixirs** – These affect things related to lucky strikes, loot boxes, shards, and trading, like boosting the probability of bonus chances.
 
 
 Elixirs do not have a level and the tier can't be upgraded.

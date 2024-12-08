@@ -54,6 +54,6 @@ All tier of clothing has upgradeable effects and the higher tier also has non-up
 
 Each spell has six levels of power corresponding to the tiers of **Spell Books**. The power of spells increases exponentially with the tiers.
 
-To upgrade the spell books tier, users need to merge 5 books of the same type and rarity for one higher-tier book.
+To upgrade the spell books tier, users need to merge five books of the same type and rarity for one higher-tier book.
 
 ***
