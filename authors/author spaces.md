@@ -26,6 +26,10 @@ The creation of a new quest is a two-part process:
 1. First users fill in all the relevant information about the quest like cover image, instructions, and submission types, and then save it as a draft.
 2. This draft can be deployed after the user has chosen the duration of the quest and the amount of Silver to burn for promotion.
 
+{% hint style="info" %}
+Authors need to carefully check all the information in the quest as after publishing it can no longer be edited.
+{% endhint %}
+
 ***
 
 ###  Quest Sorting
