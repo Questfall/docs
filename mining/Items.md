@@ -63,9 +63,10 @@ that are unique to only one or a few tiers. For Example, elixir can have only pe
 There are four categories of elixirs:
 
 * **Attribute Elixirs** – Increases the base attribute points of the character. Each attribute has one elixir, and these points can’t be redistributed with an attribute reset.
-* **Mystic Elixirs** – These affect things related to magic, spells, and mana like reducing the mana cost of all the character's spells. 
-* **Power Elixirs** - Gives a boost to the mining power, stamina, and the ability to carry more items.
-* **Fortune Elixirs** – Gives chances for lucky strikes, like boosting the probability of doubling bonuses.
+* **Mystic Elixirs** – These affect things related to magic, spells, and mana, like reducing the mana cost of all the character's spells. 
+* **Power Elixirs** - Gives a boost to the mining power, stamina, and the ability to carry more items, like speeding up the stamina recovery.
+* **Fortune Elixirs** – These affect things related to lucky strikes, loot boxes, shards, and trading, like boosting the probability of doubling bonuses.
+
 
 Elixirs do not have a level and the tier can't be upgraded.
 
@@ -105,13 +106,13 @@ For more details about tier and level bonuses, and item weight see [Crafting](cr
 
 IMAGE OF LOOT BOX
 
-**Loot Boxes** are the primary source of all **RPG items**. They can be obtained by buying directly from the system for **100 Gold** (1$) each or by collecting a full set of **Chest Shards**. Chest shards can be earned by completing quests.
+**Loot Boxes** are the primary source of all **RPG items**. They can be obtained by buying directly from the system for **100 Gold** (1$) each or by collecting a full set of [Chest Shards](./character.md).
 
 {% hint style="info" %}
 The Gold spent on buying loot boxes is automatically burned by the system.
 {% endhint %}
 
-By default, a loot box provides one item, with the chance of it being any type, tier, or level. Users can increase their chances of receiving more items by placing points in the Luck attribute. For more details about the function of **Chest Shards** and **Luck Attribute** see the [character section](character.md).
+By default, a loot box provides one item, with the chance of it being any type, tier, or level. Users can increase their chances of receiving more items by placing points in the [Luck attribute](./character.md). 
 
 The function of a loot box is closer to in-game Gold than items:
 
