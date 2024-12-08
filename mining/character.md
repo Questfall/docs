@@ -185,7 +185,7 @@ Each character can have an unlimited amount of **Gold**, which does not add weig
 * buying loot boxes;
 * buying **XP** to level up without moderating;
 * purchasing low-rarity items from other users in the marketplace;
-* promoting quests by increasing the **ACT** reward;
+* promoting quests by increasing the **Mining Point** reward;
 * purchasing a portion of the QFT issue via auction.
 
 ***
@@ -257,7 +257,7 @@ Many activities in Questfall offer a chance to receive bonuses or reduce costs, 
 
 * Earning 2x **Essence** when disassembling an item;
 * Receiving 2 **Chest Shards** as a quest reward;
-* Earning 2x **ACT** as a quest reward;
+* Earning 2x **Mining Points** as a quest reward;
 * Getting 2x chances to win when attacking on warfare map;
 * Spending only half the **Essence** to level up or evolve an item;
 * Spending only half the mana on a spell;

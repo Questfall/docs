@@ -108,11 +108,11 @@ IMAGE OF LOOT BOX
 
 **Loot Boxes** are the primary source of all **RPG items**. They can be obtained by buying directly from the system for **100 Gold** (1$) each or by collecting a full set of [Chest Shards](./character.md).
 
+By default, a loot box provides one item, with the chance of it being any type, tier, or level. Users can increase their chances of receiving more items by placing points in the [Luck attribute](./character.md). 
+
 {% hint style="info" %}
 The Gold spent on buying loot boxes is automatically burned by the system.
 {% endhint %}
-
-By default, a loot box provides one item, with the chance of it being any type, tier, or level. Users can increase their chances of receiving more items by placing points in the [Luck attribute](./character.md). 
 
 The function of a loot box is closer to in-game Gold than items:
 
