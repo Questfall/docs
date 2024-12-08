@@ -62,10 +62,10 @@ that are unique to only one or a few tiers. For Example, elixir can have only pe
 
 There are four categories of elixirs:
 
-* **Attribute Elixirs** – Increases the base attribute points of the character. These points can’t be redistributed with an attribute reset.
-* **Mystic Elixirs** – These affect primarily the mana and spells, like reducing the mana cost of all the character's spells. 
-* **Power Elixirs** - Gives a boost to the mining power, stamina, and the ability to carry and trade more items.
-* **Fortune Elixirs** – Increases the changes for lucky strikes, like boosting the probability of doubling bonuses.
+* **Attribute Elixirs** – Increases the base attribute points of the character. Each attribute has one elixir, and these points can’t be redistributed with an attribute reset.
+* **Mystic Elixirs** – These affect things related to magic, spells, and mana like reducing the mana cost of all the character's spells. 
+* **Power Elixirs** - Gives a boost to the mining power, stamina, and the ability to carry more items.
+* **Fortune Elixirs** – Gives chances for lucky strikes, like boosting the probability of doubling bonuses.
 
 Elixirs do not have a level and the tier can't be upgraded.
 
@@ -111,16 +111,7 @@ IMAGE OF LOOT BOX
 The Gold spent on buying loot boxes is automatically burned by the system.
 {% endhint %}
 
-By default, a loot box provides one item, with the chance of it being any type, tier, or level. Users can increase their chances of receiving more items by placing points in the Luck attribute. 
-
-For more details about the function of **Chest Shards** and **Luck Attribute** see the [character section](character.md).
-
-The items drop rate from a loot box decreases 10 times with each tier. For example, Legendary (C) item is 10 times less likely to drop from a loot box than the same item as Rare (D). 
-
-
-{% hint style="info" %}
-Loot boxes are the only way new items are released into circulation. 
-{% endhint %}
+By default, a loot box provides one item, with the chance of it being any type, tier, or level. Users can increase their chances of receiving more items by placing points in the Luck attribute. For more details about the function of **Chest Shards** and **Luck Attribute** see the [character section](character.md).
 
 The function of a loot box is closer to in-game Gold than items:
 
@@ -132,6 +123,20 @@ There are a few limitations regarding loot boxes:
 
 *  They can’t be traded with other users
 *  Loot box can’t be opened if the character weight limit is fully used
+
+### Drop Rates
+
+The items drop rate from a loot box decreases 10 times with each tier. For example, Legendary (C) item is 10 times less likely to drop from a loot box than the same item as Rare (D). 
+
+This makes the higher-tier items extremely valuable and hard to find in the loot boxes. If the chance of finding an F-tier clothing is 1 in 10 it makes the chances of finding an A-tier clothing 1 in 1 million. 
+
+As finding higher-tier items is so difficult and elixirs and spell books are consumed, the game will never be over-saturated with powerful items. 
+
+{% hint style="info" %}
+Loot boxes are the only way new items are released into circulation. 
+{% endhint %}
+
+
 
 
 ***
