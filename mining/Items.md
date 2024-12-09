@@ -25,13 +25,14 @@ There are multiple types of **Clothing** and the character has six slots to wear
 * **Hand** (gloves, gauntlets)
 * **Back** (capes, cloaks, mantles) 
 
-Wearing clothing can give various benefits like bonuses to mining power, character attributes, mana, stamina, or spell slots.
+Wearing clothing provides many benefits to the character, such as bonuses to mining power, attributes, mana or stamina. 
 
-The character can wear clothing of any level. If the level of the item is higher than the Character Level, the item and its effects will be downgraded (while equipped) to the Character Level while the weight stays the same.
+The character can wear clothing of any level or tier. If the level of the item is higher than the character level, the item and its effects will be downgraded (while equipped) to the character level while the tier and weight stay the same. The higher the level and tier of the clothing, the greater the bonuses.
 
-The level and tier of clothing can be upgraded. Clothing has upgradable and non-upgradable stats based on tier. 
+The level and tier of clothing can be upgraded with [Crafting](./crafting.md).
 
-For more details see [Crafting](crafting.md).
+
+
 
 ### Spell Books
 

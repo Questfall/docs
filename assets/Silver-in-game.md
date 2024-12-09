@@ -9,7 +9,7 @@ icon: sack
 * Unlimited total supply
 * Can be issued by burning [Gold](gold-in-game.md) and through [Moderation](../moderation/majority%20wins.md)
 * There is no limit to the positive or negative Silver balance a user can have
-* Does not consume inventory weight
+* Does not add weight to the inventory
 * Silver is constantly burned by users for system benefits
 
 ### Silver Utility

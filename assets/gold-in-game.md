@@ -11,7 +11,7 @@ icon: sack-dollar
 * Can be issued only by burning QFT 
 * Gold is constantly burned by users for system benefits
 * Character can store an unlimited amount of Gold
-* Does not consume inventory weight
+* Does not add weight to the inventory
 
 
 ### Gold Utility
