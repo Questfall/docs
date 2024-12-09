@@ -27,7 +27,13 @@ There are multiple types of **Clothing** and the character has six slots to wear
 
 Wearing clothing provides many benefits to the character, such as bonuses to mining power, attributes, mana or stamina. 
 
-The character can wear clothing of any level or tier. If the level of the item is higher than the character level, the item and its effects will be downgraded (while equipped) to the character level while the tier and weight stay the same. The higher the level and tier of the clothing, the greater the bonuses.
+The character can wear clothing of any level or tier. If the level of the item is higher than the character level, the item and its effects will be downgraded (while equipped) to the character level while the tier and weight stay the same. The higher the level and tier of the clothing, the greater the bonuses and weight.
+
+
+{% hint style="info" %}
+The weight of clothing is directly affected by its tier and level, and can be calculated using the following formula: 10 grams * Level * Rarity (F=1, E=2).
+{% endhint %}
+
 
 The level and tier of clothing can be upgraded with [Crafting](./crafting.md).
 
