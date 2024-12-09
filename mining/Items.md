@@ -12,6 +12,22 @@ Items can be acquired from **Loot Boxes** and **Marketplace.**
 
 ***
 
+### Tier and Level
+
+**Clothing**, **Spell books** and **Elixirs** comes in six different **Tiers**:
+
+* Common (F) 	
+* Advanced (E) 	
+* Rare (D)	
+* Legendary (C) 	
+* Epic (B) 	
+* Mythic (A) 	
+
+The higher the tier of the item the more powerful and heavier it is.
+In addition to the tier, clothing also has **Level** that affects the item's bonuses.
+
+***
+
 ### Clothing
 
 IMAGE OF CLOTHING
@@ -87,25 +103,6 @@ There are two different types of **Potions**:
 * **Mana Potions** - Consuming fully replenishes the mana reserves. 
 
 Potions do not have a tier or level and there is only one size of both types.
-
-***
-
-### Tier and Level
-
-**Clothing**, **Spell books** and **Elixirs** comes in six different **Tiers**:
-
-* Common (F) 	
-* Advanced (E) 	
-* Rare (D)	
-* Legendary (C) 	
-* Epic (B) 	
-* Mythic (A) 	
-
-The higher the tier of the item the more powerful and heavier it is.
-
-In addition to the tier, clothing has also level. The higher the clothing level the more bonuses it has and the more it weighs.
-
-For more details about tier and level bonuses, and item weight see [Crafting](crafting.md).
 
 ***
 
