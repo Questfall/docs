@@ -14,10 +14,13 @@ This creates an additional layer of game mechanics and gives users the ability t
 
 ### Weight and Essence
 
-The item's weight, amount of essence it contains, and tier and level are directly correlated. The heavier the clothing the more essence is needed for upgrading it. By disassembling any item user gets a percentage of the essence it contains. The number of essences received from disassembling an item can be increased by adding points to the **Crafting Attribute**.
-For more details see the [Essence Balance](character.md).
+The item's weight, amount of essence it contains, and tier and level are directly correlated. The heavier the clothing the more essence is needed for upgrading it. 
 
-Essence is a highly valued resource as in addition to crafting it is needed to equip and unequip clothing and it can’t be bought or traded.
+By disassembling any item user gets a percentage of the essence it contains. The number of essences received from disassembling an item can be increased by adding points to the crafting attribute. 
+
+For more details about the amounts of essence needed for upgrading and received from disassembling see the [Essence Balance](character.md).
+
+Essence is a highly valued resource as in addition to upgrading it is needed to equip and unequip clothing and it can’t be bought or traded.
 
 
 
@@ -54,7 +57,7 @@ The number of **upgradable** and **non-upgradable** effects is based on the tier
 For example, A level 10 rare (C) robe gives +4% to mining efficiency, +1000 to mana, +1000 stamina, and +10 to crafting attribute, by upgrading it to level 11 it gives 4.4% to mining efficiency, +1100 to mana, and +1100 to stamina, and +10 to crafting attribute. 
 {% endhint %}
 
-There is no fixed maximum level for the items as it will increase with the levels of the highest-level user.
+There is no fixed maximum level for the items as it will increase with the level of the highest-level user.
 
 
 ### Spell Books
