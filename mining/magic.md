@@ -15,7 +15,9 @@ Spells enhance the user's performance on the platform, for example, by increasin
 
 ### Spells
 
-The spells can be learned from **Spell Books** and unlearned by simply deleting them. When learning, a spell the book is consumed, and the spell appears on one of the character **Spell Slots**. Each character starts with one spell slot, and the number of slots can be increased by adding points to **Magic Attribute** and through items.
+The spells can be learned from **Spell Books** and unlearned by simply deleting them. When learning, a spell the book is consumed, and the spell appears on one of the character **Spell Slots**. 
+
+Each character starts with one spell slot, and the number of slots can be increased by adding points to **Magic Attribute** and through items.The maximum number of spell slots equals the number of different spells in Questfall which can increase through time with updates.
 
 Each spell has six levels of power corresponding to the tiers of spell books. The power of spells increases exponentially with the tiers making Mythic (A) spells about 100 times as powerful as Common (F) spells. 
 
