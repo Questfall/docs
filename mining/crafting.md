@@ -32,9 +32,8 @@ The amount of boosts **Clothing** gives depends on its tier and level which can 
 
 Users can freely choose to upgrade either the tier or level of clothing. Any level item can be evolved by tier and any tier item can be increased in level. The cost/benefit ratio is the same with both upgrades but evolving the tier often consumes more essence at one time as it has a greater effect on item bonuses. 
 
-### Tier Upgrade
 
-**The Tier Upgrade** adds randomly a new effect to the clothing and the item level stays the same. When the item gets a new upgradable effect (F to E, E to D), the power of the new effect is based on the clothing level.
+* **The Tier Upgrade** adds randomly a new effect to the clothing and the item level stays the same. When the item gets a new upgradable effect (F to E, E to D), the power of the new effect is based on the clothing level.
 
 {% hint style="info" %}
 For example, A level 20 common (F) helmet gives +6% to mining efficiency, and by evolving it to Advanced (E), it will give +6% to mining efficiency and +2000 to mana. (+100 mana for each level)
@@ -53,9 +52,9 @@ The number of **upgradable** and **non-upgradable** effects is based on the tier
 
 Within the same higher tier, clothing of the same level can vary in quality. This is because the strength of the new non-upgradable effect is randomly generated within a specific range. Non-upgradable effects already in the clothing remain unchanged when the tier is upgraded.
 
-### Level Upgrade
 
- **The Level Upgrade** linearly increases the effect of all the upgradable bonuses within the clothing. All the non-upgradable bonuses stay the same. 
+
+ * **The Level Upgrade** linearly increases the effect of all the upgradable bonuses within the clothing. All the non-upgradable bonuses stay the same. 
 
 {% hint style="info" %}
 For example, A level 10 rare (C) robe gives +4% to mining efficiency, +1000 to mana, +1000 stamina, and +10 to crafting attribute, by upgrading it to level 11 it gives 4.4% to mining efficiency, +1100 to mana, and +1100 to stamina, and +10 to crafting attribute. 
