@@ -26,7 +26,7 @@ Essence is a highly valued resource as in addition to upgrading it is needed to 
 
 ***
 
-### Clothing
+### Clothing Upgrade
 
 The amount of boosts **Clothing** gives depends on its tier and level which can be upgraded by crafting.
 
@@ -59,7 +59,7 @@ For example, A level 10 rare (C) robe gives +4% to mining efficiency, +1000 to m
 
 There is no fixed maximum level for the items as it will increase based on the level of the highest-level users.
 
-### Spell Books
+### Spell Book Upgrade
 
 Each spell has six levels of power corresponding to the tiers of **Spell Books**. The power of spells increases exponentially with the tiers.
 
