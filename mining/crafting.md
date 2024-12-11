@@ -64,7 +64,7 @@ For example, A-tier clothing could give effects to different attributes using +1
  * **The Level Upgrade** linearly increases the effect of all the upgradable bonuses within the clothing. All the non-upgradable bonuses stay the same. 
 
 {% hint style="info" %}
-For example, A level 10 rare (C) robe gives +4% to mining efficiency, +1000 to mana, +1000 stamina, and +10 to crafting attribute, by upgrading it to level 11 it gives 4.4% to mining efficiency, +1100 to mana, and +1100 to stamina, and +10 to crafting attribute. 
+For example, A level 10 Legendary (D) robe gives +4% to mining efficiency, +1000 to mana, +1000 stamina, and +10 to crafting attribute, by upgrading it to level 11 it gives 4.4% to mining efficiency, +1100 to mana, and +1100 to stamina, and +10 to crafting attribute. 
 {% endhint %}
 
 There is no fixed maximum level for the items as it will increase based on the level of the highest-level users.
