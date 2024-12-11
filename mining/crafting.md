@@ -58,7 +58,7 @@ The power range of the non-upgradable effect will get higher with each tier:
 * A 200% - 300%
 
 {% hint style="info" %}
-For example, if the base effect is +10 to the mining attribute B-tier item would randomly give between 10-20 points.
+For example, A-tier clothing could give effects to different attributes using +10 as a base, +7 to Recharge Attribute (C), +19 to Mining Attribute (B), and +25 to Crafting Attribute (A).
 {% endhint %}
 
  * **The Level Upgrade** linearly increases the effect of all the upgradable bonuses within the clothing. All the non-upgradable bonuses stay the same. 
