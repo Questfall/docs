@@ -46,6 +46,8 @@ Each quest has a **Base Reward** of a certain number of **Mining Points**. By co
 
 The base rewards of quests range from 10 (no promotion) up to <1000 (1000 is unreachable) depending on the author's promotion size. 
 
+In addition to the base reward, the users earn chest shards by completing quests that have been promoted. 
+
 
 ### Mining Efficiency 
 
@@ -55,7 +57,7 @@ By increasing the personal **Mining Efficiency** bonus a user can receive more m
 For example, if the base reward for the quest is 50 mining points and the user has 100% of mining bonus, they receive 100 mining points from completing the quest.
 {% endhint %}
 
-Constant mining efficiency bonus can be increased by clothing, elixirs, rating quests, and adding points to the mining attribute. Spells and Elixirs can give mining bonuses for a limited time or to a specific quest.
+Constant mining efficiency bonus can be increased by clothing, elixirs, rating quests, and adding points to the mining attribute. Spells and elixirs can give mining bonuses for a limited time or to a specific quest.
 
 ***
 
