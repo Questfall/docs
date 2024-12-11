@@ -49,7 +49,21 @@ The number of **upgradable** and **non-upgradable** effects is based on the tier
 *  3/2 - Epic (B) 	
 *  3/3 - Mythic (A)
 
-Within the same higher tier, clothing of the same level can vary in quality. This is because the strength of the new non-upgradable effect is randomly generated within a specific range. Non-upgradable effects already in the clothing remain unchanged when the tier is upgraded.
+Within the same higher tier, clothing of the same level can vary in quality. This is because the strength of the new non-upgradable effect is randomly generated within a specific range. Non-upgradable effects already in the clothing remain unchanged when the tier is upgraded. 
+
+
+{% hint style="info" %}
+The power range of the non-upgradable effect will get higher with each tier. 
+
+* C 50% - 100%
+* B 100% - 200%
+* A 200% - 300% 
+
+For example, if the base effect is +10 to the mining attribute B-tier item would randomly give between 10-20 points.
+
+{% endhint %}
+
+
 
  * **The Level Upgrade** linearly increases the effect of all the upgradable bonuses within the clothing. All the non-upgradable bonuses stay the same. 
 

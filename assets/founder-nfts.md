@@ -17,7 +17,7 @@ In addition to an indefinite passive income source of 10% of the weekly QFT issu
 ### Initial Funding Event
 
 
-At **Initial Funding Event** the users can purchase Founder NFTs of six tiers containing different amounts of founder points. With each tier, the cost of NFT gets higher but the actual price of 1 founder point decreases. The prices of the NFTs ranges from ten dollars (F) to $2430 (A). 
+At **Initial Funding Event** the users can purchase Founder NFTs of six tiers containing different amounts of founder points. With each tier, the cost of NFT gets higher but the actual price of one founder point decreases. The prices of the NFTs ranges from 10 dollars (F) to $2430 (A). 
 
 With each purchase, the user receives 10 Limited Edition Loot Boxes containing items of the tier of the NFT.
 

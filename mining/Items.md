@@ -45,11 +45,11 @@ Wearing clothing provides many benefits to the character, such as bonuses to min
 
 The character can wear clothing of any level or tier. If the level of the item is higher than the character level, the item and its effects will be downgraded (while equipped) to the character level while the tier and weight stay the same. The higher the level and tier of the clothing, the greater the bonuses and weight.
 
+All types of clothing can be seen as equal in quality as they give the same amount of bonuses for the same weight. However, every kind of clothing has a unique weight ratio making some items heavier and more powerful than others. Trousers of the same level and tier will weigh more than a hat and give higher effects.
 
 {% hint style="info" %}
 The weight of clothing is directly affected by its tier and level, and can be calculated using the following formula: 10 grams * Level * Rarity (F=1, E=2).
 {% endhint %}
-
 
 The level and tier of clothing can be upgraded with [Crafting](./crafting.md).
 
