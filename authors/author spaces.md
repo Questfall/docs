@@ -14,7 +14,13 @@ Within the author space, users can manage all the necessary things related to au
 A user can be the creator of only one author space but can be part of an unlimited amount by invitation. Like when a team or company wants to manage its official Questfall author space, many users can have the rights to use it and create quests for it.
 {% endhint %}
 
-The owner of the author's space can give two types of roles to other users for managing the space:
+
+***
+
+### Roles
+
+The creator of the author's space gets the role of an owner and can give two types of roles to other users for managing the space:
+
 1. **Owner** – Has full access and rights to the author space.
 2. **Admin** – Has limited access to the author space. The owners can modify the rights of admins for example by allowing them only to edit and publish quests they have created.
 
