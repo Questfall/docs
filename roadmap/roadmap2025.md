@@ -16,9 +16,7 @@ Marketing and partnerships are ongoing activities that we will adapt to market c
 Preparing for the initial funding event by publishing landing pages and whitepaper, and through promotional activities.
 
 * [ ] Whitepaper (this documentation)
-* [ ] Publishing Questfall landing page
-* [ ] Publishing Founders landing page
-* [ ] Publishing Ambassadors landing page
+* [ ] Questfall landing pages
 
 The current status: <mark style="background-color:orange;">Not yet launched...</mark>&#x20;
 
@@ -30,11 +28,11 @@ The current status: <mark style="background-color:orange;">Not yet launched...</
 
 The main goal of the Initial Funding Event is to raise money for project development and initial operations by selling [Founder NFTs](../assets/founder-nfts.md) to the public.
 
-The main motivation to become a Founder is an endless income stream from the Questfall platform. In order to achieve this, every Sunday at least 10% of the weekly QFT issuance will be distributed among the founders according to the Founder NFT points.
+The main motivation to purchase the Founder NFTs is to get a share of the initial circulating supply of QFT and an endless income stream from the Questfall platform. 
 
 * [ ] Questfall project webpage
 * [ ] Initial Funding Event webpage&#x20;
-* [ ] Founders and Miners NFTs smart contracts
+* [ ] Founder NFTs smart contracts
 
 The current status: <mark style="background-color:orange;">Not yet launched...</mark>&#x20;
 
@@ -44,9 +42,9 @@ The current status: <mark style="background-color:orange;">Not yet launched...</
 
 <mark style="color:yellow;">Right after IFE</mark>
 
-The weekly issuance of [Questfall Token (QFT)](../assets/questfall-tokens-qft.md) will begin prior to the launch of the project to reward founders.&#x20;
+The creation of [Questfall Token (QFT)](../assets/questfall-tokens-qft.md) and its weekly issuance will start right after the Initial Funding Event. 
 
-Initially, 5% of all QFT issued each week will go to the Team for project development and marketing, and the remaining 95% will go to the founders, who are considered to be the initial miners. The founders' percentage will drop to the final 10% when all other rewarding activities are launched.
+5% of all QFT issued each week will go to the Team for project development and marketing, and the remaining 95% will go to the holders of Founder NFTs, who are considered to be the initial miners. The founders' weekly share will drop in stages to the final 10% when all other [Rewarding Pools](../overview/quest-mining.md) are launched.
 
 * [ ] Questfall Token smart contract
 * [ ] Personal account web interface for founders
@@ -62,8 +60,7 @@ The current status: <mark style="background-color:orange;">Not yet launched...</
 
 In order to reduce the number of Founder NFTs in circulation, the system will use some of the QFT issue to buy back and burn these NFTs.
 
-Once NFT burning is active, 1% of the weekly QFT issue will be used to buy back and burn Founder NFTs from the secondary market.
-The founder's percentage will be reduced accordingly to 94%.
+Once NFT burning is active, 1% of the weekly QFT issue will be used to buy back and burn Founder NFTs from the secondary market. The founder's percentage will be reduced accordingly to 94%.
 
 * [ ] Smart contracts for auctions
 * [ ] Personal web interface for user bids
@@ -122,6 +119,8 @@ The current status: <mark style="background-color:orange;">Not yet launched...</
 
 
 ## Future Plans 2026 ->
+
+### Questfall, versions 1.5 and 2.0
 
 ### Local quests judged by the crowd
 
