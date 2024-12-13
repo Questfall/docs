@@ -22,5 +22,4 @@ In fact, the last owners of each type of NFT will be able to get as many QFTs as
 
 ***
 
-
-The current status: <mark style="background-color:orange;">coming before Questfall v1.0</mark>&#x20;
+<mark style="background-color:orange;">Coming before Questfall v1.0</mark>&#x20;

@@ -10,7 +10,7 @@
 * [Sybil Defence](overview/sybil-defence.md)
 * [RPG System](overview/rpg-system.md)
 
-## mining
+## Mining
 
 * [Character](mining/character.md)
 * [Quests](mining/Quests.md)

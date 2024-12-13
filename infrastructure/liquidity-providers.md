@@ -10,6 +10,5 @@ The reward will be paid only to those who provide liquidity to the official Unis
 
 ***
 
-The current status: <mark style="background-color:orange;">coming before Questfall v1.0</mark>&#x20;
-
+<mark style="background-color:orange;">Coming before Questfall v1.0</mark>&#x20;
 

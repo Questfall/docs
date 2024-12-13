@@ -110,7 +110,7 @@ Potions do not have a tier or level and there is only one size of both types.
 
 IMAGE OF LOOT BOX
 
-**Loot Boxes** are the primary source of all **RPG items**. They can be obtained by buying directly from the system for **100 Gold** (1$) each or by collecting a full set of [Chest Shards](./character.md).
+**Loot Boxes** are the primary source of all **RPG items**. They can be obtained by buying directly from the system for **100 Gold** ($1) each or by collecting a full set of [Chest Shards](./character.md).
 
 By default, a loot box provides one item, with the chance of it being any type, tier, or level. Users can increase their chances of receiving more items by placing points in the [Luck attribute](./character.md) and by consuming a specific elixir.
 

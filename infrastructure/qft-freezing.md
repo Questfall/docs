@@ -20,4 +20,4 @@ We use the word _**freezing**_ because _**staking**_ implies the possibility of 
 
 ***
 
-The current status: <mark style="background-color:orange;">coming before Questfall v1.0</mark>&#x20;
+<mark style="background-color:orange;">Coming before Questfall v1.0</mark>&#x20;

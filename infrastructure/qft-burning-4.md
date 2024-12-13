@@ -14,4 +14,4 @@ Meanwhile, for Gold, users receive value (quest promotion, items, and XP) from t
 
 ***
 
-The current status: <mark style="background-color:orange;">coming before Questfall v1.0</mark>&#x20;
+<mark style="background-color:orange;">Coming before Questfall v1.0</mark>&#x20;
