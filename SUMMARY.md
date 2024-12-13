@@ -59,8 +59,9 @@
 
 ## Links
 
-* Landing Page (coming soon)
-* Questfall Platform (coming soon)
+* [Landing Page](Links/Landing%20Page.md) 
+* [Initial Funding Event](Links/IFE.md)
+* [Questfall Platform](Links/Questfall%20Platform.md)
 * [Discord](https://discord.com/invite/9BDjb3GrHA)
 * [X](https://x.com/QuestfallHQ)
 
