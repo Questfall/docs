@@ -65,18 +65,15 @@ For this purpose, each author space has a leaderboard showing the users who have
 
 ***
 
-### Silver Donations
+### Assets and Donation
 
-Each author space has a QFT, Gold, and Silver balances that can be used for special rewards and to promote the created quests. The owners can freely deposit any amount of these assets to the author's space. 
+Each author space has a QFT, Gold, and Silver balances that can be used for special rewards and to promote the created quests. The owners can freely deposit any amount of these assets to the author's space and withdraw QFT and Gold. Silver can be only used within the author's space for promotion and can’t be withdrawn or donated.
 
-QFT and Gold can be withdrawn but Silver can be only used within the author space. 
-
-Other users can **Donate** assets to the author space to increase the Silver balance. The donation allows project members and common users to support the space. Donated QFTs and Gold are immediately burned to Silver.
+Users other than the creator can **Donate Assets** to the author space to increase the Silver balance. The donation allows project members and common users to support the space. Donated QFTs and Gold are immediately burned to Silver.
 
 {% hint style="info" %}
 Personal resources can be used directly for promotion by the quest creator without manually moving the assets to the author space first.
 {% endhint %}
-
 
 
 ***
