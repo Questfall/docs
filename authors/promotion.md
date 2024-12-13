@@ -11,7 +11,7 @@ Authors can **promote** their quests by burning **Silver**. The more Silver is b
 By burning Gold the user receives 10 times the amount of Silver. For example, If 100 Gold is burned the user receives 1000 Silver.
 
 {% hint style="info" %}
-For convenience, the users can use Gold directly for promotion so that the burning of it to Silver happens automatically. 
+For convenience, authors can use QFT and Gold directly for promotion so that the burning of it to Silver happens automatically. 
 {% endhint %}
 
 ***
@@ -22,7 +22,7 @@ Promoting quests benefits the author, miners, and the whole system:
 * **More Visibility** – The more Silver is burned for promoting a quest the higher it will appear on the quest feed. This results in more users seeing and completing the quest.
 * **Reward for Miners** – The mining point reward of a quest increases as more Silver is used for promoting it. This makes the quest more attractive to miners which leads to more completions and higher ratings.
 * **Author Reward** - As the weekly QFT reward for authors is calculated based on the amount of completions on the author’s quests, promoting quests directly contributes for a higher weekly reward.
-* **QFT Burning** – Quests promotion contributes to deflation within the system as QFT is constantly burned for Gold, and then converted to Silver for quest promotion.
+* **QFT Burning** – Quest promotion contributes to deflation within the system as QFT and Gold are constantly burned to Silver for promotion.
 
 ***
 

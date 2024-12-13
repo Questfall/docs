@@ -16,6 +16,6 @@ icon: sack
 
 * Can be burned to buy XP to increase the [Character Level](../mining/character.md)
 * Can be burned to [Promote](../authors/promotion.md) a quest to increase its mining point score and visibility
-* Can be [donated](../authors/author%20spaces.md) to author spaces for promotion
+* Can be [Donated](../authors/author%20spaces.md) to author spaces for promotion
 
 ***

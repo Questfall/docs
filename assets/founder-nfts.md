@@ -4,7 +4,7 @@ icon: crown
 
 # - Founder NFTs
 
-Founder NFTs represent a contribution to the platform's early development and help to raise the funds needed to build and promote Questfall. The holders of the Founder NFTs can be seen as the initial miners as they will get the early circulating supply of QFT before the launch of the platform.
+Founder NFTs represent a contribution to the platform's early development and help to raise the funds needed to build and promote Questfall. The first holders of the Founder NFTs can be seen as the initial miners as they will get the early circulating supply of QFT before the platform's launch.
 
 Each Founder NFT is tied to a share of the 2,000,000 total [Founder Points](../infrastructure/founders-revenue.md). Holders of the NFT earn a percentage of the newly created QFTs each week, proportional to their founder points share. The earned QFTs accumulate on the Questfall platform from where they can be claimed.
 
