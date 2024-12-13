@@ -57,5 +57,12 @@
 
 * [Roadmap 2025-2026](roadmap/roadmap2025.md)
 
+## Links
+
+* [Landing Page](Links/Landing%20Page.md)
+* [Questfall Platform](Links/Questfall%20Platform.md)
+* [Discord](discord.gg/9BDjb3GrHA)
+* [X](https://x.com/QuestfallHQ)
+
 
 
