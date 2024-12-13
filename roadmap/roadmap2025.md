@@ -30,7 +30,7 @@ The current status: <mark style="background-color:orange;">Not yet launched...</
 
 The main goal of the Initial Funding Event is to raise money for project development and initial operations by selling [Founder NFTs](../assets/founder-nfts.md) to the public.
 
-The main motivation to become a Founder is an endless income stream from the Questfall platform. In order to achieve this, every Sunday at least 10% of the [weekly QFT fund](../assets/questfall-tokens-qft.md) will be distributed among the founders according to the NFT parameter called "[points](../assets/founder-nfts.md)".
+The main motivation to become a Founder is an endless income stream from the Questfall platform. In order to achieve this, every Sunday at least 10% of the weekly QFT issuance will be distributed among the founders according to the Founder NFT points.
 
 * [ ] Questfall project webpage
 * [ ] Initial Funding Event webpage&#x20;
@@ -60,7 +60,7 @@ The current status: <mark style="background-color:orange;">Not yet launched...</
 
 <mark style="color:yellow;">June 2025 - September 2025</mark>
 
-In order to reduce the number of Miners and Founders NFTs in circulation, the system will use some of the QFT issue to buy back and burn these NFTs.
+In order to reduce the number of Founder NFTs in circulation, the system will use some of the QFT issue to buy back and burn these NFTs.
 
 Once NFT burning is active, 1% of the weekly QFT issue will be used to buy back and burn Founder NFTs from the secondary market.
 The founder's percentage will be reduced accordingly to 94%.
@@ -87,11 +87,11 @@ The current status: <mark style="background-color:orange;">Not yet launched...</
 
 ***
 
-### Uniswap Pool
+### Liquidity Pool
 
 <mark style="color:yellow;">2 weeks prior to platform launch</mark>
 
-The official Uniswap QFT-USDT swapping pool will be launched by the Team and will offer rewards to liquidity providers from very beginning.
+The official Uniswap QFT-USDT swapping pool will be launched by the Team and will offer rewards to [Liquidity Providers](../infrastructure/liquidity-providers.md) from the very beginning.
 
 Once the liquidity pool is operational, 5% of the weekly QFT issue will be used to reward liquidity providers according to their share of the pool during a week, reducing the founders' percentage to 84%.
 
@@ -122,8 +122,6 @@ The current status: <mark style="background-color:orange;">Not yet launched...</
 
 
 ## Future Plans 2026 ->
-
-
 
 ### Local quests judged by the crowd
 
