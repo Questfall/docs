@@ -55,15 +55,7 @@
 
 ## Roadmap
 
-* [Roadmap](roadmap/roadmap.md)
-* [System Design](roadmap/system-design.md)
-* [Raising Event](roadmap/raising-event.md)
-* [QFT Launch](roadmap/qft-launch.md)
-* [Founder NFTs Burning](roadmap/founder-nfts-burning.md)
-* [QFT Freezing](roadmap/qft-freezing.md)
-* [Uniswap Pool](roadmap/uniswap-pool.md)
-* [QFT burning](roadmap/qft-burning.md)
-* [Questfall, Version 1.0](roadmap/questfall-version-1.0.md)
+* [Roadmap 2025-2026](roadmap/roadmap2025.md)
 
 
 

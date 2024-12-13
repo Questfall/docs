@@ -1,4 +1,17 @@
 
+### QFT burning
+
+<mark style="color:yellow;">February 2025</mark>
+
+To ensure a minimum number of tokens are burned each week, the system will reward users for burning their tokens. Providing such rewards in advance allows founders to accumulate credits before Questfall launches, with minimal competition and therefore virtually free.
+
+Once the burning rewards are active, 4% of the weekly QFT issue will be used to proportionally reward users who burn their QFTs. The founder's percentage will be reduced accordingly to 83%.
+
+* [ ] Server for accumulating received Credits
+* [ ] Personal web interface for QFT burning
+
+The current status: <mark style="background-color:orange;">Not yet launched...</mark>&#x20;
+
 # - Founder NFTs
 
 The first investors in Questfall are treated as founders.\
