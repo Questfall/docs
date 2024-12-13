@@ -58,7 +58,7 @@ The current status: <mark style="background-color:orange;">Not yet launched...</
 
 ### NFT Burning
 
-<mark style="color:yellow;">June 2025</mark>
+<mark style="color:yellow;">June 2025 - September 2025</mark>
 
 In order to reduce the number of Miners and Founders NFTs in circulation, the system will use some of the QFT issue to buy back and burn these NFTs.
 
@@ -74,7 +74,7 @@ The current status: <mark style="background-color:orange;">Not yet launched...</
 
 ### QFT Freezing
 
-<mark style="color:yellow;">July 2025</mark>
+<mark style="color:yellow;">June 2025 - September 2025</mark>
 
 In order to reduce the amount of QFT in circulation, the system will reward users for [Freezing](../infrastructure/qft-freezing.md) their tokens.
 
@@ -105,7 +105,7 @@ The current status: <mark style="background-color:orange;">Not yet launched...</
 
 ### Questfall, version 1.0
 
-<mark style="color:yellow;">October 2025</mark>
+<mark style="color:yellow;">October 2025 - December 2025</mark>
 
 The launch of Questfall is the main goal at this stage. It will allow anyone to create and complete quests using the next-generation crypto platform.
 
