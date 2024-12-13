@@ -1,5 +1,5 @@
 
-### QFT burning
+# QFT burning
 
 <mark style="color:yellow;">February 2025</mark>
 
