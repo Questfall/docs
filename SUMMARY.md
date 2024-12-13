@@ -61,7 +61,7 @@
 
 * Landing Page (coming soon)
 * Questfall Platform (coming soon)
-* [Discord](discord.gg/9BDjb3GrHA)
+* [Discord](https://discord.com/invite/9BDjb3GrHA)
 * [X](https://x.com/QuestfallHQ)
 
 
