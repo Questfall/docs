@@ -22,4 +22,4 @@ The need to claim rewarded QFTs means that the tokens are not actually issued un
 
 ***
 
-The current status: <mark style="background-color:orange;">coming before Questfall v1.0</mark>&#x20;
+<mark style="background-color:orange;">Coming before Questfall v1.0</mark>&#x20;
