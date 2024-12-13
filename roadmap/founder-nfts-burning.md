@@ -2,5 +2,5 @@
 icon: square
 ---
 
-# Founder NFTs burning
+# Founder NFTs Burning
 

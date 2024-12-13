@@ -2,5 +2,5 @@
 icon: square
 ---
 
-# Questfall, version 1.0
+# Questfall, Version 1.0
 

@@ -2,5 +2,5 @@
 icon: square
 ---
 
-# QFT launch
+# QFT Launch
 

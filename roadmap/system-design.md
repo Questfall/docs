@@ -2,5 +2,5 @@
 icon: square-chevron-right
 ---
 
-# System design
+# System Design
 

@@ -2,5 +2,6 @@
 icon: square
 ---
 
-# QFT freezing
+# QFT Freezing
 
+The start of the QFT [Freezing](../infrastructure/qft-freezing.md).

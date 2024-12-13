@@ -2,5 +2,5 @@
 icon: square
 ---
 
-# QFT burning
+# QFT Burning
 
