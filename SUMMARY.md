@@ -59,8 +59,8 @@
 
 ## Links
 
-* [Landing Page](Links/Landing%20Page.md)
-* [Questfall Platform](Links/Questfall%20Platform.md)
+* Landing Page (coming soon)
+* Questfall Platform (coming soon)
 * [Discord](discord.gg/9BDjb3GrHA)
 * [X](https://x.com/QuestfallHQ)
 

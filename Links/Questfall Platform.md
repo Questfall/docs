@@ -1,5 +1,0 @@
----
-icon: rss
----
-
-Coming Soon
