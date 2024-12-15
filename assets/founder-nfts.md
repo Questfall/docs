@@ -16,8 +16,6 @@ icon: crown
 * Within purchase gives in-game bonuses in the form of Loot Boxes, Gold and Silver
 
 
-
-
 ***
 
 Founder NFTs represent a contribution to the platform's early development and help to raise the funds needed to build and promote Questfall. The first holders of the Founder NFTs can be seen as the initial miners as they will get the early circulating supply of QFT before the platform's launch.
@@ -38,5 +36,5 @@ At **Initial Funding Event** the users can purchase Founder NFTs of six tiers co
 
 With each NFT, the user receives one [Limited Edition Loot Box](../assets/limited%20edition%20loot%20boxes.md) containing an item of the same tier as the NFT. Additionally, the user gets a normal loot box and free Silver and Gold with each NFT purchase.
 
-There is a limited number of each tier of Founder NFT in sale. The IFE will last a few days or until all the NFTs and 1.2M founder points are sold.
+There is a limited number of each tier of Founder NFT in sale. The IFE will last a few days or until all the NFTs and 1.8 million founder points are sold.
 

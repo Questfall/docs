@@ -6,7 +6,7 @@ icon: shirt
 
 IMAGE OF INVENTORY WITH ITEMS
 
- There are a variety of in-game **Items** comprising **Clothing**, **Spellbooks**, **Elixirs**, and **Potions** which give bonuses to the character and game play. 
+ There are a variety of in-game **Items** comprising **Clothing**, **Spell Books**, **Elixirs**, and **Potions** which give bonuses to the character and game play. 
 
 Items can be acquired from **Loot Boxes** and **Marketplace.** 
 
@@ -14,7 +14,7 @@ Items can be acquired from **Loot Boxes** and **Marketplace.**
 
 ### Tier and Level
 
-**Clothing**, **Spell books** and **Elixirs** comes in six different **Tiers**:
+**Clothing**, **Spell Books** and **Elixirs** comes in six different **Tiers**:
 
 * Common (F) 	
 * Advanced (E) 	
@@ -45,25 +45,27 @@ Wearing clothing provides many benefits to the character, such as bonuses to min
 
 The character can wear clothing of any level or tier. If the level of the item is higher than the character level, the item and its effects will be downgraded (while equipped) to the character level while the tier and weight stay the same. The higher the level and tier of the clothing, the greater the bonuses and weight.
 
-All types of clothing can be seen as equal in quality as they give the same amount of bonuses for the same weight. However, every kind of clothing has a unique weight ratio making some items heavier and more powerful than others. Trousers of the same level and tier will weigh more than a hat and give higher effects.
+All types of clothing can be seen as equal in quality as they give the same amount of bonuses for the same weight. However, every kind of clothing has a unique weight ratio making some items heavier and more powerful than others. 
 
 {% hint style="info" %}
-The weight of clothing is directly affected by its tier and level, and can be calculated using the following formula: 10 grams * Level * Tier (F=1, E=2).
+For example, the weight and effect of pants are three times that of a hat. If (F) level 10 hat weighs 100g and gives 280 mana a pants of the same level and tier would weigh 300g and give 840 mana.
 {% endhint %}
 
+Each clothing has a weight ratio from 1 to 4, giving weight to level 1 (F) items from 10 to 40 grams.
+
+The weight of clothing is directly affected by its tier and level, and can be calculated using the following formula: 10 grams * weight ratio * Level * Tier (F=1, E=2).
+
 The level and tier of clothing can be upgraded with [Crafting](./crafting.md).
-
-
 
 
 ### Spell Books
 
 IMAGE OF SPELL BOOK
 
-Users can learn spells from the spell books by consuming them. 
+Users can learn spells from the **Spell Books** by consuming them. 
 For each spell, there are six tiers of spell books.
 
-Spell Books do not have a level and the tier can be upgraded.
+Spell books do not have a level and the tier can be upgraded.
 
 For more details see [Magic](magic.md).
 
@@ -90,6 +92,7 @@ There are four categories of elixirs:
 * **Power Elixirs** - Gives a boost to the mining power, stamina, and the ability to carry more items, like speeding up the stamina recovery.
 * **Fortune Elixirs** – These affect things related to lucky strikes, loot boxes, shards, and trading, like boosting the probability of bonus chances.
 
+**Questfall Elixirs PDF**
 
 Elixirs do not have a level and the tier can't be upgraded.
 

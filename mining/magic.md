@@ -33,15 +33,7 @@ Casting a spell consumes **Mana**, so the ability to cast powerful or multiple s
 
 ### Spell Examples
 
-IMAGE OF SPELL CARDS
+IMAGE OF SPELL CARDS and/or Questfall Spells PDF
 
-
-Reduces the character's stamina usage
-
-Increases all the effects of clothing by % for some time 
-
-May transforms Elixir randomly to another one of the same tier
-
-Increase the chance of getting multiple and missing Shards
 
 * * *
