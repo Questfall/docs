@@ -53,7 +53,7 @@ For example, the weight and effect of pants are three times that of a hat. If (F
 
 Each clothing has a weight ratio from 1 to 4, giving weight to level 1 (F) items from 10 to 40 grams.
 
-The weight of clothing is directly affected by its tier and level, and can be calculated using the following formula: 10 grams * weight ratio * Level * Tier (F=1, E=2).
+The weight of clothing is directly affected by its tier and level, and can be calculated using the following formula: 10 Grams * Weight Ratio * Level * Tier (F = 1, A = 6).
 
 The level and tier of clothing can be upgraded with [Crafting](./crafting.md).
 
