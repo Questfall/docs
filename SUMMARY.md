@@ -12,6 +12,7 @@
 
 ## Mining
 
+* [Overview](mining/overview.md)
 * [Character](mining/character.md)
 * [Quests](mining/Quests.md)
 * [Items](mining/Items.md)
@@ -19,20 +20,22 @@
 * [Magic](mining/magic.md)
 * [Rewards](mining/rewards.md)
 
-## Authors
+## Authoring
 
-* [Author Spaces](<authors/author spaces.md>)
-* [Ratings](authors/ratings.md)
-* [Reputation](authors/reputation.md)
-* [Promotion](authors/promotion.md)
-* [Rewards](authors/rewards.md)
+* [Overview](authoring/overview.md)
+* [Author Spaces](authoring/author-spaces.md)
+* [Ratings](authoring/ratings.md)
+* [Reputation](authoring/reputation.md)
+* [Promotion](authoring/promotion.md)
+* [Rewards](authoring/rewards.md)
 
-## Moderation
+## Moderating
 
-* [Majority Wins](<moderation/majority wins.md>)
-* [Types of Voting](<moderation/types of voting.md>)
-* [System Fakes](<moderation/system fakes.md>)
-* [Rewards and Punishments](<moderation/rewards and punishments.md>)
+* [Overview](moderating/overview.md)
+* [Majority Wins](moderating/majority-wins.md)
+* [Types of Voting](moderating/types-of-voting.md)
+* [System Fakes](moderating/system-fakes.md)
+* [Rewards and Punishments](moderating/rewards-and-punishments.md)
 
 ## Infrastructure
 

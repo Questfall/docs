@@ -14,7 +14,7 @@ But if we take something that we humans find meaningful as a value for mining (p
 Perhaps in the future AI will evolve to the point where it can become an infallible judge, but that will be another story, far from the decentralised systems.
 {% endhint %}
 
-This makes it possible to generate tons of very low quality fakes and get rewarded for them, because the algorithm can't distinguish between good and bad quality and rewards every item the same.&#x20;
+This makes it possible to generate tons of very low quality fakes and get rewarded for them, because the algorithm can't distinguish between good and bad quality and rewards every item the same.
 
 This turns counterfeiting into a profitable strategy, and eventually there will be so many fakes that the reward for each item will be too small to justify the effort of making quality ones.
 
@@ -34,13 +34,13 @@ However, crypto projects should be about innovation and driving progress, so our
 
 In Questfall, users can participate in community moderation by voting on each other's quest completions to distinguish between fake quest completions and real ones. This shifts the problem of protecting the system from the quality of the completion to the binary result of the vote.
 
-In fact, we are talking about a community consensus on each of the completions, and like any other consensus, if it costs nothing to vote, it is vulnerable to [Sybil attacks](https://en.wikipedia.org/wiki/Sybil\_attack).&#x20;
+In fact, we are talking about a community consensus on each of the completions, and like any other consensus, if it costs nothing to vote, it is vulnerable to [Sybil attacks](https://en.wikipedia.org/wiki/Sybil_attack).
 
 {% hint style="info" %}
 A Sybil attack is possible if each vote has the same weight of 1 and there is no limit to the number of accounts that can be registered. So if a user has 5 accounts, the total weight of all his votes is 5. In this way, a malicious actor can gain any vote weight by creating as many accounts as needed.
 {% endhint %}
 
-To protect the system from such attacks, Questfall uses the concept of [levels](../mining/character.md), through which users can advance if they vote in line with the majority of other voters.&#x20;
+To protect the system from such attacks, Questfall uses the concept of [levels](../mining/character.md), through which users can advance if they vote in line with the majority of other voters.
 
 More specifically, if they vote the same as the majority, users are rewarded - they gain XP points which allows them to level up, otherwise they are punished - the amount of XP needed to get to the next level increases.
 
@@ -48,12 +48,12 @@ More specifically, if they vote the same as the majority, users are rewarded - t
 The same penalty (an increase in the XP required for the next level) will also be applied to users who have initiated the moderation process that results in the claim not being approved. For example, quest completions, reported quests, and so on.
 {% endhint %}
 
-User levels are in turn used to weight the consensus majority, which means that votes are not equal - the higher the level, the more weight a user vote has. In other words, the more correctly a user votes, the more power he gains.&#x20;
+User levels are in turn used to weight the consensus majority, which means that votes are not equal - the higher the level, the more weight a user vote has. In other words, the more correctly a user votes, the more power he gains.
 
 This makes it impossible for a large number of new accounts to be registered and used to manipulate the voting results, as high level users will protect the voting from abuse and as a result such new accounts will be punished.
 
 {% hint style="info" %}
-For other measures to protect consensus, see [Moderation](../moderation/majority%20wins.md) articles.
+For other measures to protect consensus, see [Moderation](../moderating/majority-wins.md) articles.
 {% endhint %}
 
 In this way, progressing through the levels requires two key resources: intelligence and access to third-party platforms where the majority of quest completions are published. And while these resources are considered free when checking completions by hand, there is an ongoing cost when moderating by code.
