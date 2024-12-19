@@ -2,7 +2,7 @@
 icon: rss
 ---
 
-# Global Feed
+# Quest Feed
 
 The workflow of existing quest platforms assumes that users receive rewards directly from quest authors. Such an approach forces users to focus on a few specific authors (projects teams) while skipping others, as there is no point in completing just one quest from a particular author, as the reward usually requires the completion of all of the author's quests.
 
@@ -12,13 +12,17 @@ As a result, the vast majority of project teams on existing quest platforms simp
 
 Quest mining, on the other hand, assumes that users are not tied to authors - on the contrary, authors compete with each other for the attention of users, who are free to choose quests created by different authors from a single system pool.
 
-In Questfall, such a pool of quests is called the Global Feed, which is the direct analogue to a post feed on any social media platform. The only difference is that the social media format does not require a mandatory reaction to the post, whereas a quest requires some proof that a user has taken a requested action.
+In Questfall, such a pool of quests is called the Quest Feed, which is the direct analogue to a post feed on any social media platform. The only difference is that the social media format does not require a mandatory reaction to the post, whereas a quest requires some proof that a user has taken a requested action.
 
 {% hint style="info" %}
 This makes Questfall similar to sites like Facebook or X.
 {% endhint %}
 
-The Global Feed can be thought of as a virtual exhibition where authors compete for the attention of users over the long term. The more consistently high quality quests authors create, the easier it will be for them to reach the mainstream audience in the future, and the more they will earn.
+The Quest Feed can be thought of as a virtual exhibition where authors compete for the attention of users over the long term. The more consistently high quality quests authors create, the easier it will be for them to reach the mainstream audience in the future, and the more they will earn.
+
+{% hint style="info" %}
+Read the details in a separate section of this documentation: [Authoring](broken-reference).
+{% endhint %}
 
 This creates a very different paradigm, where instead of spending resources on motivating users, authors are rewarded according to the value they bring to the community.
 
@@ -30,8 +34,6 @@ This approach also makes it possible to make the world a better place through qu
 Of course, this approach also opens up the possibility of quests causing harm to others. This problem is addressed by [decentralised moderation](../moderating/majority-wins.md), where the community decides whether a reported quest is appropriate or not.
 {% endhint %}
 
-In addition, the concept of mining and the Global Feed do not eliminate the existing approach of teams spending resources to promote their projects.
-
-Project teams can do this by adding mining points directly to their quests, which will increase the reward and make the quest more visible in the Global Feed, as quests are primarily sorted by mining reward (making quests with higher rewards more visible to users).
+In addition, the concepts of Quest Mining and Quest Feed do not eliminate the existing approach of teams spending resources to promote their projects. Project teams can do this by increasing the base reward of their quests, which will make the quest more visible in the Quest Feed, since it is primarily sorted by quest rewards.&#x20;
 
 Of course, such a promotion will not be free and will require QFT burning, thus adding value to the entire community by making QFT a deflationary token.

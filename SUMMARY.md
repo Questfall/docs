@@ -5,7 +5,7 @@
 ## Overview
 
 * [Quest Mining](overview/quest-mining.md)
-* [Global Feed](overview/global-feed.md)
+* [Quest Feed](overview/global-feed.md)
 * [Token Burning](overview/token-burning.md)
 * [Sybil Defence](overview/sybil-defence.md)
 * [RPG System](overview/rpg-system.md)
