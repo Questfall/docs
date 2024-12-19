@@ -21,7 +21,7 @@
 
 ## Authors
 
-* [Author Spaces](authors/author%20spaces.md)
+* [Author Spaces](<authors/author spaces.md>)
 * [Ratings](authors/ratings.md)
 * [Reputation](authors/reputation.md)
 * [Promotion](authors/promotion.md)
@@ -41,7 +41,7 @@
 * [Liquidity Providers (5%)](infrastructure/liquidity-providers.md)
 * [QFT Freezing (5%)](infrastructure/qft-freezing.md)
 * [Project Expenses (5%)](infrastructure/project-expenses.md)
-* [Gold Withdrawals (8%)](infrastructure/gold%20withdrawals.md)
+* [Gold Withdrawals (8%)](<infrastructure/gold withdrawals.md>)
 * [Founders' Revenue (10%)](infrastructure/founders-revenue.md)
 
 ## Assets
@@ -50,7 +50,7 @@
 * [- Gold (in-game)](assets/gold-in-game.md)
 * [- Silver (in-game)](assets/Silver-in-game.md)
 * [- Items (in-game + NFTs)](assets/items-in-game-+-nfts.md)
-* [- Limited Edition Loot Boxes (in-game)](assets/limited%20edition%20loot%20boxes.md)
+* [- Limited Edition Loot Boxes (in-game)](<assets/limited edition loot boxes.md>)
 * [- Founder NFTs](assets/founder-nfts.md)
 
 ## Roadmap
