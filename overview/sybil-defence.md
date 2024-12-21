@@ -6,7 +6,7 @@ icon: shield-check
 
 The Proof of Work (PoW) consensus is fundamentally built to defend against Sybil attacks - in fact, this defense is its core function. PoW achieves this by relying on a binary system: the result of mining can only have two states - either the hash generated to add a new block to the blockchain is valid, or it is not. Since hashes are based on mathematics, they cannot be falsified and are easily verified by computers.
 
-However, the situation becomes much more complex when we try to replace this binary value system with something meaningful to humans, such as images, stories, quests, or puzzles. Unlike mathematically precise calculations, human-centered products cannot be evaluated in a purely binary fashion because their value is inherently subjective, shaped by personal preferences, cultural trends, and contextual factors.
+However, the situation becomes much more complex when we try to replace this binary value system with something meaningful to humans, such as images, stories, quests, or puzzles. Unlike mathematically precise calculations, human-centric products cannot be evaluated in a purely binary fashion because their value is inherently subjective, shaped by personal preferences, cultural trends, and contextual factors.
 
 To illustrate this, imagine two people drawing a dog. One might produce a simple sketch that is barely distinguishable from a horse, while the other, a skilled artist, might produce a detailed, almost photographic painting. Yet, the perceived value of these two creations could vary widely. Some may admire the amateur drawing for its charm and creativity, while dismissing the photorealistic work as lacking originality.
 
