@@ -24,27 +24,25 @@ The cryptocurrency industry has returned to this earlier model precisely because
 
 Until now.
 
-In traditional PoW, mining and Sybil protection are combined into a single activity. Questfall, however, introduces a groundbreaking approach by separating these two functions.
-
-The primary mining activity in Questfall is the completion of quests. These quests, particularly those involving creative tasks, can be completed with varying levels of effort and quality. To ensure fairness, the decision to reward the completion should be based on whether it meets a minimum quality standard.
-
-However, as discussed earlier, judging quality is an incredibly difficult problem for computers. If machines could reliably judge creativity, effort, or skill, such functionality could be built directly into Questfall.
+Questfall faced the same problem, since Quest Mining assumes that users mine QFT by completing various tasks, many of which are creative. However, as mentioned above, the computer system would not be able to distribute rewards fairly, since completions can be of different quality, some of which are so low that they should not be rewarded.
 
 {% hint style="info" %}
-Another challenge is posed by third-party platforms such as X, YouTube, Facebook, or Discord, where many quests are completed. These platforms fight against automated access to prevent DDoS attacks or content scraping.
+Besides the quality estimation problem, another challenge for implementing such functionality directly in Questfall is the third-party platforms like X, YouTube, Facebook or Discord where many quests are completed. These platforms fight against automated access to prevent DDoS attacks or content scraping.
 {% endhint %}
 
-Fortunately, while machines struggle with subjective judgments, humans excel at them. This makes human judgment not only a perfect tool for moderating quest completions, but also an effective defense against bots.
+But if the computer system cannot solve a problem that is simple for humans, it must rely on the users for help. This means that if mining in traditional PoW consists of a single rewarded activity, in Questfall there are two: completing quests and validating the completions of others through community consensus voting.&#x20;
 
-Therefore, Questfall uses community moderation as a secondary activity that serves as a Sybil protection mechanism. In other words, while PoW implements consensus on top of Sybil defense, Questfall does the opposite: Sybil defense is built upon community consensus.
+The key consistency factor is how rewards are distributed based on the results of the two mining activities. While completing quests directly mines QFT, validating completions enables progression through levels, which plays a critical role in the miner's earnings because the global reward pool is divided equally among user level groups, or leagues. Simply put, users in the same league only compete with each other, and their rewards are not affected by the activity of users outside of their league.
 
-By validating each other's quest completions, users progress through the levels that play a critical role in their earnings, as the global reward pool is divided equally among user level groups, or leagues. This ensures that users within the same league only compete with each other, so their rewards are not affected by the activity of users outside of their league.
+This reward segmentation by user levels ensures fair mining. On the one hand, as users progress through the levels, they can earn higher rewards for the same effort, as competition within each league decreases. On the other hand, user levels serve as a robust defense against Sybil attacks, since the correct voting in the community consensus cannot be automated or manipulated.
 
-This segmentation of rewards both reduces competition as users progress through the levels and protects the system from Sybil attacks, since new accounts are restricted to lower level leagues where they compete with each other, while higher level users enjoy their own share of the reward pool.
+{% hint style="info" %}
+While PoW implements consensus on top of Sybil defense, Questfall does the opposite: Sybil defense is built upon community consensus.
+{% endhint %}
 
-In order to advance through the levels, users must vote with the majority, as Questfall’s voting mechanics are based on majority consensus. At the end of the voting process, users in the majority are rewarded with level advancement, while those in the minority are set back in their progress.
+The main mechanic behind community consensus on quest completion is that the majority wins, while the minority loses. More specifically, the winning majority is rewarded with a level advancement, while those in the minority are set back in their progress.
 
-To prevent manipulation of the community consensus, Questfall introduces additional safeguards. Moderators are randomly assigned, and their voting power is weighted by their user level. This means that an attacker would have to control a majority of high-level users in the entire system in order to influence the voting results for a particular quest completion.
+In order to prevent manipulation of the vote, Questfall introduces additional security measures. Moderators are randomly assigned and their voting power is weighted by their user level. This means that an attacker would have to control a majority of high-level users in the entire system in order to influence the voting results for a particular quest completion.
 
 {% hint style="info" %}
 This is analogous to the 51% attack in Bitcoin.
@@ -57,7 +55,7 @@ To solve this problem, Questfall includes a system that generates fake completio
 The system dynamically adjusts the number of fake completions to ensure that, on average, a moderator has an equal chance of being rewarded or punished when voting blindly. Since the penalties are larger than the rewards, this strategy becomes inefficient with many iterations.
 
 {% hint style="info" %}
-For more details on the moderation mechanics, see the [Moderating](broken-reference) section. We have barely scratched the surface here.
+For more details on the community consensus mechanics, see the [Moderating](broken-reference) section. We have barely scratched the surface here.
 {% endhint %}
 
 By introducing user levels with reward segmentation, as well as separating mining and Sybil protection into two distinct activities - one for earning cryptocurrency and another for leveling up - Questfall achieves something unprecedented: fair mining that creates real, tangible value for people.
