@@ -4,62 +4,56 @@ icon: shield-check
 
 # Sybil Defence
 
-The foundation of the Proof of Work consensus is the defense against Sybil attacks, which is pretty solid because the result of mining can only have two possible states: either the generated hash to add a new block to the blockchain is valid or not. And since hashes are based on mathematics, they are impossible to falsify and can be easily verified by computers.
+The Proof of Work (PoW) consensus is fundamentally built to defend against Sybil attacks - in fact, this defense is its core function. PoW achieves this by relying on a binary system: the result of mining can only have two states - either the hash generated to add a new block to the blockchain is valid, or it is not. Since hashes are based on mathematics, they cannot be falsified and are easily verified by computers.
 
-But if we take something that we humans find meaningful as a value for mining (pictures, stories, quests, puzzles, etc.), it will be impossible to value it in such a binary way. This is because everything outside of pure mathematics assumes a quality that is not binary and implies human desires, tastes, and fashions.
+However, the situation becomes much more complex when we try to replace this binary value system with something meaningful to humans, such as images, stories, quests, or puzzles. Unlike mathematically precise calculations, human-centered products cannot be evaluated in a purely binary fashion because their value is inherently subjective, shaped by personal preferences, cultural trends, and contextual factors.
 
-For example, an ordinary person may draw a picture of a dog that is barely distinguishable from a horse, while a professional artist will draw the same dog so that the emotion can be seen in the eyes.
+To illustrate, imagine two people drawing a dog. One might produce a simple sketch that is barely distinguishable from a horse, while the other, a skilled artist, might produce a detailed, almost photographic painting. Yet, the perceived value of these two creations could vary widely. Some may admire the amateur drawing for its charm and creativity, while dismissing the photorealistic work as lacking originality.
 
-And still the value of these two pictures will not be obvious. Some will say that a childish picture of a dog has a fresh view and is a masterpiece, while a photorealistic drawing has no creativity in it.&#x20;
+Even if there were a universally agreed-upon way to measure talent, skill, or effort, it would still not resolve the issue. Cultural trends and preferences evolve over time, altering how we judge art, literature, fashion, and other creative outputs. Context is also important - what is valued in one environment may be rejected in another. For example, a drawing of a demon dog might be appreciated in a horror-themed context, but considered completely inappropriate in a kindergarten setting.
 
-And even if we could somehow agree on how to judge the talent, skill, and effort of the author, it will not help much. Fashions change all the time, and the quality of books, movies, clothes, cars, computers, phones, and everything else is judged differently after some time has passed. Also, the application of the work will have a great influence on the evaluation - the picture of a demon dog will not fit in a kindergarten.
+As a result, despite the innovative potential of bringing human-centric value creation to mining, there is currently no effective solution for fairly distributing rewards when mining results exist along a spectrum of quality, rather than simply being valid or not. This issue has caused many projects to avoid mining entirely, preferring instead to pre-mint all tokens and sell them directly to users.
 
-As a result, no matter how good the mining concept is, there is currently no solution for fair reward distribution when the value generated is not binary (valid or not), but can be of different quality. So today's teams avoid using mining, preferring to take the easy way out and mint all the tokens for themselves and then sell them to the crowd.
+While pre-minting tokens may seem like an efficient solution, it is far from revolutionary. Historically, at the dawn of the stock market over 150 years ago, anyone could issue securities and advertise them for sale in newspapers. The cryptocurrency industry has, in a sense, returned to this earlier model - not for lack of creativity, but because solving the problem of fair reward distribution in human-centric systems is extraordinarily difficult. In 15 years of explosive cryptocurrency development, no widely accepted solution has emerged.
 
-{% hint style="info" %}
-Selling the entire supply of tokens is anything but innovative. At the dawn of the stock market more than 150 years ago, anyone could issue their own securities and sell them to the public through newspaper advertisements.
-{% endhint %}
+Until now.
 
-This problem is quite difficult and has not been solved in the last 15 years of explosive development of cryptocurrencies.&#x20;
+In traditional PoW, mining and Sybil protection are combined into a single activity. Questfall, however, introduces a groundbreaking approach by separating these two functions.
 
-Until now...
+The primary mining activity in Questfall is the completion of quests. These quests, particularly those involving creative tasks, can be completed with varying levels of effort and quality. To ensure fairness, the decision to reward the completion should be based on whether it meets a minimum quality standard.
 
-Quest Mining assumes that users earn QFT by completing quests, which in most cases (especially for creative tasks) can be done with very different levels of effort.&#x20;
-
-Thus, to make mining fair, a binary decision of the system (to reward a user or not) should be based on a spectrum of quality - some completions that are of a certain degree of poor quality should be considered invalid, while others should be rewarded.
-
-But, as mentioned above, judging quality is a very hard (if solvable) problem for computers, otherwise we could implement such functionality as part of Questfall.
+However, as discussed earlier, judging quality is an incredibly difficult problem for computers. If machines could reliably judge creativity, effort, or skill, such functionality could be built directly into Questfall.
 
 {% hint style="info" %}
-Aside from the obvious issues of human perception of quality, there is a more technical issue with judging completions. Third-party platforms (such as X, Youtube, Facebook, Discord, etc.) on which completions are usually performed typically fight bots to prevent DDoS attacks and content parsing.
+Another challenge is posed by third-party platforms such as X, YouTube, Facebook, or Discord, where many quest completions occur. These platforms are designed to combat bots for reasons unrelated to Questfall, such as preventing DDoS attacks or content scraping.
 {% endhint %}
 
-While accessing and estimating completion is expensive and hard for computers, it is easy and free for humans. And that is exactly why the task of judging competitions is perfect for anti-bot protection.
+Fortunately, while machines struggle with subjective judgments, humans excel at them. This makes human judgment not only a perfect tool for moderating quest completions, but also an effective defense against bots.
 
-The Proof of Work consensus combines the process of mining and protection against Sybil attacks. But it is a special case. In general, these two functions can be separated, and in Questfall, miners earn QFT by completing quests, while voting on each other's completions raises their level.
+Therefore, Questfall uses community moderation as a secondary activity that serves as a Sybil protection mechanism. In other words, while PoW implements consensus on top of Sybil defense, Questfall does the opposite: Sybil defense is built upon community consensus.
 
-These user levels play a crucial role in the distribution of mining rewards, as the reward pool is divided equally between user level groups (leagues). This way, the reward for users in the same league does not depend on the activity of other users.
+By validating each other's quest completions, users progress through the levels that play a critical role in their earnings, as the global reward pool is divided equally among user level groups, or leagues. This ensures that users within the same league only compete with each other, so their rewards are not affected by the activity of users outside of their league.
 
-This reward segmentation not only assumes that competition decreases as a user progresses through levels, but it also protects the system from Sybil attacks, since many newly created accounts will compete with each other, while more higher-level users will have their own piece of the pie to share.
+This segmentation of rewards both reduces competition as users progress through the levels and protects the system from Sybil attacks. New accounts are restricted to lower level leagues where they compete with each other, while higher level users enjoy their own share of the reward pool.
 
-In order to advance through the levels, a user should vote with the majority, since the voting mechanics are based on the majority principle. Thus, at the end of the voting process, the majority is rewarded by being able to advance in levels, while the minority is punished by being delayed in advancing in levels.
+In order to advance through the levels, users must vote with the majority, as Questfall’s voting mechanics are based on majority consensus. At the end of the voting process, users in the majority are rewarded with level advancement, while those in the minority are set back in their progress.
 
-Because moderators are randomly assigned and their votes are weighted by user level, an attacker trying to break the community consensus on a particular completion would need a majority of high-level users in the entire system.
+To prevent manipulation of the community consensus, Questfall introduces additional safeguards. Moderators are randomly assigned, and their voting power is weighted by their user level. This means that an attacker would have to control a majority of high-level users in the entire system in order to influence the voting results.
 
 {% hint style="info" %}
-This is a full analog of the 51% attack in Bitcoin.
+This is analogous to the 51% attack in Bitcoin.
 {% endhint %}
 
-Assuming that the majority of users in the system are good, it will be nearly impossible for a bad actor to get 51% of the votes. But this also means that most completions will be good enough to validate, and an attacker can gain levels simply by approving every completion assigned to him (since there will be too few bad completions, and the rewards will be much greater than the rare punishments).
+Since the majority of users in the system are expected to act in good faith, most completions will be of high enough quality to be validated, allowing an attacker to gain levels simply by blindly approving every completion assigned. Since the rewards for approving valid completions would outweigh the occasional penalties for approving bad ones, blind approval could become a winning strategy.
 
-To protect itself from such blind approval attacks, the system will generate fake votes for moderation. The main difference between the fake votes and the real ones is that the system knows the correct result for the fake votes, and will reward or punish the moderators based on this knowledge, not on the opinion of the majority.&#x20;
+To solve this problem, Questfall includes a system that generates fake completions for the moderators. These fakes are indistinguishable from real completions, but the system knows internally which type of vote is correct. And moderators are rewarded or punished based on their accuracy in judging these fakes, not on their alignment with the majority.
 
-Furthermore, the system would adjust the amount of fake votes generated so that, on average, a moderator has an equal chance of winning or losing by blind voting. And since the punishment will be greater than the reward, blind voting will be a losing strategy.
+The system dynamically adjusts the number of fake completions to ensure that, on average, a moderator has an equal chance of being rewarded or punished when voting blindly. Since the penalties outweigh the rewards, this strategy becomes inefficient after many iterations.
 
 {% hint style="info" %}
-Here we have described a big picture, for more details please read [Moderating](broken-reference) section.
+For more details on the mechanics, see the [Moderating](broken-reference) section. We have only scratched the surface here.
 {% endhint %}
 
-The described innovative separation of mining and Sybil protection into two distinct activities - content creation and its evaluation through community consensus - allows mining, for the first time, to generate real value for people.&#x20;
+By separating mining and Sybil protection into two separate activities - content creation and its further evaluation through community voting - Questfall achieves something unprecedented: mining protected against cheating that creates real, tangible value for people.
 
-Moreover, while rewarding creative work has long been a challenge for decentralized systems, Questfall leverages the unique strengths of human collaboration to overcome this obstacle, paving the way for a fairer mining paradigm within the blockchain ecosystem that delivers much greater value to people.
+In addition, by leveraging the unique strengths of human collaboration, Questfall overcomes the long-standing challenge of fairly rewarding creative work in decentralized systems. This innovation not only reinvents the mining paradigm, but also paves the way for more intensive use of publicly owned money for the benefit of society.
