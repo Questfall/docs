@@ -34,7 +34,7 @@ Therefore, Questfall uses community moderation as a secondary activity that serv
 
 By validating each other's quest completions, users progress through the levels that play a critical role in their earnings, as the global reward pool is divided equally among user level groups, or leagues. This ensures that users within the same league only compete with each other, so their rewards are not affected by the activity of users outside of their league.
 
-This segmentation of rewards both reduces competition as users progress through the levels and protects the system from Sybil attacks. New accounts are restricted to lower level leagues where they compete with each other, while higher level users enjoy their own share of the reward pool.
+This segmentation of rewards both reduces competition as users progress through the levels and protects the system from Sybil attacks, since new accounts are restricted to lower level leagues where they compete with each other, while higher level users enjoy their own share of the reward pool.
 
 In order to advance through the levels, users must vote with the majority, as Questfall’s voting mechanics are based on majority consensus. At the end of the voting process, users in the majority are rewarded with level advancement, while those in the minority are set back in their progress.
 
