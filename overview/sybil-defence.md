@@ -14,14 +14,14 @@ This makes a blockchain based on PoW a fair system, since the most profitable st
 Named after a woman with dissociative identity disorder, Sybil attacks involve creating a large number of pseudonymous identities to gain a disproportionate share of the rewards of influence in the system. In other words, multi-accounts.
 {% endhint %}
 
-However, if we try to implement such a system outside of PoW, it will not be so easy, and the situation becomes almost impossible if we try to reward users fairly for the value they create for other people rather than computers.
+However, implementing fair mining outside of PoW, especially when the mining results are supposed to create value for humans rather than computers, seems like an impossible challenge.
 
 The problem is that anything meaningful to humans, such as images, stories, quests, or puzzles, cannot be measured in a purely mathematical way, because their value is inherently subjective, shaped by personal preferences, cultural trends, and contextual factors.
 
 To illustrate this, imagine two people drawing a dog. One might produce a simple sketch that is almost indistinguishable from a horse, while the other, a skilled artist, might produce a detailed, almost photographic painting. Yet the perceived value of these two creations could be very different. Some might admire the amateur drawing for its charm and creativity, while dismissing the photorealistic work as lacking originality.
 
 {% hint style="info" %}
-If we can't say which image is better and reward them equally, it creates a threat for Sybil attacks. An attacker can create many accounts and generate low quality images on each of them to get the largest share of the total reward, making it pointless to put much effort into drawing.
+If we can't say which image is better and reward them equally, it encourages Sybil attacks, where an attacker creates multiple accounts to produce low-quality images and claim a larger share of the rewards, discouraging genuine effort.
 {% endhint %}
 
 Even if there were a universally agreed-upon way to measure talent, skill, or effort, it would not solve the problem. Cultural trends and preferences evolve over time, changing the way we judge art, literature, fashion, and other creative output.
@@ -70,7 +70,7 @@ However, this is still not enough. Since the majority of users in the system are
 
 To solve this problem, Questfall includes a system that generates fake completions for the moderators. These fake completions are indistinguishable from the real ones for users, but the system knows internally which type of vote is correct and rewards or punishes moderators accordingly.
 
-The system dynamically adjusts the number of fake completions to ensure that, on average, a moderator has an equal chance of being rewarded or punished when voting blindly. Since the penalties are larger than the rewards, this strategy becomes inefficient with many iterations.
+The system dynamically adjusts the number of fake completions to ensure that, on average, a moderator has an equal chance of being rewarded or punished when voting blindly. Since the penalties are greater than the rewards, any kind of blind or random voting becomes inefficient over many iterations.
 
 {% hint style="info" %}
 For more details on the community consensus mechanics, see the [Moderating](broken-reference) section. We have barely scratched the surface here.
