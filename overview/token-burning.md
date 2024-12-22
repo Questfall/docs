@@ -6,17 +6,21 @@ icon: fire
 
 While the mining approach has worked very well in Bitcoin so far, it has a major problem in the long run. There is a growing imbalance between the reward given to miners and the value held by holders.
 
-When the Bitcoin blockchain started, each reward for a block gave miners a tangible share of the circulating supply, but today there are nearly 20 million BTCs in circulation, and the remaining 1 million+ will be mined over the next 125 years. As a result, miners get a smaller and smaller share of the circulating supply, and since they are rewarded by issuing BTCs that gain value by taking it away from existing holders, their share of Bitcoin's capitalisation shrinks over time.
+When the Bitcoin blockchain started, each reward for a block gave miners a tangible share of the circulating supply, but today there are nearly 20 million BTCs in circulation, and the remaining 1 million+ will be mined over the next 125 years.&#x20;
 
-This could be compared to the finances of a company in the real world, and how income is divided between salaries for employees and dividends for shareholders. If the simplified mining mechanism implemented in Bitcoin is applied to a real company, dividends as a percentage of total income will grow steadily over time until it reaches 100%. Not only does this seem unfair, but it is also dangerous for the system, as workers will eventually not earn enough.
+As a result, miners get a smaller and smaller share of the circulating supply, and since they are rewarded by issuing BTCs that gain value by taking it away from existing holders, their share of Bitcoin's capitalisation shrinks over time.
+
+This could be compared to the finances of a real-world company and how income is divided between salaries for employees and dividends for shareholders. If the simplified mining mechanism implemented in Bitcoin is applied to such a company, the dividends as a percentage of total income will grow steadily over time until they reach 100%.
+
+Not only does this seem unfair, but it is also dangerous for the system, as workers will eventually not earn enough.
 
 {% hint style="info" %}
 Bitcoin assumes that miners will only earn from transaction fees once BTCs are no longer issued in 2140, but this is a very different economic model and no one knows in advance whether it will work or not.
 {% endhint %}
 
-Deflation can solve this problem, as burning tokens reduces the supply in circulation, thus increasing the miners' share. But burning for nothing causes losses, and therefore only makes sense for altruists who benefit others at the expense of their own interests. In other words, for a deflationary model to work, the system should give something in return for burnt tokens.
+Deflation can solve this problem, as burning tokens reduces the supply in circulation, thus increasing the miners' share. But for a deflationary model to work, the system should give something in return for burned tokens.
 
-In Questfall, users can burn QFT tokens to purchase off-chain Gold at a fixed price of $0.01, which can then be used on the platform to purchase mining bonuses, level up, or pay for quest promotions.
+In Questfall, users can burn QFT tokens to purchase off-chain Gold at a fixed price of $0.01, which can then be used on the platform for various benefits.
 
 {% hint style="info" %}
 Burning QFTs is the only way to obtain Gold, which in turn will be burned when it is paid out for the system bonuses.
@@ -26,9 +30,9 @@ In this way, QFT tokens are issued each week to reward miners, while at the same
 
 Firstly, it solves the inherent problem of Bitcoin's approach to mining, as the miners' share of the system's capitalisation tends to be stable over the long term. In other words, the portion of QFT's capitalisation that is used to reward miners will not decrease despite the decline in token issuance.
 
-The defaltionary nature of QFT also implies that the number of tokens in circulation will initially increase as there are no tokens to begin with, but as the market saturates, the number of QFTs in circulation will slowly decrease over time.&#x20;
+The defaltionary nature of QFT also implies that the number of tokens in circulation will initially increase as there are no tokens to begin with, but as the market saturates, the number of QFTs in circulation will slowly decrease over time.
 
-As a result, the price of QFT will rise in the long run, even if the number of active Questfall users remains constant, because the reduction in circulating supply is caused by user activity that requires token burning.
+As a result, the price of QFT will rise in the long run, even if the number of active Questfall users remains constant, because the reduction in circulating supply is caused by user activity that stimulates token burning.
 
 This makes QFT tokenomics very different from any non-deflationary approach, which is essentially a Ponzi scheme where existing holders can only cash out at the expense of many newcomers.
 
@@ -40,7 +44,7 @@ As the price of Gold is fixed in dollars, the QFT price change will not affect t
 
 Furthermore, at times when the price of QFT falls, the number of tokens burned by third-party projects will increase, as more QFTs must be burned to obtain the same amount of Gold. This leads to a rapid trend reversal as the shrinking of the circulating supply accelerates.
 
-The QFT price changes will only affect miners and holders, who will receive a different amount of Gold for their QFTs. And as the price of QFT tends to rise in the long term, the amount of Gold for a QFT token will increase over time.&#x20;
+The QFT price changes will only affect miners and holders, who will receive a different amount of Gold for their QFTs. And since the price of QFT tends to increase over the long term, the amount of Gold for a QFT token will also increase over time.
 
 This is exactly how deflation works - the longer a consumer waits, the more value he will receive for the same amount of money.
 
