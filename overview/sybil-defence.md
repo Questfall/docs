@@ -38,7 +38,7 @@ Therefore, despite the potential of mining to create value for humans, a compute
 
 And if we take quality out of the equation, mining becomes worthless, since it will be much more efficient for users to put as little effort as possible into producing low quality results that are of no value to others.
 
-This problem has caused most crypto projects to avoid mining completely, preferring instead to pre-mint all tokens and sell them directly to users. In this way, the cryptocurrency industry has returned to historical practices, since at the dawn of the stock market over 150 years ago, anyone could issue securities and advertise them for sale in newspapers.
+This problem has caused most crypto projects to avoid mining completely, preferring instead to pre-mint all tokens and sell them directly to users. In this way, the cryptocurrency industry has returned to historical practices, similar to the early days of the stock market over 150 years ago, when anyone could issue securities and advertise them for sale in newspapers.
 
 This happens precisely because the problem of fair reward distribution under human-centric mining is so difficult that it has not been solved in 15 years of explosive cryptocurrency development... Until now.
 
@@ -46,9 +46,9 @@ This happens precisely because the problem of fair reward distribution under hum
 Although the solution may not seem that complex once you know it, we spent several years getting it right.
 {% endhint %}
 
-Questfall faces the same problem because quest mining assumes that users mine QFT by completing various tasks, many of which are creative, meaning that users' creations can vary widely in quality. And to avoid rewarding weak completions, there should be some minimum quality requirements that they should meet.
+Questfall faces a full-blown quality problem because quest mining assumes that users mine QFT by completing different tasks, many of which are creative, meaning that users' completions can vary widely.&#x20;
 
-Since a quest task can actually be anything, it is impossible to create an algorithm that can judge the quality of every possible type of completion that everyone will agree on.&#x20;
+As a result, it is impossible to create an algorithm that can judge the quality of every possible type of completion in order to avoid rewarding bad completions that do not meet minimum quality requirements.
 
 {% hint style="info" %}
 Another challenge is that many quests are completed on third-party platforms like X, YouTube, Facebook, or Discord, which restrict automated access to combat DDoS attacks and content scraping.
