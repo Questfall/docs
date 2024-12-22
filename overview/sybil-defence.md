@@ -50,15 +50,19 @@ But when the computer system cannot solve a problem that is trivial to humans, t
 If mining in traditional PoW consists of a single rewarded activity, in Questfall there are two: quest completion and community moderation.
 {% endhint %}
 
-While quest completion directly mines QFT, community moderation enables progression through user levels, which play a critical role in miners' earnings as the global mining reward pool is divided equally among user level groups, or leagues. Users in the same league only compete with each other, and their rewards are not affected by users outside of their league.
+While quest completion directly mines QFT, community moderation enables progression through user levels, which play a critical role in miners' earnings as the global mining reward pool is divided equally among user level groups, or leagues.
 
-Since quest completion is not protected from Sybil attacks, while community moderation is, this league-based reward segmentation is crucial for fair mining. With such a mechanic, users in a higher league will earn larger rewards due to less competition, but to get there they will have to put in a lot of effort in community moderation, which cannot be automated or manipulated.
+This league-based reward segmentation makes the rewards for users in each league independent of mining activity in other leagues. It also ensures that users in a higher league will earn larger rewards due to less competition, but they will have to put in a lot of effort in community moderation to get there.
+
+The key to defending against Sybil attacks is that community moderation cannot be automated, so all users have an equal opportunity to level up, which is limited by human nature itself. Therefore, users who focus on a single account will consistently outlevel those who spread their efforts across multiple accounts.
+
+As a result, while it is possible to automate quest completion with bots that replicate the required actions across multiple accounts, it is a losing strategy. On the one hand, an attacker cannot maintain many high-level accounts, and on the other - low-level bots are forced to compete with each other for segmented reward within the lowest league, leaving users in higher leagues unaffected.
 
 {% hint style="info" %}
 While PoW implements consensus on top of Sybil defense, Questfall does the opposite: Sybil defense is built upon community consensus.
 {% endhint %}
 
-The main mechanic behind community consensus on quest completion is that the majority wins, while the minority loses. More specifically, the winning majority is rewarded with a level advancement, while those in the minority are set back in their progress.
+Of course, the mechanics of voting in community moderation play a crucial role in Sybil defense. In Questfall, not only is the winning majority rewarded after the vote, but the losing minority is also punished. More specifically, the majority is rewarded with a level advancement, while those in the minority are set back in their progress.
 
 In order to prevent vote manipulation, Questfall implements additional security measures. Moderators are randomly assigned and their voting power is weighted by their user level. This means that an attacker would have to control a majority of high-level users in the entire system in order to influence the voting results for a particular quest completion.
 
@@ -70,7 +74,7 @@ However, this is still not enough. Since the majority of users in the system are
 
 To solve this problem, Questfall includes a system that generates fake completions for the moderators. These fake completions are indistinguishable from the real ones for users, but the system knows internally which type of vote is correct and rewards or punishes moderators accordingly.
 
-The system dynamically adjusts the number of fake completions to ensure that, on average, a moderator has an equal chance of being rewarded or punished when voting blindly. Since the penalties are greater than the rewards, any kind of blind or random voting becomes inefficient over many iterations.
+The system dynamically adjusts the number of fake completions to ensure that, on average, a moderator has an equal chance of getting a good or bad completion. Since the penalties are greater than the rewards, any kind of blind or random voting becomes a losing strategy over many iterations.
 
 {% hint style="info" %}
 For more details on the community consensus mechanics, see the [Moderating](broken-reference) section. We have barely scratched the surface here.
