@@ -41,18 +41,18 @@ Questfall faces the same problem because quest mining assumes that users mine QF
 Since a quest task can actually be anything, it is impossible to create an algorithm that can judge the quality of every possible type of completion that everyone will agree on. Even with modern AIs, since they do not really have there own opinion and can be persuaded to anything.
 
 {% hint style="info" %}
-Besides the quality estimation problem, another challenge for implementing such functionality directly in Questfall is the third-party platforms like X, YouTube, Facebook or Discord where many quests are completed. These platforms fight against automated access to prevent DDoS attacks or content scraping.
+Another challenge is that many quests are completed on third-party platforms like X, YouTube, Facebook, or Discord, which restrict automated access to combat DDoS attacks and content scraping.
 {% endhint %}
 
-But when the computer system cannot solve a problem that is simple for humans, there is a simple solution - it must rely on the users for help. And that is exactly what Questfall does by introducing a community consensus vote for each quest completion, or community moderation.
+But when the computer system cannot solve a problem that is trivial to humans, there is a simple solution - it must rely on the users for help. And that is exactly what Questfall does by introducing a community consensus vote for each quest completion, or in other words, community moderation.
 
-As a result, if mining in traditional PoW consists of a single rewarded activity, in Questfall there are two: quest completion and community moderation.
+{% hint style="info" %}
+If mining in traditional PoW consists of a single rewarded activity, in Questfall there are two: quest completion and community moderation.
+{% endhint %}
 
-While quest completion directly mines QFT, community moderation enables progression through user levels, which play a critical role in the miner's earnings because the global reward pool is divided equally among user level groups, or leagues.
+While quest completion directly mines QFT, community moderation enables progression through user levels, which play a critical role in miners' earnings as the global mining reward pool is divided equally among user level groups, or leagues. Users in the same league only compete with each other, and their rewards are not affected by users outside of their league.
 
-Simply put, users in the same league only compete with each other, and their rewards are not affected by the activity of users outside of their league.
-
-This reward segmentation by user levels ensures fair mining. On the one hand, as users progress through the levels, they can earn larger rewards for the same effort, since the competition within each higher league decreases. On the other hand, user levels serve as a robust defense against Sybil attacks because community moderation votes cannot be automated or manipulated for profit.
+Since quest completion is not protected from Sybil attacks, while community moderation is, this league-based reward segmentation is crucial for fair mining. With such a mechanic, users in a higher league will earn larger rewards due to less competition, but to get there they will have to put in a lot of effort in community moderation, which cannot be automated or manipulated.
 
 {% hint style="info" %}
 While PoW implements consensus on top of Sybil defense, Questfall does the opposite: Sybil defense is built upon community consensus.
@@ -68,7 +68,7 @@ This is analogous to the 51% attack in Bitcoin.
 
 However, this is still not enough. Since the majority of users in the system are expected to be good, most completions will be of high enough quality to be validated, allowing an attacker to gain levels simply by blindly approving every completion assigned: a few occasional penalties for approving bad completions won't outweigh the rewards for approving the good majority.
 
-To solve this problem, Questfall includes a system that generates fake completions for the moderators. These fakes are indistinguishable for users from real completions, but the system knows internally which type of vote is correct. And moderators are rewarded or punished based on their accuracy in judging these fakes, not on their alignment with the majority.
+To solve this problem, Questfall includes a system that generates fake completions for the moderators. These fake completions are indistinguishable from the real ones for users, but the system knows internally which type of vote is correct and rewards or punishes moderators accordingly.
 
 The system dynamically adjusts the number of fake completions to ensure that, on average, a moderator has an equal chance of being rewarded or punished when voting blindly. Since the penalties are larger than the rewards, this strategy becomes inefficient with many iterations.
 
@@ -78,4 +78,4 @@ For more details on the community consensus mechanics, see the [Moderating](brok
 
 By introducing user levels with reward segmentation, as well as separating mining and Sybil protection into two distinct activities - one for earning cryptocurrency and another for leveling up - Questfall achieves something unprecedented: fair mining that creates real, tangible value for people.
 
-This overcomes the long-standing challenge of fairly rewarding creative work in decentralized systems by leveraging the unique strengths of human collaboration. This innovation not only reboots the mining paradigm, but also paves the way for more intensive use of publicly owned money for the good of majority.
+This overcomes the long-standing challenge of fairly rewarding creative work in decentralized systems by leveraging the unique strengths of human collaboration. This innovation not only reboots the mining paradigm, but also paves the way for more intensive use of publicly owned money for the benefit of the majority.
