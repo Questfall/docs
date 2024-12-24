@@ -10,7 +10,7 @@ Marketing and partnerships are ongoing activities that we will adapt to market c
 
 ### **Designing the Project Model** <mark style="background-color:orange;">Work in progress</mark>&#x20;
 
-<mark style="color:yellow;">1 Year:</mark> <mark style="color:yellow;"></mark><mark style="color:yellow;">**March 2024 - March 2025**</mark>
+<mark style="color:yellow;">1 Year:</mark> <mark style="color:orange;">March 2024 - March 2025</mark>
 
 While we spent a year specifically developing the Questfall model, it took several years before that to crystallize the idea and overall approach, including our work on the Elysium blockchain. For example, Black-Shoulz option pricing had a huge impact on the concept of Deflationary Mining, but we decided to leave such theoretical details outside of this documentation.
 
