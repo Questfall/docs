@@ -6,7 +6,7 @@ icon: rss
 
 The workflow of existing quest platforms assumes that users receive rewards directly from quest authors. Such an approach forces users to focus on a few specific authors (projects teams) while skipping others, as there is no point in completing just one quest from a particular author, as the reward usually requires the completion of all of the author's quests.
 
-This approach not only makes user rewards arbitrary and optional, but also makes authors monopolists who may not care about the quality of their quests. In addition, teams spend their own resources and see project promotion as the only value in return.
+This approach not only makes user rewards arbitrary and optional, but also makes authors monopolists who may not care about the quality of their quests. In addition, teams spend their own resources and see their project's promotion as the only goal to be achieved.
 
 As a result, the vast majority of project teams on existing quest platforms simply take the most efficient route, which requires the least amount of effort, to create quests. That is why most quests are silly tasks like joining Discord or reposting a tweet.
 

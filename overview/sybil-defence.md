@@ -40,7 +40,7 @@ And if we take quality out of the equation, mining becomes worthless, since it w
 
 This problem has caused most crypto projects to avoid mining completely, preferring instead to pre-mint all tokens and sell them directly to users. In this way, the cryptocurrency industry has returned to historical practices, similar to the early days of the stock market over 150 years ago, when anyone could issue securities and advertise them for sale in newspapers.
 
-This happens precisely because the problem of fair reward distribution under human-centric mining is so difficult that it has not been solved in 15 years of explosive cryptocurrency development... Until now.
+This happens precisely because of the problem of fair reward distribution under human-centric mining, and it is so difficult that it has not been solved in 15 years of explosive cryptocurrency development... Until now.
 
 {% hint style="info" %}
 Although the solution may not seem that complex once you know it, we spent several years getting it right.
@@ -72,7 +72,9 @@ As a result, while it is possible to automate quest completion with bots that re
 While PoW implements consensus on top of Sybil defense, Questfall does the opposite: Sybil defense is built upon community consensus.
 {% endhint %}
 
-Of course, the mechanics of voting in community moderation play a crucial role in Sybil defense. In Questfall, not only is the winning majority rewarded after the vote, but the losing minority is also punished. More specifically, the majority is rewarded with a level advancement, while those in the minority are set back in their progress.
+Of course, a key factor in making such a level-based Sybil defense robust is the voting mechanism, which should be based on rules that prevent manipulation and abuse.
+
+In Questfall, not only is the winning majority rewarded after the vote, but the losing minority is also punished. More specifically, the majority is rewarded with a level advancement, while those in the minority are set back in their progress.
 
 In order to prevent vote manipulation, Questfall implements additional security measures. Moderators are randomly assigned and their voting power is weighted by their user level. This means that an attacker would have to control a majority of high-level users in the entire system in order to influence the voting results for a particular quest completion.
 

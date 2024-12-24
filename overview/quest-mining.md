@@ -14,10 +14,10 @@ Here and throughout, we take mining in a more abstract sense than just brute for
 
 The mining approach has been very successful because it allows newly issued coins to be earned through valuable actions, such as creating a new block in the chain, without having to pay for them. And if we assume that such valuable actions can actually be anything, then the concept of mining fits in perfectly with the quests.
 
-So it's no surprise that Questfall is built around the concept of mining, which means that the system rewards users with a decreasing number of Questfall Tokens (QFT) each week for various quest and infrastructure actions.
+So it's no surprise that Questfall uses mining as its core mechanic, meaning that the system rewards users with a decreasing number of Questfall Tokens (QFT) each week for various quest and infrastructure actions.
 
 {% hint style="info" %}
-Each QFT token is issued as a user reward for valuable actions, and none are pre-minted by the Team.
+Each QFT token is issued by the system as a reward to users for their valuable actions, and only a small portion is pre-minted by the team to be placed in the liquidity pool, making QFT tradable upon initial reward distribution.
 {% endhint %}
 
 The quest platform requires different activities to be rewarded, and this creates a problem because there is no way to compare, for example, creating a quest and providing liquidity to the DEX pool.
