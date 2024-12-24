@@ -1,5 +1,5 @@
 ---
-icon: dice-d20
+icon: dice-d8
 ---
 
 # RPG System
