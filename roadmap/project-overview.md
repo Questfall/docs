@@ -18,7 +18,7 @@ Before development even starts, we already have everything we need (even if it i
 
 Each innovation we mention has a solid background. For example, the common approach of distributing rewards based on the share in the vault, which is widely used in smart contracts to avoid looping, is not sufficient for QFT freezing. So we had to implement our own mathematical model. And write code to verify it.
 
-Or we spent months on the random generator, evaluating the results against the distribution density and finding ways to collect randomness from the real world. And of course we already have working code for that.
+Or we spent months on the random generator, evaluating the results against the distribution density and finding ways to collect randomness from the real world. And, of course, we already have a solution that works.
 
 The same is true for the authorization system and database engine, with web server and frontend technologies, we even already have code to grant access to the closed community in Discord for the owners of Founder NFTs.
 
