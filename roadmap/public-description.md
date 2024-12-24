@@ -12,6 +12,6 @@ As a result, we designed the Questfall model with a level of detail that most pr
 
 Before development even starts, we already have everything we need (even if it is not yet published): from prototypes of all the pages in the system to the RPG items' visual design and the special power of the effects they can have.
 
-Every innovation we mention has a solid background. For example, in order to implement QFT freezing, we had to implement a proprietary mathematical model on top of the common approach of distributing rewards based on the share in the vault, which is used in most smart contracts to avoid looping in the code.
+Every innovation we mention has a solid background. For example, the common approach of distributing rewards based on the share in the vault, which is widely used in smart contracts to avoid looping, is not sufficient for QFT freezing. So we had to implement a proprietary mathematical model. And that is how we worked out every aspect of the system.
 
-Although the system seems complex (and it is), implementing it in code will not be that difficult. Most development time is usually spent working out such details on the fly, while spending a lot of time on planning drastically reduces the time needed for actual development.
+Therefore, although the system is quite complex, implementing it in code is not that difficult. Most development time is usually spent working out the details on the fly. Thus, spending a lot of time on planning drastically reduces the time needed for actual coding.
