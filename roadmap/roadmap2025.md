@@ -1,5 +1,5 @@
 ---
-icon: square
+icon: location-pin
 description: Several years of our research are not included in this roadmap.
 ---
 
@@ -18,7 +18,7 @@ Preparing for the initial funding event by publishing landing pages and whitepap
 * [ ] Whitepaper (this documentation)
 * [ ] Questfall landing pages
 
-The current status: <mark style="background-color:orange;">Not yet launched...</mark>&#x20;
+The current status: <mark style="background-color:orange;">Not yet launched...</mark>
 
 ***
 
@@ -28,21 +28,21 @@ The current status: <mark style="background-color:orange;">Not yet launched...</
 
 The main goal of the Initial Funding Event is to raise money for project development and initial operations by selling [Founder NFTs](../assets/founder-nfts.md) to the public.
 
-The main motivation to purchase the Founder NFTs is to get a share of the initial circulating supply of QFT and an endless income stream from the Questfall platform. 
+The main motivation to purchase the Founder NFTs is to get a share of the initial circulating supply of QFT and an endless income stream from the Questfall platform.
 
 * [ ] Questfall project webpage
-* [ ] Initial Funding Event webpage&#x20;
+* [ ] Initial Funding Event webpage
 * [ ] Founder NFTs smart contracts
 
-The current status: <mark style="background-color:orange;">Not yet launched...</mark>&#x20;
+The current status: <mark style="background-color:orange;">Not yet launched...</mark>
 
 ***
 
-### Questfall Token (QFT)&#x20;
+### Questfall Token (QFT)
 
 <mark style="color:yellow;">Right after IFE</mark>
 
-The creation of [Questfall Token (QFT)](../assets/questfall-tokens-qft.md) and its weekly issuance will start right after the Initial Funding Event. 
+The creation of [Questfall Token (QFT)](../assets/questfall-tokens-qft.md) and its weekly issuance will start right after the Initial Funding Event.
 
 5% of all QFT issued each week will go to the Team for project development and marketing, and the remaining 95% will go to the holders of Founder NFTs, who are considered to be the initial miners. The founders' weekly share will drop in stages to the final 10% when all other [Rewarding Pools](../overview/quest-mining.md) are launched.
 
@@ -50,7 +50,7 @@ The creation of [Questfall Token (QFT)](../assets/questfall-tokens-qft.md) and i
 * [ ] Personal account web interface for founders
 * [ ] Public QFT statistics webpage
 
-The current status: <mark style="background-color:orange;">Not yet launched...</mark>&#x20;
+The current status: <mark style="background-color:orange;">Not yet launched...</mark>
 
 ***
 
@@ -65,7 +65,7 @@ Once NFT burning is active, 1% of the weekly QFT issue will be used to buy back 
 * [ ] Smart contracts for auctions
 * [ ] Personal web interface for user bids
 
-The current status: <mark style="background-color:orange;">Not yet launched...</mark>&#x20;
+The current status: <mark style="background-color:orange;">Not yet launched...</mark>
 
 ***
 
@@ -80,7 +80,7 @@ Once freezing mechanism is active, 5% of the weekly QFT issue will be used to re
 * [ ] Smart contract for QFT locking
 * [ ] Personal web interface for locking
 
-The current status: <mark style="background-color:orange;">Not yet launched...</mark>&#x20;
+The current status: <mark style="background-color:orange;">Not yet launched...</mark>
 
 ***
 
@@ -95,10 +95,9 @@ Once the liquidity pool is operational, 5% of the weekly QFT issue will be used 
 * [ ] Uniswap swapping pool with the initial liquidity
 * [ ] Personal web interface for the liquidity providers
 
-The current status: <mark style="background-color:orange;">Not yet launched...</mark>&#x20;
+The current status: <mark style="background-color:orange;">Not yet launched...</mark>
 
 ***
-
 
 ### Questfall, version 1.0
 
@@ -111,12 +110,11 @@ Once users and authors can mine, 66% of the weekly QFT issue will go to reward f
 * [ ] Platform interface design
 * [ ] Platform server code
 * [ ] Platform frontend code
-* [ ] Platform hardware infrastructure for running code and database&#x20;
+* [ ] Platform hardware infrastructure for running code and database
 
-The current status: <mark style="background-color:orange;">Not yet launched...</mark>&#x20;
+The current status: <mark style="background-color:orange;">Not yet launched...</mark>
 
 ***
-
 
 ## Future Plans 2026 ->
 

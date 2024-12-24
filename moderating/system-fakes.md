@@ -1,5 +1,5 @@
 ---
-icon: snooze
+icon: alien-8bit
 ---
 
 # System Fakes
@@ -13,10 +13,7 @@ Users can't choose specific items to vote on when moderating as the system assig
 Since the system knows what should be the correct vote it can punish malicious voters and reward good ones independent of who is the majority. In other words, such fakes are used as honeypots.
 
 {% hint style="info" %}
-In fake moderation, the quest information is mixed in such a way
-that humans can recognize it being a non-valid completion but bots can’t. 
+In fake moderation, the quest information is mixed in such a way that humans can recognize it being a non-valid completion but bots can’t.
 {% endhint %}
-
-
 
 ***
