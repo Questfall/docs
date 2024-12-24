@@ -20,7 +20,7 @@ As a result, we developed Questfall with a level of detail that most projects la
 
 ### Preparing for the Initial Funding Event
 
-<mark style="color:orange;">3 Month:</mark> <mark style="color:yellow;">April 2025 - June 2025</mark>
+<mark style="color:yellow;">3 Month:</mark> <mark style="color:orange;">April 2025 - June 2025</mark>
 
 The main goal of the Initial Funding Event is to raise money for project development and initial operations by selling [Founder NFTs](../assets/founder-nfts.md) to the public.
 
