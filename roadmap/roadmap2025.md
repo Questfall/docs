@@ -1,30 +1,40 @@
 ---
 icon: location-pin
-description: Several years of our research are not included in this roadmap.
 ---
 
 # Roadmap 2025-2026
 
 {% hint style="info" %}
-Marketing and partnerships are ongoing activities that we will adapt to market conditions and available resources and are therefore not described in advance.
+Marketing and partnerships are ongoing activities that we will adapt to market conditions and available resources, and are therefore not described in advance.
 {% endhint %}
 
-### Preparing for IFE
+### **Designing the Project Model** <mark style="background-color:orange;">Work in progress</mark>&#x20;
 
-<mark style="color:yellow;">January 2025 - March 2025</mark>
+<mark style="color:yellow;">1 Year: March 2024 - March 2025</mark>
 
-Preparing for the initial funding event by publishing landing pages and whitepaper, and through promotional activities.
+While we spent a year specifically developing the Questfall model, it took several years before that to crystallize the idea and overall approach, including our work on the Elysium blockchain. For example, Black-Shoulz option pricing had a huge impact on the concept of Deflationary Mining, but we decided to leave such theoretical details outside of this documentation.
 
-* [ ] Whitepaper (this documentation)
-* [ ] Questfall landing pages
-
-The current status: <mark style="background-color:orange;">Not yet launched...</mark>
+As a result, we developed Questfall with a level of detail that most projects lack even after they are up and running. Although the system seems complex (and it is), implementing it in code will not be that difficult, since most of the development time is usually spent on such details that teams work out on the fly. As a result, we have spent more time planning than we will need for actual development.
 
 ***
 
-### Initial Funding Event
+### Preparing for the Initial Funding Event
 
-<mark style="color:yellow;">March 2025 - April 2025</mark>
+<mark style="color:orange;">3 Month:</mark> <mark style="color:yellow;">April 2025 - June 2025</mark>
+
+The main goal of the Initial Funding Event is to raise money for project development and initial operations by selling [Founder NFTs](../assets/founder-nfts.md) to the public.
+
+The main motivation to purchase the Founder NFTs is to get a share of the initial circulating supply of QFT and an endless income stream from the Questfall platform.
+
+* [ ] Questfall project webpage
+* [ ] Initial Funding Event webpage
+* [ ] Founder NFTs smart contracts
+
+***
+
+### Initial Funding Event (IFE)
+
+<mark style="color:yellow;">3 Days: June 2025</mark>
 
 The main goal of the Initial Funding Event is to raise money for project development and initial operations by selling [Founder NFTs](../assets/founder-nfts.md) to the public.
 
