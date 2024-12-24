@@ -7,7 +7,7 @@ icon: snooze
 The Team will initially keep 700,000 Founder Points and sell 1,800,000 to the public during the [Initial Funding Event](../assets/founder-nfts.md). The funds raised during IFE will be used to build and promote Questfall, so it is hard to overstate the value of the founders, as the platform would not exist without them. In recognition of their contribution, the founders will receive 10% of the newly created QFTs each week from the very beginning and forever.
 
 {% hint style="info" %}
-In fact, Founders are considered initial miners, so their percentage will be much higher before the other rewarded activities start. For more details see the [Roadmap](../roadmap/roadmap.md)
+In fact, Founders are considered initial miners, so their percentage will be much higher before the other rewarded activities start. For more details see the [Roadmap](broken-reference)
 {% endhint %}
 
 The total number of QFTs to be rewarded to founders in a given week is known in advance as it can be calculated by the formula. This fixed number of tokens will be distributed to all [Founder NFT](../assets/founder-nfts.md) holders at the end of the week, according to the individual Founder Point share of each NFT holder.

@@ -58,7 +58,10 @@
 
 ## Roadmap
 
-* [Roadmap](roadmap/roadmap.md)
+* [Questfall Model Description](roadmap/questfall-model-description.md)
+* [Initial Funding Event (IFE)](roadmap/initial-funding-event-ife.md)
+* [Liquidity Generation Event (LGE)](roadmap/liquidity-generation-event-lge.md)
+* [Questfall Launch](roadmap/questfall-launch.md)
 
 ## Links
 
