@@ -8,7 +8,11 @@ icon: square
 
 The primary goal of the Initial Funding Event is to raise money for the initial development, operation, and marketing of Questfall by selling Founder NFTs to the public. There will be a limited number of Founder NFTs available for each of the six rarity tiers, bringing the total amount of funding we are targeting to $1.5 million.
 
-However, there is no low cap, as we will develop Questfall regardless of the final amount we are able to raise. We will launch the project even if we raise nothing, because we see a huge potential in Defationary Quest Mining. But it will obviously take longer and be much more painful for us.
+However, there is no low cap, as we will develop Questfall regardless of the final amount we are able to raise. We will launch the project even if we raise nothing, as we have already put a lot of effort into it and see a great potential in Defationary Quest Mining.&#x20;
+
+{% hint style="info" %}
+But of course it will be much easier and faster to launch Quesfall if we can hire several developers, designers and marketers.
+{% endhint %}
 
 The mining approach assumes that there is no other way to get profits from the system other than receiving a portion of the token issuance. It can be considered as taking profits from a company as dividends in a conventional approach.&#x20;
 
