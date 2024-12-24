@@ -2,7 +2,7 @@
 icon: location-pin
 ---
 
-# Roadmap 2025-2026
+# Roadmap
 
 {% hint style="info" %}
 Marketing and partnerships are ongoing activities that we will adapt to market conditions and available resources, and are therefore not described in advance.
@@ -22,31 +22,61 @@ As a result, we developed Questfall with a level of detail that most projects la
 
 <mark style="color:yellow;">3 Month:</mark> <mark style="color:orange;">April 2025 - June 2025</mark>
 
-The main goal of the Initial Funding Event is to raise money for project development and initial operations by selling [Founder NFTs](../assets/founder-nfts.md) to the public.
-
-The main motivation to purchase the Founder NFTs is to get a share of the initial circulating supply of QFT and an endless income stream from the Questfall platform.
-
-* [ ] Questfall project webpage
-* [ ] Initial Funding Event webpage
-* [ ] Founder NFTs smart contracts
+There are three main tasks that need to be done before launching the Initial Funding Event. First, we need to develop the Founder NFT smart contract, taking into account the entire infrastructure of Questfall. Second, we need to gather a community of interested people who are willing to become founders of the project. And finally, we need to set up the referral program for the Influencers to attract more people to the event.
 
 ***
 
 ### Initial Funding Event (IFE)
 
-<mark style="color:yellow;">3 Days: June 2025</mark>
+<mark style="color:yellow;">3 Days:</mark> <mark style="color:orange;">June 2025</mark>
 
-The main goal of the Initial Funding Event is to raise money for project development and initial operations by selling [Founder NFTs](../assets/founder-nfts.md) to the public.
+The primary goal of the Initial Funding Event is to raise money for the initial development, operation, and marketing of Questfall by selling Founder NFTs to the public. There will be a limited number of Founder NFTs available for each of the six rarity tiers, bringing the total amount of funding we are targeting to $1.5 million.
 
-The main motivation to purchase the Founder NFTs is to get a share of the initial circulating supply of QFT and an endless income stream from the Questfall platform.
+However, there is no low cap, as we will develop Questfall regardless of the final amount we are able to raise. We will launch the project even if we raise nothing, but it will obviously take longer and be much more painful for us. This is because we see a huge potential in Defationary Quest Mining.
 
-* [ ] Questfall project webpage
-* [ ] Initial Funding Event webpage
-* [ ] Founder NFTs smart contracts
+However, the mining approach assumes that there is no other way to get profits from the system other than receiving a portion of the token issuance. It can be considered as taking profits from a company as dividends in a conventional approach.&#x20;
 
-The current status: <mark style="background-color:orange;">Not yet launched...</mark>
+These profits are only received by the founders, which can be anyone by participating in IFE. And since all founders are considered equal by the system, whatever is given to us as founders is also given to the other founders. And that is a lot to start with.
+
+Founders will receive ongoing income from the issuance of QFTs. They will receive double the amount of money they paid for NFTs in gold equivalent during their first year of Questfal work. They will receive unique RPG items based on the rarity tier of their Founder NFTs. They will have access to the team's private group, where they can influence the project's development and receive advance notice of upcoming events.
+
+This is why we limit the event to 3 days, because we see it as an opportunity for people to get on board, not for us to make as much money as possible. Since all unsold during the even NFTs will be burned (or more accurately, never minted), the share of actual founders will increase proportionally. So, in a sense, it is beneficial for us (as well as any other founder) to sell as few NFTs as possible.
+
+But of course we will do our best to attract as many founders as possible, because they bring not only money, but also decentralization, experience, connections, support and fresh ideas.
 
 ***
+
+### Platform Development
+
+<mark style="color:yellow;">9 Month:</mark> <mark style="color:orange;">July 2025 - March 2026</mark>
+
+5% of all QFT issued each week will go to the Team for project development and marketing, and the remaining 95% will go to the holders of Founder NFTs, who are considered to be the initial miners. The founders' weekly share will drop in stages to the final 10% when all other [Rewarding Pools](../overview/quest-mining.md) are launched.
+
+***
+
+### Liquidity Generation Event (LGE)
+
+<mark style="color:yellow;">1 Month:</mark> <mark style="color:orange;">March 2026</mark>
+
+5% of all QFT issued each week will go to the Team for project development and marketing, and the remaining 95% will go to the holders of Founder NFTs, who are considered to be the initial miners. The founders' weekly share will drop in stages to the final 10% when all other [Rewarding Pools](../overview/quest-mining.md) are launched.
+
+***
+
+### Questfall Launch
+
+<mark style="color:yellow;">1 Day:</mark> <mark style="color:orange;">April 2026</mark>
+
+The launch of Questfall is the main goal at this stage. It will allow anyone to create and complete quests using the next-generation crypto platform.
+
+
+
+
+
+
+
+
+
+
 
 ### Questfall Token (QFT)
 

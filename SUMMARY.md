@@ -58,7 +58,7 @@
 
 ## Roadmap
 
-* [Roadmap 2025-2026](roadmap/roadmap2025.md)
+* [Roadmap](roadmap/roadmap2025.md)
 
 ## Links
 
