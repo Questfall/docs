@@ -6,7 +6,11 @@ icon: square-pen
 
 <mark style="color:orange;">March 2025</mark>
 
-While we spent more than a year specifically developing the Questfall model, it took several years before that to crystallize the idea and overall approach, including our work on the Elysium blockchain. For example, Black-Shoulz option pricing had a huge impact on the concept of Deflationary Mining, but we decided to leave such theoretical details outside of this documentation.
+While we spent more than a year specifically developing the Questfall model, it took several years before that to crystallize the idea and overall approach, including our work on the Elysium blockchain. For example, Black-Shoulz option pricing had a huge impact on the concept of Deflationary Mining.
+
+{% hint style="info" %}
+However, we have decided to leave such theoretical details outside of this documentation.
+{% endhint %}
 
 As a result, we designed the Questfall model with a level of detail that most projects lack, even after they are up and running.
 
