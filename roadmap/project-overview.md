@@ -4,9 +4,7 @@ icon: square-pen
 
 # Detailed Project Description
 
-<mark style="background-color:yellow;">Planned:</mark> <mark style="background-color:yellow;"></mark><mark style="background-color:yellow;">**March 2025**</mark>
-
-***
+<mark style="color:yellow;">Planned:</mark> <mark style="color:orange;">**March 2025**</mark>
 
 While we spent more than a year specifically developing the Questfall model, it took several years before that to crystallize the idea and overall approach, including our work on the Elysium blockchain. For example, Black-Shoulz option pricing had a huge impact on the concept of Deflationary Mining.
 
