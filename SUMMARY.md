@@ -58,7 +58,7 @@
 
 ## Roadmap
 
-* [Project Overview](roadmap/project-overview.md)
+* [Detailed Project Description](roadmap/detailed-project-description.md)
 * [Initial Funding Event](roadmap/initial-funding-event.md)
 * [Liquidity Generation Event](roadmap/liquidity-generation-event.md)
 * [Platform v1.0 and Beyond](roadmap/platform-v1.0-and-beyond.md)
