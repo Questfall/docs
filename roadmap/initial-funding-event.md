@@ -4,7 +4,7 @@ icon: square
 
 # Initial Funding Event
 
-<mark style="color:yellow;">Planned:</mark> <mark style="color:orange;">June 2025</mark> <mark style="color:orange;"></mark><mark style="color:orange;">**(**</mark><mark style="color:orange;">3 Days)</mark>
+<mark style="color:yellow;">Planned:</mark> <mark style="color:orange;">June 2025</mark> <mark style="color:orange;"></mark><mark style="color:orange;">**-**</mark> <mark style="color:orange;"></mark><mark style="color:orange;">3 Days</mark>
 
 The primary goal of the Initial Funding Event is to raise money for the initial development, operation, and marketing of Questfall by selling Founder NFTs to the public. There will be a limited number of Founder NFTs available for each of the six rarity tiers, bringing the total amount of funding we are targeting to $1.5 million.
 
