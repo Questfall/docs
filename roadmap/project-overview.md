@@ -4,7 +4,7 @@ icon: square-pen
 
 # Detailed Project Description
 
-Planned: <mark style="color:orange;">**March 2025**</mark>
+<mark style="background-color:yellow;">Planned:</mark> <mark style="background-color:yellow;"></mark><mark style="background-color:yellow;">**March 2025**</mark>
 
 ***
 
