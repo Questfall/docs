@@ -2,9 +2,9 @@
 icon: square-pen
 ---
 
-# Project Overview
+# Detailed Project Description
 
-<mark style="color:orange;">March 2025</mark>
+Planned: <mark style="color:orange;">March 2025</mark>
 
 While we spent more than a year specifically developing the Questfall model, it took several years before that to crystallize the idea and overall approach, including our work on the Elysium blockchain. For example, Black-Shoulz option pricing had a huge impact on the concept of Deflationary Mining.
 
@@ -20,7 +20,7 @@ Each innovation we mention has a solid background. For example, the common appro
 
 Or we spent months on the random generator, evaluating the results against the distribution density and finding ways to collect randomness from the real world. And, of course, we already have a solution that works.
 
-The same is true for the authorization system and database engine, with web server and frontend technologies, we even already have code to grant access to the closed community in Discord for the owners of Founder NFTs.
+The same goes for the authorization system and database engine, web server and front-end technologies, we even have code to allow Founder NFT owners to access the private community in Discord.
 
 And that is how we worked out every aspect of the system.
 
