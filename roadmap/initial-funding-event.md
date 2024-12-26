@@ -4,28 +4,77 @@ icon: square
 
 # Initial Funding Event
 
-<mark style="color:yellow;">Planned:</mark> <mark style="color:orange;">June 2025 | 3 Days</mark>
+<mark style="color:yellow;">Planned on</mark> <mark style="color:orange;">May 2025 | 3 Days</mark>
 
-The primary goal of the Initial Funding Event is to raise money for the initial development, operation, and marketing of Questfall by selling 75% of Founder NFTs total supply to the public.&#x20;
+The primary goal of the Initial Funding Event (IFE) is to raise money for the initial development, operation, and marketing of Questfall by selling 75% of the total supply of Founder NFTs to the public, while keeping 25% for the team.
 
-<table><thead><tr><th width="164">NFT Rarity Tier</th><th width="79" align="center">Points</th><th width="99" align="center">Discount</th><th width="78" align="center">Price</th><th width="80" align="center">Total</th><th width="77" align="center">Team</th><th width="76" align="center">Public</th></tr></thead><tbody><tr><td>Common (F)</td><td align="center">100</td><td align="center">0%</td><td align="center">100</td><td align="center">3200</td><td align="center">800</td><td align="center">2400</td></tr><tr><td>Uncommon (E)</td><td align="center">224</td><td align="center">10.71%</td><td align="center">200</td><td align="center">1600</td><td align="center">400</td><td align="center">1200</td></tr><tr><td>Rare (D)</td><td align="center">502</td><td align="center">20.32%</td><td align="center">400</td><td align="center">800</td><td align="center">200</td><td align="center">600</td></tr><tr><td>Epic (C)</td><td align="center">1126</td><td align="center">28.95%</td><td align="center">800</td><td align="center">400</td><td align="center">100</td><td align="center">300</td></tr><tr><td>Legendary (B)</td><td align="center">2526</td><td align="center">36.66%</td><td align="center">1600</td><td align="center">200</td><td align="center">50</td><td align="center">150</td></tr><tr><td>Mythical (A)</td><td align="center">5666</td><td align="center">43.52%</td><td align="center">3200</td><td align="center">100</td><td align="center">25</td><td align="center">75</td></tr></tbody></table>
+{% hint style="info" %}
+Founder NFTs will only be minted during the IFE and never again, as it is a one-time event.
+{% endhint %}
 
-There will be a limited number of Founder NFTs available for each of the six rarity tiers, bringing the total amount of funding we are targeting to $1.5 million.
+Depending on the rarity tier, of which there are six, each Founder NFT contains a certain amount of Founder Points, which are used to distribute the founders' share of the weekly QFT issue. Since the total supply of each rarity tier is limited, the maximum amount of Founder Points is also limited and cannot exceed <mark style="background-color:purple;">2,602,200</mark>.
+
+The number of available NFTs decreases by half with each tier, while the amount of Founder Points contained in each NFT increases by x2.243. Since each subsequent tier is double the price during the IFE, the higher tiers receive a discount on the price of each Founder Point they contain.
+
+<table><thead><tr><th width="164">NFT Rarity Tier</th><th width="86" align="center">Points</th><th width="86" align="center">Price</th><th width="99" align="center">Discount</th><th width="76" align="center">Team</th><th width="77" align="center">IFE</th></tr></thead><tbody><tr><td>Common (F)</td><td align="center">100</td><td align="center">$100</td><td align="center">0%</td><td align="center">800</td><td align="center">2400</td></tr><tr><td>Uncommon (E)</td><td align="center">224</td><td align="center">$200</td><td align="center">10.71%</td><td align="center">400</td><td align="center">1200</td></tr><tr><td>Rare (D)</td><td align="center">502</td><td align="center">$400</td><td align="center">20.32%</td><td align="center">200</td><td align="center">600</td></tr><tr><td>Epic (C)</td><td align="center">1126</td><td align="center">$800</td><td align="center">28.95%</td><td align="center">100</td><td align="center">300</td></tr><tr><td>Legendary (B)</td><td align="center">2526</td><td align="center">$1600</td><td align="center">36.66%</td><td align="center">50</td><td align="center">150</td></tr><tr><td>Mythical (A)</td><td align="center">5666</td><td align="center">$3200</td><td align="center">43.52%</td><td align="center">25</td><td align="center">75</td></tr></tbody></table>
+
+As a result, the total amount of money that can be raised during the IFE is limited to $1,440,000, but since there is a referral program that gives a 10% discount on the price of NFTs and 15% of the full price as a reward to Ambassadors, the final amount that a team can actually raise is limited to <mark style="background-color:purple;">$1,080,000</mark>.
 
 However, there is no low cap, as we will develop Questfall regardless of the final amount we are able to raise. We will launch the project even if we raise nothing, as we have already put a lot of effort into it and see a great potential in Defationary Quest Mining.&#x20;
 
 {% hint style="info" %}
-But of course it will be much easier and faster to launch Quesfall if we can hire several developers, designers and marketers.
+However, it will be much easier and faster to launch Quesfall if we can hire several developers, designers and marketers.
 {% endhint %}
 
-The mining approach assumes that there is no other way to get profits from the system other than receiving a portion of the token issuance. It can be considered as taking profits from a company as dividends in a conventional approach.&#x20;
+This is why we limit the event to 3 days, because we see it as an opportunity for people to get on board, not for us to make as much money as possible. Since any NFTs not minted during the IFE will never be minted afterward, the shares received by existing founders will increase proportionally. So in a sense, selling as few NFTs as possible is in the best interest of every founder (including us).
+
+But of course we will do our best to attract as many founders as possible, because they bring not only money, but also decentralization, experience, connections, support and fresh ideas.
+
+### The Founders
+
+All Founders are considered equal, as people who have brought crucial value to the project, without whom Questfall would not even exist.&#x20;
+
+We as a team will not receive any special bonuses as the benefits of being a Founder are automatically distributed by the system to each Founder NFT owner according to their share of Founder Points. And there are a lot of benefits that come with being a Founder in Questfall.
+
+#### Passive Income for Life with Weekly QFT
+
+The mining approach assumes that there is no other way to profit from the system other than receiving a portion of the token issuance. It can be thought of as taking profits from a company as dividends in a traditional fiat money approach.
+
+{% hint style="info" %}
+Weekly rewards can be thought of as salaries for employees and payments to vendors based on the value they add to the system during the week, while Founders are the only participants in Questfall who receive an income stream for adding one-time value. Just like shareholders in a real company.
+{% endhint %}
+
+The 10% portion of the weekly QFT issue is distributed to all Founder NFT holders according to their Founder Points, which can be thought of as mining power.&#x20;
+
+To illustrate the financial results of becoming a Founder, let's look at the first year of Questfall. Since a total of 1,412,159 QFTs will be issued in the first year, the Founder's share will be 141,217 QFTs. Considering that each NFT is minted during the IFE, the following income will be received by the owners of the various Founder NFT tiers, depending on the average price of the QFT during the year.
+
+
+
+<table><thead><tr><th width="160">NFT Rarity Tier</th><th width="119" align="center">1st Year</th><th width="112" align="center">QFT = $0.1</th><th width="97" align="center">QFT = $1</th><th width="104" align="center">QFT = $5</th><th width="67" align="center">QFT = $10</th></tr></thead><tbody><tr><td>Common (F)</td><td align="center">5.43 QFT</td><td align="center">$0.54</td><td align="center">$5.43</td><td align="center">$27.13</td><td align="center">$54.27</td></tr><tr><td>Uncommon (E)</td><td align="center">12.16 QFT</td><td align="center">$1.22</td><td align="center">$12.16</td><td align="center">$60.78</td><td align="center">$121.56</td></tr><tr><td>Rare (D)</td><td align="center">27.24 QFT</td><td align="center">$2.72</td><td align="center">$27.24</td><td align="center">$136.21</td><td align="center">$272.43</td></tr><tr><td>Epic (C)</td><td align="center">61.11 QFT</td><td align="center">$6.11</td><td align="center">$61.11</td><td align="center">$305.53</td><td align="center">$611.06</td></tr><tr><td>Legendary (B)</td><td align="center">137.08 QFT</td><td align="center">$13.71</td><td align="center">$137.08</td><td align="center">$685.41</td><td align="center">$1,370.82</td></tr><tr><td>Mythical (A)</td><td align="center">307.48 QFT</td><td align="center">$30.75</td><td align="center">$307.48</td><td align="center">$1,537.42</td><td align="center">$3,074.84</td></tr></tbody></table>
 
 These profits are only received by the founders, which can be anyone by participating in IFE. And since all founders are considered equal by the system, whatever is given to us as founders is also given to the other founders. And that is a lot to start with.
 
-Founders will receive ongoing income from the issuance of QFTs. They will receive double the amount of money they paid for NFTs in gold equivalent during their first year of Questfal work. They will receive unique RPG items based on the rarity tier of their Founder NFTs. They will have access to the team's private group, where they can influence the project's development and receive advance notice of upcoming events.
+#### Double compensation for NFT costs
+
+They will receive double the amount of money they paid for NFTs in gold equivalent during their first year of Questfal work.&#x20;
+
+#### Limited Founders Edition Loot Boxes
+
+They will receive unique RPG items based on the rarity tier of their Founder NFTs.&#x20;
+
+#### Free Leveling Up and Quest Promotion
+
+
+
+#### Long-term NFT Price Increase
 
 And of course the Founder NFTs will be burned by the system, making them a deflationary asset.
 
-This is why we limit the event to 3 days, because we see it as an opportunity for people to get on board, not for us to make as much money as possible. Since any NFTs not minted during the IFE will never be minted afterward, the shares received by existing founders will increase proportionally. So, in a sense, it is beneficial for us (as well as any other founder) to sell as few NFTs as possible.
+#### Private Founders Club
 
-But of course we will do our best to attract as many founders as possible, because they bring not only money, but also decentralization, experience, connections, support and fresh ideas.
+They will have access to the team's private group, where they can influence the project's development and receive advance notice of upcoming events.
+
+### The Ambassadors
+
+dsfdff
+
