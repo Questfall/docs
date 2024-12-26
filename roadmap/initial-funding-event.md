@@ -16,7 +16,7 @@ Depending on the rarity tier, of which there are six, each Founder NFT contains 
 
 The number of available NFTs decreases by half with each tier, while the amount of Founder Points contained in each NFT increases by x2.243. Since each subsequent tier is double the price during the IFE, the higher tiers receive a discount on the price of each Founder Point they contain.
 
-<table><thead><tr><th width="164">NFT Rarity Tier</th><th width="86" align="center">Points</th><th width="76" align="center">Team</th><th width="77" align="center">IFE</th><th width="86" align="center">Price</th><th width="99" align="center">Discount</th></tr></thead><tbody><tr><td>Common (F)</td><td align="center">100</td><td align="center">800</td><td align="center">2400</td><td align="center">$100</td><td align="center">0%</td></tr><tr><td>Uncommon (E)</td><td align="center">224</td><td align="center">400</td><td align="center">1200</td><td align="center">$200</td><td align="center">10.71%</td></tr><tr><td>Rare (D)</td><td align="center">502</td><td align="center">200</td><td align="center">600</td><td align="center">$400</td><td align="center">20.32%</td></tr><tr><td>Epic (C)</td><td align="center">1126</td><td align="center">100</td><td align="center">300</td><td align="center">$800</td><td align="center">28.95%</td></tr><tr><td>Legendary (B)</td><td align="center">2526</td><td align="center">50</td><td align="center">150</td><td align="center">$1600</td><td align="center">36.66%</td></tr><tr><td>Mythical (A)</td><td align="center">5666</td><td align="center">25</td><td align="center">75</td><td align="center">$3200</td><td align="center">43.52%</td></tr></tbody></table>
+<table><thead><tr><th width="182">Founder Tier</th><th width="86" align="center">Points</th><th width="76" align="center">Team</th><th width="77" align="center">IFE</th><th width="86" align="center">Price</th><th width="99" align="center">Discount</th></tr></thead><tbody><tr><td>Common (F)</td><td align="center">100</td><td align="center">800</td><td align="center">2400</td><td align="center">$100</td><td align="center">0%</td></tr><tr><td>Uncommon (E)</td><td align="center">224</td><td align="center">400</td><td align="center">1200</td><td align="center">$200</td><td align="center">10.71%</td></tr><tr><td>Rare (D)</td><td align="center">502</td><td align="center">200</td><td align="center">600</td><td align="center">$400</td><td align="center">20.32%</td></tr><tr><td>Epic (C)</td><td align="center">1126</td><td align="center">100</td><td align="center">300</td><td align="center">$800</td><td align="center">28.95%</td></tr><tr><td>Legendary (B)</td><td align="center">2526</td><td align="center">50</td><td align="center">150</td><td align="center">$1600</td><td align="center">36.66%</td></tr><tr><td>Mythical (A)</td><td align="center">5666</td><td align="center">25</td><td align="center">75</td><td align="center">$3200</td><td align="center">43.52%</td></tr></tbody></table>
 
 As a result, the total amount of money that can be raised during the IFE is limited to $1,440,000, but since there is a referral program that gives a 10% discount on the price of NFTs and 15% of the full price as a reward to Ambassadors, the final amount that a team can actually raise is limited to <mark style="background-color:purple;">$1,080,000</mark>.
 
@@ -34,9 +34,9 @@ But of course we will do our best to attract as many founders as possible, becau
 
 ## The Founders
 
-All Founders are considered equal, as people who have brought crucial value to the project, without whom Questfall would not even exist.&#x20;
+Founders are people who have brought critical value to the project, without whom Questfall would not even exist. All Founders are considered equal, and we as a team will not receive any special bonuses.&#x20;
 
-We as a team will not receive any special bonuses as the benefits of being a Founder are automatically distributed by the system to each Founder NFT owner according to their share of Founder Points. And there are a lot of benefits that come with being a Founder in Questfall.
+This is because the benefits of being a Founder are automatically distributed by the system to each Founder NFT owner according to their share of Founder Points. And there are a lot of benefits that come with being a Founder in Questfall.
 
 ### Passive Income for Life with Weekly QFT
 
@@ -52,7 +52,7 @@ To illustrate the financial results of becoming a Founder, let's look at the fir
 
 
 
-<table><thead><tr><th width="160">NFT Rarity Tier</th><th width="119" align="center">1st Year</th><th width="112" align="center">QFT = $0.1</th><th width="97" align="center">QFT = $1</th><th width="104" align="center">QFT = $5</th><th width="117" align="center">QFT = $10</th></tr></thead><tbody><tr><td>Common (F)</td><td align="center">5.43 QFT</td><td align="center">$0.54</td><td align="center">$5.43</td><td align="center">$27</td><td align="center">$54</td></tr><tr><td>Uncommon (E)</td><td align="center">12.16 QFT</td><td align="center">$1.22</td><td align="center">$12.16</td><td align="center">$61</td><td align="center">$122</td></tr><tr><td>Rare (D)</td><td align="center">27.24 QFT</td><td align="center">$2.72</td><td align="center">$27.24</td><td align="center">$136</td><td align="center">$272</td></tr><tr><td>Epic (C)</td><td align="center">61.11 QFT</td><td align="center">$6.11</td><td align="center">$61.11</td><td align="center">$306</td><td align="center">$611</td></tr><tr><td>Legendary (B)</td><td align="center">137.08 QFT</td><td align="center">$13.71</td><td align="center">$137.08</td><td align="center">$685</td><td align="center">$1,371</td></tr><tr><td>Mythical (A)</td><td align="center">307.48 QFT</td><td align="center">$30.75</td><td align="center">$307.48</td><td align="center">$1,537</td><td align="center">$3,075</td></tr></tbody></table>
+<table><thead><tr><th width="160">Founder Tier</th><th width="119" align="center">1st Year</th><th width="112" align="center">QFT = $0.1</th><th width="97" align="center">QFT = $1</th><th width="104" align="center">QFT = $5</th><th width="117" align="center">QFT = $10</th></tr></thead><tbody><tr><td>Common (F)</td><td align="center">5.43 QFT</td><td align="center">$0.54</td><td align="center">$5.43</td><td align="center">$27</td><td align="center">$54</td></tr><tr><td>Uncommon (E)</td><td align="center">12.16 QFT</td><td align="center">$1.22</td><td align="center">$12.16</td><td align="center">$61</td><td align="center">$122</td></tr><tr><td>Rare (D)</td><td align="center">27.24 QFT</td><td align="center">$2.72</td><td align="center">$27.24</td><td align="center">$136</td><td align="center">$272</td></tr><tr><td>Epic (C)</td><td align="center">61.11 QFT</td><td align="center">$6.11</td><td align="center">$61.11</td><td align="center">$306</td><td align="center">$611</td></tr><tr><td>Legendary (B)</td><td align="center">137.08 QFT</td><td align="center">$13.71</td><td align="center">$137.08</td><td align="center">$685</td><td align="center">$1,371</td></tr><tr><td>Mythical (A)</td><td align="center">307.48 QFT</td><td align="center">$30.75</td><td align="center">$307.48</td><td align="center">$1,537</td><td align="center">$3,075</td></tr></tbody></table>
 
 Since 500,000 QFTs will be issued during the Liquidity Generation Event to provide liquidity to the DEX swap pool, a total of 1,912,169 QFTs will be put into circulation during the first year. Assuming that only half of the tokens will be in the liquidity pool, there should be approximately $10 million in the second side of the pool for the price of the QFT to be $10.
 
@@ -62,7 +62,7 @@ However, this does not take into account the number of QFTs that will be burned 
 
 We want a weekly QFT reward to be a real profit that can be considered independently of the cost of the NFT itself. To achieve this, we include in each NFT the amount of Gold that is enough to compensate the price paid for the NFT on the IFE. Since Gold can only be withdrawn from the system with an unpredictable discount, we include 2x the NFT cost in Gold equivalent (1 Gold = $0.01).
 
-<table><thead><tr><th width="218">NFT Rarity Tier</th><th width="151" align="center">IFE Full Price</th><th width="146" align="center">Gold Included</th></tr></thead><tbody><tr><td>Common (F)</td><td align="center">$100</td><td align="center">20,000</td></tr><tr><td>Uncommon (E)</td><td align="center">$200</td><td align="center">40,000</td></tr><tr><td>Rare (D)</td><td align="center">$400</td><td align="center">80,000</td></tr><tr><td>Epic (C)</td><td align="center">$800</td><td align="center">160,000</td></tr><tr><td>Legendary (B)</td><td align="center">$1600</td><td align="center">320,000</td></tr><tr><td>Mythical (A)</td><td align="center">$3200</td><td align="center">640,000</td></tr></tbody></table>
+<table><thead><tr><th width="218">Founder Tier</th><th width="151" align="center">IFE Full Price</th><th width="146" align="center">Gold Included</th></tr></thead><tbody><tr><td>Common (F)</td><td align="center">$100</td><td align="center">20,000</td></tr><tr><td>Uncommon (E)</td><td align="center">$200</td><td align="center">40,000</td></tr><tr><td>Rare (D)</td><td align="center">$400</td><td align="center">80,000</td></tr><tr><td>Epic (C)</td><td align="center">$800</td><td align="center">160,000</td></tr><tr><td>Legendary (B)</td><td align="center">$1600</td><td align="center">320,000</td></tr><tr><td>Mythical (A)</td><td align="center">$3200</td><td align="center">640,000</td></tr></tbody></table>
 
 Since the huge amounts of Gold in the system can brake a balance, the Gold compensation will be implemented by 1/12 chuncks per month. Besides the direct goal of compensation, this approach will also increase the price of Founder NFTs during the first year.
 
@@ -70,23 +70,29 @@ Since the huge amounts of Gold in the system can brake a balance, the Gold compe
 
 Each Founder NFT will contain a certain number of Founders Edition (FE) Loot Boxes. While the regular loot boxes in the system are unrestricted and available to everyone, FE Loot Boxes are limited and only available to Founders.
 
-{% hint style="info" %}
-FE Loot Boxes are not included in the Founder NFTs themselves, and will be available to Founders when Questfall launches by logging into the system with the wallet address used in IFE.
-{% endhint %}
-
 FE Loot Boxes have six rarity tiers. While the Common (F) FE Loot Box doubles the chance of getting rarer items compared to the regular loot box, higher tiers will guarantee getting the RPG item of the same rarity as the loot box itself.&#x20;
 
 {% hint style="info" %}
 Uncommon (E) FE Loot Box will yield an Uncommon (E) item, Rare (D) will yield a Rare (D) item, and so on.
 {% endhint %}
 
-<table><thead><tr><th width="192">Founder NFTs</th><th width="71" align="center">F</th><th width="70" align="center">E</th><th width="67">D</th><th width="65">C</th><th width="64">B</th><th width="68">A</th></tr></thead><tbody><tr><td>Common (F)</td><td align="center">10</td><td align="center"></td><td></td><td></td><td></td><td></td></tr><tr><td>Uncommon (E)</td><td align="center">10</td><td align="center">1</td><td></td><td></td><td></td><td></td></tr><tr><td>Rare (D)</td><td align="center">10</td><td align="center">1</td><td>1</td><td></td><td></td><td></td></tr><tr><td>Epic (C)</td><td align="center">10</td><td align="center">1</td><td>1</td><td>1</td><td></td><td></td></tr><tr><td>Legendary (B)</td><td align="center">10</td><td align="center">1</td><td>1</td><td>1</td><td>1</td><td></td></tr><tr><td>Mythical (A)</td><td align="center">10</td><td align="center">1</td><td>1</td><td>1</td><td>1</td><td>1</td></tr></tbody></table>
+<table><thead><tr><th width="192">Founder Tier</th><th width="285">Founder Edition Loot Boxes</th></tr></thead><tbody><tr><td>Common (F)</td><td>F x 10</td></tr><tr><td>Uncommon (E)</td><td>F x 10, E x 1</td></tr><tr><td>Rare (D)</td><td>F x 10, E x 1, D x 1</td></tr><tr><td>Epic (C)</td><td>F x 10, E x 1, D x 1, C x 1</td></tr><tr><td>Legendary (B)</td><td>F x 10, E x 1, D x 1, C x 1, B x 1</td></tr><tr><td>Mythical (A)</td><td>F x 10, E x 1, D x 1, C x 1, B x 1, A x 1</td></tr></tbody></table>
 
-Since there will be no higher rarity RPG items in the system at launch, owners of the rarer Founder NFTs will be the only ones with rarer items for some time. This will allow them to gain an advantage from the start or sell these RPG items for profit.
+FE Loot Boxes are not included in the Founder NFTs themselves, and will be available to Founders when Questfall launches by logging into the system with the wallet address used in IFE. This means that the loot box bonus will not affect the price of the Founder NFT.
+
+However, since there will be no higher rarity RPG items in the system at launch, owners of the rarer Founder NFTs will be the only ones with rarer items for some time. This will allow them to gain an early advantage or sell these RPG items for a profit.
 
 ### Free Leveling Up and Quest Promotion
 
+In Questfall, there is another in-game currency besides Gold - Silver, which can be obtained through proper moderation or by burning Gold - every 1 Gold yields 10 Silver. Silver can't be exchanged for Gold and can only be burned for leveling up or quest promotion.
 
+{% hint style="info" %}
+Since there is Gold in the Founder NFTs, it can also be used to get Silver. However, this defeats the purpose of NTS cost compensation.
+{% endhint %}
+
+<table><thead><tr><th width="218">Founder Tier</th><th width="146" align="center">Silver Bonus</th></tr></thead><tbody><tr><td>Common (F)</td><td align="center">100,000</td></tr><tr><td>Uncommon (E)</td><td align="center">200,000</td></tr><tr><td>Rare (D)</td><td align="center">400,000</td></tr><tr><td>Epic (C)</td><td align="center">800,000</td></tr><tr><td>Legendary (B)</td><td align="center">1,600,000</td></tr><tr><td>Mythical (A)</td><td align="center">3,200,000</td></tr></tbody></table>
+
+Founders will receive Silver as soon as they log in to Questfall, meaning that the Silver bonus is not tied to the NFT itself, but rather to the wallet address used by the Founder during the IFE. And while Silver is non-tradable and non-withdrawable, it can provide an early boost for users in the system.
 
 ### Long-term NFT Price Increase
 
