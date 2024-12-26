@@ -66,19 +66,21 @@ Since the huge amounts of Gold in the system can brake a balance, the Gold compe
 
 #### Founders Edition Loot Boxes
 
-Each Founder NFT will contain a certain number of Founders Edition (FE) Loot Boxes. While the regular loot boxes in the system are unrestricted and available to everyone, the FE Loot Boxes are limited and only available to Founders.
+Each Founder NFT will contain a certain number of Founders Edition (FE) Loot Boxes. While the regular loot boxes in the system are unrestricted and available to everyone, FE Loot Boxes are limited and only available to Founders.
 
 {% hint style="info" %}
 FE Loot Boxes are not included in the Founder NFTs themselves, and will be available to Founders when Questfall launches by logging into the system with the wallet address used in IFE.
 {% endhint %}
 
-FE Loot Boxes have six rarity tiers. While the Common (F) FE Loot Box will double the chance of getting rarer items than the regular loot box, higher tiers will guarantee getting the RPG item of the same rarity as the loot box itself.&#x20;
+FE Loot Boxes have six rarity tiers. While the Common (F) FE Loot Box doubles the chance of getting rarer items compared to the regular loot box, higher tiers will guarantee getting the RPG item of the same rarity as the loot box itself.&#x20;
 
 {% hint style="info" %}
 Uncommon (E) FE Loot Box will yield an Uncommon (E) item, Rare (D) will yield a Rare (D) item, and so on.
 {% endhint %}
 
 <table><thead><tr><th width="192">Founder NFTs</th><th width="71" align="center">F</th><th width="70" align="center">E</th><th width="67">D</th><th width="65">C</th><th width="64">B</th><th width="68">A</th></tr></thead><tbody><tr><td>Common (F)</td><td align="center">10</td><td align="center"></td><td></td><td></td><td></td><td></td></tr><tr><td>Uncommon (E)</td><td align="center">10</td><td align="center">1</td><td></td><td></td><td></td><td></td></tr><tr><td>Rare (D)</td><td align="center">10</td><td align="center">1</td><td>1</td><td></td><td></td><td></td></tr><tr><td>Epic (C)</td><td align="center">10</td><td align="center">1</td><td>1</td><td>1</td><td></td><td></td></tr><tr><td>Legendary (B)</td><td align="center">10</td><td align="center">1</td><td>1</td><td>1</td><td>1</td><td></td></tr><tr><td>Mythical (A)</td><td align="center">10</td><td align="center">1</td><td>1</td><td>1</td><td>1</td><td>1</td></tr></tbody></table>
+
+Since there will be no higher rarity RPG items in the system at launch, owners of the rarer Founder NFTs will be the only ones with rarer items for some time. This will allow them to gain an advantage from the start or sell these RPG items for profit.
 
 #### Free Leveling Up and Quest Promotion
 
