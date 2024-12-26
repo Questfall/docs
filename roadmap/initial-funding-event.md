@@ -66,7 +66,7 @@ Since 500,000 QFTs will be issued during the Liquidity Generation Event to provi
 
 Assuming that half of these tokens will be in the liquidity pool and half in the hands, there should be approximately $10 million in the second side of the pool at the end of the first year for the price of the QFT to be $10.
 
-However, this does not take into account the number of QFTs that will be burned during the first year, which directly affects the QFT price for the same amount of stablecoins in the pool. Therefore, since the lower the QFT price, the more tokens will be burned, we expect the QFT price to be much higher than $10 at the end of the first year.
+However, this estimate does not take into account the number of QFTs that will be burned during the first year, which directly affects the QFT price for the same amount of stablecoins in the pool. Therefore, since the low QFT price incentivizes QFT burning, we expect the QFT price to be higher than $10 at the end of the first year.
 
 ### Double compensation for NFT costs
 
