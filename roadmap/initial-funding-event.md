@@ -64,9 +64,9 @@ Since a total of 1,412,159 QFTs will be issued in the first year, the Founder's 
 
 Since 500,000 QFTs will be issued during the Liquidity Generation Event to provide liquidity to the DEX swap pool, a total of 1,912,169 QFTs will be put into circulation during the first year.&#x20;
 
-Assuming that half of these tokens will be in the liquidity pool and half in the hands, there should be approximately $10 million in the second side of the pool at the end of the first year for the price of the QFT to be $10.
+Assuming that half of these tokens will be in the liquidity pool and half in the hands, there should be approximately $1 million in the second side of the pool at the end of the first year for the price of the QFT to be $1. This price provides an annual percentage yield on the investment of approximately 10%, while the base NFT price is compensated in a different way (see Bonus below).
 
-However, this estimate does not take into account the number of QFTs that will be burned during the first year, which directly affects the QFT price for the same amount of stablecoins in the pool. Therefore, since the low QFT price incentivizes QFT burning, we expect the QFT price to be higher than $10 at the end of the first year.
+However, this estimate does not take into account the number of QFTs that will be burned during the first year, which directly affects the QFT price for the same amount of stablecoins in the pool. Therefore, since the low QFT price incentivizes QFT burning, we actually expect the QFT price to be higher than $10 at the end of the first year.
 
 ### Double compensation for NFT costs
 
