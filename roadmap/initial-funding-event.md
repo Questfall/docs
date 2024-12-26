@@ -62,11 +62,23 @@ We want a weekly QFT reward to be a real profit that can be considered independe
 
 <table><thead><tr><th width="218">NFT Rarity Tier</th><th width="151" align="center">IFE Full Price</th><th width="146" align="center">Gold Included</th></tr></thead><tbody><tr><td>Common (F)</td><td align="center">$100</td><td align="center">20,000</td></tr><tr><td>Uncommon (E)</td><td align="center">$200</td><td align="center">40,000</td></tr><tr><td>Rare (D)</td><td align="center">$400</td><td align="center">80,000</td></tr><tr><td>Epic (C)</td><td align="center">$800</td><td align="center">160,000</td></tr><tr><td>Legendary (B)</td><td align="center">$1600</td><td align="center">320,000</td></tr><tr><td>Mythical (A)</td><td align="center">$3200</td><td align="center">640,000</td></tr></tbody></table>
 
-They will receive double the amount of money they paid for NFTs in gold equivalent during their first year of Questfal work.&#x20;
+Since the huge amounts of Gold in the system can brake a balance, the Gold compensation will be implemented by 1/12 chuncks per month. Besides the direct goal of compensation, this approach will also increase the price of Founder NFTs during the first year.
 
-#### Limited Founders Edition Loot Boxes
+#### Founders Edition Loot Boxes
 
-They will receive unique RPG items based on the rarity tier of their Founder NFTs.&#x20;
+Each Founder NFT will contain a certain number of Founders Edition (FE) Loot Boxes. While the regular loot boxes in the system are unrestricted and available to everyone, the FE Loot Boxes are limited and only available to Founders.
+
+{% hint style="info" %}
+FE Loot Boxes are not included in the Founder NFTs themselves, and will be available to Founders when Questfall launches by logging into the system with the wallet address used in IFE.
+{% endhint %}
+
+FE Loot Boxes have six rarity tiers. While the Common (F) FE Loot Box will double the chance of getting rarer items than the regular loot box, higher tiers will guarantee getting the RPG item of the same rarity as the loot box itself.&#x20;
+
+{% hint style="info" %}
+Uncommon (E) FE Loot Box will yield an Uncommon (E) item, Rare (D) will yield a Rare (D) item, and so on.
+{% endhint %}
+
+<table><thead><tr><th width="190">Founder NFTs</th><th width="71" align="center">F</th><th width="70" align="center">E</th><th width="67">D</th><th width="65">C</th><th width="64">B</th><th>A</th></tr></thead><tbody><tr><td>Common (F)</td><td align="center">10</td><td align="center"></td><td></td><td></td><td></td><td></td></tr><tr><td>Uncommon (E)</td><td align="center">10</td><td align="center">1</td><td></td><td></td><td></td><td></td></tr><tr><td>Rare (D)</td><td align="center">10</td><td align="center">1</td><td>1</td><td></td><td></td><td></td></tr><tr><td>Epic (C)</td><td align="center">10</td><td align="center">1</td><td>1</td><td>1</td><td></td><td></td></tr><tr><td>Legendary (B)</td><td align="center">10</td><td align="center">1</td><td>1</td><td>1</td><td>1</td><td></td></tr><tr><td>Mythical (A)</td><td align="center">10</td><td align="center">1</td><td>1</td><td>1</td><td>1</td><td>1</td></tr></tbody></table>
 
 #### Free Leveling Up and Quest Promotion
 
