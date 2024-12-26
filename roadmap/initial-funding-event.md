@@ -8,7 +8,7 @@ icon: square
 
 The primary goal of the Initial Funding Event is to raise money for the initial development, operation, and marketing of Questfall by selling 75% of Founder NFTs total supply to the public.&#x20;
 
-<table><thead><tr><th width="255">Rarity</th><th align="center">Total Supply</th><th width="114">Team</th><th width="158">Public</th></tr></thead><tbody><tr><td>Common (F)</td><td align="center">3200</td><td>800</td><td>2400</td></tr><tr><td>Uncommon (E)</td><td align="center">1600</td><td>400</td><td>1200</td></tr><tr><td>Rare (D)</td><td align="center">800</td><td>200</td><td>600</td></tr><tr><td>Epic (C)</td><td align="center">400</td><td>100</td><td>300</td></tr><tr><td>Legendary (B)</td><td align="center">200</td><td>50</td><td>150</td></tr><tr><td>Mythical (A)</td><td align="center">100</td><td>25</td><td>75</td></tr></tbody></table>
+<table><thead><tr><th width="255">Rarity</th><th width="133" align="center">Total Supply</th><th width="122">Team</th><th width="123">Public</th></tr></thead><tbody><tr><td>Common (F)</td><td align="center">3200</td><td>800</td><td>2400</td></tr><tr><td>Uncommon (E)</td><td align="center">1600</td><td>400</td><td>1200</td></tr><tr><td>Rare (D)</td><td align="center">800</td><td>200</td><td>600</td></tr><tr><td>Epic (C)</td><td align="center">400</td><td>100</td><td>300</td></tr><tr><td>Legendary (B)</td><td align="center">200</td><td>50</td><td>150</td></tr><tr><td>Mythical (A)</td><td align="center">100</td><td>25</td><td>75</td></tr></tbody></table>
 
 There will be a limited number of Founder NFTs available for each of the six rarity tiers, bringing the total amount of funding we are targeting to $1.5 million.
 
