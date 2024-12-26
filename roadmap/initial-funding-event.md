@@ -30,13 +30,13 @@ This is why we limit the event to 3 days, because we see it as an opportunity fo
 
 But of course we will do our best to attract as many founders as possible, because they bring not only money, but also decentralization, experience, connections, support and fresh ideas.
 
-### The Founders
+## The Founders
 
 All Founders are considered equal, as people who have brought crucial value to the project, without whom Questfall would not even exist.&#x20;
 
 We as a team will not receive any special bonuses as the benefits of being a Founder are automatically distributed by the system to each Founder NFT owner according to their share of Founder Points. And there are a lot of benefits that come with being a Founder in Questfall.
 
-#### Passive Income for Life with Weekly QFT
+### Passive Income for Life with Weekly QFT
 
 The mining approach assumes that there is no other way to profit from the system other than receiving a portion of the token issuance. It can be thought of as taking profits from a company as dividends in a traditional fiat money approach.
 
@@ -56,7 +56,7 @@ Since 500,000 QFTs will be issued during the Liquidity Generation Event to provi
 
 However, this does not take into account the number of QFTs that will be burned during the first year, which directly affects the QFT price for the same amount of stablecoins in the pool. Therefore, since the lower the QFT price, the more tokens will be burned, we expect the QFT price to be much higher than $10 at the end of the first year.
 
-#### Double compensation for NFT costs
+### Double compensation for NFT costs
 
 We want a weekly QFT reward to be a real profit that can be considered independently of the cost of the NFT itself. To achieve this, we include in each NFT the amount of Gold that is enough to compensate the price paid for the NFT on the IFE. Since Gold can only be withdrawn from the system with an unpredictable discount, we include 2x the NFT cost in Gold equivalent (1 Gold = $0.01).
 
@@ -64,7 +64,7 @@ We want a weekly QFT reward to be a real profit that can be considered independe
 
 Since the huge amounts of Gold in the system can brake a balance, the Gold compensation will be implemented by 1/12 chuncks per month. Besides the direct goal of compensation, this approach will also increase the price of Founder NFTs during the first year.
 
-#### Founders Edition Loot Boxes
+### Founders Edition Loot Boxes
 
 Each Founder NFT will contain a certain number of Founders Edition (FE) Loot Boxes. While the regular loot boxes in the system are unrestricted and available to everyone, FE Loot Boxes are limited and only available to Founders.
 
@@ -82,19 +82,19 @@ Uncommon (E) FE Loot Box will yield an Uncommon (E) item, Rare (D) will yield a 
 
 Since there will be no higher rarity RPG items in the system at launch, owners of the rarer Founder NFTs will be the only ones with rarer items for some time. This will allow them to gain an advantage from the start or sell these RPG items for profit.
 
-#### Free Leveling Up and Quest Promotion
+### Free Leveling Up and Quest Promotion
 
 
 
-#### Long-term NFT Price Increase
+### Long-term NFT Price Increase
 
 And of course the Founder NFTs will be burned by the system, making them a deflationary asset.
 
-#### Private Founders Club
+### Private Founders Club
 
 They will have access to the team's private group, where they can influence the project's development and receive advance notice of upcoming events.
 
-### The Ambassadors
+## The Ambassadors
 
 dsfdff
 
