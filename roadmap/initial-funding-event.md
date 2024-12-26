@@ -30,6 +30,8 @@ This is why we limit the event to 3 days, because we see it as an opportunity fo
 
 But of course we will do our best to attract as many founders as possible, because they bring not only money, but also decentralization, experience, connections, support and fresh ideas.
 
+***
+
 ## The Founders
 
 All Founders are considered equal, as people who have brought crucial value to the project, without whom Questfall would not even exist.&#x20;
@@ -93,6 +95,8 @@ And of course the Founder NFTs will be burned by the system, making them a defla
 ### Private Founders Club
 
 They will have access to the team's private group, where they can influence the project's development and receive advance notice of upcoming events.
+
+***
 
 ## The Ambassadors
 
