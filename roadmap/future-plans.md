@@ -2,13 +2,7 @@
 icon: square
 ---
 
-# Questfall Launch
-
-<mark style="color:orange;">April 2026</mark>
-
-The launch of Questfall is the main goal at this stage. It will allow anyone to create and complete quests using the next-generation crypto platform.
-
-
+# Future Plans
 
 ## Future Plans 2026 ->
 
