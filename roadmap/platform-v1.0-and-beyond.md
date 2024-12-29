@@ -33,6 +33,10 @@ In fact, the mining approach implies that there is no upfront liquidity, since t
 
 There are two activities that require the use of QFTs - Liquidity Program and QFT Freezing, each with a reward of 5% of the issue. During the first week, there will be no QFTs in circulation, so these activities will not be available. Rewards for them will go to the Team at the end of the first week.
 
+{% hint style="info" %}
+Rewards for the Liquidity Program and the QFT Freezing will begin to be distributed on a regular basis, each at 5% of the weekly QFT issue, starting in the second week.
+{% endhint %}
+
 Therefore, the Team will receive a total of 15% or 4728.45 QFT on the first issue.
 
 Another problem is that since there are no QFTs in existence, users will not be able to get Gold by burning QFTs. So during the first week, users will be able to buy Gold directly with stablecoins at a discount.
@@ -46,7 +50,7 @@ In this way, the Team will receive an additional fund of stablecoins received fo
 At the end of the first week after the QFT rewards are distributed, the Team will create a DEX pool with all QFTs received at a price of $1 per QFT: 4728.45 QFT / $4728.45.
 
 {% hint style="info" %}
-Rewards for the Liquidity Program and QFT Freezing will be distributed on a regular basis - 5% of the weekly QFT issue each - starting from the second week.
+To deepen the liquidity, the Team will offer all founders and miners to buy their QFT OTC for $1. All QFT bought this way will be added to the liquidity pool.
 {% endhint %}
 
 Any funds remaining after the Gold pre-sale will be used later by the Team to add liquidity to the QFT reward pool, as we do not need much additional funding for development during the first year of the platform launch, while the ability to trade QFTs is very important to the overall health of the system.
