@@ -4,7 +4,7 @@ icon: square
 
 # Future Plans
 
-<mark style="color:yellow;">Plans for future versions of Questfall</mark>
+<mark style="color:yellow;">Future Questfall features</mark> <mark style="color:orange;">after v1.0</mark>
 
 While designing the Questfall system, we put many things aside, because they are not crucial for the basic functionality, but can take a lot of effort to work out their details or implementation. However, such functionality can be a huge boost for increasing and keeping the Questfall audience.
 
