@@ -4,7 +4,18 @@ icon: square
 
 # Questfall v1.0
 
-<mark style="color:yellow;">Scheduled for release in</mark> <mark style="color:orange;">December 2026</mark>
+<mark style="color:yellow;">Scheduled for release in</mark> <mark style="color:orange;">December 2025</mark>
+
+Developing a platform like Questfall is technically nothing special - we have done many similar services. To get an overall picture, the following things need to be done to get the platform up and running:
+
+* design of the pages;
+* design of the RPG items;
+* sandbox for testing the system balance;
+* web server code;
+* interface code;
+* smart contracts.&#x20;
+
+The most difficult tasks are getting all the pieces to work together smoothly and protecting the system from hackers and other types of threats, such as DDoS attacks. But as mentioned in the [Detailed Project Description](project-overview.md) article, we had all the critical details worked out before IFE and even had working code for many aspects of the system.
 
 The launch of Questfall is nothing special, except that we have to do a lot of pre-partnerships in order to have as many quests as possible on the platform beforehand.
 
@@ -27,7 +38,7 @@ Therefore, the Team will receive a total of 15% or 4728.45 QFT on the first issu
 Another problem is that since there are no QFTs in existence, users will not be able to get Gold by burning QFTs. So during the first week, users will be able to buy Gold directly with stablecoins at a discount.
 
 {% hint style="info" %}
-The initial discount will be 70%, and this discount will decrease by 10% each day, so that by the end of the week there will be no discount on Gold.
+The initial discount will be 42%, and it will decrease by 6% daily until it ends at 0.
 {% endhint %}
 
 In this way, the Team will receive an additional fund of stablecoins received for Gold, the size of which is difficult to estimate in advance.

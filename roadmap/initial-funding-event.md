@@ -104,7 +104,7 @@ In Questfall, there is another in-game currency besides Gold - Silver, which can
 Since there is Gold in the Founder NFTs, it can also be used to get Silver. However, this defeats the purpose of NTS cost compensation.
 {% endhint %}
 
-<table><thead><tr><th width="218">Founder NFT</th><th width="146" align="center">Silver Bonus</th></tr></thead><tbody><tr><td>Common (F)</td><td align="center">100,000</td></tr><tr><td>Uncommon (E)</td><td align="center">200,000</td></tr><tr><td>Rare (D)</td><td align="center">400,000</td></tr><tr><td>Epic (C)</td><td align="center">800,000</td></tr><tr><td>Legendary (B)</td><td align="center">1,600,000</td></tr><tr><td>Mythical (A)</td><td align="center">3,200,000</td></tr></tbody></table>
+<table><thead><tr><th width="218">Founder NFT</th><th width="133" align="center">Silver Bonus</th><th width="121" align="center">Dollar Value</th></tr></thead><tbody><tr><td>Common (F)</td><td align="center">100,000</td><td align="center">$100</td></tr><tr><td>Uncommon (E)</td><td align="center">200,000</td><td align="center">$200</td></tr><tr><td>Rare (D)</td><td align="center">400,000</td><td align="center">$400</td></tr><tr><td>Epic (C)</td><td align="center">800,000</td><td align="center">$800</td></tr><tr><td>Legendary (B)</td><td align="center">1,600,000</td><td align="center">$1,600</td></tr><tr><td>Mythical (A)</td><td align="center">3,200,000</td><td align="center">$3,200</td></tr></tbody></table>
 
 Founders will receive Silver as soon as they log in to Questfall, meaning that the Silver bonus is not tied to the NFT itself, but rather to the wallet address used by the Founder during the IFE.&#x20;
 
