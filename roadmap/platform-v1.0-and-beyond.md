@@ -39,20 +39,18 @@ Rewards for the Liquidity Program and the QFT Freezing will begin to be distribu
 
 Therefore, the Team will receive a total of 15% or 4728.45 QFT on the first issue.
 
-Another problem is that since there are no QFTs in existence, users will not be able to get Gold by burning QFTs. So during the first week, users will be able to buy Gold directly with stablecoins at a discount.
+Another problem is that since there are no QFTs in existence during the first week, users will not be able to get Gold by burning QFTs. To solve this problem, the Team will hold a Gold pre-sale where users will be able to buy Gold directly from the Team at a discount using stablecoins.
 
 {% hint style="info" %}
-The initial discount will be 42%, and it will decrease by 6% daily until it ends at 0.
+The initial discount will be 42% and will decrease by 6% daily until it reaches 0. After the first week, Gold can only be obtained by burning QFT.
 {% endhint %}
 
-In this way, the Team will receive an additional fund of stablecoins received for Gold, the size of which is difficult to estimate in advance.
-
-At the end of the first week after the QFT rewards are distributed, the Team will create a DEX pool with all QFTs received at a price of $1 per QFT: 4728.45 QFT / $4728.45.
+In this way, the Team will receive an additional fund of stablecoins, the size of which is difficult to estimate in advance. At the end of the first week after the QFT rewards are distributed, the Team will create a DEX pool with all QFTs received at a price of $1 per QFT: 4728.45 QFT / $4728.45.
 
 {% hint style="info" %}
 To deepen the liquidity, the Team will offer all founders and miners to buy their QFT OTC for $1. All QFT bought this way will be added to the liquidity pool.
 {% endhint %}
 
-Any funds remaining after the Gold pre-sale will be used later by the Team to add liquidity to the QFT reward pool, as we do not need much additional funding for development during the first year of the platform launch, while the ability to trade QFTs is very important to the overall health of the system.
+Any funds received during the Gold pre-sale and remaining after the creation of the initial DEX pool will also be used later by the Team to increase liquidity, as we do not need much additional funding for development during the first year of the platform launch, while the ability to trade QFTs is very important for the overall health of the system.
 
-As a result, there will be DEX swapping pool starting from week two and the liquidity will grow organically due to the Liquidity Program, and there will be no way for anyone to manipulate or benefit from the liquidity funds on QFT launch.
+As a result, there will be a DEX swapping pool starting week two, and liquidity will grow organically due to the Liquidity Program, and there will be no way for anyone to manipulate or profit from the liquidity funds at QFT launch, even the Team.
