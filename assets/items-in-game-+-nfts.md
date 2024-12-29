@@ -1,6 +1,0 @@
----
-icon: shirt
----
-
-# - Garment NFTs
-

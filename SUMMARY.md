@@ -40,8 +40,9 @@
 ## Infrastructure
 
 * [Marketplace](infrastructure/marketplace.md)
+* [Referral Program](infrastructure/referral-program.md)
 * [NFT Burning (1%)](infrastructure/nft-burning.md)
-* [Liquidity Providers (5%)](infrastructure/liquidity-providers.md)
+* [Liquidity Program (5%)](infrastructure/liquidity-providers.md)
 * [QFT Freezing (5%)](infrastructure/qft-freezing.md)
 * [Project Expenses (5%)](infrastructure/project-expenses.md)
 * [Gold Withdrawals (8%)](<infrastructure/gold withdrawals.md>)
@@ -52,8 +53,6 @@
 * [- Questfall Tokens (QFT)](assets/questfall-tokens-qft.md)
 * [- Gold (in-game)](assets/gold-in-game.md)
 * [- Silver (in-game)](assets/Silver-in-game.md)
-* [- Items (in-game + NFTs)](assets/items-in-game-+-nfts.md)
-* [- Limited Edition Loot Boxes (in-game)](<assets/limited edition loot boxes.md>)
 * [- Founder NFTs](assets/founder-nfts.md)
 
 ## Roadmap
