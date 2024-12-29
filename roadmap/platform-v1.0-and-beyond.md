@@ -6,7 +6,7 @@ icon: square
 
 <mark style="color:yellow;">Scheduled for release in</mark> <mark style="color:orange;">December 2025</mark>
 
-Developing a platform like Questfall is technically nothing special - we have done many similar services. To get an overall picture, the following things need to be done to get the platform up and running:
+From a technical point of view, the development of a platform like Questfall is quite straightforward and must solve the tasks common to the majority of web services:
 
 * design of the pages;
 * design of the RPG items;

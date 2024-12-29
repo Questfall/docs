@@ -42,9 +42,9 @@ In addition to character level and attributes, in-game items play an important r
 * Elixirs provide various temporary and permanent bonuses;
 * Books contain spells that can be learned for use;
 * Potions restore mana or stamina reserves;
-* Tools are used to increase the rarity tier of clothing.
+* Toolsets are used to increase the rarity tier of clothing.
 
-These items can only be minted through loot boxes, which can be opened for free as a reward for completing quests, or by burning Gold. When minted, each RPG item (except Potions) is one of six rarity tiers:
+These items (except Toolsets) can only be minted through loot boxes, which can be opened for free as a reward for completing quests, or by burning Gold. When minted, each RPG item (except Potions) is one of six rarity tiers:
 
 * Common (F);
 * Uncommon (E);
@@ -53,7 +53,13 @@ These items can only be minted through loot boxes, which can be opened for free 
 * Legendary (B);
 * Mythical (A).
 
-Unlike many common RPG systems, Questfall allows users to increase the rarity of their items by destroying other items, or in other words, by crafting. This is a key aspect of the system, as common items (F, E, D) can only be traded in-game for Gold, while the more rare items (C, B, A) are traded on-chain for QFT as NFTs.
+Unlike many common RPG systems, Questfall allows users to increase the rarity of certain item types by destroying other items, or in other words, by crafting. The rarity tier of Books can be increased by combining 5 of the same Books, while the rarity tier of Clothing can be increased by consuming a Toolset of the next tier.
+
+{% hint style="info" %}
+Toolsets only have 5 rarity tiers because the first evolution of Clothing requires Toolset E, so there is no need for Toolset F. And unlike all other RPT items, Toolsets can only be obtained by participating in the [Liquidity Program](../infrastructure/liquidity-providers.md), not loot boxes.
+{% endhint %}
+
+This is a key aspect of the system, as common items (F, E, D) can only be traded in-game for Gold, while the more rare items (C, B, A) are traded on-chain for QFT as NFTs.
 
 {% hint style="info" %}
 Questfall will have two separate marketplaces combined into one interface: in-game and on-chain.
