@@ -2,7 +2,11 @@
 icon: sack
 ---
 
-# - Silver (in-game)
+# Silver (in-game)
+
+
+
+<table data-header-hidden><thead><tr><th width="128"></th><th></th></tr></thead><tbody><tr><td><strong>Issue</strong></td><td></td></tr><tr><td><strong>Utility</strong></td><td></td></tr><tr><td><strong>Burning</strong></td><td></td></tr></tbody></table>
 
 ### Silver
 
