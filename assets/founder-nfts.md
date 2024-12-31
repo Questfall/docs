@@ -4,41 +4,26 @@ icon: crown
 
 # Founder NFTs
 
-Founder NFTs represent a contribution to the platform's early development and help to raise the funds needed to build and promote Questfall. The first holders of the Founder NFTs can be seen as the initial miners as they will get the early circulating supply of QFT before the platform's launch.
+Owners of Founder NFTs will receive an unlimited revenue stream from the platform for their contribution to the early development and promotion of Questfall. They are the only participants who will receive a portion (10%) of the weekly QFT issue forever for adding one-time value, as all other users must add value each week to receive another reward.
 
-<table data-header-hidden><thead><tr><th width="135"></th><th></th></tr></thead><tbody><tr><td><strong>Issuing</strong></td><td>Founder NFTs are only issued once during the <a href="../roadmap/initial-funding-event.md">Initial Funding Event</a>, any NFTs that are not minted will never be minted again</td></tr><tr><td><strong>Burning</strong></td><td>1% of weekly QFT issuance will be used to purchase and burn Founder NFTs on the system auction</td></tr><tr><td><strong>Utility</strong></td><td>Infinite <a href="../infrastructure/founders-revenue.md">income stream for founders</a> by distributing 10% of the weekly QFT issue</td></tr><tr><td><strong>Supply</strong></td><td><p>The total supply cannot exceed 6300 NFTs of six rarity tiers. A maximum of 4725 NFTs will be minted by the public during the IFE, while 1575 will be minted by the Team.</p><table><thead><tr><th width="182">Founder NFT</th><th width="76" align="center">Team</th><th width="77" align="center">IFE</th></tr></thead><tbody><tr><td>Common (F)</td><td align="center">800</td><td align="center">2400</td></tr><tr><td>Uncommon (E)</td><td align="center">400</td><td align="center">1200</td></tr><tr><td>Rare (D)</td><td align="center">200</td><td align="center">600</td></tr><tr><td>Epic (C)</td><td align="center">100</td><td align="center">300</td></tr><tr><td>Legendary (B)</td><td align="center">50</td><td align="center">150</td></tr><tr><td>Mythical (A)</td><td align="center">25</td><td align="center">75</td></tr></tbody></table><p>Since not all NFTs could be minted by the public during the IFE, the initial supply may be lower. Also, as Founder NFTs are burned by the system, the total supply will decrease over time.</p></td></tr><tr><td><strong>Circulation</strong></td><td>Founder NFTs will be available for trade on all NFT marketplaces, however Questfall will have its own marketplace where these NFTs will also be listed</td></tr><tr><td><strong>Specifics</strong></td><td><ul><li>C, B, A tier NFT will give access to the Founders Club</li><li>One wallet address can have any amount of NFTs</li></ul></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="135"></th><th></th></tr></thead><tbody><tr><td><strong>Issuing</strong></td><td>Founder NFTs are only issued once during the <a href="../roadmap/initial-funding-event.md">Initial Funding Event</a>, any NFTs that are not minted will never be minted again</td></tr><tr><td><strong>Burning</strong></td><td>1% of weekly QFT issuance will be used to purchase and burn Founder NFTs on the system auction</td></tr><tr><td><strong>Utility</strong></td><td>Infinite <a href="../infrastructure/founders-revenue.md">income stream for founders</a> by distributing 10% of the weekly QFT issue</td></tr><tr><td><strong>Supply</strong></td><td><p>The total supply of Founder NFTs cannot exceed 6300 NFTs. A maximum of 4725 NFTs can be minted by the public during the IFE, while 1575 will be minted by the Team. </p><p>Since not all NFTs can be minted by the public during the IFE, the initial supply may be lower. Also, as Founder NFTs are burned by the system, the total supply will decrease over time.</p></td></tr><tr><td><strong>Circulation</strong></td><td>Founder NFTs will be available for trade on all NFT marketplaces, however Questfall will have its own marketplace where these NFTs will also be listed</td></tr><tr><td><strong>Specifics</strong></td><td><ul><li>Founder NFTs of higher tiers (C, B, A) give access to the Founders Club</li><li>A wallet address can have any number of Founder NFTs</li><li>The revenue stream is distributed by the Founder Points contained in each NFT</li><li>The amount of Founder Points in an NFT is the same for each rarity tier</li></ul></td></tr></tbody></table>
 
-###
+There are six rarity tiers of Founder NFTs, each of which contains a fixed amount of Founder Points that are used as the basis for QFT distribution each week.
 
-### Founder NFT
+<table><thead><tr><th width="178">Founder NFT</th><th width="97" align="center">Points</th><th width="178" align="center">Total Supply (max)</th><th width="183" align="center">Total Points (max)</th></tr></thead><tbody><tr><td>Common (F)</td><td align="center">100</td><td align="center">3200</td><td align="center">320,000</td></tr><tr><td>Uncommon (E)</td><td align="center">224</td><td align="center">1600</td><td align="center">358,400</td></tr><tr><td>Rare (D)</td><td align="center">502</td><td align="center">800</td><td align="center">401,600</td></tr><tr><td>Epic (C)</td><td align="center">1126</td><td align="center">400</td><td align="center">450,400</td></tr><tr><td>Legendary (B)</td><td align="center">2526</td><td align="center">200</td><td align="center">505,200</td></tr><tr><td>Mythical (A)</td><td align="center">5666</td><td align="center">100</td><td align="center">566,600</td></tr></tbody></table>
 
-* Total Supply of --- NFTs
-* Tied to 2,500,000 Founder Points (700k for team and 1,8M are sold to the public)
-
-### Founder NFT Utility
-
-* Holders will receive [Founders Revenue](../infrastructure/founders-revenue.md)
-* C, B, A tier NFT will give access to the Founders Club
-* Within purchase gives in-game bonuses in the form of Loot Boxes, Gold and Silver
-
-***
-
-
-
-Each Founder NFT is tied to a share of the 2,500,000 total [Founder Points](../infrastructure/founders-revenue.md). Holders of the NFT earn a percentage of the newly created QFTs each week, proportional to their founder points share. The earned QFTs accumulate on the Questfall platform from where they can be claimed.
-
-For multiple months all the NFT holders will receive 95% of the total weekly issuance of QFT and this will decrease in stages to 10% with the development of pools and the launch of Questfall.
+The 10% portion of the weekly QFT issuance will be distributed to all Founder NFT holders based on their share of Founder Points. There can be a maximum of 2,602,200 Founder Points (depending on the amount of NFTs minted by the public). However, since Founder NFTs are a deflationary asset, the share of remaining NFT holders will increase over time.
 
 {% hint style="info" %}
-Pre-launch of Questfall 11% of the weekly issuance will go to NFT burning, QFT freezing, and liquidity pool. With the launch of Questfall, 66% will go to miners, and authors, and 8% to Gold withdrawals.
+Since the Founder NFT is a deflationary asset that is also backed by a deflationary QFT, we see it as the best long-term investment tool in the market and will not sell our NFTs in the foreseeable future.
 {% endhint %}
 
-In addition to an indefinite passive income source of 10% of the weekly QFT issuance, all the NFTs will offer in-game benefits in the form of loot boxes, Gold, and Silver. Also, the C, B, and A tier Founder NFTs will give the power to influence the project via the Founders Club.
+During the first 50 weeks (almost a year), each owner of a Founder NFT will receive a certain amount of Gold to compensate the price of the NFT for IFE participants. However, if the NFT changes hands, the Gold for the following weeks will go to the new owner of the NFT.
 
-### Initial Funding Event
+<table><thead><tr><th width="218">Founder NFT</th><th width="151" align="center">IFE Full Price</th><th width="137" align="center">Gold Included</th><th width="149">Weekly Release</th></tr></thead><tbody><tr><td>Common (F)</td><td align="center">$100</td><td align="center">20,000</td><td>400 ($4)</td></tr><tr><td>Uncommon (E)</td><td align="center">$200</td><td align="center">40,000</td><td>800 ($8)</td></tr><tr><td>Rare (D)</td><td align="center">$400</td><td align="center">80,000</td><td>1,600 ($16)</td></tr><tr><td>Epic (C)</td><td align="center">$800</td><td align="center">160,000</td><td>3,200 ($32)</td></tr><tr><td>Legendary (B)</td><td align="center">$1600</td><td align="center">320,000</td><td>6,400 ($64)</td></tr><tr><td>Mythical (A)</td><td align="center">$3200</td><td align="center">640,000</td><td>12,800 ($128)</td></tr></tbody></table>
 
-At **Initial Funding Event** the users can purchase Founder NFTs of six tiers containing different amounts of founder points. With each tier, the cost of NFT gets higher but the actual price of one founder point decreases. The prices of the NFTs range from 10 dollars (F) to $2430 (A).
+As a result, the price of Founder NFTs in the secondary market should include the value of the Gold to be released in the future.
 
-With each NFT, the user receives one [Limited Edition Loot Box](broken-reference) containing an item of the same tier as the NFT. Additionally, the user gets a normal loot box and free Silver and Gold with each NFT purchase.
-
-There is a limited number of each tier of Founder NFT in sale. The IFE will last a few days or until all the NFTs and 1.8 million founder points are sold.
+{% hint style="info" %}
+In addition to the Founders Club and Gold compensation, IFE participants will receive other bonuses, but they are tied to the wallet address, not the NFT. [Learn more](founder-nfts.md#initial-funding-event).
+{% endhint %}
