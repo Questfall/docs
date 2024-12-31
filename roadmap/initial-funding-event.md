@@ -22,7 +22,7 @@ The maximum number of Founder NFTs that can be minted during the IFE is 6300: 15
 
 As a result, the total amount of money that can be raised during the IFE is limited to $1,440,000, but since there is a referral program that gives a 10% discount on the price of NFTs and 15% of the full price as a reward to Ambassadors, the final amount that the Team can actually raise is limited to <mark style="background-color:purple;">$1,080,000</mark>.
 
-However, there is no low cap, as we will develop Questfall regardless of the final amount we are able to raise. We will launch the project even if we raise nothing, as we have already put a lot of effort into it and see a great potential in Defationary Quest Mining.&#x20;
+However, there is no low cap, as we will develop Questfall regardless of the final amount we are able to raise. We will launch the project even if we raise nothing, as we have already put a lot of effort into it and see a great potential in Deflationary Quest Mining.&#x20;
 
 {% hint style="info" %}
 Of course, it will be much easier and faster to launch Quesfall if we can hire several developers, designers and marketers.
