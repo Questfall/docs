@@ -12,12 +12,7 @@ Each week, the pre-determined number of QFTs are issued and distributed in pre-d
 
 <table><thead><tr><th width="241">Activity Type</th><th width="115" align="right">QFT Share</th></tr></thead><tbody><tr><td>Burning Founder NFTs</td><td align="right">1%</td></tr><tr><td>Liquidity Program</td><td align="right">5%</td></tr><tr><td>QFT Freezing</td><td align="right">5%</td></tr><tr><td>Project Development</td><td align="right">5%</td></tr><tr><td>Gold withdrawls</td><td align="right">8%</td></tr><tr><td>Founders</td><td align="right">10%</td></tr><tr><td>Quest Authoring</td><td align="right">13.2%</td></tr><tr><td>Quest Mining</td><td align="right">52.8%</td></tr></tbody></table>
 
-Unlike Bitcoin, where the number of issues decreases every four years, the number of QFTs issued decreases with each weekly issue. With this approach, the time between halvings increases:
-
-1. 2.5 years
-2. 3.5 years
-3. 5.1 years
-4. 7.1 years
+Unlike Bitcoin, where the reward issued per block decreases every four years, the number of QFTs issued decreases with each weekly issue. With this approach, the time between halvings increases: 2.5 years for the first halving, 3.5 years for the second, 5.1 years for the fourth, 7.1 years for the fifth, and so on. Thanks to this scheme and its enormous precision, QFT can be issued almost infinitely.
 
 <figure><img src="../.gitbook/assets/desmos-graph (1).png" alt=""><figcaption><p>QFT issue based on week number</p></figcaption></figure>
 
