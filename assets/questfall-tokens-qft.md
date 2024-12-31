@@ -14,9 +14,7 @@ Each week, the pre-determined number of QFTs are issued and distributed in pre-d
 
 Unlike Bitcoin, where issuance decreases every four years, the number of QFTs issued decreases with each weekly issuance.
 
-{% embed url="https://www.desmos.com/calculator/6sjhcu9fdh" %}
-Weekly issuance of QFTs
-{% endembed %}
+<figure><img src="../.gitbook/assets/desmos-graph (1).png" alt=""><figcaption><p>QFT issue based on week number</p></figcaption></figure>
 
 Burning QFT for Gold allows users to get an edge on the platform. And while in many cases it will be the advantage in competing for the greater reward in the future, there is one value that the system does provide. And that is an active and motivated crowd of miners.&#x20;
 
