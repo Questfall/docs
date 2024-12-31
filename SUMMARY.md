@@ -51,7 +51,7 @@
 ## Assets
 
 * [- Questfall Tokens (QFT)](assets/questfall-tokens-qft.md)
-* [- Founder NFTs](assets/founder-nfts.md)
+* [Founder NFTs](assets/founder-nfts.md)
 * [Gold (in-game)](assets/gold-in-game.md)
 * [Silver (in-game)](assets/Silver-in-game.md)
 
