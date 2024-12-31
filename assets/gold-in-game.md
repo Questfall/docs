@@ -2,7 +2,13 @@
 icon: sack-dollar
 ---
 
-# - Gold (in-game)
+# Gold (in-game)
+
+
+
+<table data-header-hidden><thead><tr><th width="135"></th><th></th></tr></thead><tbody><tr><td><strong>Issuing</strong></td><td>Issued by burning <a href="questfall-tokens-qft.md">QFT</a> at a fixed price of $0.01 (1 cent) per Gold</td></tr><tr><td><strong>Burning</strong></td><td>Gold is burned as users pay into the system for its utility, as it is withdrawn, or as a fee on the marketplace</td></tr><tr><td><strong>Withdrawal</strong></td><td><ul><li>By auctioning off a portion (8%) of the weekly QFT issue</li><li>By crafting items of higher rarity (C,B,A) and selling them on the marketplace</li></ul></td></tr><tr><td><strong>Utility</strong></td><td><ul><li>One of two ways to get Silver</li><li>One of two ways to open Loot Boxes</li><li>The only way to trade low-rarity items on the marketplace</li></ul></td></tr><tr><td><strong>Precision</strong></td><td>Integer, without decimals</td></tr><tr><td><strong>Supply</strong></td><td>Unlimited total supply</td></tr><tr><td><strong>Circulation</strong></td><td>Gold can change hands by trading low rarity RPG items (F,E,D) on the marketplace</td></tr><tr><td><strong>Specifics</strong></td><td><ul><li>Does not add weight to the Inventory</li><li>The value of one Gold is fixed to $0.01</li></ul></td></tr></tbody></table>
+
+
 
 ### Gold
 
