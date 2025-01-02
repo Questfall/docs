@@ -16,8 +16,8 @@ Unlike Bitcoin, where the reward issued per block decreases every four years, th
 
 <figure><img src="../.gitbook/assets/desmos-graph (1).png" alt=""><figcaption><p>QFT issue based on week number</p></figcaption></figure>
 
-Burning QFT for Gold allows users to get an edge on the platform. And while in many cases it will be the advantage in competing for the greater reward in the future, there is one value that the system does provide. And that is an active and motivated crowd of miners.&#x20;
+Burning QFT for Gold allows users to get an edge on the platform. And while in many cases it will be the advantage in competing between miners for the greater reward in the future, there is a synergistic value that the system provides to third party consumers. And that is an active and motivated user base.
 
-Quest promotion in this context can be thought of as audience access through advertising. And as long as there are miners in the system, it makes sense to burn QFT to increase the Base Reward of quests.
+Quest promotion in this context can be thought of as audience access through advertising. And as long as there are miners in the system, it makes sense to burn QFT to increase the Base Reward for quests and thus motivate users to create value with their actions.
 
-As a result, thanks to the Deflationary Mining model, QFT is directly backed by user activity in Questfall. The fundamental reason for the rising price of QFT is not the influx of new money, but the burning of QFT due to user competition, which works even if activity does not grow, it is enough if it just stays the same.
+As a result, thanks to the Deflationary Mining model, QFT is directly backed by user activity in Questfall. The fundamental reason for the rising price of QFT is not the influx of new money, but the burning of QFT due to user competition, which works even if activity does not grow - it is enough if it just stays the same.
