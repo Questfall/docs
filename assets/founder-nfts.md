@@ -25,5 +25,11 @@ During the first 50 weeks (almost a year), each owner of a Founder NFT will rece
 As a result, the price of Founder NFTs in the secondary market should include the value of the Gold to be released in the future.
 
 {% hint style="info" %}
-In addition to the Founders Club and Gold compensation, IFE participants will receive other bonuses, but they are tied to the wallet address, not the NFT. [Learn more](founder-nfts.md#initial-funding-event).
+In addition to the Founders Club and Gold compensation, IFE participants will receive other bonuses, but they are tied to the wallet address, not the NFT. [Learn more](../roadmap/initial-funding-event.md).
+{% endhint %}
+
+The reward is accrued for the particular NFT, and to get actual tokens in the wallet, founders must claim them. There is no need to claim the reward each week as the rewarded tokens accumulate and can be claimed all at once. The need to claim rewarded QFTs means that the tokens are not actually issued until they are in the founder's wallet.&#x20;
+
+{% hint style="info" %}
+Unclaimed tokens are sold or burned along with the Founder NFT.
 {% endhint %}

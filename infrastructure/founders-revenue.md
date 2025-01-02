@@ -1,25 +1,23 @@
 ---
-icon: snooze
+icon: mug-hot
 ---
 
 # Founders' Revenue (10%)
 
-The Team will initially keep 700,000 Founder Points and sell 1,800,000 to the public during the [Initial Funding Event](../assets/founder-nfts.md). The funds raised during IFE will be used to build and promote Questfall, so it is hard to overstate the value of the founders, as the platform would not exist without them. In recognition of their contribution, the founders will receive 10% of the newly created QFTs each week from the very beginning and forever.
+The funds raised during the [Initial Funding Event](../roadmap/initial-funding-event.md) will be used to build and promote Questfall. This is a one-time opportunity to mint [Founder NFTs](../assets/founder-nfts.md).
 
 {% hint style="info" %}
-In fact, Founders are considered initial miners, so their percentage will be much higher before the other rewarded activities start. For more details see the [Roadmap](broken-reference)
+The Team will initially keep 650,550 Founder Points and sell 1,951,650 to the public through the IFE.
 {% endhint %}
 
-The total number of QFTs to be rewarded to founders in a given week is known in advance as it can be calculated by the formula. This fixed number of tokens will be distributed to all [Founder NFT](../assets/founder-nfts.md) holders at the end of the week, according to the individual Founder Point share of each NFT holder.
+The platform would not exist without the founders, so it is hard to overstate the value they have added. In recognition of their contribution, founders will receive 10% of the newly created QFTs each week from the launch and forever.
+
+While all types of activities rewarded by QFT issuance require users to create value during the week to receive another weekly reward, founders are the only participants who are rewarded forever for the value they add just once.
+
+The total number of QFTs to be rewarded to founders in a given week is known in advance as it can be calculated by the formula. This fixed number of tokens will be distributed to all Founder NFT holders at the end of the week according to the individual Founder Point share of each NFT holder.
 
 {% hint style="info" %}
 For example, if the QFT issue this week is 30,000 QFT and the total amount of Founder Points would be 2,400,000, then each Founder Point earns 0.00125 QFT (30,000 \* 10% / 2,400,000).
 {% endhint %}
 
-The reward is accrued for the particular NFT, and to get actual tokens in the wallet, founders must claim them. There is no need to claim the reward each week as the rewarded tokens accumulate and can be claimed all at once.
-
-The need to claim rewarded QFTs means that the tokens are not actually issued until they are in the founder's wallet. This approach also implies that **unclaimed tokens are sold or even burned along with the Founder NFT**.
-
-***
-
-<mark style="background-color:orange;">Coming before Questfall v1.0</mark>
+Since the weekly rewards should be claimed by the user to actually issue QFTs and get them into the wallet, when a Founder NFT is burned or sold, all unclaimed tokens are also burned or change hands along with the NFT.
