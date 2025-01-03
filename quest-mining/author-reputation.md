@@ -1,6 +1,0 @@
----
-icon: heart
----
-
-# Author Reputation
-

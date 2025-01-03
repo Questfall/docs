@@ -1,5 +1,5 @@
 ---
-icon: box
+icon: table-cells
 ---
 
 # Inventory

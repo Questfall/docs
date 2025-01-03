@@ -1,8 +1,8 @@
 ---
-icon: rectangle-history-circle-user
+icon: feather-pointed
 ---
 
-# Author Spaces
+# Quest Creation
 
 **Author Space** is the profile and workspace for the individual author or project. So for the author to be able to start to create quests, first they need to set up their author space.
 

@@ -1,8 +1,8 @@
 ---
-icon: feather-pointed
+icon: rectangle-ad
 ---
 
-# Authoring
+# Quest Promotion
 
 The number of mining points users receive as a basic reward for a given quest is based on the quest author's reputation, which is simply a moving average of the community ratings of that author's quests.
 
@@ -16,15 +16,42 @@ This way, authors with a higher reputation will create more rewarding quests, wh
 
 This approach makes quest quality the cornerstone of the system, as the most profitable strategy for authors is to create fun, educational or entertaining quests that are appreciated by the community, while users are motivated to complete quests created by the most diligent authors.
 
-### Seasons
+### Quest Duration
 
-Each week, 16% of the total weekly issue of QFT goes to the **Seasonal Reward Pool**, and **4.8%** of this will be distributed as a reward to the most dedicated authors.
+Each quest's duration ranges from 1 to 30 days depending on the number of days the author chose to promote their quest. Users can submit answers to the quest as long as it’s active.
 
-At the end of a **Season**, accumulated QFT reward is offered to a handful of authors valued by the community and those dedicated to perfecting their craft of quest creation. The authors who have collected the most author points during the 3-month long season will receive a reward at the end of the season.
-
-As the reward accumulates over time, almost 60% of the average weekly token issue is rewarded to the most successful authors.
+The length of the quest does not affect the size of the reward.
 
 ***
+
+### Quest Sorting
+
+Users can sort the quest feed to display all, followed, marked, hidden, or completed quests.
+
+* **Followed** - The authors can be followed as creators in popular social media platforms. Users can choose to sort the feed to show quests only from those authors they are following.
+* **Marked** - The users can mark those quests they see as interesting or important and create and display a feed based on them.
+* **Hidden** - Undesirable quests can be hidden from the global feed by the user. Feed can be sorted to display all the hidden quests.
+* **Completed** - The completed quests are automatically removed from the global feed and moved to the completed section.
+
+### Base Reward
+
+Each quest has a **Base Reward** of a certain number of **Mining Points**. By completing the quests users get the base reward of mining points which is then multiplied by the user's mining efficiency bonuses.
+
+The base rewards of quests range from 10 (no promotion) up to <1000 (1000 is unreachable) depending on the author's promotion size.
+
+In addition to the base reward, the users earn chest shards by completing quests that have been promoted.
+
+### Mining Efficiency
+
+By increasing the personal **Mining Efficiency** bonus a user can receive more mining points from each completed quest. The base reward of a quest is multiplied by the mining efficiency % bonus the user has.
+
+{% hint style="info" %}
+For example, if the base reward for the quest is 50 mining points and the user has 100% of mining bonus, they receive 100 mining points from completing the quest.
+{% endhint %}
+
+Constant mining efficiency bonus can be increased by clothing, elixirs, rating quests, and adding points to the mining attribute. Spells and elixirs can give mining bonuses for a limited time or to a specific quest.
+
+
 
 ## Promotion
 
@@ -67,7 +94,7 @@ The author can choose the amount of Silver they want to burn to promote their qu
 
 {% tabs %}
 {% tab title="Chart" %}
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Details" %}
@@ -90,64 +117,3 @@ This formula is used to calculate the initial price of mining points in Silver. 
 * **y** - Amount of Silver spent
 * **k** - ?
 {% endhint %}
-
-***
-
-## Reputation
-
-IMAGE OF AUTHOR REPUTATION
-
-Each author in Questfall has a **Reputation Score** ranging from 1 to 10, which results from the **Ratings** users have given to the author's quests. The reputation score reflects the community's opinion about the general quality of the author's quests.
-
-For the author, the reputation score works as a multiplier for the Silver price of promotion. The higher the reputation the cheaper it is to promote quests through burning Silver.
-
-***
-
-Each user rating on a quest influences the author's reputation based on:
-
-* **The Rating** – What rating from 1-10 the user gives to the author's quest.
-* **The Vote Weight** – Each vote is weighted differently based on the user’s level.
-
-This results in a moving average type formula that considers all the votes given to the author through time. The closer the vote is to the current moment the higher influence it has on the Author's Reputation.
-
-{% hint style="info" %}
-The final author reputation score is calculated based on this formula:
-
-**New reputation = (Prev Reputation \* x + Vote) / x**
-
-**x** = Variable based on the total number of users and average user level.
-{% endhint %}
-
-***
-
-## Ratings
-
-The quality of the author's quest is reflected in the **Rating** users give to it and this incentivizes authors to focus on producing high-quality quests valued by the community.
-
-To finalize the completion of a quest, each user must rate the quest from 1 to 10. The ratings are weighted by user level and will directly impact the author's **Reputation Score**.
-
-{% hint style="info" %}
-The weight of the users' vote increases linearly with the level. Each level increases the vote weight by one. For example, a level 30 user has a vote weight of 30.
-{% endhint %}
-
-To prevent users from making multiple accounts flooding high ratings on a self-made low-value quest, a certain number of votes and vote weight are needed for the voting to be valid.
-
-***
-
-### Average Rating
-
-**IMAGE OF AVERAGE RATING CURVE**
-
-To encourage the giving of fair ratings on a quest and to prevent rating manipulation, the user is incentivized to vote close to the **Average Rating**. Users gain or lose a small % of mining efficiency based on how close one voted to the average of all votes. The closer the user votes for the average, the more mining efficiency one gains, and the farther, the likelier it is to get the maximum mining efficiency penalty. If the user votes on the neutral zone the mining efficiency stays unchanged.
-
-{% hint style="info" %}
-With each quest voting the user can gain or lose up to 0.2% of mining efficiency.
-{% endhint %}
-
-The maximum mining efficiency bonus user can reach by voting is limited based on the level. With each level, the potential maximum mining efficiency bonus increases by 0.1%. Regardless of the level, there is no limit to the negative mining efficiency one can have by voting continuously out of the average.
-
-{% hint style="info" %}
-For example, level 40 users can have a maximum +4% mining efficiency bonus from voting.
-{% endhint %}
-
-***

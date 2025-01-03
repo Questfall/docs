@@ -1,6 +1,0 @@
----
-icon: rectangle-ad
----
-
-# Promoting
-
