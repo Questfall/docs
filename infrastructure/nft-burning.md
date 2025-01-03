@@ -13,7 +13,7 @@ As a result, a system will only be able to buy a certain number of NFTs because 
 This means that if user bids are too high this week and the system is unable to buy even one NFT, the amount allocated for buyback will be increased at the next auction. After several such accumulations, the system is guaranteed to meet user bids.
 
 {% hint style="info" %}
-Obviously, the system will buy the cheapest NFTs first. And since the amount of Founder Points increases with the rarity tier, higher tiers will require a huge discount to compete with the lower tiers.
+Higher tier NFTs can cause bottlenecks because the price of such NFTs will be much higher, while the bid per Founder Point may be the lowest. However, this approach guarantees that the system will end up buying and burning the maximum amount of Founder Points for the same amount of QFTs.
 {% endhint %}
 
 The burning of Founder NFTs will begin at the launch of Questfall and will continue until there are no NFTs left in circulation. This will not only ensure that the price of the NFTs increases over time, but will also raise the share of the weekly reward for each remaining Founder NFT holder.
