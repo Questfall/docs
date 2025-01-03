@@ -1,5 +1,5 @@
 ---
-icon: shield-check
+icon: shield-keyhole
 ---
 
 # Sybil Defence

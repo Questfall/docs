@@ -1,0 +1,6 @@
+---
+icon: chart-pyramid
+---
+
+# Leagues
+

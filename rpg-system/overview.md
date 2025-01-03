@@ -1,5 +1,5 @@
 ---
-icon: pickaxe
+icon: dice-d8
 ---
 
 # Overview

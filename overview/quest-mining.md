@@ -1,5 +1,5 @@
 ---
-icon: money-bills
+icon: pickaxe
 ---
 
 # Quest Mining

@@ -1,0 +1,238 @@
+---
+icon: feather-pointed
+---
+
+# Authoring
+
+The number of mining points users receive as a basic reward for a given quest is based on the quest author's reputation, which is simply a moving average of the community ratings of that author's quests.
+
+In other words, the higher the ratings of the author's quests, the higher his reputation, and the more mining points will be used to reward his future quests.
+
+{% hint style="info" %}
+In order to prevent malicious authors from abusing the rating system, votes are weighted differently depending on the user level. Read more in the [Ratings](broken-reference) article.
+{% endhint %}
+
+This way, authors with a higher reputation will create more rewarding quests, which will motivate users to complete them. And since the author's mining power is represented by the number of quests users complete in a week or season, an author's reward is directly affected by his reputation.
+
+This approach makes quest quality the cornerstone of the system, as the most profitable strategy for authors is to create fun, educational or entertaining quests that are appreciated by the community, while users are motivated to complete quests created by the most diligent authors.
+
+### Seasons
+
+Each week, 16% of the total weekly issue of QFT goes to the **Seasonal Reward Pool**, and **4.8%** of this will be distributed as a reward to the most dedicated authors.
+
+At the end of a **Season**, accumulated QFT reward is offered to a handful of authors valued by the community and those dedicated to perfecting their craft of quest creation. The authors who have collected the most author points during the 3-month long season will receive a reward at the end of the season.
+
+As the reward accumulates over time, almost 60% of the average weekly token issue is rewarded to the most successful authors.
+
+***
+
+## Promotion
+
+Authors can **promote** their quests by burning **Silver**. The more Silver is burned, the higher the base reward of a quest is, and the more visible and attractive it is to users.
+
+**Silver** can be acquired through **Moderation** or by buying it with **Gold**.
+
+By burning Gold the user receives 10 times the amount of Silver. For example, If 100 Gold is burned the user receives 1000 Silver.
+
+{% hint style="info" %}
+For convenience, authors can use QFT and Gold directly for promotion so that the burning of it to Silver happens automatically.
+{% endhint %}
+
+***
+
+### Promotion Benefits
+
+Promoting quests benefits the author, miners, and the whole system:
+
+* **More Visibility** – The more Silver is burned for promoting a quest the higher it will appear on the quest feed. This results in more users seeing and completing the quest.
+* **Reward for Miners** – The mining point reward of a quest increases as more Silver is used for promoting it. This makes the quest more attractive to miners which leads to more completions and higher ratings.
+* **Author Reward** - As the weekly QFT reward for authors is calculated based on the amount of completions on the author’s quests, promoting quests directly contributes for a higher weekly reward.
+* **QFT Burning** – Quest promotion contributes to deflation within the system as QFT and Gold are constantly burned to Silver for promotion.
+
+***
+
+### Reputation as Multiplier
+
+The **Author’s Reputation** works as a **Multiplier** for the promotional weight of the burned Silver. The higher the reputation the less Silver needs to be burned for reaching the same promotional potential. To increase the reputation the authors are motivated to create high-quality quests valued by the community.
+
+Each Author starts with the reputation of 1. This means that the Silver cost ratio for promotion is 1/1, if you burn 1000 Silver its effect on promotion is 1000 points. As the author’s reputation gets higher the multiplier increases and real promotional cost decreases, for example, if the author's reputation is 5, 1000 silver results in 5000 points.
+
+The author’s reputation stays in 1 until there are enough completions on the author’s quests. On the launch of Questfall, the author must reach 10k weighed votes to have their reputation adjusted. This number will increase with the platform's growth as it is automatically adjusted by the accepted votes given by users throughout the week.
+
+***
+
+### Cost of Promotion
+
+The author can choose the amount of Silver they want to burn to promote their quest. Each quest has a minimum promotional amount of 1000 Silver to prevent system abuse. There is no upper limit to how much Silver can be burned for promotion as the maximum base mining point reward of 1000 will be an unreachable limit.
+
+{% tabs %}
+{% tab title="Chart" %}
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="Details" %}
+The Reputation that is additionally applied
+{% endtab %}
+{% endtabs %}
+
+The author can choose the uptime for a quest from 1 to 30 days. The longer the duration of a quest the higher the total cost of the promotion. However, each subsequent day of the promotion becomes cheaper by 10%, so the longer the promotions the better the price for a single day of promotional time.
+
+The position of the promoted quest on the global quest feed is based on the base mining points in a quest resulting from the amount of burned Silver. The higher the base mining points of a quest the higher it will be on the global quest feed and the more mining points users receive as a reward by completing the quest. The duration of a quest does not affect the quests position in the quest feed.
+
+Within the promotion, the author can see the amount of the mining point reward within the quest and what placement in the global quest feed they will have with a chosen quest duration and burned Silver amount.
+
+{% hint style="info" %}
+This formula is used to calculate the initial price of mining points in Silver. This amount is then adjusted with the author's reputation multiplier to get the real Silver price of mining points for each user.
+
+**x \* y = k**
+
+* **x** - Amount of mining points (equal to 1000)
+* **y** - Amount of Silver spent
+* **k** - ?
+{% endhint %}
+
+***
+
+## Reputation
+
+IMAGE OF AUTHOR REPUTATION
+
+Each author in Questfall has a **Reputation Score** ranging from 1 to 10, which results from the **Ratings** users have given to the author's quests. The reputation score reflects the community's opinion about the general quality of the author's quests.
+
+For the author, the reputation score works as a multiplier for the Silver price of promotion. The higher the reputation the cheaper it is to promote quests through burning Silver.
+
+***
+
+Each user rating on a quest influences the author's reputation based on:
+
+* **The Rating** – What rating from 1-10 the user gives to the author's quest.
+* **The Vote Weight** – Each vote is weighted differently based on the user’s level.
+
+This results in a moving average type formula that considers all the votes given to the author through time. The closer the vote is to the current moment the higher influence it has on the Author's Reputation.
+
+{% hint style="info" %}
+The final author reputation score is calculated based on this formula:
+
+**New reputation = (Prev Reputation \* x + Vote) / x**
+
+**x** = Variable based on the total number of users and average user level.
+{% endhint %}
+
+***
+
+## Ratings
+
+The quality of the author's quest is reflected in the **Rating** users give to it and this incentivizes authors to focus on producing high-quality quests valued by the community.
+
+To finalize the completion of a quest, each user must rate the quest from 1 to 10. The ratings are weighted by user level and will directly impact the author's **Reputation Score**.
+
+{% hint style="info" %}
+The weight of the users' vote increases linearly with the level. Each level increases the vote weight by one. For example, a level 30 user has a vote weight of 30.
+{% endhint %}
+
+To prevent users from making multiple accounts flooding high ratings on a self-made low-value quest, a certain number of votes and vote weight are needed for the voting to be valid.
+
+***
+
+### Average Rating
+
+**IMAGE OF AVERAGE RATING CURVE**
+
+To encourage the giving of fair ratings on a quest and to prevent rating manipulation, the user is incentivized to vote close to the **Average Rating**. Users gain or lose a small % of mining efficiency based on how close one voted to the average of all votes. The closer the user votes for the average, the more mining efficiency one gains, and the farther, the likelier it is to get the maximum mining efficiency penalty. If the user votes on the neutral zone the mining efficiency stays unchanged.
+
+{% hint style="info" %}
+With each quest voting the user can gain or lose up to 0.2% of mining efficiency.
+{% endhint %}
+
+The maximum mining efficiency bonus user can reach by voting is limited based on the level. With each level, the potential maximum mining efficiency bonus increases by 0.1%. Regardless of the level, there is no limit to the negative mining efficiency one can have by voting continuously out of the average.
+
+{% hint style="info" %}
+For example, level 40 users can have a maximum +4% mining efficiency bonus from voting.
+{% endhint %}
+
+***
+
+## Author Spaces
+
+MAGE OF AUTHOR SPACE
+
+**Author Space** is the profile and workspace for the individual author or project. So for the author to be able to start to create quests, first they need to set up their author space.
+
+Within the author space, users can manage all the necessary things related to authors like creating quests, reviewing submitted answers, seeing the stats, or claiming earned author rewards. Also, it works as a profile page where users can find the author's quests, follow him, and know all the relevant information about the author.
+
+{% hint style="info" %}
+A user can be the creator of only one author space but can be part of an unlimited amount by invitation. Like when a team or company wants to manage its official Questfall author space, many users can have the rights to use it and create quests for it.
+{% endhint %}
+
+***
+
+### Roles
+
+The creator of the author's space gets the role of an owner and can give two types of roles to other users for managing the space:
+
+1. **Owner** – Has full access and rights to the author space.
+2. **Admin** – Has limited access to the author space. The owners can modify the rights of admins for example by allowing them only to edit and publish quests they have created.
+
+***
+
+### Quest Creation
+
+IMAGE OF QUEST CREATION FORM 1 & 2
+
+Within the author's space users can create and publish quests. The creation of a new quest is a two-part process:
+
+1. First users fill in all the relevant information about the quest like cover image, instructions, and submission types, and then save it as a draft.
+2. This draft can be deployed after the user has chosen the duration of the quest and the amount of Silver to burn for promotion.
+
+{% hint style="info" %}
+Authors need to carefully check all the information in the quest as after publishing it can no longer be edited.
+{% endhint %}
+
+***
+
+### Quest Sorting
+
+Within the author space, all the created quests are sorted in four ways:
+
+* **Drafts** – Quests that users of author space have completed as drafts but haven’t published. Every new quest is first saved as a draft.
+* **Active** – Published quests that haven’t ended or reported. Here the author can see the remaining duration of published quests.
+* **Reported** – All the quests published by the author space that have been reported. The falsely reported and those removed from the quest feed can be found in this section.
+* **Ended** – Quests that have ended. Here the author can find all the accepted submitted answers on his quests.
+
+***
+
+### Special Rewards
+
+Through promotion, the author can increase the base reward of their quests to make them more appealing to users. Additionally, authors can set a **Special Reward** of QFT or Gold for those users who mine the most points exclusively with the author's quests.
+
+The special reward can attract users to compete for the rewards resulting in many completions on the author's quests.
+
+For this purpose, each author space has a leaderboard showing the users who have gained the most mining points from the author's quests on a reward period.
+
+***
+
+### Assets and Donation
+
+Each author space has a QFT, Gold, and Silver balances that can be used for special rewards and to promote the created quests. The owners can freely deposit any amount of these assets to the author's space and withdraw QFT and Gold. Silver can be only used within the author's space for promotion and can’t be withdrawn or donated.
+
+Users other than the creator can **Donate Assets** to the author space to increase the Silver balance. The donation allows project members and common users to support the space. Donated QFTs and Gold are immediately burned to Silver.
+
+{% hint style="info" %}
+Personal resources can be used directly for promotion by the quest creator without manually moving the assets to the author space first.
+{% endhint %}
+
+***
+
+### Banner Promotion
+
+Within the Questfall platform, two **Marketing Banners** are visible for all users – one for the team to promote collaborations, and another for author spaces to promote themselves. Promoting the author space this way can make it known to the community and increase the number of followers and quest completions.
+
+Author spaces can buy with Silver or Gold a one-day slot for featuring them on the banner. There are available slots on sale only for the next 30 days.
+
+The prices of the one-day slots increase exponentially the farther we go from the current day. This guarantees there are always author spaces willing to pay the price for featuring as the price for the current day is so low.
+
+As the demand for banner promotion grows, the author spaces are willing to pay more and buy days further in the future to make sure to get a spot. There is no limitation to how many one-day spots a single author space can buy.
+
+To ensure no inappropriate author spaces are promoted users above a certain level can report the banner. Reported banners are voted by the moderators and rewarded in the same way as [Reported Quests](broken-reference).
+
+***

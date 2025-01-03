@@ -10,32 +10,34 @@
 * [Sybil Defence](overview/sybil-defence.md)
 * [RPG System](overview/rpg-system.md)
 
-## Mining
+## Quest Mining
 
-* [Overview](mining/overview.md)
-* [Character](mining/character.md)
-* [Quests](mining/Quests.md)
-* [Items](mining/Items.md)
-* [Crafting](mining/crafting.md)
-* [Magic](mining/magic.md)
-* [Rewards](mining/rewards.md)
+* [Overview](quest-mining/overview.md)
+* [Author Spaces](quest-mining/author-spaces.md)
+* [Author Reputation](quest-mining/author-reputation.md)
+* [Banner Promotion](quest-mining/banner-promotion.md)
+* [Quest Types](quest-mining/quest-types.md)
+* [Quest Promotion](quest-mining/quest-promotion.md)
+* [Completion Retries](quest-mining/completion-retries.md)
+* [Authoring](quest-mining/authoring.md)
+* [Promoting](quest-mining/promoting.md)
+* [Completing](quest-mining/completing.md)
+* [Communit Moderation](quest-mining/communit-moderation.md)
+* [Leagues](quest-mining/leagues.md)
+* [Author Leaderboar](quest-mining/author-leaderboar.md)
+* [Seasons](quest-mining/seasons.md)
 
-## Authoring
+## RPG SYSTEM
 
-* [Overview](authoring/overview.md)
-* [Author Spaces](authoring/author-spaces.md)
-* [Ratings](authoring/ratings.md)
-* [Reputation](authoring/reputation.md)
-* [Promotion](authoring/promotion.md)
-* [Rewards](authoring/rewards.md)
-
-## Moderating
-
-* [Overview](moderating/overview.md)
-* [Majority Wins](moderating/majority-wins.md)
-* [Types of Voting](moderating/types-of-voting.md)
-* [System Fakes](moderating/system-fakes.md)
-* [Rewards and Punishments](moderating/rewards-and-punishments.md)
+* [Overview](rpg-system/overview.md)
+* [Character](rpg-system/character.md)
+* [Level](rpg-system/level.md)
+* [Attributes](rpg-system/attributes.md)
+* [Inventory](rpg-system/inventory.md)
+* [Items](rpg-system/items.md)
+* [Loot Boxes](rpg-system/loot-boxes.md)
+* [Crafting](rpg-system/crafting.md)
+* [Magic](rpg-system/magic.md)
 
 ## Infrastructure
 
