@@ -53,10 +53,10 @@ These items (except Toolsets) can only be minted through loot boxes, which can b
 * Legendary (B);
 * Mythical (A).
 
-Unlike many common RPG systems, Questfall allows users to increase the rarity of certain item types by destroying other items, or in other words, by crafting. The rarity tier of Books can be increased by combining 5 of the same Books, while the rarity tier of Clothing can be increased by consuming a Toolset of the next tier.
+Unlike many common RPG systems, Questfall allows users to increase the rarity of certain item types by destroying other items, or in other words, by crafting. The rarity tier of Books can be increased by combining 5 of the same Books, while the rarity tier of Clothing can be increased by consuming a Toolset of the same tier as the item itself.
 
 {% hint style="info" %}
-Toolsets only have 5 rarity tiers because the first evolution of Clothing requires Toolset E, so there is no need for Toolset F. And unlike all other RPT items, Toolsets can only be obtained by participating in the [Liquidity Program](../infrastructure/liquidity-providers.md), not loot boxes.
+Toolsets only have 5 rarity tiers because the Mythical items cannot evolve further, so there is no need for Toolset A. And unlike all other RPG items, Toolsets can only be obtained by participating in the [Liquidity Program](../infrastructure/liquidity-providers.md), not by opening loot boxes.
 {% endhint %}
 
 This is a key aspect of the system, as common items (F, E, D) can only be traded in-game for Gold, while the more rare items (C, B, A) are traded on-chain for QFT as NFTs.

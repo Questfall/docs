@@ -112,11 +112,15 @@ And while Silver is non-tradable and non-withdrawable, it will be fully released
 
 ### Free Clothing Enhancement Toolsets
 
-While users can obtain most RPG items from loot boxes, Toolsets are a special type of RPG item that can only be obtained through participation in the Liquidity Program - by providing liquidity to the DEX pool and burning ownership.
+While users can obtain most RPG items from loot boxes, Toolsets are a special type of RPG item that can only be obtained by participating in the [Liquidity Program](../infrastructure/liquidity-providers.md) - by providing liquidity to the DEX pool and burning ownership of the LP tokens received.
 
-Each owner of Founder NFTs, except for NFTs of rarity F, will receive Toolsets of the same rarity as the NFT itself, plus all lower rarities.
+Each owner of Founder NFTs, except for NFTs of rarity F, will receive Toolsets of all rarities lower than the rarity of the NFT.
 
-<table><thead><tr><th width="192">Founder NFT</th><th width="285">Toolsets</th></tr></thead><tbody><tr><td>Common (F)</td><td>-</td></tr><tr><td>Uncommon (E)</td><td>E x 1</td></tr><tr><td>Rare (D)</td><td>E x 1, D x 1</td></tr><tr><td>Epic (C)</td><td>E x 1, D x 1, C x 1</td></tr><tr><td>Legendary (B)</td><td>E x 1, D x 1, C x 1, B x 1</td></tr><tr><td>Mythical (A)</td><td>E x 1, D x 1, C x 1, B x 1, A x 1</td></tr></tbody></table>
+{% hint style="info" %}
+There are no Toolsets of rarity A, because Mythical (A) items cannot increase their rarity.
+{% endhint %}
+
+<table><thead><tr><th width="192">Founder NFT</th><th width="285">Toolsets</th></tr></thead><tbody><tr><td>Common (F)</td><td>-</td></tr><tr><td>Uncommon (E)</td><td>F x 1</td></tr><tr><td>Rare (D)</td><td>F x 1, E x 1</td></tr><tr><td>Epic (C)</td><td>F x 1, E x 1, D x 1</td></tr><tr><td>Legendary (B)</td><td>F x 1, E x 1, D x 1, C x 1</td></tr><tr><td>Mythical (A)</td><td>F x 1, E x 1, D x 1, C x 1, B x 1</td></tr></tbody></table>
 
 Toolsets are awarded to founders based on the wallet address used in the IFE, and allow founders to sell their Toolsets for Gold or QFT, depending on the tier, or to apply them to their own clothing, increasing the rarity tier.
 
