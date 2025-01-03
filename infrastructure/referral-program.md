@@ -6,6 +6,10 @@ icon: user-plus
 
 We consider marketing as one of the most important factors for the success of any project, especially in the case of Questfall, where the tokenomics is mainly based on user activity. While most of the mechanics described in this documentation are aimed at user retention, the Questfall Referral Program is aimed at attracting new users.
 
+{% hint style="info" %}
+The Questfall Referral Program is not affiliated with IFE, which has its own referral program.
+{% endhint %}
+
 The referral program works as follows. Any user who uses a referral code to register in the system will receive enough [Silver ](../assets/Silver-in-game.md)to level up from level 1 to level 5. The Questfall Ambassador whose referral code was used by the user will receive 1% of all [Gold ](../assets/gold-in-game.md)the user will ever burn.
 
 {% hint style="info" %}
