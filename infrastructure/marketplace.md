@@ -30,4 +30,4 @@ A first level character has 3 marketplace slots. The number of slots available c
 In other words, additional slots will open up when Crafting reaches 5, then 10, 15, and so on.
 {% endhint %}
 
-As a result, the entire marketplace mechanic in Questfall is heavily tied to the RPG system, as well as the project's tokenomics, and thus plays an important role in the mining process, making it much more engaging and dependent on the results of the work of others.
+In summary, the entire marketplace mechanic in Questfall is heavily tied to the RPG system as well as the project's tokenomics, and thus plays an important role in the mining process, making it much more personal, engaging, and dependent on the results of the work of others.
