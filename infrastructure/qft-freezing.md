@@ -16,10 +16,10 @@ The weekly reward is distributed according to each user's individual freeze powe
 
 For example, if the user has frozen 100 QFTs, his freeze power will be 1500 at the end of the first week and 1400 at the end of the second week. In other words, the multiplier used to calculate freeze power decreases by one each week: 15, 14, 13, .... 1, 0.&#x20;
 
-This can be thought of as the reward base slowly melting away. It means that in order to receive the maximum reward in perpetuity, users must re-freeze their tokens on a weekly basis.
+This can be thought of as the reward base slowly melting away, meaning that in order to receive the maximum reward in perpetuity, users must re-freeze their tokens on a weekly basis.
 
 {% hint style="info" %}
-We use the word _**freezing**_ because _**staking**_ implies the possibility of losing the money staked, while _**locking**_ implies the fixed reward for a fixed lock period. Freezing guarantees that the number of tokens owned by the user cannot be reduced, and at the same time allows users to behave differently depending on their chosen strategy, making it a much more flexible and incentivizing approach than a simple time lock.
+We use the word _**freezing**_ because _**staking**_ implies the possibility of losing the stake, while _**locking**_ implies the fixed reward for a fixed period of time.
 {% endhint %}
 
 While 5% may not seem like much, the results over the course of a year look different. For example, let's assume that 10% APY is a competitive return on a deposit. Over the course of a year, 52 \* 5% = 260% of the weekly issuance will be used to pay out percentages on the frozen QFTs.
