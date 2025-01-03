@@ -2,24 +2,26 @@
 icon: fire
 ---
 
-# NFT burning (1%)
+# Founder NFTs Burning (1%)
 
-Our goal is to maximise the price of [Founder NFTs](../assets/founders-nft.md) over the long term. To achieve this, 1% of the newly created QFTs are allocated each week to purchase them from the market via auction, with the subsequent burning of these NFTs.
+In order to make [Founder NFTs](../assets/founder-nfts.md) the best possible investment vehicle, 1% of the newly created QFTs are allocated each week to purchase these NFTs from the market via auction and then burn them.
 
-There will be one auction each week for the Founder NFTs. In the auction, the system will use 1% of the weekly token creation to buy back Founders NFTs offered by users. User bids will be ranked according to the price of one point of the Founder NFT.
+There will be a single auction each week for the Founder NFTs of all six tiers. In the auction, the system will use QFTs to buy back Founder NFTs offered by users, whose bids will be ranked according to the price of a Founder Point in the NFT.
 
-Bought NFTs will be burned and the remaining QFTs allocated for buyback will be carried over to the next week. This means that if user bids are too high this week and the system is unable to buy even one point from the NFT, the amount allocated for buyback will be increased at the next auction. After several such accumulations, the system is guaranteed to meet user bids.
+As a result, a system will only be able to buy a certain number of NFTs because it cannot buy just a portion of the Founder Points contained in the NFT. Bought NFTs will be burned and the remaining QFTs that are not enough for the next NFT on the auction will be carried over to the next week.
 
-{% hint style="info" %}
-Due to the limitations of smart contracts, the maximum number of offers that can be filled each week is 50.
-{% endhint %}
-
-The buyback and burning of NFTs will begin shortly before the launch of Questfall and will continue until there are no NFTs left in circulation. This will not only ensure that the price of NFTs rises in the long term but will also increase the share of the weekly reward for each Founder who does not burn their [Founder Points](../assets/founder-nfts.md).&#x20;
+This means that if user bids are too high this week and the system is unable to buy even one NFT, the amount allocated for buyback will be increased at the next auction. After several such accumulations, the system is guaranteed to meet user bids.
 
 {% hint style="info" %}
-In fact, the last owners of each type of NFT will be able to get as many QFTs as they are willing to wait for, as the amount the system will offer for burning NFTs will increase each week.
+Obviously, the system will buy the cheapest NFTs first. And since the amount of Founder Points increases with the rarity tier, higher tiers will require a huge discount to compete with the lower tiers.
 {% endhint %}
 
-***
+The burning of Founder NFTs will begin at the launch of Questfall and will continue until there are no NFTs left in circulation. This will not only ensure that the price of the NFTs increases over time, but will also raise the share of the weekly reward for each remaining Founder NFT holder.
 
-<mark style="background-color:orange;">Coming before Questfall v1.0</mark>&#x20;
+{% hint style="info" %}
+In fact, the last owner of the Founder NFT will be able to get as many QFTs as he or she is willing to wait for, as the amount the system will offer to burn that NFT will increase each week.
+{% endhint %}
+
+If there are no Founder NFTs left in circulation, the portion of the QFT weekly issue that should be used to reward founders and burn Founder NFTs will be set to zero, thus increasing the portion of other reward pools.
+
+As a result of burning Founder NFTs, they become a deflationary asset backed by the deflationary QFT, making these NFTs one of the best long-term investment vehicles on the market.
