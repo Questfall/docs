@@ -22,7 +22,7 @@ For this reason, there are two separate reward pools each week and season: one f
 * 10% (weekly) + 3.2% (seasonal) to authors who create quests.
 
 {% hint style="info" %}
-While the weekly reward pool is distributed immediately upon QFT release, the seasonal reward pool is distributed at the end of the season. [Learn more](seasons.md).
+While the weekly reward pool is distributed immediately upon QFT release, the seasonal reward pool is distributed at the end of the season. [Learn more](quest-creation/seasons.md).
 {% endhint %}
 
 Participating in community moderation allows users to earn [Silver](../assets/Silver-in-game.md), which cannot be withdrawn, but can be used to increase the mining result for both completing and creating quests. Leveling up allows users to advance through the leagues, while promotion makes own quests more visible and attractive to users.

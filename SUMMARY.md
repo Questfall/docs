@@ -14,7 +14,17 @@
 
 * [Overview](quest-mining/overview.md)
 * [Quest Completion](quest-mining/quest-completion/README.md)
+  * [Overview](quest-mining/quest-completion/overview.md)
+  * [Character](quest-mining/quest-completion/character.md)
+  * [Level](quest-mining/quest-completion/level.md)
+  * [Attributes](quest-mining/quest-completion/attributes.md)
+  * [Inventory](quest-mining/quest-completion/inventory.md)
+  * [Items](quest-mining/quest-completion/items.md)
+  * [Loot Boxes](quest-mining/quest-completion/loot-boxes.md)
+  * [Crafting](quest-mining/quest-completion/crafting.md)
+  * [Magic](quest-mining/quest-completion/magic.md)
   * [Leagues](quest-mining/quest-completion/leagues.md)
+  * [Seasons](quest-mining/quest-completion/seasons.md)
 * [Quest Creation](quest-mining/quest-creation/README.md)
   * [Author Spaces](quest-mining/quest-creation/author-spaces.md)
   * [Author Reputation](quest-mining/quest-creation/author-reputation.md)
@@ -23,23 +33,11 @@
   * [Quest Promotion](quest-mining/quest-creation/quest-promotion.md)
   * [Banner Promotion](quest-mining/quest-creation/banner-promotion.md)
   * [Author Leaderboar](quest-mining/quest-creation/author-leaderboar.md)
+  * [Seasons](quest-mining/quest-creation/seasons.md)
 * [Community Moderation](quest-mining/community-moderation/README.md)
   * [Voting Types](quest-mining/community-moderation/voting-types.md)
   * [System Fakes](quest-mining/community-moderation/system-fakes.md)
   * [Reporting](quest-mining/community-moderation/reporting.md)
-* [Seasons](quest-mining/seasons.md)
-
-## RPG SYSTEM
-
-* [Overview](mining/overview.md)
-* [Character](mining/character.md)
-* [Level](rpg-system/level.md)
-* [Attributes](rpg-system/attributes.md)
-* [Inventory](rpg-system/inventory.md)
-* [Items](mining/Items.md)
-* [Loot Boxes](rpg-system/loot-boxes.md)
-* [Crafting](mining/crafting.md)
-* [Magic](mining/magic.md)
 
 ## Infrastructure
 
