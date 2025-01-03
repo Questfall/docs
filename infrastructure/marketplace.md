@@ -14,7 +14,7 @@ The main idea behind item trading in Questfall is that there are actually two ma
 Two different marketplaces are brought together under one interface.
 {% endhint %}
 
-This approach allows the value of in-game gold to be extracted onto the blockchain by crafting higher rarity items and selling those items as NFTs on the chain. For example, a user can use Gold to purchase an item and a Toolset, both of rarity D, and then consume the Toolset to evolve the item to rarity C, which can be withdrawn as an NFT and sold on the marketplace with QFT.
+This approach allows the value of in-game gold to be extracted onto the blockchain by crafting higher rarity items and selling those items as NFTs on the chain. For example, a user can use Gold to purchase an item and a Toolset, both of rarity D, and then consume the Toolset to evolve the item to rarity C, which can be withdrawn as an NFT and sold on the marketplace for QFT.
 
 In both marketplaces, 5% of the item price is burned as a fee - Gold is burned for lower rarity items, while QFT is burned for higher rarity items. This 5% is automatically added to the amount of money a seller wants to receive, forming a final price that buyers see.
 
