@@ -6,9 +6,9 @@ icon: shirt
 
 IMAGE OF INVENTORY WITH ITEMS
 
- There are a variety of in-game **Items** comprising **Clothing**, **Spell Books**, **Elixirs**, and **Potions** which give bonuses to the character and game play. 
+There are a variety of in-game **Items** comprising **Clothing**, **Spell Books**, **Elixirs**, and **Potions** which give bonuses to the character and game play.
 
-Items can be acquired from **Loot Boxes** and **Marketplace.** 
+Items can be acquired from **Loot Boxes** and **Marketplace.**
 
 ***
 
@@ -16,15 +16,14 @@ Items can be acquired from **Loot Boxes** and **Marketplace.**
 
 **Clothing**, **Spell Books** and **Elixirs** comes in six different **Tiers**:
 
-* Common (F) 	
-* Advanced (E) 	
-* Rare (D)	
-* Legendary (C) 	
-* Epic (B) 	
-* Mythic (A) 	
+* Common (F)
+* Advanced (E)
+* Rare (D)
+* Legendary (C)
+* Epic (B)
+* Mythic (A)
 
-The higher the tier of the item the more powerful and heavier it is.
-In addition to the tier, clothing also has **Level** that affects the item's bonuses.
+The higher the tier of the item the more powerful and heavier it is. In addition to the tier, clothing also has **Level** that affects the item's bonuses.
 
 ***
 
@@ -39,13 +38,13 @@ There are multiple types of **Clothing** and the character has six slots to wear
 * **Leg** (pants, trousers)
 * **Feet** (boots, shoes)
 * **Hand** (gloves, gauntlets)
-* **Back** (capes, cloaks, mantles) 
+* **Back** (capes, cloaks, mantles)
 
-Wearing clothing provides many benefits to the character, such as bonuses to mining power, attributes, mana or stamina. 
+Wearing clothing provides many benefits to the character, such as bonuses to mining power, attributes, mana or stamina.
 
 The character can wear clothing of any level or tier. If the level of the item is higher than the character level, the item and its effects will be downgraded (while equipped) to the character level while the tier and weight stay the same. The higher the level and tier of the clothing, the greater the bonuses and weight.
 
-All types of clothing can be seen as equal in quality as they give the same amount of bonuses for the same weight. However, every kind of clothing has a unique weight ratio making some items heavier and more powerful than others. 
+All types of clothing can be seen as equal in quality as they give the same amount of bonuses for the same weight. However, every kind of clothing has a unique weight ratio making some items heavier and more powerful than others.
 
 {% hint style="info" %}
 For example, the weight and effect of pants are three times that of a hat. If (F) level 10 hat weighs 100g and gives 280 mana a pants of the same level and tier would weigh 300g and give 840 mana.
@@ -53,17 +52,15 @@ For example, the weight and effect of pants are three times that of a hat. If (F
 
 Each clothing has a weight ratio from 1 to 4, giving weight to level 1 (F) items from 10 to 40 grams.
 
-The weight of clothing is directly affected by its tier and level, and can be calculated using the following formula: 10 Grams * Weight Ratio * Level * Tier (F = 1, A = 6).
+The weight of clothing is directly affected by its tier and level, and can be calculated using the following formula: 10 Grams \* Weight Ratio \* Level \* Tier (F = 1, A = 6).
 
-The level and tier of clothing can be upgraded with [Crafting](./crafting.md).
-
+The level and tier of clothing can be upgraded with [Crafting](crafting.md).
 
 ### Spell Books
 
 IMAGE OF SPELL BOOK
 
-Users can learn spells from the **Spell Books** by consuming them. 
-For each spell, there are six tiers of spell books.
+Users can learn spells from the **Spell Books** by consuming them. For each spell, there are six tiers of spell books.
 
 Spell books do not have a level and the tier can be upgraded.
 
@@ -73,7 +70,7 @@ For more details see [Magic](magic.md).
 
 IMAGE OF ELIXIR
 
-The **Elixirs** provide beneficial effects to the character which vary a lot ranging from attribute boosts to reducing the cooldown of all of the character spells. 
+The **Elixirs** provide beneficial effects to the character which vary a lot ranging from attribute boosts to reducing the cooldown of all of the character spells.
 
 Consuming an elixir gives either a **temporary** or **permanent** effects.
 
@@ -81,14 +78,13 @@ Consuming an elixir gives either a **temporary** or **permanent** effects.
 **Higher-tier elixirs** (C, B, A) give permanent effects.
 
 {% hint style="info" %}
-There are full lines of elixirs that come in all six tiers and others
-that are unique to only one or a few tiers. For Example, elixir can have only permanent effects like giving an extra marketplace slot.
+There are full lines of elixirs that come in all six tiers and others that are unique to only one or a few tiers. For Example, elixir can have only permanent effects like giving an extra marketplace slot.
 {% endhint %}
 
 There are four categories of elixirs:
 
 * **Attribute Elixirs** – Increases the base attribute points of the character. Each attribute has one elixir, and these points can’t be redistributed with an attribute reset.
-* **Mystic Elixirs** – These affect things related to magic, spells, and mana, like reducing the mana cost of all the character's spells. 
+* **Mystic Elixirs** – These affect things related to magic, spells, and mana, like reducing the mana cost of all the character's spells.
 * **Power Elixirs** - Gives a boost to the mining power, stamina, and the ability to carry more items, like speeding up the stamina recovery.
 * **Fortune Elixirs** – These affect things related to lucky strikes, loot boxes, shards, and trading, like boosting the probability of bonus chances.
 
@@ -100,10 +96,10 @@ Elixirs do not have a level and the tier can't be upgraded.
 
 IMAGE OF POTION
 
-There are two different types of **Potions**: 
+There are two different types of **Potions**:
 
 * **Stamina Potions** - Consuming fully replenishes the stamina reserves.
-* **Mana Potions** - Consuming fully replenishes the mana reserves. 
+* **Mana Potions** - Consuming fully replenishes the mana reserves.
 
 Potions do not have a tier or level and there is only one size of both types.
 
@@ -113,30 +109,27 @@ Potions do not have a tier or level and there is only one size of both types.
 
 IMAGE OF LOOT BOX
 
-**Loot Boxes** are the primary source of all **RPG items**. They can be obtained by buying directly from the system for **100 Gold** ($1) each or by collecting a full set of [Chest Shards](./character.md).
+**Loot Boxes** are the primary source of all **RPG items**. They can be obtained by buying directly from the system for **100 Gold** ($1) each or by collecting a full set of [Chest Shards](character.md).
 
-By default, a loot box provides one item, with the chance of it being any type, tier, or level. Users can increase their chances of receiving more items by placing points in the [Luck attribute](./character.md) and by consuming a specific elixir.
+By default, a loot box provides one item, with the chance of it being any type, tier, or level. Users can increase their chances of receiving more items by placing points in the [Luck attribute](character.md) and by consuming a specific elixir.
 
 {% hint style="info" %}
 The Gold spent on buying loot boxes is automatically burned by the system.
 {% endhint %}
 
-The function of a loot box is closer to in-game Gold than items as they do not influence the carried weight or stamina consumption and can be opened without using essence. As the items found in the loot box have weight, the box can’t be opened if the character weight limit is fully used. The loot boxes are individualized for the user and can’t be traded with other users.  
+The function of a loot box is closer to in-game Gold than items as they do not influence the carried weight or stamina consumption and can be opened without using essence. As the items found in the loot box have weight, the box can’t be opened if the character weight limit is fully used. The loot boxes are individualized for the user and can’t be traded with other users.
 
 ### Drop Rates
 
-The items drop rate from a loot box decreases 10 times with each tier. For example, Legendary (C) item is 10 times less likely to drop from a loot box than the same item as Rare (D). 
+The items drop rate from a loot box decreases 10 times with each tier. For example, Legendary (C) item is 10 times less likely to drop from a loot box than the same item as Rare (D).
 
-This makes the higher-tier items extremely valuable and hard to find in the loot boxes. If the chance of finding an F-tier clothing is 1 in 10 it makes the chances of finding an A-tier clothing 1 in 1 million. 
+This makes the higher-tier items extremely valuable and hard to find in the loot boxes. If the chance of finding an F-tier clothing is 1 in 10 it makes the chances of finding an A-tier clothing 1 in 1 million.
 
-As finding higher-tier items is so difficult and elixirs and spell books are consumed, the game will never be over-saturated with powerful items. 
+As finding higher-tier items is so difficult and elixirs and spell books are consumed, the game will never be over-saturated with powerful items.
 
 {% hint style="info" %}
-Loot boxes are the only way new items are released into circulation. 
+Loot boxes are the only way new items are released into circulation.
 {% endhint %}
-
-
-
 
 ***
 
@@ -179,5 +172,3 @@ The marketplace offers free trade between users but there are some rules to both
 * User can transfer items to inventory (buying or depositing) only if the character can carry its weight.
 
 ***
-
-

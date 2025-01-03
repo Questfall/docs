@@ -14,7 +14,7 @@ The system is designed to balance different character traits and system resource
 
 One of the most important character parameters is level. While users start as a level 1 character, they can level up by acquiring **XP** either through proper moderation (by voting with the majority) or by paying directly with **Gold** into the system.
 
-A character's level is defined by two numbers: the level itself and the amount of **XP** required to advance to the next level. Although the level cannot be lowered, the amount of **XP** required to reach the next level can be increased if the user is penalized for going against the majority.&#x20;
+A character's level is defined by two numbers: the level itself and the amount of **XP** required to advance to the next level. Although the level cannot be lowered, the amount of **XP** required to reach the next level can be increased if the user is penalized for going against the majority.
 
 {% hint style="info" %}
 For example, the **XP** required for the next level increases if the user's vote is in the minority on a particular quest completion, or if the user reports a quest that the community agrees is appropriate, and so on.
@@ -26,9 +26,9 @@ Leveling up provides several benefits to a user. As the level increases, so does
 
 ### Silver and Level
 
-For the user to gain **XP** and progress through levels they need **Silver**, which can be acquired from moderation, and by burning Gold. 
+For the user to gain **XP** and progress through levels they need **Silver**, which can be acquired from moderation, and by burning Gold.
 
-Silver can be traded for XP within an individualized XP pool that resets every week. The trading works with the same principles as an automated market maker (AMM), the Silver price of XP increases the more XP is bought in the same week. And of course, the XP can’t be traded back to Silver.  
+Silver can be traded for XP within an individualized XP pool that resets every week. The trading works with the same principles as an automated market maker (AMM), the Silver price of XP increases the more XP is bought in the same week. And of course, the XP can’t be traded back to Silver.
 
 ***
 
@@ -57,7 +57,7 @@ The Zero League is considered a tutorial and there is no cost to redistribute at
 
 ### Mining Score
 
-The **Mining Score** is the total number of earned mining points in a period and is used to distribute the rewards for quest mining. It resets every reward period (one week for regular mining and three months for seasonal mining). Throughout the period, the **Mining Score** can only increase.&#x20;
+The **Mining Score** is the total number of earned mining points in a period and is used to distribute the rewards for quest mining. It resets every reward period (one week for regular mining and three months for seasonal mining). Throughout the period, the **Mining Score** can only increase.
 
 The **Mining Score** increases for each user individually. Although all users who complete the same quest receive the same number of **Mining Points** as a base reward, the total number of received **Mining Points** comes after it is multiplied by the mining efficiency. This efficiency multiplier starts at <mark style="background-color:purple;">1.01</mark>, and increases by <mark style="background-color:purple;">0.01</mark> for each point added to the **Mining** attribute.
 
@@ -67,21 +67,20 @@ For example, if a user receives **10 Mining Points** for completing a quest and 
 
 As well as increasing the **Mining** attribute, the mining efficiency can also be increased by using clothing and elixirs with the appropriate effects.
 
-
 ***
 
 ### Stored Items
 
 Users can store items in the character's inventory, from which items can be:
 
-* equipped (Clothing),&#x20;
+* equipped (Clothing),
 * deployed (Warriors),
 * healed (Warriors),
-* consumed (Potions, Elixirs),&#x20;
+* consumed (Potions, Elixirs),
 * learned (Spellbooks),
 * leveled up (Clothing, Warriors),
-* evolved to next rarity tier (Clothing, Spellbooks, Warriors),&#x20;
-* disassembled for essence (any item),&#x20;
+* evolved to next rarity tier (Clothing, Spellbooks, Warriors),
+* disassembled for essence (any item),
 * sold for **Gold** on the in-game marketplace (low-rarity items: F, E, D),
 * withdrawn as NFT (high-rarity items: C, B, A).
 
@@ -110,7 +109,7 @@ Clothing items are the primary means by which users can improve their characters
 * Leg (pants, trousers);
 * Feet (boots, shoes);
 * Hand (gloves, gauntlets);
-* Back (capes, cloaks, mantles).&#x20;
+* Back (capes, cloaks, mantles).
 
 Although clothing items can be of different levels and rarities, there are no restrictions on equipping them other than type (obviously boots can't be equipped in the hand slot).
 
@@ -162,7 +161,7 @@ The second slot unlocks at 10 **Magic** points, the third at 30, the fourth at 6
 
 ### Warriors Slots
 
-The number of **Warrior Slots** limits the count of warriors that can be active on the warfare map at any given moment. Defeated warriors are automatically moved to the inventory, but new warriors can be deployed immediately instead.&#x20;
+The number of **Warrior Slots** limits the count of warriors that can be active on the warfare map at any given moment. Defeated warriors are automatically moved to the inventory, but new warriors can be deployed immediately instead.
 
 A first-level character starts with <mark style="background-color:purple;">2</mark> **Warrior Slots**, and each additional point in the **Warfare** attribute adds <mark style="background-color:purple;">2</mark> more **Warrior Slots**.
 
@@ -178,9 +177,9 @@ A first-level character starts with <mark style="background-color:purple;">3</ma
 
 ### Gold Balance
 
-Each character can have an unlimited amount of **Gold**, which does not add weight to the inventory. The **Gold Balance** can only be increased by burning **QFT** or selling low-rarity items on the marketplace.&#x20;
+Each character can have an unlimited amount of **Gold**, which does not add weight to the inventory. The **Gold Balance** can only be increased by burning **QFT** or selling low-rarity items on the marketplace.
 
-**Gold** can be spent on:&#x20;
+**Gold** can be spent on:
 
 * buying loot boxes;
 * buying **XP** to level up without moderating;
@@ -192,7 +191,7 @@ Each character can have an unlimited amount of **Gold**, which does not add weig
 
 ### Essence Balance
 
-Each character can have an unlimited amount of non-tradable **Essence**, which does not add weight to the inventory.&#x20;
+Each character can have an unlimited amount of non-tradable **Essence**, which does not add weight to the inventory.
 
 **Essence** can only be gained by disassembling items, and the heavier the item, the more **Essence** it will contain. A first-level character can extract <mark style="background-color:purple;">0.1</mark> **Essence** per gram, but each additional point of **Crafting** increases the amount of **Essence** per gram by <mark style="background-color:purple;">0.1</mark>.
 
@@ -232,7 +231,7 @@ This method of counting chances does not take into account the different number 
 
 Loot boxes are the primary source of all RPG items (such as Clothing, Potions, Elixirs, Spellbooks, and Warriors) in the system. They can be opened either by spending <mark style="background-color:purple;">100</mark> **Gold** or by collecting a full set of **Chest Shards**.
 
-By default, a loot box provides one item, with the chance of receiving an item depending on its rarity.&#x20;
+By default, a loot box provides one item, with the chance of receiving an item depending on its rarity.
 
 Users can increase their chances of receiving more items by placing points in their **Luck** attribute. For every <mark style="background-color:purple;">10</mark> points of **Luck**, users will receive an additional card when they open a loot box, providing additional turns with the opportunity to receive more items.
 
@@ -271,4 +270,3 @@ For example, if **Luck** is 10 the chances of getting the bonus will be 20/1100=
 {% endhint %}
 
 ***
-

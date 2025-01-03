@@ -14,15 +14,13 @@ This creates an additional layer of game mechanics and gives users the ability t
 
 ### Weight and Essence
 
-The item's weight, amount of essence it contains, and tier and level are directly correlated. The heavier the clothing the more essence is needed for upgrading it. 
+The item's weight, amount of essence it contains, and tier and level are directly correlated. The heavier the clothing the more essence is needed for upgrading it.
 
-By disassembling any item user gets a percentage of the essence it contains. The number of essences received from disassembling an item can be increased by adding points to the crafting attribute. 
+By disassembling any item user gets a percentage of the essence it contains. The number of essences received from disassembling an item can be increased by adding points to the crafting attribute.
 
 For more details about the amounts of essence needed for upgrading and received from disassembling see the [Essence Balance](character.md).
 
 Essence is a highly valued resource as in addition to upgrading it is needed to equip and unequip clothing and it can’t be bought or traded.
-
-
 
 ***
 
@@ -30,25 +28,23 @@ Essence is a highly valued resource as in addition to upgrading it is needed to 
 
 The amount of boosts **Clothing** gives depends on its level and tier which can be upgraded by crafting.
 
-Users can freely choose to upgrade either the level or tier of clothing. Any level item can be evolved by tier and any tier item can be increased in level. The cost/benefit ratio is the same with both upgrades but evolving the tier often consumes more essence at one time as it has a greater effect on item bonuses. 
+Users can freely choose to upgrade either the level or tier of clothing. Any level item can be evolved by tier and any tier item can be increased in level. The cost/benefit ratio is the same with both upgrades but evolving the tier often consumes more essence at one time as it has a greater effect on item bonuses.
 
-
-All tier of clothing has upgradeable effects that can be leveled up and the higher tier also has non-upgradable effects that can’t be leveled up. 
+All tier of clothing has upgradeable effects that can be leveled up and the higher tier also has non-upgradable effects that can’t be leveled up.
 
 The number of **upgradable** and **non-upgradable** effects is based on the tier:
 
-*  1/0 - Common (F) 	
-*  2/0 - Advanced (E) 	
-*  3/0 - Rare (D) 	
-*  3/1 - Legendary (C) 	
-*  3/2 - Epic (B) 	
-*  3/3 - Mythic (A)
+* 1/0 - Common (F)
+* 2/0 - Advanced (E)
+* 3/0 - Rare (D)
+* 3/1 - Legendary (C)
+* 3/2 - Epic (B)
+* 3/3 - Mythic (A)
 
-
- **The Level Upgrade** linearly increases the effect of all the upgradable bonuses within the clothing. All the non-upgradable bonuses stay the same. 
+**The Level Upgrade** linearly increases the effect of all the upgradable bonuses within the clothing. All the non-upgradable bonuses stay the same.
 
 {% hint style="info" %}
-For example, A level 10 Legendary (C) robe gives +4% to mining efficiency, +1000 to mana, +1000 stamina, and +10 to crafting attribute, by upgrading it to level 11 it gives 4.4% to mining efficiency, +1100 to mana, and +1100 to stamina, and +10 to crafting attribute. 
+For example, A level 10 Legendary (C) robe gives +4% to mining efficiency, +1000 to mana, +1000 stamina, and +10 to crafting attribute, by upgrading it to level 11 it gives 4.4% to mining efficiency, +1100 to mana, and +1100 to stamina, and +10 to crafting attribute.
 {% endhint %}
 
 There is no fixed maximum level for the items as it will increase based on the level of the highest-level users.
@@ -59,9 +55,9 @@ There is no fixed maximum level for the items as it will increase based on the l
 For example, A level 20 common (F) helmet gives +6% to mining efficiency, and by evolving it to Advanced (E), it will give +6% to mining efficiency and +2000 to mana. (+100 mana for each level)
 {% endhint %}
 
-Within the same higher tier (C, B, A), clothing of the same level can vary in quality. This is because the strength of the new non-upgradable effect is randomly generated within a specific range. Non-upgradable effects already in the clothing remain unchanged when the tier is upgraded. 
+Within the same higher tier (C, B, A), clothing of the same level can vary in quality. This is because the strength of the new non-upgradable effect is randomly generated within a specific range. Non-upgradable effects already in the clothing remain unchanged when the tier is upgraded.
 
-The power range of the non-upgradable effect will get higher with each tier: 
+The power range of the non-upgradable effect will get higher with each tier:
 
 * C 50% - 100%
 * B 100% - 200%
@@ -70,8 +66,6 @@ The power range of the non-upgradable effect will get higher with each tier:
 {% hint style="info" %}
 For example, A-tier clothing could give effects to different attributes using +10 as a base, +7 to Recharge Attribute (C), +19 to Mining Attribute (B), and +25 to Crafting Attribute (A).
 {% endhint %}
-
-
 
 ### Spell Book Upgrade
 

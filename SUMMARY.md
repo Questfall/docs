@@ -13,31 +13,31 @@
 ## Quest Mining
 
 * [Overview](quest-mining/overview.md)
-* [Author Spaces](quest-mining/author-spaces.md)
+* [Author Spaces](quest-mining/author-spaces/README.md)
+  * [Quest Promotion](quest-mining/author-spaces/quest-promotion.md)
+  * [Banner Promotion](quest-mining/author-spaces/banner-promotion.md)
 * [Author Reputation](quest-mining/author-reputation.md)
-* [Banner Promotion](quest-mining/banner-promotion.md)
 * [Quest Types](quest-mining/quest-types.md)
-* [Quest Promotion](quest-mining/quest-promotion.md)
 * [Completion Retries](quest-mining/completion-retries.md)
 * [Authoring](quest-mining/authoring.md)
 * [Promoting](quest-mining/promoting.md)
 * [Completing](quest-mining/completing.md)
-* [Communit Moderation](quest-mining/communit-moderation.md)
+* [Communit Moderation](moderating/overview.md)
 * [Leagues](quest-mining/leagues.md)
 * [Author Leaderboar](quest-mining/author-leaderboar.md)
 * [Seasons](quest-mining/seasons.md)
 
 ## RPG SYSTEM
 
-* [Overview](rpg-system/overview.md)
-* [Character](rpg-system/character.md)
+* [Overview](mining/overview.md)
+* [Character](mining/character.md)
 * [Level](rpg-system/level.md)
 * [Attributes](rpg-system/attributes.md)
 * [Inventory](rpg-system/inventory.md)
-* [Items](rpg-system/items.md)
+* [Items](mining/Items.md)
 * [Loot Boxes](rpg-system/loot-boxes.md)
-* [Crafting](rpg-system/crafting.md)
-* [Magic](rpg-system/magic.md)
+* [Crafting](mining/crafting.md)
+* [Magic](mining/magic.md)
 
 ## Infrastructure
 
