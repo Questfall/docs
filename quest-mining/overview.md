@@ -21,8 +21,8 @@ Quest completion and quest creation produce different types of value that cannot
 
 For this reason, there are two separate reward pools each week and season: one for users who complete quests and one for authors who create them. These pools are formed using 66% of the weekly QFT issue:
 
-* 40% (weekly) + 12.8% (seasonal) to users who complete quests;
-* 10% (weekly) + 3.2% (seasonal) to authors who create quests.
+* 10% (weekly) + 3.2% (seasonal) to authors who create quests;
+* 40% (weekly) + 12.8% (seasonal) to users who complete quests.
 
 {% hint style="info" %}
 While the weekly reward pool is distributed immediately upon QFT release, the seasonal reward pool is distributed at the end of the season. [Learn more](seasons-16.md).
