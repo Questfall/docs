@@ -6,9 +6,12 @@ icon: pickaxe
 
 Although we wrote in the [Sybil Defense](../overview/sybil-defence.md) article that mining in Questfall consists of two main activities, this was done for simplicity, as there are actually three complementary activities that make Quest Mining possible:
 
-* [quest creation](quest-creation-10/) - authors earn weekly and seasonal rewards by creating quests;
-* [quest completion](quest-completion-40/) - users earn weekly and seasonal rewards by completing quests;
-* [community moderation](community-moderation/) - allows users to level up or promote their own quests.
+* [Quest Creation](quest-creation-10/)\
+  authors earn weekly and seasonal rewards by creating quests;
+* [Quest Completion](quest-completion-40/)\
+  users earn weekly and seasonal rewards by completing quests;
+* [Community Moderation](community-moderation/)\
+  allows users to level up or promote their own quests.
 
 {% hint style="info" %}
 These activities are open to everyone, so a user can create a quest, complete quests from the feed, and moderate completions all in one day.
