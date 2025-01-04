@@ -28,6 +28,6 @@ For this reason, there are two separate reward pools each week and season: one f
 While the weekly reward pool is distributed immediately upon QFT release, the seasonal reward pool is distributed at the end of the season. [Learn more](seasons-16.md).
 {% endhint %}
 
-Participating in community moderation allows users to earn [Silver](../assets/Silver-in-game.md), which cannot be withdrawn, but can be used to increase the mining result for both completing and creating quests. Leveling up allows users to advance through the leagues, while promotion makes own quests more visible and attractive to users.
+While quest completion and quest creation create two separate groups of competitors for QFT issuance, community moderation allows users to earn [Silver](../assets/Silver-in-game.md), which can be issued in any amount, but cannot be withdrawn and can only be used to improve the mining results of the first two activities.
 
-As a result, each of the three main mining activities in Questfall offers different rewards and relies on completely different reward distribution mechanics. While quest completion and quest creation create two separate groups of competitors for the QFT issue, community moderation allows users to earn an unlimited amount of Silver that can only be used to improve the results of the first two activities.
+As a result, each of the three main mining activities in Questfall offers different rewards and relies on completely different reward distribution mechanics.&#x20;
