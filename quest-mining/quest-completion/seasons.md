@@ -1,6 +1,0 @@
----
-icon: calendar-clock
----
-
-# Seasons
-

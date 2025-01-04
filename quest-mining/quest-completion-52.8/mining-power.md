@@ -1,8 +1,8 @@
 ---
-icon: dice-d8
+icon: bolt-lightning
 ---
 
-# Overview
+# Mining Power
 
 At the end of each week or season, rewards for completing quests are distributed based on a user's Mining Score, which is simply the total number of Mining Points a user earns by completing quests during that period.
 
