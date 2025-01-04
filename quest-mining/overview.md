@@ -25,7 +25,7 @@ For this reason, there are two separate reward pools each week and season: one f
 * 40% (weekly) + 12.8% (seasonal) to users who complete quests.
 
 {% hint style="info" %}
-While the weekly reward pool is distributed immediately upon QFT release, the seasonal reward pool is distributed at the end of the season. [Learn more](seasons-16.md).
+While the weekly reward pool is distributed immediately upon QFT release, the [Seasonal Reward Pool](seasons-16.md) is distributed at the end of the season.
 {% endhint %}
 
 While quest completion and quest creation create two separate groups of competitors for QFT issuance, community moderation allows users to earn [Silver](../assets/Silver-in-game.md), which can be issued in any amount, but cannot be withdrawn and can only be used to improve the mining results of the first two activities.
