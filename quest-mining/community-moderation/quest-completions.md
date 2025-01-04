@@ -1,8 +1,8 @@
 ---
-icon: list-check
+icon: file-circle-check
 ---
 
-# Voting Types
+# Quest Completions
 
 ## Types of voting
 

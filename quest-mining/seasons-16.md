@@ -26,7 +26,7 @@ The reward distribution mechanism is the same for both users and authors - the t
 This is necessary for protection against Sybil attacks.
 {% endhint %}
 
-Rewards are distributed linearly to these 10% of places on each leaderboard, so the lowest place gets one share, the next place gets two shares, and so on up to the 1st place on the leaderboard.
+Rewards are distributed linearly to these 10% of places on each leaderboard, so the lowest rewarded place gets one share, the next place gets two shares, and so on up to the 1st place on the leaderboard.
 
 For example, if there are 1000 users in the leaderboard, the top 100 will be rewarded in such a way that the 1st user will get x100 more reward than the 100th, while the 101st and below will get no reward. If there are 2000 users, the 1st user will get x200 more reward than the 200th. And so on.
 

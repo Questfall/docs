@@ -2,7 +2,7 @@
 icon: flag-swallowtail
 ---
 
-# Reporting
+# Quest Reports
 
 ### Reporting of Quests
 

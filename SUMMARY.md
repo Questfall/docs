@@ -7,7 +7,7 @@
 * [Quest Mining](overview/quest-mining.md)
 * [Quest Feed](overview/global-feed.md)
 * [Token Burning](overview/token-burning.md)
-* [Sybil Defence](overview/sybil-defence.md)
+* [Sybil Defense](overview/sybil-defence.md)
 * [RPG System](overview/rpg-system.md)
 
 ## Quest Mining
@@ -34,9 +34,9 @@
   * [Magic](quest-mining/quest-completion-40/magic.md)
   * [Leagues](quest-mining/quest-completion-40/leagues.md)
 * [Community Moderation](quest-mining/community-moderation/README.md)
-  * [Voting Types](quest-mining/community-moderation/voting-types.md)
-  * [System Fakes](quest-mining/community-moderation/system-fakes.md)
-  * [Reporting](quest-mining/community-moderation/reporting.md)
+  * [Quest Completions](quest-mining/community-moderation/quest-completions.md)
+  * [Quest Reports](quest-mining/community-moderation/quest-reports.md)
+  * [Whitelist Platforms](quest-mining/community-moderation/whitelist-platforms.md)
 * [Seasons (16%)](quest-mining/seasons-16.md)
 
 ## Infrastructure
