@@ -4,25 +4,25 @@ icon: shield-check
 
 # Community Moderation
 
-Moderating activity in Questfall is an important part of the platform, as it helps define the rewards for miners based on the quality of their quest completions. This is a very hard problem for computers to solve, so moderation also serves as a [defense against Sybil attacks](../../overview/sybil-defence.md), which is very important for keeping mining fair.
+Fair reward distribution is very important for the quest mining approach used in Questfall. However, quest completions can be any kind of content that should satisfy unpredictable quest requirements, and they can be published on any available platform on the Internet.
 
-Completions of unpredictable quest types are very difficult to estimate algorithmically, because they can be any type of content on any available platform on the Internet. Not only should the completion meet some minimum quality requirements, which is entirely a matter of human perception, but also popular platforms like X, Facebook or Youtube are fighting with automatic access to prevent DDoS attacks and content scraping.
+As a result, judging completions is a very hard (if solvable) problem for computers. Not only should the completion meet some minimum quality requirements, which is entirely a matter of human perception, but also popular platforms like X, Facebook or Youtube are fighting with automatic access to prevent DDoS attacks and content scraping.
 
-However, humans can easily verify any quest completion or report. For this reason, the quest completion and reporting process in Questfall relies entirely on community voting, or community moderation.
+This is why Questall relies entirely on the help of its users, which is realized in the form of community moderation and plays an important role in the overall operation of the platform. On the one hand, it helps to distribute fair rewards to miners according to their efforts and skills, and on the other hand, it serves as a [defense against Sybil attacks](../../overview/sybil-defence.md).
 
-In order to prevent manipulation of the vote and to protect it from multi-accounts, bots, and all sorts of blind and random voting, Questfall's community moderation is based on several principles that create a solid voting mechanism.
+Since community moderation is based on consensus voting and plays such a crucial role in the system, it should be protected from all kinds of manipulation, multi-accounts, bots, and all kinds of blind and random voting. To achieve this goal, Questfall's community moderation is based on several principles that create a solid mechanic that can't be abused.
 
 #### Binary votes
 
-Each voting topic should have only two possible vote options - either yes or no. It can also be true or false, valid or invalid, and so on. This approach makes voting easy for moderators, and as a result of such binary mechanics, voters will always be divided into majority and minority.
+Each voting topic should have only two possible vote options - either yes or no. It can also be true or false, valid or invalid, and so on. This approach not only makes voting easy and straightforward for moderators, but also implies a binary voting result, so that each vote is either right or wrong, with no ambiguity.
 
 {% hint style="info" %}
-There may be other approaches, such as the range voting that Questfall uses for quest ratings. However, the outcomes of such votings are not as straightforward, since the voting results in an average instead of a majority.
+There may be other approaches, such as the range voting that Questfall uses for quest ratings. However, the results of such voting are not as straightforward, as the votes are right only to a certain degree.
 {% endhint %}
 
 This binary approach allows to reduce the whole quality spectrum of quest competitions and reports to the binary result - either valid or not. The same way hashes are estimated in the Bitcoin blockchain.
 
-#### League-based segmentation
+#### League-based result segmentation
 
 With binary votes, it is fairly easy to calculate the majority. However, the straightforward approach when all votes are equal opens the door to Sybil attacks. Even if the system weights votes by user level, this does not solve the problem. An attacker could still create many low-level accounts and gain the overall weight in the system needed to change the voting results.
 
@@ -34,7 +34,9 @@ In Questfall, to prevent vote manipulation by many low-level accounts, voting is
 In cases where the league results are evenly split, the highest league result is given double weight.
 {% endhint %}
 
-This approach prevents manipulation from both sides - many law-level accounts as well as a few high-level accounts. To abuse a voting system, an attacker will need a majority in most leagues. This also means that the protection will increase over time as more leagues are opened in Questfall.
+This approach protects the results from both sides - many law-level accounts as well as a few high-level accounts won't be able to manipulate the consensus.&#x20;
+
+To abuse a voting system, an attacker will need a majority in most leagues. This also means that protection will increase over time as more leagues are opened in Questfall.
 
 #### Assigned voting topic
 
@@ -50,14 +52,14 @@ This approach also provides another layer of protection. On the one hand, the fu
 
 When topics are assigned by the system, both of these threats are negated. Moderators won't get the full list of voting topics to choose from, while multi-accounts will get random topics on each of their accounts and won't be able to synchronize their votes.
 
-#### Vote results in reward or penalty
+#### Votes are rewarded or penalized
 
 If users can only be rewarded and not punished for voting, then any kind of blind or random voting will be a profitable strategy that can be automated. And as a result, users will be able to level many accounts at once through bots. This will completely break the system.
 
-Therefore, in Questfall, moderators who vote in line with the consensus will be rewarded with Silver, and those who vote against the consensus will lose Silver.
+Therefore, in Questfall, moderators will be rewarded or penalized with [Silver](../../assets/Silver-in-game.md) based on how their vote matches the final consensus. If it matches, the moderator is rewarded. If it does not, the moderator is penalized.
 
 {% hint style="info" %}
-We are talking about consensus, because thanks to the league-based result segmentation, the majority of voters could lose, as shown in the table above.
+Thanks to the league-based result segmentation, the majority of voters could be penalized, as shown in the table above.
 {% endhint %}
 
 This approach, where the user can either be rewarded or punished, affects the way moderators will evaluate the voting topic. They will be forced to judge it from the perspective of the majority, not from their personal point of view. Of course, if they want to earn Silver and not lose it.
@@ -66,11 +68,13 @@ This approach, where the user can either be rewarded or punished, affects the wa
 For example, you may not personally like a story that a user has written. However, you think that the majority will like it. How would you vote?
 {% endhint %}
 
+It is also important to note that users can have a negative Silver balance, so that new moderators can make mistakes that can be fixed without paying. This way, new users can practice their moderation skills, go negative, and then earn Silver back with proper voting.
+
 #### Protection against user actions
 
 If the quest completion is a piece of content published on a third-party site that can be edited by its author at any time, a user can post it as a quest completion and then change it while it is being moderated.
 
-For example, there may have been a mistake initially that was fixed after moderation began. In this case, the first moderators who voted that the completion was invalid would be punished for doing their job correctly, which is obviously not fair. However, if there is no punishment, the principle of "vote results in reward or penalty" is violated.
+This can even happen without malice. For example, there may have been a mistake initially, and a user fixed it later, after moderation began. In this case, the first moderators who voted that the completion was invalid would be punished for doing their job correctly, which is obviously not fair. However, if there is no punishment, then the principle of "votes are rewarded or penalized" is violated.
 
 This contradiction is easily resolved by splitting a single voting topic into two. And for that, the system should ask a user who completes a quest for two things: a link where the completion is published, and the screenshot of the completion.
 
@@ -86,11 +90,11 @@ Users should not be able to freely bypass topics to vote, otherwise the idea of 
 
 However, if there is no way for users to bypass topics that they cannot judge for some reason, they will be forced to vote blindly to continue. So there should be some way for users to lose less by bypassing than by voting blind.
 
-If there is both a reward and a penalty for voting, the cost of bypassing in Silver should be less than half the penalty to make bypassing more profitable than blind voting.
+In regular voting, when there is both a reward and a penalty, the cost of bypassing in Silver should be less than half the penalty to make bypassing more profitable than blind voting.
 
 In the case of the split topics discussed earlier, the cost of bypassing the first step, where there is no penalty, should also be zero, otherwise it will be more profitable to vote blind than to bypass. But the cost of bypassing the second step should be greater than half the reward for the first step.
 
-This way, bypassing the first step gives no payoff, while bypassing the second step gives a loss that can't be covered by blindly voting on the first step. And since a moderator is assigned both steps in roughly equal proportions, there is no way to be profitable with blind or random voting over many iterations.
+This way, random voting on the first step earns Silver, while the cost of bypassing the second step outweighs it. And since a moderator is assigned both steps in roughly equal proportions, there is no way to be profitable with blind or random voting over many iterations.
 
 #### Banning a user after many failures
 
