@@ -100,7 +100,7 @@ The ability to have an unlimited negative Silver balance assumes that users can 
 
 To prevent this, Questfall has a 24 hour ban for every additional -1,000 in negative Silver balance. In other words, the user will be banned for 24 hours when his Silver balance reaches -1,000, another ban will be applied when the balance reaches -2,000, but this time it will be 48 hours. A 72 hour ban will be applied when the balance reaches -3,000. And so on.
 
-This way, any kind of automated voting will require a huge amount of Silver to be invested in the system in order to not get banned. And that requires either QFT burning or proper moderation, both of which add value to the entire community.
+This way, if a moderator uses any kind of automated voting that is not successful in the majority of cases, he will either have to face increasing bans or gain Silver through QFT burning to cover the negative balance, or use many first level accounts that have no weight in the system.
 
 #### Equal odds for bad and good completions
 
