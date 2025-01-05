@@ -104,7 +104,7 @@ To prevent this, Questfall has a 24 hour ban for every -5,000 negative Silver ba
 
 This way, any kind of parsing will require a huge amount of Silver to be invested in the system in order to not get banned. And that will require either QFT burning or proper moderation, both of which add value to the entire community.
 
-#### Even odds of a win
+#### Equal odds for bad and good completions
 
 There may be an imbalance between good completions or reports and bad ones in the system, since the majority of users will not waste their resources and efforts on malicious actions and will play by the rules.
 
