@@ -43,6 +43,10 @@ The remaining two-thirds of the weekly issue (66%) is used to reward quest activ
 * 10% to authors who create quests;
 * 16% to seasonal reward pool (12.8% to users and 3.2% to authors).
 
+{% hint style="info" %}
+See dedicated articles to learn more about [earning from quests](../quest-mining/overview.md) and [seasons](../quest-mining/seasons-16.md).
+{% endhint %}
+
 Mining approach allows to solve many problems that are not solvable otherwise. Such as supporting infrastructure of the project, unbiased rewards for completing quests, rewards for authors that are appreciated by the community, which means that they will have a high motivation to create entertaining, fun, educational or interesting quests of high quality.&#x20;
 
 But what's more important, this approach allows to build a system that rewards users based on fixed rules that can't be changed in the future, since the issuance and its distribution will be set in stone in the smart contracts with burned ownership. As a result, QFT will become a truly publicly owned money.

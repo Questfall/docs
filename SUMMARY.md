@@ -6,7 +6,7 @@
 
 * [Quest Mining](overview/quest-mining.md)
 * [Quest Feed](overview/global-feed.md)
-* [Token Burning](overview/token-burning.md)
+* [Deflationary Mining](overview/token-burning.md)
 * [Sybil Defense](overview/sybil-defence.md)
 * [RPG System](overview/rpg-system.md)
 

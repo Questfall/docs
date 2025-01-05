@@ -18,7 +18,7 @@ However, the way in which the rewards are divided between these two groups is di
 
 The user leaderboard is based on the total base reward received. In other words, this leaderboard is created without taking into account the individual mining power of the users. This means that the users who complete the most quests will receive the most rewards.
 
-The author leaderboard is based on the average rating of the quests created during the season. However, authors will have to create at least 12 quests per season to be eligible for the leaderboard. This way, popular authors will not have an advantage, and at the same time, authors will be motivated to create at least one quest per week.
+The author leaderboard is based on the average rating of the quests created during the season. However, authors will have to create at least 12 quests per season to be eligible for the leaderboard. This way, popular authors will not have an edge, and at the same time, authors will be motivated to create at least one quest per week.
 
 The reward distribution mechanism is the same for both users and authors - the top 10% of each leaderboard is eligible for rewards, while the remaining 90% is not.
 
