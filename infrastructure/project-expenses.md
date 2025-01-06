@@ -23,7 +23,7 @@ It is important to note that we have enough experience in the business to learn 
 This means, for example, that if 5% is too much money that the Team doesn't really need, we will use the excess funds to, for example, increase the Liquidity Program reward or buy back and burn Founder NFTs. Both of these actions will increase our earnings as founders.
 
 {% hint style="info" %}
-While these statements may seem unlikely in the crypto space, it is a common approach in the real world. And it is the healthiest approach in the long run.
+While these statements may seem unlikely in the crypto space, it is a common practice in the real world. And it is the healthiest approach in the long run.
 {% endhint %}
 
 This separation of personal and company money makes us, as founders, interested in exchanging the Team's QFT without selling it directly into the liquidity pool, as we will suffer the negative effects of such actions just like any other founder, miner, or QFT holder. And there could be many solutions to this problem.

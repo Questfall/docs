@@ -28,9 +28,13 @@ To further increase the rate at which liquidity grows, there will be an addition
 The mathematics behind the Toolsets distribution is quite complex, and we will publish it after extensive testing. For now, we just describe the general approach.
 {% endhint %}
 
-Users will increase their chances of getting more rare Toolsets, depending on their total share of burnt liquidity during the week. However, since the number of Toolsets issued each week depends on the number of users who have burned liquidity, there will be a threshold for adding liquidity to prevent Sybil attacks.
+Users will increase their chances of getting more rare Toolsets by maximizing their total share of burnt liquidity over the course of the week.&#x20;
 
-In this way, the more activity in the system, the higher the demand for Toolsets, the more their price will rise in the secondary market, and the faster liquidity will grow, since the Liquidity Program reward is the only way to release Toolsets into circulation. Therefore, depending on the price of Toolsets on the secondary market, users will be adding significantly more liquidity than the weekly QFT reward.
+However, since the number of Toolsets issued each week depends on the number of users who have burned liquidity, there will be a threshold for adding liquidity to prevent Sybil attacks.
+
+In this way, the more activity in the system, the higher the demand for Toolsets, the more their price will rise in the secondary market, and the faster liquidity will grow, since the Liquidity Program reward is the only way to release Toolsets into circulation.&#x20;
+
+Therefore, depending on the price of Toolsets on the secondary market, users will be adding significantly more liquidity than the weekly QFT reward.
 
 {% hint style="info" %}
 In our estimation, orders of magnitude more.

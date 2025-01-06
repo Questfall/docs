@@ -10,7 +10,7 @@ Ensuring that tokens are not sold by the user for a certain period of time benef
 Freezing will begin at the launch of Questfall and will continue indefinitely, reducing the total amount of QFT in circulation.
 {% endhint %}
 
-Initially, users can only freeze their tokens for a default period of 15 weeks. Each week, this freeze period decreases by one, but users can freeze their tokens back to the default 15-week period at any time.&#x20;
+Users can only freeze their tokens for a default period of 15 weeks. After the tokens are frozen, this freeze period decreases by one every week until it is nullified, at which point users can withdraw their tokens. However, users can re-freeze their tokens back to the default 15-week period at any time while the tokens are still frozen.
 
 The weekly reward is distributed according to each user's individual freeze power, which is calculated as the product of the number of tokens frozen and the number of weeks remaining in the freeze period.
 
@@ -24,7 +24,7 @@ We use the word _**freezing**_ because _**staking**_ implies the possibility of 
 
 While 5% may not seem like much, the results over the course of a year look different. For example, let's assume that 10% APY is a competitive return on a deposit. Over the course of a year, 52 \* 5% = 260% of the weekly issuance will be used to pay out percentages on the frozen QFTs.
 
-With these inputs, the amount of QFTs that it is profitable to freeze (and earn 10% annually) is 260% \* 10 = 2600% of weekly issuance. In other words, it makes sense for users to freeze half of the QFT that will be issued in a year.
+With these inputs, the amount of QFTs that it is profitable to freeze (and earn 10% annually) is 260% \* 10 = 2600% of the weekly issue. In other words, it makes sense for users to freeze half of the annual QFT issuance.
 
 {% hint style="info" %}
 Of course, these calculations are very rough, but they still show the impact of paying out 5% in one week as a return on capital.

@@ -10,7 +10,7 @@ During the week, anyone can add Gold to the system pool for burning. At the end 
 
 As a result, the actual amount that users will receive for their Gold depends on the competition for withdrawing Gold and the price of QFT.
 
-However, the payout price for Gold should not be higher than the official one of $0.01, because otherwise the opportunity for arbitrage appears: burn QFT -> get Gold -> burn Gold -> get more QFT than was burned in the beginning. Therefore, the payout price for Gold will tend to be less than $0.01.
+However, the payout price for Gold should not be higher than the official one of $0.01, because otherwise the opportunity for arbitrage appears: burn QFT -> get Gold -> burn Gold -> get more QFT. Therefore, the payout price for Gold will tend to be less than $0.01.
 
 {% hint style="info" %}
 This difference, which results from open market mechanics, can be thought of as a spread.
