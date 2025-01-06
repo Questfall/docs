@@ -1,10 +1,24 @@
 ---
-icon: flag-swallowtail
+icon: square-check
 ---
 
-# Quest Reports
+# Subjects
 
-### Reporting of Quests
+
+
+#### External Witnessing
+
+
+
+#### Completion Validation
+
+
+
+#### Completion Report
+
+
+
+#### Quest Report
 
 To make the platform a safe and enjoyable environment, users can report quests seen as inappropriate or breaking the server rules.
 
@@ -17,3 +31,6 @@ The reporting of quests works as follows:
 3. Moderators vote yes/no if this quest breaks server rules and should be removed from the platform. If the majority (weighted by user level) vote yes, the quest is removed, the reporter earns a Silver reward, and the quest creator is punished heavily. If moderators vote no, the reporter loses Silver. Moderators earn by voting with the majority.
 
 To prevent abusing of the reporting system, only users above a certain level can report quests on the platform.
+
+#### Platform Validation
+

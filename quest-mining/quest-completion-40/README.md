@@ -1,8 +1,8 @@
 ---
-icon: circle-check
+icon: pickaxe
 ---
 
-# Quest Completion
+# Quest Completion (40%)
 
 In Questfall the users don’t need to grind quests for nothing or wait for rewards that will never arrive. The unique reward system and deflationary tokenomics allows ordinary users to be generously rewarded with QFT for their effort in completing quests.
 

@@ -34,9 +34,12 @@
   * [Magic](quest-mining/quest-completion-40/magic.md)
   * [Leagues](quest-mining/quest-completion-40/leagues.md)
 * [Community Moderation](quest-mining/community-moderation/README.md)
-  * [Quest Completions](quest-mining/community-moderation/quest-completions.md)
-  * [Quest Reports](quest-mining/community-moderation/quest-reports.md)
-  * [Whitelist Platforms](quest-mining/community-moderation/whitelist-platforms.md)
+  * [Splits](quest-mining/community-moderation/splits.md)
+  * [Subjects](quest-mining/community-moderation/subjects.md)
+  * [Honeypots](quest-mining/community-moderation/honeypots.md)
+  * [Votings](quest-mining/community-moderation/votings.md)
+  * [Consensus](quest-mining/community-moderation/consensus.md)
+  * [Incentives](quest-mining/community-moderation/incentives.md)
 * [Seasons (16%)](quest-mining/seasons-16.md)
 
 ## Infrastructure

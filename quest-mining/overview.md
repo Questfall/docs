@@ -1,5 +1,5 @@
 ---
-icon: pickaxe
+icon: circle-info
 ---
 
 # Overview
@@ -24,7 +24,7 @@ For this reason, there are two separate reward pools each week and season: one f
 <table><thead><tr><th width="187">Reward Pool</th><th width="96" align="center">Week</th><th width="88" align="center">Season</th><th width="90" align="center">Total</th></tr></thead><tbody><tr><td>Quest Creation</td><td align="center">40%</td><td align="center">12.8%</td><td align="center">52.8%</td></tr><tr><td>Quest Completion</td><td align="center">10%</td><td align="center">3.2%</td><td align="center">13.2%</td></tr><tr><td>Total</td><td align="center">50%</td><td align="center">16%</td><td align="center">66%</td></tr></tbody></table>
 
 {% hint style="info" %}
-While the weekly reward pool is distributed immediately upon QFT release, the [Seasonal Reward Pool](seasons-16.md) is distributed at the end of the season.
+The weekly reward pool is distributed immediately upon QFT release, the [Seasonal Reward Pool](seasons-16.md) is distributed at the end of the season.
 {% endhint %}
 
 While quest completion and quest creation create two separate groups of competitors for QFT issuance, community moderation allows users to earn [Silver](../assets/Silver-in-game.md), which can be issued in any amount, but cannot be withdrawn and can only be used to improve the mining performance of the first two activities.
