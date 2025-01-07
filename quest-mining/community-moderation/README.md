@@ -25,6 +25,10 @@ Community moderation protects the system and its users from abuse through the mo
 * **Quests**. Quests can be dangerous, so they can be reported by users and banned by the community with penalties for the author.
 * **Completions**. Completions that cannot be automatically verified by the system are validated by the community. In addition, moderators can report a completion if it is dangerous to other moderators.
 
-This makes community moderation a crucial part of the overall operation of the platform - it not only helps to distribute fair rewards to miners according to their efforts, but also protects Questfall users from scams.
+This makes community moderation a crucial part of the platform - it helps to distribute fair rewards to miners according to their efforts, and also protects Questfall users from scams. Therefore, voting must be protected from any kind of manipulation, multi-accounts, bots, and blind/random voting.
 
-However, for community voting to work, the consensus must be protected from all kinds of manipulation, multi-accounts, bots, and blind/random voting. This is achieved through rules and incentives designed so that the most profitable strategy for a moderator is to play by the rules. Addressing all of these threats automatically results in a solid defense against Sybil attacks.
+{% hint style="info" %}
+Addressing all of these threats automatically results in a solid defense against Sybil attacks.
+{% endhint %}
+
+The core mechanics of Questfall community moderation are based on the idea that rather than securing every possible vote, malicious voting should be a losing strategy over many iterations, so that the most profitable strategy for a moderator in the long run is to play by the rules.
