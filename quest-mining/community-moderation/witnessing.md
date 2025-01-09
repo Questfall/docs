@@ -10,7 +10,7 @@ In many cases, moderators would have to vote on some content outside of Questfal
 This applies to all external content, because even if a platform does not currently allow content editing, it can be changed at any time.
 {% endhint %}
 
-A user can submit a completion and then edit it while it is being moderated. As a result, the consensus result should change on the fly. This means that the first moderators who voted that the original content was invalid would be punished for doing their job correctly, which is obviously not fair.
+A user can submit a completion and then edit it while it is being moderated. As a result, the consensus result should change on the fly. This means that the first moderators who voted on the original content would be punished for doing their job correctly, which is obviously not fair.
 
 {% hint style="info" %}
 This may even happen without malice. For example, there may have been a mistake initially, and a user fixed it later, after moderation had begun.&#x20;
