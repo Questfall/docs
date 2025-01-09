@@ -4,10 +4,10 @@ icon: glasses
 
 # Witnessing
 
-In many cases, moderators would need to vote on some content outside of Questfall, which often can be edited by the author at any time (e.g. a post on Facebook). And this create a problem.
+In many cases, moderators would have to vote on some content outside of Questfall, which often can be edited by the author at any time (e.g. a post on Facebook). And this is a problem.
 
 {% hint style="info" %}
-In fact, this concern applies to all external content, because even if a platform does not currently allow content editing, it can be changed at any time.
+This applies to all external content, because even if a platform does not currently allow content editing, it can be changed at any time.
 {% endhint %}
 
 A user can submit a completion and then edit it while it is being moderated. As a result, the consensus result should change on the fly. This means that the first moderators who voted that the original content was invalid would be punished for doing their job correctly, which is obviously not fair.
