@@ -4,7 +4,7 @@ icon: glasses
 
 # Witnessing
 
-In many cases, moderators would need to vote on some content outside of Questfall, for instance a post on Facebook. Content on such third party platforms can be edited by the author at any time, which is a problem.
+In many cases, moderators would need to vote on some content outside of Questfall. Content on such third party platforms (e.g. a post on Facebook) can be edited by the author at any time, which is a problem.
 
 {% hint style="info" %}
 In fact, this concern applies to all external content, because even if a platform does not currently allow content editing, it can be changed at any time.
