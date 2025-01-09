@@ -21,3 +21,7 @@ However, voting on fakes makes a noticeable part of the moderators' work redunda
 To generate a fake, the system can simply mix data from different completions. For example, it can use a different username for a valid completion, or it can pass off the completion of one quest as the completion of another.
 
 Since the system knows what the correct vote should be, it can punish bad voters and reward good ones independently, without the need for consensus. In other words, such fakes are used as automatically generated honeypots.
+
+{% hint style="info" %}
+Unlike consensus voting, honeypot voting rewards or penalizes immediately after a moderator votes.
+{% endhint %}

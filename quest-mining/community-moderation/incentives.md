@@ -4,60 +4,42 @@ icon: sack
 
 # Incentives
 
+Voting topics are not the same in terms of potential harm to users, so the rewards and penalties for different types of voting are different. In general, however, the penalties outweigh the rewards, making any random or blind voting by bots a losing strategy.
+
 {% hint style="info" %}
 This article only discusses community voting incentives. Punishments or rewards for users based on moderation results (e.g., punishing the author of a reported quest that moderators deem malicious) are described in the appropriate articles.
 {% endhint %}
 
-
-
-<table><thead><tr><th width="242">Moderator</th><th width="117" align="center">Reward</th><th width="110" align="center">Penalty</th><th width="111" align="center">Bypass</th></tr></thead><tbody><tr><td><a data-footnote-ref href="#user-content-fn-1">Internal completions</a></td><td align="center">+10 Silver</td><td align="center">+20 Silver</td><td align="center">-1 Silver</td></tr><tr><td>External completions</td><td align="center"></td><td align="center"></td><td align="center"></td></tr><tr><td><ul><li>Screenshot witnessing</li></ul></td><td align="center">+ 10 Silver</td><td align="center">0</td><td align="center">0</td></tr><tr><td><ul><li>Completion validation</li></ul></td><td align="center">0</td><td align="center">-20 Silver</td><td align="center">-3 Silver</td></tr><tr><td>Reported completion</td><td align="center">-2 Silver</td><td align="center"></td><td align="center"></td></tr><tr><td>Reported quest</td><td align="center"></td><td align="center"></td><td align="center"></td></tr><tr><td>Whitelisted domain</td><td align="center"></td><td align="center"></td><td align="center"></td></tr></tbody></table>
-
-### Internal Completions
-
-Questfall is designed to allow users to create quests that require actions on third party platforms, and it is expected that the majority of quest completions will be in the form of external content.&#x20;
-
-However, as the platform develops, it is very likely that some basic content will be implemented directly into the system in [future versions](../../roadmap/future-versions.md) of Questfall.
+To make voting more meaningful, moderators should be able to bypass a topic if they are having trouble making a decision. Otherwise, their vote adds no value to the system. As a result, moderators have at least three options when validating each topic: approve, reject, and bypass.
 
 {% hint style="info" %}
-This will allow users to use Questfall like a generative AI, for example, asking the crowd to create a certain picture or solve a math problem.
+External quest completions have a fourth action available to moderators - they can report a completion if it is potentially harmful to other moderators. In this case, a new topic will appear, and voting on the completion itself will be paused until a report is moderated.
 {% endhint %}
 
-These internal completions published on Questfall itself will be immutable, meaning that the system ensures that they can't be edited after submission.
+However, such a bypass should not be free, otherwise the idea of a system-assigned topic fails, since users can loop through all topics until they get to the one they want.&#x20;
 
-<table><thead><tr><th width="130">Moderator</th><th width="110" align="center">Incentive</th></tr></thead><tbody><tr><td>Reward</td><td align="center">+6 Silver</td></tr><tr><td>Penalty</td><td align="center">-16 Silver</td></tr><tr><td>Bypass</td><td align="center">-2 Silver</td></tr></tbody></table>
+In Questfall, the cost of bypassing is balanced so that it is more profitable to bypass a topic than to vote if a moderator is unsure, in other words, better to bypass than to vote randomly.
 
-### External Completions
+<table><thead><tr><th width="242">Voting topic</th><th width="132" align="center">Reward</th><th width="124" align="center">Penalty</th><th width="118" align="center">Bypass</th></tr></thead><tbody><tr><td><a data-footnote-ref href="#user-content-fn-1">Internal completions</a></td><td align="center">+10 Silver</td><td align="center">-20 Silver</td><td align="center">-1 Silver</td></tr><tr><td><a data-footnote-ref href="#user-content-fn-2">External completions</a></td><td align="center">+10 Silver</td><td align="center">-20 Silver</td><td align="center">0 / -3 Silver</td></tr><tr><td><ul><li><a data-footnote-ref href="#user-content-fn-3">Screenshot witnessing</a></li></ul></td><td align="center">+10 Silver</td><td align="center">0</td><td align="center">0</td></tr><tr><td><ul><li><a data-footnote-ref href="#user-content-fn-4">Completion validation</a></li></ul></td><td align="center">0</td><td align="center">-20 Silver</td><td align="center">-3 Silver</td></tr><tr><td><a data-footnote-ref href="#user-content-fn-5">Whitelisted domain</a></td><td align="center">+10 Silver</td><td align="center">-20 Silver</td><td align="center">-1 Silver</td></tr><tr><td><a data-footnote-ref href="#user-content-fn-6">Reported completion</a></td><td align="center">+20 Silver</td><td align="center">-30 Silver</td><td align="center">-1 Silver</td></tr><tr><td><a data-footnote-ref href="#user-content-fn-7">Reported quest</a></td><td align="center">+30 Silver</td><td align="center">-40 Silver</td><td align="center">-1 Silver</td></tr></tbody></table>
 
-External completions, since their content can be changed at any moment by the author, are divided into two voting topics: witnessing screenshot and judging completion.
-
-{% hint style="info" %}
-Learn more in the [Witnessing](witnessing.md) article.
-{% endhint %}
-
-As a result witnessing allows to earn Silver while judging allows not to lose it. And for protecting the system from abusing bypassing the cost of bypass is defined so it is more&#x20;
+[^1]: Completions that are published on Questfall itself and cannot be edited after submission.
 
 
 
-### Reported Completions
+    Will be implemented in [future releases](../../roadmap/future-versions.md).
+
+[^2]: QQuest completions published on third-party platforms, which can theoretically be changed by the author at any time.
 
 
 
-### Reported Quests
+    Learn more in the [Witnessing](witnessing.md) article.
 
+[^3]: Vote on whether or not the screenshot matches the content of the link.
 
+[^4]: Judging whether the quest is completed or not based on the completion screenshot.
 
+[^5]: Confirmation through voting that the domain is trustworthy.
 
+[^6]: Vote on whether or not quest completion is dangerous for moderators, by report from other moderators.
 
-
-
-### Whitelisted Domains
-
-
-
-
-
-[^1]: As the platform develops, it is very likely that some basic content will be implemented directly into the system in [future versions](../../roadmap/future-versions.md) of Questfall.
-
-
-
-    These internal completions published on Questfall itself will be immutable, meaning that the system ensures that they can't be edited after submission.
+[^7]: Voting on potentially harmful quests reported by users.

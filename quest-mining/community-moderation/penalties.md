@@ -31,7 +31,3 @@ In general, many failures in a row is suspicious behavior, and to proactively pr
 {% hint style="info" %}
 To remove such a block, a user would need to deposit 20,000 Silver ($20), but since this cannot be done through moderation as it will be blocked, the only way to do so is to buy Silver with Gold. The amount of Silver that remains after the negative balance has been covered can be used to level up, for example.
 {% endhint %}
-
-Making voting mandatory when there are penalties for wrong votes will put a lot of stress on the moderators. So there should be a way for them to bypass certain topics. However, such a bypass should not be infinitely free, otherwise the idea of a system-assigned topic fails, since users can loop through all topics until they get to the one they want.
-
-In Questfall, a moderator can bypass 10 votes per day for free, and after that, the cost of bypassing increases by 1 Silver each time. The 11th bypass will cost 1 Silver, the 15th will cost 5 Silver, and so on.
