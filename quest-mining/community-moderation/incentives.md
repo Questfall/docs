@@ -22,6 +22,14 @@ In Questfall, the cost of bypassing is balanced so that it is more profitable to
 
 <table><thead><tr><th width="242">Voting topic</th><th width="132" align="center">Reward</th><th width="124" align="center">Penalty</th><th width="118" align="center">Bypass</th></tr></thead><tbody><tr><td><a data-footnote-ref href="#user-content-fn-1">Internal completions</a></td><td align="center">+10 Silver</td><td align="center">-20 Silver</td><td align="center">-1 Silver</td></tr><tr><td><a data-footnote-ref href="#user-content-fn-2">External completions</a></td><td align="center"></td><td align="center"></td><td align="center"></td></tr><tr><td><ul><li><a data-footnote-ref href="#user-content-fn-3">Screenshot witnessing</a></li></ul></td><td align="center">+10 Silver</td><td align="center">0</td><td align="center">0</td></tr><tr><td><ul><li><a data-footnote-ref href="#user-content-fn-4">Completion validation</a></li></ul></td><td align="center">0</td><td align="center">-20 Silver</td><td align="center">-3 Silver</td></tr><tr><td><a data-footnote-ref href="#user-content-fn-5">Whitelisted domain</a></td><td align="center">+10 Silver</td><td align="center">-20 Silver</td><td align="center">-1 Silver</td></tr><tr><td><a data-footnote-ref href="#user-content-fn-6">Reported completion</a></td><td align="center">+20 Silver</td><td align="center">-30 Silver</td><td align="center">-1 Silver</td></tr><tr><td><a data-footnote-ref href="#user-content-fn-7">Reported quest</a></td><td align="center">+30 Silver</td><td align="center">-40 Silver</td><td align="center">-1 Silver</td></tr></tbody></table>
 
+Despite the cost of bypassing in most voting types, there is a way to bypass a topic for free. All a moderator needs to do is wait for the voting to reach a consensus. After the voting is over, the moderator will be assigned a new topic to vote on. However, after such a missed vote, moderators will never receive a witnessing topic.
+
+As a result of the incentive mechanism and the overall voting process, in order to earn Silver, moderators must try to predict what the consensus outcome will be. Assuming that bad actors have multidirectional interest vectors, the majority of moderators will assume that the consensus will be reached by good voters, and will vote accordingly.
+
+{% hint style="info" %}
+This acts as a canonical self-fulfilling prophecy.
+{% endhint %}
+
 [^1]: Completions that are published on Questfall itself and cannot be edited after submission.
 
 
