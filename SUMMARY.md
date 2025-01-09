@@ -16,11 +16,11 @@
 * [Quest Creation (10%)](quest-mining/quest-creation-10/README.md)
   * [Author Spaces](quest-mining/quest-creation-10/author-spaces.md)
   * [Author Reputation](quest-mining/quest-creation-10/author-reputation.md)
-  * [Platform Whitelist](quest-mining/quest-creation-10/platform-whitelist.md)
   * [Quest Types](quest-mining/quest-creation-10/quest-types.md)
   * [Completion Retries](quest-mining/quest-creation-10/completion-retries.md)
   * [Quest Promotion](quest-mining/quest-creation-10/quest-promotion.md)
   * [Banner Promotion](quest-mining/quest-creation-10/banner-promotion.md)
+  * [Quest Reports](quest-mining/quest-creation-10/quest-reports.md)
   * [Author Leaderboar](quest-mining/quest-creation-10/author-leaderboar.md)
 * [Quest Completion (40%)](quest-mining/quest-completion-40/README.md)
   * [Mining Power](quest-mining/quest-completion-40/mining-power.md)
@@ -43,6 +43,7 @@
 
 ## Infrastructure
 
+* [Domain Whitelist](infrastructure/domain-whitelist.md)
 * [Marketplace](infrastructure/marketplace.md)
 * [Referral Program](infrastructure/referral-program.md)
 * [Founder NFTs Burning (1%)](infrastructure/nft-burning.md)
