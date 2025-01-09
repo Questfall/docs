@@ -37,9 +37,7 @@ So that out of 100 votings, 50 are witnessing and 50 are judging.
 The main advantage of splitting an issue into two voting topics is that the incentives can be split as well - while the reward portion goes to witnessing, the penalty portion remains for judging. And since this approach does not penalize witnessing, users would not be able to punish good moderators by changing content.
 
 {% hint style="info" %}
-In short, witnessing allows moderators to earn, while completion judging allows them not to lose.
+In short, witnessing allows moderators to earn, while judging allows them to not lose.
 {% endhint %}
 
-However, witnessing is on average profitable in random voting. Therefore, the average profit from witnessing should be outweighed by the penalties in the judging moderation step and the cost of bypassing.
-
-Since both types of split-voting topics are balanced on average for all moderators, and since topics cannot be bypassed for free, there is no way to earn by randomly voting on these two alternating topics over many iterations.
+However, witnessing is on average profitable in random voting. Therefore, the average profit from witnessing should be outweighed by the penalties in the judging moderation step and the cost of bypassing. This makes it impossible to earn by randomly voting on these two alternating topics over many iterations.
