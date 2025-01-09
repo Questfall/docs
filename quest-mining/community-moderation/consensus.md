@@ -40,4 +40,4 @@ Of course, these requirements will evolve over time, adjusting to the number of 
 
 However, to achieve this efficiency, users should not be able to choose the topic they want to vote on - instead, the system should assign moderators from different leagues to voting topics as needed.
 
-This also provides another layer of protection, because when topics are assigned by the system, there is no way for multiple accounts to synchronize an attack on a given topic, since each account is assigned an unpredictable topic.
+This also provides another layer of protection, because when topics are assigned by the system, there is no way for multiple accounts to synchronize an attack on a given vote, since each account is given an unpredictable topic.

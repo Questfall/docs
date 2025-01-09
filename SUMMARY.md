@@ -36,7 +36,7 @@
 * [Community Moderation](quest-mining/community-moderation/README.md)
   * [Consensus](quest-mining/community-moderation/consensus.md)
   * [Penalties](quest-mining/community-moderation/penalties.md)
-  * [Content](quest-mining/community-moderation/content.md)
+  * [Witnessing](quest-mining/community-moderation/witnessing.md)
   * [Honeypots](quest-mining/community-moderation/honeypots.md)
   * [Incentives](quest-mining/community-moderation/incentives.md)
 * [Seasons (16%)](quest-mining/seasons-16.md)
