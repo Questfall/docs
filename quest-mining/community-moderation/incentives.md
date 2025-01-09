@@ -10,7 +10,7 @@ This article only discusses community voting incentives. Punishments or rewards 
 
 
 
-<table><thead><tr><th width="242">Moderator</th><th width="117" align="center">Reward</th><th width="110" align="center">Penalty</th><th width="111" align="center">Bypass</th></tr></thead><tbody><tr><td>Internal completions</td><td align="center">+10 Silver</td><td align="center">+20 Silver</td><td align="center">-1 Silver</td></tr><tr><td>External completions</td><td align="center"></td><td align="center"></td><td align="center"></td></tr><tr><td><ul><li>Screenshot witnessing</li></ul></td><td align="center">+ 10 Silver</td><td align="center">0</td><td align="center">0</td></tr><tr><td><ul><li>Completion validation</li></ul></td><td align="center">0</td><td align="center">-20 Silver</td><td align="center">-3 Silver</td></tr><tr><td>Reported completion</td><td align="center">-2 Silver</td><td align="center"></td><td align="center"></td></tr><tr><td>Reported quest</td><td align="center"></td><td align="center"></td><td align="center"></td></tr><tr><td>Whitelisted domain</td><td align="center"></td><td align="center"></td><td align="center"></td></tr></tbody></table>
+<table><thead><tr><th width="242">Moderator</th><th width="117" align="center">Reward</th><th width="110" align="center">Penalty</th><th width="111" align="center">Bypass</th></tr></thead><tbody><tr><td><a data-footnote-ref href="#user-content-fn-1">Internal completions</a></td><td align="center">+10 Silver</td><td align="center">+20 Silver</td><td align="center">-1 Silver</td></tr><tr><td>External completions</td><td align="center"></td><td align="center"></td><td align="center"></td></tr><tr><td><ul><li>Screenshot witnessing</li></ul></td><td align="center">+ 10 Silver</td><td align="center">0</td><td align="center">0</td></tr><tr><td><ul><li>Completion validation</li></ul></td><td align="center">0</td><td align="center">-20 Silver</td><td align="center">-3 Silver</td></tr><tr><td>Reported completion</td><td align="center">-2 Silver</td><td align="center"></td><td align="center"></td></tr><tr><td>Reported quest</td><td align="center"></td><td align="center"></td><td align="center"></td></tr><tr><td>Whitelisted domain</td><td align="center"></td><td align="center"></td><td align="center"></td></tr></tbody></table>
 
 ### Internal Completions
 
@@ -54,3 +54,10 @@ As a result witnessing allows to earn Silver while judging allows not to lose it
 
 
 
+
+
+[^1]: As the platform develops, it is very likely that some basic content will be implemented directly into the system in [future versions](../../roadmap/future-versions.md) of Questfall.
+
+
+
+    These internal completions published on Questfall itself will be immutable, meaning that the system ensures that they can't be edited after submission.
