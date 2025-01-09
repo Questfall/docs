@@ -18,7 +18,11 @@ This may even happen without malice. For example, there may have been a mistake 
 
 Penalties, however, are a key part of voting protection and cannot be removed, otherwise any kind of random voting will become a profitable strategy, and community moderation would not be able to play the role of Sybil defense.
 
-To solve this contradiction, Questfall implements the concept of witnessing, which means that users provide two types of information: a link to the content (e.g. a quest completion) and a screenshot of that content.
+To solve this contradiction, Questfall implements the concept of witnessing, which means that users provide two types of information: a link to the content and a screenshot of that content.
+
+{% hint style="info" %}
+Although we implemented this approach specifically for quest completions, it can be used with any external content.
+{% endhint %}
 
 Moderators would first vote to approve that the screenshot represents the actual content posted on the third-party platform, and then make judgments, such as whether or not the quest was completed, based on the approved, immutable screenshot.
 
