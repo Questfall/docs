@@ -41,3 +41,7 @@ Of course, these requirements will evolve over time, adjusting to the number of 
 However, to achieve this efficiency, users should not be able to choose the topic they want to vote on - instead, the system should assign moderators from different leagues to voting topics as needed.
 
 This also provides another layer of protection, because when topics are assigned by the system, there is no way for multiple accounts to synchronize an attack on a given vote, since each account is given an unpredictable topic.
+
+{% hint style="info" %}
+Depending on the number of completions and active moderators, it should take anywhere from a few minutes to a few hours to reach a consensus. After that, moderators will be rewarded or penalized based on their vote, according to the voting topic [incentives](incentives.md).
+{% endhint %}

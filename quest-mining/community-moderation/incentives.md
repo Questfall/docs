@@ -4,62 +4,53 @@ icon: sack
 
 # Incentives
 
-To prevent the majority&#x20;
-
-####
-
-
+{% hint style="info" %}
+This article only discusses community voting incentives. Punishments or rewards for users based on moderation results (e.g., punishing the author of a reported quest that moderators deem malicious) are described in the appropriate articles.
+{% endhint %}
 
 
 
-## Rewards and punisments
+<table><thead><tr><th width="242">Moderator</th><th width="117" align="center">Reward</th><th width="110" align="center">Penalty</th><th width="111" align="center">Bypass</th></tr></thead><tbody><tr><td>Internal completions</td><td align="center">+10 Silver</td><td align="center">+20 Silver</td><td align="center">-1 Silver</td></tr><tr><td>External completions</td><td align="center"></td><td align="center"></td><td align="center"></td></tr><tr><td><ul><li>Screenshot witnessing</li></ul></td><td align="center">+ 10 Silver</td><td align="center">0</td><td align="center">0</td></tr><tr><td><ul><li>Completion validation</li></ul></td><td align="center">0</td><td align="center">-20 Silver</td><td align="center">-3 Silver</td></tr><tr><td>Reported completion</td><td align="center">-2 Silver</td><td align="center"></td><td align="center"></td></tr><tr><td>Reported quest</td><td align="center"></td><td align="center"></td><td align="center"></td></tr><tr><td>Whitelisted domain</td><td align="center"></td><td align="center"></td><td align="center"></td></tr></tbody></table>
 
-Moderation is the primary and only free source of **Silver** which is needed for XP and quest promotion.
+### Internal Completions
 
-The Silver Reward for voting with or against the majority is unique for each type of moderation:
+Questfall is designed to allow users to create quests that require actions on third party platforms, and it is expected that the majority of quest completions will be in the form of external content.&#x20;
 
-* Witness +10/0
-* Approve 0/-20
-* Reported Quests +10/-20 (also for the reporter)
+However, as the platform develops, it is very likely that some basic content will be implemented directly into the system in [future versions](../../roadmap/future-versions.md) of Questfall.
 
-As the system assignes moderations randomly in re-defined portions, each user must moderate all types. To increase the Silver count, the user must be able to vote with the majority on all different types of moderation. Guessing the right answers is a losing strategy as the average penalty for wrong answers is double the reward for the right answers.
+{% hint style="info" %}
+This will allow users to use Questfall like a generative AI, for example, asking the crowd to create a certain picture or solve a math problem.
+{% endhint %}
 
-The user receives the reward or punishment when the moderation is fully settled. Usually this takes from minutes to hours.
+These internal completions published on Questfall itself will be immutable, meaning that the system ensures that they can't be edited after submission.
 
+<table><thead><tr><th width="130">Moderator</th><th width="110" align="center">Incentive</th></tr></thead><tbody><tr><td>Reward</td><td align="center">+6 Silver</td></tr><tr><td>Penalty</td><td align="center">-16 Silver</td></tr><tr><td>Bypass</td><td align="center">-2 Silver</td></tr></tbody></table>
 
+### External Completions
 
-####
+External completions, since their content can be changed at any moment by the author, are divided into two voting topics: witnessing screenshot and judging completion.
 
-####
+{% hint style="info" %}
+Learn more in the [Witnessing](witnessing.md) article.
+{% endhint %}
 
-
-
-
-
-#### External Witnessing
-
-
-
-#### Completion Validation
+As a result witnessing allows to earn Silver while judging allows not to lose it. And for protecting the system from abusing bypassing the cost of bypass is defined so it is more&#x20;
 
 
 
-#### Completion Report
+### Reported Completions
 
 
 
-#### Quest Report
+### Reported Quests
 
-To make the platform a safe and enjoyable environment, users can report quests seen as inappropriate or breaking the server rules.
 
-Users can be motivated to report quests not only cause of their goodwill but also because of a Silver reward. The system rewards users for valid reports and punishes them for wrong ones.
 
-The reporting of quests works as follows:
 
-1. The user reports a quest they consider breaking the server rules.
-2. This report goes to moderators for voting. Reported quests are prioritized over every other moderation for fast results.
-3. Moderators vote yes/no if this quest breaks server rules and should be removed from the platform. If the majority (weighted by user level) vote yes, the quest is removed, the reporter earns a Silver reward, and the quest creator is punished heavily. If moderators vote no, the reporter loses Silver. Moderators earn by voting with the majority.
 
-To prevent abusing of the reporting system, only users above a certain level can report quests on the platform.
 
-#### Domain Validation
+
+### Whitelisted Domains
+
+
+

@@ -2,7 +2,7 @@
 icon: square
 ---
 
-# Future Plans
+# Future Versions
 
 <mark style="color:yellow;">Future Questfall features</mark> <mark style="color:orange;">after v1.0</mark>
 
@@ -25,6 +25,12 @@ However, some tasks require the author to create a quest because he or she reall
 Obviously, the rewards for users for such quests will not be the same and will depend on their place in the leaderboard.
 
 As a result, the majority of tasks that are currently solved on freelance platforms can easily be completed on Questfall. Authors will get valuable work done for them in many variations arranged by the crowd, while they add value to the entire community by promoting quests and burning QFT.
+
+### Internal completions
+
+Although the Questfall platform in its first version will not support the posting of any type of content except links and screenshots used as proof of quest completion, in future versions we intend to implement basic content types so that users can complete quests with creative content (such as text or images) within the Questfall itself.
+
+This kind of completion is very complementary to non-binary completions, as it allows to create an analog to generative AI, since a user can create a quest to draw a certain picture or solve a math problem, and will get many variants from quest miners.
 
 ### API for Third-Party Projects
 
