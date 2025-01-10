@@ -17,7 +17,7 @@ In addition to judging content, computers are very bad at risk assessment, espec
 For example, what are the chances that Youtube will drain your crypto wallet? To the computer, however, youtube.com is just another website because it can't take into account its social reputation or your personal experience.
 {% endhint %}
 
-For this reason, Questall relies entirely on the help of its users to solve such problems, which is implemented in the form of community consensus through voting, or in other words, community moderation.
+For this reason, Questfall relies entirely on the help of its users to solve such problems, which is implemented in the form of community consensus through voting, or in other words, community moderation.
 
 {% hint style="info" %}
 Community moderation in Questfall is open to any user with a Silver balance greater than -1,000. Read more about this limit in the [Overdraft ](overdraft.md)article.
@@ -37,17 +37,19 @@ Links are an inherent part of quests, as they usually involve doing something ou
 
 In order to protect users from these threats, Questfall implements many different techniques, and one of the basic ones is to distinguish external links into two groups: safe and risky.
 
-To implement this approach, the system maintains a whitelist of safe domains that is moderated by the community. Anyone can add a new domain, and if it passes moderation, it will be added to the whitelist.
+To implement this approach, the system maintains a whitelist of safe domains that is moderated by the community. A user can add a new domain, and if it passes moderation, it will be added to the whitelist.
 
-Inclusion in the whitelist of safe domains does not mean that the site will be considered safe forever. Anyone can start the remoderation process of any whitelisted domain. And if the moderators decide that it is dangerous, it will be removed from the whitelist.
+Inclusion in the whitelist of safe domains does not mean that the site will be considered safe forever. Users can start the remoderation process of any whitelisted domain. And if the moderators decide that it is dangerous, it will be removed from the whitelist.
 
 {% hint style="info" %}
-Users with a negative Silver balance cannot initiate adding or removing domains from the whitelist.
+In order to avoid whitelisting millions of sites, only level 10 and above users with a positive Silver balance will be allowed to add or remove one domain per week.
 {% endhint %}
 
-When the domain is added for the first time, the user who submits it will be rewarded if the domain passes moderation, and penalized otherwise. In case of starting remoderation process, it is the opposite, the user will be rewarded if moderators will find the domain dangerous.
+Rewards for adding domains to the whitelist can be exploited because adding domains can be automated with bots. And since marking a domain as safe for use by quest authors has its own value, there is no reward for adding a domain to the whitelist. However, there is a penalty if a proposed domain fails to pass moderation.
 
-<table><thead><tr><th width="187">Action</th><th width="155" align="center">Initiator Reward</th><th width="155" align="center">Initiator Penalty</th></tr></thead><tbody><tr><td><a data-footnote-ref href="#user-content-fn-1">Initial Whitelisting</a></td><td align="center">+100 Silver</td><td align="center">-500 Silver</td></tr><tr><td><a data-footnote-ref href="#user-content-fn-2">Remoderation</a></td><td align="center">+500 Silver</td><td align="center">-100 Silver</td></tr></tbody></table>
+Removing domains from the whitelist is a different story. If a user initiates the remoderation process for a whitelisted domain, that user will be rewarded or penalized depending on whether the community vote keeps the domain on the whitelist (penalty) or removes it (reward).
+
+<table><thead><tr><th width="187">Action</th><th width="155" align="center">Initiator Reward</th><th width="155" align="center">Initiator Penalty</th></tr></thead><tbody><tr><td><a data-footnote-ref href="#user-content-fn-1">Initial Whitelisting</a></td><td align="center">0</td><td align="center">-500 Silver</td></tr><tr><td><a data-footnote-ref href="#user-content-fn-2">Remoderation</a></td><td align="center">+500 Silver</td><td align="center">-100 Silver</td></tr></tbody></table>
 
 ### Quests
 
@@ -61,7 +63,11 @@ If the quest is reported, it will not be blocked immediately and will remain act
 
 However, if the report is not approved by the moderators, the reporter will be punished instead of the author.
 
-<table><thead><tr><th width="187">Quest Report</th><th width="155" align="center">Reporter</th><th width="155" align="center">Author</th></tr></thead><tbody><tr><td>Approved</td><td align="center">+1,000 Silver</td><td align="center">-10,000 Silver</td></tr><tr><td>Rejected</td><td align="center">-2,000 Silver</td><td align="center">-</td></tr></tbody></table>
+<table><thead><tr><th width="187">Quest Report</th><th width="192" align="center">Reporter</th><th width="155" align="center">Author</th></tr></thead><tbody><tr><td>Approved</td><td align="center">+0.1% Mining Power</td><td align="center">-10,000 Silver</td></tr><tr><td>Rejected</td><td align="center">-1.0% Mining Power</td><td align="center">-</td></tr></tbody></table>
+
+The reporter will be rewarded or penalized with [Mining Power](../quest-completion-40/mining-power.md) to prevent any manipulation, such as intentionally creating bad quests on one account and reporting them from another.&#x20;
+
+Since Mining Power has a special reward category that has a high cap but no low cap, users will not be able to earn much with such manipulation, so it will not make sense to bother.
 
 ### Complitions
 
