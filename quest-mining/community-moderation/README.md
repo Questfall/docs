@@ -75,7 +75,7 @@ As mentioned above, these types of quest completions cannot be validated by the 
 
 If such a completion passes moderation, the user's mining score will increase, otherwise it will not. This means that there is no explicit penalty for faking a completion, as it is almost impossible to distinguish bad completions based on the user's intent.
 
-<table><thead><tr><th width="187">Quest Completion</th><th width="229" align="center">User</th></tr></thead><tbody><tr><td>Approved</td><td align="center">Receives the quest reward</td></tr><tr><td>Rejected</td><td align="center">Receives nothing</td></tr></tbody></table>
+<table><thead><tr><th width="187">Quest Completion</th><th width="229">User</th></tr></thead><tbody><tr><td>Approved</td><td>Receives the quest reward</td></tr><tr><td>Rejected</td><td>Receives nothing</td></tr></tbody></table>
 
 However, sometimes it is obvious that a user is trying to abuse the system and has clear malicious intentions. For example, it may be breaking obvious platform rules, or it may be offensive, or it may contain dangerous links.
 
