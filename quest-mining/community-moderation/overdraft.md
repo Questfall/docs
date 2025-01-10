@@ -27,5 +27,5 @@ To limit bad moderators, participation in community moderation requires a user t
 This will force users who have received many moderation penalties, or a few large ones for other actions, to either buy Silver with Gold, or create a new account, as they will not be able to earn Silver through moderation if their balance goes below -1,000 Silver.
 
 {% hint style="info" %}
-Although there is no limit on Silver overdraft, in practice it is limited since all actions that have rewards and penalties in Silver require some bare minimum.
+Although there is no limit to Silver overdraft, in practice it is limited because all actions that have rewards and penalties in Silver require a minimum Silver balance.
 {% endhint %}
