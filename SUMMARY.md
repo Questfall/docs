@@ -19,8 +19,8 @@
   * [Quest Types](quest-mining/quest-creation-10/quest-types.md)
   * [Completion Retries](quest-mining/quest-creation-10/completion-retries.md)
   * [Quest Promotion](quest-mining/quest-creation-10/quest-promotion.md)
+  * [Base Reward](quest-mining/quest-creation-10/base-reward.md)
   * [Banner Promotion](quest-mining/quest-creation-10/banner-promotion.md)
-  * [Quest Reports](quest-mining/quest-creation-10/quest-reports.md)
   * [Author Leaderboar](quest-mining/quest-creation-10/author-leaderboar.md)
 * [Quest Completion (40%)](quest-mining/quest-completion-40/README.md)
   * [Mining Power](quest-mining/quest-completion-40/mining-power.md)
@@ -34,8 +34,8 @@
   * [Magic](quest-mining/quest-completion-40/magic.md)
   * [Leagues](quest-mining/quest-completion-40/leagues.md)
 * [Community Moderation](quest-mining/community-moderation/README.md)
+  * [Overdraft](quest-mining/community-moderation/overdraft.md)
   * [Consensus](quest-mining/community-moderation/consensus.md)
-  * [Penalties](quest-mining/community-moderation/penalties.md)
   * [Witnessing](quest-mining/community-moderation/witnessing.md)
   * [Honeypots](quest-mining/community-moderation/honeypots.md)
   * [Incentives](quest-mining/community-moderation/incentives.md)
@@ -43,7 +43,6 @@
 
 ## Infrastructure
 
-* [Domain Whitelist](infrastructure/domain-whitelist.md)
 * [Marketplace](infrastructure/marketplace.md)
 * [Referral Program](infrastructure/referral-program.md)
 * [Founder NFTs Burning (1%)](infrastructure/nft-burning.md)

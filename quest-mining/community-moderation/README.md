@@ -19,11 +19,9 @@ For example, what are the chances that Youtube will drain your crypto wallet? To
 
 For this reason, Questall relies entirely on the help of its users to solve such problems, which is implemented in the form of community consensus through voting, or in other words, community moderation.
 
-Community moderation protects the system and its users from abuse through the moderation of three types of entities:
-
-* **Domains**. External links in Questfall have warnings, except for trustworthy sites that have been whitelisted by the community.
-* **Quests**. Quests can be dangerous, so they can be reported by users and banned by the community with penalties for the author.
-* **Completions**. Completions that cannot be automatically verified by the system are validated by the community. In addition, moderators can report a completion if it is dangerous to other moderators.
+{% hint style="info" %}
+Community moderation in Questfall is open to any user with a Silver balance greater than -1,000. Read more about this limit in the [Overdraft ](overdraft.md)article.
+{% endhint %}
 
 This makes community moderation a crucial part of the platform - it helps to distribute fair rewards to miners according to their efforts, and also protects Questfall users from scams. Therefore, voting must be protected from any kind of manipulation, multi-accounts, bots, and blind/random voting.
 
@@ -31,4 +29,60 @@ This makes community moderation a crucial part of the platform - it helps to dis
 Addressing all of these threats automatically results in a solid defense against Sybil attacks.
 {% endhint %}
 
-The core mechanics of Questfall community moderation are based on the idea that rather than securing every possible vote, malicious voting should be a losing strategy over many iterations, so that the most profitable strategy for a moderator in the long run is to play by the rules.
+Community moderation protects the system and its users from abuse through the moderation of three types of entities: domains, quests and completions.
+
+### Domains
+
+Links are an inherent part of quests, as they usually involve doing something outside of the quest platform. However, third-party sites can be risky, as they may advertise scams or contain wallet-drainers.
+
+In order to protect users from these threats, Questfall implements many different techniques, and one of the basic ones is to distinguish external links into two groups: safe and risky.
+
+To implement this approach, the system maintains a whitelist of safe domains that is moderated by the community. Anyone can add a new domain, and if it passes moderation, it will be added to the whitelist.
+
+Inclusion in the whitelist of safe domains does not mean that the site will be considered safe forever. Anyone can start the remoderation process of any whitelisted domain. And if the moderators decide that it is dangerous, it will be removed from the whitelist.
+
+{% hint style="info" %}
+Users with a negative Silver balance cannot initiate adding or removing domains from the whitelist.
+{% endhint %}
+
+When the domain is added for the first time, the user who submits it will be rewarded if the domain passes moderation, and penalized otherwise. In case of starting remoderation process, it is the opposite, the user will be rewarded if moderators will find the domain dangerous.
+
+<table><thead><tr><th width="187">Action</th><th width="155" align="center">Initiator Reward</th><th width="155" align="center">Initiator Penalty</th></tr></thead><tbody><tr><td><a data-footnote-ref href="#user-content-fn-1">Initial Whitelisting</a></td><td align="center">+100 Silver</td><td align="center">-500 Silver</td></tr><tr><td><a data-footnote-ref href="#user-content-fn-2">Remoderation</a></td><td align="center">+500 Silver</td><td align="center">-100 Silver</td></tr></tbody></table>
+
+### Quests
+
+Quests can be dangerous as a means of scamming quest platform users, they can also violate platform rules or harm third parties.
+
+To prevent malicious quests in Questfall, any user with a positive Silver balance can report a quest, and if the report is approved by community moderation, the reporter will be rewarded, the author of the quest will be punished, and of course the quest itself will be deactivated.
+
+{% hint style="info" %}
+If the quest is reported, it will not be blocked immediately and will remain active during the moderation process, but voting on quest reports will be prioritized to ensure the fastest possible resolution of the report.
+{% endhint %}
+
+However, if the report is not approved by the moderators, the reporter will be punished instead of the author.
+
+<table><thead><tr><th width="187">Quest Report</th><th width="155" align="center">Reporter</th><th width="155" align="center">Author</th></tr></thead><tbody><tr><td>Approved</td><td align="center">+1,000 Silver</td><td align="center">-10,000 Silver</td></tr><tr><td>Rejected</td><td align="center">-2,000 Silver</td><td align="center">-</td></tr></tbody></table>
+
+### Complitions
+
+Users can select any quest from the [Quest Feed](../../overview/global-feed.md), complete it properly, and increase their mining score by the number of mining points, which depends on the quest's [Base Reward](../quest-creation-10/base-reward.md) and the user's individual [Mining Power](../quest-completion-40/mining-power.md).
+
+Many types of quests imply that the completion can be automatically validated by the system, for example, it can be a logic puzzle with the known answer, or it can be a survey with predefined options.
+
+However, many quests will require something to be done outside the Questfall on third-party platforms: from blockchain transactions to posting some content on one of the social media platforms.
+
+As mentioned above, these types of quest completions cannot be validated by the computer and should be validated by the moderators.
+
+If such a completion passes moderation, the user's mining score will increase, otherwise it will not. This means that there is no explicit penalty for faking a completion, as it is almost impossible to distinguish bad completions based on the user's intent.
+
+<table><thead><tr><th width="187">Quest Completion</th><th width="229" align="center">User</th></tr></thead><tbody><tr><td>Approved</td><td align="center">Receives the quest reward</td></tr><tr><td>Rejected</td><td align="center">Receives nothing</td></tr></tbody></table>
+
+However, sometimes it is obvious that a user is trying to abuse the system and has clear malicious intentions. For example, it may be breaking obvious platform rules, or it may be offensive, or it may contain dangerous links.
+
+In this case, one of the moderators can report such a completion, and if such a report is approved by the community vote, the user will be penalized, otherwise the reporter will be penalized.
+
+<table><thead><tr><th width="211">Reported Completion</th><th width="155" align="center">User</th><th width="155" align="center">Reporter</th></tr></thead><tbody><tr><td>Approved</td><td align="center">-10,000 Silver</td><td align="center">+1,000 Silver</td></tr><tr><td>Rejected</td><td align="center">-</td><td align="center">-2,000 Silver</td></tr></tbody></table>
+
+[^1]: The initiator is rewarded if the domain is whitelisted.
+
+[^2]: The initiator is rewarded if the domain is removed from the whitelist.

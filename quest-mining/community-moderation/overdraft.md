@@ -1,8 +1,8 @@
 ---
-icon: shield-minus
+icon: piggy-bank
 ---
 
-# Penalties
+# Overdraft
 
 To prevent the profitability of blind or random voting, which can be automated by bots to level many accounts at once, the system will reward or penalize moderators with [Silver](../../assets/Silver-in-game.md) based on how their vote matches the final consensus. If it matches, the moderator is rewarded. If it does not, the moderator is penalized.&#x20;
 

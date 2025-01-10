@@ -8,6 +8,18 @@ icon: square
 
 While designing the Questfall system, we put many things aside, because they are not crucial for the basic functionality, but can take a lot of effort to work out their details or implementation. However, such functionality can be a huge boost for increasing and keeping the Questfall audience.
 
+### Donations
+
+
+
+### Elixirs
+
+
+
+### Magic
+
+
+
 ### Warfare
 
 Where there are quests and RPG, the next logical step is to implement combat. So we developed a warfare concept and almost included it in version 1.0, but finally decided to leave it for later.
@@ -26,7 +38,7 @@ Obviously, the rewards for users for such quests will not be the same and will d
 
 As a result, the majority of tasks that are currently solved on freelance platforms can easily be completed on Questfall. Authors will get valuable work done for them in many variations arranged by the crowd, while they add value to the entire community by promoting quests and burning QFT.
 
-### Internal completions
+### Internal Completions
 
 Although the Questfall platform in its first version will not support the posting of any type of content except links and screenshots used as proof of quest completion, in future versions we intend to implement basic content types so that users can complete quests with creative content (such as text or images) within the Questfall itself.
 
