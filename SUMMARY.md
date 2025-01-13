@@ -45,7 +45,7 @@
 
 * [Marketplace](infrastructure/marketplace.md)
 * [Founder NFTs Burning (1%)](infrastructure/nft-burning.md)
-* [Referral Program (5%)](infrastructure/referral-program-5.md)
+* [Ambassador Program (5%)](infrastructure/ambassador-program-5.md)
 * [Liquidity Program (5%)](infrastructure/liquidity-providers.md)
 * [QFT Freezing (5%)](infrastructure/qft-freezing.md)
 * [Project Expenses (5%)](infrastructure/project-expenses.md)

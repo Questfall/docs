@@ -39,12 +39,10 @@ Users can level up their characters through proper community moderation voting o
 In addition to character level and attributes, in-game items play an important role in a character's performance:
 
 * Clothing improve character stats when equipped;
-* Elixirs provide various temporary and permanent bonuses;
-* Books contain spells that can be learned for use;
-* Potions restore mana or stamina reserves;
+* Potions replenish stamina;
 * Toolsets are used to increase the rarity tier of clothing.
 
-These items (except Toolsets) can only be minted through loot boxes, which can be opened for free as a reward for completing quests, or by burning Gold. When minted, each RPG item (except Potions) is one of six rarity tiers:
+RPG items (except Toolsets) can only be minted through loot boxes, which can be opened for free as a reward for completing quests, or by burning Gold. When minted, each RPG item (except Potions) is one of six rarity tiers:
 
 * Common (F);
 * Uncommon (E);
@@ -67,16 +65,14 @@ Questfall will have two separate marketplaces combined into one interface: in-ga
 
 In this way, a user can craft a rarer item by utilizing more accessible items purchased with Gold, and then withdraw it as an NFT that can be sold on the blockchain marketplace for QFT. This opens the door for extracting value from the system (exchanging in-game Gold for QFT) through NFT trading.
 
-In addition to common activities such as mining, crafting, and trading, the efficiency of which can be improved through items, Questfall also features magic, which can have a significant impact on a user's strategy, as spells learned from Books are applied to the system itself rather than to a character.
-
 {% hint style="info" %}
-Spells are, in a sense, official hacks and can do almost anything in the system, from increasing the mining point reward for a particular quest to changing the overall website background color for everyone on the platform.
+There are many ideas for further development of the RPG system, read more in the [Future Versions](../roadmap/future-versions.md) article.
 {% endhint %}
 
 Of course, this is just the big picture, and there are many more nuances to how Questfall's RPG system works. Fortunately, we have a number of articles that cover every aspect of the RPG system in detail. For an overview, the main takeaway is that the RPG system brings many great benefits to the platform.
 
 * **Crafting enables the extraction of Gold.** By separating craftable rarity tiers into two groups - one that can be traded in-game for Gold, and another that can be traded on-chain as NFTs - Questfall creates a distinct mechanic for extracting value from the system.
-* **RPG makes mining more interesting.** There are several types of activities that interact with each other and can be developed: crafting, mining, trading, and magic. This will allow users to master their skills and create individual, complex strategies beyond the basic quest grinding.
+* **RPG makes mining more interesting.** There are several types of activities that interact with each other and can be developed: crafting, mining, trading. This will allow users to master their skills and create individual, complex strategies beyond the basic quest grinding.
 * **RPG significantly increases trading activity.** Since users cannot progress in all areas at the same rate, some will focus on mining while others will focus on crafting or trading. This is similar to how manufacturers and merchants provide better equipment that increases efficiency.
 * **Gold gains a lot more utility.** Outside of the RPG system, Gold is only used for quest promotion or leveling up. However, item rarity tiers and crafting assume that trade and loot boxes that can be opened with Gold play a crucial role in the miners' competition.
 * **User levels gain value.** With each level, characters become more powerful and specific, allowing users to not only advance to higher leagues, but also to crystallize their play style and mining strategy to gain an edge over users in the same league.
