@@ -39,17 +39,17 @@
   * [Witnessing](quest-mining/community-moderation/witnessing.md)
   * [Honeypots](quest-mining/community-moderation/honeypots.md)
   * [Incentives](quest-mining/community-moderation/incentives.md)
-* [Seasons (16%)](quest-mining/seasons-16.md)
+* [Seasons (14%)](quest-mining/seasons-14.md)
 
 ## Infrastructure
 
 * [Marketplace](infrastructure/marketplace.md)
-* [Referral Program](infrastructure/referral-program.md)
 * [Founder NFTs Burning (1%)](infrastructure/nft-burning.md)
+* [Referral Program (5%)](infrastructure/referral-program-5.md)
 * [Liquidity Program (5%)](infrastructure/liquidity-providers.md)
 * [QFT Freezing (5%)](infrastructure/qft-freezing.md)
 * [Project Expenses (5%)](infrastructure/project-expenses.md)
-* [Gold Withdrawals (8%)](<infrastructure/gold withdrawals.md>)
+* [Gold Withdrawals (5%)](<infrastructure/gold withdrawals.md>)
 * [Founders' Revenue (10%)](infrastructure/founders-revenue.md)
 
 ## Assets

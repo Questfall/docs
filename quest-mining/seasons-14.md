@@ -2,14 +2,14 @@
 icon: calendar-clock
 ---
 
-# Seasons (16%)
+# Seasons (14%)
 
 While the concept of mining is fair enough, new users will find themselves in a weak position as Questfall becomes more popular, because dedicated veterans will have a huge advantage over newcomers, either through user level or author reputation.
 
-In order to allow new users to compete with existing veterans on an equal footing, Questfall implements seasons, each of which lasts twelve weeks, or an average of three months. During the season, 16% of each weekly issue of QFT goes into the seasonal reward pool.
+In order to allow new users to compete with existing veterans on an equal footing, Questfall implements seasons, each of which lasts twelve weeks, or an average of three months. During the season, 14% of each weekly issue of QFT goes into the seasonal reward pool.
 
 {% hint style="info" %}
-Approximately 120% of the average weekly issue is collected in this way over the course of a season.
+Approximately 168% of the average weekly issue is collected in this way over the course of a season.
 {% endhint %}
 
 At the end of each season, the accumulated reward pool is divided between the users who complete quests and the authors who create them. The split between users and authors is the same as the weekly rewards: 80% goes to users and 20% goes to authors.&#x20;

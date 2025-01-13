@@ -20,6 +20,10 @@ While designing the Questfall system, we put many things aside, because they are
 
 
 
+### Clans
+
+
+
 ### Warfare
 
 Where there are quests and RPG, the next logical step is to implement combat. So we developed a warfare concept and almost included it in version 1.0, but finally decided to leave it for later.

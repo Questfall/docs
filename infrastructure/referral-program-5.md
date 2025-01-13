@@ -2,7 +2,7 @@
 icon: user-plus
 ---
 
-# Referral Program
+# Referral Program (5%)
 
 We consider marketing as one of the most important factors for the success of any project, especially in the case of Questfall, where the tokenomics is mainly based on user activity. While most of the mechanics described in this documentation are aimed at user retention, the Questfall Referral Program is aimed at attracting new users.
 
@@ -10,15 +10,25 @@ We consider marketing as one of the most important factors for the success of an
 The Questfall Referral Program is not affiliated with IFE, which has its own referral program.
 {% endhint %}
 
-The referral program works as follows. Any user who uses a referral code to register in the system will receive enough [Silver ](../assets/Silver-in-game.md)to level up from level 1 to level 5. The Questfall Ambassador whose referral code was used by the user will receive 1% of all [Gold ](../assets/gold-in-game.md)the user will ever burn.
+The referral program works as follows: each user who registers in the system using a referral code will initially receive 10% more Silver when burning Gold. Each week this Silver bonus will decrease by 1% until the system price of 10 Silver per Gold is reached after 2.5 months (10 weeks).
+
+Ambassadors whose codes are used by other users to sign up will receive a share of the referral reward pool at the end of the week, based on the amount of [Gold](../assets/gold-in-game.md) their referrals burned during the week.
 
 {% hint style="info" %}
-When the user who signed up using the referral code uses Gold to pay into the system, 99% is actually burned, while 1% is transferred to the Ambassador.
+When a user pays Gold into the system, 10% of that Gold goes into the weekly referral reward pool, while the remaining 90% is burned.
 {% endhint %}
 
 This way, Ambassadors can earn an endless stream based on actual user actions that add value to the entire community simply by posting about Questfall. And because Gold is dollar-based, Ambassador earnings are not affected by the price of QFT.
 
-However, Ambassadors will have to withdraw Gold from the system to the chain, and there are two mechanics for doing so. Directly through the weekly system auction, where users can exchange Gold for QFT at a price that depends on the competition in the auction. The other way is through NFT crafting and trading.
+<details>
+
+<summary>The mechanics of reward distribution</summary>
+
+
+
+</details>
+
+Since Gold is an in-game currency, Ambassadors will need to withdraw Gold from the system to the chain, and there are two mechanics for doing so. Directly through the weekly system auction, where users can exchange Gold for QFT at a price that depends on the competition in the auction. The other way is through NFT crafting and trading.
 
 {% hint style="info" %}
 We have considered using a portion of the weekly QFT issue to reward Ambassadors, but there is no way to create an endless fair income stream with this approach.

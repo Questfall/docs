@@ -28,23 +28,24 @@ Therefore, QFT issue is divided into pre-determined proportions between differen
 As the percentage split is fixed, and the QFT issue is determined by the pre-defined formula, the number of tokens allocated to each of these pools can be accurately calculated for any given week.
 {% endhint %}
 
-In Questfall, a third of the weekly issue (34%) is used to support the infrastructure:
+In Questfall, 36% of the weekly issue is used to support the infrastructure:
 
 * 1% to buy back and burn Founder NFTs;
+* 5% to reward ambassadors;
 * 5% to reward liquidity providers;
 * 5% to reward QFT freezing;
 * 5% to cover project costs (Team);
-* 8% to cover Gold withdrawals;
+* 5% to cover Gold withdrawals;
 * 10% to Founders.
 
-The remaining two-thirds of the weekly issue (66%) is used to reward quest activity:
+The remaining 64% of the weekly issue is used to reward quest activity:
 
 * 40% to users who complete quests;
 * 10% to authors who create quests;
-* 16% to seasonal reward pool (12.8% to users and 3.2% to authors).
+* 14% to seasonal reward pool (11.2% to users and 2.8% to authors).
 
 {% hint style="info" %}
-See dedicated articles to learn more about [earning from quests](../quest-mining/overview.md) and [seasons](../quest-mining/seasons-16.md).
+See dedicated articles to learn more about [earning from quests](../quest-mining/overview.md) and [seasons](../quest-mining/seasons-14.md).
 {% endhint %}
 
 Mining approach allows to solve many problems that are not solvable otherwise. Such as supporting infrastructure of the project, unbiased rewards for completing quests, rewards for authors that are appreciated by the community, which means that they will have a high motivation to create entertaining, fun, educational or interesting quests of high quality.&#x20;

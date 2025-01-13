@@ -2,11 +2,11 @@
 icon: sack-dollar
 ---
 
-# Gold Withdrawals (8%)
+# Gold Withdrawals (5%)
 
-To increase the value of Gold and provide another way to convert in-game earnings into real-world value, 8% of the weekly QFT issue will go to users in exchange for burning Gold via the auction mechanic.
+To increase the value of [Gold](../assets/gold-in-game.md) and provide another way to convert in-game earnings into real-world value, 5% of the weekly QFT issue will go to users in exchange for burning Gold via the auction mechanic.
 
-During the week, anyone can add Gold to the system pool for burning. At the end of the week, that Gold will be burned, while 8% of the issued QFT will be distributed among the users according to their share of that burned Gold pool.&#x20;
+During the week, anyone can add Gold to the system pool for burning. At the end of the week, that Gold will be burned, while 5% of the issued QFT will be distributed among the users according to their share of that burned Gold pool.&#x20;
 
 As a result, the actual amount that users will receive for their Gold depends on the competition for withdrawing Gold and the price of QFT.
 
@@ -18,6 +18,6 @@ This difference, which results from open market mechanics, can be thought of as 
 
 If this Gold withdrawal mechanism were the only one, the price difference between buying Gold from the system and on the withdrawal auction could be quite large. But there is another way to withdraw Gold.
 
-This is done through crafting and NFT trading. Users who wish to withdraw Gold can spend it on the Questfall marketplace or on loot boxes to obtain items needed for crafting. They can then craft items of higher rarity (C,B,A), withdraw them as NFTs, and sell them on the chain.
+This is done through crafting and NFT trading. Users who wish to withdraw Gold can spend it on the Questfall [marketplace ](marketplace.md)or on loot boxes to obtain items needed for crafting. They can then craft items of higher rarity (C,B,A), withdraw them as NFTs, and sell them on the chain.
 
 As a result, NFT trading and the Gold withdrawal auction complement each other, providing users with two independent mechanisms to extract value from the system, which they can choose based on market conditions.
