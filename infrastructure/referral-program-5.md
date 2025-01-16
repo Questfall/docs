@@ -4,7 +4,7 @@ icon: user-plus
 
 # Referral Program (5%)
 
-arketing is one of the most important factors for the success of any project, especially in the case of Questfall, where the tokenomics is mainly based on user activity. While most of the mechanics described in this documentation are aimed at user retention, the Questfall Referral Program is aimed at attracting new users.
+Marketing is one of the most important factors for the success of any project, especially in the case of Questfall, where the tokenomics is mainly based on user activity. While most of the mechanics described in this documentation are aimed at user retention, the Questfall Referral Program is aimed at attracting new users.
 
 {% hint style="info" %}
 This referral program will be launched together with Questfall, so it is not affiliated with [IFE](../roadmap/initial-funding-event.md), which has its own referral program.
@@ -14,10 +14,10 @@ In order to carry out the referral program, 5% of the weekly QFT issue will be u
 
 The mining power used to distribute the weekly program rewards is calculated based on the amount of [Silver](../assets/Silver-in-game.md) the user burns during the week to level up. For example, if Bob used Alice's referral code to join the platform, both his and Alice's mining power will increase as Bob advances through the levels.
 
-In this way, the interests of both parties are aligned to achieve the main goal of the referral program - on the one hand, ambassadors are motivated to bring new active users to the platforms, and on the other hand, users are incentivized to use the referral codes by receiving additional rewards for their activity.
+In this way, the interests of both parties are aligned to achieve the main goal of the referral program - ambassadors are motivated to bring new active users to the platforms, while users are incentivized to use the referral codes by receiving additional rewards for their activity.
 
 {% hint style="info" %}
-This will encourage users to look for referral codes if, for example, they get the Questfall link from a search engine rather than through ambassador activity.
+This will encourage users to look for referral codes when they get the Questfall link from a search engine rather than through ambassador activity. This will increase the value of the Questfall Discord community.
 {% endhint %}
 
 However, there are two issues that should be addressed to prevent abuse and make the program long-lasting.
@@ -26,9 +26,10 @@ The first problem is the result of the openness of this referral program, which 
 
 This poses a threat because it makes it possible for users to create fake accounts in order to increase their share of the rewards offered by the program.
 
-This is solved by the mining power calculation approach, which provides protection against fake account manipulation based on the simple mathematical inequality: $$(a+b)^{p}>a^{p}+b^{p}$$, if p > 1.
+This is solved by the mining power calculation approach, which provides protection against fake account manipulation based on the simple mathematical inequality:\
+$$(a+b)^{p}>a^{p}+b^{p}$$, if p > 1.
 
-This means that if a user burns Silver on multiple accounts, his mining power will be less than if he burns the same amount of Silver on multiple accounts.
+Calculating the mining power as an exponent based on the amount of Silver burned will discourage fake accounts, because if a user burns Silver on multiple accounts, his mining power will be less than if he burns the same amount on multiple accounts.
 
 {% hint style="info" %}
 The exponent should not even be big - the power of 1.1 is enough.
@@ -47,4 +48,4 @@ The final formula for calculating the mining power is as follows:\
 $$MPOW=S_{week}^{1.1}*2*(1+e^{10^{-7}*S_{total}})^{-1}$$
 {% endhint %}
 
-On the one hand, this approach requires the user to create a new account to reset the mining ratio, while it is pointless to switch from the high-level main account just for the program rewards. On the other hand, ambassadors will not receive endless rewards if they do not attract new users.
+On the one hand, this approach requires the user to create a new account to reset the mining ratio, while it is pointless to switch from the high-level main account just for the program rewards. On the other hand, to keep their earnings high, ambassadors will be forced to constantly recruit new users.
