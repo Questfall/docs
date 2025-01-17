@@ -1,8 +1,8 @@
 ---
-icon: repeat-1
+icon: list-check
 ---
 
-# Completion Retries
+# Completions
 
 ### Result of Completion
 
@@ -15,3 +15,17 @@ For example, if there are a maximum of five retries on a quest, each wrong submi
 {% endhint %}
 
 A user can try to re-submit an acceptable answer when there are unused retries and the quest is still active.
+
+###
+
+### Completion Types
+
+The completion requirements of a quest are up to the author's imagination, but the forms in which the quest is completed are limited.
+
+For the completion of a quest the required submission type can be one of the following:
+
+* **Link** –
+* **Text** –
+* **Quiz** –
+* **Survey** –
+* **Transaction** –

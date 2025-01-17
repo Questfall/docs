@@ -2,83 +2,50 @@
 icon: feather-pointed
 ---
 
-# Quest Creation
+# Quest Creation (10%)
 
-**Author Space** is the profile and workspace for the individual author or project. So for the author to be able to start to create quests, first they need to set up their author space.
+Existing quest platforms require authors to spend resources to reward users for completing quests. Questfall, on the other hand, rewards users for completing quests on behalf of the system. On top of that, authors are rewarded with 10% of the weekly [QFT](../../assets/questfall-tokens-qft.md) issue for creating popular quests.
 
-Within the author space, users can manage all the necessary things related to authors like creating quests, reviewing submitted answers, seeing the stats, or claiming earned author rewards. Also, it works as a profile page where users can find the author's quests, follow him, and know all the relevant information about the author.
+This creates a new authoring paradigm that coexists with the current one. While some teams can still use money to promote their quests to the Questfall audience, other authors may earn from their creativity without any investment.
 
-{% hint style="info" %}
-A user can be the creator of only one author space but can be part of an unlimited amount by invitation. Like when a team or company wants to manage its official Questfall author space, many users can have the rights to use it and create quests for it.
-{% endhint %}
-
-***
-
-### Roles
-
-The creator of the author's space gets the role of an owner and can give two types of roles to other users for managing the space:
-
-1. **Owner** – Has full access and rights to the author space.
-2. **Admin** – Has limited access to the author space. The owners can modify the rights of admins for example by allowing them only to edit and publish quests they have created.
-
-***
-
-### Quest Creation
-
-IMAGE OF QUEST CREATION FORM 1 & 2
-
-Within the author's space users can create and publish quests. The creation of a new quest is a two-part process:
-
-1. First users fill in all the relevant information about the quest like cover image, instructions, and submission types, and then save it as a draft.
-2. This draft can be deployed after the user has chosen the duration of the quest and the amount of Silver to burn for promotion.
+Authors' creativity is limited only by their imagination. However, the forms in which quests can be completed are limited because the system must ensure that users have actually performed the required actions. Therefore, there are predefined types of quests in Questfall, each with its own kind of completion.
 
 {% hint style="info" %}
-Authors need to carefully check all the information in the quest as after publishing it can no longer be edited.
+New quest types will be implemented as Questfall evolves.
 {% endhint %}
 
-***
+The first group of quests have the same correct answers for everyone and can therefore be validated instantly by the system without community moderation. These quests are inexpensive in terms of system load, and therefore may allow multiple attempts to complete them.
 
-### Quest Sorting
+* **Text.** A user must enter text that is evaluated against one or more predefined correct answers.
+* **Quiz.** A user has to choose between several options, one of which is secretly the correct one.
+* **Survey.** A user must select one of the options, each of which is considered correct.
 
-Within the author space, all the created quests are sorted in four ways:
+The second group requires [community moderation](../community-moderation/) for each completion and therefore only allows one attempt to complete the quest, as such an approach places a heavy load on the system in terms of moderator work.
 
-* **Drafts** – Quests that users of author space have completed as drafts but haven’t published. Every new quest is first saved as a draft.
-* **Active** – Published quests that haven’t ended or reported. Here the author can see the remaining duration of published quests.
-* **Reported** – All the quests published by the author space that have been reported. The falsely reported and those removed from the quest feed can be found in this section.
-* **Ended** – Quests that have ended. Here the author can find all the accepted submitted answers on his quests.
+* **Link.** A user must perform an action on a third-party platform and provide a link and screenshot for moderation.
+* **Transaction.** A user must provide a link and screenshot of a specific transaction in the given blockchain.
 
-***
-
-### Special Rewards
-
-Through promotion, the author can increase the base reward of their quests to make them more appealing to users. Additionally, authors can set a **Special Reward** of QFT or Gold for those users who mine the most points exclusively with the author's quests.
-
-The special reward can attract users to compete for the rewards resulting in many completions on the author's quests.
-
-For this purpose, each author space has a leaderboard showing the users who have gained the most mining points from the author's quests on a reward period.
-
-***
-
-### Assets and Donation
-
-Each author space has a QFT, Gold, and Silver balances that can be used for special rewards and to promote the created quests. The owners can freely deposit any amount of these assets to the author's space and withdraw QFT and Gold. Silver can be only used within the author's space for promotion and can’t be withdrawn or donated.
-
-Users other than the creator can **Donate Assets** to the author space to increase the Silver balance. The donation allows project members and common users to support the space. Donated QFTs and Gold are immediately burned to Silver.
+The number of completions a quest generates is directly affected by its position in the [Quest Feed](../../overview/global-feed.md), which is ordered by the quest's reward. In other words, to make a popular quest, an author should put a large [Base Reward](base-reward.md) in the quest.
 
 {% hint style="info" %}
-Personal resources can be used directly for promotion by the quest creator without manually moving the assets to the author space first.
+Of course, the reward is not the only factor people rely on when choosing a quest to complete. It just makes sure that users notice the quest.
 {% endhint %}
 
-***
+As a result, authors will compete with each other for users' attention through the quest's Base Reward, which can only be obtained by burning [Silver](../../assets/Silver-in-game.md).
 
-### Banner Promotion
+Since Silver can be earned by participating in community moderation, authors are not forced to pay for quest promotion with money. However, the price of each point of Base Reward increases exponentially because it is capped, while competition can dramatically increase the amount of Silver spent on quest promotion.
 
-Within the Questfall platform, two **Marketing Banners** are visible for all users – one for the team to promote collaborations, and another for author spaces to promote themselves. Promoting the author space this way can make it known to the community and increase the number of followers and quest completions.
+In order to provide an advantage to authors who create quests that the community values, Questfall implements the concept of [Author Reputation](author-reputation.md), which provides a 10% discount for each point of reputation when paying for the Base Reward with Silver.&#x20;
 
-Author spaces can buy with Silver or Gold a one-day slot for featuring them on the banner. There are available slots on sale only for the next 30 days.
+{% hint style="info" %}
+An author with a reputation of 9 will get a 90% discount, while an author with a reputation of 1 will only get a 10% discount. This means that the first author will need 9 times less Silver for the same amount of Base Reward in the quest.
+{% endhint %}
 
-The prices of the one-day slots increase exponentially the farther we go from the current day. This guarantees there are always author spaces willing to pay the price for featuring as the price for the current day is so low.
+Since the reputation is directly affected by the ratings of the author quests,&#x20;
 
-As the demand for banner promotion grows, the author spaces are willing to pay more and buy days further in the future to make sure to get a spot. There is no limitation to how many one-day spots a single author space can buy.
 
-To ensure no inappropriate author spaces are promoted users above a certain level can report the banner. Reported banners are voted by the moderators and rewarded in the same way as [Reported Quests](broken-reference).
+
+
+
+
+

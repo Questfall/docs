@@ -17,13 +17,13 @@ In order to carry out the referral program, 5% of the weekly QFT issue will be u
 The mining power used to distribute the weekly program rewards is calculated based on the amount of [Silver](../assets/Silver-in-game.md) the user burns during the week to level up.&#x20;
 
 {% hint style="info" %}
-For example, if Bob used Alice's referral code to join the platform, both his and Alice's mining power will increase as Bob advances through the levels.
+For example, if Bob used Alice's referral code to join the platform, both his and Alice's mining power will increase as Bob progresses through the levels over the course of a week.
 {% endhint %}
 
 In this way, the interests of both parties are aligned to achieve the main goal of the referral program - ambassadors are motivated to bring new active users to the platforms, while users are incentivized to use the referral codes by receiving additional rewards for their activity.
 
 {% hint style="info" %}
-This will encourage users to look for referral codes when they get the Questfall link without them, for example from a search engine. This will increase the value of the Questfall community, where new users looking for a referral code and ambassadors can meet.
+This will encourage users to look for referral codes when they get the Questfall link, for example from a search engine. This will increase the value of the Questfall community, where new users looking for a referral code and ambassadors can meet.
 {% endhint %}
 
 However, there are two issues that should be addressed to prevent abuse and make the program sustainable. And the availability of this referral program, which is open to everyone, is the first issue.
@@ -40,7 +40,7 @@ This is due to the simple mathematical inequality: $$(a+b)^{p}>a^{p}+b^{p}$$, wh
 While a referrer's mining power is based on the amount of Silver he burns, an ambassador's mining power is the difference between two parts of inequality:$$AMB=(REF_{1}+REF_{2})^{1.1}-REF_{1}^{1.1}-REF_{2}^{1.1}$$
 {% endhint %}
 
-This slow exponent approach not only protects against Sybil attacks, but also motivates users to burn as much Silver as possible, as each additional unit increases mining power non-linearly.
+This exponent approach not only protects against Sybil attacks, but also motivates users to burn as much Silver as possible, as each additional unit increases mining power non-linearly.
 
 <table><thead><tr><th width="180">Accounts</th><th width="140" align="right">Burned Silver</th><th width="136" align="right">Mining Power</th><th width="108" align="right">Increase</th></tr></thead><tbody><tr><td>Multiple accounts</td><td align="right">111,110,000</td><td align="right">708,481,415</td><td align="right">637.64%</td></tr><tr><td>    Ambassador</td><td align="right"></td><td align="right">23,082,929</td><td align="right"></td></tr><tr><td>        Referrer 1</td><td align="right">10,000</td><td align="right">25,119</td><td align="right">251.19%</td></tr><tr><td>        Referrer 2</td><td align="right">100,000</td><td align="right">316,228</td><td align="right">316.23%</td></tr><tr><td>        Referrer 3</td><td align="right">1,000,000</td><td align="right">3,981,072</td><td align="right">398.11%</td></tr><tr><td>        Referrer 4</td><td align="right">10,000,000</td><td align="right">50,118,723</td><td align="right">501.19%</td></tr><tr><td>        Referrer 5</td><td align="right">100,000,000</td><td align="right">630,957,344</td><td align="right">630.96%</td></tr><tr><td>Single account</td><td align="right">111,110,000</td><td align="right">708,481,415</td><td align="right">637.64%</td></tr></tbody></table>
 
@@ -53,6 +53,6 @@ The final formula for calculating the mining power is as follows:\
 $$MPOW=S_{week}^{1.1}*2*(1+e^{10^{-7}*S_{total}})^{-1}$$
 {% endhint %}
 
-On the one hand, this approach requires the user to create a new account to reset the mining ratio, while it is pointless to switch from the high-level main account just for the program rewards.&#x20;
+This approach assumes that the user needs to create a new account to reset the mining power, but it makes no sense to switch from the high-level main account just for the referral program rewards.
 
-On the other hand, to keep their earnings high, ambassadors will be forced to constantly recruit new users, as the mining power of previously attracted users will slowly decrease.
+As a result, ambassadors will be forced to constantly recruit new users to keep their earnings high, as the mining power of previously recruited users will slowly decrease.
