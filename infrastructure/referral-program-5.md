@@ -46,13 +46,13 @@ $$BASE=S_{week}^{1.1}$$
 This will discourage fake accounts, because if a user burns Silver on multiple accounts, his mining score will be less than if he burns the same amount on a single account.
 
 {% hint style="info" %}
-While a referrer's mining score is based on the amount of Silver he burns, an ambassador's mining score is the difference between two parts of inequality:\
-$$AMB=(\sum_{n=0}^{refs}REF_{n})^{1.1}-\sum_{n=0}^{refs}REF_{n}^{1.1}$$
+While a referrer's mining score is based on the amount of Silver he burns, an ambassador's mining score is based on the difference between two parts of the inequality:\
+$$MSCORE_{ambassador}=(\sum_{n=0}^{refs}MSCORE_{referrer_n})^{1.1}-\sum_{n=0}^{refs}MSCORE_{referrer_n}^{1.1}$$
 {% endhint %}
 
-This exponent approach not only protects against Sybil attacks, but also motivates users to burn as much Silver as possible, as each additional unit increases the base for calculating the mining score in a non-linear fashion.
+This exponent approach not only protects against Sybil attacks, but also motivates users to burn as much Silver as possible, as each additional unit increases the mining score in a non-linear fashion, assuming mining power remains the same (which is equal to 1 in the table below).
 
-<table><thead><tr><th width="180">Accounts</th><th width="140" align="right">Burned Silver</th><th width="132" align="right">Base</th><th width="104" align="right">Increase</th></tr></thead><tbody><tr><td>Multiple accounts</td><td align="right">111,110,000</td><td align="right">708,481,415</td><td align="right">637.64%</td></tr><tr><td>    Ambassador</td><td align="right"></td><td align="right">23,082,929</td><td align="right"></td></tr><tr><td>        Referrer 1</td><td align="right">10,000</td><td align="right">25,119</td><td align="right">251.19%</td></tr><tr><td>        Referrer 2</td><td align="right">100,000</td><td align="right">316,228</td><td align="right">316.23%</td></tr><tr><td>        Referrer 3</td><td align="right">1,000,000</td><td align="right">3,981,072</td><td align="right">398.11%</td></tr><tr><td>        Referrer 4</td><td align="right">10,000,000</td><td align="right">50,118,723</td><td align="right">501.19%</td></tr><tr><td>        Referrer 5</td><td align="right">100,000,000</td><td align="right">630,957,344</td><td align="right">630.96%</td></tr><tr><td>Single account</td><td align="right">111,110,000</td><td align="right">708,481,415</td><td align="right">637.64%</td></tr></tbody></table>
+<table><thead><tr><th width="180">Accounts</th><th width="140" align="right">Burned Silver</th><th width="132" align="right">Mining Score</th><th width="104" align="right">Increase</th></tr></thead><tbody><tr><td>Multiple accounts</td><td align="right">111,110,000</td><td align="right">708,481,415</td><td align="right">637.64%</td></tr><tr><td>    Ambassador</td><td align="right"></td><td align="right">23,082,929</td><td align="right"></td></tr><tr><td>        Referrer 1</td><td align="right">10,000</td><td align="right">25,119</td><td align="right">251.19%</td></tr><tr><td>        Referrer 2</td><td align="right">100,000</td><td align="right">316,228</td><td align="right">316.23%</td></tr><tr><td>        Referrer 3</td><td align="right">1,000,000</td><td align="right">3,981,072</td><td align="right">398.11%</td></tr><tr><td>        Referrer 4</td><td align="right">10,000,000</td><td align="right">50,118,723</td><td align="right">501.19%</td></tr><tr><td>        Referrer 5</td><td align="right">100,000,000</td><td align="right">630,957,344</td><td align="right">630.96%</td></tr><tr><td>Single account</td><td align="right">111,110,000</td><td align="right">708,481,415</td><td align="right">637.64%</td></tr></tbody></table>
 
 The second problem that arises is that with a straightforward approach, new users will get a smaller and smaller share of the program's rewards over time, since higher levels will have far more resources and thus generate most of the total mining score due to the exponential nature of the base formula.
 
@@ -65,9 +65,9 @@ $$MPOWER=-10^{-8}*S_{total}+1$$
 
 This approach assumes that the user needs to create a new account to reset the mining power, but it makes no sense to switch from the high-level main account just for the referral program rewards.
 
-As a result, ambassadors will be forced to constantly recruit new users to keep their earnings high, as the mining power of previously recruited users will slowly decrease.
-
 {% hint style="info" %}
 The final formula for calculating the mining score is as follows:\
 $$MSCORE=S_{week}^{1.1}*(-10^{-8}*S_{total}+1)$$
 {% endhint %}
+
+As a result, ambassadors will be forced to constantly recruit new users to keep their earnings high, as the mining score of previously recruited users will slowly decrease.
