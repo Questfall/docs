@@ -36,7 +36,8 @@ This is a threat because it allows users to create fake accounts to increase the
 To solve this problem and protect the referral program from fake account manipulation, the base for calculating the mining score will be an exponent of the amount of Silver burned for leveling up.
 
 {% hint style="info" %}
-The simple mathematical inequality of the exponent protects against Sybil attacks: $$(a+b)^{p}>a^{p}+b^{p}$$, if p>1.
+The simple mathematical inequality of the exponent protects against Sybil attacks:\
+$$(a+b)^{p}>a^{p}+b^{p}$$, if p>1.
 
 The exponent does not have to be much greater than one (p = 1.1 will be sufficient):\
 $$BASE=S_{week}^{1.1}$$
