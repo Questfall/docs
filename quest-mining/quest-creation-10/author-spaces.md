@@ -18,12 +18,12 @@ Each user in Questfall can only create one Author Space and automatically become
 
 To make it easier for members of an Author Space to navigate, quests are divided into four different groups based on their status:
 
-* **Drafts.** Drafts of quests that have not yet been published. Every new quest is saved as a draft first.
-* **Active.** Published quests that users can complete for a reward. Each active quest has an end date.
-* **Banned.** Published quests that have been reported and then banned by community moderation.
-* **Ended.** Quests that have been deactivated because they have successfully reached an end date.
+* **Drafts.** Drafts of new quests that have not yet been activated.
+* **Active.** Published quests that users are currently completing for a reward.
+* **Banned.** Quests that were active, but got reported and then banned.
+* **Ended.** Quests that are no longer active, as they have expired.
 
-As a result, the Author Space entity implementation can simulate the workflow of an entire magazine newsroom, if necessary. The owner can focus only on costs and profits, while hired users can handle all content-related tasks.
+As a result, the Author Space implementation makes it possible to simulate the workflow of an entire magazine newsroom, if necessary. The owner can focus only on costs and profits, while hired users can handle all content-related tasks.
 
 {% hint style="info" %}
 Author Spaces have Silver balances separate from their owners, and once deposited, Silver can only be used for quest or banner promotions and cannot be withdrawn. This is required in order to implement user donations to their favorite authors in [future versions](../../roadmap/future-versions.md) of Questfall.
