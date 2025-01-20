@@ -19,7 +19,7 @@
   * [Quest Rating](quest-mining/quest-creation-10/quest-rating.md)
   * [Author Reputation](quest-mining/quest-creation-10/author-reputation.md)
   * [Banner Promotion](quest-mining/quest-creation-10/banner-promotion.md)
-  * [Weekly Leaderboard](quest-mining/quest-creation-10/weekly-leaderboard.md)
+  * [Weekly Leaderboard](quest-mining/quest-creation-10/author-leaderboard.md)
 * [Quest Completion (40%)](quest-mining/quest-completion-40/README.md)
   * [Mining Power](quest-mining/quest-completion-40/mining-power.md)
   * [Character](quest-mining/quest-completion-40/character.md)

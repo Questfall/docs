@@ -2,5 +2,5 @@
 icon: bars-sort
 ---
 
-# Author Leaderboar
+# Weekly Leaderboard
 
