@@ -21,3 +21,14 @@ For example, if there are a maximum of five retries on a quest, each wrong submi
 {% endhint %}
 
 A user can try to re-submit an acceptable answer when there are unused retries and the quest is still active.
+
+
+
+### Quest Sorting
+
+Users can sort the quest feed to display all, followed, marked, hidden, or completed quests.
+
+* **Followed** - The authors can be followed as creators in popular social media platforms. Users can choose to sort the feed to show quests only from those authors they are following.
+* **Marked** - The users can mark those quests they see as interesting or important and create and display a feed based on them.
+* **Hidden** - Undesirable quests can be hidden from the global feed by the user. Feed can be sorted to display all the hidden quests.
+* **Completed** - The completed quests are automatically removed from the global feed and moved to the completed section.

@@ -4,116 +4,51 @@ icon: arrow-up-wide-short
 
 # Base Reward
 
-The number of mining points users receive as a basic reward for a given quest is based on the quest author's reputation, which is simply a moving average of the community ratings of that author's quests.
+In Questfall, anyone can create a quest and publish it to the Quest Feed so that other users can complete it. However, this allows for all kinds of abuse and manipulation, such as Sybil attacks, DDoS attacks, spamming, and scamming.
 
-In other words, the higher the ratings of the author's quests, the higher his reputation, and the more mining points will be used to reward his future quests.
-
-{% hint style="info" %}
-In order to prevent malicious authors from abusing the rating system, votes are weighted differently depending on the user level. Read more in the [Ratings](broken-reference) article.
-{% endhint %}
-
-This way, authors with a higher reputation will create more rewarding quests, which will motivate users to complete them. And since the author's mining power is represented by the number of quests users complete in a week or season, an author's reward is directly affected by his reputation.
-
-This approach makes quest quality the cornerstone of the system, as the most profitable strategy for authors is to create fun, educational or entertaining quests that are appreciated by the community, while users are motivated to complete quests created by the most diligent authors.
-
-### Quest Duration
-
-Each quest's duration ranges from 1 to 30 days depending on the number of days the author chose to promote their quest. Users can submit answers to the quest as long as it’s active.
-
-The length of the quest does not affect the size of the reward.
-
-***
-
-### Quest Sorting
-
-Users can sort the quest feed to display all, followed, marked, hidden, or completed quests.
-
-* **Followed** - The authors can be followed as creators in popular social media platforms. Users can choose to sort the feed to show quests only from those authors they are following.
-* **Marked** - The users can mark those quests they see as interesting or important and create and display a feed based on them.
-* **Hidden** - Undesirable quests can be hidden from the global feed by the user. Feed can be sorted to display all the hidden quests.
-* **Completed** - The completed quests are automatically removed from the global feed and moved to the completed section.
-
-### Base Reward
-
-Each quest has a **Base Reward** of a certain number of **Mining Points**. By completing the quests users get the base reward of mining points which is then multiplied by the user's mining efficiency bonuses.
-
-The base rewards of quests range from 10 (no promotion) up to <1000 (1000 is unreachable) depending on the author's promotion size.
-
-In addition to the base reward, the users earn chest shards by completing quests that have been promoted.
-
-### Mining Efficiency
-
-By increasing the personal **Mining Efficiency** bonus a user can receive more mining points from each completed quest. The base reward of a quest is multiplied by the mining efficiency % bonus the user has.
+To protect the system from all of these threats, every published quest should have a Base Reward that requires the burning of Silver. And since Silver can only be earned by burning Gold or through proper moderation, in order to publish a quest, an author should first earn Silver by providing value to the entire community.
 
 {% hint style="info" %}
-For example, if the base reward for the quest is 50 mining points and the user has 100% of mining bonus, they receive 100 mining points from completing the quest.
+This puts creators who want to monetize their content for free on an equal footing with projects that have marketing budgets.
 {% endhint %}
 
-Constant mining efficiency bonus can be increased by clothing, elixirs, rating quests, and adding points to the mining attribute. Spells and elixirs can give mining bonuses for a limited time or to a specific quest.
+In this way, publishing a quest requires that a certain amount of Base Reward be purchased with Silver. This Base Reward determines how many mining points users will receive for completing the quest, based on their individual mining power.
 
-
-
-## Promotion
-
-Authors can **promote** their quests by burning **Silver**. The more Silver is burned, the higher the base reward of a quest is, and the more visible and attractive it is to users.
-
-**Silver** can be acquired through **Moderation** or by buying it with **Gold**.
-
-By burning Gold the user receives 10 times the amount of Silver. For example, If 100 Gold is burned the user receives 1000 Silver.
+The Base Reward also directly affects a quest's position in the feed, since it is sorted based on the rewards users can earn. So if an author offers the highest Base Reward for the quest, it will be the first quest in the feed visible to everyone on the platform.
 
 {% hint style="info" %}
-For convenience, authors can use QFT and Gold directly for promotion so that the burning of it to Silver happens automatically.
+While the quest reward will vary for different users based on their individual mining power, the order of the quests, sorted by reward, will remain the same for each user and will depend solely on the Base Rewards.
 {% endhint %}
 
-***
+The Base Reward can range from 1 to 1000, and each additional point in the Base Reward costs more Silver. For the most basic scenario, where a new author with no reputation publishes the quest for one day, the amount of Silver required for different Base Reward levels are as follows:
 
-### Promotion Benefits
-
-Promoting quests benefits the author, miners, and the whole system:
-
-* **More Visibility** – The more Silver is burned for promoting a quest the higher it will appear on the quest feed. This results in more users seeing and completing the quest.
-* **Reward for Miners** – The mining point reward of a quest increases as more Silver is used for promoting it. This makes the quest more attractive to miners which leads to more completions and higher ratings.
-* **Author Reward** - As the weekly QFT reward for authors is calculated based on the amount of completions on the author’s quests, promoting quests directly contributes for a higher weekly reward.
-* **QFT Burning** – Quest promotion contributes to deflation within the system as QFT and Gold are constantly burned to Silver for promotion.
-
-***
-
-### Reputation as Multiplier
-
-The **Author’s Reputation** works as a **Multiplier** for the promotional weight of the burned Silver. The higher the reputation the less Silver needs to be burned for reaching the same promotional potential. To increase the reputation the authors are motivated to create high-quality quests valued by the community.
-
-Each Author starts with the reputation of 1. This means that the Silver cost ratio for promotion is 1/1, if you burn 1000 Silver its effect on promotion is 1000 points. As the author’s reputation gets higher the multiplier increases and real promotional cost decreases, for example, if the author's reputation is 5, 1000 silver results in 5000 points.
-
-The author’s reputation stays in 1 until there are enough completions on the author’s quests. On the launch of Questfall, the author must reach 10k weighed votes to have their reputation adjusted. This number will increase with the platform's growth as it is automatically adjusted by the accepted votes given by users throughout the week.
-
-***
-
-### Cost of Promotion
-
-The author can choose the amount of Silver they want to burn to promote their quest. Each quest has a minimum promotional amount of 1000 Silver to prevent system abuse. There is no upper limit to how much Silver can be burned for promotion as the maximum base mining point reward of 1000 will be an unreachable limit.
-
-{% tabs %}
-{% tab title="Chart" %}
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
-{% endtab %}
-
-{% tab title="Details" %}
-The Reputation that is additionally applied
-{% endtab %}
-{% endtabs %}
-
-The author can choose the uptime for a quest from 1 to 30 days. The longer the duration of a quest the higher the total cost of the promotion. However, each subsequent day of the promotion becomes cheaper by 10%, so the longer the promotions the better the price for a single day of promotional time.
-
-The position of the promoted quest on the global quest feed is based on the base mining points in a quest resulting from the amount of burned Silver. The higher the base mining points of a quest the higher it will be on the global quest feed and the more mining points users receive as a reward by completing the quest. The duration of a quest does not affect the quests position in the quest feed.
-
-Within the promotion, the author can see the amount of the mining point reward within the quest and what placement in the global quest feed they will have with a chosen quest duration and burned Silver amount.
+<table><thead><tr><th width="156">Base Reward</th><th width="141" align="right">Silver</th><th width="116" align="right">USD</th></tr></thead><tbody><tr><td>1</td><td align="right">100</td><td align="right">$0.1</td></tr><tr><td>10</td><td align="right">10,000</td><td align="right">$10</td></tr><tr><td>100</td><td align="right">1,000,000</td><td align="right">$1,000</td></tr><tr><td>1000</td><td align="right">100,000,000</td><td align="right">$100,000</td></tr></tbody></table>
 
 {% hint style="info" %}
-This formula is used to calculate the initial price of mining points in Silver. This amount is then adjusted with the author's reputation multiplier to get the real Silver price of mining points for each user.
-
-**x \* y = k**
-
-* **x** - Amount of mining points (equal to 1000)
-* **y** - Amount of Silver spent
-* **k** - ?
+The basic formula for the amount of Silver required for a given Base Reward is:\
+$$Silver=(10*BaseReward)^{2}$$
 {% endhint %}
+
+The quest can be activated for a specific period of time: from 1 to 30 days, and each day the quest is active, the Base Reward remains the same. However, the authors must pay for each day, but the amount of Silver required to maintain the Base Reward decreases by 10% for each subsequent day.
+
+For example, publishing the quest with the Base Reward of 1 for the author with zero reputation for 10 days will cost 652 Silver:
+
+<table><thead><tr><th width="98">Day</th><th width="141" align="right">Silver per Day</th><th width="133" align="right">Silver Total</th></tr></thead><tbody><tr><td>1</td><td align="right">100</td><td align="right">100</td></tr><tr><td>2</td><td align="right">90</td><td align="right">190</td></tr><tr><td>3</td><td align="right">81</td><td align="right">271</td></tr><tr><td>4</td><td align="right">73</td><td align="right">344</td></tr><tr><td>5</td><td align="right">66</td><td align="right">410</td></tr><tr><td>6</td><td align="right">59</td><td align="right">469</td></tr><tr><td>7</td><td align="right">53</td><td align="right">522</td></tr><tr><td>8</td><td align="right">48</td><td align="right">570</td></tr><tr><td>9</td><td align="right">43</td><td align="right">613</td></tr><tr><td>10</td><td align="right">39</td><td align="right">652</td></tr></tbody></table>
+
+{% hint style="info" %}
+The amount of Silver required for a given Base Reward and a given number of days is:\
+$$Silver=(10*BaseReward)^{2}*\sum_{n=1}^{days}0.9^{n-1}$$
+{% endhint %}
+
+Besides increasing discount for each subsequent day there is another discount based on the author repuatation. Each point in reputation gives 10% discount for the final price. An author with reputation 1 will have a 10% discount, while the author with repuation of 9 will have a 90% discount.
+
+<table><thead><tr><th width="82" align="center">Rew</th><th width="72" align="center">Days</th><th width="84" align="right">Rep 0</th><th width="87" align="right">Rep 1</th><th width="88" align="right">Rep 3</th><th width="88" align="right">Rep 5</th><th width="85" align="right">Rep 7</th><th width="79">Rep 9</th></tr></thead><tbody><tr><td align="center">5</td><td align="center">10</td><td align="right">16,283</td><td align="right">14,655</td><td align="right">11,398</td><td align="right">8,142</td><td align="right">4,885</td><td>1,628</td></tr><tr><td align="center">10</td><td align="center">5</td><td align="right">40,951</td><td align="right">36,856</td><td align="right">28,666</td><td align="right">20,476</td><td align="right">12,285</td><td>4,095</td></tr><tr><td align="center">10</td><td align="center">10</td><td align="right">65,132</td><td align="right">58,619</td><td align="right">45,593</td><td align="right">32,566</td><td align="right">19,540</td><td>6,513</td></tr></tbody></table>
+
+{% hint style="info" %}
+The final formula that determines the cost of publishing a quest is as follows:\
+$$Silver=(10*BaseReward)^{2}*\sum_{n=1}^{days}0.9^{n-1}*(1-\frac{Reputation}{10})$$
+{% endhint %}
+
+As a result, authors with a high reputation can set a much higher Base Reward for their quests for the same amount of Silver, and get many more completions. And since the number of completions plays a crucial role in the distribution of author rewards at the end of the week, high reputation allows authors to earn more for less Silver.
+
+However, in order to maintain a high reputation while earning QFT from quests, authors will be forced to create quests that are highly rated by the community. Otherwise, a poorly rated quest with many completions can drag down an author's reputation.

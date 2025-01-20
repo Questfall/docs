@@ -14,7 +14,7 @@
 
 * [Overview](quest-mining/overview.md)
 * [Quest Creation (10%)](quest-mining/quest-creation-10/README.md)
-  * [Author Spaces](quest-mining/quest-creation-10/author-spaces.md)
+  * [Author Space](quest-mining/quest-creation-10/author-space.md)
   * [Base Reward](quest-mining/quest-creation-10/base-reward.md)
   * [Quest Rating](quest-mining/quest-creation-10/quest-rating.md)
   * [Author Reputation](quest-mining/quest-creation-10/author-reputation.md)

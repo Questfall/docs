@@ -60,3 +60,11 @@ The maximum mining efficiency bonus user can reach by voting is limited based on
 {% hint style="info" %}
 For example, level 40 users can have a maximum +4% mining efficiency bonus from voting.
 {% endhint %}
+
+### Reputation as Multiplier
+
+The **Author’s Reputation** works as a **Multiplier** for the promotional weight of the burned Silver. The higher the reputation the less Silver needs to be burned for reaching the same promotional potential. To increase the reputation the authors are motivated to create high-quality quests valued by the community.
+
+Each Author starts with the reputation of 1. This means that the Silver cost ratio for promotion is 1/1, if you burn 1000 Silver its effect on promotion is 1000 points. As the author’s reputation gets higher the multiplier increases and real promotional cost decreases, for example, if the author's reputation is 5, 1000 silver results in 5000 points.
+
+The author’s reputation stays in 1 until there are enough completions on the author’s quests. On the launch of Questfall, the author must reach 10k weighed votes to have their reputation adjusted. This number will increase with the platform's growth as it is automatically adjusted by the accepted votes given by users throughout the week.
