@@ -25,18 +25,18 @@ The second group requires [community moderation](../community-moderation/) for e
 * **Action** - a user must perform an action on a third-party platform and provide a link and screenshot for moderation.
 * **Transaction** - a user must provide a link and screenshot of a specific transaction in the given blockchain.
 
-The number of users who complete a quest is directly affected by its position in the [Quest Feed](../../overview/global-feed.md), which is ordered by the quest's reward. In other words, to make a popular quest, an author should set a relatively high [Bounty](quest-bounty.md) for the quest.
+The number of users who complete a quest is directly affected by its position in the [Quest Feed](../../overview/global-feed.md), which is ordered by the quest's reward. In other words, to make a popular quest, an author should set a relatively high [Quest Bounty](quest-bounty.md).
 
 {% hint style="info" %}
 Of course, the reward is not the only factor people rely on when choosing a quest to complete - a high Bounty just ensures that people will notice the quest.
 {% endhint %}
 
-As a result, authors compete with each other for users' attention through the quest Bounty, which can only be set by burning [Silver](../../assets/Silver-in-game.md). To provide room for author competition while keeping the Bounty capped, the Silver price of each Bounty point increases exponentially.
+As a result, authors compete with each other for users' attention through the Quest Bounty, which can only be set by burning [Silver](../../assets/Silver-in-game.md). To provide room for author competition while keeping the Bounty capped, the Silver price of each Bounty point increases exponentially.
 
-Since Silver can be earned by participating in community moderation, authors are not forced to spend money to promote their quests. In addition, authors who create quests that are valued by the community will have an advantage in promoting their quest, as the [Reputation](reputation.md) provides a 10% discount for each reputation point when paying for the Bounty.
+Since Silver can be earned by participating in community moderation, authors are not forced to spend money to promote their quests. In addition, authors who create quests that are valued by the community will have an advantage in promoting their quest, as the [Reputation](reputation.md) provides a 10% discount for each reputation point when paying for the Quest Bounty.
 
 {% hint style="info" %}
-An author with a reputation of 9 will get a 90% discount, while an author with a reputation of 1 will only get a 10% discount. This means that the first author needs 9 times less Silver for the same quest Bounty.
+An author with a reputation of 9 will get a 90% discount, while an author with a reputation of 1 will only get a 10% discount. This means that the first author needs 9 times less Silver for the same quest Quest Bounty.
 {% endhint %}
 
 Therefore, in order to make a quest popular, which will allow project teams to attract new users or creators to earn, authors should burn Silver, which can only be acquired through QFT burning or through proper moderation, both of which add value to the community.

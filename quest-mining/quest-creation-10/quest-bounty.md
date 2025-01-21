@@ -2,53 +2,53 @@
 icon: arrow-up-wide-short
 ---
 
-# Base Reward
+# Quest Bounty
 
-In Questfall, anyone can create a quest and publish it to the Quest Feed so that other users can complete it. However, this allows for all kinds of abuse and manipulation, such as Sybil attacks, DDoS attacks, spamming, and scamming.
+In Questfall, anyone can create a quest and publish it to the Quest Feed for other users to complete. However, this opens the door to all kinds of abuse and manipulation, such as Sybil attacks, DDoS attacks, spamming, and scamming.
 
-To protect the system from all of these threats, every published quest should have a Base Reward that requires the burning of Silver. And since Silver can only be earned by burning Gold or through proper moderation, in order to publish a quest, an author should first earn Silver by providing value to the entire community.
+To protect the system from all of these threats, every published quest should have a Bounty that requires the burning of Silver. And since Silver can only be earned by burning Gold or through proper moderation, in order to publish a quest, an author should first earn Silver by providing value to the entire community.
 
 {% hint style="info" %}
 This puts creators who want to monetize their content for free on an equal footing with projects that have marketing budgets.
 {% endhint %}
 
-In this way, publishing a quest requires that a certain amount of Base Reward be purchased with Silver. This Base Reward determines how many mining points users will receive for completing the quest, based on their individual mining power.
+The Quest Bounty determines how many mining points users will receive for completing the quest based on their mining power, as the reward for completing a quest is calculated as the product of the Bounty and personal mining power.
 
-The Base Reward also directly affects a quest's position in the feed, since it is sorted based on the rewards users can earn. So if an author offers the highest Base Reward for the quest, it will be the first quest in the feed visible to everyone on the platform.
-
-{% hint style="info" %}
-While the quest reward will vary for different users based on their individual mining power, the order of the quests, sorted by reward, will remain the same for each user and will depend solely on the Base Rewards.
-{% endhint %}
-
-The Base Reward can range from 1 to 1000, and each additional point in the Base Reward costs more Silver. For the most basic scenario, where a new author with no reputation publishes the quest for one day, the amount of Silver required for different Base Reward levels are as follows:
-
-<table><thead><tr><th width="156">Base Reward</th><th width="141" align="right">Silver</th><th width="116" align="right">USD</th></tr></thead><tbody><tr><td>1</td><td align="right">100</td><td align="right">$0.1</td></tr><tr><td>10</td><td align="right">10,000</td><td align="right">$10</td></tr><tr><td>100</td><td align="right">1,000,000</td><td align="right">$1,000</td></tr><tr><td>1000</td><td align="right">100,000,000</td><td align="right">$100,000</td></tr></tbody></table>
+The Quest Bounty also directly affects a quest's position in the feed, since it is sorted based on the rewards users can earn. So if an author offers the highest Bounty for the quest, it will be the first quest in the feed visible to everyone on the platform.
 
 {% hint style="info" %}
-The basic formula for the amount of Silver required for a given Base Reward is:\
-$$Silver=(10*BaseReward)^{2}$$
+While the quest reward will vary for different users based on their individual mining power, the order of the quests, sorted by reward, will remain the same for each user and will depend solely on the Quest Bounty.
 {% endhint %}
 
-The quest can be activated for a specific period of time: from 1 to 30 days, and each day the quest is active, the Base Reward remains the same. However, the authors must pay for each day, but the amount of Silver required to maintain the Base Reward decreases by 10% for each subsequent day.
+The Bounty can range from 1 to 1000, and each additional point in the Bounty costs more Silver. For the most basic scenario, where a new author with no reputation publishes the quest for one day, the amounts of Silver required for different Quest Bounties are as follows:
 
-For example, publishing the quest with the Base Reward of 1 for the author with zero reputation for 10 days will cost 652 Silver:
-
-<table><thead><tr><th width="98">Day</th><th width="106" align="right">Per Day</th><th width="112" align="right">Total</th></tr></thead><tbody><tr><td>1</td><td align="right">100 Silver</td><td align="right">100 Silver</td></tr><tr><td>2</td><td align="right">90 Silver</td><td align="right">190 Silver</td></tr><tr><td>3</td><td align="right">81 Silver</td><td align="right">271 Silver</td></tr><tr><td>4</td><td align="right">73 Silver</td><td align="right">344 Silver</td></tr><tr><td>5</td><td align="right">66 Silver</td><td align="right">410 Silver</td></tr><tr><td>6</td><td align="right">59 Silver</td><td align="right">469 Silver</td></tr><tr><td>7</td><td align="right">53 Silver</td><td align="right">522 Silver</td></tr><tr><td>8</td><td align="right">48 Silver</td><td align="right">570 Silver</td></tr><tr><td>9</td><td align="right">43 Silver</td><td align="right">613 Silver</td></tr><tr><td>10</td><td align="right">39 Silver</td><td align="right">652 Silver</td></tr></tbody></table>
+<table><thead><tr><th width="110">Bounty</th><th width="141" align="right">Silver</th><th width="116" align="right">USD Price</th></tr></thead><tbody><tr><td>1</td><td align="right">100</td><td align="right">$0.1</td></tr><tr><td>10</td><td align="right">10,000</td><td align="right">$10</td></tr><tr><td>100</td><td align="right">1,000,000</td><td align="right">$1,000</td></tr><tr><td>1000</td><td align="right">100,000,000</td><td align="right">$100,000</td></tr></tbody></table>
 
 {% hint style="info" %}
-The amount of Silver required for a given Base Reward and a given number of days is:\
-$$Silver=(10*BaseReward)^{2}*\sum_{n=1}^{days}0.9^{n-1}$$
+The basic formula for the amount of Silver required for a day's Bounty is:\
+$$Silver=(10*Bounty)^{2}$$
 {% endhint %}
 
-Besides the increasing discount for each subsequent day, there is another discount based on the author's reputation. Each point of reputation gives 10% discount on the final price. In other words, an author with a reputation of 1 will have a discount of 10%, while an author with a reputation of 9 will have a discount of 90%.
+The quest can be published for a period of up to 30 days, and the number of days determines the cost of a bounty. While the first day should be paid at full price, each subsequent day will receive a 10% incremental discount.
 
-<table><thead><tr><th width="80" align="center">Rew</th><th width="69" align="center">Days</th><th width="83" align="right">Rep 0</th><th width="85" align="right">Rep 1</th><th width="86" align="right">Rep 3</th><th width="86" align="right">Rep 5</th><th width="83" align="right">Rep 7</th><th width="76">Rep 9</th></tr></thead><tbody><tr><td align="center">5</td><td align="center">10</td><td align="right">16,283</td><td align="right">14,655</td><td align="right">11,398</td><td align="right">8,142</td><td align="right">4,885</td><td>1,628</td></tr><tr><td align="center">10</td><td align="center">5</td><td align="right">40,951</td><td align="right">36,856</td><td align="right">28,666</td><td align="right">20,476</td><td align="right">12,285</td><td>4,095</td></tr><tr><td align="center">10</td><td align="center">10</td><td align="right">65,132</td><td align="right">58,619</td><td align="right">45,593</td><td align="right">32,566</td><td align="right">19,540</td><td>6,513</td></tr></tbody></table>
+For example, publishing the quest with the Bounty of 1 for the author with zero reputation for 10 days will cost 652 Silver:
+
+<table><thead><tr><th width="79">Day</th><th width="106" align="right">Day Cost</th><th width="112" align="right">Total Cost</th></tr></thead><tbody><tr><td>1</td><td align="right">100 Silver</td><td align="right">100 Silver</td></tr><tr><td>2</td><td align="right">90 Silver</td><td align="right">190 Silver</td></tr><tr><td>3</td><td align="right">81 Silver</td><td align="right">271 Silver</td></tr><tr><td>4</td><td align="right">73 Silver</td><td align="right">344 Silver</td></tr><tr><td>5</td><td align="right">66 Silver</td><td align="right">410 Silver</td></tr><tr><td>6</td><td align="right">59 Silver</td><td align="right">469 Silver</td></tr><tr><td>7</td><td align="right">53 Silver</td><td align="right">522 Silver</td></tr><tr><td>8</td><td align="right">48 Silver</td><td align="right">570 Silver</td></tr><tr><td>9</td><td align="right">43 Silver</td><td align="right">613 Silver</td></tr><tr><td>10</td><td align="right">39 Silver</td><td align="right">652 Silver</td></tr></tbody></table>
 
 {% hint style="info" %}
-The final formula that determines the cost of publishing a quest is as follows:\
-$$Silver=(10*BaseReward)^{2}*\sum_{n=1}^{days}0.9^{n-1}*(1-\frac{Reputation}{10})$$
+The amount of Silver required for a given Bounty and number of days is:\
+$$Silver=(10*Bounty)^{2}*\sum_{n=1}^{days}0.9^{n-1}$$
 {% endhint %}
 
-As a result, authors with a high reputation can set a much higher Base Reward for their quests for the same amount of Silver, and get many more completions. And since the number of completions plays a crucial role in the distribution of author rewards at the end of the week, high reputation allows authors to earn more for less Silver.
+In addition to the decreasing price for each consecutive day of publication, there is another discount based on the author's [Reputation](reputation.md). Each point of Reputation gives 10% discount on the final price. In other words, an author with a reputation of 1 will have a discount of 10%, while an author with a reputation of 9 will have a discount of 90%.
 
-However, in order to maintain a high reputation while earning QFT from quests, authors will be forced to create quests that are highly rated by the community. Otherwise, a poorly rated quest with many completions can drag down an author's reputation.
+<table><thead><tr><th width="102" align="center">Bounty</th><th width="75" align="center">Days</th><th width="83" align="right">Rep 0</th><th width="85" align="right">Rep 1</th><th width="86" align="right">Rep 3</th><th width="86" align="right">Rep 5</th><th width="83" align="right">Rep 7</th><th width="76">Rep 9</th></tr></thead><tbody><tr><td align="center">5</td><td align="center">10</td><td align="right">16,283</td><td align="right">14,655</td><td align="right">11,398</td><td align="right">8,142</td><td align="right">4,885</td><td>1,628</td></tr><tr><td align="center">10</td><td align="center">5</td><td align="right">40,951</td><td align="right">36,856</td><td align="right">28,666</td><td align="right">20,476</td><td align="right">12,285</td><td>4,095</td></tr><tr><td align="center">10</td><td align="center">10</td><td align="right">65,132</td><td align="right">58,619</td><td align="right">45,593</td><td align="right">32,566</td><td align="right">19,540</td><td>6,513</td></tr></tbody></table>
+
+{% hint style="info" %}
+The final formula that determines the cost of a Quest Bounty is:\
+$$Silver=(10*Bounty)^{2}*\sum_{n=1}^{days}0.9^{n-1}*(1-\frac{Reputation}{10})$$
+{% endhint %}
+
+As a result, authors with a high Reputation can set a much higher Quest Bounty for the same amount of Silver and get many more completions. And since the number of completions plays a crucial role in the distribution of author rewards at the end of the week, higher Reputation allows authors to earn more for less Silver.
+
+However, in order to maintain a high Reputation while earning QFT from quests, authors will be forced to create quests that are highly rated by the community. Otherwise, a poorly rated quest with many completions can quickly drag down an author's Reputation.
