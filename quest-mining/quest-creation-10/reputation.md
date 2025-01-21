@@ -2,7 +2,23 @@
 icon: heart
 ---
 
-# Author Reputation
+# Reputation
+
+One of the key attributes of any Author Space is its reputation, which gives users confidence when choosing quests to complete and, more importantly, provides a discount on the quest's Base Reward.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Reputation
 

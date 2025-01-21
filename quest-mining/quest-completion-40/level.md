@@ -1,5 +1,5 @@
 ---
-icon: medal
+icon: stairs
 ---
 
 # Level

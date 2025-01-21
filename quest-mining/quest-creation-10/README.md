@@ -6,9 +6,9 @@ icon: feather-pointed
 
 Existing quest platforms require authors to spend resources on user rewards. In contrast, Questfall rewards users for completing quests on behalf of the system. Even better, authors are rewarded with 10% of the weekly [QFT](../../assets/questfall-tokens-qft.md) issue for creating popular quests.
 
-This creates a new authoring paradigm that coexists with the traditional one - while some teams can still use money to promote their quests to the Questfall audience, other authors can earn from their creativity without any investment.
+This creates a new authoring paradigm that coexists with the traditional one - while some project teams can still use money to promote their quests to the Questfall audience, other authors can earn from their creativity without any investment.
 
-In Questfall, authors can create quests with any tasks that do not break the rules, but the system must ensure that users have actually performed the required quest actions to keep mining fair. Therefore, there are several predefined types of quests, each with its own way of completion, which ensure that the system is able to properly check for validity.
+In Questfall, authors can create quests with any tasks that do not break the rules, but the system must ensure that users have actually performed the required quest actions to keep mining fair. Therefore, there are several predefined types of quests, each with its own way of completion that ensures the system can properly validate them.
 
 {% hint style="info" %}
 New quest types will be implemented as Questfall evolves.
@@ -22,25 +22,23 @@ The first group of quests have the same correct answers for everyone and can the
 
 The second group requires [community moderation](../community-moderation/) for each completion and therefore only allows one attempt to complete the quest, as such an approach places a heavy load on the system in terms of moderator work.
 
-* **Link** - a user must perform an action on a third-party platform and provide a link and screenshot for moderation.
+* **Action** - a user must perform an action on a third-party platform and provide a link and screenshot for moderation.
 * **Transaction** - a user must provide a link and screenshot of a specific transaction in the given blockchain.
 
-The number of users who complete a quest is directly affected by its position in the [Quest Feed](../../overview/global-feed.md), which is ordered by the quest's reward. In other words, to make a popular quest, an author should put a large [Base Reward](base-reward.md) in the quest.
+The number of users who complete a quest is directly affected by its position in the [Quest Feed](../../overview/global-feed.md), which is ordered by the quest's reward. In other words, to make a popular quest, an author should set a relatively high [Bounty](quest-bounty.md) for the quest.
 
 {% hint style="info" %}
-Of course, the reward is not the only factor people rely on when choosing a quest to complete. It just makes sure that users notice the quest.
+Of course, the reward is not the only factor people rely on when choosing a quest to complete - a high Bounty just ensures that people will notice the quest.
 {% endhint %}
 
-As a result, authors compete with each other for users' attention through the quest's Base Reward, which can only be obtained by burning [Silver](../../assets/Silver-in-game.md). To allow for unlimited competition between authors while keeping the Base Reward capped, the price of each point of Base Reward in Silver increases exponentially.
+As a result, authors compete with each other for users' attention through the quest Bounty, which can only be set by burning [Silver](../../assets/Silver-in-game.md). To provide room for author competition while keeping the Bounty capped, the Silver price of each Bounty point increases exponentially.
 
-However, Silver can be earned by participating in community moderation. This way, authors are not forced to spend money to promote their quests.
-
-Furthermore, authors who create quests that are valued by the community will have an advantage in promoting their quest, as the [Author Reputation](author-reputation.md) provides a 10% discount for each reputation point when paying for the Base Reward with Silver.
+Since Silver can be earned by participating in community moderation, authors are not forced to spend money to promote their quests. In addition, authors who create quests that are valued by the community will have an advantage in promoting their quest, as the [Reputation](reputation.md) provides a 10% discount for each reputation point when paying for the Bounty.
 
 {% hint style="info" %}
-An author with a reputation of 9 will get a 90% discount, while an author with a reputation of 1 will only get a 10% discount. This means that the first author will need 9 times less Silver for the same amount of Base Reward in the quest.
+An author with a reputation of 9 will get a 90% discount, while an author with a reputation of 1 will only get a 10% discount. This means that the first author needs 9 times less Silver for the same quest Bounty.
 {% endhint %}
 
-As a result, in order to make a quest popular, which allows project teams to attract new users or creators to earn, authors should burn Silver, which can only be obtained through QFT burning or through proper moderation, both of which add value to the community.
+Therefore, in order to make a quest popular, which will allow project teams to attract new users or creators to earn, authors should burn Silver, which can only be acquired through QFT burning or through proper moderation, both of which add value to the community.
 
-In addition, to be successful in the long run, a quest creator should create quests that are highly [rated by the community](quest-rating.md), thus gaining reputation, which is a huge advantage for promoting subsequent quests.
+In addition, to be successful in the long run, an author should create quests that are highly rated by the community, thus earning Reputation, which gives a huge boost to the promotion of subsequent quests.

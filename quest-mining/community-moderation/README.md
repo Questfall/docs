@@ -65,7 +65,7 @@ To prevent malicious quests in Questfall, any user with a positive Silver balanc
 If the quest is reported, it will not be blocked immediately and will remain active during the moderation process, but voting on quest reports will be prioritized to ensure the fastest possible resolution of the report.
 {% endhint %}
 
-<table><thead><tr><th width="145">Quest Report</th><th width="214" align="center">Reporter</th><th width="135" align="center">Author Space</th></tr></thead><tbody><tr><td>Approved</td><td align="center">+50% Silver in the quest</td><td align="center">-10,000 Silver</td></tr><tr><td>Rejected</td><td align="center">-60% Silver in the quest</td><td align="center">-</td></tr></tbody></table>
+<table><thead><tr><th width="145">Quest Report</th><th width="214" align="center">Reporter</th><th width="135" align="center">Author Space</th></tr></thead><tbody><tr><td>Approved</td><td align="center">+10% Silver in the quest</td><td align="center">-10,000 Silver</td></tr><tr><td>Rejected</td><td align="center">-15% Silver in the quest</td><td align="center">-</td></tr></tbody></table>
 
 Fixed rewards in Silver for quest reports can be abused by intentionally creating bad quests on one account and reporting them from another. In this way, an attacker can earn Silver on one account by drowning the Silver balance of many accounts.
 
@@ -75,7 +75,7 @@ For this reason, the rewards for quest reports in Questfall are not fixed and ar
 
 ### Completions
 
-Users can select any quest from the [Quest Feed](../../overview/global-feed.md), complete it properly, and increase their mining score by the number of mining points, which depends on the quest's [Base Reward](../quest-creation-10/base-reward.md) and the user's individual [Mining Power](../quest-completion-40/mining-power.md).
+Users can select any quest from the [Quest Feed](../../overview/global-feed.md), complete it properly, and increase their mining score by the number of mining points, which depends on the quest's [Base Reward](../quest-creation-10/quest-bounty.md) and the user's individual [Mining Power](../quest-completion-40/mining-power.md).
 
 Many types of quests imply that the completion can be automatically validated by the system, for example, it can be a logic puzzle with the known answer, or it can be a survey with predefined options.
 
