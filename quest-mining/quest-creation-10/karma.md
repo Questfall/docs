@@ -4,101 +4,48 @@ icon: heart
 
 # Karma
 
-One of the key attributes of any [Author Space](workshop.md) is its Reputation, which gives users confidence when choosing quests to complete and, more importantly, provides a discount on the [Quest Bounty](quest-bounty.md).
+One of the key attributes of any [Workshop](workshop.md) is its Karma, which gives users confidence in the quests they choose to complete and, more importantly, provides an exponential discount on the [Quest Bounty](quest-bounty.md).
 
-Author Reputation can range from 0 for new Author Spaces to 10, and the only source of Reputation is the quest rating votes, also ranging from 0 to 10, that users must cast when completing a quest.
+Karma can range from 0 for a new Workshop to 10 for a Workshop with an excellent history, and the only source of Karma is the quest ratings, also ranging from 0 to 10, that users must vote on when completing unrated quests.
 
-{% hint style="info" %}
-Users are motivated to give honest quest ratings because they are rewarded or penalized with additional mining power depending on how far their estimate is from the average final rating. Learn more in [Mining Power](../quest-completion-40/mining-power.md).
-{% endhint %}
-
-Reputation is calculated based on league-based vote segmentation, similar to how [moderation consensus](../community-moderation/consensus.md) works, which prevents any kind of manipulation or abuse since it requires control over many accounts in all leagues.
-
-To better understand how Reputation is calculated, let us look at a specific example. Consider an imaginary Author Space called Sphinx, which specializes in puzzles.
-
-Upon creation, Sphinx will have zero Reputation, but after the first quest is posted, users who complete it will be forced to vote for its rating. Let's say there are four active leagues in Questfall, and the first quest received the following rating votes:
-
-| League |   |   |
-| ------ | - | - |
-|        |   |   |
-|        |   |   |
-|        |   |   |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Reputation
-
-IMAGE OF AUTHOR REPUTATION
-
-Each author in Questfall has a **Reputation Score** ranging from 1 to 10, which results from the **Ratings** users have given to the author's quests. The reputation score reflects the community's opinion about the general quality of the author's quests.
-
-For the author, the reputation score works as a multiplier for the Silver price of promotion. The higher the reputation the cheaper it is to promote quests through burning Silver.
-
-***
-
-Each user rating on a quest influences the author's reputation based on:
-
-* **The Rating** – What rating from 1-10 the user gives to the author's quest.
-* **The Vote Weight** – Each vote is weighted differently based on the user’s level.
-
-This results in a moving average type formula that considers all the votes given to the author through time. The closer the vote is to the current moment the higher influence it has on the Author's Reputation.
+When a new quest is published, it will initially have an unrated status. Then, the system randomly selects users and increases the Bounty for that unrated quest, making it much more visible in the feed to only those selected users. To complete an unrated quest, each user must rate it from 0 to 10.
 
 {% hint style="info" %}
-The final author reputation score is calculated based on this formula:
-
-**New reputation = (Prev Reputation \* x + Vote) / x**
-
-**x** = Variable based on the total number of users and average user level.
+Similarly, Google collects initial statistics by showing new sites on the first page when random users search for keyword phrases.
 {% endhint %}
 
-***
+Users are motivated to vote correctly because they are rewarded or penalized with [Mining Power](../quest-completion-40/mining-power.md) depending on how far their rating estimate is from the average, which is based on league-based vote segmentation, similar to how [moderation consensus](../community-moderation/consensus.md) works.
 
-## Ratings
+The unrated quest will receive votes from users in different leagues, and the final rating will be calculated as a simple average of the league results.
 
-The quality of the author's quest is reflected in the **Rating** users give to it and this incentivizes authors to focus on producing high-quality quests valued by the community.
+<table><thead><tr><th width="121">League</th><th width="78" align="center">Votes</th><th width="97" align="center">Average</th></tr></thead><tbody><tr><td>League 0</td><td align="center">7</td><td align="center">6.7</td></tr><tr><td>League 1</td><td align="center">5</td><td align="center">7.1</td></tr><tr><td>League 2</td><td align="center">3</td><td align="center">7.5</td></tr><tr><td>League 3</td><td align="center">1</td><td align="center">7.0</td></tr><tr><td>Total</td><td align="center">16</td><td align="center">7.08</td></tr></tbody></table>
 
-To finalize the completion of a quest, each user must rate the quest from 1 to 10. The ratings are weighted by user level and will directly impact the author's **Reputation Score**.
+This league-based vote segmentation provides a solid defense, as no league can outvote others, and an attacker would need to have a majority of users in all leagues to manipulate quest ratings. More importantly, the votes are very diverse, and not many voters are needed to achieve valid results.
 
 {% hint style="info" %}
-The weight of the users' vote increases linearly with the level. Each level increases the vote weight by one. For example, a level 30 user has a vote weight of 30.
+The protection works reliably because users cannot choose unrated quests to complete, as such quests are assigned by the system. Thus, an attacker cannot synchronize voting from different accounts.
 {% endhint %}
 
-To prevent users from making multiple accounts flooding high ratings on a self-made low-value quest, a certain number of votes and vote weight are needed for the voting to be valid.
-
-***
-
-### Average Rating
-
-**IMAGE OF AVERAGE RATING CURVE**
-
-To encourage the giving of fair ratings on a quest and to prevent rating manipulation, the user is incentivized to vote close to the **Average Rating**. Users gain or lose a small % of mining efficiency based on how close one voted to the average of all votes. The closer the user votes for the average, the more mining efficiency one gains, and the farther, the likelier it is to get the maximum mining efficiency penalty. If the user votes on the neutral zone the mining efficiency stays unchanged.
+This approach also implies that there are certain requirements for voting diversity, and if they are met, the quest could be considered to be ranked by community consensus. For example, such requirements could be an increasing odd number of users for each league, starting at the top. One user from the top league, three users from the league below, five from the next lower league, and so on.
 
 {% hint style="info" %}
-With each quest voting the user can gain or lose up to 0.2% of mining efficiency.
+Depending on user feedback and overall experience, these consensus requirements will be adjusted after the launch of Questfall.
 {% endhint %}
 
-The maximum mining efficiency bonus user can reach by voting is limited based on the level. With each level, the potential maximum mining efficiency bonus increases by 0.1%. Regardless of the level, there is no limit to the negative mining efficiency one can have by voting continuously out of the average.
+In some cases, quests may not be able to meet the consensus requirements to be rated. For example, it may be a quest that no one wants to complete, or there may be too many new quests relative to the number of active users in the system.
+
+But more importantly, it allows the system to know with certainty that if the community consensus has been reached, it can be considered valid. And if it is not, then either the quest was not interesting enough, or the Bounty was set as low as possible, while there were many spam quests in the system.
+
+In other words, quest ratings are a solid basis for calculating Karma. Therefore, Karma is built solely on quest ratings by consuming them using the 10% weighting.
 
 {% hint style="info" %}
-For example, level 40 users can have a maximum +4% mining efficiency bonus from voting.
+More specifically, Karma is updated when a new quest is rated according to the following formula:
+
+$$Karma_n=0.9*Karma_{n-1}+0.1*QuestRating_n$$
 {% endhint %}
 
-### Reputation as Multiplier
+As a result of this approach to Karma calculation, it is updated with each new rated quest and reacts quickly to changes in the quality of the author's quests. This also means that new authors only need to create 10 quests to get a fair estimate of their Karma and the corresponding Bounty discount, without having to invest much in the beginning.
 
-The **Author’s Reputation** works as a **Multiplier** for the promotional weight of the burned Silver. The higher the reputation the less Silver needs to be burned for reaching the same promotional potential. To increase the reputation the authors are motivated to create high-quality quests valued by the community.
-
-Each Author starts with the reputation of 1. This means that the Silver cost ratio for promotion is 1/1, if you burn 1000 Silver its effect on promotion is 1000 points. As the author’s reputation gets higher the multiplier increases and real promotional cost decreases, for example, if the author's reputation is 5, 1000 silver results in 5000 points.
-
-The author’s reputation stays in 1 until there are enough completions on the author’s quests. On the launch of Questfall, the author must reach 10k weighed votes to have their reputation adjusted. This number will increase with the platform's growth as it is automatically adjusted by the accepted votes given by users throughout the week.
+{% hint style="info" %}
+Any other approach would require authors to promote their quests with a competitively high Bounty in order to get ratings from regular users.
+{% endhint %}
