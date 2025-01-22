@@ -4,6 +4,10 @@ icon: bolt-lightning
 
 # Mining Power
 
+Quest Rating voting!
+
+
+
 At the end of each week or season, rewards for completing quests are distributed based on a user's Mining Score, which is simply the total number of Mining Points a user earns by completing quests during that period.
 
 Each quest has a base reward set by the quest author that is the same for everyone, and users who complete the quest will receive a number of Mining Points based on that base reward and their individual Mining Power.

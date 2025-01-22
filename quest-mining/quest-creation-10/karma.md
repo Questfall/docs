@@ -2,9 +2,27 @@
 icon: heart
 ---
 
-# Reputation
+# Karma
 
-One of the key attributes of any Author Space is its reputation, which gives users confidence when choosing quests to complete and, more importantly, provides a discount on the quest's Base Reward.
+One of the key attributes of any [Author Space](workshop.md) is its Reputation, which gives users confidence when choosing quests to complete and, more importantly, provides a discount on the [Quest Bounty](quest-bounty.md).
+
+Author Reputation can range from 0 for new Author Spaces to 10, and the only source of Reputation is the quest rating votes, also ranging from 0 to 10, that users must cast when completing a quest.
+
+{% hint style="info" %}
+Users are motivated to give honest quest ratings because they are rewarded or penalized with additional mining power depending on how far their estimate is from the average final rating. Learn more in [Mining Power](../quest-completion-40/mining-power.md).
+{% endhint %}
+
+Reputation is calculated based on league-based vote segmentation, similar to how [moderation consensus](../community-moderation/consensus.md) works, which prevents any kind of manipulation or abuse since it requires control over many accounts in all leagues.
+
+To better understand how Reputation is calculated, let us look at a specific example. Consider an imaginary Author Space called Sphinx, which specializes in puzzles.
+
+Upon creation, Sphinx will have zero Reputation, but after the first quest is posted, users who complete it will be forced to vote for its rating. Let's say there are four active leagues in Questfall, and the first quest received the following rating votes:
+
+| League |   |   |
+| ------ | - | - |
+|        |   |   |
+|        |   |   |
+|        |   |   |
 
 
 

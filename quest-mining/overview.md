@@ -17,7 +17,7 @@ Although we wrote in the [Sybil Defense](../overview/sybil-defence.md) article t
 These activities are open to everyone, so a user can create a quest, complete quests from the feed, and moderate completions all in one day.
 {% endhint %}
 
-Quest completion and quest creation produce different types of value that cannot be compared. These two activities also rely on different core mechanics. While quest completion relies heavily on the individual [mining power](quest-completion-40/mining-power.md), quest creation relies on [author reputation](quest-creation-10/reputation.md).
+Quest completion and quest creation produce different types of value that cannot be compared. These two activities also rely on different core mechanics. While quest completion relies heavily on the individual [mining power](quest-completion-40/mining-power.md), quest creation relies on [author reputation](quest-creation-10/karma.md).
 
 For this reason, there are two separate reward pools each week and season: one for users who complete quests and one for authors who create them. These pools are formed using 64% of the weekly QFT issue.
 

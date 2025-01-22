@@ -33,7 +33,7 @@ Of course, the reward is not the only factor people rely on when choosing a ques
 
 As a result, authors compete with each other for users' attention through the Quest Bounty, which can only be set by burning [Silver](../../assets/Silver-in-game.md). To provide room for author competition while keeping the Bounty capped, the Silver price of each Bounty point increases exponentially.
 
-Since Silver can be earned by participating in community moderation, authors are not forced to spend money to promote their quests. In addition, authors who create quests that are valued by the community will have an advantage in promoting their quest, as the [Reputation](reputation.md) provides a 10% discount for each reputation point when paying for the Quest Bounty.
+Since Silver can be earned by participating in community moderation, authors are not forced to spend money to promote their quests. In addition, authors who create quests that are valued by the community will have an advantage in promoting their quest, as the [Reputation](karma.md) provides a 10% discount for each reputation point when paying for the Quest Bounty.
 
 {% hint style="info" %}
 An author with a reputation of 9 will get a 90% discount, while an author with a reputation of 1 will only get a 10% discount. This means that the first author needs 9 times less Silver for the same quest Quest Bounty.

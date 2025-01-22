@@ -8,6 +8,14 @@ icon: square
 
 While designing the Questfall system, we put many things aside, because they are not crucial for the basic functionality, but can take a lot of effort to work out their details or implementation. However, such functionality can be a huge boost for increasing and keeping the Questfall audience.
 
+### Banner Pomotion
+
+In order to increase the amount of QFTs burned and make Silver even more useful, users will be able to promote their Author Spaces with the banner placed on the Quest Feed. Promoting the Author Space in this way can make it known to the community and increase the number of followers and quest completions.
+
+Users can purchase a one-day banner slot with Silver to promote their Author Space. Slots will only be available for the next 30 days, and the farther away from the current day, the higher the price for the slot.
+
+On the one hand, this guarantees that there will always be users willing to pay the price for promotion, as the price for upcoming days is low. On the other hand, as the demand for banner promotion grows, more users will be willing to pay for it and the slots will be filled further in the future.
+
 ### Donations
 
 We want to allow users to support their favorite authors in the form of Silver donations. Such donations can give a huge boost to new authors who do not yet have a high reputation.
