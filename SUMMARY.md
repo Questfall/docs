@@ -18,7 +18,7 @@
   * [Workshop](quest-mining/quest-creation-10/workshop.md)
   * [Quest Bounty](quest-mining/quest-creation-10/quest-bounty.md)
   * [Karma](quest-mining/quest-creation-10/karma.md)
-  * [Weekboard](quest-mining/quest-creation-10/weekboard.md)
+  * [Rewards](quest-mining/quest-creation-10/rewards.md)
 * [Quest Completion (40%)](quest-mining/quest-completion-40/README.md)
   * [Mining Power](quest-mining/quest-completion-40/mining-power.md)
   * [Quest Rating](quest-mining/quest-completion-40/quest-rating.md)
