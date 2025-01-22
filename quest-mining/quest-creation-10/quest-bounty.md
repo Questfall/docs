@@ -42,7 +42,7 @@ $$Silver=(10*Bounty)^{2}*\sum_{n=1}^{days}0.9^{n-1}$$
 
 In addition to the decreasing price for each consecutive day of publication, there is another global discount based on the author's [Karma](karma.md). Each point of Karma increases the discount exponentially from 0% to 90%.
 
-<table><thead><tr><th width="144">Karma</th><th width="131" align="center">Discount (%)</th><th width="89">Karma</th><th width="134" align="center">Discount (%)</th></tr></thead><tbody><tr><td>1</td><td align="center">0.9</td><td>6</td><td align="center">32.4</td></tr><tr><td>2</td><td align="center">3.6</td><td>7</td><td align="center">44.1</td></tr><tr><td>3</td><td align="center">8.1</td><td>8</td><td align="center">57.6</td></tr><tr><td>4</td><td align="center">14.4</td><td>9</td><td align="center">72.9</td></tr><tr><td>5</td><td align="center">22.5</td><td>10</td><td align="center">90</td></tr></tbody></table>
+<table><thead><tr><th width="98">Karma</th><th width="131" align="center">Discount (%)</th><th width="94">Karma</th><th width="134" align="center">Discount (%)</th></tr></thead><tbody><tr><td>1</td><td align="center">0.9</td><td>6</td><td align="center">32.4</td></tr><tr><td>2</td><td align="center">3.6</td><td>7</td><td align="center">44.1</td></tr><tr><td>3</td><td align="center">8.1</td><td>8</td><td align="center">57.6</td></tr><tr><td>4</td><td align="center">14.4</td><td>9</td><td align="center">72.9</td></tr><tr><td>5</td><td align="center">22.5</td><td>10</td><td align="center">90</td></tr></tbody></table>
 
 {% hint style="info" %}
 The final formula that determines the cost of a Quest Bounty is:\
