@@ -60,14 +60,14 @@ To solve this problem and make the program sustainable over time, the mining pow
 
 {% hint style="info" %}
 Mining power decreases based on the total amount of Silver burned from the start of an account using the formula:\
-$$MPOWER=-10^{-8}*S_{total}+1$$
+$$MPOWER=max(1-10^{-8}*S_{total},0)$$
 {% endhint %}
 
 This approach assumes that the user needs to create a new account to reset the mining power, but it makes no sense to switch from the high-level main account just for the referral program rewards.
 
 {% hint style="info" %}
 The final formula for calculating the mining score is as follows:\
-$$MSCORE=S_{week}^{1.1}*(-10^{-8}*S_{total}+1)$$
+$$MSCORE=S_{week}^{1.1}*max(1-10^{-8}*S_{total},0)$$
 {% endhint %}
 
 As a result, ambassadors will be forced to constantly recruit new users to keep their earnings high, as the mining score of previously recruited users will slowly decrease.

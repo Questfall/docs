@@ -4,11 +4,11 @@ icon: heart
 
 # Karma
 
-One of the key attributes of any [Workshop](workshop.md) is its Karma, which gives users confidence in the quests they choose to complete and, more importantly, provides an exponential discount on the [Quest Bounty](quest-bounty.md).
+One of the key attributes of any [Workshop](workshops.md) is its Karma, which gives users confidence in the quests they choose to complete and, more importantly, provides an exponential discount on the [Quest Bounty](quest-bounty.md).
 
 Karma can range from 0 for a new Workshop to 10 for a Workshop with an excellent history, and the only source of Karma is the quest ratings, also ranging from 0 to 10, that users must vote on when completing unrated quests.
 
-When a new quest is published, it will initially have an unrated status. Then, the system randomly selects users and increases the Bounty for that unrated quest, making it much more visible in the feed to only those selected users. To complete an unrated quest, each user must rate it from 0 to 10.
+When a new quest is published, it will initially have an unrated status. Then, the system randomly selects users and increases the Bounty for that unrated quest, making it much more visible in the feed to only those selected users. To finalize the completion of such an unrated quest, each user must rate it from 0 to 10.
 
 {% hint style="info" %}
 Similarly, Google collects initial statistics by showing new sites on the first page when random users search for keyword phrases.
