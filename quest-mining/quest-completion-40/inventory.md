@@ -1,6 +1,0 @@
----
-icon: table-cells
----
-
-# Inventory
-

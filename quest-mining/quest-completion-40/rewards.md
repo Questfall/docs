@@ -1,8 +1,8 @@
 ---
-icon: chart-pyramid
+icon: coins
 ---
 
-# Leagues
+# Rewards
 
 ## Leagues
 

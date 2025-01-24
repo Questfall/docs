@@ -1,6 +1,0 @@
----
-icon: stairs
----
-
-# Level
-

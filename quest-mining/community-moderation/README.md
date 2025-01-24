@@ -75,7 +75,7 @@ For this reason, the rewards for quest reports in Questfall are not fixed and ar
 
 ### Completions
 
-Users can select any quest from the [Quest Feed](../../overview/global-feed.md), complete it properly, and increase their mining score by the number of mining points, which depends on the quest's [Base Reward](../quest-creation-10/quest-bounty.md) and the user's individual [Mining Power](../quest-completion-40/mining-power.md).
+Users can select any quest from the [Quest Feed](../../overview/global-feed.md), complete it properly, and increase their mining score by the number of mining points, which depends on the quest's [Base Reward](../quest-creation-10/quest-bounty.md) and the user's individual [Mining Power](broken-reference).
 
 Many types of quests imply that the completion can be automatically validated by the system, for example, it can be a logic puzzle with the known answer, or it can be a survey with predefined options.
 
