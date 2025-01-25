@@ -25,7 +25,7 @@ Second, users must earn Mining Points by completing quests throughout the week i
 Each successful quest completion is rewarded with a certain amount of Mining Points, which is calculated as the product of three factors: Quest Bounty, Mining Power, and Mining Boost.&#x20;
 
 {% hint style="info" %}
-$$MiningPoints=QuestBounty*MiningPower*MiningBoost$$
+$$MiningPoints=QuestBounty*(1+\frac{MiningPower}{100})*MiningBoost$$
 {% endhint %}
 
 Unlike Quest Bounty, which is a quest parameter, Mining Power and Mining Boost are user-specific parameters, so multiple users completing the same quest will receive different amounts of Mining Points.
@@ -59,6 +59,10 @@ Although Questfall will launch with a limited number of attributes and RPG item 
 {% endhint %}
 
 Mining Power is one of a character's most important parameters, and can be increased by investing the attribute points gained with each new level into the Mining character attribute. In addition to Mining attribute, Mining Power can also be raised by equipping clothing with the corresponding effects.
+
+{% hint style="info" %}
+Mining Power is defined in percent with an initial value of 0% and can only be increased through the RPG system and can never go negative.
+{% endhint %}
 
 However, Mining Power is not the only character parameter that can be improved, as there are many other stats that can provide an advantage in various areas. Thus, a user must develop a character with a limited amount of resources according to the chosen personal strategy.
 
