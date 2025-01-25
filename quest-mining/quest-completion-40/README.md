@@ -38,7 +38,7 @@ The Quest Bounty is set by the quest author via the Silver burn and serves as th
 Although each user will see individual rewards for the same quests in the feed, the order will remain the same for everyone.
 {% endhint %}
 
-Therefore, the average Bounty size is mainly determined by the competition between authors trying to get as many completions for their quests as possible, and will increase as the platform becomes more popular.
+Therefore, the average Bounty size, which can range from 1 to 1000, is mainly determined by the competition between authors trying to get as many completions for their quests as possible, and will increase as the platform becomes more popular.
 
 While in most cases the system will respect the Quest Bounty amount set by the quest author, there are two situations where it may be changed.
 
