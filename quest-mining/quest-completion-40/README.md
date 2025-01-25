@@ -22,15 +22,19 @@ Learn more in the [Community Moderation](../community-moderation/) section.
 
 Second, users must earn Mining Points by completing quests throughout the week in order to be eligible for their league's weekly reward distribution.
 
-### Mining Points
-
 Each successful quest completion is rewarded with a certain amount of Mining Points, which is calculated as the product of three factors: Quest Bounty, Mining Power, and Mining Boost.&#x20;
 
 {% hint style="info" %}
 $$MiningPoints=QuestBounty*MiningPower*MiningBoost$$
 {% endhint %}
 
-The Quest Bounty is set by the author through burning Silver, and in most cases it will be the same for every user in the system. However, there are two cases in which it may be different.
+Unlike Quest Bounty, which is a quest parameter, Mining Power and Mining Boost are user parameters, so multiple users completing the same quest will receive different amounts of Mining Points.
+
+### Quest Bounty
+
+The Quest Bounty is set by the quest author via the [Silver](../../assets/Silver-in-game.md) burn and serves as the basis for calculating the reward for completing a quest, thus determining the order in which quests appear in the [global feed](../../overview/global-feed.md). Therefore, the amount of the Bounty is primarily determined by competition between authors.
+
+In most cases, the Quest Bounty will be the same for every user in the system. However, there are two situations in which it may vary.
 
 First, the system can increase the Bounty for a new [unrated quest](../quest-creation-10/karma.md) to several random users, thus motivating them to prioritize completing this quest and voting on its rating.&#x20;
 
@@ -38,14 +42,6 @@ Second, if the [quest type](../quest-creation-10/) and author allow multiple att
 
 {% hint style="info" %}
 Learn more in the [Quest Bounty](../quest-creation-10/quest-bounty.md) article.
-{% endhint %}
-
-Unlike Quest Bounty, which is a quest parameter, Mining Power and Mining Boost are user parameters, so multiple users completing the same quest will receive different amounts of Mining Points.
-
-Mining Points earned by a user during a week result in a Mining Score which is used to distribute rewards inside user's league.&#x20;
-
-{% hint style="info" %}
-However, Mining Score is not just a linear sum of Mining Points earned. Read more about this in the [Rewards](rewards.md) article.
 {% endhint %}
 
 ### Mining Power
