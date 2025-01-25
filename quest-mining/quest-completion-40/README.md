@@ -28,13 +28,19 @@ Each successful quest completion is rewarded with a certain amount of Mining Poi
 $$MiningPoints=QuestBounty*MiningPower*MiningBoost$$
 {% endhint %}
 
-Unlike Quest Bounty, which is a quest parameter, Mining Power and Mining Boost are user parameters, so multiple users completing the same quest will receive different amounts of Mining Points.
+Unlike Quest Bounty, which is a quest parameter, Mining Power and Mining Boost are user-specific parameters, so multiple users completing the same quest will receive different amounts of Mining Points.
 
 ### Quest Bounty
 
-The Quest Bounty is set by the quest author via the [Silver](../../assets/Silver-in-game.md) burn and serves as the basis for calculating the reward for completing a quest, thus determining the order in which quests appear in the [global feed](../../overview/global-feed.md). Therefore, the amount of the Bounty is primarily determined by competition between authors.
+The Quest Bounty is set by the quest author via the Silver burn and serves as the basis for calculating the reward for completing a quest, thus determining the order in which quests appear in the [global feed](../../overview/global-feed.md).&#x20;
 
-In most cases, the Quest Bounty will be the same for every user in the system. However, there are two situations in which it may vary.
+{% hint style="info" %}
+Although each user will see individual rewards for the same quests in the feed, the order will remain the same for everyone.
+{% endhint %}
+
+Therefore, the average Bounty size is mainly determined by the competition between authors trying to get as many completions for their quests as possible, and will increase as the platform becomes more popular.
+
+While in most cases the system will respect the Quest Bounty amount set by the quest author, there are two situations where it may be changed.
 
 First, the system can increase the Bounty for a new [unrated quest](../quest-creation-10/karma.md) to several random users, thus motivating them to prioritize completing this quest and voting on its rating.&#x20;
 
