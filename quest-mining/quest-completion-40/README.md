@@ -40,15 +40,13 @@ Although each user will see individual rewards for the same quests in the feed, 
 
 As a result, Quest Bounty sizes will be driven primarily by competition between authors trying to get as many completions for their quests as possible, and will increase as the platform becomes more popular.
 
-While in most cases the system will respect the Quest Bounty amount set by the quest author, there are two situations where it may be changed.
-
-First, the system can increase the Bounty for a new [unrated quest](../quest-creation-10/karma.md) to several random users, thus motivating them to prioritize completing this quest and voting on its rating.&#x20;
-
-Second, if the [quest type](../quest-creation-10/) and author allow multiple attempts, the Bounty for the quest will be reduced based on the number of retries set by the author for each subsequent attempt. For example, if a quest author sets a maximum of five retries, each failed submission will reduce the Quest Bounty by 20%.
-
 {% hint style="info" %}
 Learn more in the [Quest Bounty](../quest-creation-10/quest-bounty.md) article.
 {% endhint %}
+
+While the Quest Bounty concept assumes that it is the same for every user who completes the same quest, this is not always the case. The system can increase the Quest Bounty for a new [unrated quest](../quest-creation-10/karma.md) to several random users, thus motivating them to complete the quest and vote on its rating in the first place.
+
+Also, if the [quest type](../quest-creation-10/) and author allow multiple attempts, the Bounty for the quest will be reduced based on the number of retries set by the author for each subsequent attempt. For example, if a quest author sets a maximum of five retries, each failed submission will reduce the Quest Bounty by 20%.
 
 ### Mining Power
 
