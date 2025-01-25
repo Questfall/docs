@@ -32,13 +32,13 @@ Unlike Quest Bounty, which is a quest parameter, Mining Power and Mining Boost a
 
 ### Quest Bounty
 
-The Quest Bounty is set by the quest author via the Silver burn and serves as the basis for calculating the reward for completing a quest, thus determining the order in which quests appear in the [global feed](../../overview/global-feed.md).&#x20;
+The Quest Bounty is set by the quest author in the range of 1 to 1000 by burning Silver and serves as the basis for calculating the reward for completing a quest, thus determining the order in which quests appear in the [global feed](../../overview/global-feed.md).&#x20;
 
 {% hint style="info" %}
 Although each user will see individual rewards for the same quests in the feed, the order will remain the same for everyone.
 {% endhint %}
 
-Therefore, the average Bounty size, which can range from 1 to 1000, is mainly determined by the competition between authors trying to get as many completions for their quests as possible, and will increase as the platform becomes more popular.
+As a result, Quest Bounty sizes will be driven primarily by competition between authors trying to get as many completions for their quests as possible, and will increase as the platform becomes more popular.
 
 While in most cases the system will respect the Quest Bounty amount set by the quest author, there are two situations where it may be changed.
 
