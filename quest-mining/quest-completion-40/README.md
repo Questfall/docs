@@ -17,15 +17,14 @@ The weekly reward pool is [divided](rewards.md) among the [leagues](leagues.md),
 For each successful completion of a quest, the user is rewarded with a certain amount of Mining Points, depending on a quest-specific Quest Bounty parameter and user-specific Mining Power and Mining Boost parameters.
 
 {% hint style="info" %}
-The formula for calculating the reward for a given quest is as follows:
-
+The formula for calculating the reward for a given quest is as follows:\
 $$MiningPoints=QuestBounty*(1+\frac{MiningPower}{100})*MiningBoost$$
 {% endhint %}
 
 The amount of Mining Points earned throughout the week results in an individual weekly Mining Score for each user. And the league reward pool is distributed according to each user's share of the league's total Mining Score.
 
 {% hint style="info" %}
-Mining Score is not just a simple sum of Mining Points. Read more about this in the [Rewards](rewards.md) article.
+Mining Score is not just a simple sum of Mining Points. Read more in the [Rewards](rewards.md) article.
 {% endhint %}
 
 ### Quest Bounty
