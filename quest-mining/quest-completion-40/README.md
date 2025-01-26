@@ -4,69 +4,63 @@ icon: pickaxe
 
 # Quest Completion (40%)
 
-In Questfall, users will not have to grind quests for nothing or wait for rewards that will never arrive. The [mining approach](broken-reference), combined with [deflationary tokenomics](../../overview/token-burning.md), implies that the system (not other users) fairly rewards miners for their efforts in completing quests with [QFT](../../assets/questfall-tokens-qft.md).
+In Questfall, users will not have to grind quests for nothing or wait for rewards that will never arrive. The [mining approach](broken-reference) ensures that the system fairly rewards miners with [QFT](../../assets/questfall-tokens-qft.md) for their weekly work in completing quests.
 
-Since quest completion is considered the most important activity on the platform, the largest portion of the weekly QFT issue (40%) is divided evenly among the [leagues](leagues.md), where users compete against each other based on the amount of mining points they earn by completing quests during the week.
+Quest completion is considered the most important activity on the platform, and as such, the largest portion of the weekly QFT issue (40%) is dedicated to rewarding it.
 
 {% hint style="info" %}
-In fact, more than half of the weekly QFT issue is used to reward users for completing quests, as an additional 11.2% is transferred to the seasonal reward pool each week. [Seasons](../seasons-14.md) are a special case, however, as they use a completely different reward distribution mechanism.
+In fact, more than half (51.2% to be exact) of the weekly QFT issue is used to reward users for completing quests, as an additional 11.2% is used for special [seasonal rewards](../seasons-14.md).
 {% endhint %}
 
-As a result of the league-based reward segmentation, users must perform two types of activities to earn the most from completing quests.&#x20;
+The weekly reward pool is [divided](rewards.md) among the [leagues](leagues.md), where users are grouped by [level](levels.md) and compete for their share of the league reward. Competition within each league is based on the Mining Score that users earn by the end of the week by completing quests.
 
-First, they must vote correctly in the community moderation to earn [Silver](../../assets/Silver-in-game.md) and increase their [level](levels.md) to progress through the leagues.
-
-{% hint style="info" %}
-Learn more in the [Community Moderation](../community-moderation/) section.
-{% endhint %}
-
-Second, users must earn Mining Points by completing quests throughout the week in order to be eligible for their league's weekly reward distribution.
-
-Each successful quest completion is rewarded with a certain amount of Mining Points, which is calculated as the product of three factors: Quest Bounty, Mining Power, and Mining Boost.&#x20;
+For each successful completion of a quest, the user is rewarded with a certain amount of Mining Points, depending on a quest-specific Quest Bounty parameter and user-specific Mining Power and Mining Boost parameters.
 
 {% hint style="info" %}
+The formula for calculating the reward for a given quest is as follows:
+
 $$MiningPoints=QuestBounty*(1+\frac{MiningPower}{100})*MiningBoost$$
 {% endhint %}
 
-Unlike Quest Bounty, which is a quest parameter, Mining Power and Mining Boost are user-specific parameters, so multiple users completing the same quest will receive different amounts of Mining Points.
+The amount of Mining Points earned throughout the week results in an individual weekly Mining Score for each user. And the league reward pool is distributed according to each user's share of the league's total Mining Score.
+
+{% hint style="info" %}
+Mining Score is not just a simple sum of Mining Points. Read more about this in the [Rewards](rewards.md) article.
+{% endhint %}
 
 ### Quest Bounty
 
 The Quest Bounty is set by the quest author in the range of 1 to 1000 by burning Silver and serves as the basis for calculating the reward for completing a quest, thus determining the order in which quests appear in the [global feed](../../overview/global-feed.md).&#x20;
 
 {% hint style="info" %}
-Although each user will see individual rewards for the same quests in the feed, the order will remain the same for everyone.
+Although users will see individual rewards for the same quests in the feed, the order of the feed will remain the same for everyone, as user-specific parameters are applied to all quests. Learn more in the [Quest Bounty](../quest-creation-10/quest-bounty.md) article.
 {% endhint %}
 
-As a result, Quest Bounty sizes will be driven primarily by competition between authors trying to get as many completions for their quests as possible, and will increase as the platform becomes more popular.
+While the Quest Bounty concept assumes that it is the same for everyone, and therefore the order of quests in the feed is also the same, this is not always the case.&#x20;
+
+The system may increase the Quest Bounty for a new [unrated quest](../quest-creation-10/karma.md) to several random users, thus motivating them to complete the quest and vote on its rating.
 
 {% hint style="info" %}
-Learn more in the [Quest Bounty](../quest-creation-10/quest-bounty.md) article.
+The Quest Bounty will also change if the quest allows multiple attempts. For example, if a quest allows five retries, each failed attempt will reduce the Quest Bounty by 20%.
 {% endhint %}
 
-While the Quest Bounty concept assumes that it is the same for every user who completes the same quest, this is not always the case. The system can increase the Quest Bounty for a new [unrated quest](../quest-creation-10/karma.md) to several random users, thus motivating them to complete the quest and vote on its rating in the first place.
+Quest Bounties will be driven mainly by competition between authors trying to get as many completions for their quests as possible, and will increase as the platform becomes more popular.
 
-Also, if the [quest type](../quest-creation-10/) and author allow multiple attempts, the Bounty for the quest will be reduced based on the number of retries set by the author for each subsequent attempt. For example, if a quest author sets a maximum of five retries, each failed submission will reduce the Quest Bounty by 20%.
+However, such competition will not benefit miners, as Bounties will increase for everyone. As a result, the distribution of rewards will continue to be determined primarily by the number of quests completed from the top of the feed, as well as individual Mining Power and Mining Boost.
 
 ### Mining Power
 
-At the heart of Questfall is an entire RPG system, which means that each quest miner is represented by a character defined by various parameters and defaults that can be enhanced by either character [attributes](attributes.md) or RPG items such as [clothing](items.md).
+Mining Power is one of the many parameters that define the character of the RPG system in Questfall. It is defined in percent with an initial value of 0% and can only be increased by the RPG mechanics and can never be negative.
+
+Mining Power can be increased by investing the attribute points gained with each new level into the Mining [attribute](attributes.md) or by equipping [clothing](items.md) with the appropriate effects.
+
+However, Mining Power is not the only character parameter that can be improved with attribute points or clothing, as there are many other stats that can provide an advantage in various areas.&#x20;
 
 {% hint style="info" %}
 Although Questfall will launch with a limited number of attributes and RPG item types, many more will be added in [future releases](../../roadmap/future-versions.md).
 {% endhint %}
 
-Mining Power is one of a character's most important parameters, and can be increased by investing the attribute points gained with each new level into the Mining character attribute. In addition to Mining attribute, Mining Power can also be raised by equipping clothing with the corresponding effects.
-
-{% hint style="info" %}
-Mining Power is defined in percent with an initial value of 0% and can only be increased through the RPG system and can never go negative.
-{% endhint %}
-
-However, Mining Power is not the only character parameter that can be improved, as there are many other stats that can provide an advantage in various areas. Thus, a user must develop a character with a limited amount of resources according to the chosen personal strategy.
-
-{% hint style="info" %}
-There may be strategies that do not focus on Mining Power at all. More details on the Questfall RPG system can be found in the following articles.
-{% endhint %}
+Thus, a user must develop a character with a limited amount of resources according to the chosen personal strategy, which may not focus on Mining Power at all.
 
 ### Mining Boost
 
