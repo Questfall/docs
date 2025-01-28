@@ -2,9 +2,14 @@
 icon: stairs
 ---
 
-# Levels
+# User Levels
 
-In Questfall, level is a key characteristic of users who complete quests. Level determines which [league](leagues.md) a user belongs to, allowing a higher level user to mine with [less competition](rewards.md). Each level grants one attribute point, which can be used to improve any of a [character's attributes](attributes.md). Finally, level increases the weight of a user's vote in [community moderation](../community-moderation/) decisions and [quest ratings](../quest-creation-10/karma.md).
+In Questfall, level is a key characteristic of users who complete quests, which heavily influences many aspects of the quest mining:
+
+* Level determines which [league](leagues.md) a user belongs to, allowing a higher level user to mine with [less competition](broken-reference).&#x20;
+* Each level grants one attribute point, which can be used to improve any of a [character's attributes](attributes.md).&#x20;
+* The level of [clothing](items.md) items is limited by the user's level, so progressing through the levels allows for clothing upgrades.
+* Level increases the weight of a user's vote in [community moderation](../community-moderation/) decisions and [quest ratings](../quest-creation-10/karma.md).
 
 While in most RPGs it is common to earn XP for leveling up directly, in Questfall there is an intermediate asset - [Silver](../../assets/Silver-in-game.md) - which allows to buy XP. This is because community moderation, which is rewarded with Silver, can be used not only by users who complete quests, but also by indie authors who want to promote their quests and be rewarded for doing so.
 
@@ -32,7 +37,7 @@ To calculate the total amount of XP needed to reach a given level from level 1, 
 $$XP_{total}=1000*\frac{Level^2-Level}{2}$$
 {% endhint %}
 
-<table><thead><tr><th width="97" align="center">Level</th><th width="123" align="center">XP Total</th></tr></thead><tbody><tr><td align="center">2</td><td align="center">1,000</td></tr><tr><td align="center">5</td><td align="center">10,000</td></tr><tr><td align="center">10</td><td align="center">45,000</td></tr><tr><td align="center">25</td><td align="center">300,000</td></tr><tr><td align="center">50</td><td align="center">1,225,000</td></tr><tr><td align="center">100</td><td align="center">4,950,000</td></tr><tr><td align="center">250</td><td align="center">31,125,000</td></tr><tr><td align="center">500</td><td align="center">124,750,000</td></tr></tbody></table>
+<table><thead><tr><th width="97" align="center">Level</th><th width="138" align="right">XP Total</th></tr></thead><tbody><tr><td align="center">2</td><td align="right">1,000</td></tr><tr><td align="center">5</td><td align="right">10,000</td></tr><tr><td align="center">10</td><td align="right">45,000</td></tr><tr><td align="center">25</td><td align="right">300,000</td></tr><tr><td align="center">50</td><td align="right">1,225,000</td></tr><tr><td align="center">100</td><td align="right">4,950,000</td></tr><tr><td align="center">250</td><td align="right">31,125,000</td></tr><tr><td align="center">500</td><td align="right">124,750,000</td></tr></tbody></table>
 
 ### Purchasing XP
 
@@ -55,6 +60,6 @@ For example, if a user spends 100 Silver to buy XP, he will receive 1000 XP. How
 
 At the beginning of a new week, the XP price will be reset and the user will receive 1000 XP for 100 Silver again.
 
-<table><thead><tr><th width="108" align="center">Silver</th><th width="118" align="center">USD equiv.</th><th width="117" align="center">XP</th><th width="139" align="center">XP per Silver </th></tr></thead><tbody><tr><td align="center">100</td><td align="center">$0.1</td><td align="center">1,000</td><td align="center">10.00</td></tr><tr><td align="center">1,000</td><td align="center">$1</td><td align="center">3,162</td><td align="center">3.16</td></tr><tr><td align="center">10,000</td><td align="center">$10</td><td align="center">10,000</td><td align="center">1.00</td></tr><tr><td align="center">100,000</td><td align="center">$100</td><td align="center">31,623</td><td align="center">0.32</td></tr><tr><td align="center">1,000,000</td><td align="center">$1000</td><td align="center">100,000</td><td align="center">0.10</td></tr></tbody></table>
+<table><thead><tr><th width="133">Silver</th><th width="118" align="right">USD equiv.</th><th width="117" align="right">XP</th><th width="139" align="right">XP per Silver </th></tr></thead><tbody><tr><td>100</td><td align="right">$0.1</td><td align="right">1,000</td><td align="right">10.00</td></tr><tr><td>1,000</td><td align="right">$1</td><td align="right">3,162</td><td align="right">3.16</td></tr><tr><td>10,000</td><td align="right">$10</td><td align="right">10,000</td><td align="right">1.00</td></tr><tr><td>100,000</td><td align="right">$100</td><td align="right">31,623</td><td align="right">0.32</td></tr><tr><td>1,000,000</td><td align="right">$1000</td><td align="right">100,000</td><td align="right">0.10</td></tr></tbody></table>
 
 As a result, a user who distributes Silver over 10 weeks will receive the same amount of XP as a user who spends 10 times more Silver in one week.

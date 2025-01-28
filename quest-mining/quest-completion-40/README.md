@@ -12,7 +12,7 @@ Quest completion is considered the most important activity on the platform, and 
 In fact, more than half (51.2% to be exact) of the weekly QFT issue is used to reward users for completing quests, as an additional 11.2% is used for special [seasonal rewards](../seasons-14.md).
 {% endhint %}
 
-The weekly reward pool is [divided](rewards.md) among the [leagues](leagues.md), where users are grouped by [level](levels.md) and compete for their share of the league reward. Competition within each league is based on the Mining Score that users earn by the end of the week by completing quests.
+The weekly reward pool is [divided](broken-reference) among the [leagues](leagues.md), where users are grouped by [level](user-levels.md) and compete for their share of the league reward. Competition within each league is based on the Mining Score that users earn by the end of the week by completing quests.
 
 For each successful completion of a quest, the user is rewarded with a certain amount of Mining Points, depending on a quest-specific Quest Bounty parameter and user-specific Mining Power and Mining Boost parameters.
 
@@ -24,7 +24,7 @@ $$MiningPoints=QuestBounty*(1+\frac{MiningPower}{100})*MiningBoost$$
 The amount of Mining Points earned throughout the week results in an individual weekly Mining Score for each user. And the league reward pool is distributed according to each user's share of the league's total Mining Score.
 
 {% hint style="info" %}
-Mining Score is not just a simple sum of Mining Points. Read more in the [Rewards](rewards.md) article.
+Mining Score is not just a simple sum of Mining Points. Read more in the [Rewards](broken-reference) article.
 {% endhint %}
 
 ### Quest Bounty

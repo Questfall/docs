@@ -4,29 +4,18 @@ icon: chart-pyramid
 
 # Leagues
 
-## Leagues
+In Questfall, the weekly [rewards](rewards.md) for miners are segmented based on user progression. However, if such segmentation were based on [levels](user-levels.md), then when a top user reached a new highest level in the system, everyone would start earning less because the reward pool would be split into more parts.
 
-The **Leagues** allow a fair sharing of rewards and prevent bots and multi-accounts from taking the reward of real dedicated users.
+Since progress through the levels will be quite fast (at least in the beginning), the rewards for existing segments would also decrease rapidly. To slow down the process of segmentation, Questfall introduces the concept of leagues, in which users of levels within a certain range are grouped together.
 
-The leagues group the users based on their level in **15-level sections** in the following way:
+To protect the system from Sybil attacks, the first 9 levels (the range of 1-9 levels) are considered the Hall, which is not a league and therefore does not have weekly rewards. Therefore the first league starts at level 10 and ends at level 19, containing a range of 9 levels, and each subsequent league contains an additional 5 levels.&#x20;
 
-(IMAGE OF LEAGUES PYRAMID INSTEAD OF TEXT)
-
-* First-league 5-20
-* Second-league 20-35
-* Third-league 35-50
-* And so on without a top limit
+<table><thead><tr><th width="132">Name</th><th width="114" align="center">Start Level</th><th width="111" align="center">End Level</th><th width="121" align="center">Range Size</th></tr></thead><tbody><tr><td>Hall</td><td align="center">1</td><td align="center">9</td><td align="center">9</td></tr><tr><td>League I</td><td align="center">10</td><td align="center">19</td><td align="center">9</td></tr><tr><td>League II</td><td align="center">20</td><td align="center">34</td><td align="center">14</td></tr><tr><td>League III</td><td align="center">35</td><td align="center">54</td><td align="center">19</td></tr><tr><td>League IV</td><td align="center">55</td><td align="center">79</td><td align="center">24</td></tr><tr><td>League V</td><td align="center">80</td><td align="center">109</td><td align="center">29</td></tr><tr><td>League VI</td><td align="center">110</td><td align="center">144</td><td align="center">34</td></tr><tr><td>League VII</td><td align="center">145</td><td align="center">184</td><td align="center">39</td></tr><tr><td>League VII</td><td align="center">185</td><td align="center">229</td><td align="center">44</td></tr><tr><td>League IX</td><td align="center">230</td><td align="center">279</td><td align="center">49</td></tr><tr><td>League X</td><td align="center">280</td><td align="center">334</td><td align="center">54</td></tr><tr><td>...</td><td align="center"></td><td align="center"></td><td align="center"></td></tr></tbody></table>
 
 {% hint style="info" %}
-User’s levels 0-5 are part of a Zero League that is considered a tutorial and does not provide rewards.
+Since there is no cap on user level, the number of leagues in the system can theoretically be infinite.
 {% endhint %}
 
-The **40% weekly miners reward** is shared equally with each league with active users. The user has to compete for the weekly QFT reward only with users in the same league. As entering a higher league takes more effort than a lower one, the number of users competing for the same reward decreases with each league.
+As a result, leagues not only drastically slow down the appearance of new segments, but also add an internal dynamic. Since there are users of different levels within a league, those who are close to advancing to the next league will have more power than those at the bottom of the league.
 
-The user's weekly **QFT reward** is based on the **league level** and **Mining Score**.
-
-{% hint style="info" %}
-If there were only four leagues with active users, each league would have 10% of the weekly QFT reward to share. Each user would earn a portion of this 10% based on their mining score relative to the total number of points mined in that league.
-{% endhint %}
-
-In addition to having less competition in a higher league, the users can be motivated to get to a new league for a free attribute reset. When a user joins a new league, he can redistribute the character's attribute points once for free and thus re-design their game approach.
+In this way, users are both motivated to advance within the league and to enter the next league, even though they will be at the bottom of the league again, as the overall competition still declines with each league.
