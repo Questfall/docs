@@ -46,8 +46,7 @@ Although the increasing amount of XP needed to reach each next level is common t
 In Questfall, to prevent such a threat, XP can only be obtained with Silver, and the price decreases for each XP purchased during a week.
 
 {% hint style="info" %}
-The protection is based on a simple mathematical inequality:
-
+The protection is based on a simple mathematical inequality:\
 $$(a+b)^p>a^p+b^p$$, if p>1
 {% endhint %}
 
