@@ -2,11 +2,11 @@
 icon: stairs
 ---
 
-# User Levels
+# Levels
 
 In Questfall, level is a key characteristic of users who complete quests, which heavily influences many aspects of the quest mining:
 
-* Level determines which [league](leagues.md) a user belongs to, allowing a higher level user to mine with [less competition](broken-reference).&#x20;
+* Level determines which [league](leagues.md) a user belongs to, allowing a higher level user to mine [rewards](../quest-creation-10/rewards.md) with less competition.&#x20;
 * Each level grants one attribute point, which can be used to improve any of a [character's attributes](attributes.md).&#x20;
 * The level of [clothing](items.md) items is limited by the user's level, so progressing through the levels allows for clothing upgrades.
 * Level increases the weight of a user's vote in [community moderation](../community-moderation/) decisions and [quest ratings](../quest-creation-10/karma.md).
@@ -41,25 +41,33 @@ $$XP_{total}=1000*\frac{Level^2-Level}{2}$$
 
 ### Purchasing XP
 
-Silver can be obtained directly by burning Gold, which in turn is only given out for burned QFT. This way, miners with money can immediately buy any level they want. And while this is not a real threat, but rather brings value to the entire community, it is still not fair.
+Although the increasing amount of XP needed to reach each next level is common to all RPG systems, this approach motivates users to level up multiple accounts at once if possible. In other words, the diminishing return on invested XP provokes Sybil attacks.
 
-To make the system more balanced between effort and wallet, not only does the amount of XP required for each next level increase, but the price of XP in Silver also increases with each XP point purchased during the week.
+In Questfall, to prevent such a threat, XP can only be obtained with Silver, and the price decreases for each XP purchased during a week.
 
 {% hint style="info" %}
-Users can pay for XP not only in Silver, but also in Gold or QFT, but under the hood, QFT is converted to Gold, while Gold is converted to Silver to be burned immediately. And since there is no specific balance where XP can be stored, every point of XP purchased is immediately spent on leveling up.
+The protection is based on a simple mathematical inequality:
+
+$$(a+b)^p>a^p+b^p$$, if p>1
 {% endhint %}
 
-The growth of the XP price means that the more XP a user buys in a week, the higher the average price will be. This also implies that a user who progresses slowly will spend much less silver to reach the same level as a user who progresses quickly.
+The decrease in the XP price means that the more XP a user buys in a week, the lower the average price will be. This also motivates users to burn as much Silver as possible over the course of a week.
+
+{% hint style="info" %}
+Users can pay for XP not only in Silver, but also in Gold or QFT, but under the hood, QFT is converted to Gold, while Gold is converted to Silver to be burned immediately for XP.
+{% endhint %}
+
+For example, the first 1000 Silver will return 200 XP, another 1000 Silver during the week will return an additional 228 XP, another 1000 Silver will return 240 XP, and so on. At the beginning of a new week, the XP price will be reset and the user will start again with 200 XP for 1000 Silver.
 
 {% hint style="info" %}
 The amount of XP that can be purchased for a given amount of Silver during a week can be calculated using the following formula:\
-$$XP=100*\sqrt{Silver_{week}}$$
+$$XP=0.1*Silver_{week}^{1.1}$$
 {% endhint %}
 
-For example, if a user spends 100 Silver to buy XP, he will receive 1000 XP. However, if he spends another 100 Silver during the week, he will receive an additional 414 XP, another 100 Silver will bring 318 XP, and so on.&#x20;
+<table><thead><tr><th width="139">Silver</th><th width="118" align="right">USD equiv.</th><th width="117" align="right">XP</th><th width="139" align="right">XP per Silver </th></tr></thead><tbody><tr><td>100</td><td align="right">$0.1</td><td align="right">16</td><td align="right">0.16</td></tr><tr><td>1,000</td><td align="right">$1</td><td align="right">200</td><td align="right">0.20</td></tr><tr><td>10,000</td><td align="right">$10</td><td align="right">2,512</td><td align="right">0.25</td></tr><tr><td>100,000</td><td align="right">$100</td><td align="right">31,623</td><td align="right">0.32</td></tr><tr><td>1,000,000</td><td align="right">$1,000</td><td align="right">398,107</td><td align="right">0.40</td></tr><tr><td>10,000,000</td><td align="right">$10,000</td><td align="right">5,011,872</td><td align="right">0.50</td></tr></tbody></table>
 
-At the beginning of a new week, the XP price will be reset and the user will receive 1000 XP for 100 Silver again.
+As a result, not only does spreading resources across accounts become a losing strategy, but users are also motivated to spend as much Silver as possible to level up. For example, one of the winning strategies will be to accumulate Silver and then spend it all at once.
 
-<table><thead><tr><th width="133">Silver</th><th width="118" align="right">USD equiv.</th><th width="117" align="right">XP</th><th width="139" align="right">XP per Silver </th></tr></thead><tbody><tr><td>100</td><td align="right">$0.1</td><td align="right">1,000</td><td align="right">10.00</td></tr><tr><td>1,000</td><td align="right">$1</td><td align="right">3,162</td><td align="right">3.16</td></tr><tr><td>10,000</td><td align="right">$10</td><td align="right">10,000</td><td align="right">1.00</td></tr><tr><td>100,000</td><td align="right">$100</td><td align="right">31,623</td><td align="right">0.32</td></tr><tr><td>1,000,000</td><td align="right">$1000</td><td align="right">100,000</td><td align="right">0.10</td></tr></tbody></table>
-
-As a result, a user who distributes Silver over 10 weeks will receive the same amount of XP as a user who spends 10 times more Silver in one week.
+{% hint style="info" %}
+Spending $1000 on a new account will get the user to level 28, while splitting it in half between two different accounts will get them both to level 19. This will put a single user in League II, while two accounts will end up in League I.
+{% endhint %}

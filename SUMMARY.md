@@ -24,7 +24,7 @@
   * [Clothing](quest-mining/quest-completion-40/items.md)
   * [Potions](quest-mining/quest-completion-40/potions.md)
   * [Loot Boxes](quest-mining/quest-completion-40/loot-boxes.md)
-  * [User Levels](quest-mining/quest-completion-40/user-levels.md)
+  * [Levels](quest-mining/quest-completion-40/levels.md)
   * [Leagues](quest-mining/quest-completion-40/leagues.md)
   * [Rewards](quest-mining/quest-completion-40/rewards.md)
 * [Community Moderation](quest-mining/community-moderation/README.md)
