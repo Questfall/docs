@@ -15,7 +15,7 @@ In Questfall, an additional 11.2% of weekly QFT issue is used for [seasonal rewa
 For example, let's say 25,000 QFTs are issued at the end of the week and there are 5 active leagues in the system. In this case, the total reward pool for miners will be 10,000 QFTs and each of the leagues will receive 2,000 QFTs to reward users based on their share of the league's total Mining Score.
 
 {% hint style="info" %}
-The league's Mining Score is simply the sum of its members' individual Mining Scores:$$MiningScore_{league}=\sum_{n=0}^{users}MiningScore_{user_n}$$
+The league's Mining Score is simply the sum of its members' individual Mining Scores:$$MiningScore_{league}=\sum_{}^{}MiningScore_{i}$$
 {% endhint %}
 
 <table><thead><tr><th width="130">League</th><th width="129" align="center">Reward Pool</th></tr></thead><tbody><tr><td>League I</td><td align="center">2,000 QFT</td></tr><tr><td>League II</td><td align="center">2,000 QFT</td></tr><tr><td>League III</td><td align="center">2,000 QFT</td></tr><tr><td>League IV</td><td align="center">2,000 QFT</td></tr><tr><td>League V</td><td align="center">2,000 QFT</td></tr></tbody></table>
@@ -31,11 +31,11 @@ $$RewardUser=RewardLeague*\frac{MiningScore_{user}}{MiningScore_{league}}$$
 
 [Mining Points](./) earned by a user during a week result in an individual Mining Score, which is reset at the end of each week after rewards are distributed.&#x20;
 
-However, an individual user's Mining Score is not simply the sum of the Mining Points earned during the week. For better protection, it is calculated as the sum of the Mining Point exponents.
+However, an individual user's Mining Score is not simply the sum of the Mining Points earned during the week. For better protection, it is calculated as the sum of the Mining Point roots.
 
 {% hint style="info" %}
 Individual Mining Score is calculated as follows:\
-$$MiningScore_{member}=\sum_{n=0}^{quests}MiningPoints_{quest_n}^{1.1}$$
+$$MiningScore_{member}=\sum_{}^{}\sqrt{MiningPoints_{i}}$$
 {% endhint %}
 
-This approach means that completing two quests with a [Bounty](../quest-creation-10/quest-bounty.md) of 50 will result in a higher Mining Score than completing one quest with a Bounty of 100. This simultaneously motivates miners to choose quests with the highest rewards and to complete as many quests as possible.
+This approach means that completing two quests with a [Bounty](../quest-creation-10/quest-bounty.md) of 50 will reesult in a higher Mining Score than completing one quest with a Bounty of 100. This simultaneously motivates miners to choose quests with the highest rewards and to complete as many quests as possible.
