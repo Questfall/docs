@@ -34,8 +34,8 @@ $$RewardUser=RewardLeague*\frac{MiningScore_{user}}{MiningScore_{league}}$$
 However, an individual user's Mining Score is not simply the sum of the Mining Points earned during the week. For better protection, it is calculated as the sum of the Mining Point roots.
 
 {% hint style="info" %}
-Individual Mining Score is calculated as follows:\
-$$MiningScore_{member}=\sum_{}^{}\sqrt{MiningPoints_{i}}$$
+Individual Mining Score is calculated based on Mining Points earned from quests as follows:\
+$$MiningScore_{user}=\sum_{}^{}\sqrt{MiningPoints_{i}}$$
 {% endhint %}
 
 This approach means that completing two quests with a [Bounty](../quest-creation-10/quest-bounty.md) of 50 will reesult in a higher Mining Score than completing one quest with a Bounty of 100. This simultaneously motivates miners to choose quests with the highest rewards and to complete as many quests as possible.
