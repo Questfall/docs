@@ -4,16 +4,38 @@ icon: coins
 
 # Rewards
 
-The **Leagues** allow a fair sharing of rewards and prevent bots and multi-accounts from taking the reward of real dedicated users.
+There is no way to protect quest completion from multiple accounts and bots. For example, a user could register several accounts and use a bot to clone the completion of a quest with a common answer on all of them.
 
-Mining points earned during a week result in a mining score, which is reset at the end of each week after rewards are distributed according to each user's share of the total mining score.
-
-The **40% weekly miners reward** is shared equally with each league with active users. The user has to compete for the weekly QFT reward only with users in the same league. As entering a higher league takes more effort than a lower one, the number of users competing for the same reward decreases with each league.
-
-The user's weekly **QFT reward** is based on the **league level** and **Mining Score**.
+In Questfall, to protect legitimate miners from such abuse and to keep mining fair, the total weekly reward pool, made up of 40% of the weekly [QFT](../../assets/questfall-tokens-qft.md) issue, is divided equally among the active [leagues](leagues.md).
 
 {% hint style="info" %}
-If there were only four leagues with active users, each league would have 10% of the weekly QFT reward to share. Each user would earn a portion of this 10% based on their mining score relative to the total number of points mined in that league.
+Active leagues are those in which there was at least one active miner during the week.
 {% endhint %}
 
-In addition to having less competition in a higher league, the users can be motivated to get to a new league for a free attribute reset. When a user joins a new league, he can redistribute the character's attribute points once for free and thus re-design their game approach.
+For example, let's say 25,000 QFTs are issued at the end of the week and there are 5 active leagues in the system. In this case, the total reward pool for miners will be 10,000 QFTs and each of the leagues will receive 2,000 QFTs to reward users based on their share of the league's total Mining Score.
+
+{% hint style="info" %}
+The league's Mining Score is simply the sum of its members' individual Mining Scores:$$MiningScore_{league}=\sum_{n=0}^{users}MiningScore_{user_n}$$
+{% endhint %}
+
+<table><thead><tr><th width="130">League</th><th width="129" align="center">Reward Pool</th></tr></thead><tbody><tr><td>League I</td><td align="center">2,000 QFT</td></tr><tr><td>League II</td><td align="center">2,000 QFT</td></tr><tr><td>League III</td><td align="center">2,000 QFT</td></tr><tr><td>League IV</td><td align="center">2,000 QFT</td></tr><tr><td>League V</td><td align="center">2,000 QFT</td></tr></tbody></table>
+
+For example, if Alice is a member of League III and her individual Mining Score is 5,000 while the league's total Mining Score is 50,000, she will receive one-tenth of the reward pool, or 200 QFT.
+
+{% hint style="info" %}
+The user reward is calculated according to the following formula:\
+$$RewardUser=RewardLeague*\frac{MiningScore_{user}}{MiningScore_{league}}$$
+{% endhint %}
+
+### Individual Mining Score
+
+[Mining Points](./) earned by a user during a week result in an individual Mining Score, which is reset at the end of each week after rewards are distributed.&#x20;
+
+However, an individual user's Mining Score is not simply the sum of the Mining Points earned during the week. For better protection, it is calculated as the sum of the Mining Point exponents.
+
+{% hint style="info" %}
+Individual Mining Score is calculated as follows:\
+$$MiningScore_{member}=\sum_{n=0}^{quests}MiningPoints_{quest_n}^{1.1}$$
+{% endhint %}
+
+This approach means that completing two quests with a [Bounty](../quest-creation-10/quest-bounty.md) of 50 will result in a higher Mining Score than completing one quest with a Bounty of 100. This simultaneously motivates miners to choose quests with the highest rewards and to complete as many quests as possible.
