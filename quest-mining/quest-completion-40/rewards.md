@@ -30,3 +30,7 @@ Let's say Alice is a member of League III and her individual Mining Score is 5,0
 The user reward is calculated according to the following formula:\
 $$QFT_{user}=\frac{0.4*QFT_{week}}{Leagues}*\frac{MiningScore_{user}}{MiningScore_{league}}$$
 {% endhint %}
+
+As a result, this approach to rewarding users for completing quests, while allowing them to try to cheat the system with multiple accounts, is a losing strategy because there are two factors that determine the final reward: the league and the Mining Score. And while Mining Score earning can be automated, , level and league progression cannot.
+
+Therefore, malicious actors will not be able to get through the Hall to Leagues for free - they will have to spend either money or effort. This provides a solid defense against Sybil attacks and makes the rewards in Questfall as fair as possible.
