@@ -18,7 +18,7 @@ For example, let's say 25,000 QFTs are issued at the end of the week and there a
 The league's Mining Score is the sum of its members' scores: \
 $$MiningScore_{league}=\sum_{}^{}MiningScore_{user_i}$$
 
-Which are the total Mining Points a user earns from quests: $$MiningScore_{user}=\sum_{}^{}MiningPoints_{quest_i}$$\
+The user's Mining Score is the total number of Mining Points:$$MiningScore_{user}=\sum_{}^{}MiningPoints_{quest_i}$$\
 
 {% endhint %}
 
@@ -31,6 +31,6 @@ The user reward is calculated according to the following formula:\
 $$QFT_{user}=\frac{0.4*QFT_{week}}{Leagues}*\frac{MiningScore_{user}}{MiningScore_{league}}$$
 {% endhint %}
 
-As a result, this approach to rewarding users for completing quests, while allowing them to try to cheat the system with multiple accounts, is a losing strategy because there are two factors that determine the final reward: the league and the Mining Score. And while Mining Score earning can be automated, , level and league progression cannot.
+As a result, this approach to rewarding users for completing quests, while allowing them to try to cheat the system with multiple accounts, is a losing strategy because there are two factors that determine the final reward: the league and the Mining Score. And while gaining Mining Score can be automated, level and league progression cannot.
 
 Therefore, malicious actors will not be able to get through the Hall to Leagues for free - they will have to spend either money or effort. This provides a solid defense against Sybil attacks and makes the rewards in Questfall as fair as possible.
