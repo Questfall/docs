@@ -15,7 +15,7 @@ An additional 11.2% of weekly QFT issue is used for [seasonal rewards](../season
 For example, let's say 25,000 QFTs are issued at the end of the week and there are 5 active leagues in the system. In this case, the total reward pool for miners will be 10,000 QFTs and each of the leagues will receive 2,000 QFTs to reward users based on their share of the league's total Mining Score.
 
 {% hint style="info" %}
-The league's total Mining Score is the sum of its members' individual Mining Scores:\
+The league's Mining Score is the sum of its members' individual Mining Scores:\
 $$MiningScore_{league}=\sum_{}^{}MiningScore_{user_i}$$
 
 Which in turn are calculated as the total Mining Points a user earns from quests:$$MiningScore_{user}=\sum_{}^{}MiningPoints_{quest_i}$$\
