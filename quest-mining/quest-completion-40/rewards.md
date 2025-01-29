@@ -6,10 +6,10 @@ icon: coins
 
 There is no way to protect quest completion from multiple accounts and bots. For example, a user could register several accounts and use a bot to clone the completion of a quest with a common answer on all of them.
 
-In Questfall, to protect legitimate miners from such abuse and to keep mining fair, the total weekly reward pool, made up of 40% of the weekly [QFT](../../assets/questfall-tokens-qft.md) issue, is divided equally among the active [leagues](leagues.md).
+In Questfall, to protect legitimate miners from such abuse and to keep mining fair, the total weekly reward pool, made up of 40% of the weekly [QFT](../../assets/questfall-tokens-qft.md) issue, is divided equally among the [leagues](leagues.md) that had at least one active miner during the week.
 
 {% hint style="info" %}
-Active leagues are those in which there was at least one active miner during the week.
+In Questfall, an additional 11.2% of weekly QFT issue is used for [seasonal rewards](../seasons-14.md). Overall, more than half (51.2%) of QFT issuance is used to reward quest completion.
 {% endhint %}
 
 For example, let's say 25,000 QFTs are issued at the end of the week and there are 5 active leagues in the system. In this case, the total reward pool for miners will be 10,000 QFTs and each of the leagues will receive 2,000 QFTs to reward users based on their share of the league's total Mining Score.
