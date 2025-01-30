@@ -7,7 +7,7 @@ icon: stairs
 In Questfall, level is a key characteristic of users who complete quests, which heavily influences many aspects of the quest mining:
 
 * Level determines which [league](leagues.md) a user belongs to, allowing a higher level user to mine [rewards](../quest-creation-10/rewards.md) with less competition.&#x20;
-* Each level grants one attribute point, which can be used to improve any of a [character's attributes](attributes.md).&#x20;
+* Each level grants one attribute point, which can be used to improve any of a [character's attributes](attributes-1.md).&#x20;
 * The level of [clothing](items.md) items is limited by the user's level, so progressing through the levels allows for clothing upgrades.
 * Level increases the weight of a user's vote in [community moderation](../community-moderation/) decisions and [quest ratings](../quest-creation-10/karma.md).
 
