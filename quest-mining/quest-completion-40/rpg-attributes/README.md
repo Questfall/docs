@@ -2,7 +2,7 @@
 icon: chart-simple
 ---
 
-# Attributes
+# RPG Attributes
 
 The common RPG approach assumes that users are represented by a character that becomes more powerful by investing stat points gained with each new level into pre-defined character attributes.
 
@@ -10,7 +10,7 @@ Questfall uses the same mechanic - users gain one stat point per [level](../leve
 
 * **Mining**: increases Mining Power and Stamina Reserve;
 * **Inventory**: increases the weight limit of stored items;
-* **Crafting**: boosts the yield of Essence, gives an advantage when trading and obtaining Gems;
+* **Crafting**:  increased efficiency when working with Essence or Gems;
 * **Trading**: reduces marketplace fee, gives advantage on Gold withdrawal, adds marketplace slots;
 * **Regen**: increases Stamina Reserve recovery rate;
 * **Luck**: increases chance of getting missing chest shards and other bonuses, adds loot box cards.

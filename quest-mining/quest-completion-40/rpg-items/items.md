@@ -176,7 +176,7 @@ In the on-chain marketplace the **higher-tier** items C, B, and A, are traded fo
 
 Users can place the higher-tier items on sale to the marketplace directly from the inventory for a fixed price of QFT. Trading on-chain does not use the character's marketplace slots and allows users to place any number of items on sale.
 
-Also, these items can be withdrawn from- and deposited into the inventory as NFTs. For more details about on-chain trading of items see [Marketplace](../../infrastructure/marketplace.md).
+Also, these items can be withdrawn from- and deposited into the inventory as NFTs. For more details about on-chain trading of items see [Marketplace](../../../infrastructure/marketplace.md).
 
 {% hint style="info" %}
 As the trading of higher-tier items happens on-chain the user must pay the Polygon gas fee for each transaction.
