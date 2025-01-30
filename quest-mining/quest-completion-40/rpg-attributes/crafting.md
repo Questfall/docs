@@ -6,7 +6,7 @@ icon: hammer
 
 Crafting involves three types of actions: breaking down items (scrapping), increasing the level of items (upgrading), and making items rarer (evolving). All three aspects of crafting benefit from investing stat points in the Crafting attribute.
 
-## Scrapping
+### Scrapping
 
 Any RPG item can be disassembled for Essence. The higher the level and rarity of the item, the more Essence is gained from disassembling it.
 
@@ -22,7 +22,7 @@ The amount of Essence the item will yield is calculated using the formula below:
 
 This way, a user with a Crafting of 0 will gain 100 Essence from an item weighing 100 grams, while a user with a Crafting of 48 will gain 700 grams from the same item.
 
-## Upgrading
+### Upgrading
 
 Users can upgrade their items up to their own level, so if Alice is level 50, she can also upgrade her clothes up to level 50. As a result, when users level up, they need to upgrade all of their items, except for higher-level items purchased from the market, in order to have maximum performance.
 
@@ -41,7 +41,7 @@ $$Essence_{k->n}=5*(Level_n-Level_k)*(Level_n+Level_k-1)*Rarity*(Crafting+1)^{-0
 
 In general, if the Crafting attribute is 0, in order to upgrade an item, it is necessary to scrap the item of the same rarity and level (or many weaker items). Therefore, the Crafting attribute is crucial for leveling many items with limited number of items to scrap. as it noticeably increase the efficiency of Essence usage.
 
-## Evolution
+### Evolving
 
 In Questfall, there are two main ways to increase the rarity of an item, depending on its type. If items do not have levels, they can only be evolved by merging several equal items. If items have levels and can be upgraded, they can only be evolved by consuming Gems.&#x20;
 
