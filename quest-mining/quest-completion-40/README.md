@@ -51,7 +51,7 @@ However, such competition will not benefit miners, as Bounties will increase for
 
 Mining Power is one of the many parameters that define the character of the RPG system in Questfall. It is defined in percent with an initial value of 0% and can only be increased by the RPG mechanics and can never be negative.
 
-Mining Power can be increased by investing the attribute points gained with each new level into the Mining [attribute](broken-reference) or by equipping [clothing](rpg-items/items.md) with the appropriate effects.
+Mining Power can be increased by investing the attribute points gained with each new level into the Mining [attribute](broken-reference) or by equipping [clothing](items.md) with the appropriate effects.
 
 However, Mining Power is not the only character parameter that can be improved with attribute points or clothing, as there are many other stats that can provide an advantage in various areas.&#x20;
 

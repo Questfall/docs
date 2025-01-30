@@ -8,8 +8,8 @@ The common RPG approach assumes that users are represented by a character that b
 
 Questfall uses the same mechanic - users gain one stat point per [level](../levels.md) and can use it to improve any of the following attributes:
 
-* **Mining**: increases Mining Power and Stamina Reserve;
 * **Inventory**: increases the weight limit of stored items;
+* **Mining**: increases Mining Power and Stamina Reserve;
 * **Crafting**:  increased efficiency when working with Essence or Gems;
 * **Trading**: reduces marketplace fee, gives advantage on Gold withdrawal, adds marketplace slots;
 * **Regen**: increases Stamina Reserve recovery rate;

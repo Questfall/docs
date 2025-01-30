@@ -8,7 +8,7 @@ In Questfall, level is a key characteristic of users who complete quests, which 
 
 * Level determines which [league](leagues.md) a user belongs to, allowing a higher level user to mine [rewards](../quest-creation-10/rewards.md) with less competition.&#x20;
 * Each level grants one attribute point, which can be used to improve any of a [character's attributes](broken-reference).&#x20;
-* The level of [clothing](rpg-items/items.md) items is limited by the user's level, so progressing through the levels allows for clothing upgrades.
+* The level of [clothing](items.md) items is limited by the user's level, so progressing through the levels allows for clothing upgrades.
 * Level increases the weight of a user's vote in [community moderation](../community-moderation/) decisions and [quest ratings](../quest-creation-10/karma.md).
 
 While in most RPGs it is common to earn XP for leveling up directly, in Questfall there is an intermediate asset - [Silver](../../assets/Silver-in-game.md) - which allows to buy XP. This is because community moderation, which is rewarded with Silver, can be used not only by users who complete quests, but also by indie authors who want to promote their quests and be rewarded for doing so.
