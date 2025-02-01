@@ -12,7 +12,7 @@ Questfall uses the same mechanic - users gain one stat point per [level](../leve
 * [**Mining**](mining.md): increases Mining Power and Stamina Reserve;
 * [**Crafting**](crafting.md):  increased efficiency when working with Essence or Gems;
 * [**Trading**](trading.md): reduces marketplace fee, gives advantage on Gold withdrawal, adds marketplace slots;
-* [**Regen**](regen.md): increases Stamina Reserve recovery rate;
+* [**Recovery**](recovery.md): increases Stamina Reserve recovery rate;
 * [**Luck**](luck.md): increases chance of getting missing chest shards and other bonuses, adds loot box cards.
 
 {% hint style="info" %}

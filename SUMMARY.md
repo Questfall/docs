@@ -25,7 +25,7 @@
     * [Mining](quest-mining/quest-completion-40/rpg-attributes/mining.md)
     * [Crafting](quest-mining/quest-completion-40/rpg-attributes/crafting.md)
     * [Trading](quest-mining/quest-completion-40/rpg-attributes/trading.md)
-    * [Regen](quest-mining/quest-completion-40/rpg-attributes/regen.md)
+    * [Recovery](quest-mining/quest-completion-40/rpg-attributes/recovery.md)
     * [Luck](quest-mining/quest-completion-40/rpg-attributes/luck.md)
   * [RPG Items](quest-mining/quest-completion-40/rpg-items/README.md)
     * [Loot Boxes](quest-mining/quest-completion-40/loot-boxes.md)

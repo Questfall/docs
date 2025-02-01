@@ -23,7 +23,7 @@ Stamina is consumed when a user completes a quest and is automatically restored 
 In addition to its technical utility, stamina is part of an RPG system. A first-level character starts with a Stamina Reserve of 1000, and each point in the Mining attribute increases the Stamina Reserve linearly by 1000.
 
 {% hint style="info" %}
-The rate at which stamina regenerates over time is determined by the [Regen](regen.md) attribute.
+The rate at which stamina regenerates over time is determined by the [Regen](recovery.md) attribute.
 {% endhint %}
 
 Stamina consumption is directly affected by the total weight of the clothing worn. The heavier the clothing, the more stamina is consumed.&#x20;
