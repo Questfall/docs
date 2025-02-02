@@ -12,6 +12,16 @@ Every time a user collects a full set of shards during a week, he receives a fre
 
 Thus, at any given moment, the shards are divided into two parts: shards that have already been collected in any quantity and shards that are still missing. The probability of getting collected shards and missing shards is different and is affected by the **Luck** attribute.
 
+
+
+
+
+Upon each approved quest completion, users are rewarded with a random **Chest Shard** that does not add weight to their inventory. These shards, like puzzle pieces, make up the weekly set, which can contain a different number of shards from week to week (from 10 to 100).
+
+Every time a user collects a full set of shards during a week, he receives a free loot box (the collected set of shards is burned). This way, a user can collect the set numerous times during a week, opening multiple loot boxes. At the end of the week, unused shards will be burned.
+
+Thus, at any given moment, the shards are divided into two parts: shards that have already been collected in any quantity and shards that are still missing. The probability of getting collected shards and missing shards is different and is affected by the **Luck** attribute.
+
 Initially, a first-level character receives a random **Chest Shard** from an imaginary urn, where there is <mark style="background-color:purple;">32</mark> units of each missing shard and <mark style="background-color:purple;">61</mark> units of each collected shard. As a result, the odds of getting a particular collected shard are almost 2 times greater than the odds of getting a particular missing shard.
 
 However, for each point of **Luck**, the number of units of missing shards increases by <mark style="background-color:purple;">2</mark>, while the number of units of collected shards increases by <mark style="background-color:purple;">1</mark>. As a result, the chance of getting a particular missing shard relative to the chance of getting a particular collected shard increases from 1:2 to 2:1 with each additional point of **Luck**.
