@@ -6,6 +6,8 @@ icon: clover
 
 increases chance of getting missing chest shards and other bonuses, adds loot box cards.
 
+***
+
 ### **Chest Shards**
 
 Upon each approved quest completion, users are rewarded with a random **Chest Shard** that does not add weight to their inventory. These shards, like puzzle pieces, make up the weekly set, which can contain a different number of shards from week to week (from 10 to 100).
@@ -46,6 +48,8 @@ The process of opening a loot box consists of several turns, based on the number
 * **Turn 4**: The user is dealt 4 cards for the last time. Only 1 card contains an item, while the other 3 are finish cards. Since a hypothetical fifth turn would consist entirely of finish cards, this is the last turn. If the user selects a finish card, he will end the loot box opening with a total of 3 items. But if the user selects the item card, he will receive 4 items in total.
 
 As a result, the maximum number of items a user can potentially receive from a single loot box is equal to the number of cards granted by their **Luck** attribute. However, the actual number of items obtained depends on the user's choices and actual luck throughout the opening process.
+
+***
 
 ### Bonus Chances
 

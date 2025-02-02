@@ -6,6 +6,8 @@ icon: seedling
 
 The Recovery attribute increases the speed of the recovery rate for resources that replenish over time, and while in Questfall v.1 it will only apply to the recovery rate of stamina, in [future versions](../../../roadmap/future-versions.md) it may apply to more resources, such as mana.
 
+***
+
 ### Stamina Recovery Rate
 
 The larger the Stamina Reserve, the slower it will regenerate, as the amount of stamina replenished in a minute is absolute and does not depend on the size of the Reserve.

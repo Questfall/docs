@@ -6,6 +6,8 @@ icon: hammer
 
 Crafting involves three types of actions: breaking down items (scrapping), increasing the level of items (upgrading), and making items rarer (evolving). All three aspects of crafting benefit from investing stat points in the Crafting attribute.
 
+***
+
 ### Scrapping
 
 Any RPG item can be disassembled for Essence. The higher the level and rarity of the item, the more Essence is gained from disassembling it.
@@ -21,6 +23,8 @@ The amount of Essence the item will yield is calculated using the formula below:
 {% endhint %}
 
 This way, a user with a Crafting of 0 will gain 100 Essence from an item weighing 100 grams, while a user with a Crafting of 48 will gain 700 grams from the same item.
+
+***
 
 ### Upgrading
 
@@ -39,6 +43,8 @@ The more general formula, which implies that the user will use the same amount o
 {% endhint %}
 
 In general, if the Crafting attribute is 0, in order to upgrade an item, it is necessary to scrap the item of the same rarity and level (or many weaker items). Therefore, the Crafting attribute is crucial for leveling many items with limited number of items to scrap. as it noticeably increase the efficiency of Essence usage.
+
+***
 
 ### Evolving
 

@@ -40,7 +40,7 @@ In addition to character level and attributes, in-game items play an important r
 
 * Clothing improve character stats when equipped;
 * Potions replenish stamina;
-* Toolsets are used to increase the rarity tier of clothing.
+* Gems are used to increase the rarity tier of clothing.
 
 RPG items (except Toolsets) can only be minted through loot boxes, which can be opened for free as a reward for completing quests, or by burning Gold. When minted, each RPG item (except Potions) is one of six rarity tiers:
 
