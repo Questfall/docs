@@ -6,7 +6,9 @@ icon: sack-dollar
 
 To increase the value of [Gold](../assets/gold-in-game.md) and provide another way to convert in-game earnings into real-world value, 5% of the weekly [QFT](../assets/questfall-tokens-qft.md) issue will go to users in exchange for burning Gold via the auction mechanic.
 
-Throughout the week, users add their bids to the system auction. Since the price of QFT is volatile and can change throughout the week, bids include the amount of Gold along with its dollar price. This way, users can be sure that when they place a bid at the beginning of the week, they will get the amount of QFT whose dollar price is exactly what they want, regardless of QFT fluctuations.
+Throughout the week, users add their bids to the system auction. Since the price of QFT is volatile and can change throughout the week, bids include the amount of Gold along with its dollar price.&#x20;
+
+This way, users can be sure that when they place a bid at the beginning of the week, they will get the amount of QFT whose dollar price is exactly what they want, regardless of QFT fluctuations.
 
 Bids are sorted by the dollar price users offer for burning their Gold - the lower the price, the higher the bid in the queue. And since the amount of QFTs available for each auction is limited, the order of bids is very important, as there will not be enough QFTs to fill them all.
 
