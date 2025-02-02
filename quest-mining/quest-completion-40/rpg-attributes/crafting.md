@@ -16,13 +16,17 @@ Any RPG item can be disassembled for Essence. The higher the level and rarity of
 Since Essence does not take up inventory space, disassembling items is one of the ways to free up inventory.
 {% endhint %}
 
-In fact, since level and rarity make up the weight of the item, the amount of Essence gained from a disassembled item is directly determined by its weight. The heavier the item, the more Essence it will yield. Another parameter that affects the amount of Essence gained from items is the Crafting attribute.
+Another parameter that affects the amount of Essence gained from items is the Crafting attribute. The higher is the Crafting attribute the more Essence a user will gain from the same item.
+
+For example, a user with a Crafting of 0 will gain 200 Essence from a level 10 E item. A user with a Crafting of 100 will gain 317 Essence from the same item.
 
 {% hint style="info" %}
-The amount of Essence the item will yield is calculated using the formula below: $$Essence=\frac{Weight_{item}}{\sqrt{Crafting_{user}+1}}$$
+The amount of Essence the item will yield is calculated using the formula below: $$Essence=10*Rarity*Level*(Crafting+1)^{0.1}$$
 {% endhint %}
 
-This way, a user with a Crafting of 0 will gain 100 Essence from an item weighing 100 grams, while a user with a Crafting of 48 will gain 700 grams from the same item.
+While this may not seem like much of an advantage, there are two other factors to consider. First, the higher the level of the item, the greater the absolute difference. The level 100 item E will gain 3172 Essence with Crafting 100, which is 1172 more than with Crafting 0.
+
+Second, and more importantly, with more points in the Crafting attribute, not only does the amount of Essence gained from scrapping increase, but the amount of Essence needed to upgrade or evolve decreases at the same time.
 
 ***
 
@@ -37,12 +41,12 @@ In Questfall v.1, only clothing has levels that can be increased, but in [future
 Items can only be upgraded with Essence, the only source of which is the item scrap. This creates a constant demand for low level or weak items. The amount of Essence required to upgrade a particular item is determined by the current and target levels, the rarity, and the Crafting attribute.
 
 {% hint style="info" %}
-The amount of Essence required to upgrade an item to the next level: $$Essence_{k−>k+1}=100∗Level_k∗Rarity∗(Crafting+1)^{−0.5}$$
+The amount of Essence required to upgrade an item to the next level: $$Essence_{k−>k+1}=10∗Rarity∗Level_k∗(Crafting+1)^{−0.1}$$
 
-The more general formula, which implies that the user will use the same amount of Essence upgrading level by level or several levels at once, is as follows: $$Essence_{k−>n}=50∗(Level_n−Level_k)∗(Level_n+Level_k−1)∗Rarity∗(Crafting+1)^{−0.5}$$
+The more general formula, which implies that the user will use the same amount of Essence upgrading level by level or several levels at once, is as follows: $$Essence_{k−>n}=5∗(Level_n−Level_k)∗(Level_n+Level_k−1)∗Rarity∗(Crafting+1)^{−0.1}$$
 {% endhint %}
 
-In general, if the Crafting attribute is 0, in order to upgrade an item, it is necessary to scrap the item of the same rarity and level (or many weaker items). Therefore, the Crafting attribute is crucial for leveling many items with limited number of items to scrap. as it noticeably increase the efficiency of Essence usage.
+In general, if the Crafting attribute is 0, it is necessary to scrap an item of the same rarity and level in order to level up an item by one level. Therefore, the Crafting attribute is crucial for leveling many items with a limited number of items to scrap, as it noticeably increases the efficiency of Essence usage.
 
 ***
 
@@ -54,18 +58,22 @@ In Questfall, there are two main ways to increase the rarity of an item, dependi
 In Questfall v.1, [clothing](../items.md) can only be evolved using Gems, while [potions](../rpg-items/potions.md) can be evolved by merging two identical bottles. In [future versions](../../../roadmap/future-versions.md), several new types of RPG items will be implemented, but these two evolution principles will remain the same.
 {% endhint %}
 
-In both cases, a user will also need Essence to cover the difference between the weights of the current rarity level and the new one.
+While evolving by merging only requires common RPG items that can be obtained from [loot boxes](../loot-boxes.md), evolving an item with levels would require a [Gem](../rpg-items/gems.md). Initially, Gems can only be obtained by participating in the [Liquidity Program](../../../infrastructure/liquidity-providers.md), where each Crafting point increases the chances of obtaining more rare Gems.
+
+To evolve, a user needs a Gem of the same rarity as the item to be evolved. For example, to evolve boots from rarity F to rarity E, a user would need a Gem of rarity F.
 
 {% hint style="info" %}
-The Essence needed to evolve to the next rarity is calculated by the formula: $$Essence_{k->k+1}=\frac{Weight_{k+1}-Weight_{k}}{\sqrt{Crafting+1}}$$
+In this way, users can buy items and Gems of the same rarity on the marketplace with Gold, evolve them, and when an item reaches rarity C, it can be sold for QFT.
 {% endhint %}
 
-Evolving through merging only requires common RPG items that can be obtained from [loot boxes](../loot-boxes.md), and the Crafting attribute only reduces the amount of Essence.&#x20;
+In both cases, a user will need Essence to evolve an item, either by merging or by using a Gem. However, the amount of Essence required is calculated differently.&#x20;
 
-However, for evolving an item with levels a user would need a Gem of the current item rarity. For example, to evolve boots from rarity E to rarity D, a user would need a Gem of rarity E.&#x20;
+The amount of Essences needed for merging depends on the rarity of the item, while for evolving with a Gem it depends on the current level of the item. Obviously, the Crafting attribute reduces the amount of Essence required to evolve an item in both cases.
 
 {% hint style="info" %}
-In this way, users can buy items and Gems of the same rarity on the marketplace with Gold, evolve them, and when an item reaches rarity C, it can be extracted as NFT and sold on the chain for QFT.
-{% endhint %}
+The Essence required for merging: \
+$$Essence_{r->r+1}=5*Rarity_{r+1}*(Rarity_{r+1}-1)*(Crafting+1)^{-0.5}$$
 
-Initially, Gems can only be obtained by participating in the [Liquidity Program](../../../infrastructure/liquidity-providers.md), where each Crafting point increases the chances of obtaining more rare Gems.
+The Essence required to evolve with a Gem:\
+$$Essence_{r->r+1}=5*Level*(Level-1)*(Crafting+1)^{-0.5}$$
+{% endhint %}
