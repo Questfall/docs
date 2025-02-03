@@ -55,10 +55,10 @@ In general, the higher the Crafting attribute, the greater the difference betwee
 In Questfall, there are two main ways to increase the rarity of an item, depending on its type. If items do not have levels, they can only be evolved by merging several equal items. If items have levels and can be upgraded, they can only be evolved by consuming Gems.&#x20;
 
 {% hint style="info" %}
-In Questfall v.1, [clothing](../items.md) can only be evolved using Gems, while [potions](../rpg-items/potions.md) can be evolved by merging two identical bottles. In [future versions](../../../roadmap/future-versions.md), several new types of RPG items will be implemented, but these two evolution principles will remain the same.
+In Questfall v.1, [clothing](../items.md) can only be evolved using Gems, while [potions](../rpg-items/potions.md) can be evolved by merging two identical bottles.
 {% endhint %}
 
-While evolving by merging only requires common RPG items that can be obtained from [loot boxes](../loot-boxes.md), evolving an item with levels would require a [Gem](../rpg-items/gems.md).
+While evolving by merging only requires common RPG items that can be obtained from [loot boxes](broken-reference), evolving an item with levels would require a [Gem](../rpg-items/gems.md).
 
 {% hint style="info" %}
 Initially, Gems can only be obtained by participating in the [Liquidity Program](../../../infrastructure/liquidity-providers.md), where each Crafting point increases the chances of obtaining more rare Gems.

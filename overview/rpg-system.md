@@ -42,7 +42,7 @@ In addition to character level and attributes, in-game items play an important r
 * Potions replenish stamina;
 * Gems are used to increase the rarity tier of clothing.
 
-RPG items (except Toolsets) can only be minted through loot boxes, which can be opened for free as a reward for completing quests, or by burning Gold. When minted, each RPG item (except Potions) is one of six rarity tiers:
+RPG items (except Gems) can only be minted through loot boxes, which can be opened for free as a reward for completing quests, or by burning Gold. When minted, each RPG item is one of six rarity tiers:
 
 * Common (F);
 * Uncommon (E);
@@ -51,7 +51,7 @@ RPG items (except Toolsets) can only be minted through loot boxes, which can be 
 * Legendary (B);
 * Mythical (A).
 
-Unlike many common RPG systems, Questfall allows users to increase the rarity of certain item types by destroying other items, or in other words, by crafting. The rarity tier of Books can be increased by combining 5 of the same Books, while the rarity tier of Clothing can be increased by consuming a Toolset of the same tier as the item itself.
+Unlike many common RPG systems, Questfall allows users to increase the rarity of certain item types by destroying other items, or in other words, by crafting. The rarity tier of Books can be increased by combining 5 of the same Books, while the rarity tier of Clothing can be increased by consuming a Gem of the same tier as the item itself.
 
 {% hint style="info" %}
 Toolsets only have 5 rarity tiers because the Mythical items cannot evolve further, so there is no need for Toolset A. And unlike all other RPG items, Toolsets can only be obtained by participating in the [Liquidity Program](../infrastructure/liquidity-providers.md), not by opening loot boxes.

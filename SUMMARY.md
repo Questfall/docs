@@ -28,7 +28,6 @@
     * [Recovery](quest-mining/quest-completion-40/rpg-attributes/recovery.md)
     * [Luck](quest-mining/quest-completion-40/rpg-attributes/luck.md)
   * [RPG Items](quest-mining/quest-completion-40/rpg-items/README.md)
-    * [Loot Boxes](quest-mining/quest-completion-40/loot-boxes.md)
     * [Clothing](quest-mining/quest-completion-40/items.md)
     * [Potions](quest-mining/quest-completion-40/rpg-items/potions.md)
     * [Gems](quest-mining/quest-completion-40/rpg-items/gems.md)
