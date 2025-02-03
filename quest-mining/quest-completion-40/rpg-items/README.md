@@ -7,14 +7,14 @@ icon: box-open-full
 There are several types of RPG items in Questfall, and each of them plays an important role in the user's overall performance, depending on the strategy chosen.
 
 {% hint style="info" %}
-Although there are only three types of RPG items in Questfall v.1, there will be more in [future releases](../../../roadmap/future-versions.md). For example, elixirs, spellbooks, mana potions and warriors are already scheduled to be implemented.
+Although there are only three types of RPG items in Questfall v.1, there will be more in [future releases](../../../roadmap/future-versions.md). For example, Elixirs, Spellbooks, Mana Potions and Warriors are already scheduled to be implemented.
 {% endhint %}
 
 * [Clothing](../items.md) enhances every aspect of a character, from mining power to marketplace fees.
 * [Potions](potions.md) allow users to instantly restore resources that are replenished over time, such as stamina.&#x20;
-* [Gems](gems.md) allow users to increase the rarity of other RPG items that have levels, such as clothing.
+* [Gems](gems.md) allow users to increase the rarity of other RPG items that have levels, such as Clothing.
 
-Every RPG item in Questfall has a rarity - the rarer the item, the more powerful it is. In addition to rarity, some types of items are levelable, or have levels that can be upgraded. While level-less items (potions, gems) are consumed when used, levelable items (clothing) can be used and then sold for use by someone else.
+Every RPG item in Questfall has a rarity - the rarer the item, the more powerful it is. In addition to rarity, some types of items are levelable, or have levels that can be upgraded. While level-less items (Potions, Gems) are consumed when used, levelable items (Clothing) can be used and then sold for use by someone else.
 
 All items except Gems are initially issued from loot boxes, which can be obtained for free by completing quests or purchased with [Gold](../../../assets/gold-in-game.md). And until the item is used, it adds a certain amount of weight to the user's inventory, depending on its level (if applicable) and rarity tier.
 
@@ -67,7 +67,7 @@ Every RPG item in Questfall falls into one of six rarity tiers:
 In formulas that use rarity, Common is considered 1, Uncommon is considered 2, and so on up to Mythical, which is considered 6.
 {% endhint %}
 
-Unlike many common RPG systems, Questfall allows users to [evolve](../rpg-attributes/crafting.md#evolving) the rarity tier of items. Items without levels (potions, gems) can only be evolved by merging multiple identical items. Levelable items (clothing), on the other hand, can only be evolved by consuming gems.
+Unlike many common RPG systems, Questfall allows users to [evolve](../rpg-attributes/crafting.md#evolving) the rarity tier of items. Items without levels (Potions, Gems) can only be evolved by merging multiple identical items. Levelable items (Clothing), on the other hand, can only be evolved by consuming Gems.
 
 {% hint style="info" %}
 In [future versions](../../../roadmap/future-versions.md), several new types of RPG items will be implemented, but these two evolution principles will remain the same.
@@ -84,7 +84,7 @@ Users can [upgrade](../rpg-attributes/crafting.md#upgrading) RPG items that have
 Users can also use items that are above their own level if they get them from loot boxes or buy them from the marketplace. In this case, however, the item's power will be reduced in proportion to the level gap.
 
 {% hint style="info" %}
-In Questfall v.1, only clothing has levels, but more levelable items, such as warriors, will be added later.
+In Questfall v.1, only Clothing has levels, but more levelable items, such as Warriors, will be added later.
 {% endhint %}
 
 Leveling up an item requires Essence - a non-tradable resource that can only be obtained by [scrapping](../rpg-attributes/crafting.md#scrapping) other RPG items. With each level, an item becomes not only more powerful, but also heavier, draining more stamina when equipped or consuming the inventory weight limit.
