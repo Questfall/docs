@@ -95,4 +95,4 @@ This approach creates a constant demand for weak, low level, or common items bec
 
 Rarity is very important when leveling up an item, as it determines how much the item will increase in power with each subsequent level. For example, if a user increases the rarity of a level 10 item from F to E, the power gained with those first 10 levels will be fixed forever. The new power increase due to the higher rarity will only be applied starting with the next level.
 
-In this way, identical high-level items can have very different power depending on the level at which their rarity was evolved. In other words, users can either ruin items with late evolution, or they can craft a perfect item by evolving its rarity while it is still at level 1.
+In this way, identical high-level items can have very different power depending on the level at which their rarity was evolved. In other words, users can either ruin items by evolving them late, or they can craft a perfect item by evolving its rarity while it is still at the first level.
