@@ -41,10 +41,10 @@ But of course we will do our best to attract as many founders as possible, becau
 Founders are people who have brought critical value to the project, without whom Questfall would not even exist, and therefore are rewarded with many benefits from the system.
 
 {% hint style="info" %}
-Many bonuses are tied to the wallet address used in IFE and not to the Founder NFT itself, making it more attractive to get NFT during IFE than to buy it later on the secondary market.
+Several bonuses are tied to the wallet address used in IFE and not to the Founder NFT itself, making it more attractive to get NFT during IFE than to buy it later on the secondary market.
 {% endhint %}
 
-All Founders are considered equal, and we as developers do not receive any special bonuses. This is because the benefits of being a Founder are automatically distributed by the system to each Founder NFT owner according to their share of Founder Points.&#x20;
+All Founders are considered equal, and we as developers do not receive any special bonuses, as the benefits of being a Founder are automatically distributed by the system to each Founder NFT owner according to their share of Founder Points.&#x20;
 
 {% hint style="info" %}
 There is no limit to the number of Founder NFTs a wallet can have. Therefore, the total share is calculated as the sum of the Founder Points contained in all owned NFTs.
@@ -52,7 +52,7 @@ There is no limit to the number of Founder NFTs a wallet can have. Therefore, th
 
 ### Passive Income for Life with Weekly QFT / <mark style="color:orange;">NFT</mark>
 
-The mining approach assumes that there is no other way to profit from the system other than receiving a portion of the token issuance. It can be thought of as taking profits from a company as dividends in a traditional fiat money approach.
+The mining approach assumes that there is no other way to profit from the system other than receiving a portion of the token issuance. It can be compared to taking profits from a company as dividends in a traditional fiat money approach.
 
 {% hint style="info" %}
 Weekly rewards can be thought of as salaries for employees and payments to vendors based on the value they add to the system during the week, while Founders are the only participants in Questfall who receive an income stream for adding one-time value. Just like shareholders in a real company.
@@ -98,31 +98,27 @@ However, since there will be no higher rarity RPG items in the system at launch,
 
 ### Free Leveling Up and Quest Promotion / <mark style="color:orange;">NFT</mark>
 
-In Questfall, there is another in-game currency besides Gold - Silver, which can be obtained through proper moderation or by burning Gold - every 1 Gold yields 10 Silver. Silver can't be exchanged back for Gold and can only be burned for leveling up or quest promotion.
+In Questfall, there is another in-game currency besides Gold - Silver, which can be obtained through proper moderation or by burning Gold - every 1 Gold yields 10 Silver.&#x20;
 
 {% hint style="info" %}
 Since there is Gold in the Founder NFTs, it can also be used to get Silver. However, this defeats the purpose of NTS cost compensation.
 {% endhint %}
 
-<table><thead><tr><th width="218">Founder NFT</th><th width="133" align="center">Silver Bonus</th><th width="121" align="center">Dollar Value</th></tr></thead><tbody><tr><td>Common (F)</td><td align="center">100,000</td><td align="center">$100</td></tr><tr><td>Uncommon (E)</td><td align="center">200,000</td><td align="center">$200</td></tr><tr><td>Rare (D)</td><td align="center">400,000</td><td align="center">$400</td></tr><tr><td>Epic (C)</td><td align="center">800,000</td><td align="center">$800</td></tr><tr><td>Legendary (B)</td><td align="center">1,600,000</td><td align="center">$1,600</td></tr><tr><td>Mythical (A)</td><td align="center">3,200,000</td><td align="center">$3,200</td></tr></tbody></table>
+Founders will receive a certain amount of Silver, based on the rarity of their NFT, for the first 50 weeks after Questfall launches. And while Silver is non-tradable and non-withdrawable, Founders will be able to use it for leveling up, or for quest promotion.
 
-Founders will receive Silver as soon as they log in to Questfall, meaning that the Silver bonus is not tied to the NFT itself, but rather to the wallet address used by the Founder during the IFE.&#x20;
+<table><thead><tr><th width="218">Founder NFT</th><th width="133" align="center">Silver Bonus</th><th width="121" align="center">Dollar Value</th><th width="148" align="center">Weekly Release</th></tr></thead><tbody><tr><td>Common (F)</td><td align="center">100,000</td><td align="center">$100</td><td align="center">2,000 ($2)</td></tr><tr><td>Uncommon (E)</td><td align="center">200,000</td><td align="center">$200</td><td align="center">4,000 ($4)</td></tr><tr><td>Rare (D)</td><td align="center">400,000</td><td align="center">$400</td><td align="center">8,000 ($8)</td></tr><tr><td>Epic (C)</td><td align="center">800,000</td><td align="center">$800</td><td align="center">16,000 ($16)</td></tr><tr><td>Legendary (B)</td><td align="center">1,600,000</td><td align="center">$1,600</td><td align="center">32,000 ($32)</td></tr><tr><td>Mythical (A)</td><td align="center">3,200,000</td><td align="center">$3,200</td><td align="center">64,000 ($64)</td></tr></tbody></table>
 
-And while Silver is non-tradable and non-withdrawable, it will be fully released immediately after the first sign-in, giving Founders an early boost in the system.
+Having free Silver each week will give Founders a noticeable advantage, whether they choose to complete quests or promote their own project to the Questfall audience.
 
 ### Free Clothing Enhancement Toolsets / <mark style="color:green;">IFE Wallet</mark>
 
-While users can obtain most RPG items from loot boxes, Toolsets are a special type of RPG item that can only be obtained by participating in the [Liquidity Program](../infrastructure/liquidity-providers.md) - by providing liquidity to the DEX pool and burning ownership of the LP tokens received.
+While users can obtain most RPG items from loot boxes, [Gems](../quest-mining/quest-completion-40/rpg-items/gems.md) are a special type of RPG item that can only be obtained by participating in the [Liquidity Program](../infrastructure/liquidity-providers.md) - by providing liquidity to the DEX pool and burning ownership of the LP tokens received.
 
-Each owner of Founder NFTs, except for NFTs of rarity F, will receive Toolsets of all rarities lower than the rarity of the NFT.
+Each IFE participant will Each IFE participant will receive Gems of all rarities not higher than the rarity of the NFT.
 
-{% hint style="info" %}
-There are no Toolsets of rarity A, because Mythical (A) items cannot increase their rarity.
-{% endhint %}
+<table><thead><tr><th width="192">Founder NFT</th><th width="285">Gems</th></tr></thead><tbody><tr><td>Common (F)</td><td>F x 1</td></tr><tr><td>Uncommon (E)</td><td>F x 1, E x 1</td></tr><tr><td>Rare (D)</td><td>F x 1, E x 1, D x 1</td></tr><tr><td>Epic (C)</td><td>F x 1, E x 1, D x 1, C x 1</td></tr><tr><td>Legendary (B)</td><td>F x 1, E x 1, D x 1, C x 1, B x 1</td></tr><tr><td>Mythical (A)</td><td>F x 1, E x 1, D x 1, C x 1, B x 1, A x 1</td></tr></tbody></table>
 
-<table><thead><tr><th width="192">Founder NFT</th><th width="285">Toolsets</th></tr></thead><tbody><tr><td>Common (F)</td><td>-</td></tr><tr><td>Uncommon (E)</td><td>F x 1</td></tr><tr><td>Rare (D)</td><td>F x 1, E x 1</td></tr><tr><td>Epic (C)</td><td>F x 1, E x 1, D x 1</td></tr><tr><td>Legendary (B)</td><td>F x 1, E x 1, D x 1, C x 1</td></tr><tr><td>Mythical (A)</td><td>F x 1, E x 1, D x 1, C x 1, B x 1</td></tr></tbody></table>
-
-Toolsets are awarded to founders based on the wallet address used in the IFE, and allow founders to sell their Toolsets for Gold or QFT, depending on the tier, or to apply them to their own clothing, increasing the rarity tier.
+Gems allow founders to sell their Gems for Gold or QFT, depending on the tier, or to apply them to their own clothing to increase its rarity.
 
 ### Long-term NFT Price Increase / <mark style="color:orange;">NFT</mark>
 
@@ -154,4 +150,4 @@ Ambassadors, on the other hand, will receive 15% of the full NFT price immediate
 
 <table><thead><tr><th width="163">Founder NFT</th><th width="86" align="center">Price</th><th width="139" align="center">User Payment</th><th width="130" align="center">Ambassador</th><th width="86" align="center">Team</th></tr></thead><tbody><tr><td>Common (F)</td><td align="center">$100</td><td align="center">$90</td><td align="center">$15</td><td align="center">$75</td></tr><tr><td>Uncommon (E)</td><td align="center">$200</td><td align="center">$180</td><td align="center">$30</td><td align="center">$150</td></tr><tr><td>Rare (D)</td><td align="center">$400</td><td align="center">$360</td><td align="center">$60</td><td align="center">$300</td></tr><tr><td>Epic (C)</td><td align="center">$800</td><td align="center">$720</td><td align="center">$120</td><td align="center">$600</td></tr><tr><td>Legendary (B)</td><td align="center">$1600</td><td align="center">$1440</td><td align="center">$240</td><td align="center">$1200</td></tr><tr><td>Mythical (A)</td><td align="center">$3200</td><td align="center">$2880</td><td align="center">$480</td><td align="center">$2400</td></tr></tbody></table>
 
-A total of $216,000 will be distributed to the Ambassadors, who will also have the opportunity to increase their reputation in their communities, as projects like Questfall do not come along very often.
+A total of **$216,000** will be distributed to the Ambassadors, who will also have the opportunity to increase their reputation in their communities, as projects like Questfall do not come along very often.
