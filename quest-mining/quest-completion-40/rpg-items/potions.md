@@ -37,7 +37,7 @@ Scrapping and evolving values in the table are calculated for a Crafting attribu
 The potion adds the full amount provided by the effect to the reserve, which can hold more than its nominal size. For example, if a user has a reserve size of 10,000 and only has 4,000 stamina left, a C-rarity potion will add 8,000 (80%). This will result in 12,000 stamina in the reserve.
 
 {% hint style="info" %}
-However, to prevent automation by gaining a huge amount of stamina before running a bot, a potion can only be consumed when the reserve is half empty.
+However, to prevent automation by gaining a huge amount of stamina before running a bot, a potion cannot be consumed when the reserve is full.
 {% endhint %}
 
 [^1]: The average percentage of a specific potion type compared to all loot box potions.
