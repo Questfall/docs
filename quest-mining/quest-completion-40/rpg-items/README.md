@@ -81,18 +81,26 @@ Low rarity items (F,E,D) are traded on the [marketplace](../../../infrastructure
 
 Users can [upgrade](../rpg-attributes/crafting.md#upgrading) RPG items that have levels up to their own [level](../levels.md). This way, as users progress through levels, they can upgrade the items they use to make them more powerful.
 
-Users can also use items that are above their own level if they get them from loot boxes or buy them from the marketplace. In this case, however, the item's power will be reduced in proportion to the level gap.
+With each level, however, an item becomes not only more powerful, but also heavier, draining more stamina when equipped or consuming the inventory weight limit.
 
 {% hint style="info" %}
 In Questfall v.1, only Clothing has levels, but more levelable items, such as Warriors, will be added later.
 {% endhint %}
 
-Leveling up an item requires Essence - a non-tradable resource that can only be obtained by [scrapping](../rpg-attributes/crafting.md#scrapping) other RPG items. With each level, an item becomes not only more powerful, but also heavier, draining more stamina when equipped or consuming the inventory weight limit.
+In most RPGs, a user's level is a threshold that prevents them from equipping or using items of a higher level than their character. In Questfall, this is not the case, as users can use items regardless of their level.
+
+For example, users can equip clothing above their own level that they have obtained from loot boxes or the [marketplace](../../../infrastructure/marketplace.md). However, the power of the item will be reduced in proportion to the level gap.
+
+The core idea behind the levels in Questfall is not to create a barrier, but rather to create a constant demand for low-level items, which is achieved through Essence. This is a non-tradable resource that can only be obtained by [scrapping](../rpg-attributes/crafting.md#scrapping) other RPG items, and is required for item upgrades or evolution.
 
 {% hint style="info" %}
-This approach creates a constant demand for weak, low level, or common items because they can be salvaged to improve favorite items.
+For more information, see the [Crafting](../rpg-attributes/crafting.md) attribute article.
 {% endhint %}
 
-Rarity is very important when leveling up an item, as it determines how much the item will increase in power with each subsequent level. For example, if a user increases the rarity of a level 10 item from F to E, the power gained with those first 10 levels will be fixed forever. The new power increase due to the higher rarity will only be applied starting with the next level.
+When leveling items, rarity plays a crucial role, as it determines how much the item will increase in power with each subsequent level. This is better explained with an example.&#x20;
+
+Let's say there is an item that gives +1% to an effect for rarity F and +2% for rarity E. So item F at level 10 gives +10%. When the item is evolved to the next rarity E, the bonus increases to +2%, but it will only apply to the next level upgrades.&#x20;
+
+In other words, an increase in the level of an item fixes its power. So the bonus for the first 10 levels when the item was of rarity F is set in stone forever. If the item is evolved to rarity E at level 10 and further evolved to level 11, its bonus will be +12% (10% + 2%), not +22%.
 
 In this way, identical high-level items can have very different power depending on the level at which their rarity was evolved. In other words, users can either ruin items by evolving them late, or they can craft a perfect item by evolving its rarity while it is still at the first level.
