@@ -12,7 +12,7 @@ The primary goal of the Initial Funding Event (IFE) is to raise money for the in
 Founder NFTs will only be minted during the IFE and never again, as it is a one-time event.
 {% endhint %}
 
-Depending on the rarity tier, of which there are six, each Founder NFT contains a certain amount of Founder Points, which are used to distribute the founders' share of the weekly QFT issue. Since the total supply of each rarity tier is limited, the maximum amount of Founder Points is also limited and cannot exceed <mark style="color:yellow;">**2,602,200**</mark>.
+Depending on the rarity tier, of which there are six, each Founder NFT contains a certain amount of Founder Points, which are used to distribute the founders' share of the weekly QFT issue. Since the total supply of each rarity tier is limited, the maximum amount of Founder Points is also limited and cannot exceed **2,602,200**.
 
 On the one hand, the number of available NFTs decreases by half with each tier and their price doubles respectively. On the other hand, the amount of Founder Points contained in each NFT increases by x2.243. In this way, the higher tiers receive a discount on the price per Founder Point they contain.
 
@@ -20,12 +20,12 @@ On the one hand, the number of available NFTs decreases by half with each tier a
 
 The maximum number of Founder NFTs that can be minted during the IFE is 6300: 1575 by the Team, and 4725 by the public.&#x20;
 
-As a result, the total amount of money that can be raised during the IFE is limited to $1,440,000, but since there is a referral program that gives a 10% discount on the price of NFTs and 15% of the full price as a reward to Ambassadors, the final amount that the Team can actually raise is limited to <mark style="background-color:purple;">$1,080,000</mark>.
+As a result, the total amount of money that can be raised during the IFE is limited to $1,440,000, but since there is a referral program that gives a 10% discount on the price of NFTs and 15% of the full price as a reward to Ambassadors, the final amount that the Team can actually raise is limited to **$1,080,000**.
 
 However, there is no low cap, as we will develop Questfall regardless of the final amount we are able to raise. We will launch the project even if we raise nothing, as we have already put a lot of effort into it and see a great potential in Deflationary Quest Mining.&#x20;
 
 {% hint style="info" %}
-Of course, it will be much easier and faster to launch Quesfall if we can hire several developers, designers and marketers.
+Of course, it will be much easier and faster to launch Questfall if we can hire several developers, designers and marketers.
 {% endhint %}
 
 This is why we limit the event to 3 days, because we see it as an opportunity for people to get on board, not for us to make as much money as possible.&#x20;
@@ -50,7 +50,7 @@ All Founders are considered equal, and we as developers do not receive any speci
 There is no limit to the number of Founder NFTs a wallet can have. Therefore, the total share is calculated as the sum of the Founder Points contained in all owned NFTs.
 {% endhint %}
 
-### Passive Income for Life with Weekly QFT
+### Passive Income for Life with Weekly QFT / <mark style="color:orange;">NFT</mark>
 
 The mining approach assumes that there is no other way to profit from the system other than receiving a portion of the token issuance. It can be thought of as taking profits from a company as dividends in a traditional fiat money approach.
 
@@ -70,7 +70,7 @@ Assuming that half of the circulating QFTs (706k) will be in the liquidity pool 
 
 However, this estimate does not take into account the number of QFTs that will be burned during the first year, which directly affects the QFT price for the same amount of stablecoins in the pool. And since the low QFT price incentivizes QFT burning, we actually expect the QFT price to be higher than $10 at the end of the first year.
 
-### Double compensation for NFT costs
+### Double compensation for NFT costs / <mark style="color:orange;">NFT</mark>
 
 We want a weekly QFT reward to be a real profit that can be considered independently of the cost of the NFT itself.&#x20;
 
@@ -80,7 +80,7 @@ To accomplish this, we include in each NFT the amount of Gold necessary to cover
 
 Since the large amount of Gold in the system can break a balance, the Gold Compensation will be released in equal parts over 50 weeks, or almost a year. In addition to the direct goal of compensation, this approach will also increase the price of Founder NFTs during the first year.
 
-### Founders Edition Loot Boxes
+### Founders Edition Loot Boxes / <mark style="color:green;">IFE Wallet</mark>
 
 Each Founder NFT is granted a certain number of Founders Edition (FE) Loot Boxes. While regular loot boxes in the system are unlimited and available to everyone, FE Loot Boxes are limited and only available to Founders.
 
@@ -96,7 +96,7 @@ FE Loot Boxes are not included in the Founder NFTs themselves, and will be avail
 
 However, since there will be no higher rarity RPG items in the system at launch, owners of the rarer Founder NFTs will be the only ones with rarer items for some time. This will allow them to gain an early advantage or sell these RPG items for a profit.
 
-### Free Leveling Up and Quest Promotion
+### Free Leveling Up and Quest Promotion / <mark style="color:orange;">NFT</mark>
 
 In Questfall, there is another in-game currency besides Gold - Silver, which can be obtained through proper moderation or by burning Gold - every 1 Gold yields 10 Silver. Silver can't be exchanged back for Gold and can only be burned for leveling up or quest promotion.
 
@@ -110,7 +110,7 @@ Founders will receive Silver as soon as they log in to Questfall, meaning that t
 
 And while Silver is non-tradable and non-withdrawable, it will be fully released immediately after the first sign-in, giving Founders an early boost in the system.
 
-### Free Clothing Enhancement Toolsets
+### Free Clothing Enhancement Toolsets / <mark style="color:green;">IFE Wallet</mark>
 
 While users can obtain most RPG items from loot boxes, Toolsets are a special type of RPG item that can only be obtained by participating in the [Liquidity Program](../infrastructure/liquidity-providers.md) - by providing liquidity to the DEX pool and burning ownership of the LP tokens received.
 
@@ -124,7 +124,7 @@ There are no Toolsets of rarity A, because Mythical (A) items cannot increase th
 
 Toolsets are awarded to founders based on the wallet address used in the IFE, and allow founders to sell their Toolsets for Gold or QFT, depending on the tier, or to apply them to their own clothing, increasing the rarity tier.
 
-### Long-term NFT Price Increase
+### Long-term NFT Price Increase / <mark style="color:orange;">NFT</mark>
 
 The 1% portion of the weekly QFT issuance is used by the system to buy back and burn Founder NFTs through the auction mechanism based on Founder Point price bids.&#x20;
 
@@ -132,7 +132,7 @@ This means that the amount of Founder NFTs in circulation will decrease over tim
 
 Furthermore, at some point in the future, only one founder will remain, and that founder will be able to sell the last NFT at any price he or she is willing to wait for, as the unused QFTs in the auction accumulate each week.
 
-### Private Founders Club
+### Private Founders Club / <mark style="color:orange;">NFT</mark>
 
 The founders of the higher tiers (C, B, A) will have access to the Team's private group, where they will be able to influence the development of the project and receive advance notice of upcoming events.
 
