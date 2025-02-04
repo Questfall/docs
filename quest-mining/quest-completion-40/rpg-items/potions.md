@@ -24,18 +24,6 @@ For example, Stamina Potions assume that two potions are merged to evolve. There
 
 When consumed, a Stamina Potion will restore a percentage of the user's Stamina Reserve, depending on the rarity of the potion. The Stamina Potion of rarity F restores 10% of the total size of the Stamina Reserve, and each subsequent rarity tier doubles the effect.&#x20;
 
-<details>
-
-<summary>Base parameters</summary>
-
-* Average loot box percentage: 10%
-* Effect growth with each rarity: x2
-* Density affecting the weight: $$Rarity^{-2.2}$$
-* Merging factor for evolution: x2
-* Drop rate decrease with rarity: x0.5
-
-</details>
-
 Since evolving requires two potions that have the same resultant effect, it might seem that there is no point in evolving. However, the weight increases more slowly, so an E potion, for example, has the same effect as two F potions, but takes up less inventory space.
 
 <table><thead><tr><th width="94" align="center">Rarity</th><th width="87" align="center">Effect</th><th width="83" align="center">Weight </th><th width="108" align="center">Drop Rate</th><th width="105" align="center">Scrapping</th><th width="115" align="center">Evolving</th></tr></thead><tbody><tr><td align="center">F</td><td align="center">+10%</td><td align="center">100g</td><td align="center"><span class="math">\frac{32}{630}</span></td><td align="center">+11es</td><td align="center">-</td></tr><tr><td align="center">E</td><td align="center">+20%</td><td align="center">174g</td><td align="center"><span class="math">\frac{16}{630}</span></td><td align="center">+14es</td><td align="center">2xF+10es</td></tr><tr><td align="center">D</td><td align="center">+40%</td><td align="center">241g</td><td align="center"><span class="math">\frac{8}{630}</span></td><td align="center">+19es</td><td align="center">2xE+30es</td></tr><tr><td align="center">C</td><td align="center">+80%</td><td align="center">303g</td><td align="center"><span class="math">\frac{4}{630}</span></td><td align="center">+26es</td><td align="center">2xD+60es</td></tr><tr><td align="center">B</td><td align="center">+160%</td><td align="center">362g</td><td align="center"><span class="math">\frac{2}{630}</span></td><td align="center">+35es</td><td align="center">2xC+100es</td></tr><tr><td align="center">A</td><td align="center">+320%</td><td align="center">419g</td><td align="center"><span class="math">\frac{1}{630}</span></td><td align="center">+46es</td><td align="center">2xB+150es</td></tr></tbody></table>
@@ -49,3 +37,15 @@ The potion adds the full amount provided by the effect to the reserve, which can
 {% hint style="info" %}
 However, to prevent automation by gaining a huge amount of stamina before running a bot, a potion cannot be consumed when the reserve is full.
 {% endhint %}
+
+<details>
+
+<summary>Base parameters</summary>
+
+* Average loot box percentage: 10%
+* Effect growth with each rarity: x2
+* Density affecting the weight: $$Rarity^{-2.2}$$
+* Merging factor for evolution: x2
+* Drop rate decrease with rarity: x0.5
+
+</details>
