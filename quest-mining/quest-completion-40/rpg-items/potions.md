@@ -20,6 +20,18 @@ And of course, like any other RPG item, potions can be [scrapped](../rpg-attribu
 
 ### Stamina Potion
 
+<details>
+
+<summary>Base parameters specific to Stamina Potions</summary>
+
+* Potions Share: 100%
+* Density Factor: $$Rarity^{-2.2}$$
+* Evolution Factor: 2
+
+</details>
+
+
+
 Base parameters specific to Stamina Potions are listed in the table below:
 
 <table><thead><tr><th width="171">Parameter</th><th width="130" align="right" valign="middle">Value</th></tr></thead><tbody><tr><td>Potions Share</td><td align="right" valign="middle">100%</td></tr><tr><td>Density Factor</td><td align="right" valign="middle"><span class="math">Rarity^{-2.2}</span></td></tr><tr><td>Evolution Factor</td><td align="right" valign="middle">2</td></tr></tbody></table>
@@ -29,6 +41,10 @@ When consumed, a Stamina Potion will restore a percentage of the user's Stamina 
 And since evolving requires two potions that have the same resultant effect, it might seem that there is no point in evolving. However, the weight increases more slowly, so an E potion, for example, has the same effect as two F potions, but takes up less inventory space.
 
 <table><thead><tr><th width="91" align="center">Rarity</th><th width="87" align="center">Effect</th><th width="83" align="center">Weight </th><th width="105" align="center">Drop Rate</th><th width="105" align="center">Scrapping</th><th width="115" align="center">Evolving</th></tr></thead><tbody><tr><td align="center">F</td><td align="center">+10%</td><td align="center">100g</td><td align="center"><span class="math">\frac{1}{22}</span></td><td align="center">+11es</td><td align="center">-</td></tr><tr><td align="center">E</td><td align="center">+20%</td><td align="center">174g</td><td align="center"><span class="math">\frac{1}{222}</span></td><td align="center">+14es</td><td align="center">2xF+10es</td></tr><tr><td align="center">D</td><td align="center">+40%</td><td align="center">241g</td><td align="center"><span class="math">\frac{1}{2,222}</span></td><td align="center">+19es</td><td align="center">2xE+30es</td></tr><tr><td align="center">C</td><td align="center">+80%</td><td align="center">303g</td><td align="center"><span class="math">\frac{1}{22,222}</span></td><td align="center">+26es</td><td align="center">2xD+60es</td></tr><tr><td align="center">B</td><td align="center">+160%</td><td align="center">362g</td><td align="center"><span class="math">\frac{1}{222,222}</span></td><td align="center">+35es</td><td align="center">2xC+100es</td></tr><tr><td align="center">A</td><td align="center">+320%</td><td align="center">419g</td><td align="center"><span class="math">\frac{1}{2,222,222}</span></td><td align="center">+46es</td><td align="center">2xB+150es</td></tr></tbody></table>
+
+{% hint style="info" %}
+Scrapping and evolving values in the table are for users with Crafting 0.
+{% endhint %}
 
 The potion adds the full amount provided by the effect to the reserve, which can be overfilled. This means that the amount of stamina in the reserve can be larger than its nominal size.
 
