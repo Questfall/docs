@@ -110,7 +110,7 @@ Founders will receive a certain amount of Silver, based on the rarity of their N
 
 Having free Silver each week will give Founders a noticeable advantage, whether they choose to complete quests or promote their own project to the Questfall audience.
 
-### Free Clothing Enhancement Toolsets / <mark style="color:green;">IFE Wallet</mark>
+### Free Gems to Upgrade Clothing / <mark style="color:green;">IFE Wallet</mark>
 
 While users can obtain most RPG items from loot boxes, [Gems](../quest-mining/quest-completion-40/rpg-items/gems.md) are a special type of RPG item that can only be obtained by participating in the [Liquidity Program](../infrastructure/liquidity-providers.md) - by providing liquidity to the DEX pool and burning ownership of the LP tokens received.
 
