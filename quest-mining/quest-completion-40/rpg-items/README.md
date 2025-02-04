@@ -81,7 +81,7 @@ Low rarity items (F,E,D) are traded on the [marketplace](../../../infrastructure
 
 Users can [upgrade](../rpg-attributes/crafting.md#upgrading) RPG items that have levels up to their own [level](../levels.md). This way, as users progress through levels, they can upgrade the items they use to make them more powerful.
 
-With each level, however, an item becomes not only more powerful, but also heavier, draining more stamina when equipped or consuming the inventory weight limit.
+With each level, however, an item becomes not only more powerful, but also heavier, draining more stamina if equipped or consuming the inventory weight limit if not.
 
 {% hint style="info" %}
 In Questfall v.1, only Clothing has levels, but more levelable items, such as Warriors, will be added later.
@@ -97,10 +97,10 @@ The core idea behind the levels in Questfall is not to create a barrier, but rat
 For more information, see the [Crafting](../rpg-attributes/crafting.md) attribute article.
 {% endhint %}
 
-When leveling items, rarity plays a crucial role, as it determines how much the item will increase in power with each subsequent level. This is better explained with an example.&#x20;
+In addition to Essence, rarity also plays an important role in the leveling of items, as it determines how much the item will increase in power with each subsequent level. This is better explained with an example.
 
-Let's say there is an item that gives +1% to an effect for rarity F and +2% for rarity E. So item F at level 10 gives +10%. When the item is evolved to the next rarity E, the bonus increases to +2%, but it will only apply to the next level upgrades.&#x20;
+Let's say there is an item that gives +1% to an effect for rarity F and +2% for rarity E. So item F at level 10 gives +10%. When the item is evolved to the next rarity E, the bonus increases to +2% per level, but it will only apply to the next level upgrades.&#x20;
 
 In other words, an increase in the level of an item fixes its power. So the bonus for the first 10 levels when the item was of rarity F is set in stone forever. If the item is evolved to rarity E at level 10 and further evolved to level 11, its bonus will be +12% (10% + 2%), not +22%.
 
-In this way, identical high-level items can have very different power depending on the level at which their rarity was evolved. In other words, users can either ruin items by evolving them late, or they can craft a perfect item by evolving its rarity while it is still at the first level.
+In this way, identical high-level items can have very different power depending on the level at which their rarity was evolved. Therefore, users can either ruin items by evolving them late, or they can craft a perfect item by evolving its rarity while it is still at the first level.
