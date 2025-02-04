@@ -12,7 +12,7 @@ The primary goal of the Initial Funding Event (IFE) is to raise money for the in
 Founder NFTs will only be minted during the IFE and never again, as it is a one-time event.
 {% endhint %}
 
-Depending on the rarity tier, of which there are six, each Founder NFT contains a certain amount of Founder Points, which are used to distribute the founders' share of the weekly QFT issue. Since the total supply of each rarity tier is limited, the maximum amount of Founder Points is also limited and cannot exceed <mark style="color:purple;">2,602,200</mark>.
+Depending on the rarity tier, of which there are six, each Founder NFT contains a certain amount of Founder Points, which are used to distribute the founders' share of the weekly QFT issue. Since the total supply of each rarity tier is limited, the maximum amount of Founder Points is also limited and cannot exceed <mark style="color:blue;">2,602,200</mark>.
 
 On the one hand, the number of available NFTs decreases by half with each tier and their price doubles respectively. On the other hand, the amount of Founder Points contained in each NFT increases by x2.243. In this way, the higher tiers receive a discount on the price per Founder Point they contain.
 
