@@ -16,13 +16,14 @@ Although there are only three types of RPG items in Questfall v.1, there will be
 
 Every RPG item in Questfall has a rarity - the rarer the item, the more powerful it is. In addition to rarity, some types of items are levelable, or have levels that can be upgraded. While level-less items (Potions, Gems) are consumed when used, levelable items (Clothing) can be used and then sold for use by someone else.
 
-All items except Gems are initially issued from loot boxes, which can be obtained for free by completing quests or purchased with [Gold](../../../assets/gold-in-game.md). And until the item is used, it adds a certain amount of weight to the user's inventory, depending on its level (if applicable) and rarity tier.
+All items except Gems are initially issued from loot boxes, which can be obtained for free by completing quests or purchased with [Gold](../../../assets/gold-in-game.md). And until the item is used, it adds a certain amount of weight to the user's inventory, depending on its level (if applicable), rarity tier, and individual density factor.
 
 {% hint style="info" %}
 The weight of levelable items is calculated using the following formula:\
-$$Weight=100*Rarity^2*\sqrt{Level}$$
+$$Weight=100*Rarity^2*\sqrt{Level}*Density$$
 
-For level-less items, the weight is calculated using the following formula: $$Weight=100*Rarity^3$$
+For level-less items, the weight is calculated using the following formula:\
+$$Weight=100*Rarity^3*Density$$
 {% endhint %}
 
 ***

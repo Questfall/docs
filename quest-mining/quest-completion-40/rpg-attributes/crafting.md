@@ -10,10 +10,12 @@ Crafting involves three types of actions: breaking down items (scrapping), incre
 
 ### Scrapping
 
-Any RPG item can be disassembled for Essence. The higher the level and rarity of the item, the more Essence is gained from disassembling it.
+Any RPG item can be scrapped. Not only does this provide Essence for upgrading or evolving items, but since Essence has no weight, it is also one of the ways to free up inventory.
+
+The higher the level and rarity of the item, the more Essence is gained from disassembling it.
 
 {% hint style="info" %}
-Since Essence does not take up inventory space, disassembling items is one of the ways to free up inventory.
+The amount of Essence gained from upgradable and level-less RPG items is calculated differently.
 {% endhint %}
 
 Another parameter that affects the amount of Essence gained from items is the Crafting attribute. The higher is the Crafting attribute the more Essence a user will gain from the same item.
@@ -21,7 +23,9 @@ Another parameter that affects the amount of Essence gained from items is the Cr
 For example, a user with a Crafting of 0 will gain 12 Essence from a level 10 E item. A user with a Crafting of 100 will gain 35 Essence from the same item.
 
 {% hint style="info" %}
-The amount of Essence the item will yield is calculated using the formula below: $$Essence=floor(0.1*Rarity*Level +\sqrt{100+Crafting*Level})$$
+The amount of Essence the upgradable item will yield: $$Essence=floor(0.1*Rarity*Level +\sqrt{100+Crafting*Level})$$
+
+The amount of Essence gained from the level-less item: $$Essence=floor(Rarity^2+\sqrt{100+Crafting*Rarity})$$
 {% endhint %}
 
 While this may not seem like much of an advantage, there are two other factors to consider.&#x20;
