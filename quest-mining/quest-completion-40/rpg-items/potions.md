@@ -4,17 +4,25 @@ icon: flask-round-potion
 
 # Potions
 
-Potions are designed to instantly restore resources that would otherwise take time to replenish, such as stamina. They are only dropped from loot boxes and have about a 10% chance of being found, meaning that on average, one out of every ten loot box items is a potion.
+Potions are designed to instantly restore resources that would otherwise take time to replenish, such as stamina. They are only dropped from loot boxes and have about a 10% chance of being found, meaning that on average, one out of every ten loot box items is a potion.&#x20;
+
+The average percentage of each potion type within that 10% of all loot box potions is determined by the Potions Share parameter.
+
+<table><thead><tr><th width="171">Parameter</th><th width="147" align="right" valign="middle">Stamina Potion</th></tr></thead><tbody><tr><td><a data-footnote-ref href="#user-content-fn-1">Potions Share</a></td><td align="right" valign="middle">100%</td></tr></tbody></table>
 
 {% hint style="info" %}
-In Questfall v.1, only one type of potion is introduced - the Stamina Potion. However, new potion types will be introduced in [future releases](../../../roadmap/future-versions.md), such as Mana Potions.
+In Questfall v.1, only one type of potion is introduced - the Stamina Potion. However, new potion types will be implemented in [future versions](../../../roadmap/future-versions.md). For example, Mana Potions.
 {% endhint %}
 
-Potions do not have levels, but they can be one of [six rarity tiers](./#item-rarity), gaining power with each tier. Therefore, potions of the same type and rarity are identical and have exactly the same properties, defined by the potion-specific parameters:
+Potions do not have levels, but they can be one of [six rarity tiers](./#item-rarity), gaining power with each tier. Therefore, potions of the same type and rarity are identical and have exactly the same properties, such as effect, essence from scrapping, or weight.
 
-<table><thead><tr><th width="171">Parameter</th><th width="147" align="right" valign="middle">Stamina Potion</th></tr></thead><tbody><tr><td><a data-footnote-ref href="#user-content-fn-1">Potions Share</a></td><td align="right" valign="middle">100%</td></tr><tr><td><a data-footnote-ref href="#user-content-fn-2">Effect Factor</a></td><td align="right" valign="middle">2</td></tr><tr><td><a data-footnote-ref href="#user-content-fn-3">Density Factor</a></td><td align="right" valign="middle"><span class="math">Rarity^{-2.2}</span></td></tr><tr><td><a data-footnote-ref href="#user-content-fn-4">Evolution Factor</a></td><td align="right" valign="middle">2</td></tr></tbody></table>
+Potions take up a certain amount of inventory weight. This is determined by their Density Factor, which greatly reduces the base [weight calculation](./) compared to other RPG items.
+
+<table><thead><tr><th width="171">Parameter</th><th width="147" align="right" valign="middle">Stamina Potion</th></tr></thead><tbody><tr><td><a data-footnote-ref href="#user-content-fn-2">Density Factor</a></td><td align="right" valign="middle"><span class="math">Rarity^{-2.2}</span></td></tr></tbody></table>
 
 Like any other RPG item, potions can be [scrapped](../rpg-attributes/crafting.md#scrapping) for Essence or sold on the [marketplace](../../../infrastructure/marketplace.md) for [Gold](../../../assets/gold-in-game.md) (F,E,D) or [QFT](../../../assets/questfall-tokens-qft.md) (C,B,A). Users can also [evolve](../rpg-attributes/crafting.md#evolving) the rarity of potions by merging identical bottles, the number of which is determined by the evolution factor of a particular potion type.&#x20;
+
+<table><thead><tr><th width="171">Parameter</th><th width="147" align="right" valign="middle">Stamina Potion</th></tr></thead><tbody><tr><td><a data-footnote-ref href="#user-content-fn-3">Evolution Factor</a></td><td align="right" valign="middle">2</td></tr></tbody></table>
 
 {% hint style="info" %}
 With an evolution factor of 2, two F-rarity potions will make one E-rarity potion, two E-rarity potions will make one D-rarity potion, and so on.
@@ -42,8 +50,6 @@ However, to prevent automation by gaining a huge amount of stamina before runnin
 
 [^1]: The average percentage of a specific potion type compared to all loot box potions.
 
-[^2]: The multiplier that increases the effect of the potion with each rarity tier.
+[^2]: The individual adjustment of the weight.
 
-[^3]: The individual adjustment of the weight.
-
-[^4]: The number of potions of the current rarity that need to be merged to make one potion of the next rarity.
+[^3]: The number of potions of the current rarity that need to be merged to make one potion of the next rarity.
