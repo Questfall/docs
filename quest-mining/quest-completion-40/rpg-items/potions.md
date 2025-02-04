@@ -10,7 +10,11 @@ Potions are designed to instantly restore resources that would otherwise take ti
 In Questfall v.1, only one type of potion is introduced - the Stamina Potion. However, new potion types will be introduced in [future releases](../../../roadmap/future-versions.md), such as Mana Potions.
 {% endhint %}
 
-Potions do not have levels, but they can be one of [six rarity tiers](./#item-rarity), gaining power with each tier. Therefore, potions of the same type and rarity are identical, meaning that they have exactly the same parameters, such as weight or effect.
+Potions do not have levels, but they can be one of [six rarity tiers](./#item-rarity), gaining power with each tier. Therefore, potions of the same type and rarity are identical, meaning that they have exactly the same properties, such as weight or effect.&#x20;
+
+These properties are defined by the potion-specific parameters:
+
+<table><thead><tr><th width="171">Parameter</th><th width="147" align="right" valign="middle">Stamina Potion</th></tr></thead><tbody><tr><td>Potions Share</td><td align="right" valign="middle">100%</td></tr><tr><td>Density Factor</td><td align="right" valign="middle"><span class="math">Rarity^{-2.2}</span></td></tr><tr><td>Evolution Factor</td><td align="right" valign="middle">2</td></tr></tbody></table>
 
 Users can [evolve](../rpg-attributes/crafting.md#evolving) the rarity of potions by merging identical bottles, the number of which depends on the type of potion. For example, two Stamina Potions of rarity F will make one Stamina Potion of rarity E, two Stamina Potions of rarity E will make one Stamina Potion of rarity D, and so on.
 
@@ -19,22 +23,6 @@ And of course, like any other RPG item, potions can be [scrapped](../rpg-attribu
 ***
 
 ### Stamina Potion
-
-<details>
-
-<summary>Base parameters specific to Stamina Potions</summary>
-
-* Potions Share: 100%
-* Density Factor: $$Rarity^{-2.2}$$
-* Evolution Factor: 2
-
-</details>
-
-
-
-Base parameters specific to Stamina Potions are listed in the table below:
-
-<table><thead><tr><th width="171">Parameter</th><th width="130" align="right" valign="middle">Value</th></tr></thead><tbody><tr><td>Potions Share</td><td align="right" valign="middle">100%</td></tr><tr><td>Density Factor</td><td align="right" valign="middle"><span class="math">Rarity^{-2.2}</span></td></tr><tr><td>Evolution Factor</td><td align="right" valign="middle">2</td></tr></tbody></table>
 
 When consumed, a Stamina Potion will restore a percentage of the user's Stamina Reserve, depending on the rarity of the potion. The Stamina Potion of rarity F restores 20% of the total size of the Stamina Reserve, and each subsequent rarity tier doubles the effect.&#x20;
 
