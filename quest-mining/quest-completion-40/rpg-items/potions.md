@@ -10,7 +10,7 @@ Potions are designed to instantly restore resources that would otherwise take ti
 In Questfall v.1, only one type of potion is introduced - the Stamina Potion. However, new potion types will be implemented in [future versions](../../../roadmap/future-versions.md). For example, Mana Potions.
 {% endhint %}
 
-Potions do not have levels, but they can be one of [six rarity tiers](./#item-rarity), gaining power with each tier. Therefore, potions of the same type and rarity are identical and have exactly the same properties, such as effect, essence from scrapping, or weight.
+Potions do not have levels, but they can be one of [six rarity tiers](./#item-rarity), gaining power with each tier. Therefore, potions of the same type and rarity are identical and have exactly the same properties, such as effect, weight, evolution cost, etc.
 
 Like any other RPG item, potions can be [scrapped](../rpg-attributes/crafting.md#scrapping) for Essence or sold on the [marketplace](../../../infrastructure/marketplace.md) for [Gold](../../../assets/gold-in-game.md) (F,E,D) or [QFT](../../../assets/questfall-tokens-qft.md) (C,B,A). Users can also [evolve](../rpg-attributes/crafting.md#evolving) the rarity of potions by merging identical bottles, the number of which depends on the type of potion.
 
@@ -35,5 +35,5 @@ Scrapping and evolving values in the table are calculated for a Crafting attribu
 The potion adds the full amount provided by the effect to the reserve, which can hold more than its nominal size. For example, if a user has a reserve size of 10,000 and only has 4,000 stamina left, a C-rarity potion will add 8,000 (80%). This will result in 12,000 stamina in the reserve.
 
 {% hint style="info" %}
-However, to prevent automation by gaining a huge amount of stamina before running a bot, a potion cannot be consumed when the reserve is full.
+However, to prevent automation by gaining a huge amount of stamina before running a bot, a potion cannot be consumed in advance if the reserve is full.
 {% endhint %}
