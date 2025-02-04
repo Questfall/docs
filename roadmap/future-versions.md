@@ -10,9 +10,9 @@ While designing the Questfall system, we put many things aside, because they are
 
 ### Banner Pomotion
 
-In order to increase the amount of QFTs burned and make Silver even more useful, users will be able to promote their Author Spaces with the banner placed on the Quest Feed. Promoting the Author Space in this way can make it known to the community and increase the number of followers and quest completions.
+In order to increase the amount of QFTs burned and make Silver even more useful, authors will be able to promote their [Workspaces](../quest-mining/quest-creation-10/workshops.md) with the banner placed on the Quest Feed. Promoting the Workspace in this way can make it known to the community and increase the number of followers and quest completions.
 
-Users can purchase a one-day banner slot with Silver to promote their Author Space. Slots will only be available for the next 30 days, and the farther away from the current day, the higher the price for the slot.
+Users can purchase a one-day banner slot with Silver to promote their Workspace. Slots will only be available for the next 30 days, and the farther away from the current day, the higher the price for the slot.
 
 On the one hand, this guarantees that there will always be users willing to pay the price for promotion, as the price for upcoming days is low. On the other hand, as the demand for banner promotion grows, more users will be willing to pay for it and the slots will be filled further in the future.
 
@@ -56,13 +56,13 @@ The basic principle of Warfare is that the system generates additional mining po
 
 ### Clans
 
-Clans can add a new layer to mining and greatly enhance the overall experience by fostering teamwork and long-term relationships among users. Clans provide opportunities for shared goals and communication, creating a strong sense of community and social engagement.
+While we have not given much thought to clans, it is clear that communities within Questfall with shared goals, rankings, and clan-only activities can dramatically increase platform engagement.
 
-The introduction of clan-specific quests, challenges, and rewards will add depth to Questfall and provide unique content that enriches the user experience.
+For example, clans can focus on logic puzzles (or any other type of quest) and receive special bonuses for completing such quests. Or clans can create challenges in the form of quests for other users on the platform.&#x20;
 
-In addition, clans help improve user retention by encouraging continued participation through progression systems, rankings, and events tied to clan activities.
+Clans can also have storage for shared resources such as Essence or Gems, bonuses for trading in large quantities, and much more.&#x20;
 
-Clans also add a competitive edge to the system as users work together to compete against other clans or climb leaderboards. Sharing resources within a clan can make crafting and trading more efficient and rewarding, fostering trust and cooperation.
+But the most important role we expect clans to play is Warfare, where they can even have their own castles. However, clans cannot be well implemented until Warfare itself is up and running.
 
 ### Non-Binary Completions
 
