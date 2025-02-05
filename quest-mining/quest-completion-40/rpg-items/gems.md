@@ -40,7 +40,7 @@ Every user who participates in the Liquidity Program during a week earns Gem Poi
 
 {% hint style="info" %}
 The amount of Gem Points earned per LP token burned: \
-$$GPoints=LP*\sqrt{Crafting+1}*(2-\frac{Second}{604,800})$$
+$$GPoints=LP*\sqrt{Crafting+1}*(1+e^{2*10^{-5}*(Second-3*10^5)})^{-1}$$
 {% endhint %}
 
 In this way, a user with higher Crafting who burns liquidity at the beginning of a new week will receive more points than a user who burns the same amount of LP tokens in the middle of the week, or who has a lower Crafting attribute.
