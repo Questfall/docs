@@ -12,13 +12,15 @@ This way, users can be sure that when they place a bid at the beginning of the w
 
 Bids are sorted by the dollar price users offer for burning their Gold - the lower the price, the higher the bid in the queue. And since the amount of QFTs available for each auction is limited, the order of bids is very important, as there will not be enough QFTs to fill them all.
 
-In this way, the system is guaranteed to burn the most Gold for the fixed amount of QFT. However, users can move their bids higher in the queue by increasing the [Trading](../quest-mining/quest-completion-40/rpg-attributes/trading.md) attribute, as there are two types of user bids: one for the real price (actual bid) and one for the sort order (effective bid).
+In this way, the system is guaranteed to burn the most Gold for the fixed amount of QFT. However, there are two types of user bids: one for the real price (actual bid) and one for the sort order (effective bid).&#x20;
 
-By default, for a user with no points in the Trading attribute, the effective bid is equal to the actual bid. However, for each point in the Trading attribute, the effective bid decreases, aiming for 80% of the actual bid.
+And users can lower their effective bids and move up in the queue by increasing the [Trading](../quest-mining/quest-completion-40/rpg-attributes/trading.md) attribute, which can give up to a 20% discount, or by bidding as early in the week as possible, which can give an additional 10%.
 
 {% hint style="info" %}
-As a result, the Trading attribute allows Gold to be sold to the system for QFT at better prices that would otherwise not pass due to bidding competition.
+Rewarding early bidding discourages last-minute bid manipulation and allows users to spend less time tracking the auction.
 {% endhint %}
+
+As a result, users can have an effective bid that is up to 30% lower than the actual bid. Therefore, Gold can be sold to the system for QFT at better prices that would otherwise not pass due to auction competition.
 
 There will always be enough bids in the auction because the price of Gold above 1¢ creates an arbitrage opportunity, as users can buy Gold from the system at 1¢ and sell it in the auction at a higher price. More likely, the market nature of the auction prices will result in the price of Gold being lower than 1¢.
 
