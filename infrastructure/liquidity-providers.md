@@ -22,19 +22,17 @@ For example, if the price of a QFT is $10 and the weekly issuance is 30,000 QFTs
 
 However, over the course of a year, assuming the price of QFT and issuance remain the same, the total increase in liquidity will be $780,000. And if the QFT price doubles, the dollar estimate of liquidity growth will also double.
 
-To further increase the rate at which liquidity grows, there will be an additional reward to incentivize the burning of liquidity - Toolsets that allow users to increase the rarity tier of clothing RPG items.
+To further increase the rate at which liquidity grows, there will be an additional reward to incentivize the burning of liquidity - Gems that allow users to increase the rarity tier of clothing RPG items.
+
+Obviously, users will increase their chances of getting more rare Gems by maximizing their total share of burnt liquidity over the course of the week.
 
 {% hint style="info" %}
-The mathematics behind the Toolsets distribution is quite complex, and we will publish it after extensive testing. For now, we just describe the general approach.
+However, the amount of liquidity burned is not the only parameter that affects the distribution of Gem rewards. See the [Gems](../quest-mining/quest-completion-40/rpg-items/gems.md) article to learn more.
 {% endhint %}
 
-Users will increase their chances of getting more rare Toolsets by maximizing their total share of burnt liquidity over the course of the week.&#x20;
+In this way, the more activity in the system, the higher the demand for Gems, the more their price will rise in the secondary market, and the faster liquidity will grow, since the Liquidity Program is the only way to release Gems into circulation.&#x20;
 
-However, since the number of Toolsets issued each week depends on the number of users who have burned liquidity, there will be a threshold for adding liquidity to prevent Sybil attacks.
-
-In this way, the more activity in the system, the higher the demand for Toolsets, the more their price will rise in the secondary market, and the faster liquidity will grow, since the Liquidity Program reward is the only way to release Toolsets into circulation.&#x20;
-
-Therefore, depending on the price of Toolsets on the secondary market, users will be adding significantly more liquidity than the weekly QFT reward.
+Therefore, depending on the price of Gems on the secondary market, users will be adding significantly more liquidity than the weekly QFT reward.
 
 {% hint style="info" %}
 In our estimation, orders of magnitude more.
