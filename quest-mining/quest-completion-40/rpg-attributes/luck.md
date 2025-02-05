@@ -24,17 +24,20 @@ This method of counting chances does not take into account the different number 
 
 ***
 
-### **Loot Cards**
+### **Loot Box Turns**
 
-By default, a loot box provides one item, with the chance of receiving an item depending on its rarity. However, users can increase their chances of receiving more items by investing stat points in their Luck attribute.&#x20;
+By default, a [loot box](../rpg-items/#loot-boxes) provides one turn, with the chance of receiving an item depending on its rarity. However, users can increase their chances of receiving more items by investing stat points in their Luck attribute and increasing the number of turns they take when opening loot boxes.
 
-For every 10 points of Luck, users will receive an additional card when they open a loot box, providing additional turns with the opportunity to receive more items. This way the Luck attribute does not directly affect the chance of getting rarer items, it just increases the chance of getting more items from a single loot box.&#x20;
+All users have one turn by default, to get a second turn a user must reach 10 Luck. And for each subsequent turn, the Luck requirement increases by 5. So for the third turn, Luck should be 25, for the fourth, 45, and so on.
 
 {% hint style="info" %}
-This actually makes it more likely to get a rarer item because there is more room for chance to work.
+The Luck attribute determines the number of turns:\
+$$Turns=floor(\frac{-1+\sqrt{9+\frac{8}{5}*Luck}}{2})$$
 {% endhint %}
 
-As a result, the maximum number of items a user can potentially receive from a single loot box is equal to the number of cards granted by their Luck attribute. However, the actual number of items received will depend on the user's choices during the opening process, or the user's actual fortune.
+This way, the Luck attribute does not directly affect the chance of getting rarer items, it just increases the chance of getting more items from a single loot box. And that actually makes it more likely to get a rarer item because there is more room for chance to work.
+
+As a result, the maximum number of items a user can potentially receive from a single loot box is equal to the number of turns allowed by their Luck attribute. However, the actual number of items received will depend on the user's choices during the opening process or the user's actual fortune.
 
 ***
 

@@ -38,7 +38,7 @@ As quests are completed, users receive random Chest Shards that, like a mosaic p
 
 By default, a loot box offers a single item based on a chance that depends on the rarity and level of the item. The higher the rarity or level, the lower the chance of receiving the item.
 
-However, for every 10 points of Luck, a user increases the chance of getting one more item from the loot box. To illustrate, here is an example for a user with 30 Luck (3 extra turns, for a total of 4):
+However, users can increase the chance of getting more items from the loot box by investing stat points in the Luck attribute. To illustrate, here is an example for a user with 45 Luck (4 extra turns):
 
 * **Turn 1**: The user is dealt 4 cards face down and must blindly choose one. All four cards contain items, so the user is guaranteed to receive an item after the first turn.
 * **Turn 2**: The user is dealt 4 more cards. One card is a "finish" card, which ends the opening process, while the remaining three are item cards, which give the user one more item and continue the opening into the next turn.
