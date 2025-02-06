@@ -11,6 +11,10 @@ In Questfall, level is a key characteristic of users who complete quests, which 
 * The level of [clothing](items.md) items is limited by the user's level, so progressing through the levels allows for clothing upgrades.
 * Level increases the weight of a user's vote in [community moderation](../community-moderation/) decisions and [quest ratings](../quest-creation-10/karma.md).
 
+{% hint style="info" %}
+When a user advances to the next level, resources that can be replenished with potions, such as stamina, are fully restored.
+{% endhint %}
+
 While in most RPGs it is common to earn XP for leveling up directly, in Questfall there is an intermediate asset - [Silver](../../assets/Silver-in-game.md) - which allows to buy XP. This is because community moderation, which is rewarded with Silver, can be used not only by users who complete quests, but also by indie authors who want to promote their quests and be rewarded for doing so.
 
 As a result, the model is a bit more complex than in most RPG systems, as there are two ways to get Silver (burning Gold or community moderation) and two ways to spend it (either paying for XP or paying for [Quest Bounties](../quest-creation-10/quest-bounty.md)).
