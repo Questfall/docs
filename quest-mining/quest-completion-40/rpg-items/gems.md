@@ -22,7 +22,7 @@ To evolve a rarity of an item, a user needs a Gem of the same rarity tier. For e
 In addition to Gems, Essence is also [required](../rpg-attributes/crafting.md#evolving) to evolve the rarity tier.
 {% endhint %}
 
-A-rarity Gems are not used for evolving, as rarity tier A is the highest possible tier. Instead, a user can use them to reset any of the item's fixed effects to the desired one.
+A-rarity Gems are not used for evolving, as rarity tier A is the highest possible tier. Instead, a user can use them to maximize the [aspect](../items.md#aspects) or one of the [perks](../items.md#perks) of the clothing item.
 
 Since users only need Essence and Gems of the same rarity, they only need Gold to craft C-rarity items that can be sold for QFT, thus extracting in-game value from the system to the blockchain. In fact, because Gems themselves can be evolved through merging, items of any rarity can be crafted using only Gold.
 
