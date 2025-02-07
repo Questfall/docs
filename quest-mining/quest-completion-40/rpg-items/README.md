@@ -53,22 +53,13 @@ This way, the Luck attribute does not directly affect the chance of getting rare
 
 ### Item Rarity
 
-The rarity of an item literally means how rare it is, so the rarer the item, the lower the chance of getting it from loot boxes. And since rarer items tend to be more powerful, they should also be more expensive on the marketplace.
+Every RPG item in Questfall falls into one of six rarity tiers. The rarity of an item literally means how rare it is, so the rarer the item, the lower the chance of getting it from loot boxes. And since rarer items tend to be more powerful, they should also be more expensive on the marketplace.
 
-Every RPG item in Questfall falls into one of six rarity tiers:
+In general, each subsequent tier is ten times less likely to be found in a loot box. However, some types of RPG items, such as Potions, may have a different drop rate, and some types, such as Gems, are not available in loot boxes at all and have their own distribution system.
 
-* Common (F);
-* Uncommon (E);
-* Rare (D);
-* Epic (C);
-* Legendary (B);
-* Mythical (A).
+<table><thead><tr><th width="170">Rarity</th><th width="145" align="center">In Formulas</th><th width="142" align="center">Drop Rate</th></tr></thead><tbody><tr><td>Common (F)</td><td align="center">1</td><td align="center"><span class="math">\frac{9}{10}</span></td></tr><tr><td>Uncommon (E)</td><td align="center">2</td><td align="center"><span class="math">\frac{9}{100}</span></td></tr><tr><td>Rare (D)</td><td align="center">3</td><td align="center"><span class="math">\frac{9}{1,000}</span></td></tr><tr><td>Epic (C)</td><td align="center">4</td><td align="center"><span class="math">\frac{9}{10,000}</span></td></tr><tr><td>Legendary (B)</td><td align="center">5</td><td align="center"><span class="math">\frac{9}{100,000}</span></td></tr><tr><td>Mythical (A)</td><td align="center">6</td><td align="center"><span class="math">\frac{9}{1,000,000}</span></td></tr></tbody></table>
 
-{% hint style="info" %}
-In formulas that use rarity, Common is considered 1, Uncommon is considered 2, and so on up to Mythical, which is considered 6.
-{% endhint %}
-
-Unlike many common RPG systems, Questfall allows users to [evolve](../rpg-attributes/crafting.md#evolving) the rarity tier of items. Items without levels (Potions, Gems) can only be evolved by merging multiple identical items. Levelable items (Clothing), on the other hand, can only be evolved by consuming Gems.
+Unlike many common RPG systems, Questfall allows users to [evolve](../rpg-attributes/crafting.md#evolving) the rarity tier of items. Items without levels (Potions, Gems) can only be evolved by merging multiple identical items. Items with levels (Clothing), on the other hand, can only be evolved by consuming Gems.
 
 {% hint style="info" %}
 In [future versions](../../../roadmap/future-versions.md), several new types of RPG items will be implemented, but these two evolution principles will remain the same.

@@ -4,279 +4,108 @@ icon: shirt
 
 # Clothing
 
-IMAGE OF INVENTORY WITH ITEMS
+Clothing is the core element of user performance, as a naked character will be far less powerful than the same character dressed in appropriate, matching clothing.&#x20;
 
-There are a variety of in-game **Items** comprising **Clothing**, **Spell Books**, **Elixirs**, and **Potions** which give bonuses to the character and game play.
-
-Items can be acquired from **Loot Boxes** and **Marketplace.**
-
-
-
-### Gems
-
-### Clothing Slots
-
-Clothing items are the primary means by which users can improve their characters through the various effects that items contain, from increasing the **Mining Efficiency** to adding more **Spell Slots**. The number of **Clothing Slots** is limited to six for all users and cannot be increased:
-
-* Head (helmets, hoods, hats);
-* Chest (robes, tunics, shirts, vests);
-* Leg (pants, trousers);
-* Feet (boots, shoes);
-* Hand (gloves, gauntlets);
-* Back (capes, cloaks, mantles).
-
-Although clothing items can be of different levels and rarities, there are no restrictions on equipping them other than type (obviously boots can't be equipped in the hand slot).
-
-However, if the level of the item is higher than the **Character Level**, it will be downgraded (while equipped) to the **Character Level**. Additionally, stamina consumption rises as the total weight of equipped items increases. Finally, each item consumes **Essence** at the moment of equipping - the heavier the item, the more **Essence** is consumed (<mark style="background-color:purple;">0.2</mark> Essence for each gram).
-
-***
-
-### Tier and Level
-
-**Clothing**, **Spell Books** and **Elixirs** comes in six different **Tiers**:
-
-* Common (F)
-* Advanced (E)
-* Rare (D)
-* Legendary (C)
-* Epic (B)
-* Mythic (A)
-
-The higher the tier of the item the more powerful and heavier it is. In addition to the tier, clothing also has **Level** that affects the item's bonuses.
-
-***
-
-### Clothing
-
-IMAGE OF CLOTHING
-
-There are multiple types of **Clothing** and the character has six slots to wear them, one for each body part:
-
-* **Head** (helmets, hoods, hats)
-* **Chest** (robes, tunics, shirts, vests)
-* **Leg** (pants, trousers)
-* **Feet** (boots, shoes)
-* **Hand** (gloves, gauntlets)
-* **Back** (capes, cloaks, mantles)
-
-Wearing clothing provides many benefits to the character, such as bonuses to mining power, attributes, mana or stamina.
-
-The character can wear clothing of any level or tier. If the level of the item is higher than the character level, the item and its effects will be downgraded (while equipped) to the character level while the tier and weight stay the same. The higher the level and tier of the clothing, the greater the bonuses and weight.
-
-All types of clothing can be seen as equal in quality as they give the same amount of bonuses for the same weight. However, every kind of clothing has a unique weight ratio making some items heavier and more powerful than others.
+Like all other items except Gems, clothing is initially created from loot boxes. It has a 90% drop rate, meaning that on average, 9 out of 10 items from loot boxes are clothing.
 
 {% hint style="info" %}
-For example, the weight and effect of pants are three times that of a hat. If (F) level 10 hat weighs 100g and gives 280 mana a pants of the same level and tier would weigh 300g and give 840 mana.
+The drop rate for clothing will decrease as new item types are introduced in [future versions](../../roadmap/future-versions.md) of the platform.
 {% endhint %}
 
-Each clothing has a weight ratio from 1 to 4, giving weight to level 1 (F) items from 10 to 40 grams.
+As with all RPG items in Questfall, each clothing item falls into one of the six [rarity tiers](rpg-items/#item-rarity), and can be [scrapped](rpg-attributes/crafting.md#scrapping) for Essence or sold on the [marketplace](../../infrastructure/marketplace.md) for [Gold](../../assets/gold-in-game.md) (F,E,D) or [QFT](../../assets/questfall-tokens-qft.md) (C,B,A).
 
-The weight of clothing is directly affected by its tier and level, and can be calculated using the following formula: 10 Grams \* Weight Ratio \* Level \* Tier (F = 1, A = 6).
+However, there are many properties that make clothing special. And one of the most important is that clothing items can grow in power along with a character, as they have [levels](rpg-items/#item-level) that can be upgraded.
 
-The level and tier of clothing can be upgraded with [Crafting](broken-reference).
+Since clothing items have levels, their rarity tier can only be [evolved](rpg-attributes/crafting.md#evolving) with [Gems](rpg-items/gems.md), not by merging.&#x20;
 
-### Spell Books
-
-IMAGE OF SPELL BOOK
-
-Users can learn spells from the **Spell Books** by consuming them. For each spell, there are six tiers of spell books.
-
-Spell books do not have a level and the tier can be upgraded.
-
-For more details see [Magic](broken-reference).
-
-### Elixirs
-
-IMAGE OF ELIXIR
-
-The **Elixirs** provide beneficial effects to the character which vary a lot ranging from attribute boosts to reducing the cooldown of all of the character spells.
-
-Consuming an elixir gives either a **temporary** or **permanent** effects.
-
-**Lower-tier elixirs** (F, E, D) give temporary effects.\
-**Higher-tier elixirs** (C, B, A) give permanent effects.
+But besides evolving, users also gain another way to make items more powerful - they can level them up to their own level. For example, a level 30 user can level up an item from 1 level to 30. In addition to crafting, users can also obtain high-level items from the marketplace or loot boxes.
 
 {% hint style="info" %}
-There are full lines of elixirs that come in all six tiers and others that are unique to only one or a few tiers. For Example, elixir can have only permanent effects like giving an extra marketplace slot.
+The highest possible level of an item available in loot boxes is the level of the highest level user in the system. Of course, the higher the level of the item, the lower the chance of getting it.
 {% endhint %}
 
-There are four categories of elixirs:
+Unlike level-less items, clothing is not consumed. Instead, its effects are applied to the character when equipped. And there are two types of effects an item can have.&#x20;
 
-* **Attribute Elixirs** – Increases the base attribute points of the character. Each attribute has one elixir, and these points can’t be redistributed with an attribute reset.
-* **Mystic Elixirs** – These affect things related to magic, spells, and mana, like reducing the mana cost of all the character's spells.
-* **Power Elixirs** - Gives a boost to the mining power, stamina, and the ability to carry more items, like speeding up the stamina recovery.
-* **Fortune Elixirs** – These affect things related to lucky strikes, loot boxes, shards, and trading, like boosting the probability of bonus chances.
+First, each item has an aspect that adds to one of the character [attributes](rpg-attributes/). And second, depending on the rarity of the item, it can have up to 5 perks.&#x20;
 
-**Questfall Elixirs PDF**
-
-Elixirs do not have a level and the tier can't be upgraded.
-
-### Potions
-
-IMAGE OF POTION
-
-There are two different types of **Potions**:
-
-* **Stamina Potions** - Consuming fully replenishes the stamina reserves.
-* **Mana Potions** - Consuming fully replenishes the mana reserves.
-
-Potions do not have a tier or level and there is only one size of both types.
-
-***
-
-### Loot Boxes
-
-IMAGE OF LOOT BOX
-
-**Loot Boxes** are the primary source of all **RPG items**. They can be obtained by buying directly from the system for **100 Gold** ($1) each or by collecting a full set of [Chest Shards](broken-reference).
-
-By default, a loot box provides one item, with the chance of it being any type, tier, or level. Users can increase their chances of receiving more items by placing points in the [Luck attribute](broken-reference) and by consuming a specific elixir.
+As a result, each item can be put on and taken off an unlimited number of times, but to prevent situational clothing switching, each time an item is equipped, it will cost Essence, depending on the rarity of the item.
 
 {% hint style="info" %}
-The Gold spent on buying loot boxes is automatically burned by the system.
+The amount of Essence required to equip the item: \
+$$Cost_{essence}=10*Rarity$$
 {% endhint %}
 
-The function of a loot box is closer to in-game Gold than items as they do not influence the carried weight or stamina consumption and can be opened without using essence. As the items found in the loot box have weight, the box can’t be opened if the character weight limit is fully used. The loot boxes are individualized for the user and can’t be traded with other users.
+To equip clothing, there are no rarity or level restrictions. This means that a user can equip items purchased on the marketplace or obtained from a loot box that are of a higher level than the user. For example, a level 5 user can wear level 40 boots.&#x20;
 
-### Drop Rates
-
-The items drop rate from a loot box decreases 10 times with each tier. For example, Legendary (C) item is 10 times less likely to drop from a loot box than the same item as Rare (D).
-
-This makes the higher-tier items extremely valuable and hard to find in the loot boxes. If the chance of finding an F-tier clothing is 1 in 10 it makes the chances of finding an A-tier clothing 1 in 1 million.
-
-As finding higher-tier items is so difficult and elixirs and spell books are consumed, the game will never be over-saturated with powerful items.
+However, the power of the item's aspect is reduced proportionally, while the weight is applied in full. Since the weight of equipped items contributes to [stamina consumption](rpg-attributes/mining.md#stamina-reserve), this can be a significant limitation depending on overall character development.
 
 {% hint style="info" %}
-Loot boxes are the only way new items are released into circulation.
+The power of the aspect is reduced by the formula: \
+$$Aspect_{user}=min(1,\frac{Level_{user}}{Level_{item}})*Aspect_{item}$$
+{% endhint %}
+
+The only restriction on equipping clothing is introduced by another important attribute, the type. It determines which of the character's six clothing slots the item can be equipped in.
+
+While all types of clothing have the same drop rate and are generally considered equal except for the slot they occupy, some types are heavier on average but may offer more powerful perks.&#x20;
+
+Since the actual weight and each perk effect is determined individually on a random basis, not only will the average power vary from type to type, but some items may be more powerful relative to their weight than other items of the same type.
+
+<table><thead><tr><th width="103">Slot</th><th width="182">Items</th><th width="151" align="center">Weight Factor</th><th width="103" align="center">Avg. Perk</th></tr></thead><tbody><tr><td>Head</td><td>helmets, hoods, hats, crowns, masks</td><td align="center">200%-400%</td><td align="center">130%</td></tr><tr><td>Torso</td><td>robes, tunics, shirts, vests, breastplates</td><td align="center">400%-600%</td><td align="center">150%</td></tr><tr><td>Legs</td><td>pants, trousers, leggings, chaps</td><td align="center">200%-400%</td><td align="center">130%</td></tr><tr><td>Feet</td><td>boots, shoes, sandals, sabatons</td><td align="center">500%-700%</td><td align="center">160%</td></tr><tr><td>Hands</td><td>gloves, gauntlets, bracers, mittens</td><td align="center">100%-300%</td><td align="center">110%</td></tr><tr><td>Cloak</td><td>capes, raincoats, mantles, shawls</td><td align="center">300%-500%</td><td align="center">140%</td></tr></tbody></table>
+
+{% hint style="info" %}
+The base density of the clothing is $$Rarity^{-1.1}$$, and the final weight is adjusted by the individual weight factor of the item.
 {% endhint %}
 
 ***
 
-### Marketplace Trading
+### Aspects
 
-IMAGE OF QUESTFALL MARKETPLACE
+Each clothing item has an aspect that increases the power of one of the character attributes. As such, the number of aspects and their names are the same as the attributes: [Inventory](rpg-attributes/inventory.md), [Mining](rpg-attributes/mining.md), [Crafting](rpg-attributes/crafting.md), [Trading](rpg-attributes/trading.md), [Recovery](rpg-attributes/recovery.md), and [Luck](rpg-attributes/luck.md).
 
-All the users have access to the two **marketplaces** where items can be bought or sold for **Gold** (in-game) and **QFT** (on-chain) between the users.
-
-Marketplace trading of items is directly linked to the character's inventory – All bought items go directly to inventory and those placed on sale are moved from the inventory to the marketplace slots.
-
-### Trading for Gold
-
-In the in-game marketplace the **lower-tier** items F, E, and D are traded for **Gold**.
-
-Each user has a limited number of marketplace slots where lower-tier items can be placed for sale for a chosen fixed Gold price.
+Despite the fact that the number of clothing slots and attributes are the same, each item's aspect is independent of its type and is randomly determined when the item is created. For example, boots can have a Trading aspect, a Luck aspect, or any other aspect. The chances of getting each aspect on a new item are equal.&#x20;
 
 {% hint style="info" %}
-First-level character starts with 3 Marketplace Slots, and each subsequent Marketplace Slot requires another 5 points of Crafting attribute.
+This way, a user can equip all of the same aspect clothing to increase only one character's attribute.
 {% endhint %}
 
-### Trading for QFT
+What makes clothing so powerful is that the effect of an aspect increases not only with each rarity tier, but also with each new item level. More specifically, the rarity determines the range of the effect's power, and the individual Power determines the exact value that each new level gives to the aspect.
 
-In the on-chain marketplace the **higher-tier** items C, B, and A, are traded for **QFT**.
+<table><thead><tr><th width="114" align="center">Rarity</th><th width="130" align="center">Min Power</th><th width="116" align="center">Max Power</th></tr></thead><tbody><tr><td align="center">F</td><td align="center">0.15</td><td align="center">0.25</td></tr><tr><td align="center">E</td><td align="center">0.30</td><td align="center">0.40</td></tr><tr><td align="center">D</td><td align="center">0.45</td><td align="center">0.55</td></tr><tr><td align="center">C</td><td align="center">0.60</td><td align="center">0.70</td></tr><tr><td align="center">B</td><td align="center">0.75</td><td align="center">0.85</td></tr><tr><td align="center">A</td><td align="center">0.90</td><td align="center">1.10</td></tr></tbody></table>
 
-Users can place the higher-tier items on sale to the marketplace directly from the inventory for a fixed price of QFT. Trading on-chain does not use the character's marketplace slots and allows users to place any number of items on sale.
+To illustrate how this works in practice, let's look at an example. Suppose a user receives first level boots of rarity F with a Crafting aspect of power 0.2. When these boots are upgraded to level 10, they give +2 to Crafting (0.2 per level).
 
-Also, these items can be withdrawn from- and deposited into the inventory as NFTs. For more details about on-chain trading of items see [Marketplace](../../infrastructure/marketplace.md).
+As the boots evolve to the next level, the power of the aspect will increase. However, there are two factors to keep in mind when evolving an item.
+
+First, the range of the aspect's power narrows. So the new aspect power of the boots could be anywhere between 0.3 and 0.35, since the original power was in the middle of the range. Suppose the new aspect power for rarity E was randomly set to 0.32. When evolving to rarity D, the range will narrow again, this time to 0.45-0.47. And so on.
 
 {% hint style="info" %}
-As the trading of higher-tier items happens on-chain the user must pay the Polygon gas fee for each transaction.
+As a result, it is very difficult to craft item A with the maximum power of the effect. However, it can be maximized at any time with the Gem A.
 {% endhint %}
 
-### Marketplace Rules
-
-The marketplace offers free trade between users but there are some rules to both types of trading:
-
-* Every trade has a 5% fee (Gold/QFT) which is burned immediately by the system.
-* Items can be traded only for Gold or QFT and can’t be exchanged for other items.
-* User can transfer items to inventory (buying or depositing) only if the character can carry its weight.
+Second, the new aspect power is only applied when upgrading to the next level. So if a user from the example above upgrades boots to level 11 with a new aspect power of 0.32, boots will give +2.32 to Crafting. In other words, the power of aspect is not retroactive.
 
 ***
 
+### Perks
 
+Perks are fixed effects that an item gains with each rarity level, so a rarity F item has no perks, while a rarity A item has 5 perks. The power of perks does not increase with item level and remains the same.
 
-IMAGE OF CRAFTING
+There is a predefined list of possible perks in the system, each with a base effect. When a clothing rarity is evolved, one of the perks is randomly selected from this list, and the effect of the perk is adjusted according to the random number from the range specific to each type of clothing.
 
-**Crafting** allows users to upgrade **Clothing** with essence and disassemble any item for essence. Also, **Spell Books** can be upgraded by merging them together.
+<table><thead><tr><th width="103">Slot</th><th width="116" align="center">Min Power</th><th width="115" align="center">Max Power</th></tr></thead><tbody><tr><td>Head</td><td align="center">120%</td><td align="center">140%</td></tr><tr><td>Torso</td><td align="center">140%</td><td align="center">160%</td></tr><tr><td>Legs</td><td align="center">120%</td><td align="center">140%</td></tr><tr><td>Feet</td><td align="center">150%</td><td align="center">170%</td></tr><tr><td>Hands</td><td align="center">100%</td><td align="center">130%</td></tr><tr><td>Cloak</td><td align="center">130%</td><td align="center">150%</td></tr></tbody></table>
 
-This creates an additional layer of game mechanics and gives users the ability to get an edge by advancing their equipment. Crafting adds value to all types of items in Questfall as any item can be disassembled and used as a source of **Essence**.
+For example, the average perk effect on a hand item is 110%, while the average price for the same effect on a torso item is 150%.&#x20;
 
-***
-
-### Weight and Essence
-
-The item's weight, amount of essence it contains, and tier and level are directly correlated. The heavier the clothing the more essence is needed for upgrading it.
-
-By disassembling any item user gets a percentage of the essence it contains. The number of essences received from disassembling an item can be increased by adding points to the crafting attribute.
-
-For more details about the amounts of essence needed for upgrading and received from disassembling see the [Essence Balance](broken-reference).
-
-Essence is a highly valued resource as in addition to upgrading it is needed to equip and unequip clothing and it can’t be bought or traded.
-
-***
-
-### Clothing Upgrade
-
-The amount of boosts **Clothing** gives depends on its level and tier which can be upgraded by crafting.
-
-Users can freely choose to upgrade either the level or tier of clothing. Any level item can be evolved by tier and any tier item can be increased in level. The cost/benefit ratio is the same with both upgrades but evolving the tier often consumes more essence at one time as it has a greater effect on item bonuses.
-
-All tier of clothing has upgradeable effects that can be leveled up and the higher tier also has non-upgradable effects that can’t be leveled up.
-
-The number of **upgradable** and **non-upgradable** effects is based on the tier:
-
-* 1/0 - Common (F)
-* 2/0 - Advanced (E)
-* 3/0 - Rare (D)
-* 3/1 - Legendary (C)
-* 3/2 - Epic (B)
-* 3/3 - Mythic (A)
-
-**The Level Upgrade** linearly increases the effect of all the upgradable bonuses within the clothing. All the non-upgradable bonuses stay the same.
+Let's say the perk "Increase Stamina Recovery Rate" has a base value of 10 stamina per minute. If the user evolves the hat and gets this perk with a perk power of 125%, the actual effect of the perk will be 12.5 stamina per minute.
 
 {% hint style="info" %}
-For example, A level 10 Legendary (C) robe gives +4% to mining efficiency, +1000 to mana, +1000 stamina, and +10 to crafting attribute, by upgrading it to level 11 it gives 4.4% to mining efficiency, +1100 to mana, and +1100 to stamina, and +10 to crafting attribute.
+There is no way to know what future perks the item will have at higher rarity tiers.
 {% endhint %}
 
-There is no fixed maximum level for the items as it will increase based on the level of the highest-level users.
+While the perks of the item are fixed from the moment they appear and there is no way to change them, users can use Gems A to maximize the power of the perks to 200%. For example, if the perk from the example above is maximized, it will result in 20 stamina per minute.
 
-**The Tier Upgrade** adds randomly a new effect to the clothing and the item level stays the same. When the item gets a new upgradable effect (F to E, E to D), the power of the new effect is based on the clothing level.
+The main idea behind perks is to give items individual value to different users. While an item may seem worthless to Alice, it may be very valuable to Bob.&#x20;
 
-{% hint style="info" %}
-For example, A level 20 common (F) helmet gives +6% to mining efficiency, and by evolving it to Advanced (E), it will give +6% to mining efficiency and +2000 to mana. (+100 mana for each level)
-{% endhint %}
+In order to best accomplish this goal, perks not only improve the parameters of a character in a more granular way than attributes, but more importantly, perks can also increase the power of other perks or aspects.
 
-Within the same higher tier (C, B, A), clothing of the same level can vary in quality. This is because the strength of the new non-upgradable effect is randomly generated within a specific range. Non-upgradable effects already in the clothing remain unchanged when the tier is upgraded.
-
-The power range of the non-upgradable effect will get higher with each tier:
-
-* C 50% - 100%
-* B 100% - 200%
-* A 200% - 300%
-
-{% hint style="info" %}
-For example, A-tier clothing could give effects to different attributes using +10 as a base, +7 to Recharge Attribute (C), +19 to Mining Attribute (B), and +25 to Crafting Attribute (A).
-{% endhint %}
-
-### Spell Book Upgrade
-
-Each spell has six levels of power corresponding to the tiers of **Spell Books**. The power of spells increases exponentially with the tiers.
-
-To upgrade the spell books tier, users need to merge five books of the same type and rarity for one higher-tier book.
-
-
-
-### Essence Balance
-
-Each character can have an unlimited amount of non-tradable **Essence**, which does not add weight to the inventory.
-
-**Essence** can only be gained by disassembling items, and the heavier the item, the more **Essence** it will contain. A first-level character can extract <mark style="background-color:purple;">0.1</mark> **Essence** per gram, but each additional point of **Crafting** increases the amount of **Essence** per gram by <mark style="background-color:purple;">0.1</mark>.
-
-{% hint style="info" %}
-While a user with a **Crafting** of 1 will receive 100 Essence for disassembling a 1 kg item, a user with a Crafting of 20 will receive 2000 **Essence** for the same item. And a user with a Crafting of 50 will receive 5000 **Essence**.
-{% endhint %}
-
-**Essence** is needed to level up items and evolve their rarity. The amount of Essence needed to be invested in the item can be calculated by the formula: $$Essence = 5*Level^{2}*Rarity$$. This approach allows to calculate any levelling or evolution of the item by subtracting the amount of Essence already invested in the item from the requirements for the final parameters.
-
-{% hint style="info" %}
-For example, a common (F) item requires 5x100x1=500 Essence to level up from level 1 to level 10. To level up this item another ten levels to level 20, it will require 5x400x1-500=1500 Essence. In order to evolve this level 20 item to uncommon rarity (E), the following amount of Essence is required: 5x400x2-2000=2000.
-{% endhint %}
+This allows users to collect individual sets of clothing items that enhance each other. For example, one of the perks on the pants might be "Increase the power of the 2nd perk in the hand slot", while the gloves might have a 2nd perk "Increase the aspect of the head slot". In the ultimate case, items can gather power through a spiral with multiple coils.

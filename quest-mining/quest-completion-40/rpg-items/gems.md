@@ -26,6 +26,8 @@ A-rarity Gems are not used for evolving, as rarity tier A is the highest possibl
 
 Since users only need Essence and Gems of the same rarity, they only need Gold to craft C-rarity items that can be sold for QFT, thus extracting in-game value from the system to the blockchain. In fact, because Gems themselves can be evolved through merging, items of any rarity can be crafted using only Gold.
 
+***
+
 ### Gem Issuance
 
 Although Gems can be purchased on the marketplace, they are initially created as a reward for participating in the Liquidity Program. In this program, users provide liquidity to the official swapping pool and then burn the LP tokens they receive. In return, they receive QFT and Gems.
