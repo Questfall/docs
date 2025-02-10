@@ -39,6 +39,7 @@
   * [Consensus](quest-mining/community-moderation/consensus.md)
   * [Witnessing](quest-mining/community-moderation/witnessing.md)
   * [Honeypots](quest-mining/community-moderation/honeypots.md)
+  * [Bypass](quest-mining/community-moderation/bypass.md)
   * [Incentives](quest-mining/community-moderation/incentives.md)
 * [Seasons (14%)](quest-mining/seasons-14.md)
 
