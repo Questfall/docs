@@ -27,7 +27,7 @@ To further increase the rate at which liquidity grows, there will be an addition
 Obviously, users will increase their chances of getting more rare Gems by maximizing their total share of burnt liquidity over the course of the week.
 
 {% hint style="info" %}
-However, the amount of liquidity burned is not the only parameter that affects the distribution of Gem rewards. See the [Gems](../quests/users/items/gems.md) article to learn more.
+However, the amount of liquidity burned is not the only parameter that affects the distribution of Gem rewards. See the [Gems](../quest-mining/completion/rpg-items/gems.md) article to learn more.
 {% endhint %}
 
 In this way, the more activity in the system, the higher the demand for Gems, the more their price will rise in the secondary market, and the faster liquidity will grow, since the Liquidity Program is the only way to release Gems into circulation.&#x20;

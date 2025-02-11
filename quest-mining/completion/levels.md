@@ -6,10 +6,10 @@ icon: stairs
 
 In Questfall, level is a key characteristic of users who complete quests, which heavily influences many aspects of the quest mining:
 
-* Level determines which [league](leagues.md) a user belongs to, allowing a higher level user to mine [rewards](../authors/rewards.md) with less competition.&#x20;
-* Each level grants one attribute point, which can be used to improve any of a [character's attributes](attributes/).&#x20;
-* The level of [clothing](items/clothing.md) items is limited by the user's level, so progressing through the levels allows for clothing upgrades.
-* Level increases the weight of a user's vote in [community moderation](../moderators/) decisions and [quest ratings](../authors/karma.md).
+* Level determines which [league](leagues.md) a user belongs to, allowing a higher level user to mine [rewards](../creation/rewards.md) with less competition.&#x20;
+* Each level grants one attribute point, which can be used to improve any of a [character's attributes](rpg-attributes/).&#x20;
+* The level of [clothing](rpg-items/items.md) items is limited by the user's level, so progressing through the levels allows for clothing upgrades.
+* Level increases the weight of a user's vote in [community moderation](../moderation/) decisions and [quest ratings](../creation/karma.md).
 
 {% hint style="info" %}
 When a user advances to the next level, resources that can be replenished with potions, such as stamina, are fully restored.
@@ -17,7 +17,7 @@ When a user advances to the next level, resources that can be replenished with p
 
 While in most RPGs it is common to earn XP for leveling up directly, in Questfall there is an intermediate asset - [Silver](../../assets/silver.md) - which allows to buy XP. This is because community moderation, which is rewarded with Silver, can be used not only by users who complete quests, but also by indie authors who want to promote their quests and be rewarded for doing so.
 
-As a result, the model is a bit more complex than in most RPG systems, as there are two ways to get Silver (burning Gold or community moderation) and two ways to spend it (either paying for XP or paying for [Quest Bounties](../authors/quest-bounty.md)).
+As a result, the model is a bit more complex than in most RPG systems, as there are two ways to get Silver (burning Gold or community moderation) and two ways to spend it (either paying for XP or paying for [Quest Bounties](../creation/quest-bounty.md)).
 
 {% hint style="info" %}
 When miners buy XP or authors pay for Quest Bounties, the Silver is burned.

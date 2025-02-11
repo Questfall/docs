@@ -26,10 +26,10 @@ While in Questfall v.1 a seller must set a price to list an item on the marketpl
 
 Since items listed on the in-game marketplace do not take up inventory space, the marketplace can be used as storage space, making the inventory weight limit meaningless. To prevent such abuse, there are a finite number of marketplace slots.
 
-A first-level character starts with 1 marketplace slot, which can be increased by adding attribute points to the character's [Trading](../quests/users/attributes/trading.md) attribute - each point opens another slot.
+A first-level character starts with 1 marketplace slot, which can be increased by adding attribute points to the character's [Trading](../quest-mining/completion/rpg-attributes/trading.md) attribute - each point opens another slot.
 
 {% hint style="info" %}
-The trading attribute also [reduces](../quests/users/attributes/trading.md#marketplace-fee) the fee a seller pays for each trade.
+The trading attribute also [reduces](../quest-mining/completion/rpg-attributes/trading.md#marketplace-fee) the fee a seller pays for each trade.
 {% endhint %}
 
 In summary, the entire marketplace mechanic in Questfall allows for convenient RPG item trading, which forces Gold and QFT burning, and complements crafting, enabling value extraction on the blockchain. It also makes mining much more personal, engaging, and dependent on the results of the work of others.

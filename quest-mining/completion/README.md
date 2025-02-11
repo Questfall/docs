@@ -12,7 +12,7 @@ Quest completion is considered the most important activity on the platform, and 
 In fact, more than half (51.2% to be exact) of the weekly QFT issue is used to reward users for completing quests, as an additional 11.2% is used for special [seasonal rewards](../seasons.md).
 {% endhint %}
 
-The [weekly reward pool](../authors/rewards.md) is divided among the [leagues](leagues.md), where users are grouped by [level](levels.md) and compete for their share of the league reward. Competition within each league is based on the Mining Score that users earn by the end of the week by completing quests.
+The [weekly reward pool](../creation/rewards.md) is divided among the [leagues](leagues.md), where users are grouped by [level](levels.md) and compete for their share of the league reward. Competition within each league is based on the Mining Score that users earn by the end of the week by completing quests.
 
 Each time a quest is successfully completed, the user is rewarded with a certain number of Mining Points, depending on a quest-specific Quest Bounty parameter and user-specific Mining Power and Mining Boost parameters.
 
@@ -32,12 +32,12 @@ The individual Mining Score is simply the total number of Mining Points earned b
 The Quest Bounty is set by the quest author in the range of 1 to 1000 by burning Silver and serves as the basis for calculating the reward for completing a quest, thus determining the order in which quests appear in the [global feed](../../overview/global-feed.md).&#x20;
 
 {% hint style="info" %}
-Although users will see individual rewards for the same quests in the feed, the order of the feed will remain the same for everyone, because all the [Quest Bounties](../authors/quest-bounty.md) are multiplied by the constant made up of user-specific parameters.
+Although users will see individual rewards for the same quests in the feed, the order of the feed will remain the same for everyone, because all the [Quest Bounties](../creation/quest-bounty.md) are multiplied by the constant made up of user-specific parameters.
 {% endhint %}
 
 While the Quest Bounty concept assumes that it is the same for everyone, and therefore the order of quests in the feed is also the same, this is not always the case.&#x20;
 
-The system may increase the Quest Bounty for a new [unrated quest](../authors/karma.md) to several random users, thus motivating them to complete the quest and vote on its rating.
+The system may increase the Quest Bounty for a new [unrated quest](../creation/karma.md) to several random users, thus motivating them to complete the quest and vote on its rating.
 
 {% hint style="info" %}
 The Quest Bounty will also change if the quest allows multiple attempts. For example, if a quest allows five retries, each failed attempt will reduce the Quest Bounty by 20%.
@@ -51,7 +51,7 @@ However, such competition will not benefit miners, as Bounties will increase for
 
 Mining Power is one of the many parameters that define the character of the RPG system in Questfall. It is defined in percent with an initial value of 0% and can only be increased by the RPG mechanics and can never be negative.
 
-Mining Power can be increased by investing the attribute points gained with each new level into the [Mining](attributes/mining.md) attribute or by equipping [clothing](items/clothing.md) with the appropriate effects.
+Mining Power can be increased by investing the attribute points gained with each new level into the [Mining](rpg-attributes/mining.md) attribute or by equipping [clothing](rpg-items/items.md) with the appropriate effects.
 
 However, Mining Power is not the only character parameter that can be improved with attribute points or clothing, as there are many other stats that can provide an advantage in various areas.&#x20;
 
@@ -68,7 +68,7 @@ The Mining Boost parameter is used to incentivize users to vote correctly when e
 When users complete unrated quests, they must choose one of eleven values (ranging from 0 to 10) to rate the quest. After the system collects enough votes, the final quest rating is calculated based on the community consensus.
 
 {% hint style="info" %}
-For more details on the final rating results, see the author's [Karma](../authors/karma.md) article.
+For more details on the final rating results, see the author's [Karma](../creation/karma.md) article.
 {% endhint %}
 
 In most cases, the final rating will be a fraction, but it can always be rounded to a whole number. For example, a final rating of 5.7 will be rounded to 6, a final rating of 8.9 will be rounded to 9, and so on.

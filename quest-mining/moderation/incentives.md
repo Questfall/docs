@@ -64,7 +64,7 @@ Fixed rewards in Silver for quest reports can be abused by intentionally creatin
 
 However, since each quest requires Silver to publish, this threat will only appear if the reward for the report is greater than the amount of Silver paid to publish the reported quest.
 
-For this reason, the rewards for quest reports in Questfall are not fixed and are determined by the [Quest Bounty](../authors/quest-bounty.md) - the greater the bounty, the greater the reward and penalty for the report.
+For this reason, the rewards for quest reports in Questfall are not fixed and are determined by the [Quest Bounty](../creation/quest-bounty.md) - the greater the bounty, the greater the reward and penalty for the report.
 
 <table><thead><tr><th width="157">Quest Report</th><th width="213" align="center">Reward</th><th width="209" align="center">Penalty</th></tr></thead><tbody><tr><td>Reporter</td><td align="center">+10% Silver in the quest</td><td align="center">-15% Silver in the quest</td></tr><tr><td>Moderators</td><td align="center">+50 Silver</td><td align="center">-70 Silver</td></tr><tr><td>Workspace</td><td align="center">-</td><td align="center">-10,000 Silver</td></tr></tbody></table>
 
@@ -72,7 +72,7 @@ For this reason, the rewards for quest reports in Questfall are not fixed and ar
 
 ### Completions
 
-Users can select any quest from the [Quest Feed](../../overview/global-feed.md), complete it properly, and increase their mining score by a number of mining points depending on the [Quest Bounty](../authors/quest-bounty.md) and the user's individual parameters such as [Mining Power](../users/#mining-power) and [Mining Boost](../users/#mining-boost).
+Users can select any quest from the [Quest Feed](../../overview/global-feed.md), complete it properly, and increase their mining score by a number of mining points depending on the [Quest Bounty](../creation/quest-bounty.md) and the user's individual parameters such as [Mining Power](../completion/#mining-power) and [Mining Boost](../completion/#mining-boost).
 
 {% hint style="info" %}
 Each completion consumes stamina to protect community moderation from DDoS attacks that can be caused by generating tons of completions.

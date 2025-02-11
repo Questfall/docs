@@ -21,7 +21,7 @@ This makes Questfall similar to sites like Facebook or X.
 The Quest Feed can be thought of as a virtual exhibition where authors compete for the attention of users over the long term. The more consistently high quality quests authors create, the easier it will be for them to reach the mainstream audience in the future, and the more they will earn.
 
 {% hint style="info" %}
-Read the details in a separate section of this documentation: [Quest Creation](../quests/authors/).
+Read the details in a separate section of this documentation: [Quest Creation](../quest-mining/creation/).
 {% endhint %}
 
 This creates a very different paradigm, where instead of spending resources on motivating users, authors are rewarded according to the value they bring to the community.
@@ -31,9 +31,9 @@ In other words, authors can earn by publishing their books, articles, lessons, m
 This approach also makes it possible to make the world a better place through quests. For example, a high reputation author could create a quest to plant a tree or clean up an ocean, and that quest could work as a flash mob.
 
 {% hint style="info" %}
-Of course, this approach also opens up the possibility of quests causing harm to others. This problem is addressed by [community moderation](../quests/moderators/), where the users decides whether a reported quest is appropriate or not.
+Of course, this approach also opens up the possibility of quests causing harm to others. This problem is addressed by [community moderation](../quest-mining/moderation/), where the users decides whether a reported quest is appropriate or not.
 {% endhint %}
 
 In addition, the concepts of Quest Mining and Quest Feed do not eliminate the existing approach of teams spending resources to promote their projects.&#x20;
 
-This can be accomplished by increasing the [Quest Bounty](../quests/authors/quest-bounty.md), which will make them more visible in the Quest Feed. Of course, such a promotion will not be free and will require [QFT](../assets/qft.md) burning, thus adding value to the entire community by making QFT a deflationary token.
+This can be accomplished by increasing the [Quest Bounty](../quest-mining/creation/quest-bounty.md), which will make them more visible in the Quest Feed. Of course, such a promotion will not be free and will require [QFT](../assets/qft.md) burning, thus adding value to the entire community by making QFT a deflationary token.

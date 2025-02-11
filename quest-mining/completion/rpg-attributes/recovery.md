@@ -19,4 +19,4 @@ The recovery rate of Stamina Reserve is calculated using the following formula:\
 $$Stamina_{min}=0.2*(Recovery+1)$$
 {% endhint %}
 
-Of course, as in most other RPGs, stamina can be instantly restored at any time with the [Stamina Potion](../items/potions.md), which can be obtained from the loot box or purchased with Gold from other users in the marketplace.
+Of course, as in most other RPGs, stamina can be instantly restored at any time with the [Stamina Potion](../rpg-items/potions.md), which can be obtained from the loot box or purchased with Gold from other users in the marketplace.

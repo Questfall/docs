@@ -12,7 +12,7 @@ In Questfall v.1, only one type of potion is introduced - the Stamina Potion. Ho
 
 Potions do not have levels, but they can be one of [six rarity tiers](./#item-rarity), gaining power with each tier. Therefore, potions of the same type and rarity are identical and have exactly the same properties, such as effect, weight, evolution cost, etc.
 
-Like any other RPG item, potions can be [scrapped](../attributes/crafting.md#scrapping) for Essence or sold on the [marketplace](../../../infrastructure/marketplace.md) for [Gold](../../../assets/gold.md) (F,E,D) or [QFT](../../../assets/qft.md) (C,B,A). Users can also [evolve](../attributes/crafting.md#evolving) the rarity of potions by merging identical bottles, the number of which depends on the type of potion.
+Like any other RPG item, potions can be [scrapped](../rpg-attributes/crafting.md#scrapping) for Essence or sold on the [marketplace](../../../infrastructure/marketplace.md) for [Gold](../../../assets/gold.md) (F,E,D) or [QFT](../../../assets/qft.md) (C,B,A). Users can also [evolve](../rpg-attributes/crafting.md#evolving) the rarity of potions by merging identical bottles, the number of which depends on the type of potion.
 
 {% hint style="info" %}
 For example, Stamina Potions assume that two potions are merged to evolve. Therefore, two F-rarity potions will create an E-rarity potion, two E-rarity potions will create a D-rarity potion, and so on.

@@ -4,11 +4,11 @@ icon: gem
 
 # Gems
 
-Level-less items, such as [potions](potions.md), of the same type and rarity are identical, so their evolution can be implemented as a simple merging. However, items with levels, such as [clothing](clothing.md), are quite unique, and it is almost impossible to find two similar items.
+Level-less items, such as [potions](potions.md), of the same type and rarity are identical, so their evolution can be implemented as a simple merging. However, items with levels, such as [clothing](items.md), are quite unique, and it is almost impossible to find two similar items.
 
 To evolve such items, users need Gems, which are only issued as a reward for participating in the [Liquidity Program](../../../infrastructure/liquidity-program.md), so they cannot be found in loot boxes. In that sense, Gems are special.
 
-In all other respects, Gems are just like any other level-less items, such as potions. They can be [scrapped](../attributes/crafting.md#scrapping), sold on the on the [marketplace](../../../infrastructure/marketplace.md) for [Gold](../../../assets/gold.md) (F,E,D) or [QFT](../../../assets/qft.md) (C,B,A), their rarity can be [evolved](../attributes/crafting.md#evolving) through merging, and they take up [inventory](../attributes/inventory.md) space.
+In all other respects, Gems are just like any other level-less items, such as potions. They can be [scrapped](../rpg-attributes/crafting.md#scrapping), sold on the on the [marketplace](../../../infrastructure/marketplace.md) for [Gold](../../../assets/gold.md) (F,E,D) or [QFT](../../../assets/qft.md) (C,B,A), their rarity can be [evolved](../rpg-attributes/crafting.md#evolving) through merging, and they take up [inventory](../rpg-attributes/inventory.md) space.
 
 <table><thead><tr><th width="94" align="center">Rarity</th><th width="91" align="center">Weight </th><th width="107" align="center">Scrapping</th><th width="115" align="center">Evolving</th></tr></thead><tbody><tr><td align="center">F</td><td align="center">100g</td><td align="center">+11es</td><td align="center">-</td></tr><tr><td align="center">E</td><td align="center">373g</td><td align="center">+14es</td><td align="center">4xF+10es</td></tr><tr><td align="center">D</td><td align="center">806g</td><td align="center">+19es</td><td align="center">4xE+30es</td></tr><tr><td align="center">C</td><td align="center">1,393g</td><td align="center">+26es</td><td align="center">4xD+60es</td></tr><tr><td align="center">B</td><td align="center">2,128g</td><td align="center">+35es</td><td align="center">4xC+100es</td></tr><tr><td align="center">A</td><td align="center">3,009g</td><td align="center">+46es</td><td align="center">4xB+150es</td></tr></tbody></table>
 
@@ -19,10 +19,10 @@ Scrapping and evolving values in the table are calculated for a Crafting attribu
 To evolve a rarity of an item, a user needs a Gem of the same rarity tier. For example, to evolve an item's rarity from F to E, a Gem F is required. To evolve item's rarity from E to D, a Gem E is needed. And so on.
 
 {% hint style="info" %}
-In addition to Gems, Essence is also [required](../attributes/crafting.md#evolving) to evolve the rarity tier.
+In addition to Gems, Essence is also [required](../rpg-attributes/crafting.md#evolving) to evolve the rarity tier.
 {% endhint %}
 
-A-rarity Gems are not used for evolving, as rarity tier A is the highest possible tier. Instead, a user can use them to maximize the [aspect](clothing.md#aspects) or one of the [perks](clothing.md#perks) of the clothing item.
+A-rarity Gems are not used for evolving, as rarity tier A is the highest possible tier. Instead, a user can use them to maximize the [aspect](items.md#aspects) or one of the [perks](items.md#perks) of the clothing item.
 
 Since users only need Essence and Gems of the same rarity, they only need Gold to craft C-rarity items that can be sold for QFT, thus extracting in-game value from the system to the blockchain. In fact, because Gems themselves can be evolved through merging, items of any rarity can be crafted using only Gold.
 
@@ -38,7 +38,7 @@ While QFTs are awarded proportionally based on users' mining results, Gems are i
 Learn more about QFT distribution in the [Liquidity Program](../../../infrastructure/liquidity-program.md) article.
 {% endhint %}
 
-Every user who participates in the Liquidity Program during a week earns Gem Points, which are used to create the leaderboard. The amount of Gem Points earned depends on three factors: the amount of LP tokens burned for the program, the value of the [Crafting](../attributes/crafting.md) attribute, and how early in the week the LP tokens were burned.
+Every user who participates in the Liquidity Program during a week earns Gem Points, which are used to create the leaderboard. The amount of Gem Points earned depends on three factors: the amount of LP tokens burned for the program, the value of the [Crafting](../rpg-attributes/crafting.md) attribute, and how early in the week the LP tokens were burned.
 
 {% hint style="info" %}
 The amount of Gem Points earned per LP token burned: \

@@ -12,13 +12,13 @@ It increases Mining Power, which boosts the rewards for completed quests, and St
 
 ### Mining Power
 
-Mining Power is defined as a percentage and increases the reward for each quest completed, as it is used as one of the multipliers for the [Quest Bounty](../../authors/quest-bounty.md) set by the author. For example, if the author has set the Bounty to 100 and the user has 25% Mining Power, then the quest reward for that particular user will be 125 Mining Points.
+Mining Power is defined as a percentage and increases the reward for each quest completed, as it is used as one of the multipliers for the [Quest Bounty](../../creation/quest-bounty.md) set by the author. For example, if the author has set the Bounty to 100 and the user has 25% Mining Power, then the quest reward for that particular user will be 125 Mining Points.
 
 {% hint style="info" %}
 This does not take into account the [Mining Boost](../#mining-boost) parameter that can be gained by properly voting for new quest ratings.
 {% endhint %}
 
-Mining Power starts at 0% and increases by 1% with each point of the Mining attribute. So if a user invests 40 points in Mining, his Mining Power will be 40%. In addition to the Mining attribute, Mining Power can also be increased by equipping [clothing](../items/clothing.md) with the appropriate effects.
+Mining Power starts at 0% and increases by 1% with each point of the Mining attribute. So if a user invests 40 points in Mining, his Mining Power will be 40%. In addition to the Mining attribute, Mining Power can also be increased by equipping [clothing](../rpg-items/items.md) with the appropriate effects.
 
 ***
 

@@ -14,7 +14,7 @@ Bids are sorted by the dollar price users offer for burning their Gold - the low
 
 In this way, the system is guaranteed to burn the most Gold for the fixed amount of QFT. However, there are two types of user bids: one for the real price (actual bid) and one for the sort order (effective bid).&#x20;
 
-And users can lower their effective bids and move up in the queue by increasing the [Trading](../quests/users/attributes/trading.md) attribute, which can give up to a 20% discount, or by bidding as early in the week as possible, which can give an additional 10%.
+And users can lower their effective bids and move up in the queue by increasing the [Trading](../quest-mining/completion/rpg-attributes/trading.md) attribute, which can give up to a 20% discount, or by bidding as early in the week as possible, which can give an additional 10%.
 
 {% hint style="info" %}
 Rewarding early bidding discourages last-minute bid manipulation and allows users to spend less time tracking the auction.

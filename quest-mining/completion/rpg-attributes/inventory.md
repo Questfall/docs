@@ -20,6 +20,6 @@ The weight limit of the newly created character is 1 kg, and it can be further i
 The formula for the inventory weight limit is as follows: $$WeightLimit_{grams}=1000*(Inventory+1)$$
 {% endhint %}
 
-Each point in the Inventory attribute causes the weight limit to grow linearly, while the [weight of items](../items/) grows as a root of the level, i.e. more slowly. Therefore, as the inventory grows, each new item takes up a smaller percentage of the total weight limit.
+Each point in the Inventory attribute causes the weight limit to grow linearly, while the [weight of items](../rpg-items/) grows as a root of the level, i.e. more slowly. Therefore, as the inventory grows, each new item takes up a smaller percentage of the total weight limit.
 
 As a result, users are motivated to increase their inventory weight limit not only to hold more rare and high-level items, which weigh more, but also to be able to hold a larger total number of items.

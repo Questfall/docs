@@ -10,7 +10,7 @@ The Luck attribute increases the number of loot boxes a user receives for free, 
 
 ### **Chest Shards**
 
-Users earn Chest Shards for each quest they complete, and a free [loot box](../items/#loot-boxes) is awarded every time they collect a full set of shards. The Luck attribute increases the chance of obtaining the missing shard needed to complete the set.
+Users earn Chest Shards for each quest they complete, and a free [loot box](../rpg-items/#loot-boxes) is awarded every time they collect a full set of shards. The Luck attribute increases the chance of obtaining the missing shard needed to complete the set.
 
 Initially, a first-level character receives a random Chest Shard from an imaginary urn, where there is 32 units of each missing shard and 61 units of each collected shard. As a result, the odds of getting a particular collected shard are almost 2 times greater than the odds of getting a particular missing shard.
 
@@ -26,7 +26,7 @@ This method of counting chances does not take into account the different number 
 
 ### **Loot Box Turns**
 
-By default, a [loot box](../items/#loot-boxes) provides one turn, with the chance of receiving an item depending on its rarity. However, users can increase their chances of receiving more items by investing stat points in their Luck attribute and increasing the number of turns they take when opening loot boxes.
+By default, a [loot box](../rpg-items/#loot-boxes) provides one turn, with the chance of receiving an item depending on its rarity. However, users can increase their chances of receiving more items by investing stat points in their Luck attribute and increasing the number of turns they take when opening loot boxes.
 
 All users have one turn by default, to get a second turn a user must reach 10 Luck. And for each subsequent turn, the Luck requirement increases by 5. So for the third turn, Luck should be 25, for the fourth, 45, and so on.
 

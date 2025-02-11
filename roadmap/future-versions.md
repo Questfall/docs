@@ -10,7 +10,7 @@ While designing the Questfall system, we put many things aside, because they are
 
 ### Banner Pomotion
 
-In order to increase the amount of QFTs burned and make Silver even more useful, authors will be able to promote their [Workspaces](../quests/authors/workspaces.md) with the banner placed on the Quest Feed. Promoting the Workspace in this way can make it known to the community and increase the number of followers and quest completions.
+In order to increase the amount of QFTs burned and make Silver even more useful, authors will be able to promote their [Workspaces](../quest-mining/creation/workspaces.md) with the banner placed on the Quest Feed. Promoting the Workspace in this way can make it known to the community and increase the number of followers and quest completions.
 
 Users can purchase a one-day banner slot with Silver to promote their Workspace. Slots will only be available for the next 30 days, and the farther away from the current day, the higher the price for the slot.
 
@@ -27,7 +27,7 @@ However, allowing Silver to circulate also creates potential threats. For exampl
 In addition to common activities such as mining, crafting, and trading, the efficiency of which can be improved through items, we also want to introduce magic, which can have a significant impact on a user's strategy, as spells learned from spellbooks will be applied to the system itself rather than to a character.
 
 {% hint style="info" %}
-Spells are, in a sense, official hacks and can do almost anything in the system, from increasing the mining point reward for a particular quest to changing the overall website background color for everyone on the platform.
+Spells are, in a sense, official hacks and can do almost anything in the system, from increasing the reward for a particular quest to changing the overall website background color for everyone on the platform.
 {% endhint %}
 
 Implementing magic will not only add more variety to possible user strategies, but will also add much more to the system: the Magic character attribute, spellbooks, spells, mana. This will significantly increase the amount of RPG item types in loot boxes and the marketplace.
@@ -40,7 +40,7 @@ While spells affect the environment, elixirs provide various temporary and perma
 We have already developed a lot of elixir effects that are just waiting to be implemented.
 {% endhint %}
 
-In addition to making mining more varied, elixirs will also add much more diversity to loot boxes, allowing users to be rewarded with them more often.
+In addition to making mining more varied, elixirs will also add much more diversity to loot boxes.
 
 ### Warfare
 
@@ -62,11 +62,11 @@ For example, clans can focus on logic puzzles (or any other type of quest) and r
 
 Clans can also have storage for shared resources such as Essence or Gems, bonuses for trading in large quantities, and much more.&#x20;
 
-But the most important role we expect clans to play is Warfare, where they can even have their own castles. However, clans cannot be well implemented until Warfare itself is up and running.
+But the most important role we expect clans to play is Warfare, where they can even have their own castles. Therefore, clans cannot be well implemented until Warfare itself is up and running.
 
 ### Non-Binary Completions
 
-The basic mechanic for quests in Questfall is that there is a minimum quality requirement that the quest completion must meet. Thus, the outcome of each completion is binary - either the completion is rewarded or it is not. And all completions are rewarded equally, with a base reward set by the quest author.
+The basic mechanic for quests in Questfall is that there is a minimum quality requirement that the quest completion must meet. Thus, the outcome of each completion is binary - either the completion is rewarded or it is not. And all completions are rewarded equally based on the Quest Bounty set by the quest author.
 
 However, some tasks require the author to create a quest because he or she really needs to solve a particular problem. For example, it can be a web page design, or an article, or a music track, or a 3D model, etc. Since the author really needs only one design of the best quality for the web page, a leaderboard of the completions can be built, ordered by the quality rating done by the community.
 
@@ -82,7 +82,9 @@ This kind of completion is very complementary to non-binary completions, as it a
 
 ### API for Third-Party Projects
 
-Currently, there is no common approach to building a community of real people in the crypto space. As a result, many projects suffer Sybil attacks at launch from multi-accounts and bots. By having a working sybil defense mechanism, Questfall can provide other projects with an automated means to build a community of real people, leaving multi-accounts and bots outside.
+Currently, there is no common approach to building a community of real people in the crypto space. As a result, many projects suffer Sybil attacks at launch from multi-accounts and bots.
+
+By having a working sybil defense mechanism, Questfall can provide other projects with an automated means to build a community of real people, leaving multi-accounts and bots outside.
 
 ### Real-World Quests
 
@@ -92,6 +94,8 @@ In this context, quests can be seen as contracts, which are the crucial part of 
 
 In this way, Questfall will allow to go out of the box of fiat economy and create its own system that is more fair and based on transparent rules.
 
-However, the main problem with real world quests is witnessing the results of quest completion, as photos and even videos can be easily faked with AI nowadays. We are considering many different approaches for witnessing, from signing the photo or video with special hardware to witnessing through online video calls.
+However, the main problem with real world quests is witnessing the results of quest completion, as photos and even videos can be easily faked with AI nowadays.&#x20;
+
+We are considering many different approaches for witnessing, from signing the photo or video with special hardware to witnessing through online video calls.
 
 But when implemented, real-world quests will allow, for example, local quests where a worker who is not geographically far away can perform a specific task. This will make it possible to find a needed person nearby for any kind of work: babysitter, maid, construction worker, gardener, pool cleaner, etc.

@@ -36,9 +36,9 @@ In Questfall, 36% of the weekly issue is used to support the infrastructure:
 
 The remaining 64% of the weekly issue is used to reward quest activity:
 
-* 40% to reward users for [quest completion](../quests/users/);
-* 10% to reward authors for [quest creation](../quests/authors/);
-* 14% to [seasonal reward pool](../quests/seasons.md) (11.2% to users and 2.8% to authors).
+* 40% to reward users for [quest completion](../quest-mining/completion/);
+* 10% to reward authors for [quest creation](../quest-mining/creation/);
+* 14% to [seasonal reward pool](../quest-mining/seasons.md) (11.2% to users and 2.8% to authors).
 
 {% hint style="info" %}
 As the percentage split is fixed, and the QFT issue is determined by the pre-defined formula, the number of tokens allocated to each of these pools can be accurately calculated for any given week.

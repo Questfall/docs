@@ -19,7 +19,7 @@ The most difficult tasks are getting all the pieces to work together smoothly an
 
 The launch of Questfall is nothing special, except that we have to do a lot of pre-partnerships in order to have as many quests as possible on the platform beforehand.
 
-<figure><img src="../.gitbook/assets/screenshot.avif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/screenshot.jpg" alt=""><figcaption></figcaption></figure>
 
 However, launching [QFT](../assets/qft.md) is another story.&#x20;
 

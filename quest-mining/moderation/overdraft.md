@@ -11,7 +11,7 @@ Moderation should be open and free for good moderators because they add value to
 In order to apply this penalty and allow such an unfortunate moderator to continue, Questfall implements a Silver overdraft - the Silver balance can go negative. This way, new users can practice their moderation skills, go negative, and then earn their Silver back by voting correctly.
 
 {% hint style="info" %}
-Giving new accounts a starting amount of Silver instead of an overdraft approach is a bad idea because users can spend this initial amount of Silver on [leveling](../users/levels.md) or [Quests Bounty](../authors/quest-bounty.md) and will not be able to moderate.
+Giving new accounts a starting amount of Silver instead of an overdraft approach is a bad idea because users can spend this initial amount of Silver on [leveling](../completion/levels.md) or [Quests Bounty](../creation/quest-bounty.md) and will not be able to moderate.
 {% endhint %}
 
 The ability to have an unlimited negative Silver balance assumes that users can vote badly endlessly. They will not earn anything that way, on the contrary, they will completely drown their Silver balance, making an account a waste.&#x20;
