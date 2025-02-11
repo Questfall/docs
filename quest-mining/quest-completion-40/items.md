@@ -6,7 +6,7 @@ icon: shirt
 
 Clothing is the core element of user performance, as a naked character will be much weaker than the same character dressed in appropriate, matching clothing.
 
-Like all other items except Gems, clothing is initially created from loot boxes. It has a 90% drop rate, meaning that on average, 9 out of 10 items from loot boxes are clothing.
+Like all other items except [Gems](rpg-items/gems.md), clothing is initially created from loot boxes. It has a 90% drop rate, meaning that on average, 9 out of 10 items from loot boxes are clothing.
 
 {% hint style="info" %}
 The drop rate for clothing will decrease as new item types are introduced in [future versions](../../roadmap/future-versions.md) of the platform.
@@ -85,7 +85,7 @@ As the boots evolve to the next level, the power of the aspect will increase. Ho
 First, the range of the aspect's power narrows. So the new aspect power of the boots could be anywhere between 0.3 and 0.35, since the original power was in the middle of the range. Suppose the new aspect power for rarity E was randomly set to 0.32. When evolving to rarity D, the range will narrow again, this time to 0.45-0.47. And so on.
 
 {% hint style="info" %}
-As a result, it is very difficult to craft item A with the maximum power of the effect. However, it can be maximized at any time with the Gem A.
+As a result, it is very difficult to craft item A with the maximum power of the effect. However, it can be maximized to 1.5 at any time with the Gem A.
 {% endhint %}
 
 Second, the new aspect power is only applied when upgrading to the next level. So if a user from the example above upgrades boots to level 11 with a new aspect power of 0.32, boots will give +2.32 to Crafting. In other words, the power of aspect is not retroactive.
@@ -96,7 +96,7 @@ Second, the new aspect power is only applied when upgrading to the next level. S
 
 Perks are fixed effects that an item gains with each rarity level, so a rarity F item has no perks, while a rarity A item has 5 perks. The power of perks does not increase with item level and remains the same.
 
-There is a predefined list of possible perks in the system, each with a base effect. When a clothing rarity is evolved, one of the perks is randomly selected from this list. The perk's effect is also randomly generated from the range specific to each clothing type.
+There is a predefined list of possible perks in the system, each with a base power. When a clothing rarity is evolved, one of the perks is randomly selected from this list. The perk's power is also randomly generated from the range specific to each clothing type.
 
 {% hint style="info" %}
 There is no way to know what future perks the item will have at higher rarity tiers.
@@ -106,7 +106,7 @@ There is no way to know what future perks the item will have at higher rarity ti
 
 The heavier the average item of the type, the greater the average power of its perks. For example, the average power of a perk on a hand item is 110%, while the average power of the same perk on a torso item is 150%.
 
-Let's say the perk "Increase Stamina Recovery Rate" has a base value of 10 stamina per minute. If the user evolves the hat and gets this perk with a power of 125%, the actual effect of the perk will be 12.5 stamina per minute.
+Let's say the perk "Increase Stamina Recovery Rate" has a base power of 10 stamina per minute. If the user evolves the hat and gets this perk with a power of 125%, the actual effect of the perk will be 12.5 stamina per minute.
 
 {% hint style="info" %}
 While the perks of the item are fixed from the moment they appear and there is no way to change them, users can use Gems A to maximize the power of the perks to 200%. For example, if the perk from the example above is maximized, it will result in 20 stamina per minute.
