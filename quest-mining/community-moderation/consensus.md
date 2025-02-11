@@ -29,7 +29,7 @@ In cases where the league results are evenly split, the highest league is given 
 This approach protects the results from both sides - many low-level accounts as well as a few high-level accounts will not be able to manipulate the consensus, since an attacker would need a majority in most leagues to abuse a voting system.&#x20;
 
 {% hint style="info" %}
-This also means that the protection will increase over time as more leagues are opened in Questfall.
+This is analogous to the 51% attack in Bitcoin.
 {% endhint %}
 
 Since the votes are quite diverse when segmented by league, the number of votes for a solid consensus can be much smaller than just a percentage of all moderator votes. For example, the requirement could be at least 11 votes from each of 5 leagues, for a total of 55. This will be sufficient even if there are millions of moderators in the system.

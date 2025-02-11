@@ -2,7 +2,7 @@
 icon: shield-keyhole
 ---
 
-# Sybil Defence
+# Sybil Defense
 
 Mining is a groundbreaking concept that has exploded the cryptocurrency space in the last decade, but it has one caveat that makes it quite difficult to implement in practice. And that is the fair distribution of rewards according to the value created by users.
 
@@ -72,26 +72,12 @@ As a result, while it is possible to automate quest completion with bots that re
 While PoW implements consensus on top of Sybil defense, Questfall does the opposite: Sybil defense is built upon community consensus.
 {% endhint %}
 
-Of course, a key factor in making such a level-based Sybil defense robust is the voting mechanism, which should be based on rules that prevent manipulation and abuse.
-
-In Questfall, not only is the winning majority rewarded after the vote, but the losing minority is also punished. More specifically, the majority is rewarded with a level advancement, while those in the minority are set back in their progress.
-
-In order to prevent vote manipulation, Questfall implements additional security measures. Moderators are randomly assigned and their voting power is weighted by their user level. This means that an attacker would have to control a majority of high-level users in the entire system in order to influence the voting results for a particular quest completion.
+Of course, a key factor in making such a level-based Sybil defense robust is the voting mechanism, which should be based on rules that prevent manipulation and abuse. And the main principle of community moderation is that the winning majority is rewarded after the vote, while the losing minority is punished.
 
 {% hint style="info" %}
-This is analogous to the 51% attack in Bitcoin.
+Of course, it is not as simple as that. Learn more in the [Community Moderation](../quest-mining/community-moderation/) section.
 {% endhint %}
 
-However, this is still not enough. Since the majority of users in the system are expected to be good, most completions will be of high enough quality to be validated, allowing an attacker to gain levels simply by blindly approving every completion assigned: a few occasional penalties for approving bad completions won't outweigh the rewards for approving the good majority.
-
-To solve this problem, Questfall includes a system that generates fake completions for the moderators. These fake completions are indistinguishable from the real ones for users, but the system knows internally which type of vote is correct and rewards or punishes moderators accordingly.
-
-The system dynamically adjusts the number of fake completions to ensure that, on average, a moderator has an equal chance of getting a good or bad completion. Since the penalties are greater than the rewards, any kind of blind or random voting becomes a losing strategy over many iterations.
-
-{% hint style="info" %}
-For more details on the community consensus mechanics, see the [Moderating](broken-reference) section. We have barely scratched the surface here.
-{% endhint %}
-
-By introducing user levels with reward segmentation, as well as separating mining and Sybil protection into two distinct activities - one for earning cryptocurrency and another for leveling up - Questfall achieves something unprecedented: fair mining that creates real, tangible value for people.
+As a result, by introducing user levels with reward segmentation, and separating mining and Sybil protection into two distinct activities - one for earning cryptocurrency and one for leveling up - Questfall achieves something unprecedented: fair mining that creates real, tangible value for people.
 
 This overcomes the long-standing challenge of fairly rewarding creative work in decentralized systems by leveraging the unique strengths of human collaboration. This innovation not only reboots the mining paradigm, but also paves the way for more intensive use of publicly owned money for the benefit of the majority.

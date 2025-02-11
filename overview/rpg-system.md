@@ -16,33 +16,35 @@ This problem can be easily solved by introducing another token for payments. In 
 
 While a store of value must be deflationary to fulfil its function, the medium of exchange should not be too volatile so that prices do not fluctuate too much relative to other goods and services in the economy.
 
-In Questfall, deflationary QFT is the main store of value, while Gold (a dollar-based in-game currency) is used to pay into the system for mining bonuses, leveling up, or quest promotions. As a result, system prices are set in dollars and are independent of the price of QFT.
+In Questfall, deflationary [QFT](../assets/questfall-tokens-qft.md) is the main store of value, while [Gold](../assets/gold-in-game.md) (a dollar-based in-game currency) is used to pay into the system for mining bonuses, leveling up, or quest promotions. As a result, system prices are set in dollars and are independent of the price of QFT.
 
 However, this introduces another problem: since QFT tokens are burned when Gold is issued, there is nothing left on the chain to be returned in exchange for Gold when a user wants to withdraw it. In other words, there's no liquidity pool to back up user withdrawals.
 
 {% hint style="info" %}
-Standalone liquidity pools, which are typically used to support withdrawals, not only avoid burning, but are also a prime target for hackers, who can drain the liquidity completely, leaving in-game assets worthless.
+Standalone liquidity pools, which are typically used to support withdrawals, are a prime target for hackers, who can drain the liquidity completely, leaving in-game assets worthless.
 {% endhint %}
 
 However, beyond liquidity pools, there are two other ways to extract value from the system.
 
-The first is direct and simple - mining itself. In Questfall, this approach is implemented by using a portion of the weekly QFT issue to buy back and burn Gold from users in a system auction.
+The first is direct and simple - mining itself. In Questfall, this approach is implemented by using a portion of the weekly QFT issue to buy back and burn Gold from users in a [system auction](<../infrastructure/gold withdrawals.md>).
 
-Another approach is much more complex - NFT trading. It assumes that the role of liquidity pools, which in the case of NFTs are nonexistent, is filled by a marketplace. And the more active the trading, the greater the speed and efficiency with which users can monetize their NFTs. In other words, the demand for NFTs should be high.
+Another approach is much more complex - trading. It assumes that the role of liquidity pools is filled by a [marketplace](../infrastructure/marketplace.md). And the more active the trading, the greater the speed and efficiency with which users can monetize their goods. In other words, demand should be high.
 
-To create a constant demand for NFTs, Questfall implements an RPG system that fits like a glove with the user levels used as a defence against Sybil attacks.
+To create a constant demand, Questfall implements an RPG system that fits like a glove to the user levels used as protection against Sybil attacks.
 
-At the heart of the RPG system in Questfall, as in most games, is the character that represents the user. The character has a number of attributes that set the default values for stamina reserve, possible inventory weight, and others.
+The heart of the RPG system in Questfall is the character that represents the user. The character has a number of attributes that set the default values for stamina reserve, possible inventory weight, and others.
 
 Users can level up their characters through proper community moderation voting or by burning Gold, both of which benefit the entire community. With each new level, users receive free attribute points that can be used to customize their character according to their chosen strategy.
 
-In addition to character level and attributes, in-game items play an important role in a character's performance:
+But more important to extracting value from the system are in-game items, which create a trade opportunity and, along with attributes, play an important role in a character's performance:
 
 * Clothing improve character stats when equipped;
 * Potions replenish stamina;
-* Gems are used to increase the rarity tier of clothing.
+* Gems are used in crafting.
 
-RPG items (except Gems) can only be minted through loot boxes, which can be opened for free as a reward for completing quests, or by burning Gold. When minted, each RPG item is one of six rarity tiers:
+RPG items (except Gems) can only be minted through loot boxes, which can be opened for free as a reward for completing quests, or by burning Gold. Gems, on the other hand, can only be obtained by participating in the [Liquidity Program](../infrastructure/liquidity-providers.md).
+
+When minted, each RPG item is one of six rarity tiers:
 
 * Common (F);
 * Uncommon (E);
@@ -51,19 +53,17 @@ RPG items (except Gems) can only be minted through loot boxes, which can be open
 * Legendary (B);
 * Mythical (A).
 
-Unlike many common RPG systems, Questfall allows users to increase the rarity of certain item types by destroying other items, or in other words, by crafting. The rarity tier of Books can be increased by combining 5 of the same Books, while the rarity tier of Clothing can be increased by consuming a Gem of the same tier as the item itself.
+Unlike many common RPG systems, Questfall allows users to increase the rarity of certain item types by destroying other items, or in other words, by crafting.&#x20;
+
+The rarity tier of Potions can be increased by combining 2 of the same bottles, while the rarity tier of Clothing can be increased by consuming a Gem of the same tier as the item itself.
+
+Rarity tiers are a key aspect of the system, as common items (F, E, D) can only be traded for Gold, while the more rare items (C, B, A) are traded for QFT.
 
 {% hint style="info" %}
-Toolsets only have 5 rarity tiers because the Mythical items cannot evolve further, so there is no need for Toolset A. And unlike all other RPG items, Toolsets can only be obtained by participating in the [Liquidity Program](../infrastructure/liquidity-providers.md), not by opening loot boxes.
+Both of these rarity groups will be traded on the Questfall [marketplace](../infrastructure/marketplace.md).
 {% endhint %}
 
-This is a key aspect of the system, as common items (F, E, D) can only be traded in-game for Gold, while the more rare items (C, B, A) are traded on-chain for QFT as NFTs.
-
-{% hint style="info" %}
-Questfall will have two separate marketplaces combined into one interface: in-game and on-chain.
-{% endhint %}
-
-In this way, a user can craft a rarer item by utilizing more accessible items purchased with Gold, and then withdraw it as an NFT that can be sold on the blockchain marketplace for QFT. This opens the door for extracting value from the system (exchanging in-game Gold for QFT) through NFT trading.
+In this way, a user can craft a rarer item using more accessible items purchased with Gold, and then withdraw it as NFT or sell it for QFT. This enables the user to extract value from the system through trading (exchanging in-game Gold for QFT).
 
 {% hint style="info" %}
 There are many ideas for further development of the RPG system, read more in the [Future Versions](../roadmap/future-versions.md) article.
@@ -71,7 +71,7 @@ There are many ideas for further development of the RPG system, read more in the
 
 Of course, this is just the big picture, and there are many more nuances to how Questfall's RPG system works. Fortunately, we have a number of articles that cover every aspect of the RPG system in detail. For an overview, the main takeaway is that the RPG system brings many great benefits to the platform.
 
-* **Crafting enables the extraction of Gold.** By separating craftable rarity tiers into two groups - one that can be traded in-game for Gold, and another that can be traded on-chain as NFTs - Questfall creates a distinct mechanic for extracting value from the system.
+* **Crafting enables the extraction of Gold.** By separating craftable rarity tiers into two groups - one that is traded for Gold, and another that is traded for QFT - Questfall creates a distinct mechanic for extracting value from the system.
 * **RPG makes mining more interesting.** There are several types of activities that interact with each other and can be developed: crafting, mining, trading. This will allow users to master their skills and create individual, complex strategies beyond the basic quest grinding.
 * **RPG significantly increases trading activity.** Since users cannot progress in all areas at the same rate, some will focus on mining while others will focus on crafting or trading. This is similar to how manufacturers and merchants provide better equipment that increases efficiency.
 * **Gold gains a lot more utility.** Outside of the RPG system, Gold is only used for quest promotion or leveling up. However, item rarity tiers and crafting assume that trade and loot boxes that can be opened with Gold play a crucial role in the miners' competition.

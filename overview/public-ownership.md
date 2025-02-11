@@ -20,19 +20,19 @@ However, it is almost impossible to create a perfect system on the first try.&#x
 
 For example, Bitcoin had a bug that allowed 184 billion BTCs to be created in 2010 due to an integer overflow. The problem was resolved by soft forking, deleting the invalid transaction, and maintaining the 21 million BTC cap.
 
-It was only possible because there were not many users, most of whom read the same forum every day, and because of the involvement of Satoshi Nakomoto himself. Today, such a soft fork would be orders of magnitude more difficult to implement.
+It was only possible because there were not many users, most of whom read the same forum every day, and because of the involvement of Satoshi Nakamoto himself. Today, such a soft fork would be orders of magnitude more difficult to accomplish.
 
 This example perfectly illustrates the paradox that ownerless systems introduce. On the one hand, someone should control the system in order to develop the project and fix bugs, and on the other hand, this prevents the system from being ownerless.
 
 The simplest solution might be to polish the decentralized system as much as possible before launching it. But designing every possible aspect of the model without the ability to adjust it on the fly only works for the simpler systems, not for a complex platform like Questfall.
 
 {% hint style="info" %}
-For this reason, there are no projects based on smart contracts that are as popular as traditional web projects. Such projects are either too simple or do not implement the main competitive advantage of the blockchain - public ownership.
+For this reason, there are no projects based on smart contracts that are as popular as traditional web platforms. Crypto projects are either too simple or do not implement the main competitive advantage of the blockchain - public ownership.
 {% endhint %}
 
-In Questfall, thanks to the mining approach, we solved this problem by allowing the Team to control the functionality of the platform, while implementing the most important parts of the tokenomics as ownerless subsystems.
+In Questfall, thanks to the mining approach, we solved this problem by allowing the Team to control the functionality of the platform, while implementing the most important parts of tokenomics as an ownerless subsystem.
 
-More specifically, while the code controlled by the Team that distributes the weekly rewards can theoretically be changed and the Team can take all of the weekly issuance for themselves, the amount of QFTs issued in a given week is set in stone in the smart contract whose ownership is burned.
+More specifically, while the code controlled by the Team that distributes the weekly rewards can theoretically be changed, and the Team can completely take over one of the weekly issues, the amount of QFTs issued in a given week is set in stone in the smart contract whose ownership is burned.
 
 Even further, liquidity ownership in the swap pool is also burned by the users, making it impossible not only to rug pull with unlimited issuance, but also to withdraw liquidity by anyone.
 

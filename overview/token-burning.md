@@ -2,9 +2,9 @@
 icon: fire
 ---
 
-# Token Burning
+# Deflationary Mining
 
-While the mining approach has worked very well in Bitcoin so far, it has a major problem in the long run. There is a growing imbalance between the reward given to miners and the value held by holders.
+While the mining approach has worked very well for Bitcoin so far, it has a major problem in the long run. There is a growing imbalance between the reward given to miners and the value possessed by holders.
 
 When the Bitcoin blockchain started, each reward for a block gave miners a tangible share of the circulating supply, but today there are nearly 20 million BTCs in circulation, and the remaining 1 million+ will be mined over the next 125 years.&#x20;
 
@@ -20,7 +20,7 @@ Bitcoin assumes that miners will only earn from transaction fees once BTCs are n
 
 Deflation can solve this problem, as burning tokens reduces the supply in circulation, thus increasing the miners' share. But for a deflationary model to work, the system should give something in return for burned tokens.
 
-In Questfall, users can burn QFT tokens to purchase off-chain Gold at a fixed price of $0.01, which can then be used on the platform for various benefits.
+In Questfall, users can burn [QFT](../assets/questfall-tokens-qft.md) tokens to purchase off-chain [Gold](../assets/gold-in-game.md) at a fixed price of $0.01, which can then be used on the platform for various benefits.
 
 {% hint style="info" %}
 Burning QFTs is the only way to obtain Gold, which in turn will be burned when it is paid out for the system bonuses.
@@ -29,6 +29,10 @@ Burning QFTs is the only way to obtain Gold, which in turn will be burned when i
 In this way, QFT tokens are issued each week to reward miners, while at the same time they are burned for Gold. This dialectic has several advantages.
 
 Firstly, it solves the inherent problem of Bitcoin's approach to mining, as the miners' share of the system's capitalisation tends to be stable over the long term. In other words, the portion of QFT's capitalisation that is used to reward miners will not decrease despite the decline in token issuance.
+
+{% hint style="info" %}
+In addition, the decimal precision in smart contracts allows QFT to be issued for billions of years far beyond the life of the sun.
+{% endhint %}
 
 The defaltionary nature of QFT also implies that the number of tokens in circulation will initially increase as there are no tokens to begin with, but as the market saturates, the number of QFTs in circulation will slowly decrease over time.
 
