@@ -15,7 +15,7 @@ The platform would not exist without the founders, so it is hard to overstate th
 The total number of QFTs to be rewarded to founders in a given week is known in advance as it can be calculated by the formula. This fixed number of tokens will be distributed to all Founder NFT holders at the end of the week according to the individual Founder Point share of each NFT holder.
 
 {% hint style="info" %}
-For example, if the QFT issue this week is 30,000 QFT and the total amount of Founder Points would be 2,400,000, then each Founder Point earns 0.00125 QFT (30,000 \* 10% / 2,400,000).
+For example, if the QFT issue this week is 30,000 QFT and the total amount of Founder Points would be 2,400,000, then each Founder Point earns 30,000 \* 10% / 2,400,000 = 0.00125 QFT.
 {% endhint %}
 
 Since the weekly rewards should be claimed by the user in order to actually issue QFTs and get them into the wallet, and since Founder NFTs can be burned or traded, when such an NFT is burned or traded, any unclaimed tokens are also burned or traded along with the NFT.

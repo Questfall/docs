@@ -12,7 +12,7 @@ To protect the system from all of these threats, every published quest should ha
 This puts creators who want to monetize their content for free on an equal footing with projects that have marketing budgets.
 {% endhint %}
 
-The Quest Bounty determines how many mining points the user will receive for completing the quest, since the quest reward is calculated as the product of the bounty and the user's personal parameters, such as individual [mining power](../completion/#mining-power) and [mining boost](../completion/#mining-boost).
+The Quest Bounty determines how many mining points the user will receive for completing the quest, since the quest reward is calculated as the product of the bounty and the user's personal parameters, such as individual [mining power](../users/#mining-power) and [mining boost](../users/#mining-boost).
 
 The Quest Bounty also directly affects a quest's position in the feed, since it is sorted based on the rewards users can earn. So if an author offers the highest Bounty for the quest, it will be the first quest in the feed visible to everyone on the platform.
 

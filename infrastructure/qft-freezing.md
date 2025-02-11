@@ -19,7 +19,7 @@ For example, if the user has frozen 100 QFTs, his freeze power will be 1500 at t
 This can be thought of as the reward base slowly melting away, meaning that in order to receive the maximum reward in perpetuity, users must re-freeze their tokens on a weekly basis.
 
 {% hint style="info" %}
-We use the word _**freezing**_ because _**staking**_ implies the possibility of losing the stake, while _**locking**_ implies the fixed reward for a fixed period of time.
+We use the word **freezing** because **staking** implies the possibility of losing the stake, while **locking** implies the fixed reward for a fixed period of time.
 {% endhint %}
 
 While 5% may not seem like much, the results over the course of a year look different. For example, let's assume that 10% APY is a competitive return on a deposit. Over the course of a year, 52 \* 5% = 260% of the weekly issuance will be used to pay out percentages on the frozen QFTs.

@@ -12,12 +12,12 @@ Like all other items except [Gems](gems.md), clothing is initially created from 
 The drop rate for clothing will decrease as new item types are introduced in [future versions](../../../roadmap/future-versions.md) of the platform.
 {% endhint %}
 
-As with all RPG items in Questfall, each clothing item falls into one of the six [rarity tiers](./#item-rarity), and can be [scrapped](../rpg-attributes/crafting.md#scrapping) for Essence or sold on the [marketplace](../../../infrastructure/marketplace.md) for [Gold](../../../assets/gold.md) (F,E,D) or [QFT](../../../assets/qft.md) (C,B,A).
+As with all RPG items in Questfall, each clothing item falls into one of the six [rarity tiers](./#item-rarity), and can be [scrapped](../attributes/crafting.md#scrapping) for Essence or sold on the [marketplace](../../../infrastructure/marketplace.md) for [Gold](../../../assets/gold.md) (F,E,D) or [QFT](../../../assets/qft.md) (C,B,A).
 
 However, there are many properties that make clothing special. And one of the most important is that clothing items can grow in power along with a character, as they have [levels](./#item-level) that can be upgraded.
 
 {% hint style="info" %}
-Since clothing has levels, its rarity tier can only be [evolved](../rpg-attributes/crafting.md#evolving) with [Gems](gems.md), not by merging.
+Since clothing has levels, its rarity tier can only be [evolved](../attributes/crafting.md#evolving) with [Gems](gems.md), not by merging.
 {% endhint %}
 
 Users can level clothing items up to their own level. For example, a level 30 user can level up an item from 1 level to 30. In addition to crafting, users can also obtain high-level items from the marketplace or loot boxes.&#x20;
@@ -37,11 +37,11 @@ $$Cost_{essence}=10*Rarity$$
 
 When the item is equipped, its effects are applied to the character. And there are two types of effects that an item can have.
 
-First, each item has an aspect that adds to one of the character [attributes](../rpg-attributes/). Second, depending on its rarity, the item can have up to 5 perks.&#x20;
+First, each item has an aspect that adds to one of the character [attributes](../attributes/). Second, depending on its rarity, the item can have up to 5 perks.&#x20;
 
 To equip clothing, there are no rarity or level restrictions. This means that a user can equip items purchased on the marketplace or obtained from a loot box that are of a higher level than the user. For example, a level 5 user can wear level 40 boots.&#x20;
 
-However, the power of the item's aspect is reduced proportionally, while the weight is applied in full. Since the weight of equipped items contributes to [stamina consumption](../rpg-attributes/mining.md#stamina-reserve), this can be a significant limitation depending on overall character development.
+However, the power of the item's aspect is reduced proportionally, while the weight is applied in full. Since the weight of equipped items contributes to [stamina consumption](../attributes/mining.md#stamina-reserve), this can be a significant limitation depending on overall character development.
 
 {% hint style="info" %}
 The power of the aspect is reduced by the formula: \
@@ -64,7 +64,7 @@ The base density of the clothing is $$Rarity^{-1.1}$$, and the final weight is a
 
 ### Aspects
 
-Each clothing item has an aspect that increases the power of one of the character attributes. As such, the number of aspects and their names are the same as the attributes: [Inventory](../rpg-attributes/inventory.md), [Mining](../rpg-attributes/mining.md), [Crafting](../rpg-attributes/crafting.md), [Trading](../rpg-attributes/trading.md), [Recovery](../rpg-attributes/recovery.md), and [Luck](../rpg-attributes/luck.md).
+Each clothing item has an aspect that increases the power of one of the character attributes. As such, the number of aspects and their names are the same as the attributes: [Inventory](../attributes/inventory.md), [Mining](../attributes/mining.md), [Crafting](../attributes/crafting.md), [Trading](../attributes/trading.md), [Recovery](../attributes/recovery.md), and [Luck](../attributes/luck.md).
 
 Despite the fact that the number of clothing slots and attributes are the same, each item's aspect is independent of its type and is randomly determined when the item is created.&#x20;
 

@@ -13,7 +13,7 @@ Therefore, the usual solution of rewarding users for keeping their capital in th
 We took a different approach - the Liquidity Program in Questfall assumes that users will be rewarded for adding liquidity to the official Uniswap QFT-USDC and burning the LP tokens they receive. This way, the liquidity is locked into the pool forever and is not owned by anyone.
 
 {% hint style="info" %}
-For short, we will use the term _**liquidity burning**_ to refer to the addition of liquidity followed by the burning of LP ownership. This approach was first introduced by the [Core project](https://medium.com/@CORE_Vault/introducing-core-fef3e1b77d12).
+For short, we will use the term **liquidity burning** to refer to the addition of liquidity followed by the burning of LP ownership. This approach was first introduced by the [Core project](https://medium.com/@CORE_Vault/introducing-core-fef3e1b77d12).
 {% endhint %}
 
 Users will receive 5% of the weekly QFT issuance according to their share of the burnt liquidity during the week. This way, if users provide too little liquidity during the week, the reward will not only compensate the cost, but also bring profits, creating and arbitrage opportunity. In other words, on average, liquidity will increase each week by the total value of 5% of that week's QFT issuance.
@@ -27,7 +27,7 @@ To further increase the rate at which liquidity grows, there will be an addition
 Obviously, users will increase their chances of getting more rare Gems by maximizing their total share of burnt liquidity over the course of the week.
 
 {% hint style="info" %}
-However, the amount of liquidity burned is not the only parameter that affects the distribution of Gem rewards. See the [Gems](../quest-mining/completion/rpg-items/gems.md) article to learn more.
+However, the amount of liquidity burned is not the only parameter that affects the distribution of Gem rewards. See the [Gems](../quests/users/items/gems.md) article to learn more.
 {% endhint %}
 
 In this way, the more activity in the system, the higher the demand for Gems, the more their price will rise in the secondary market, and the faster liquidity will grow, since the Liquidity Program is the only way to release Gems into circulation.&#x20;

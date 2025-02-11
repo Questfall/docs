@@ -6,7 +6,7 @@ icon: cart-shopping
 
 Many crypto projects consider popular third-party marketplaces such as OpenSea as a means of attracting an audience and selling their NFTs.
 
-Unlike this approach, the marketplace in Questfall plays a crucial role in the overall mechanic as a means of extracting value from the system through NFT trading, and is a necessary piece needed for various user strategies based on crafting and trading.
+Unlike this approach, the marketplace in Questfall plays a crucial role in the overall mechanic as a means of extracting value from the system through trading, and is a necessary piece needed for various user strategies based on crafting and trading.
 
 The main idea behind item trading in Questfall is that there are actually two marketplaces: one for trading of low rarity items (F,E,D) with Gold, and another for trading of higher rarity items (C,B,A) with QFT.
 
@@ -26,10 +26,10 @@ While in Questfall v.1 a seller must set a price to list an item on the marketpl
 
 Since items listed on the in-game marketplace do not take up inventory space, the marketplace can be used as storage space, making the inventory weight limit meaningless. To prevent such abuse, there are a finite number of marketplace slots.
 
-A first-level character starts with 1 marketplace slot, which can be increased by adding attribute points to the character's [Trading](../quest-mining/completion/rpg-attributes/trading.md) attribute - each point opens another slot.
+A first-level character starts with 1 marketplace slot, which can be increased by adding attribute points to the character's [Trading](../quests/users/attributes/trading.md) attribute - each point opens another slot.
 
 {% hint style="info" %}
-The trading attribute also [reduces](../quest-mining/completion/rpg-attributes/trading.md#marketplace-fee) the fee a seller pays for each trade.
+The trading attribute also [reduces](../quests/users/attributes/trading.md#marketplace-fee) the fee a seller pays for each trade.
 {% endhint %}
 
 In summary, the entire marketplace mechanic in Questfall allows for convenient RPG item trading, which forces Gold and QFT burning, and complements crafting, enabling value extraction on the blockchain. It also makes mining much more personal, engaging, and dependent on the results of the work of others.

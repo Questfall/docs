@@ -6,7 +6,7 @@ icon: user-plus
 
 Marketing is one of the most important factors for the success of any project, especially in the case of Questfall, where the tokenomics is mainly based on user activity.&#x20;
 
-While most of the platform mechanics are aimed at user retention, the Questfall Referral Program is aimed at marketing activities to attract and engage new users.
+While most of the Questfall mechanics are aimed at user retention, the Referral Program is aimed at marketing activities to attract and engage new users.
 
 {% hint style="info" %}
 This referral program will be launched together with Questfall, so it is not affiliated with [IFE](../roadmap/initial-funding-event.md), which has its own referral program.
@@ -24,16 +24,16 @@ $$MSCORE=BASE*MPOWER$$
 In this way, the interests of both parties are aligned to achieve the main goal of the referral program - ambassadors are motivated to bring new active users to the platforms, while users are incentivized to use the referral codes by receiving additional rewards for their activity.
 
 {% hint style="info" %}
-This will encourage users to look for referral codes when they get the Questfall link, for example from a search engine. This will increase the value of the Questfall community, where new users looking for a referral code and ambassadors can meet.
+This will encourage users to look for referral codes when they get the Questfall link, for example from a search engine, and increase the value of the Questfall community, where new users looking for a referral code and ambassadors can meet.
 {% endhint %}
 
 However, there are two issues that should be addressed to prevent abuse and make the program sustainable. And the availability of this referral program, which is open to everyone, is the first issue.
 
 There is no need to get the ambassador role from the team. Every user in the system will have a referral code from the beginning and will be able to become an ambassador by spreading the word about Questfall and getting referrals that way.
 
-This is a threat because it allows users to create fake accounts to increase their share of the rewards offered by the program, which is a typical [Sybil attack](../overview/sybil-defense.md).
+This is a threat because it allows users to create fake accounts to increase their share of the rewards offered by the program, which is a classic [Sybil attack](../overview/sybil-defense.md).
 
-To solve this problem and protect the referral program from fake account manipulation, the base for calculating the mining score will be an exponent of the amount of Silver burned for leveling up.
+To solve this issue and protect the referral program from fake account manipulation, the base for calculating the mining score will be an exponent of the amount of Silver burned for leveling up.
 
 {% hint style="info" %}
 The simple mathematical inequality of the exponent protects against Sybil attacks:\
@@ -65,9 +65,9 @@ $$MPOWER=max(1-10^{-8}*S_{total},0)$$
 
 This approach assumes that the user needs to create a new account to reset the mining power, but it makes no sense to switch from the high-level main account just for the referral program rewards.
 
+As a result, ambassadors will be forced to constantly recruit new users to keep their earnings high, as the mining score of previously recruited users will slowly decrease.
+
 {% hint style="info" %}
 The final formula for calculating the mining score is as follows:\
 $$MSCORE=S_{week}^{1.1}*max(1-10^{-8}*S_{total},0)$$
 {% endhint %}
-
-As a result, ambassadors will be forced to constantly recruit new users to keep their earnings high, as the mining score of previously recruited users will slowly decrease.

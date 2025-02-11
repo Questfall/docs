@@ -112,7 +112,7 @@ Having free Silver each week will give Founders a noticeable advantage, whether 
 
 ### Free Gems to Upgrade Clothing / <mark style="color:green;">IFE Wallet</mark>
 
-While users can obtain most RPG items from loot boxes, [Gems](../quest-mining/completion/rpg-items/gems.md) are a special type of RPG item that can only be obtained by participating in the [Liquidity Program](../infrastructure/liquidity-program.md) - by providing liquidity to the DEX pool and burning ownership of the LP tokens received.
+While users can obtain most RPG items from loot boxes, [Gems](../quests/users/items/gems.md) are a special type of RPG item that can only be obtained by participating in the [Liquidity Program](../infrastructure/liquidity-program.md) - by providing liquidity to the DEX pool and burning ownership of the LP tokens received.
 
 Each IFE participant will Each IFE participant will receive Gems of all rarities not higher than the rarity of the NFT.
 

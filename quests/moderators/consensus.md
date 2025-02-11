@@ -13,7 +13,7 @@ The same way hashes are estimated in the Bitcoin blockchain.
 Binary choices also make voting easy and straightforward for moderators, and imply a binary validity of their votes, since they either agree or disagree with the consensus result, and are therefore either right or wrong, with no ambiguity.
 
 {% hint style="info" %}
-There are other approaches, such as the range voting that Questfall uses for [quest ratings](../creation/karma.md). However, votes in such ratings are only right to a certain degree.
+There are other approaches, such as the range voting that Questfall uses for [quest ratings](../authors/karma.md). However, votes in such ratings are only right to a certain degree.
 {% endhint %}
 
 With binary votes, it is fairly easy to calculate the majority. However, the straightforward approach when all votes are equal opens the door to Sybil attacks. The problem is not solved even if the system weights votes by user level. An attacker could still create many low-level accounts and gain the overall weight in the system needed to change the voting results.

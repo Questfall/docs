@@ -20,7 +20,7 @@ The first group of quests have the same correct answers for everyone and can the
 * **Quiz** - a user has to choose between several options, one of which is secretly the correct one.
 * **Survey** - a user must select one of the options, each of which is considered correct.
 
-The second group requires [community moderation](../moderation/) for each completion and therefore only allows one attempt to complete the quest, as such an approach places a heavy load on the system in terms of moderator work.
+The second group requires [community moderation](../moderators/) for each completion and therefore only allows one attempt to complete the quest, as such an approach places a heavy load on the system in terms of moderator work.
 
 * **Action** - a user must perform an action on a third-party platform and provide a link and screenshot for moderation.
 * **Transaction** - a user must provide a link and screenshot of a specific transaction in the given blockchain.

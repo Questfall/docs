@@ -75,7 +75,7 @@ While PoW implements consensus on top of Sybil defense, Questfall does the oppos
 Of course, a key factor in making such a level-based Sybil defense robust is the voting mechanism, which should be based on rules that prevent manipulation and abuse. And the main principle of community moderation is that the winning majority is rewarded after the vote, while the losing minority is punished.
 
 {% hint style="info" %}
-Of course, it is not as simple as that. Learn more in the [Community Moderation](../quest-mining/moderation/) section.
+Of course, it is not as simple as that. Learn more in the [Community Moderation](../quests/moderators/) section.
 {% endhint %}
 
 As a result, by introducing user levels with reward segmentation, and separating mining and Sybil protection into two distinct activities - one for earning cryptocurrency and one for leveling up - Questfall achieves something unprecedented: fair mining that creates real, tangible value for people.

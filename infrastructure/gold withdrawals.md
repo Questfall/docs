@@ -14,7 +14,7 @@ Bids are sorted by the dollar price users offer for burning their Gold - the low
 
 In this way, the system is guaranteed to burn the most Gold for the fixed amount of QFT. However, there are two types of user bids: one for the real price (actual bid) and one for the sort order (effective bid).&#x20;
 
-And users can lower their effective bids and move up in the queue by increasing the [Trading](../quest-mining/completion/rpg-attributes/trading.md) attribute, which can give up to a 20% discount, or by bidding as early in the week as possible, which can give an additional 10%.
+And users can lower their effective bids and move up in the queue by increasing the [Trading](../quests/users/attributes/trading.md) attribute, which can give up to a 20% discount, or by bidding as early in the week as possible, which can give an additional 10%.
 
 {% hint style="info" %}
 Rewarding early bidding discourages last-minute bid manipulation and allows users to spend less time tracking the auction.
@@ -32,4 +32,4 @@ If this were the only mechanism for withdrawing Gold, the price difference betwe
 
 This is done through crafting and item trading. Users who wish to withdraw Gold can spend it on the Questfall [marketplace ](marketplace.md)or on loot boxes to obtain items needed for crafting. They can then craft items of higher rarity (C,B,A) and sell them for QFT.
 
-As a result, trading and the Gold withdrawal auction complement each other, providing users with two independent mechanisms for extracting value from the system that they can choose to use based on market conditions.
+As a result, trading and the Gold withdrawal auction complement each other, providing users with two independent mechanisms for extracting value from the system, which they can choose based on actual market conditions.

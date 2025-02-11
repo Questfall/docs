@@ -14,7 +14,7 @@ When a new quest is published, it will initially have an unrated status. Then, t
 Similarly, Google collects initial statistics by showing new sites on the first page when random users search for keyword phrases.
 {% endhint %}
 
-Users are motivated to vote correctly because they are rewarded or penalized with [Mining Boost](../completion/#mining-boost) depending on how far their rating estimate is from the average, which is based on league-based vote segmentation, similar to how [moderation consensus](../moderation/consensus.md) works.
+Users are motivated to vote correctly because they are rewarded or penalized with [Mining Boost](../users/#mining-boost) depending on how far their rating estimate is from the average, which is based on league-based vote segmentation, similar to how [moderation consensus](../moderators/consensus.md) works.
 
 The unrated quest will receive votes from users in different leagues, and the final rating will be calculated as a simple average of the league results.
 

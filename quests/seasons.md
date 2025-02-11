@@ -4,7 +4,7 @@ icon: calendar-clock
 
 # Seasons (14%)
 
-While the concept of mining is fair enough, new users will find themselves in a weak position as Questfall becomes more popular, because dedicated veterans will have a huge advantage over newcomers, either through [user level](completion/levels.md) or [author karma](creation/karma.md).
+While the concept of mining is fair enough, new users will find themselves in a weak position as Questfall becomes more popular, because dedicated veterans will have a huge advantage over newcomers, either through [user level](users/levels.md) or [author karma](authors/karma.md).
 
 In order to allow new users to compete with existing veterans on an equal footing, Questfall implements seasons, each of which lasts twelve weeks, or an average of three months. During the season, 14% of each weekly issue of QFT goes into the seasonal reward pool.
 
@@ -16,7 +16,7 @@ At the end of each season, the accumulated reward pool is divided between the us
 
 However, the way in which the rewards are divided between these two groups is different from how it works for weekly rewards. The seasonal reward distribution is based on the leaderboards, one for users and one for authors.
 
-The user leaderboard is based on the total [Quest Bounties](creation/quest-bounty.md) received. In other words, this leaderboard is created without taking into account the individual [mining power](completion/#mining-power) and [mining boost](completion/#mining-boost).
+The user leaderboard is based on the total [Quest Bounties](authors/quest-bounty.md) received. In other words, this leaderboard is created without taking into account the individual [mining power](users/#mining-power) and [mining boost](users/#mining-boost).
 
 The author leaderboard is based on the average rating of the quests created during the season. However, authors will have to create at least 12 quests per season to be eligible for the leaderboard. This way, popular authors will not have an edge, and at the same time, authors will be motivated to create at least one quest per week.
 

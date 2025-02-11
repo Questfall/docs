@@ -6,18 +6,18 @@ icon: circle-info
 
 Although we wrote in the [Sybil Defense](../overview/sybil-defense.md) article that mining in Questfall consists of two main activities, this was done for simplicity, as there are actually three complementary activities that make Quest Mining possible.
 
-* [Quest Creation](creation/)\
+* [Quest Creation](authors/)\
   Authors earn weekly and seasonal QFT rewards by creating quests.
-* [Quest Completion](completion/)\
+* [Quest Completion](users/)\
   Users earn weekly and seasonal QFT rewards by completing quests.
-* [Community Moderation](moderation/)\
+* [Community Moderation](moderators/)\
   Moderators earn Silver that can be used to level up or promote quests.
 
 {% hint style="info" %}
 These activities are open to everyone, so a user can create a quest, complete quests from the feed, and moderate completions all in one day.
 {% endhint %}
 
-Quest completion and quest creation produce different types of value that cannot be compared. These two activities also rely on different core mechanics. While quest completion relies heavily on the individual [mining power](completion/#mining-power) and [mining boost](completion/#mining-boost), quest creation relies on [author karma](creation/karma.md) (reputation).
+Quest completion and quest creation produce different types of value that cannot be compared. These two activities also rely on different core mechanics. While quest completion relies heavily on the individual [mining power](users/#mining-power) and [mining boost](users/#mining-boost), quest creation relies on [author karma](authors/karma.md) (reputation).
 
 For this reason, there are two separate reward pools each week and season: one for users who complete quests and one for authors who create them. These pools are formed using 64% of the weekly QFT issue.
 
