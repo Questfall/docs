@@ -15,7 +15,7 @@
 
 * [Overview](quest-mining/overview.md)
 * [Quest Creation (10%)](quest-mining/quest-creation-10/README.md)
-  * [Workshops](quest-mining/quest-creation-10/workshops.md)
+  * [Workspaces](quest-mining/quest-creation-10/workspaces.md)
   * [Quest Bounty](quest-mining/quest-creation-10/quest-bounty.md)
   * [Karma](quest-mining/quest-creation-10/karma.md)
   * [Rewards](quest-mining/quest-creation-10/rewards.md)

@@ -34,7 +34,7 @@ Firstly, it solves the inherent problem of Bitcoin's approach to mining, as the 
 In addition, the decimal precision in smart contracts allows QFT to be issued for billions of years far beyond the life of the sun.
 {% endhint %}
 
-The defaltionary nature of QFT also implies that the number of tokens in circulation will initially increase as there are no tokens to begin with, but as the market saturates, the number of QFTs in circulation will slowly decrease over time.
+The deflationary nature of QFT also implies that the number of tokens in circulation will initially increase as there are no tokens to begin with, but as the market saturates, the number of QFTs in circulation will slowly decrease over time.
 
 As a result, the price of QFT will rise in the long run, even if the number of active Questfall users remains constant, because the reduction in circulating supply is caused by user activity that stimulates token burning.
 
@@ -53,7 +53,7 @@ The QFT price changes will only affect miners and holders, who will receive a di
 This is exactly how deflation works - the longer a consumer waits, the more value he will receive for the same amount of money.
 
 {% hint style="info" %}
-Although Worren Buffet said that "the stock market is a device for transferring money from the impatient to the patient", in reality this does not work. Deflationary tokenomics is the only way to implement a system in which those who wait earn.
+Although Warren Buffet said that "the stock market is a device for transferring money from the impatient to the patient", in reality this does not work. Deflationary tokenomics is the only way to implement a system in which those who wait earn.
 {% endhint %}
 
 Furthermore, this approach emphasises the core advantage of mining - the increase in the price of QFT due to the influx of new money from investors will make mining more profitable, attract new users and increase the burning rate of QFT, thus making QFT more attractive to investors, creating a positive feedback loop.

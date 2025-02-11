@@ -4,7 +4,7 @@ icon: coins
 
 # Rewards
 
-To motivate authors to create interesting, educational, or fun quests that are appreciated by the community, 10% of the weekly QFT issue will be distributed to Workshops based on their performance during the week.
+To motivate authors to create interesting, educational, or fun quests that are appreciated by the community, 10% of the weekly QFT issue will be distributed to Workspaces based on their performance during the week.
 
 Since quest completions are not protected from Sybil attacks, malicious actors can generate new accounts, quests, and their completions at will. For this reason, the reward distribution mechanics take into account author Karma and the number and variety of completions.
 
@@ -22,7 +22,8 @@ Within each range, the reward pool is distributed according to the author's indi
 To calculate the mining score in a way that takes into account the diversity of levels along with the number of users, the simple mathematical inequality is used:\
 $$(a+b)^p<a^p+b^p$$, if 0\<p<1
 
-More specifically, the number of users of the same level is taken to the power of ⅓, then all such bases are summed, and the result is taken to the power of 3:$$MSCORE=\left(\sum_{n=1}^{levels}Completions_{n}^{\frac{1}{3}}\right)^{3}$$
+More specifically, the number of users of the same level is taken to the power of ⅓, then all such bases are summed, and the result is taken to the power of 3:\
+$$MSCORE=\left(\sum_{n=1}^{levels}Completions_{n}^{\frac{1}{3}}\right)^{3}$$
 {% endhint %}
 
 This means that if a quest is completed with the same number of users, but with different levels, the mining score will be greater than if those users were all of the same level.

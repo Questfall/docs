@@ -10,7 +10,7 @@ While designing the Questfall system, we put many things aside, because they are
 
 ### Banner Pomotion
 
-In order to increase the amount of QFTs burned and make Silver even more useful, authors will be able to promote their [Workspaces](../quest-mining/quest-creation-10/workshops.md) with the banner placed on the Quest Feed. Promoting the Workspace in this way can make it known to the community and increase the number of followers and quest completions.
+In order to increase the amount of QFTs burned and make Silver even more useful, authors will be able to promote their [Workspaces](../quest-mining/quest-creation-10/workspaces.md) with the banner placed on the Quest Feed. Promoting the Workspace in this way can make it known to the community and increase the number of followers and quest completions.
 
 Users can purchase a one-day banner slot with Silver to promote their Workspace. Slots will only be available for the next 30 days, and the farther away from the current day, the higher the price for the slot.
 

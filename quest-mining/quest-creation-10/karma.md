@@ -4,9 +4,9 @@ icon: heart
 
 # Karma
 
-One of the key attributes of any [Workshop](workshops.md) is its Karma, which gives users confidence in the quests they choose to complete and, more importantly, provides an exponential discount on the [Quest Bounty](quest-bounty.md).
+One of the key attributes of any [Workspace](workspaces.md) is its Karma, which gives users confidence in the quests they choose to complete and, more importantly, provides an exponential discount on the [Quest Bounty](quest-bounty.md).
 
-Karma can range from 0 for a new Workshop to 10 for a Workshop with an excellent history, and the only source of Karma is the quest ratings, also ranging from 0 to 10, that users must vote on when completing unrated quests.
+Karma can range from 0 for a new Workspace to 10 for a Workspace with an excellent history, and the only source of Karma is the quest ratings, also ranging from 0 to 10, that users must vote on when completing unrated quests.
 
 When a new quest is published, it will initially have an unrated status. Then, the system randomly selects users and increases the Bounty for that unrated quest, making it much more visible in the feed to only those selected users. To finalize the completion of such an unrated quest, each user must rate it from 0 to 10.
 
@@ -14,7 +14,7 @@ When a new quest is published, it will initially have an unrated status. Then, t
 Similarly, Google collects initial statistics by showing new sites on the first page when random users search for keyword phrases.
 {% endhint %}
 
-Users are motivated to vote correctly because they are rewarded or penalized with [Mining Power](broken-reference) depending on how far their rating estimate is from the average, which is based on league-based vote segmentation, similar to how [moderation consensus](../community-moderation/consensus.md) works.
+Users are motivated to vote correctly because they are rewarded or penalized with [Mining Boost](../quest-completion-40/#mining-boost) depending on how far their rating estimate is from the average, which is based on league-based vote segmentation, similar to how [moderation consensus](../community-moderation/consensus.md) works.
 
 The unrated quest will receive votes from users in different leagues, and the final rating will be calculated as a simple average of the league results.
 
@@ -36,6 +36,10 @@ In some cases, quests may not be able to meet the consensus requirements to be r
 
 But more importantly, it allows the system to know with certainty that if the community consensus has been reached, it can be considered valid. And if it is not, then either the quest was not interesting enough, or the Bounty was set as low as possible, while there were many spam quests in the system.
 
+{% hint style="info" %}
+The system will prioritize quests with a higher bounty in order to rate them.
+{% endhint %}
+
 In other words, quest ratings are a solid basis for calculating Karma. Therefore, Karma is built solely on quest ratings by consuming them using the 10% weighting.
 
 {% hint style="info" %}
@@ -44,8 +48,6 @@ More specifically, Karma is updated when a new quest is rated according to the f
 $$Karma_n=0.9*Karma_{n-1}+0.1*QuestRating_n$$
 {% endhint %}
 
-As a result of this approach to Karma calculation, it is updated with each new rated quest and reacts quickly to changes in the quality of the author's quests. This also means that new authors only need to create 10 quests to get a fair estimate of their Karma and the corresponding Bounty discount, without having to invest much in the beginning.
+As a result of this approach to Karma calculation, it is updated with each new rated quest and reacts quickly to changes in the quality of the author's quests.&#x20;
 
-{% hint style="info" %}
-Any other approach would require authors to promote their quests with a competitively high Bounty in order to get ratings from regular users.
-{% endhint %}
+This also means that new authors only need to create 10 quests to get a fair estimate of their Karma and the corresponding Bounty discount, without having to invest much in the beginning.

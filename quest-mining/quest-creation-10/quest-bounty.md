@@ -12,12 +12,12 @@ To protect the system from all of these threats, every published quest should ha
 This puts creators who want to monetize their content for free on an equal footing with projects that have marketing budgets.
 {% endhint %}
 
-The Quest Bounty determines how many mining points users will receive for completing the quest based on their mining power, as the reward for completing a quest is calculated as the product of the Bounty and personal mining power.
+The Quest Bounty determines how many mining points the user will receive for completing the quest, since the quest reward is calculated as the product of the bounty and the user's personal parameters, such as individual [mining power](../quest-completion-40/#mining-power) and [mining boost](../quest-completion-40/#mining-boost).
 
 The Quest Bounty also directly affects a quest's position in the feed, since it is sorted based on the rewards users can earn. So if an author offers the highest Bounty for the quest, it will be the first quest in the feed visible to everyone on the platform.
 
 {% hint style="info" %}
-While the quest reward will vary for different users based on their individual mining power, the order of the quests, sorted by reward, will remain the same for each user and will depend solely on the Quest Bounty.
+While the quest reward will vary for different users based on their individual parameters, the order of the quests, sorted by reward, will remain the same for each user and will depend solely on the Quest Bounty.
 {% endhint %}
 
 The Bounty can range from 1 to 1000, and each additional point in the Bounty costs more Silver. For the most basic scenario, where a new author with no Karma publishes the quest for one day, the amounts of Silver required for different Quest Bounties are as follows:
