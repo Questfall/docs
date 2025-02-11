@@ -16,7 +16,7 @@ This problem can be easily solved by introducing another token for payments. In 
 
 While a store of value must be deflationary to fulfil its function, the medium of exchange should not be too volatile so that prices do not fluctuate too much relative to other goods and services in the economy.
 
-In Questfall, deflationary [QFT](../assets/questfall-tokens-qft.md) is the main store of value, while [Gold](../assets/gold-in-game.md) (a dollar-based in-game currency) is used to pay into the system for mining bonuses, leveling up, or quest promotions. As a result, system prices are set in dollars and are independent of the price of QFT.
+In Questfall, deflationary [QFT](../assets/qft.md) is the main store of value, while [Gold](../assets/gold.md) (a dollar-based in-game currency) is used to pay into the system for mining bonuses, leveling up, or quest promotions. As a result, system prices are set in dollars and are independent of the price of QFT.
 
 However, this introduces another problem: since QFT tokens are burned when Gold is issued, there is nothing left on the chain to be returned in exchange for Gold when a user wants to withdraw it. In other words, there's no liquidity pool to back up user withdrawals.
 
@@ -42,7 +42,7 @@ But more important to extracting value from the system are in-game items, which 
 * Potions replenish stamina;
 * Gems are used in crafting.
 
-RPG items (except Gems) can only be minted through loot boxes, which can be opened for free as a reward for completing quests, or by burning Gold. Gems, on the other hand, can only be obtained by participating in the [Liquidity Program](../infrastructure/liquidity-providers.md).
+RPG items (except Gems) can only be minted through loot boxes, which can be opened for free as a reward for completing quests, or by burning Gold. Gems, on the other hand, can only be obtained by participating in the [Liquidity Program](../infrastructure/liquidity-program.md).
 
 When minted, each RPG item is one of six rarity tiers:
 

@@ -26,9 +26,9 @@ Therefore, QFT issue is divided into pre-determined proportions between differen
 
 In Questfall, 36% of the weekly issue is used to support the infrastructure:
 
-* 1% to buy back and [burn Founder NFTs](../infrastructure/nft-burning.md);
-* 5% for the [Referral Program](../infrastructure/referral-program-5.md);
-* 5% for the [Liquidity Program](../infrastructure/liquidity-providers.md);
+* 1% to buy back and [burn Founder NFTs](../infrastructure/founder-nfts-burning.md);
+* 5% for the [Referral Program](../infrastructure/referral-program.md);
+* 5% for the [Liquidity Program](../infrastructure/liquidity-program.md);
 * 5% to reward [QFT Freezing](../infrastructure/qft-freezing.md);
 * 5% to cover project costs (Team);
 * 5% to cover [Gold withdrawals](<../infrastructure/gold withdrawals.md>);
@@ -36,9 +36,9 @@ In Questfall, 36% of the weekly issue is used to support the infrastructure:
 
 The remaining 64% of the weekly issue is used to reward quest activity:
 
-* 40% to reward users for [quest completion](../quest-mining/quest-completion-40/);
-* 10% to reward authors for [quest creation](../quest-mining/quest-creation-10/);
-* 14% to [seasonal reward pool](../quest-mining/seasons-14.md) (11.2% to users and 2.8% to authors).
+* 40% to reward users for [quest completion](../quest-mining/completion/);
+* 10% to reward authors for [quest creation](../quest-mining/creation/);
+* 14% to [seasonal reward pool](../quest-mining/seasons.md) (11.2% to users and 2.8% to authors).
 
 {% hint style="info" %}
 As the percentage split is fixed, and the QFT issue is determined by the pre-defined formula, the number of tokens allocated to each of these pools can be accurately calculated for any given week.

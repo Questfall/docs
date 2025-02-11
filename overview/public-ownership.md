@@ -37,7 +37,7 @@ More specifically, while the code controlled by the Team that distributes the we
 Even further, liquidity ownership in the swap pool is also burned by the users, making it impossible not only to rug pull with unlimited issuance, but also to withdraw liquidity by anyone.
 
 {% hint style="info" %}
-Learn more in the [Liquidity Program](../infrastructure/liquidity-providers.md) article.
+Learn more in the [Liquidity Program](../infrastructure/liquidity-program.md) article.
 {% endhint %}
 
 This approach does not prevent the Team members from being stupid and doing malicious things, but they would not be able to take all the value out of the system at once.

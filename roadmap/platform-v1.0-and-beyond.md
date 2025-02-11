@@ -21,7 +21,7 @@ The launch of Questfall is nothing special, except that we have to do a lot of p
 
 <figure><img src="../.gitbook/assets/screenshot.avif" alt=""><figcaption></figcaption></figure>
 
-However, launching [QFT](../assets/questfall-tokens-qft.md) is another story.&#x20;
+However, launching [QFT](../assets/qft.md) is another story.&#x20;
 
 We have considered every possible way to launch QFT with deep liquidity from the start, as this is a common approach now applied to pre-mined tokens. But with mining it seems impossible - in any approach there are holes for manipulation or taking advantage of being first.
 
@@ -31,7 +31,7 @@ And since we are stubborn in our desire to make a fair system, we decided to lau
 In fact, the mining approach implies that there is no upfront liquidity, since there are no tokens before the first rewards are distributed. For example, Bitcoin was not tradable for some time.
 {% endhint %}
 
-There are two activities that require the use of QFTs - [Liquidity Program](../infrastructure/liquidity-providers.md) and [QFT Freezing](../infrastructure/qft-freezing.md), each with a reward of 5% of the issue. During the first week, there will be no QFTs in circulation, so these activities will not be available. Rewards for them will go to the Team at the end of the first week.
+There are two activities that require the use of QFTs - [Liquidity Program](../infrastructure/liquidity-program.md) and [QFT Freezing](../infrastructure/qft-freezing.md), each with a reward of 5% of the issue. During the first week, there will be no QFTs in circulation, so these activities will not be available. Rewards for them will go to the Team at the end of the first week.
 
 Beginning in the second week, rewards for the Liquidity Program and QFT Freezing will be distributed on a regular basis at 5% of the weekly QFT issue.
 

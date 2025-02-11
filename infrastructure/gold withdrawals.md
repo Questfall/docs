@@ -4,7 +4,7 @@ icon: sack-dollar
 
 # Gold Withdrawals (5%)
 
-To increase the value of [Gold](../assets/gold-in-game.md) and provide another way to convert in-game earnings into real-world value, 5% of the weekly [QFT](../assets/questfall-tokens-qft.md) issue will go to users in exchange for burning Gold via the auction mechanic.
+To increase the value of [Gold](../assets/gold.md) and provide another way to convert in-game earnings into real-world value, 5% of the weekly [QFT](../assets/qft.md) issue will go to users in exchange for burning Gold via the auction mechanic.
 
 Throughout the week, users add their bids to the system auction. Since the price of QFT is volatile and can change throughout the week, bids include the amount of Gold along with its dollar price.&#x20;
 
@@ -14,7 +14,7 @@ Bids are sorted by the dollar price users offer for burning their Gold - the low
 
 In this way, the system is guaranteed to burn the most Gold for the fixed amount of QFT. However, there are two types of user bids: one for the real price (actual bid) and one for the sort order (effective bid).&#x20;
 
-And users can lower their effective bids and move up in the queue by increasing the [Trading](../quest-mining/quest-completion-40/rpg-attributes/trading.md) attribute, which can give up to a 20% discount, or by bidding as early in the week as possible, which can give an additional 10%.
+And users can lower their effective bids and move up in the queue by increasing the [Trading](../quest-mining/completion/rpg-attributes/trading.md) attribute, which can give up to a 20% discount, or by bidding as early in the week as possible, which can give an additional 10%.
 
 {% hint style="info" %}
 Rewarding early bidding discourages last-minute bid manipulation and allows users to spend less time tracking the auction.
