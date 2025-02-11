@@ -4,13 +4,15 @@ icon: scale-unbalanced
 
 # Trading
 
-The Trading attribute gives an advantage to users who have chosen a trading strategy that involves buying and selling RPG items on the marketplace for gaining Gold or QFT. As a result, this attribute gives bonuses not only for trading itself, but also for withdrawing Gold on the system's weekly auction.
+The Trading attribute gives an advantage to users who have chosen a trading strategy that involves buying and selling RPG items on the [marketplace](../../../infrastructure/marketplace.md) for gaining [Gold](../../../assets/gold-in-game.md) or [QFT](../../../assets/questfall-tokens-qft.md).&#x20;
+
+As a result, this attribute gives bonuses not only for trading itself, but also for [withdrawing Gold](trading.md#gold-withdrawal) on the system's weekly auction.
 
 ***
 
 ### Marketplace Slots
 
-Since the [marketplace](../../../infrastructure/marketplace.md) can be used to overcome the inventory weight limit by listing RPG items on the marketplace at very high prices that no one is willing to pay, there is a limit to how many items a user can list for sale on the marketplace.
+Since the marketplace can be used to overcome the inventory weight limit by listing RPG items on the marketplace at very high prices that no one is willing to pay, there is a limit to how many items a user can list for sale on the marketplace.
 
 A first level character starts with 1 marketplace slot, and each additional point in the Trading attribute grants a new slot.
 
@@ -23,7 +25,7 @@ $$Slots=Trading+1$$
 
 ### Marketplace Fee
 
-The marketplace charges a 10% fee for each trade. However, the percentage of the fee can be reduced by investing stat points in the Trading attribute.
+The marketplace charges a 10% trading fee, which is burned. However, the percentage of the fee can be reduced by investing stat points in the Trading attribute.
 
 The fee is calculated at the moment a buyer pays for an RPG item, so a seller cannot predict when it will happen and must keep items that give a reduced fee equipped permanently.
 
@@ -36,7 +38,7 @@ $$Fee_{size}=\frac{10}{0.01*Trading+1}$$
 
 ### Gold Withdrawal
 
-Gold can be withdrawn for QFT through a weekly [system auction](<../../../infrastructure/gold withdrawals.md>) based on user bids that include the amount of Gold to be burned and its dollar price. Obviously, the lower the price, the higher in the queue the bid will be.
+Gold can be withdrawn for QFT through a weekly system auction based on user bids that include the amount of Gold to be burned and its dollar price. Obviously, the lower the price, the higher in the queue the bid will be.
 
 Because the system has a limited number of QFTs to use in the auction, the entire queue will not be filled. Users can move their bids higher in the queue by increasing the Trading attribute. This is implemented through the concept of effective bids, which are actually used to sort bids in the queue.
 

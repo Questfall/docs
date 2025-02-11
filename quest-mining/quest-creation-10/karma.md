@@ -4,7 +4,7 @@ icon: heart
 
 # Karma
 
-One of the key attributes of any [Workspace](workspaces.md) is its Karma, which gives users confidence in the quests they choose to complete and, more importantly, provides an exponential discount on the [Quest Bounty](quest-bounty.md).
+One of the key attributes of any [Workspace](workshops.md) is its Karma, which gives users confidence in the quests they choose to complete and, more importantly, provides an exponential discount on the [Quest Bounty](quest-bounty.md).
 
 Karma can range from 0 for a new Workspace to 10 for a Workspace with an excellent history, and the only source of Karma is the quest ratings, also ranging from 0 to 10, that users must vote on when completing unrated quests.
 

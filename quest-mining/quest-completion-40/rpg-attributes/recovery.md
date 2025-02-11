@@ -12,7 +12,7 @@ The Recovery attribute increases the speed of the recovery rate for resources th
 
 The larger the Stamina Reserve, the slower it will regenerate, as the amount of stamina replenished in a minute is absolute and does not depend on the size of the Reserve.
 
-A first level character recovers 0.2 stamina per minute, and each additional point in the Recovery attribute increases the amount of stamina restored per minute by another 0.2. For example, with a Recovery of 20, a character will regenerate 4 stamina per minute.
+A first level character recovers 0.2 stamina per minute, and each additional point in the Recovery attribute increases the amount of stamina restored per minute by another 0.2. For example, with a Recovery of 20, a character will regenerate 4.2 stamina per minute.
 
 {% hint style="info" %}
 The recovery rate of Stamina Reserve is calculated using the following formula:\

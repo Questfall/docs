@@ -10,10 +10,10 @@ Questfall uses the same mechanic - users gain one stat point per [level](../leve
 
 * [Inventory](inventory.md): increases the weight limit of stored items;
 * [Mining](mining.md): increases Mining Power and Stamina Reserve;
-* [Crafting](crafting.md):  increased efficiency when working with Essence or Gems;
+* [Crafting](crafting.md): increases efficiency when working with Essence or Gems;
 * [Trading](trading.md): reduces marketplace fee, gives advantage on Gold withdrawal, adds marketplace slots;
 * [Recovery](recovery.md): increases Stamina Reserve recovery rate;
-* [Luck](luck.md): increases chance of getting missing chest shards and other bonuses, adds loot box cards.
+* [Luck](luck.md): increases chance of getting missing chest shards and other bonuses, adds loot box turns.
 
 {% hint style="info" %}
 There are at least two more attributes waiting to be implemented in [future versions](../../../roadmap/future-versions.md) of Questfall: Magic and Warfare.
@@ -27,5 +27,5 @@ However, any subsequent redistribution within that league will cost a certain am
 
 {% hint style="info" %}
 While the Hall is considered a tutorial and there is no cost to redistribute attribute points, for the actual league it is calculated by the formula:\
-$$Cost_{gold}=1000*League_{num`ber}$$
+$$Cost_{gold}=1000*League_{count}$$
 {% endhint %}

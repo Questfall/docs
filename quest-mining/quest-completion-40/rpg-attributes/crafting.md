@@ -4,7 +4,9 @@ icon: hammer
 
 # Crafting
 
-Crafting involves three types of actions: breaking down items (scrapping), increasing the level of items (upgrading), and making items rarer (evolving). All three aspects of crafting benefit from investing stat points in the Crafting attribute.
+Crafting involves three types of actions: breaking down items (scrapping), increasing the level of items (upgrading), and making items rarer (evolving).&#x20;
+
+All three aspects of crafting benefit from investing stat points in the Crafting attribute.
 
 ***
 
@@ -23,9 +25,11 @@ Another parameter that affects the amount of Essence gained from items is the Cr
 For example, a user with a Crafting of 0 will gain 12 Essence from a level 10 E item. A user with a Crafting of 100 will gain 35 Essence from the same item.
 
 {% hint style="info" %}
-The amount of Essence the upgradable item will yield: $$Essence=floor(0.1*Rarity*Level +\sqrt{100+Crafting*Level})$$
+The amount of Essence the upgradable item will yield:\
+$$Essence=floor(0.1*Rarity*Level +\sqrt{100+Crafting*Level})$$
 
-The amount of Essence gained from the level-less item: $$Essence=floor(Rarity^2+\sqrt{100+Crafting*Rarity})$$
+The amount of Essence gained from the level-less item:\
+$$Essence=floor(Rarity^2+\sqrt{100+Crafting*Rarity})$$
 {% endhint %}
 
 While this may not seem like much of an advantage, there are two other factors to consider.&#x20;
@@ -62,7 +66,7 @@ In Questfall, there are two main ways to increase the rarity of an item, dependi
 In Questfall v.1, [clothing](../items.md) can only be evolved using Gems, while [potions](../rpg-items/potions.md) can be evolved by merging two identical bottles.
 {% endhint %}
 
-While evolving by merging only requires common RPG items that can be obtained from [loot boxes](broken-reference), evolving an item with levels would require a [Gem](../rpg-items/gems.md).
+While evolving by merging only requires common RPG items that can be obtained from loot boxes, evolving an item with levels would require a [Gem](../rpg-items/gems.md).
 
 {% hint style="info" %}
 Initially, Gems can only be obtained by participating in the [Liquidity Program](../../../infrastructure/liquidity-providers.md), where each Crafting point increases the chances of obtaining more rare Gems.

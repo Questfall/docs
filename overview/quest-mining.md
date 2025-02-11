@@ -46,4 +46,4 @@ As the percentage split is fixed, and the QFT issue is determined by the pre-def
 
 Mining approach allows to solve many problems that are not solvable otherwise. Such as supporting the infrastructure of the project, unbiased rewards for completing quests, rewards for authors that are appreciated by the community, and so on.
 
-But what's more important, this approach allows to build a system that rewards users based on fixed rules that can't be changed in the future, since the issuance and its distribution will be set in stone in the smart contracts with burned ownership. As a result, QFT will become a truly [publicly owned money](public-ownership.md).
+But what's more important, this approach allows to build a system that rewards users based on fixed rules that can't be changed in the future, since the issuance and its distribution will be set in stone in the smart contracts with burned ownership. As a result, QFT will become [publicly owned money](public-ownership.md).

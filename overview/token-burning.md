@@ -53,7 +53,7 @@ The QFT price changes will only affect miners and holders, who will receive a di
 This is exactly how deflation works - the longer a consumer waits, the more value he will receive for the same amount of money.
 
 {% hint style="info" %}
-Although Warren Buffet said that "the stock market is a device for transferring money from the impatient to the patient", in reality this does not work. Deflationary tokenomics is the only way to implement a system in which those who wait earn.
+Although Warren Buffett said that "the stock market is a device for transferring money from the impatient to the patient", in reality this does not work. Deflationary tokenomics is the only way to implement a system in which those who wait earn.
 {% endhint %}
 
 Furthermore, this approach emphasises the core advantage of mining - the increase in the price of QFT due to the influx of new money from investors will make mining more profitable, attract new users and increase the burning rate of QFT, thus making QFT more attractive to investors, creating a positive feedback loop.

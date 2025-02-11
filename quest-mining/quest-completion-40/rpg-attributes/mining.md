@@ -4,7 +4,9 @@ icon: pickaxe
 
 # Mining
 
-The Mining attribute increases parameters that make it easier to earn from completing quests. It increases both Mining Power and Stamina Reserve.
+The Mining attribute increases parameters that make it easier to earn from completing quests.
+
+It increases Mining Power, which boosts the rewards for completed quests, and Stamina Reserve, which allows a user to complete more quests in one session.
 
 ***
 
@@ -35,6 +37,6 @@ Stamina consumption is directly affected by the total weight of the clothing wor
 When not equipped, each quest consumes 10 stamina and each gram of equipped clothing increases the stamina required to complete a quest by 0.05. This forces the user to invest points in the Mining attribute, as the clothing becomes heavier upon leveling up.
 
 {% hint style="info" %}
-If the equipped clothing weighs 5 kg, the amount of stamina consumed per quest will be: \
+For example, if the equipped clothing weighs 5 kg, the amount of stamina consumed per quest will be: \
 $$Stamina_{charged}=10+5000*0.05=260$$.
 {% endhint %}

@@ -4,13 +4,13 @@ icon: clover
 
 # Luck
 
-The Luck attribute increases the number of loot boxes a user receives for free, increases the amount of items gained from the loot box, and also increases the chances of getting various bonuses.
+The Luck attribute increases the number of loot boxes a user receives for free, increases the amount of items gained from each loot box, and also increases the chances of getting various bonuses.
 
 ***
 
 ### **Chest Shards**
 
-Users earn Chest Shards for each quest they complete, and a free loot box is awarded every time they collect a full set of shards. The Luck attribute increases the chance of obtaining the missing shard needed to complete the set.
+Users earn Chest Shards for each quest they complete, and a free [loot box](../rpg-items/#loot-boxes) is awarded every time they collect a full set of shards. The Luck attribute increases the chance of obtaining the missing shard needed to complete the set.
 
 Initially, a first-level character receives a random Chest Shard from an imaginary urn, where there is 32 units of each missing shard and 61 units of each collected shard. As a result, the odds of getting a particular collected shard are almost 2 times greater than the odds of getting a particular missing shard.
 
