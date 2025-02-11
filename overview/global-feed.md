@@ -36,4 +36,4 @@ Of course, this approach also opens up the possibility of quests causing harm to
 
 In addition, the concepts of Quest Mining and Quest Feed do not eliminate the existing approach of teams spending resources to promote their projects.&#x20;
 
-This can be accomplished by increasing the [Quest Bounty](../quest-mining/quest-creation-10/quest-bounty.md), which will make them more visible in the Quest Feed. Of course, such a promotion will not be free and will require QFT burning, thus adding value to the entire community by making QFT a deflationary token.
+This can be accomplished by increasing the [Quest Bounty](../quest-mining/quest-creation-10/quest-bounty.md), which will make them more visible in the Quest Feed. Of course, such a promotion will not be free and will require [QFT](../assets/questfall-tokens-qft.md) burning, thus adding value to the entire community by making QFT a deflationary token.
