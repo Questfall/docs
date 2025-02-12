@@ -8,7 +8,7 @@ icon: square
 
 While designing the Questfall system, we put many things aside, because they are not crucial for the basic functionality, but can take a lot of effort to work out their details or implementation. However, such functionality can be a huge boost for increasing and keeping the Questfall audience.
 
-### Banner Pomotion
+### Banner Promotion
 
 In order to increase the amount of QFTs burned and make Silver even more useful, authors will be able to promote their [Workspaces](../quest-mining/creation/workspaces.md) with the banner placed on the Quest Feed. Promoting the Workspace in this way can make it known to the community and increase the number of followers and quest completions.
 
@@ -84,7 +84,7 @@ This kind of completion is very complementary to non-binary completions, as it a
 
 Currently, there is no common approach to building a community of real people in the crypto space. As a result, many projects suffer Sybil attacks at launch from multi-accounts and bots.
 
-By having a working sybil defense mechanism, Questfall can provide other projects with an automated means to build a community of real people, leaving multi-accounts and bots outside.
+By having a working Sybil defense mechanism, Questfall can provide other projects with an automated means to build a community of real people, leaving multi-accounts and bots outside.
 
 ### Real-World Quests
 

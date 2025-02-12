@@ -4,7 +4,7 @@ icon: square
 
 # Questfall v1.0
 
-<mark style="color:yellow;">Scheduled for release in</mark> <mark style="color:orange;">December 2025</mark>
+<mark style="color:yellow;">Scheduled for release:</mark> <mark style="color:orange;">TBA</mark>
 
 From a technical point of view, the development of a platform like Questfall is quite straightforward and must solve the tasks common to the majority of web services:
 
