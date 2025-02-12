@@ -12,7 +12,7 @@ It increases Mining Power, which boosts the rewards for completed quests, and St
 
 ### Mining Power
 
-Mining Power is defined as a percentage and increases the reward for each quest completed, as it is used as one of the multipliers for the [Quest Bounty](../../creation/quest-bounty.md) set by the author. For example, if the author has set the Bounty to 100 and the user has 25% Mining Power, then the quest reward for that particular user will be 125 Mining Points.
+[Mining Power](../#mining-power) is defined as a percentage and increases the reward for each quest completed, as it is used as one of the multipliers for the [Quest Bounty](../../creation/quest-bounty.md) set by the author. For example, if the author has set the Bounty to 100 and the user has 25% Mining Power, then the quest reward for that particular user will be 125 Mining Points.
 
 {% hint style="info" %}
 This does not take into account the [Mining Boost](../#mining-boost) parameter that can be gained by properly voting for new quest ratings.

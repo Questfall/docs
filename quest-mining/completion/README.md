@@ -27,6 +27,10 @@ The amount of Mining Points earned throughout the week results in an individual 
 The individual Mining Score is simply the total number of Mining Points earned by the user during the week.
 {% endhint %}
 
+In addition to Mining Points, users also receive a random Chest Shard for each quest they complete. Chest Shards, like a mosaic puzzle, make up a weekly set of up to 100 pieces, and when a user collects a full set of shards, they are rewarded with a free loot box. Therefore, the more quests a user completes in a week, the more free loot boxes they will open.
+
+***
+
 ### Quest Bounty
 
 The Quest Bounty is set by the quest author in the range of 1 to 1000 by burning Silver and serves as the basis for calculating the reward for completing a quest, thus determining the order in which quests appear in the [global feed](../../overview/global-feed.md).&#x20;
@@ -47,6 +51,8 @@ Quest Bounties will be driven mainly by competition between authors trying to ge
 
 However, such competition will not benefit miners, as Bounties will increase for everyone. As a result, the distribution of rewards will continue to be determined primarily by the number of quests completed from the top of the feed, as well as individual Mining Power and Mining Boost.
 
+***
+
 ### Mining Power
 
 Mining Power is one of the many parameters that define the character of the RPG system in Questfall. It is defined in percent with an initial value of 0% and can only be increased by the RPG mechanics and can never be negative.
@@ -60,6 +66,8 @@ Although Questfall will launch with a limited number of attributes and RPG item 
 {% endhint %}
 
 Thus, a user must develop a character with a limited amount of resources according to the chosen personal strategy, which may not focus on Mining Power at all.
+
+***
 
 ### Mining Boost
 
@@ -88,3 +96,30 @@ As a result, correct estimating of quest rating becomes one of the key factors f
 {% hint style="info" %}
 Even if a user avoids unrated quests and takes no risks, the higher the league, the more he will underperform against those who keep their Mining Boost as high as possible.
 {% endhint %}
+
+***
+
+### Loot Boxes
+
+All RPG items except Gems are released into circulation through loot boxes, which can be opened by either spending 100 Gold ($1) or collecting a full weekly set of Chest Shards.
+
+{% hint style="info" %}
+A user can collect a full weekly set of Chest Shards an unlimited number of times during a week. Next week, however, a new set will be released, making any unused shards from the previous week obsolete.
+{% endhint %}
+
+By default, a loot box offers a single item based on a chance that depends on the rarity and level of the item. The higher the rarity or level, the lower the chance of receiving the item.
+
+And while users can't increase their odds of getting rarer items, they can get more than one item from a single loot box, providing the space needed for the chances of rarer items to work.
+
+The process of opening loot boxes is turn-based, and while users only have one turn by default, the higher a character's Luck attribute, the more turns a user will have when opening a loot box.&#x20;
+
+{% hint style="info" %}
+The [Luck](rpg-attributes/luck.md) attribute plays a crucial role not only in opening loot boxes, but also in collecting shards.
+{% endhint %}
+
+To illustrate the mechanics, here is an example for a user with 4 turns:
+
+* **Turn 1**: The user is dealt 4 cards face down and must blindly choose one. All four cards contain items, so the user is guaranteed to receive an item after the first turn.
+* **Turn 2**: The user is dealt 4 more cards. One card is a "finish" card, which ends the opening process, while the remaining three are item cards, which give the user one more item and continue the opening into the next turn.
+* **Turn 3**: The user is dealt another 4 cards. This time, 2 out of the 4 cards are finish cards. Choosing a finish card will end the opening, leaving the user with two items won in previous turns.
+* **Turn 4**: The user is dealt 4 cards for the last time. Only 1 card contains an item, while the other 3 are finish cards. Since a hypothetical fifth turn would consist entirely of finish cards, this is the last turn. If the user selects a finish card, he will end the loot box opening with a total of 3 items. But if the user selects the item card, he will receive 4 items in total.

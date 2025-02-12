@@ -28,29 +28,6 @@ $$Weight=100*Rarity^3*Density$$
 
 ***
 
-### Loot Boxes
-
-While Gems are released into circulation through the [Liquidity Program](../../../infrastructure/liquidity-program.md), all other RPG items are initially created through loot boxes, which can be opened by either spending 100 Gold ($1) or collecting a full weekly set of Chest Shards.
-
-{% hint style="info" %}
-As quests are completed, users receive random Chest Shards that, like a mosaic puzzle, make up a weekly set of up to 100 pieces. The [Luck](../rpg-attributes/luck.md) attribute increases the chance of receiving missing shards needed to complete another set, many of which can be collected over the course of a week.
-{% endhint %}
-
-By default, a loot box offers a single item based on a chance that depends on the rarity and level of the item. The higher the rarity or level, the lower the chance of receiving the item.
-
-However, users can increase the chance of getting more items from the loot box by investing stat points in the Luck attribute. To illustrate, here is an example for a user with 45 Luck (4 extra turns):
-
-* **Turn 1**: The user is dealt 4 cards face down and must blindly choose one. All four cards contain items, so the user is guaranteed to receive an item after the first turn.
-* **Turn 2**: The user is dealt 4 more cards. One card is a "finish" card, which ends the opening process, while the remaining three are item cards, which give the user one more item and continue the opening into the next turn.
-* **Turn 3**: The user is dealt another 4 cards. This time, 2 out of the 4 cards are finish cards. Choosing a finish card will end the opening, leaving the user with two items won in previous turns.
-* **Turn 4**: The user is dealt 4 cards for the last time. Only 1 card contains an item, while the other 3 are finish cards. Since a hypothetical fifth turn would consist entirely of finish cards, this is the last turn. If the user selects a finish card, he will end the loot box opening with a total of 3 items. But if the user selects the item card, he will receive 4 items in total.
-
-As a result, the maximum number of items a user can potentially receive from a single loot box is equal to the number of turns granted by their Luck attribute. However, the actual number of items received will depend on the user's actual fortune.
-
-This way, the Luck attribute does not directly affect the chance of getting rarer items, it just increases the chance of getting more items from a single loot box. However, this actually makes it more likely that a rarer item will be obtained because there is more room for chance to work.
-
-***
-
 ### Item Rarity
 
 Every RPG item in Questfall falls into one of six rarity tiers. The rarity of an item literally means how rare it is, so the rarer the item, the lower the chance of getting it from loot boxes. And since rarer items tend to be more powerful, they should also be more expensive on the marketplace.
