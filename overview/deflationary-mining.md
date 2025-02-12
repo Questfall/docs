@@ -30,10 +30,6 @@ In this way, QFT tokens are issued each week to reward miners, while at the same
 
 Firstly, it solves the inherent problem of Bitcoin's approach to mining, as the miners' share of the system's capitalisation tends to be stable over the long term. In other words, the portion of QFT's capitalisation that is used to reward miners will not decrease despite the decline in token issuance.
 
-{% hint style="info" %}
-In addition, the decimal precision in smart contracts allows QFT to be issued for billions of years far beyond the life of the sun.
-{% endhint %}
-
 The deflationary nature of QFT also implies that the number of tokens in circulation will initially increase as there are no tokens to begin with, but as the market saturates, the number of QFTs in circulation will slowly decrease over time.
 
 As a result, the price of QFT will rise in the long run, even if the number of active Questfall users remains constant, because the reduction in circulating supply is caused by user activity that stimulates token burning.

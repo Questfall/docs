@@ -17,7 +17,7 @@ The mining approach has been very successful because it allows newly issued coin
 So it's no surprise that Questfall uses mining as its core mechanic, meaning that the system rewards users with a decreasing number of Questfall Tokens (QFT) each week for various quest and infrastructure actions.
 
 {% hint style="info" %}
-Each QFT token is issued by the system as a reward to users for their valuable actions, and none are pre-minted by the Team.
+The decimal precision in smart contracts allows QFT to be issued for billions of years far beyond the life of the sun.
 {% endhint %}
 
 The quest platform requires different activities to be rewarded, and this creates a problem because there is no way to compare, for example, creating a quest and providing liquidity to the DEX pool.
@@ -47,3 +47,7 @@ As the percentage split is fixed, and the QFT issue is determined by the pre-def
 Mining approach allows to solve many problems that are not solvable otherwise. Such as supporting the infrastructure of the project, unbiased rewards for completing quests, rewards for authors that are appreciated by the community, and so on.
 
 But what's more important, this approach allows to build a system that rewards users based on fixed rules that can't be changed in the future, since the issuance and its distribution will be set in stone in the smart contracts with burned ownership. As a result, QFT will become [publicly owned money](public-ownership.md).
+
+{% hint style="info" %}
+Each QFT token is issued by the system as a reward to users for their valuable actions, and none are pre-minted by the Team.
+{% endhint %}
