@@ -26,7 +26,9 @@ This league-based vote segmentation provides a solid defense, as no league can o
 The protection works reliably because users cannot choose unrated quests to complete, as such quests are assigned by the system. Thus, an attacker cannot synchronize voting from different accounts.
 {% endhint %}
 
-This approach also implies that there are certain requirements for voting diversity, and if they are met, the quest could be considered to be ranked by community consensus. For example, such requirements could be an increasing odd number of users for each league, starting at the top. One user from the top league, three users from the league below, five from the next lower league, and so on.
+This approach also implies that there are certain requirements for voting diversity, and if they are met, the quest could be considered to be ranked by community consensus.&#x20;
+
+For example, such requirements could be an increasing odd number of users for each league, starting at the top. One user from the top league, three users from the league below, five from the next lower league, and so on.
 
 {% hint style="info" %}
 Depending on user feedback and overall experience, these consensus requirements will be adjusted after the launch of Questfall.
