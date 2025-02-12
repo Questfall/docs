@@ -29,10 +29,10 @@ In Questfall, 36% of the weekly issue is used to support the infrastructure:
 * 1% to buy back and [burn Founder NFTs](../infrastructure/founder-nfts-burning.md);
 * 5% for the [Referral Program](../infrastructure/referral-program.md);
 * 5% for the [Liquidity Program](../infrastructure/liquidity-program.md);
-* 5% to reward [QFT Freezing](../infrastructure/qft-freezing.md);
-* 5% to cover project costs (Team);
+* 5% to reward [QFT freezing](../infrastructure/qft-freezing.md);
+* 5% to cover [project expenses](../infrastructure/project-expenses.md);
 * 5% to cover [Gold withdrawals](<../infrastructure/gold withdrawals.md>);
-* 10% as [Founder revenue](../infrastructure/founders-revenue.md).
+* 10% as [founders' revenue](../infrastructure/founders-revenue.md).
 
 The remaining 64% of the weekly issue is used to reward quest activity:
 
