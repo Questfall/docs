@@ -30,21 +30,19 @@ The first is direct and simple - mining itself. In Questfall, this approach is i
 
 Another approach is much more complex - trading. It assumes that the role of liquidity pools is filled by a [marketplace](../infrastructure/marketplace.md). And the more active the trading, the greater the speed and efficiency with which users can monetize their goods. In other words, demand should be high.
 
-To create a constant demand, Questfall implements an RPG system that fits like a glove to the user levels used as protection against Sybil attacks.
+To create a constant demand, Questfall implements an RPG system that fits like a glove to the user levels that are part of the protection against Sybil attacks.
 
-The heart of the RPG system in Questfall is the character that represents the user. The character has a number of attributes that set the default values for stamina reserve, possible inventory weight, and others.
+The heart of the RPG system in Questfall is the character that represents the user. The character has a number of attributes that set the default values for stamina reserve, possible inventory weight, etc.
 
 Users can level up their characters through proper community moderation voting or by burning Gold, both of which benefit the entire community. With each new level, users receive free attribute points that can be used to customize their character according to their chosen strategy.
 
 But more important to extracting value from the system are in-game items, which create a trade opportunity and, along with attributes, play an important role in a character's performance:
 
-* Clothing improve character stats when equipped;
+* Clothing enhances character;
 * Potions replenish stamina;
 * Gems are used in crafting.
 
-RPG items (except Gems) can only be minted through loot boxes, which can be opened for free as a reward for completing quests, or by burning Gold. Gems, on the other hand, can only be obtained by participating in the [Liquidity Program](../infrastructure/liquidity-program.md).
-
-When minted, each RPG item is one of six rarity tiers:
+All RPG items (except Gems) can only be minted through loot boxes, which can be opened for free as a reward for completing quests, or by burning Gold. When minted, each RPG item is one of six rarity tiers:
 
 * Common (F);
 * Uncommon (E);
@@ -54,8 +52,6 @@ When minted, each RPG item is one of six rarity tiers:
 * Mythical (A).
 
 Unlike many common RPG systems, Questfall allows users to increase the rarity of certain item types by destroying other items, or in other words, by crafting.&#x20;
-
-The rarity tier of Potions can be increased by combining 2 of the same bottles, while the rarity tier of Clothing can be increased by consuming a Gem of the same tier as the item itself.
 
 Rarity tiers are a key aspect of the system, as common items (F, E, D) can only be traded for Gold, while the more rare items (C, B, A) are traded for QFT.
 
