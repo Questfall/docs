@@ -4,7 +4,7 @@ icon: address-card
 
 # Workspaces
 
-While many creators like to work alone, there are also many situations where content is produced by an entire team of different specialists.
+While many creators prefer to work individually, there are also many situations where content is created by an entire team of different specialists.
 
 For this reason, although we use the word "authors" throughout this documentation, quests do not actually belong to users, but rather to Workspaces, which serve as collaborative environments for creating and managing quests.
 
@@ -12,9 +12,11 @@ For this reason, although we use the word "authors" throughout this documentatio
 Workspaces also act as author profiles that are visible to all users.
 {% endhint %}
 
-Each user in Questfall can only create one Workspace and automatically becomes its owner. However, since Workspaces implement the role-based permissions model, owners can define different roles with custom permissions and invite other users. Therefore, users can be part of an unlimited number of Workspaces to which they have been invited.
+Each user in Questfall can only create one Workspace and automatically becomes its owner. However, since Workspaces implement the role-based permissions model, owners can define different roles with custom permissions and invite other users.&#x20;
 
-<table><thead><tr><th width="132">Roles</th><th width="501">Permissions</th></tr></thead><tbody><tr><td>Owner</td><td><ul><li>Deposit Silver to Workspace balance</li><li>Claim and withdraw QFT rewards received by Workspace</li><li>Define roles and the permissions associated with them</li></ul></td></tr><tr><td>Assignable</td><td><ul><li>Create quest drafts</li><li>Publish drafts by spending Silver on the Quest Bounty</li><li>Purchase banner promotion slots with Silver</li><li>Edit the Workspace design and description</li><li>Assign roles and invite users</li></ul></td></tr></tbody></table>
+Therefore, users can be part of an unlimited number of Workspaces to which they have been invited.
+
+<table><thead><tr><th width="132">Roles</th><th width="460">Permissions</th></tr></thead><tbody><tr><td>Owner</td><td><ul><li>Deposit Silver to Workspace balance</li><li>Claim and withdraw QFT rewards received by Workspace</li><li>Define roles and the permissions associated with them</li></ul></td></tr><tr><td>Assignable</td><td><ul><li>Create quest drafts</li><li>Publish drafts by spending Silver on the Quest Bounty</li><li>Purchase banner promotion slots with Silver</li><li>Edit the Workspace design and description</li><li>Assign roles and invite users</li></ul></td></tr></tbody></table>
 
 To make it easier for members of a Workspace to navigate, quests are divided into four different groups based on their status:
 
