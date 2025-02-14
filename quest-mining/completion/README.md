@@ -27,7 +27,9 @@ The amount of Mining Points earned throughout the week results in an individual 
 The individual Mining Score is simply the total number of Mining Points earned by the user during the week.
 {% endhint %}
 
-In addition to Mining Points, users also receive a random Chest Shard for each quest they complete. Chest Shards, like a mosaic puzzle, make up a weekly set of up to 100 pieces, and when a user collects a full set of shards, they are rewarded with a free loot box. Therefore, the more quests a user completes in a week, the more free loot boxes they will open.
+In addition to Mining Points, users also receive a random Chest Shard for each quest they complete.&#x20;
+
+Chest Shards, like a mosaic puzzle, make up a weekly set of up to 100 pieces, and when a user collects a full set of shards, they are rewarded with a free loot box. Therefore, the more quests a user completes in a week, the more free loot boxes they will open.
 
 ***
 
