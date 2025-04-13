@@ -4,7 +4,7 @@ icon: square
 
 # Initial Funding Event
 
-<mark style="color:yellow;">Planned to take place on</mark> <mark style="color:orange;">May 2025</mark> <mark style="color:yellow;">for</mark> <mark style="color:orange;">3 days</mark>
+<mark style="color:yellow;">Planned to take place on: TBA</mark>
 
 The primary goal of the Initial Funding Event (IFE) is to raise money for the initial development, operation, and marketing of Questfall by selling 75% of the total supply of Founder NFTs to the public, while keeping 25% for the Team.
 
