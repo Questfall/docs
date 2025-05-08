@@ -9,7 +9,7 @@ Marketing is one of the most important factors for the success of any project, e
 While most of the Questfall mechanics are aimed at user retention, the Referral Program is aimed at marketing activities to attract and engage new users.
 
 {% hint style="info" %}
-This referral program will be launched together with Questfall, so it is not affiliated with [IFE](../roadmap/initial-funding-event.md), which has its own referral program.
+This referral program will be launched together with Questfall, so it is not affiliated with [IFE](../roadmap/initial-funding-events.md), which has its own referral program.
 {% endhint %}
 
 In order to carry out the program, 5% of the weekly QFT issue will be used to reward users from both sides: ambassadors, who attract audience, and new users, who apply referral code when signing up in the system.

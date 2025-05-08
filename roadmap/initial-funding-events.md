@@ -2,25 +2,51 @@
 icon: square
 ---
 
-# Initial Funding Event
+# Initial Funding Events
 
 <mark style="color:yellow;">Planned to take place on: TBA</mark>
 
-The primary goal of the Initial Funding Event (IFE) is to raise money for the initial development, operation, and marketing of Questfall by selling 75% of the total supply of Founder NFTs to the public, while keeping 25% for the Team.
+Depending on the rarity tier, of which there are six, each Founder NFT contains a certain amount of Founder Points, which are used to distribute the founders' share of the weekly QFT issue (10%).&#x20;
+
+Since the total supply of each rarity tier is limited, the maximum amount of Founder Points is also limited and cannot exceed **2,602,200**.
+
+<table><thead><tr><th width="160">Founder NFT</th><th width="118" align="center">Points per NFT</th><th width="103" align="center">NFTs Count</th><th width="106" align="center">Total Points</th><th width="104" align="center">QFT Share</th></tr></thead><tbody><tr><td>Common (F)</td><td align="center">100</td><td align="center">3,200</td><td align="center">320,000</td><td align="center">1.230%</td></tr><tr><td>Uncommon (E)</td><td align="center">224</td><td align="center">1,600</td><td align="center">358,400</td><td align="center">1.377%</td></tr><tr><td>Rare (D)</td><td align="center">502</td><td align="center">800</td><td align="center">401,600</td><td align="center">1.543%</td></tr><tr><td>Epic (C)</td><td align="center">1126</td><td align="center">400</td><td align="center">450,400</td><td align="center">1.731%</td></tr><tr><td>Legendary (B)</td><td align="center">2526</td><td align="center">200</td><td align="center">505,200</td><td align="center">1.941%</td></tr><tr><td>Mythical (A)</td><td align="center">5666</td><td align="center">100</td><td align="center">566,600</td><td align="center">2.177%</td></tr><tr><td>TOTAL</td><td align="center">-</td><td align="center">6,300</td><td align="center">2,602,200</td><td align="center">10%</td></tr></tbody></table>
+
+The primary goal of the Initial Funding Events is to raise money for the initial development, operation, and marketing of Questfall by selling 75% of the total supply of Founder NFTs to the public, while keeping 25% for the Team.
 
 {% hint style="info" %}
-Founder NFTs will only be minted during the IFE and never again, as it is a one-time event.
+Founder NFTs will only be minted during the Initial Funding Events and not after, meaning that any unsold NFTs will never be minted.
 {% endhint %}
 
-Depending on the rarity tier, of which there are six, each Founder NFT contains a certain amount of Founder Points, which are used to distribute the founders' share of the weekly QFT issue. Since the total supply of each rarity tier is limited, the maximum amount of Founder Points is also limited and cannot exceed **2,602,200**.
+#### First Funding Event (FFE)
 
-On the one hand, the number of available NFTs decreases by half with each tier and their price doubles respectively. On the other hand, the amount of Founder Points contained in each NFT increases by x2.243. In this way, the higher tiers receive a discount on the price per Founder Point they contain.
+The goal of the First Funding Event is to raise **$302,400** for the initial development of the platform by selling 40% of the public NFTs (or 30% of the total supply) at a base discount of 50% per Founder Point.&#x20;
 
-<table><thead><tr><th width="160">Founder NFT</th><th width="80" align="center">Points</th><th width="72" align="center">Team</th><th width="77" align="center">IFE</th><th width="84" align="center">Price</th><th width="98" align="center">Discount</th></tr></thead><tbody><tr><td>Common (F)</td><td align="center">100</td><td align="center">800</td><td align="center">2400</td><td align="center">$100</td><td align="center">0%</td></tr><tr><td>Uncommon (E)</td><td align="center">224</td><td align="center">400</td><td align="center">1200</td><td align="center">$200</td><td align="center">10.71%</td></tr><tr><td>Rare (D)</td><td align="center">502</td><td align="center">200</td><td align="center">600</td><td align="center">$400</td><td align="center">20.32%</td></tr><tr><td>Epic (C)</td><td align="center">1126</td><td align="center">100</td><td align="center">300</td><td align="center">$800</td><td align="center">28.95%</td></tr><tr><td>Legendary (B)</td><td align="center">2526</td><td align="center">50</td><td align="center">150</td><td align="center">$1600</td><td align="center">36.66%</td></tr><tr><td>Mythical (A)</td><td align="center">5666</td><td align="center">25</td><td align="center">75</td><td align="center">$3200</td><td align="center">43.52%</td></tr></tbody></table>
+<table><thead><tr><th width="136">Founder NFT</th><th width="72" align="center">Team</th><th width="77" align="center">Public</th><th width="82" align="center">Price</th><th width="98" align="center">Discount</th><th width="109" align="right">Amount</th></tr></thead><tbody><tr><td>Common (F)</td><td align="center">320</td><td align="center">960</td><td align="center">$70</td><td align="center">50.00%</td><td align="right">$67,200</td></tr><tr><td>Uncommon (E)</td><td align="center">160</td><td align="center">480</td><td align="center">$140</td><td align="center">55.36%</td><td align="right">$67,200</td></tr><tr><td>Rare (D)</td><td align="center">80</td><td align="center">240</td><td align="center">$280</td><td align="center">60.16%</td><td align="right">$67,200</td></tr><tr><td>Epic (C)</td><td align="center">40</td><td align="center">120</td><td align="center">$560</td><td align="center">64.48%</td><td align="right">$67,200</td></tr><tr><td>Legendary (B)</td><td align="center">20</td><td align="center">60</td><td align="center">$1,120</td><td align="center">68.33%</td><td align="right">$67,200</td></tr><tr><td>Mythical (A)</td><td align="center">10</td><td align="center">30</td><td align="center">$2,240</td><td align="center">71.76%</td><td align="right">$67,200</td></tr><tr><td>TOTAL</td><td align="center">630</td><td align="center">1,890</td><td align="center">-</td><td align="center">-</td><td align="right">$403,200</td></tr></tbody></table>
 
-The maximum number of Founder NFTs that can be minted during the IFE is 6300: 1575 by the Team, and 4725 by the public.&#x20;
+Since the IFE referral program assumes that users get a 10% discount for using the referral code, while 15% of the incoming money goes to the Ambassadors as a reward, the total should be reduced by 25%. This gives a target of $302,400.
 
-As a result, the total amount of money that can be raised during the IFE is limited to $1,440,000, but since there is a referral program that gives a 10% discount on the price of NFTs and 15% of the full price as a reward to Ambassadors, the final amount that the Team can actually raise is limited to **$1,080,000**.
+{% hint style="info" %}
+Note that between the First and the Second Funding Events, Founder NFTs will not be tradable.
+{% endhint %}
+
+#### Second Funding Event (SFE)
+
+Second Funding Event will take place closer to the launch of Questfall (we plan it to take place during the beta testing of the platform).&#x20;
+
+The funds raised during the SFE will mainly be used for initial marketing activities to support the launch of the platform and also as a reserve for the first year or two of Questfall development.
+
+During the SFE, the remaining 60% of the public NFTs (or 45% of the total supply) will be sold.
+
+{% hint style="info" %}
+In addition, any public NFTs that remain unsold during the FFE will be available for minting during the Second Funding Event, which will be the last opportunity to mint public Founder NFTs.
+{% endhint %}
+
+<table><thead><tr><th width="160">Founder NFT</th><th width="72" align="center">Team</th><th width="77" align="center">Public</th><th width="84" align="center">Price</th><th width="98" align="center">Discount</th><th width="114" align="right">Amount</th></tr></thead><tbody><tr><td>Common (F)</td><td align="center">480</td><td align="center">1,440</td><td align="center">$140</td><td align="center">0.00%</td><td align="right">$201,600</td></tr><tr><td>Uncommon (E)</td><td align="center">240</td><td align="center">720</td><td align="center">$280</td><td align="center">10.71%</td><td align="right">$201,600</td></tr><tr><td>Rare (D)</td><td align="center">120</td><td align="center">360</td><td align="center">$560</td><td align="center">20.32%</td><td align="right">$201,600</td></tr><tr><td>Epic (C)</td><td align="center">60</td><td align="center">180</td><td align="center">$1,120</td><td align="center">28.95%</td><td align="right">$201,600</td></tr><tr><td>Legendary (B)</td><td align="center">30</td><td align="center">90</td><td align="center">$2,240</td><td align="center">36.66%</td><td align="right">$201,600</td></tr><tr><td>Mythical (A)</td><td align="center">15</td><td align="center">45</td><td align="center">$4,480</td><td align="center">43.52%</td><td align="right">$201,600</td></tr><tr><td>TOTAL</td><td align="center">945</td><td align="center">2,835</td><td align="center">-</td><td align="center">-</td><td align="right">$1,209,600</td></tr></tbody></table>
+
+#### Hard and Low Cap
+
+As a result, the total amount of money that can be raised during both events is limited to $1,612,800, but since there is a referral program that gives a 10% discount on the price of NFTs and 15% of the full price as a reward to Ambassadors (FFE - $60,480, SFE - $181,440), the final amount that the Team can actually raise is limited to **$1,209,600** (FFE - $302,400, SFE - $907,200).
 
 However, there is no low cap, as we will develop Questfall regardless of the final amount we are able to raise. We will launch the project even if we raise nothing, as we have already put a lot of effort into it and see a great potential in Deflationary Quest Mining.&#x20;
 
@@ -28,9 +54,7 @@ However, there is no low cap, as we will develop Questfall regardless of the fin
 Of course, it will be much easier and faster to launch Questfall if we can hire several developers, designers and marketers.
 {% endhint %}
 
-This is why we limit the event to 3 days, because we see it as an opportunity for people to get on board, not for us to make as much money as possible.&#x20;
-
-Since any NFTs not minted during the IFE will never be minted afterward, the shares received by existing founders will increase proportionally. So in a sense, selling as few NFTs as possible is in the best interest of every founder (including us).
+Since any NFTs not minted during the IFE will never be minted afterward, the weekly rewards received by existing founders will increase proportionally. So in a sense, selling as few NFTs as possible is in the best interest of every founder (including us).
 
 But of course we will do our best to attract as many founders as possible, because they bring not only money, but also decentralization, experience, connections, support and fresh ideas.
 
@@ -148,9 +172,15 @@ On the one hand, users who want to become a Founder will receive a 10% discount 
 
 Ambassadors, on the other hand, will receive 15% of the full NFT price immediately as the user's transaction will be split into two payments: one for the Team and one for the Ambassador.
 
-<table><thead><tr><th width="163">Founder NFT</th><th width="86" align="center">Price</th><th width="139" align="center">User Payment</th><th width="130" align="center">Ambassador</th><th width="86" align="center">Team</th></tr></thead><tbody><tr><td>Common (F)</td><td align="center">$100</td><td align="center">$90</td><td align="center">$15</td><td align="center">$75</td></tr><tr><td>Uncommon (E)</td><td align="center">$200</td><td align="center">$180</td><td align="center">$30</td><td align="center">$150</td></tr><tr><td>Rare (D)</td><td align="center">$400</td><td align="center">$360</td><td align="center">$60</td><td align="center">$300</td></tr><tr><td>Epic (C)</td><td align="center">$800</td><td align="center">$720</td><td align="center">$120</td><td align="center">$600</td></tr><tr><td>Legendary (B)</td><td align="center">$1600</td><td align="center">$1440</td><td align="center">$240</td><td align="center">$1200</td></tr><tr><td>Mythical (A)</td><td align="center">$3200</td><td align="center">$2880</td><td align="center">$480</td><td align="center">$2400</td></tr></tbody></table>
+During the FFE, the total amount of $60,480 will be distributed among the Ambassadors as a reward for attracted founders. Of course, if all the NFTs are sold out.
 
-A total of **$216,000** will be distributed to the Ambassadors, who will also have the opportunity to increase their reputation in their communities, as projects like Questfall do not come along very often.
+<table><thead><tr><th width="138">Founder NFT</th><th width="77" align="center">NFTs</th><th width="86" align="center">FFE Price</th><th width="91" align="center">User Pays</th><th width="80" align="center">Ambas.</th><th width="86" align="center">Team</th></tr></thead><tbody><tr><td>Common (F)</td><td align="center">960</td><td align="center">$70</td><td align="center">$63</td><td align="center">$10.5</td><td align="center">$52.5</td></tr><tr><td>Uncommon (E)</td><td align="center">480</td><td align="center">$140</td><td align="center">$126</td><td align="center">$21</td><td align="center">$105</td></tr><tr><td>Rare (D)</td><td align="center">240</td><td align="center">$280</td><td align="center">$252</td><td align="center">$42</td><td align="center">$210</td></tr><tr><td>Epic (C)</td><td align="center">120</td><td align="center">$560</td><td align="center">$504</td><td align="center">$84</td><td align="center">$420</td></tr><tr><td>Legendary (B)</td><td align="center">60</td><td align="center">$1,120</td><td align="center">$1,008</td><td align="center">$168</td><td align="center">$840</td></tr><tr><td>Mythical (A)</td><td align="center">30</td><td align="center">$2,200</td><td align="center">$2,016</td><td align="center">$336</td><td align="center">$1,680</td></tr></tbody></table>
+
+During the SFE, the maximum total amount of $181,440 will be distributed among the Ambassadors as a reward for attracted founders.
+
+<table><thead><tr><th width="138">Founder NFT</th><th width="77" align="center">NFTs</th><th width="86" align="center">SFE Price</th><th width="91" align="center">User Pays</th><th width="80" align="center">Ambas.</th><th width="86" align="center">Team</th></tr></thead><tbody><tr><td>Common (F)</td><td align="center">1,440</td><td align="center">$140</td><td align="center">$126</td><td align="center">$21</td><td align="center">$105</td></tr><tr><td>Uncommon (E)</td><td align="center">720</td><td align="center">$280</td><td align="center">$252</td><td align="center">$42</td><td align="center">$210</td></tr><tr><td>Rare (D)</td><td align="center">360</td><td align="center">$560</td><td align="center">$504</td><td align="center">$84</td><td align="center">$420</td></tr><tr><td>Epic (C)</td><td align="center">180</td><td align="center">$1,120</td><td align="center">$1,008</td><td align="center">$168</td><td align="center">$840</td></tr><tr><td>Legendary (B)</td><td align="center">90</td><td align="center">$2,240</td><td align="center">$2,016</td><td align="center">$336</td><td align="center">$1,680</td></tr><tr><td>Mythical (A)</td><td align="center">45</td><td align="center">$4,480</td><td align="center">$4,032</td><td align="center">$672</td><td align="center">$3,360</td></tr></tbody></table>
+
+As a result a total of **$241,920** will be distributed to the Ambassadors as a reward for bringing users to both funding events, which is a great opportunity to build a reputation in the crypto community, as projects like Questfall do not come along very often.
 
 {% hint style="info" %}
 However, a group of enthusiasts and supporters has existed long before IFE. These people will receive a 20% discount, without any referral codes, because attracting people who are already engaged is not what we want from our Ambassadors.

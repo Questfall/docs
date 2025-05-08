@@ -4,7 +4,7 @@ icon: mug-hot
 
 # Founders' Revenue (10%)
 
-The funds raised during the [Initial Funding Event](../roadmap/initial-funding-event.md) will be used to build and promote Questfall. This is a one-time opportunity to mint [Founder NFTs](../assets/founder-nfts.md).
+The funds raised during the [Initial Funding Event](../roadmap/initial-funding-events.md) will be used to build and promote Questfall. This is a one-time opportunity to mint [Founder NFTs](../assets/founder-nfts.md).
 
 {% hint style="info" %}
 The Team will initially keep 650,550 Founder Points and sell 1,951,650 to the public through the IFE.

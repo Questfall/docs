@@ -12,7 +12,7 @@ In order to ensure the long-term sustainability of Questfall, 5% of the weekly Q
 * hardware rent;
 * advertising and marketing.
 
-In the beginning, the Team will cover the project support and development costs with the money raised through the [IFE](../roadmap/initial-funding-event.md). This may be enough for a year or two. However, in the long run, [Deflationary Mining](../overview/deflationary-mining.md) should do its magic and 5% of the QFT issue should be sufficient to cover all costs.
+In the beginning, the Team will cover the project support and development costs with the money raised through the [IFE](../roadmap/initial-funding-events.md). This may be enough for a year or two. However, in the long run, [Deflationary Mining](../overview/deflationary-mining.md) should do its magic and 5% of the QFT issue should be sufficient to cover all costs.
 
 {% hint style="info" %}
 We understand the obligations that come with such an approach and will act in the best interest of the entire community.

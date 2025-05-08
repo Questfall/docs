@@ -15,7 +15,7 @@ From a technical point of view, the development of a platform like Questfall is 
 * interface code;
 * smart contracts.&#x20;
 
-The most difficult tasks are getting all the pieces to work together smoothly and protecting the system from hackers and other types of threats, such as DDoS attacks. But as mentioned in the [Detailed Project Description](project-overview.md) article, we had all the critical details worked out before [IFE](initial-funding-event.md) and even had working code for many aspects of the system.
+The most difficult tasks are getting all the pieces to work together smoothly and protecting the system from hackers and other types of threats, such as DDoS attacks. But as mentioned in the [Detailed Project Description](project-overview.md) article, we had all the critical details worked out before [IFE](initial-funding-events.md) and even had working code for many aspects of the system.
 
 The launch of Questfall is nothing special, except that we have to do a lot of pre-partnerships in order to have as many quests as possible on the platform beforehand.
 

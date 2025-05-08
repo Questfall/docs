@@ -64,7 +64,7 @@
 ## Roadmap
 
 * [Detailed Project Description](roadmap/project-overview.md)
-* [Initial Funding Event](roadmap/initial-funding-event.md)
+* [Initial Funding Events](roadmap/initial-funding-events.md)
 * [Questfall v1.0](roadmap/platform-v1.0-and-beyond.md)
 * [Future Versions](roadmap/future-versions.md)
 
