@@ -94,7 +94,7 @@ Assuming that half of the circulating QFTs (706k) will be in the liquidity pool 
 
 However, this estimate does not take into account the number of QFTs that will be burned during the first year, which directly affects the QFT price for the same amount of stablecoins in the pool. And since the low QFT price incentivizes QFT burning, we actually expect the QFT price to be higher than $10 at the end of the first year.
 
-### Double compensation for NFT costs / <mark style="color:orange;">NFT</mark>
+### Double (quadruple) compensation for NFT costs / <mark style="color:orange;">NFT</mark>
 
 We want a weekly QFT reward to be a real profit that can be considered independently of the cost of the NFT itself.&#x20;
 
