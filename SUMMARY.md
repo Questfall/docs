@@ -21,7 +21,7 @@
   * [Rewards](quest-mining/creation/rewards.md)
 * [Quest Completion (40%)](quest-mining/completion/README.md)
   * [RPG Attributes](quest-mining/completion/rpg-attributes/README.md)
-    * [Inventory](quest-mining/completion/rpg-attributes/inventory.md)
+    * [Items](quest-mining/completion/rpg-attributes/items.md)
     * [Mining](quest-mining/completion/rpg-attributes/mining.md)
     * [Crafting](quest-mining/completion/rpg-attributes/crafting.md)
     * [Trading](quest-mining/completion/rpg-attributes/trading.md)
