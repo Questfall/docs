@@ -22,7 +22,7 @@ For example, Stamina Potions assume that two potions are merged to evolve. There
 
 ### Stamina Potion
 
-When consumed, a Stamina Potion will restore a percentage of the user's Stamina Reserve, depending on the rarity of the potion. The Stamina Potion of rarity F restores 10% of the total size of the Stamina Reserve, and each subsequent rarity tier doubles the effect.&#x20;
+When consumed, a Stamina Potion restores a percentage of the user's Maximum Stamina, depending on the rarity of the potion. The Stamina Potion of rarity F restores 10% of Maximum Stamina, and each subsequent rarity tier doubles the base effect. The final restore amount can be increased by the Stamina trait [Absorption](../rpg-attributes/stamina.md#absorption).&#x20;
 
 Since evolving requires two potions that have the same resultant effect, it might seem that there is no point in evolving. However, the weight increases more slowly, so an E potion, for example, has the same effect as two F potions, but takes up less inventory space.
 
@@ -32,8 +32,10 @@ Since evolving requires two potions that have the same resultant effect, it migh
 Scrapping and evolving values in the table are calculated for a Crafting attribute of 0, where 11es means 11 Essence. Drop rate assumes no other type of potion is present. Weight is calculated based on: $$Density=Rarity^{-2.2}$$.
 {% endhint %}
 
-The potion adds the full amount provided by the effect to the reserve, which can hold more than its nominal size. For example, if a user has a reserve size of 10,000 and only has 4,000 stamina left, a C-rarity potion will add 8,000 (80%). This will result in 12,000 stamina in the reserve.
+The potion adds the full amount provided by the effect to current stamina, which can go above Maximum Stamina. For example, if a user has 10,000 Maximum Stamina and only has 4,000 stamina left, a C-rarity potion will add 8,000 (80%). This will result in 12,000 current stamina.
+
+Stamina above the maximum is called overcap. While a player has overcapped stamina, passive Stamina Recovery does not add more stamina. Instead, the excess stamina decays over time, as described in the [Stamina](../rpg-attributes/stamina.md#overcap) attribute article.
 
 {% hint style="info" %}
-However, to prevent automation by gaining a huge amount of stamina before running a bot, a potion cannot be consumed in advance if the reserve is full.
+However, to prevent automation by gaining a huge amount of stamina before running a bot, a potion cannot be consumed in advance if current stamina is already at or above Maximum Stamina.
 {% endhint %}

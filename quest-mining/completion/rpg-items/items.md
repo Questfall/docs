@@ -64,7 +64,7 @@ The base density of the clothing is $$Rarity^{-1.1}$$, and the final weight is a
 
 ### Aspects
 
-Each clothing item has an aspect that increases the power of one of the character attributes. As such, the number of aspects and their names are the same as the attributes: [Items](../rpg-attributes/items.md), [Mining](../rpg-attributes/mining.md), [Crafting](../rpg-attributes/crafting.md), [Trading](../rpg-attributes/trading.md), [Recovery](../rpg-attributes/recovery.md), and [Luck](../rpg-attributes/luck.md).
+Each clothing item has an aspect that increases the power of one of the character attributes. As such, the number of aspects and their names are the same as the attributes: [Items](../rpg-attributes/items.md), [Mining](../rpg-attributes/mining.md), [Crafting](../rpg-attributes/crafting.md), [Trading](../rpg-attributes/trading.md), [Stamina](../rpg-attributes/stamina.md), and [Luck](../rpg-attributes/luck.md).
 
 Despite the fact that the number of clothing slots and attributes are the same, each item's aspect is independent of its type and is randomly determined when the item is created.&#x20;
 

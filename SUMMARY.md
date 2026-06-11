@@ -25,7 +25,7 @@
     * [Mining](quest-mining/completion/rpg-attributes/mining.md)
     * [Crafting](quest-mining/completion/rpg-attributes/crafting.md)
     * [Trading](quest-mining/completion/rpg-attributes/trading.md)
-    * [Recovery](quest-mining/completion/rpg-attributes/recovery.md)
+    * [Stamina](quest-mining/completion/rpg-attributes/stamina.md)
     * [Luck](quest-mining/completion/rpg-attributes/luck.md)
   * [RPG Items](quest-mining/completion/rpg-items/README.md)
     * [Clothing](quest-mining/completion/rpg-items/items.md)
