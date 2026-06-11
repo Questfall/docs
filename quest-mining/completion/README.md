@@ -14,11 +14,11 @@ In fact, more than half (51.2% to be exact) of the weekly QFT issue is used to r
 
 The [weekly reward pool](../creation/rewards.md) is divided among the [leagues](leagues.md), where users are grouped by [level](levels.md) and compete for their share of the league reward. Competition within each league is based on the Mining Score that users earn by the end of the week by completing quests.
 
-Each time a quest is successfully completed, the user is rewarded with a certain number of Mining Points, depending on a quest-specific Quest Bounty parameter and user-specific Mining Power and Mining Boost parameters.
+Each time a quest is successfully completed, the user is rewarded with a certain number of Mining Points, depending on a quest-specific Quest Bounty parameter and user-specific Mining Power, Flow, and Mining Boost parameters.
 
 {% hint style="info" %}
 The formula for calculating the reward for a given quest is as follows:\
-$$MiningPoints=QuestBounty*(1+\frac{MiningPower}{100})*MiningBoost$$
+$$MiningPoints=floor(QuestBounty*(1+\frac{MiningPower}{100})*FlowMultiplier*MiningBoost)$$
 {% endhint %}
 
 The amount of Mining Points earned throughout the week results in an individual weekly Mining Score for each user. And the league reward pool is distributed according to each user's share of the league's total Mining Score.
@@ -27,7 +27,7 @@ The amount of Mining Points earned throughout the week results in an individual 
 The individual Mining Score is simply the total number of Mining Points earned by the user during the week.
 {% endhint %}
 
-In addition to Mining Points, users also receive a random Chest Shard for each quest they complete.&#x20;
+In addition to Mining Points, completed quests can also create Chest Shard rolls. The frequency of those rolls is controlled by the [Mining](rpg-attributes/mining.md) trait `Loot`, while the chance to receive a missing piece instead of a duplicate is controlled by the [Luck](rpg-attributes/luck.md) trait `Shards`.&#x20;
 
 Chest Shards, like a mosaic puzzle, make up a weekly set of up to 100 pieces, and when a user collects a full set of shards, they are rewarded with a free loot box. Therefore, the more quests a user completes in a week, the more free loot boxes they will open.
 

@@ -41,7 +41,7 @@ First, each item has an aspect that adds to one of the character [attributes](..
 
 To equip clothing, there are no rarity or level restrictions. This means that a user can equip items purchased on the marketplace or obtained from a loot box that are of a higher level than the user. For example, a level 5 user can wear level 40 boots.&#x20;
 
-However, the power of the item's aspect is reduced proportionally, while the weight is applied in full. Since the weight of equipped items contributes to [stamina consumption](../rpg-attributes/mining.md#stamina-reserve), this can be a significant limitation depending on overall character development.
+However, the power of the item's aspect is reduced proportionally, while the weight is applied in full. Since the weight of equipped items contributes to [stamina consumption](../rpg-attributes/mining.md#stamina-in-mining), this can be a significant limitation depending on overall character development.
 
 {% hint style="info" %}
 The power of the aspect is reduced by the formula: \
