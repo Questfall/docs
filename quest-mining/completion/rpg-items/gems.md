@@ -39,16 +39,18 @@ Since users need Essence and Gems of the same rarity, Gem distribution is one of
 
 Although Gems can be purchased on the marketplace, they are initially created as a reward for participating in the Liquidity Program. In this program, users provide liquidity to the official swapping pool and then burn the LP tokens they receive. In return, they receive QFT and Gems.
 
-While QFTs are awarded proportionally based on users' mining results, Gems are indivisible items that are distributed based on a leaderboard mechanic that prevents manipulation by multiple accounts.
+While QFT rewards are awarded proportionally to each user's share of burned liquidity, Gems are indivisible items that are distributed based on a leaderboard mechanic that prevents manipulation by multiple accounts.
 
 {% hint style="info" %}
 Learn more about QFT distribution in the [Liquidity Program](../../../infrastructure/liquidity-program.md) article.
 {% endhint %}
 
-Every user who participates in the Liquidity Program during a week earns Gem Points, which are used to create the leaderboard. The amount of Gem Points earned depends on the amount of LP tokens burned for the program, how early in the week the LP tokens were burned, and the final RPG trait formula for liquidity rewards.
+Every user who participates in the Liquidity Program during a week earns Gem Points, which are used to create the leaderboard. The amount of Gem Points earned depends on the amount of LP tokens burned for the program, how early in the week the LP tokens were burned, and the user's [Trading Liquidity](../rpg-attributes/trading.md#liquidity) power.
 
-{% hint style="warning" %}
-The exact Gem Points formula is still being synchronized with the new RPG trait structure. It should be finalized together with the Trading `Liquidity` trait rather than the old single-value Crafting formula.
+$$GemPoints=RawLPPoints*TimeFactor*\frac{100+GemPointsPower}{100}$$
+
+{% hint style="info" %}
+`GemPointsPower` comes from the Trading `Liquidity` trait and related item grants. QFT liquidity rewards are separate; Liquidity affects only Gem Points.
 {% endhint %}
 
 In this way, a user who specializes in the relevant liquidity strategy and burns liquidity at the beginning of a new week should receive more points than a user who burns the same amount of LP tokens later in the week.
