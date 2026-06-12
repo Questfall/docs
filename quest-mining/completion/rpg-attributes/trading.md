@@ -25,13 +25,26 @@ $$Slots=Trading+1$$
 
 ### Marketplace Fee
 
-The marketplace charges a 10% trading fee, which is burned. However, the percentage of the fee can be reduced by investing stat points in the Trading attribute.
+The marketplace charges a trading fee, which is burned. The `Fee` trait will reduce that marketplace cost for players focused on trading.
 
 The fee is calculated at the moment a buyer pays for an RPG item, so a seller cannot predict when it will happen and must keep items that give a reduced fee equipped permanently.
 
+{% hint style="warning" %}
+The exact `Fee` trait curve is still being finalized. The grant pattern is already fixed: item grants reduce `Marketplace Base Fee` multiplicatively before the `Fee` trait curve.
+{% endhint %}
+
+Planned Fee grants:
+
+| Item rarity | Marketplace Base Fee Reduction grant |
+| --- | --- |
+| Uncommon | `+5..10%` |
+| Rare | `+11..20%` |
+| Epic | `+21..30%` |
+| Legendary | `+31..40%` |
+| Mythical | `+41..50%` |
+
 {% hint style="info" %}
-The percentage of a fee is calculated using the following formula: \
-$$Fee_{size}=\frac{10}{0.01*Trading+1}$$
+If a player has several Fee grants, they multiply the remaining base fee. For example, six maximum Mythical grants apply `0.5^6`, leaving `1.5625%` of the base fee before the trait curve.
 {% endhint %}
 
 ***

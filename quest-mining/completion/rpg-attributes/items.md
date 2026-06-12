@@ -189,11 +189,13 @@ The base cost depends on item rarity and item level. Item level uses a cube-root
 {% hint style="info" %}
 $$BaseEquipCost=ceil(Rarity*\sqrt[3]{max(1,ItemLevel)})$$
 
+$$GrantMultiplier=\prod(1-\frac{EachEquippingGrant}{100})$$
+
+$$EquipCostAfterGrants=BaseEquipCost*GrantMultiplier$$
+
 $$TraitCostReduction=floor(10*log_{10}(max(1,Equipping)))$$
 
-$$FinalCostReduction=min(90\%,TraitCostReduction+CostReductionGrants)$$
-
-$$FinalEquipCost=max(1,ceil(BaseEquipCost*(1-\frac{FinalCostReduction}{100}))-FlatCostGrants)$$
+$$FinalEquipCost=max(1,ceil(EquipCostAfterGrants*(1-\frac{TraitCostReduction}{100})))$$
 {% endhint %}
 
 `Rarity` uses the numeric rarity value from `1` for Common to `6` for Mythical. Equipping can never be free: the final cost is always at least `1 Essence`.
@@ -220,20 +222,22 @@ Trait reduction before item grants:
 | `100,000` | `50%` |
 | `1,000,000` | `60%` |
 
-Equipping has two types of item grants:
+Equipping grants reduce the base equipment cost before the trait reduction. Several grants multiply the remaining cost, so the order of grants does not matter.
 
-| Item rarity | Cost Reduction grant | Flat Equipment Essence Cost grant |
-| --- | --- | --- |
-| Uncommon | `+1 percentage point` | `-1..2 Essence` |
-| Rare | `+2 percentage points` | `-3..4 Essence` |
-| Epic | `+3 percentage points` | `-5..6 Essence` |
-| Legendary | `+4 percentage points` | `-7..8 Essence` |
-| Mythical | `+5 percentage points` | `-9..10 Essence` |
+| Item rarity | Equipment Base Essence Cost Reduction grant |
+| --- | --- |
+| Uncommon | `+5..10%` |
+| Rare | `+11..20%` |
+| Epic | `+21..30%` |
+| Legendary | `+31..40%` |
+| Mythical | `+41..50%` |
 
 {% hint style="info" %}
 Example: a Mythical level 100 item has base equip cost `28 Essence`. A player with `1,000` Equipping has `30%` base reduction, so the cost becomes `20 Essence`.
 
-If one Mythical item adds `+5 percentage points` and `-10 Essence`, the same equip action costs `9 Essence`: first percent reduction reduces the cost to `19`, then the flat grant subtracts `10`.
+If one Mythical item has a maximum `+50% Equipment Base Essence Cost Reduction` grant, it cuts the base cost to `14 Essence` before the trait. Then `1,000` Equipping applies its `30%` trait reduction, so the final cost is `10 Essence`.
+
+Six maximum Mythical Equipping grants apply `0.5^6`, leaving only `1.5625%` of the base cost before the trait. The final cost still cannot go below `1 Essence`.
 {% endhint %}
 
 ***

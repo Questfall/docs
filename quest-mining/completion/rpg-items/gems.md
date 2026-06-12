@@ -8,12 +8,19 @@ Level-less items, such as [potions](potions.md), of the same type and rarity are
 
 To evolve such items, users need Gems, which are only issued as a reward for participating in the [Liquidity Program](../../../infrastructure/liquidity-program.md), so they cannot be found in loot boxes. In that sense, Gems are special.
 
-In all other respects, Gems are just like any other level-less items, such as potions. They can be [scrapped](../rpg-attributes/crafting.md#scrapping), sold on the [marketplace](../../../infrastructure/marketplace.md) for [Gold](../../../assets/gold.md) (F,E,D) or [QFT](../../../assets/qft.md) (C,B,A), their rarity can be [evolved](../rpg-attributes/crafting.md#evolving) through merging, and they take up [inventory](../rpg-attributes/items.md) space.
+In all other respects, Gems are level-less RPG items. They can be sold on the [marketplace](../../../infrastructure/marketplace.md) for [Gold](../../../assets/gold.md) (F,E,D) or [QFT](../../../assets/qft.md) (C,B,A), they take up [inventory](../rpg-attributes/items.md) space, and their exact scrapping and evolution balance will be finalized together with the `Rarity` and `Quality` crafting traits.
 
-<table><thead><tr><th width="94" align="center">Rarity</th><th width="91" align="center">Weight </th><th width="107" align="center">Scrapping</th><th width="115" align="center">Evolving</th></tr></thead><tbody><tr><td align="center">F</td><td align="center">100g</td><td align="center">+11es</td><td align="center">-</td></tr><tr><td align="center">E</td><td align="center">373g</td><td align="center">+14es</td><td align="center">4xF+10es</td></tr><tr><td align="center">D</td><td align="center">806g</td><td align="center">+19es</td><td align="center">4xE+30es</td></tr><tr><td align="center">C</td><td align="center">1,393g</td><td align="center">+26es</td><td align="center">4xD+60es</td></tr><tr><td align="center">B</td><td align="center">2,128g</td><td align="center">+35es</td><td align="center">4xC+100es</td></tr><tr><td align="center">A</td><td align="center">3,009g</td><td align="center">+46es</td><td align="center">4xB+150es</td></tr></tbody></table>
+| Rarity | Weight |
+| --- | --- |
+| F | `100 g` |
+| E | `373 g` |
+| D | `806 g` |
+| C | `1,393 g` |
+| B | `2,128 g` |
+| A | `3,009 g` |
 
 {% hint style="info" %}
-Scrapping and evolving values in the table are calculated for a Crafting attribute of 0, where 11es means 11 Essence. Weight is calculated based on: $$Density=Rarity^{-1.1}$$.
+Gem scrapping, Gem merging, and Gem-related rarity upgrade costs are still being finalized. Weight is calculated based on: $$Density=Rarity^{-1.1}$$.
 {% endhint %}
 
 To evolve a rarity of an item, a user needs a Gem of the same rarity tier. For example, to evolve an item's rarity from F to E, a Gem F is required. To evolve item's rarity from E to D, a Gem E is needed. And so on.
@@ -22,9 +29,9 @@ To evolve a rarity of an item, a user needs a Gem of the same rarity tier. For e
 In addition to Gems, Essence is also [required](../rpg-attributes/crafting.md#evolving) to evolve the rarity tier.
 {% endhint %}
 
-A-rarity Gems are not used for evolving, as rarity tier A is the highest possible tier. Instead, a user can use them to maximize the [aspect](items.md#aspects) or one of the [perks](items.md#perks) of the clothing item.
+A-rarity Gems are not used for evolving, as rarity tier A is the highest possible tier. Instead, a user can use them to maximize the [resonance](items.md#resonance) or one of the [perks](items.md#perks) of the clothing item.
 
-Since users only need Essence and Gems of the same rarity, they only need Gold to craft C-rarity items that can be sold for QFT, thus extracting in-game value from the system to the blockchain. In fact, because Gems themselves can be evolved through merging, items of any rarity can be crafted using only Gold.
+Since users need Essence and Gems of the same rarity, Gem distribution is one of the key links between crafting, marketplace demand, and the Liquidity Program.
 
 ***
 
@@ -38,16 +45,15 @@ While QFTs are awarded proportionally based on users' mining results, Gems are i
 Learn more about QFT distribution in the [Liquidity Program](../../../infrastructure/liquidity-program.md) article.
 {% endhint %}
 
-Every user who participates in the Liquidity Program during a week earns Gem Points, which are used to create the leaderboard. The amount of Gem Points earned depends on three factors: the amount of LP tokens burned for the program, the value of the [Crafting](../rpg-attributes/crafting.md) attribute, and how early in the week the LP tokens were burned.
+Every user who participates in the Liquidity Program during a week earns Gem Points, which are used to create the leaderboard. The amount of Gem Points earned depends on the amount of LP tokens burned for the program, how early in the week the LP tokens were burned, and the final RPG trait formula for liquidity rewards.
 
-{% hint style="info" %}
-The amount of Gem Points earned per LP token burned: \
-$$GPoints=LP*\sqrt{Crafting+1}*(1+e^{2*10^{-5}*(Second-3*10^5)})^{-1}$$
+{% hint style="warning" %}
+The exact Gem Points formula is still being synchronized with the new RPG trait structure. It should be finalized together with the Trading `Liquidity` trait rather than the old single-value Crafting formula.
 {% endhint %}
 
-In this way, a user with higher Crafting who burns liquidity at the beginning of a new week will receive more points than a user who burns the same amount of LP tokens in the middle of the week, or who has a lower Crafting attribute.
+In this way, a user who specializes in the relevant liquidity strategy and burns liquidity at the beginning of a new week should receive more points than a user who burns the same amount of LP tokens later in the week.
 
-The time factor discourages last-minute tampering, making it much more costly, especially for newly created accounts with a Crafting of 0. This allows users who really earn from crafting to get Gems without any hassle.
+The time factor discourages last-minute tampering, making it much more costly, especially for newly created accounts without relevant RPG investment. This allows users who really support liquidity to get Gems without unnecessary friction.
 
 The leaderboard is based on the Gem Points earned by users during the week. To prevent Sybil attacks, the leaderboard is divided into a top and bottom section based on the average amount of Gem Points earned by the top ten users. And the bottom section of the leaderboard is not eligible for Gem rewards.
 
@@ -70,5 +76,5 @@ This approach to Gem distribution has many advantages:
 * It scales, so as Questfall becomes more popular, more Gems are issued to meet the growing demand.
 * It prevents Sybil attacks by not rewarding relatively small amounts of burned liquidity.
 * It forces competition among users, which results in more liquidity being added.
-* It increases the value of the Crafting attribute.
+* It increases the value of the liquidity-focused strategy.
 * It prevents last-minute tampering.

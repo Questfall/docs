@@ -28,24 +28,22 @@ The highest possible level of an item available in loot boxes is the level of th
 
 Unlike level-less items, clothing is not consumed when applied to a character. Instead, it is equipped, meaning that an item can be put on and taken off an unlimited number of times.
 
-However, to prevent situational clothing switching, each time an item is equipped, it will cost Essence, depending on the rarity of the item.
+However, to prevent situational clothing switching, each time an item is equipped, it costs Essence. The cost depends on item rarity, item level, and the player's [Equipping](../rpg-attributes/items.md#equipping) trait.
 
 {% hint style="info" %}
-The amount of Essence required to equip the item: \
-$$Cost_{essence}=10*Rarity$$
+For the exact equipment cost formula, see the [Items](../rpg-attributes/items.md#equipping) attribute article.
 {% endhint %}
 
 When the item is equipped, its effects are applied to the character. And there are two types of effects that an item can have.
 
-First, each item has an aspect that adds to one of the character [attributes](../rpg-attributes/). Second, depending on its rarity, the item can have up to 5 perks.&#x20;
+First, each item has a resonance that boosts one of the character [attributes](../rpg-attributes/). Second, depending on its rarity, the item can have up to 5 perks.&#x20;
 
 To equip clothing, there are no rarity or level restrictions. This means that a user can equip items purchased on the marketplace or obtained from a loot box that are of a higher level than the user. For example, a level 5 user can wear level 40 boots.&#x20;
 
-However, the power of the item's aspect is reduced proportionally, while the weight is applied in full. Since the weight of equipped items contributes to [stamina consumption](../rpg-attributes/mining.md#stamina-in-mining), this can be a significant limitation depending on overall character development.
+However, useful item effects can be reduced when the item is too far above the character's level, while the weight is applied in full. Since equipped weight contributes to [stamina consumption](../rpg-attributes/stamina.md#relief), this can be a significant limitation depending on overall character development.
 
 {% hint style="info" %}
-The power of the aspect is reduced by the formula: \
-$$Aspect_{user}=min(1,\frac{Level_{user}}{Level_{item}})*Aspect_{item}$$
+The overlevel penalty affects resonance, grants, terminal perks, booster perks, and other positive system values from the item. For the exact formula, see the [Overlevel](../rpg-attributes/items.md#overlevel) trait.
 {% endhint %}
 
 The only restriction on equipping clothing is introduced by another important attribute, the type. It determines which of the character's six clothing slots the item can be equipped in.
@@ -62,33 +60,50 @@ The base density of the clothing is $$Rarity^{-1.1}$$, and the final weight is a
 
 ***
 
-### Aspects
+### Resonance
 
-Each clothing item has an aspect that increases the power of one of the character attributes. As such, the number of aspects and their names are the same as the attributes: [Items](../rpg-attributes/items.md), [Mining](../rpg-attributes/mining.md), [Crafting](../rpg-attributes/crafting.md), [Trading](../rpg-attributes/trading.md), [Stamina](../rpg-attributes/stamina.md), and [Luck](../rpg-attributes/luck.md).
+Each clothing item has a resonance linked to one of the character attributes: [Items](../rpg-attributes/items.md), [Mining](../rpg-attributes/mining.md), [Crafting](../rpg-attributes/crafting.md), [Trading](../rpg-attributes/trading.md), [Stamina](../rpg-attributes/stamina.md), or [Luck](../rpg-attributes/luck.md).
 
-Despite the fact that the number of clothing slots and attributes are the same, each item's aspect is independent of its type and is randomly determined when the item is created.&#x20;
+Despite the fact that the number of clothing slots and attributes are the same, each item's resonance attribute is independent of its type and is randomly determined when the item is created.&#x20;
 
-For example, boots can have a Trading aspect, a Luck aspect, or any other aspect, since there is an equal chance of getting each of the aspects on a new item.
-
-{% hint style="info" %}
-This way, a user can equip all of the same aspect clothing to increase only one character's attribute.
-{% endhint %}
-
-What makes clothing so powerful is that the effect of an aspect increases not only with each rarity tier, but also with each new item level. More specifically, the rarity determines the possible range of aspect power, while the actual power is determined individually on a random basis.
-
-<table><thead><tr><th width="114" align="center">Rarity</th><th width="130" align="center">Min Power</th><th width="116" align="center">Max Power</th></tr></thead><tbody><tr><td align="center">F</td><td align="center">0.15</td><td align="center">0.25</td></tr><tr><td align="center">E</td><td align="center">0.30</td><td align="center">0.40</td></tr><tr><td align="center">D</td><td align="center">0.45</td><td align="center">0.55</td></tr><tr><td align="center">C</td><td align="center">0.60</td><td align="center">0.70</td></tr><tr><td align="center">B</td><td align="center">0.75</td><td align="center">0.85</td></tr><tr><td align="center">A</td><td align="center">0.90</td><td align="center">1.10</td></tr></tbody></table>
-
-To illustrate how this works in practice, let's look at an example. Suppose a user receives first level boots of rarity F with a Crafting aspect of power 0.2. When these boots are upgraded to level 10, they give +2 to Crafting (0.2 per level).
-
-As the boots evolve to the next level, the power of the aspect will increase. However, there are two factors to keep in mind when evolving an item.
-
-First, the range of the aspect's power narrows. So the new aspect power of the boots could be anywhere between 0.3 and 0.35, since the original power was in the middle of the range. Suppose the new aspect power for rarity E was randomly set to 0.32. When evolving to rarity D, the range will narrow again, this time to 0.45-0.47. And so on.
+For example, boots can have Trading resonance, Luck resonance, or any other resonance, since there is an equal chance of getting each resonance attribute on a new item.
 
 {% hint style="info" %}
-As a result, it is very difficult to craft item A with the maximum power of the effect. However, it can be maximized to 1.5 at any time with the Gem A.
+This way, a user can equip several items with the same resonance and focus on one character attribute.
 {% endhint %}
 
-Second, the new aspect power is only applied when upgrading to the next level. So if a user from the example above upgrades boots to level 11 with a new aspect power of 0.32, boots will give +2.32 to Crafting. In other words, the power of aspect is not retroactive.
+Resonance is stored as accumulated percentage points. When a level 1 item is created, its resonance value and future per-level resonance step come from its rarity:
+
+| Rarity | Resonance step |
+| --- | --- |
+| Common (F) | `1` |
+| Uncommon (E) | `2` |
+| Rare (D) | `3` |
+| Epic (C) | `4` |
+| Legendary (B) | `5` |
+| Mythical (A) | `6` |
+
+When an item gains a level, its stored resonance value increases by its current step.
+
+{% hint style="info" %}
+$$ResonanceValue=ResonanceValue+ResonanceStep$$
+{% endhint %}
+
+If an item's rarity is upgraded later, the resonance already earned stays unchanged. Only future level-ups use the new rarity step.
+
+{% hint style="info" %}
+Example: Common boots start with `1%` resonance and gain `+1` resonance per level. If they reach level `10` as Common, they have `10%` stored resonance. If they are then upgraded to Rare, the stored `10%` remains, and future level-ups add `+3` resonance each.
+{% endhint %}
+
+When the character is calculated, total resonance for an attribute multiplies the base attribute score after character points and direct attribute grants:
+
+{% hint style="info" %}
+$$BaseAttribute=CharacterPoints+AttributeGrants$$
+
+$$AttributeScore=floor(BaseAttribute*(1+\frac{TotalResonance}{100}))$$
+{% endhint %}
+
+Resonance perks can boost the stored resonance of matching items. These perks are multipliers over the item's stored resonance, not flat attribute additions.
 
 ***
 
@@ -114,8 +129,8 @@ While the perks of the item are fixed from the moment they appear and there is n
 
 The main idea behind perks is to give items individual value to different users. While an item may seem worthless to Alice, it may be very valuable to Bob.&#x20;
 
-In order to best accomplish this goal, perks not only improve the parameters of a character in a more granular way than attributes, but more importantly, perks can also increase the power of other perks or aspects.
+In order to best accomplish this goal, perks not only improve the parameters of a character in a more granular way than attributes, but more importantly, perks can also increase the power of other perks or resonance.
 
-This allows users to collect individual sets of clothing items that enhance each other. For example, one of the perks on the pants might be "Increase the power of the 2nd perk in the hand slot", while the gloves might have a 2nd perk "Increase the aspect of the head slot". In the ultimate case, items can gather power through a spiral with multiple coils.
+This allows users to collect individual sets of clothing items that enhance each other. For example, one of the perks on the pants might be "Increase the power of the 2nd perk in the hand slot", while the gloves might have a 2nd perk "Increase the resonance of the head slot". In the ultimate case, items can gather power through a spiral with multiple coils.
 
 As a result, the same item may perfectly match other items for one user and not add much power for another. This increases marketplace activity by orders of magnitude and makes opening loot boxes and crafting much more fun.

@@ -183,7 +183,9 @@ Inventory weight traits do not make equipped items lighter for stamina. Equipped
 {% hint style="info" %}
 $$RawEquipmentPressure=floor(EquippedWeightKg^2)$$
 
-$$PressureAfterGrants=max(0,ceil(RawEquipmentPressure*(1-\frac{PressurePercentGrants}{100}))-FlatPressureGrants)$$
+$$GrantMultiplier=\prod(1-\frac{EachReliefGrant}{100})$$
+
+$$PressureAfterGrants=RawEquipmentPressure*GrantMultiplier$$
 
 $$ReliefPower=floor(25*(log_{10}(max(1,Relief)))^2)$$
 
@@ -214,20 +216,22 @@ Relief effect before item grants:
 | `100,000` | `625` | about `86%` pressure reduction |
 | `1,000,000` | `900` | `90%` pressure reduction |
 
-Item grants:
+Relief grants reduce raw equipment pressure before the trait curve. Several grants multiply the remaining pressure, so the order of grants does not matter.
 
-| Item rarity | Flat Equipment Pressure grant | Percent Equipment Pressure grant |
-| --- | --- | --- |
-| Uncommon | `-25..50` | `-1..2%` |
-| Rare | `-51..100` | `-3..4%` |
-| Epic | `-101..200` | `-5..6%` |
-| Legendary | `-201..350` | `-7..8%` |
-| Mythical | `-351..500` | `-9..10%` |
+| Item rarity | Equipment Load Base Pressure Reduction grant |
+| --- | --- |
+| Uncommon | `+5..10%` |
+| Rare | `+11..20%` |
+| Epic | `+21..30%` |
+| Legendary | `+31..40%` |
+| Mythical | `+41..50%` |
 
 {% hint style="info" %}
 Example: a Mythical level 100 average set has `13,317` raw pressure. At `1,000,000` Relief, pressure becomes `1,332`, so the equipment multiplier is `x14.32`.
 
 With `100` raw action cost and `1,000,000` Efficiency, the reduced base cost is `40`, so the final action cost is `ceil(40*14.32)=573` stamina.
+
+If the player also has six maximum Mythical Relief grants, the raw pressure is multiplied by `0.5^6` before Relief. The same set has about `21` final pressure after `1,000,000` Relief, so the multiplier becomes about `x1.21`.
 {% endhint %}
 
 ***
