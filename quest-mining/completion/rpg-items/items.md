@@ -109,9 +109,9 @@ Resonance perks can boost the stored resonance of matching items. These perks ar
 
 ### Perks
 
-Perks are fixed effects that an item gains with each rarity level, so a rarity F item has no perks, while a rarity A item has 5 perks. The power of perks does not increase with item level and remains the same.
+Perks are fixed effects that an item gains with each rarity level, so a rarity F item has no perks, while a rarity A item has 5 perks. The power of perks does not increase with item level, but it can improve when item rarity is upgraded.
 
-There is a predefined list of possible perks in the system, each with a base power. When a clothing rarity is evolved, one of the perks is randomly selected from this list. The perk's power is also randomly generated from the range specific to each clothing type.
+There is a predefined list of possible perks in the system, each with rarity-based value ranges. When clothing rarity is evolved, existing perks are upgraded into the new rarity range and one new perk is randomly selected from the list. The [Quality](../rpg-attributes/crafting.md#quality) trait affects how close these rolls are to the upper edge of their ranges.
 
 {% hint style="info" %}
 There is no way to know what future perks the item will have at higher rarity tiers.

@@ -19,7 +19,7 @@ It affects five traits:
 Crafting is meant to support a real production strategy. A player focused on quest mining can still upgrade and merge items, but a player focused on Crafting should be able to do the same work much more efficiently and sell the result on the marketplace.
 
 {% hint style="info" %}
-The formulas for `Scrapping`, `Leveling`, and potion-style `Merging` are the current settled model. `Rarity` and `Quality` are marked below because their exact formulas are still being finalized.
+The formulas for all five Crafting traits are the current settled model. Gem distribution and Gem-to-Gem evolution are separate balance topics.
 {% endhint %}
 
 ***
@@ -217,13 +217,35 @@ This makes high-end potion production very cheap for specialized crafters, while
 
 ### Rarity
 
-`Rarity` will reduce Essence costs when levelled items are upgraded with Gems.
+`Rarity` reduces the Essence cost of increasing rarity for levelled items, such as clothing.
 
-{% hint style="warning" %}
-The exact Rarity upgrade base cost and trait curve are still being finalized. The grant pattern is already fixed: Rarity grants reduce `Rarity Upgrade Base Cost` multiplicatively before the Rarity trait curve.
+Each rarity upgrade requires one Gem of the source rarity. For example, upgrading Common clothing to Uncommon requires a Common Gem. Upgrading Legendary clothing to Mythical requires a Legendary Gem.
+
+{% hint style="info" %}
+Gems are rare because they are tied to liquidity provided to the system. Because of that, the Gem is the main economic limiter for rarity upgrades, and the Essence formula does not need an extra item-level-based minimum cost.
 {% endhint %}
 
-Planned Rarity grants:
+Base Essence cost before traits and grants:
+
+{% hint style="info" %}
+$$RequiredGem=1\ Gem\ of\ SourceRarity$$
+
+$$BaseRarityUpgradeCost=(9+ItemLevel)*5^{SourceRarity-1}$$
+{% endhint %}
+
+`SourceRarity` is the numeric rarity before the upgrade: Common `1`, Uncommon `2`, Rare `3`, Epic `4`, Legendary `5`.
+
+Base rarity upgrade costs before traits and grants:
+
+| Upgrade | Level 1 | Level 10 | Level 100 |
+| --- | ---: | ---: | ---: |
+| Common -> Uncommon | `10` | `19` | `109` |
+| Uncommon -> Rare | `50` | `95` | `545` |
+| Rare -> Epic | `250` | `475` | `2,725` |
+| Epic -> Legendary | `1,250` | `2,375` | `13,625` |
+| Legendary -> Mythical | `6,250` | `11,875` | `68,125` |
+
+Rarity grants reduce the base cost before the trait curve. Several grants multiply the remaining cost, so the order of grants does not matter.
 
 | Item rarity | Rarity Upgrade Base Cost Reduction grant |
 | --- | --- |
@@ -233,12 +255,125 @@ Planned Rarity grants:
 | Legendary | `+31..40%` |
 | Mythical | `+41..50%` |
 
+After grants, the `Rarity` trait reduces the remaining cost:
+
+{% hint style="info" %}
+$$GrantMultiplier=\prod(1-\frac{EachRarityGrant}{100})$$
+
+$$CostAfterRarityGrants=BaseRarityUpgradeCost*GrantMultiplier$$
+
+$$t=log_{10}(max(1,Rarity))$$
+
+$$RarityCostReduction=floor(\frac{100*t^2}{t^2+2})$$
+
+$$FinalRarityUpgradeCost=max(1,ceil(CostAfterRarityGrants*(1-\frac{RarityCostReduction}{100})))$$
+{% endhint %}
+
+Base Rarity reduction before item grants:
+
+| Rarity | Rarity upgrade cost reduction |
+| --- | --- |
+| `1` | `0%` |
+| `10` | `33%` |
+| `100` | `66%` |
+| `1,000` | `81%` |
+| `10,000` | `88%` |
+| `1,000,000` | `94%` |
+
+Example for `Legendary -> Mythical`, item level `100`:
+
+| Build | Essence cost |
+| --- | ---: |
+| `Rarity 1`, no grants | `68,125` |
+| `Rarity 100`, no grants | `23,163` |
+| `Rarity 10,000`, no grants | `8,175` |
+| `Rarity 1,000,000`, no grants | `4,088` |
+| `Rarity 10,000`, six maximum Mythical grants | `128` |
+
+The upgrade still requires a Legendary Gem in every row.
+
+When item rarity increases, already earned resonance stays historical: `resonance.value` is not recalculated retroactively. Only `resonance.step` changes to the new rarity step, so future level-ups grow faster.
+
 ***
 
 ### Quality
 
-`Quality` improves perk rolls when an item's rarity is upgraded. It is meant to bias generated values toward the upper end of the relevant rarity ranges.
+`Quality` improves the result of a rarity upgrade.
 
-{% hint style="warning" %}
-The exact Quality formula is still being finalized. Quality should not increase scrap Essence and should not replace the normal rarity range rules; it should only improve rolls inside those ranges.
+It does not reduce Essence costs and does not increase scrap output. Instead, it affects the value rolls for existing perks that are upgraded into the new rarity range and for the new perk added by the rarity upgrade.
+
+{% hint style="info" %}
+$$t=log_{10}(max(1,Quality))$$
+
+$$BaseQualityBias=floor(\frac{100*t^2}{t^2+4})$$
+
+$$FinalQualityBias=min(95,BaseQualityBias+QualityBiasGrants)$$
 {% endhint %}
+
+Base Quality bias before item grants:
+
+| Quality | Perk Value Roll Bias |
+| --- | --- |
+| `1` | `0%` |
+| `10` | `20%` |
+| `100` | `50%` |
+| `1,000` | `69%` |
+| `10,000` | `80%` |
+| `1,000,000` | `90%` |
+
+Quality grants add direct percentage points to this bias:
+
+| Item rarity | Perk Value Roll Bias grant |
+| --- | --- |
+| Uncommon | `+1..2 percentage points` |
+| Rare | `+3..4 percentage points` |
+| Epic | `+5..6 percentage points` |
+| Legendary | `+7..8 percentage points` |
+| Mythical | `+9..10 percentage points` |
+
+#### Existing perk upgrade
+
+When an existing perk is upgraded, its current position inside the old rarity range is preserved as the lower edge of the new roll range.
+
+{% hint style="info" %}
+$$OldProgress=clamp(\frac{CurrentValue-OldMin}{OldMax-OldMin},0,1)$$
+
+$$InheritedNewMin=NewMin+OldProgress*(NewMax-NewMin)$$
+
+$$RollMin=InheritedNewMin+(NewMax-InheritedNewMin)*\frac{FinalQualityBias}{100}$$
+
+$$NewPerkValue=random(RollMin,NewMax)$$
+{% endhint %}
+
+For integer-valued perk ranges, `RollMin` is rounded up before the roll. Fractional perk ranges can keep fractional precision.
+
+Example:
+
+| Step | Value |
+| --- | --- |
+| Old range | `1..10` |
+| Old value | `3` |
+| New range | `11..20` |
+| Inherited new minimum | `13` |
+
+Then Quality shifts the roll upward:
+
+| Quality | Roll range |
+| --- | --- |
+| `1` | `13..20` |
+| `10` | `15..20` |
+| `100` | `17..20` |
+| `1,000` | `18..20` |
+| `10,000` | `19..20` |
+
+#### New perk roll
+
+When a rarity upgrade adds a new perk, there is no old value, so the roll starts from the new rarity range minimum and Quality shifts it upward.
+
+{% hint style="info" %}
+$$RollMin=NewMin+(NewMax-NewMin)*\frac{FinalQualityBias}{100}$$
+
+$$NewPerkValue=random(RollMin,NewMax)$$
+{% endhint %}
+
+This means a dedicated crafter with high `Quality` can make upgraded items consistently roll closer to the top of their new rarity ranges.

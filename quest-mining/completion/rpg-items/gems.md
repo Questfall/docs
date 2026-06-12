@@ -8,7 +8,7 @@ Level-less items, such as [potions](potions.md), of the same type and rarity are
 
 To evolve such items, users need Gems, which are only issued as a reward for participating in the [Liquidity Program](../../../infrastructure/liquidity-program.md), so they cannot be found in loot boxes. In that sense, Gems are special.
 
-In all other respects, Gems are level-less RPG items. They can be sold on the [marketplace](../../../infrastructure/marketplace.md) for [Gold](../../../assets/gold.md) (F,E,D) or [QFT](../../../assets/qft.md) (C,B,A), they take up [inventory](../rpg-attributes/items.md) space, and their exact scrapping and evolution balance will be finalized together with the `Rarity` and `Quality` crafting traits.
+In all other respects, Gems are level-less RPG items. They can be sold on the [marketplace](../../../infrastructure/marketplace.md) for [Gold](../../../assets/gold.md) (F,E,D) or [QFT](../../../assets/qft.md) (C,B,A), and they take up [inventory](../rpg-attributes/items.md) space.
 
 | Rarity | Weight |
 | --- | --- |
@@ -20,7 +20,7 @@ In all other respects, Gems are level-less RPG items. They can be sold on the [m
 | A | `3,009 g` |
 
 {% hint style="info" %}
-Gem scrapping, Gem merging, and Gem-related rarity upgrade costs are still being finalized. Weight is calculated based on: $$Density=Rarity^{-1.1}$$.
+Gem scrapping and Gem-to-Gem evolution are still being finalized. Essence costs for using Gems to upgrade levelled item rarity are described in the [Crafting](../rpg-attributes/crafting.md#rarity) article. Weight is calculated based on: $$Density=Rarity^{-1.1}$$.
 {% endhint %}
 
 To evolve a rarity of an item, a user needs a Gem of the same rarity tier. For example, to evolve an item's rarity from F to E, a Gem F is required. To evolve item's rarity from E to D, a Gem E is needed. And so on.
