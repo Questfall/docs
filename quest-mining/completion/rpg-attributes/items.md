@@ -95,7 +95,7 @@ Example: a player has `1,000` Capacity, so the base inventory limit is `50 kg`. 
 Items are sorted by raw item weight. Because of that, the same items are ignored regardless of Levitation values or Levitation grants.
 
 {% hint style="info" %}
-$$BaseIgnoredItems=floor(log_{10}(max(1,Exemption)))$$
+$$BaseIgnoredItems=floor(\frac{\sqrt[3]{max(1,Exemption)}}{2})$$
 
 $$FinalIgnoredItems=BaseIgnoredItems+ExemptionGrants$$
 {% endhint %}
@@ -107,9 +107,10 @@ Base ignored items before item grants:
 | `1` | `0` |
 | `10` | `1` |
 | `100` | `2` |
-| `1,000` | `3` |
-| `10,000` | `4` |
-| `1,000,000` | `6` |
+| `1,000` | `5` |
+| `10,000` | `10` |
+| `100,000` | `23` |
+| `1,000,000` | `50` |
 
 Item grants add more ignored heavy items:
 
@@ -122,7 +123,7 @@ Item grants add more ignored heavy items:
 | Mythical | `+9..10` |
 
 {% hint style="info" %}
-Example: a player has `1,000` Exemption, so the base value is `3` ignored items. If items add `+14 Ignored Heavy Inventory Items`, the final value becomes `17`, and the 17 heaviest inventory items are ignored before Levitation is calculated.
+Example: a player has `1,000` Exemption, so the base value is `5` ignored items. If items add `+14 Ignored Heavy Inventory Items`, the final value becomes `19`, and the 19 heaviest inventory items are ignored before Levitation is calculated.
 {% endhint %}
 
 ***

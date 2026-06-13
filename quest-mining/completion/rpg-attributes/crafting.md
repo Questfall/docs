@@ -31,23 +31,23 @@ Any RPG item can be scrapped for Essence. Essence has no weight and is used for 
 `Rarity` uses numeric values from `1` for Common to `6` for Mythical. Level-less items, such as potions, are treated as level `1` for scrapping.
 
 {% hint style="info" %}
-$$BaseScrapEssence=Rarity*(9+ItemLevel)$$
+$$BaseScrapEssence=Rarity*(10+0.1*(ItemLevel-1))$$
 
 $$ScrappingBonus=floor(25*log_{10}(max(1,Scrapping)))$$
 
 $$FinalScrapEssence=max(1,floor(BaseScrapEssence*(1+\frac{ScrappingBonus+ScrappingBonusGrants}{100}))+FlatScrappingGrants)$$
 {% endhint %}
 
-Base scrap Essence before traits and grants:
+Base scrap Essence before traits and grants, before final rounding:
 
 | Item | Base scrap Essence |
 | --- | --- |
-| Common level 1 | `10` |
-| Common level 10 | `19` |
-| Common level 100 | `109` |
-| Mythical level 1 | `60` |
-| Mythical level 10 | `114` |
-| Mythical level 100 | `654` |
+| Common level 1 | `10.0` |
+| Common level 10 | `10.9` |
+| Common level 100 | `19.9` |
+| Mythical level 1 | `60.0` |
+| Mythical level 10 | `65.4` |
+| Mythical level 100 | `119.4` |
 
 Base Scrapping bonus before item grants:
 
@@ -64,13 +64,13 @@ Scrapping has two types of item grants:
 
 | Item rarity | Flat Essence grant | Scrapping Bonus grant |
 | --- | --- | --- |
-| Uncommon | `+1..2` | `+10..20 percentage points` |
-| Rare | `+3..4` | `+21..40 percentage points` |
-| Epic | `+5..6` | `+41..60 percentage points` |
-| Legendary | `+7..8` | `+61..80 percentage points` |
-| Mythical | `+9..10` | `+81..100 percentage points` |
+| Uncommon | `+1..2` | `+5..10 percentage points` |
+| Rare | `+3..4` | `+11..20 percentage points` |
+| Epic | `+5..6` | `+21..30 percentage points` |
+| Legendary | `+7..8` | `+31..40 percentage points` |
+| Mythical | `+9..10` | `+41..50 percentage points` |
 
-The base economy intentionally keeps rarity linear for Essence. Marketplace scarcity grows much faster than that, so low-rarity items should often be the most efficient source of Essence per Gold.
+The base economy intentionally keeps rarity linear for Essence and makes item level grow slowly. Marketplace scarcity grows much faster than that, so low-rarity items should often be the most efficient source of Essence per Gold.
 
 ***
 
@@ -87,10 +87,10 @@ $$t=log_{10}(max(1,Leveling))$$
 
 $$LevelingReduction=floor(\frac{60*t^2}{t^2+2})$$
 
-$$FinalLevelUpgradeCost=max(Rarity,ceil(BaseLevelUpgradeCost*(1-\frac{min(90,LevelingReduction+LevelingGrants)}{100})))$$
+$$FinalLevelUpgradeCost=max(2*Rarity,ceil(BaseLevelUpgradeCost*(1-\frac{min(90,LevelingReduction+LevelingGrants)}{100})))$$
 {% endhint %}
 
-The final cost cannot go below the item's numeric rarity. This prevents profitable upgrade-then-scrap loops, because scrapping value also grows by `Rarity` for every item level.
+The final cost cannot go below twice the item's numeric rarity. This prevents profitable upgrade-then-scrap loops, because scrapping value grows by only `0.1 * Rarity` for every item level before Scrapping bonuses and grants.
 
 Total base cost from level `1` to level `L`:
 

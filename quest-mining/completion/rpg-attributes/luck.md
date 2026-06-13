@@ -94,18 +94,18 @@ Base checks before item grants:
 | `10,000` | `5` |
 | `1,000,000` | `7` |
 
-Item grants add whole checks:
+Item grants add fixed whole checks:
 
 | Item rarity | Card Check grant |
 | --- | --- |
-| Uncommon | `+1..2` |
-| Rare | `+3..4` |
-| Epic | `+5..6` |
-| Legendary | `+7..8` |
-| Mythical | `+9..10` |
+| Uncommon | `+1` |
+| Rare | `+2` |
+| Epic | `+3` |
+| Legendary | `+4` |
+| Mythical | `+5` |
 
 {% hint style="info" %}
-Example: a player has `1,000` Intuition, so they receive `4` base checks. If an Epic item grants `+6 Card Checks`, the opening starts with `10` checks.
+Example: a player has `1,000` Intuition, so they receive `4` base checks. If an Epic item grants `+3 Card Checks`, the opening starts with `7` checks.
 {% endhint %}
 
 Checks make card openings easier to read, but they do not guarantee a perfect opening. A player still needs enough turns from `Opportunity`, and a checked card can only reveal safe/dead status.

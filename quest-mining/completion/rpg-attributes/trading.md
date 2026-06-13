@@ -50,13 +50,13 @@ Fee grants reduce the base fee multiplicatively:
 
 | Item rarity | Marketplace Base Fee Reduction |
 | --- | ---: |
-| Uncommon | +5..10% |
-| Rare | +11..20% |
-| Epic | +21..30% |
-| Legendary | +31..40% |
-| Mythical | +41..50% |
+| Uncommon | +1..2% |
+| Rare | +3..4% |
+| Epic | +5..6% |
+| Legendary | +7..8% |
+| Mythical | +9..10% |
 
-For example, `Fee 10,000` without grants gives a `6%` marketplace fee. With one maximum Mythical Fee grant, the base fee is first reduced from `30%` to `15%`, and the final fee becomes `3%`.
+For example, `Fee 10,000` without grants gives a `6%` marketplace fee. With one maximum Mythical Fee grant, the base fee is first reduced from `30%` to `27%`, and the final fee becomes `5.4%`.
 
 ***
 
