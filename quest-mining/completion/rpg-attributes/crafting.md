@@ -292,7 +292,7 @@ Example for `Legendary -> Mythical`, item level `100`:
 
 The upgrade still requires a Legendary Gem in every row.
 
-When item rarity increases, already earned resonance stays historical: `resonance.value` is not recalculated retroactively. Only `resonance.step` changes to the new rarity step, so future level-ups grow faster.
+When item rarity increases, already earned aspect stays historical: `aspect.value` is not recalculated retroactively. Only `aspect.step` changes to the new rarity step, so future level-ups grow faster.
 
 ***
 

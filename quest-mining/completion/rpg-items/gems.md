@@ -8,7 +8,7 @@ Level-less items, such as [potions](potions.md), of the same type and rarity are
 
 To evolve such items, users need Gems, which are only issued as a reward for participating in the [Liquidity Program](../../../infrastructure/liquidity-program.md), so they cannot be found in loot boxes. In that sense, Gems are special.
 
-In all other respects, Gems are level-less RPG items. They can be sold on the [marketplace](../../../infrastructure/marketplace.md) for [Gold](../../../assets/gold.md) (F,E,D) or [QFT](../../../assets/qft.md) (C,B,A), and they take up [inventory](../rpg-attributes/items.md) space.
+In all other respects, Gems are level-less RPG items. They can be sold on the [marketplace](../../../infrastructure/marketplace.md) for [Gold](../../../assets/gold.md) (F,E,D) or [QFT](../../../assets/qft.md) (C,B,A), and they take up [inventory](../rpg-attributes/inventory.md) space.
 
 | Rarity | Weight |
 | --- | --- |
@@ -29,7 +29,7 @@ To evolve a rarity of an item, a user needs a Gem of the same rarity tier. For e
 In addition to Gems, Essence is also [required](../rpg-attributes/crafting.md#evolving) to evolve the rarity tier.
 {% endhint %}
 
-A-rarity Gems are not used for evolving, as rarity tier A is the highest possible tier. Instead, a user can use them to maximize the [resonance](items.md#resonance) or one of the [perks](items.md#perks) of the clothing item.
+A-rarity Gems are not used for evolving, as rarity tier A is the highest possible tier. Instead, a user can use them to maximize the [aspect](items.md#aspect) or one of the [perks](items.md#perks) of the clothing item.
 
 Since users need Essence and Gems of the same rarity, Gem distribution is one of the key links between crafting, marketplace demand, and the Liquidity Program.
 

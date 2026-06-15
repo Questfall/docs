@@ -65,7 +65,7 @@ In Questfall v.1, only Clothing has levels, but more levelable items, such as Wa
 
 In most RPGs, a user's level is a threshold that prevents them from equipping or using items of a higher level than their character. In Questfall, this is not the case, as users can use items regardless of their level.
 
-For example, users can equip clothing above their own level that they have obtained from loot boxes or the [marketplace](../../../infrastructure/marketplace.md). However, useful item effects can be reduced by the [Overlevel](../rpg-attributes/items.md#overlevel) rules when the item is too far above the character level.
+For example, users can equip clothing above their own level that they have obtained from loot boxes or the [marketplace](../../../infrastructure/marketplace.md). However, useful item effects can be reduced by the [Overlevel](../rpg-attributes/inventory.md#overlevel) rules when the item is too far above the character level.
 
 The core idea behind the levels in Questfall is not to create a barrier, but rather to create a constant demand for low-level items, which is achieved through Essence. This is a non-tradable resource that can only be obtained by [scrapping](../rpg-attributes/crafting.md#scrapping) other RPG items, and is required for item upgrades or evolution.
 
@@ -73,10 +73,10 @@ The core idea behind the levels in Questfall is not to create a barrier, but rat
 For more information, see the [Crafting](../rpg-attributes/crafting.md) attribute article.
 {% endhint %}
 
-In addition to Essence, rarity also plays an important role in the leveling of items, as it determines how much resonance the item gains with each subsequent level. This is better explained with an example.
+In addition to Essence, rarity also plays an important role in the leveling of items, as it determines how much aspect the item gains with each subsequent level. This is better explained with an example.
 
-Let's say there is a Common (F) item that gains `+1` resonance per level. At level 10 it has `10%` stored resonance. When the item is evolved to Uncommon (E), its step becomes `+2` resonance per future level, but it only applies to future level upgrades.&#x20;
+Let's say there is a Common (F) item that gains `+1` aspect per level. At level 10 it has `10%` stored aspect. When the item is evolved to Uncommon (E), its step becomes `+2` aspect per future level, but it only applies to future level upgrades.&#x20;
 
-In other words, an increase in the level of an item fixes its resonance history. So the first 10 levels when the item was Common are set in stone forever. If the item is evolved to Uncommon at level 10 and then upgraded to level 11, its stored resonance will be `12%` (`10% + 2%`), not `22%`.
+In other words, an increase in the level of an item fixes its aspect history. So the first 10 levels when the item was Common are set in stone forever. If the item is evolved to Uncommon at level 10 and then upgraded to level 11, its stored aspect will be `12%` (`10% + 2%`), not `22%`.
 
 In this way, identical high-level items can have very different power depending on the level at which their rarity was evolved. Therefore, users can either ruin items by evolving them late, or they can craft a perfect item by evolving its rarity while it is still at the first level.

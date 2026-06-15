@@ -2,9 +2,9 @@
 icon: box
 ---
 
-# Items
+# Inventory
 
-Items is the attribute for players who want better control over inventory weight, equipment costs, and higher-level clothing.
+Inventory is the attribute for players who want better control over inventory weight, equipment costs, and higher-level clothing.
 
 It affects five traits:
 
@@ -24,7 +24,7 @@ If a user's inventory is overloaded, the user cannot perform actions that add ne
 
 To free inventory space, an RPG item can be [scrapped](crafting.md#scrapping) for Essence, sold on the [marketplace](../../../infrastructure/marketplace.md), equipped if it is clothing, or withdrawn as an NFT when the item type and rarity support withdrawal.
 
-RPG items can also add direct grants to final Items effects. Grant values depend on item rarity.
+RPG items can also add direct grants to final Inventory effects. Grant values depend on item rarity.
 
 ***
 
@@ -250,7 +250,7 @@ Players can equip clothing above their character level. `Overlevel` decides how 
 If an equipped item is within the free overlevel range, it works at full strength. If it is above that range, the item still stays equipped, but its useful effects are scaled down.
 
 {% hint style="info" %}
-Overlevel affects useful item effects: resonance, grants, terminal perks, booster perks, and other positive system values from the item.
+Overlevel affects useful item effects: aspect, grants, terminal perks, booster perks, and other positive system values from the item.
 
 It does not reduce item weight, equipment Essence cost, rarity, slot rules, or ownership.
 {% endhint %}
