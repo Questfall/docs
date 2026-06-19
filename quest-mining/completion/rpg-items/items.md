@@ -107,7 +107,7 @@ $$BaseAttribute=CharacterPoints+DirectAttributeGrants$$
 $$AttributeTotal=round(BaseAttribute+TotalEquippedAspect,1)$$
 {% endhint %}
 
-Aspect-targeting perks and Overlevel can still modify matching item aspect before the total equipped aspect is added to the character attribute.
+Overlevel can reduce effective item aspect before total equipped aspect is added to the character attribute. Perks do not increase item aspect.
 
 ***
 
@@ -133,8 +133,8 @@ While the perks of the item are fixed from the moment they appear and there is n
 
 The main idea behind perks is to give items individual value to different users. While an item may seem worthless to Alice, it may be very valuable to Bob.&#x20;
 
-In order to best accomplish this goal, perks not only improve the parameters of a character in a more granular way than attributes, but more importantly, perks can also increase the power of other perks or aspect.
+In order to best accomplish this goal, perks not only improve the parameters of a character in a more granular way than attributes, but more importantly, perks can also increase the power of other perks.
 
-This allows users to collect individual sets of clothing items that enhance each other. For example, one of the perks on the pants might be "Increase the power of the 2nd perk in the hand slot", while the gloves might have a 2nd perk "Increase the aspect of the head slot". In the ultimate case, items can gather power through a spiral with multiple coils.
+This allows users to collect individual sets of clothing items that enhance each other. For example, one of the perks on the pants might be "Increase the power of the 2nd perk in the hand slot", while the gloves might have a 2nd perk that benefits from that boost. In the ultimate case, items can gather power through a spiral with multiple coils.
 
 As a result, the same item may perfectly match other items for one user and not add much power for another. This increases marketplace activity by orders of magnitude and makes opening loot boxes and crafting much more fun.
