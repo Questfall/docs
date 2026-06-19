@@ -273,7 +273,9 @@ $$EffectiveCharacterLevel=CharacterLevel+FinalFreeLevels$$
 
 $$ItemPower=min(1,\frac{EffectiveCharacterLevel}{max(1,ItemLevel)})$$
 
-$$EffectiveItemEffect=floor(RawItemEffect*ItemPower)$$
+$$EffectiveAspect=round(RawAspect*ItemPower,1)$$
+
+$$EffectiveIntegerEffect=floor(RawIntegerEffect*ItemPower)$$
 {% endhint %}
 
 Base free levels before item grants:

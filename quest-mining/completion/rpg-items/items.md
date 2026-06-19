@@ -99,15 +99,15 @@ If an item's rarity is upgraded later, the aspect already earned stays unchanged
 Example: Common boots start with `+0.1` aspect and gain `+0.1` aspect per level. If they reach level `10` as Common, they have `+1.0` stored aspect. If they are then upgraded to Rare, the stored `+1.0` remains, and future level-ups add `+0.3` aspect each.
 {% endhint %}
 
-When the character is calculated, total equipped aspect is added to the same attribute after character points and direct attribute grants. The stored aspect keeps one decimal place, while the final attribute total is rounded down when the character model needs an integer attribute value.
+When the character is calculated, total equipped aspect is added to the same attribute after character points and direct attribute grants. The stored aspect and final attribute total keep one decimal place.
 
 {% hint style="info" %}
-$$BaseAttribute=CharacterPoints+AttributeGrants$$
+$$BaseAttribute=CharacterPoints+DirectAttributeGrants$$
 
-$$AttributeScore=floor(BaseAttribute+TotalEquippedAspect)$$
+$$AttributeTotal=round(BaseAttribute+TotalEquippedAspect,1)$$
 {% endhint %}
 
-Aspect-targeting perks can still boost matching item aspect before the total equipped aspect is added to the character attribute.
+Aspect-targeting perks and Overlevel can still modify matching item aspect before the total equipped aspect is added to the character attribute.
 
 ***
 
