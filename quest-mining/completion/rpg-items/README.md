@@ -73,10 +73,21 @@ The core idea behind the levels in Questfall is not to create a barrier, but rat
 For more information, see the [Crafting](../rpg-attributes/crafting.md) attribute article.
 {% endhint %}
 
-In addition to Essence, rarity also plays an important role in the leveling of items, as it determines how much aspect the item gains with each subsequent level. This is better explained with an example.
+In addition to Essence, rarity also plays an important role in the leveling of clothing, as it determines how much aspect the item gains with each level. Aspect is not a percentage multiplier. It is stored as additive attribute points with one decimal place.
 
-Let's say there is a Common (F) item that gains `+1` aspect per level. At level 10 it has `10%` stored aspect. When the item is evolved to Uncommon (E), its step becomes `+2` aspect per future level, but it only applies to future level upgrades.&#x20;
+For a fresh item, the level 1 aspect value is equal to its rarity step:
 
-In other words, an increase in the level of an item fixes its aspect history. So the first 10 levels when the item was Common are set in stone forever. If the item is evolved to Uncommon at level 10 and then upgraded to level 11, its stored aspect will be `12%` (`10% + 2%`), not `22%`.
+| Rarity | Aspect per item level |
+| --- | ---: |
+| Common (F) | `+0.1` |
+| Uncommon (E) | `+0.2` |
+| Rare (D) | `+0.3` |
+| Epic (C) | `+0.4` |
+| Legendary (B) | `+0.5` |
+| Mythical (A) | `+0.6` |
+
+Let's say there is a Common (F) item that gains `+0.1` aspect per level. At level 10 it has `+1.0` stored aspect. When the item is evolved to Uncommon (E), its step becomes `+0.2` aspect per future level, but it only applies to future level upgrades.
+
+In other words, an increase in the level of an item fixes its aspect history. So the first 10 levels when the item was Common are set in stone forever. If the item is evolved to Uncommon at level 10 and then upgraded to level 11, its stored aspect will be `+1.2` (`+1.0 + 0.2`), not `+2.2`.
 
 In this way, identical high-level items can have very different power depending on the level at which their rarity was evolved. Therefore, users can either ruin items by evolving them late, or they can craft a perfect item by evolving its rarity while it is still at the first level.

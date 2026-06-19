@@ -36,7 +36,7 @@ For the exact equipment cost formula, see the [Inventory](../rpg-attributes/inve
 
 When the item is equipped, its effects are applied to the character. And there are two types of effects that an item can have.
 
-First, each item has a aspect that boosts one of the character [attributes](../rpg-attributes/). Second, depending on its rarity, the item can have up to 5 perks.&#x20;
+First, each item has an aspect that adds to one of the character [attributes](../rpg-attributes/). Second, depending on its rarity, the item can have up to 5 perks.&#x20;
 
 To equip clothing, there are no rarity or level restrictions. This means that a user can equip items purchased on the marketplace or obtained from a loot box that are of a higher level than the user. For example, a level 5 user can wear level 40 boots.&#x20;
 
@@ -62,7 +62,7 @@ The base density of the clothing is $$Rarity^{-1.1}$$, and the final weight is a
 
 ### Aspect
 
-Each clothing item has a aspect linked to one of the character attributes: [Inventory](../rpg-attributes/inventory.md), [Mining](../rpg-attributes/mining.md), [Crafting](../rpg-attributes/crafting.md), [Trading](../rpg-attributes/trading.md), [Stamina](../rpg-attributes/stamina.md), or [Luck](../rpg-attributes/luck.md).
+Each clothing item has an aspect linked to one of the character attributes: [Inventory](../rpg-attributes/inventory.md), [Mining](../rpg-attributes/mining.md), [Crafting](../rpg-attributes/crafting.md), [Trading](../rpg-attributes/trading.md), [Stamina](../rpg-attributes/stamina.md), or [Luck](../rpg-attributes/luck.md).
 
 Despite the fact that the number of clothing slots and attributes are the same, each item's aspect attribute is independent of its type and is randomly determined when the item is created.&#x20;
 
@@ -72,38 +72,42 @@ For example, boots can have Trading aspect, Luck aspect, or any other aspect, si
 This way, a user can equip several items with the same aspect and focus on one character attribute.
 {% endhint %}
 
-Aspect is stored as accumulated percentage points. When a level 1 item is created, its aspect value and future per-level aspect step come from its rarity:
+Aspect is stored as additive attribute points with one decimal place. When a level 1 item is created, its aspect value and future per-level aspect step come from its rarity:
 
 | Rarity | Aspect step |
 | --- | --- |
-| Common (F) | `1` |
-| Uncommon (E) | `2` |
-| Rare (D) | `3` |
-| Epic (C) | `4` |
-| Legendary (B) | `5` |
-| Mythical (A) | `6` |
+| Common (F) | `+0.1` |
+| Uncommon (E) | `+0.2` |
+| Rare (D) | `+0.3` |
+| Epic (C) | `+0.4` |
+| Legendary (B) | `+0.5` |
+| Mythical (A) | `+0.6` |
 
 When an item gains a level, its stored aspect value increases by its current step.
 
 {% hint style="info" %}
-$$AspectValue=AspectValue+AspectStep$$
+$$LevelOneAspect=AspectStep$$
+
+$$FreshAspectValue=round(AspectStep*ItemLevel,1)$$
+
+$$LevelUpAspectValue=round(PreviousAspectValue+AspectStep,1)$$
 {% endhint %}
 
 If an item's rarity is upgraded later, the aspect already earned stays unchanged. Only future level-ups use the new rarity step.
 
 {% hint style="info" %}
-Example: Common boots start with `1%` aspect and gain `+1` aspect per level. If they reach level `10` as Common, they have `10%` stored aspect. If they are then upgraded to Rare, the stored `10%` remains, and future level-ups add `+3` aspect each.
+Example: Common boots start with `+0.1` aspect and gain `+0.1` aspect per level. If they reach level `10` as Common, they have `+1.0` stored aspect. If they are then upgraded to Rare, the stored `+1.0` remains, and future level-ups add `+0.3` aspect each.
 {% endhint %}
 
-When the character is calculated, total aspect for an attribute multiplies the base attribute score after character points and direct attribute grants:
+When the character is calculated, total equipped aspect is added to the same attribute after character points and direct attribute grants. The stored aspect keeps one decimal place, while the final attribute total is rounded down when the character model needs an integer attribute value.
 
 {% hint style="info" %}
 $$BaseAttribute=CharacterPoints+AttributeGrants$$
 
-$$AttributeScore=floor(BaseAttribute*(1+\frac{TotalAspect}{100}))$$
+$$AttributeScore=floor(BaseAttribute+TotalEquippedAspect)$$
 {% endhint %}
 
-Aspect perks can boost the stored aspect of matching items. These perks are multipliers over the item's stored aspect, not flat attribute additions.
+Aspect-targeting perks can still boost matching item aspect before the total equipped aspect is added to the character attribute.
 
 ***
 
