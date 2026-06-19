@@ -62,13 +62,13 @@ Base Scrapping bonus before item grants:
 
 Scrapping has two types of item grants:
 
-| Item rarity | Flat Essence grant | Scrapping Bonus grant |
+| Item rarity | Essence from scrapping grant (flat) | Essence from scrapping grant (percent) |
 | --- | --- | --- |
-| Uncommon | `+1..2` | `+5..10 percentage points` |
-| Rare | `+3..4` | `+11..20 percentage points` |
-| Epic | `+5..6` | `+21..30 percentage points` |
-| Legendary | `+7..8` | `+31..40 percentage points` |
-| Mythical | `+9..10` | `+41..50 percentage points` |
+| Uncommon | `+1..2 Essence from scrapping` | `+5..10% Essence from scrapping` |
+| Rare | `+3..4 Essence from scrapping` | `+11..20% Essence from scrapping` |
+| Epic | `+5..6 Essence from scrapping` | `+21..30% Essence from scrapping` |
+| Legendary | `+7..8 Essence from scrapping` | `+31..40% Essence from scrapping` |
+| Mythical | `+9..10 Essence from scrapping` | `+41..50% Essence from scrapping` |
 
 The base economy intentionally keeps rarity linear for Essence and makes item level grow slowly. Marketplace scarcity grows much faster than that, so low-rarity items should often be the most efficient source of Essence per Gold.
 
@@ -117,15 +117,15 @@ Base Leveling reduction before item grants:
 | `10,000` | `53%` |
 | `1,000,000` | `56%` |
 
-Leveling grants add direct percentage points:
+Leveling grants add directly to the final level-up cost reduction:
 
-| Item rarity | Item Level Upgrade Cost Reduction grant |
+| Item rarity | Essence cost to level up items grant |
 | --- | --- |
-| Uncommon | `+1 percentage point` |
-| Rare | `+2 percentage points` |
-| Epic | `+3 percentage points` |
-| Legendary | `+4 percentage points` |
-| Mythical | `+5 percentage points` |
+| Uncommon | `-1% Essence cost to level up items` |
+| Rare | `-2% Essence cost to level up items` |
+| Epic | `-3% Essence cost to level up items` |
+| Legendary | `-4% Essence cost to level up items` |
+| Mythical | `-5% Essence cost to level up items` |
 
 Flat Essence discounts are not used for Leveling, because they can make low-level upgrades free or profitable to upgrade and scrap.
 
@@ -172,13 +172,13 @@ Base potion merging costs before traits and grants:
 
 Merging grants reduce the base cost before the trait curve. Several grants multiply the remaining cost, so six maximum Mythical grants apply `0.5^6` and leave `1.5625%` of the base cost.
 
-| Item rarity | Item Merge Base Cost Reduction grant |
+| Item rarity | Essence cost to merge consumables grant |
 | --- | --- |
-| Uncommon | `+5..10%` |
-| Rare | `+11..20%` |
-| Epic | `+21..30%` |
-| Legendary | `+31..40%` |
-| Mythical | `+41..50%` |
+| Uncommon | `-5..10% Essence cost to merge consumables` |
+| Rare | `-11..20% Essence cost to merge consumables` |
+| Epic | `-21..30% Essence cost to merge consumables` |
+| Legendary | `-31..40% Essence cost to merge consumables` |
+| Mythical | `-41..50% Essence cost to merge consumables` |
 
 After grants, the `Merging` trait reduces the remaining cost:
 
@@ -247,13 +247,13 @@ Base rarity upgrade costs before traits and grants:
 
 Rarity grants reduce the base cost before the trait curve. Several grants multiply the remaining cost, so the order of grants does not matter.
 
-| Item rarity | Rarity Upgrade Base Cost Reduction grant |
+| Item rarity | Essence cost to raise item rarity grant |
 | --- | --- |
-| Uncommon | `+5..10%` |
-| Rare | `+11..20%` |
-| Epic | `+21..30%` |
-| Legendary | `+31..40%` |
-| Mythical | `+41..50%` |
+| Uncommon | `-5..10% Essence cost to raise item rarity` |
+| Rare | `-11..20% Essence cost to raise item rarity` |
+| Epic | `-21..30% Essence cost to raise item rarity` |
+| Legendary | `-31..40% Essence cost to raise item rarity` |
+| Mythical | `-41..50% Essence cost to raise item rarity` |
 
 After grants, the `Rarity` trait reduces the remaining cost:
 
@@ -321,15 +321,15 @@ Base Quality bias before item grants:
 | `10,000` | `80%` |
 | `1,000,000` | `90%` |
 
-Quality grants add direct percentage points to this bias:
+Quality grants add directly to perk roll quality:
 
-| Item rarity | Perk Value Roll Bias grant |
+| Item rarity | Perk roll quality grant |
 | --- | --- |
-| Uncommon | `+1..2 percentage points` |
-| Rare | `+3..4 percentage points` |
-| Epic | `+5..6 percentage points` |
-| Legendary | `+7..8 percentage points` |
-| Mythical | `+9..10 percentage points` |
+| Uncommon | `+1..2% perk roll quality` |
+| Rare | `+3..4% perk roll quality` |
+| Epic | `+5..6% perk roll quality` |
+| Legendary | `+7..8% perk roll quality` |
+| Mythical | `+9..10% perk roll quality` |
 
 #### Existing perk upgrade
 

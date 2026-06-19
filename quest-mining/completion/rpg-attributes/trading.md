@@ -32,7 +32,7 @@ $$FeeReduction=\left\lfloor\frac{100t^2}{t^2+4}\right\rfloor$$
 
 $$FeeGrantMultiplier=\prod_i\left(1-\frac{Grant_i}{100}\right)$$
 
-$$FinalFee=30\%*FeeGrantMultiplier*\frac{100-FeeReduction}{100}$$
+$$FinalFee=max(1\%,30\%*FeeGrantMultiplier*\frac{100-FeeReduction}{100})$$
 
 Base `Fee` values without item grants:
 
@@ -48,13 +48,13 @@ Base `Fee` values without item grants:
 
 Fee grants reduce the base fee multiplicatively:
 
-| Item rarity | Marketplace Base Fee Reduction |
+| Item rarity | Base marketplace fee grant |
 | --- | ---: |
-| Uncommon | +1..2% |
-| Rare | +3..4% |
-| Epic | +5..6% |
-| Legendary | +7..8% |
-| Mythical | +9..10% |
+| Uncommon | `-1..2% base marketplace fee` |
+| Rare | `-3..4% base marketplace fee` |
+| Epic | `-5..6% base marketplace fee` |
+| Legendary | `-7..8% base marketplace fee` |
+| Mythical | `-9..10% base marketplace fee` |
 
 For example, `Fee 10,000` without grants gives a `6%` marketplace fee. With one maximum Mythical Fee grant, the base fee is first reduced from `30%` to `27%`, and the final fee becomes `5.4%`.
 
@@ -84,13 +84,13 @@ Base `Bid` values without item grants:
 
 Bid grants add direct Bid Power:
 
-| Item rarity | Auction Bid Power |
+| Item rarity | Bid Power for Gold withdrawals grant |
 | --- | ---: |
-| Uncommon | +5..10 |
-| Rare | +11..20 |
-| Epic | +21..30 |
-| Legendary | +31..40 |
-| Mythical | +41..50 |
+| Uncommon | `+5..10 Bid Power for Gold withdrawals` |
+| Rare | `+11..20 Bid Power for Gold withdrawals` |
+| Epic | `+21..30 Bid Power for Gold withdrawals` |
+| Legendary | `+31..40 Bid Power for Gold withdrawals` |
+| Mythical | `+41..50 Bid Power for Gold withdrawals` |
 
 Example with an actual bid price of `$1.00`:
 
@@ -128,15 +128,15 @@ Base `Liquidity` values without item grants:
 | 100,000 | 125 | x2.25 |
 | 1,000,000 | 150 | x2.50 |
 
-Liquidity grants add direct Gem Points Power:
+Liquidity grants add directly to Gem Points from liquidity:
 
-| Item rarity | Gem Points Power |
+| Item rarity | Gem Points from liquidity grant |
 | --- | ---: |
-| Uncommon | +5..10 |
-| Rare | +11..20 |
-| Epic | +21..30 |
-| Legendary | +31..40 |
-| Mythical | +41..50 |
+| Uncommon | `+5..10% Gem Points from liquidity` |
+| Rare | `+11..20% Gem Points from liquidity` |
+| Epic | `+21..30% Gem Points from liquidity` |
+| Legendary | `+31..40% Gem Points from liquidity` |
+| Mythical | `+41..50% Gem Points from liquidity` |
 
 The time factor makes liquidity burned earlier in the week more valuable:
 
@@ -168,11 +168,11 @@ The base rate is:
 
 $$BaseSilverPerGold=10$$
 
-The trait and percentage grants increase that rate. Flat grants then add exact Silver per Gold on top.
+The trait and percentage grants increase that rate. Flat grants then add exact Silver per Gold on top. The final conversion rate is capped at `100` Silver per Gold.
 
 $$ConversionBonus=\left\lfloor25*\log_{10}(\max(1, Conversion))\right\rfloor+\sum PercentGrants$$
 
-$$SilverPerGold=10*\frac{100+ConversionBonus}{100}+\sum FlatGrants$$
+$$SilverPerGold=min(100,\left\lfloor10*\frac{100+ConversionBonus}{100}+\sum FlatGrants\right\rfloor)$$
 
 $$FinalSilver=\left\lfloor GoldConverted*SilverPerGold\right\rfloor$$
 
@@ -192,23 +192,23 @@ Conversion has two grant types.
 
 Flat grants are fixed by rarity:
 
-| Item rarity | Silver Per Gold |
+| Item rarity | Silver per Gold grant |
 | --- | ---: |
-| Uncommon | +1 |
-| Rare | +2 |
-| Epic | +3 |
-| Legendary | +4 |
-| Mythical | +5 |
+| Uncommon | `+1 Silver per Gold` |
+| Rare | `+2 Silver per Gold` |
+| Epic | `+3 Silver per Gold` |
+| Legendary | `+4 Silver per Gold` |
+| Mythical | `+5 Silver per Gold` |
 
 Percentage grants are rolled by rarity:
 
-| Item rarity | Gold -> Silver Conversion Bonus |
+| Item rarity | Gold to Silver conversion bonus grant |
 | --- | ---: |
-| Uncommon | +5..10 percentage points |
-| Rare | +11..20 percentage points |
-| Epic | +21..30 percentage points |
-| Legendary | +31..40 percentage points |
-| Mythical | +41..50 percentage points |
+| Uncommon | `+5..10% Gold to Silver conversion bonus` |
+| Rare | `+11..20% Gold to Silver conversion bonus` |
+| Epic | `+21..30% Gold to Silver conversion bonus` |
+| Legendary | `+31..40% Gold to Silver conversion bonus` |
+| Mythical | `+41..50% Gold to Silver conversion bonus` |
 
 Examples:
 
@@ -245,23 +245,23 @@ Base `Slots` values without item grants:
 
 Flat slot grants:
 
-| Item rarity | Marketplace Slots |
+| Item rarity | Marketplace listing slots grant |
 | --- | ---: |
-| Uncommon | +10..20 |
-| Rare | +21..40 |
-| Epic | +41..60 |
-| Legendary | +61..80 |
-| Mythical | +81..100 |
+| Uncommon | `+10..20 marketplace listing slots` |
+| Rare | `+21..40 marketplace listing slots` |
+| Epic | `+41..60 marketplace listing slots` |
+| Legendary | `+61..80 marketplace listing slots` |
+| Mythical | `+81..100 marketplace listing slots` |
 
 Percentage slot grants:
 
-| Item rarity | Marketplace Slots |
+| Item rarity | Marketplace listing slots grant |
 | --- | ---: |
-| Uncommon | +5..10% |
-| Rare | +11..25% |
-| Epic | +26..50% |
-| Legendary | +51..75% |
-| Mythical | +76..100% |
+| Uncommon | `+5..10% marketplace listing slots` |
+| Rare | `+11..25% marketplace listing slots` |
+| Epic | `+26..50% marketplace listing slots` |
+| Legendary | `+51..75% marketplace listing slots` |
+| Mythical | `+76..100% marketplace listing slots` |
 
 Examples:
 

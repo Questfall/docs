@@ -1,5 +1,5 @@
 ---
-icon: battery-full
+icon: heart-pulse
 ---
 
 # Stamina
@@ -49,6 +49,8 @@ Example: an action has `100` raw base stamina cost. Even with very high Efficien
 {% hint style="info" %}
 $$BaseMaxStamina=floor(1000*\sqrt[3]{max(1,Reserve)})$$
 
+$$ReservePercentBonus=floor(BaseMaxStamina*\frac{ReservePercentGrants}{100})$$
+
 $$FinalMaxStamina=BaseMaxStamina+ReservePercentBonus+ReserveFlatGrants$$
 {% endhint %}
 
@@ -68,13 +70,13 @@ Base Maximum Stamina before item grants:
 
 Item grants:
 
-| Item rarity | Flat Maximum Stamina grant | Percent Maximum Stamina grant |
+| Item rarity | Stamina Reserve grant (flat) | Stamina Reserve grant (percent) |
 | --- | --- | --- |
-| Uncommon | `+100..250` | `+5..10%` |
-| Rare | `+251..500` | `+11..20%` |
-| Epic | `+501..1,000` | `+21..30%` |
-| Legendary | `+1,001..2,000` | `+31..40%` |
-| Mythical | `+2,001..5,000` | `+50..60%` |
+| Uncommon | `+100..250 Stamina Reserve` | `+5..10% Stamina Reserve` |
+| Rare | `+251..500 Stamina Reserve` | `+11..20% Stamina Reserve` |
+| Epic | `+501..1,000 Stamina Reserve` | `+21..30% Stamina Reserve` |
+| Legendary | `+1,001..2,000 Stamina Reserve` | `+31..40% Stamina Reserve` |
+| Mythical | `+2,001..5,000 Stamina Reserve` | `+50..60% Stamina Reserve` |
 
 ***
 
@@ -122,13 +124,13 @@ Example with `46,415` Maximum Stamina:
 
 Flat and percent Recovery grants are different grants. A flat grant adds stamina restored per minute. A percent grant increases recovery speed by percent.
 
-| Item rarity | Flat Recovery grant | Recovery Speed grant |
+| Item rarity | Stamina per minute grant | Stamina recovery speed grant |
 | --- | --- | --- |
-| Uncommon | `+1..2/min` | `+5..10%` |
-| Rare | `+3..5/min` | `+11..20%` |
-| Epic | `+6..10/min` | `+21..30%` |
-| Legendary | `+11..20/min` | `+31..40%` |
-| Mythical | `+21..40/min` | `+50..60%` |
+| Uncommon | `+1..2 stamina per minute` | `+5..10% stamina recovery speed` |
+| Rare | `+3..5 stamina per minute` | `+11..20% stamina recovery speed` |
+| Epic | `+6..10 stamina per minute` | `+21..30% stamina recovery speed` |
+| Legendary | `+11..20 stamina per minute` | `+31..40% stamina recovery speed` |
+| Mythical | `+21..40 stamina per minute` | `+50..60% stamina recovery speed` |
 
 ***
 
@@ -160,13 +162,13 @@ Base reduction before item grants:
 
 Item grants:
 
-| Item rarity | Cost Reduction grant | Flat Base Cost grant |
+| Item rarity | Base stamina cost grant (percent) | Base stamina cost grant (flat) |
 | --- | --- | --- |
-| Uncommon | `+1 percentage point` | `-1..2` |
-| Rare | `+2 percentage points` | `-3..4` |
-| Epic | `+3 percentage points` | `-5..6` |
-| Legendary | `+4 percentage points` | `-7..8` |
-| Mythical | `+5 percentage points` | `-9..10` |
+| Uncommon | `-1% base stamina cost of actions` | `-1..2 stamina from base stamina cost` |
+| Rare | `-2% base stamina cost of actions` | `-3..4 stamina from base stamina cost` |
+| Epic | `-3% base stamina cost of actions` | `-5..6 stamina from base stamina cost` |
+| Legendary | `-4% base stamina cost of actions` | `-7..8 stamina from base stamina cost` |
+| Mythical | `-5% base stamina cost of actions` | `-9..10 stamina from base stamina cost` |
 
 {% hint style="info" %}
 Example: an action has `100` raw base cost. With `100,000` Efficiency, the base cost is reduced by `50%`, so it becomes `50` before equipped weight is applied.
@@ -216,15 +218,15 @@ Relief effect before item grants:
 | `100,000` | `625` | about `86%` pressure reduction |
 | `1,000,000` | `900` | `90%` pressure reduction |
 
-Relief grants reduce raw equipment pressure before the trait curve. Several grants multiply the remaining pressure, so the order of grants does not matter.
+Relief grants reduce stamina use from equipment before the trait curve is applied. Several grants multiply the remaining equipment pressure, so the order of grants does not matter.
 
-| Item rarity | Equipment Load Base Pressure Reduction grant |
+| Item rarity | Stamina use from equipment grant |
 | --- | --- |
-| Uncommon | `+5..10%` |
-| Rare | `+11..20%` |
-| Epic | `+21..30%` |
-| Legendary | `+31..40%` |
-| Mythical | `+41..50%` |
+| Uncommon | `-5..10% stamina use from equipment` |
+| Rare | `-11..20% stamina use from equipment` |
+| Epic | `-21..30% stamina use from equipment` |
+| Legendary | `-31..40% stamina use from equipment` |
+| Mythical | `-41..50% stamina use from equipment` |
 
 {% hint style="info" %}
 Example: a Mythical level 100 average set has `13,317` raw pressure. At `1,000,000` Relief, pressure becomes `1,332`, so the equipment multiplier is `x14.32`.
@@ -273,15 +275,15 @@ Base Absorption before item grants:
 | `100,000` | `+125%` |
 | `1,000,000` | `+150%` |
 
-Item grants add percentage points to the potion effect bonus:
+Item grants add directly to Stamina Potion effect:
 
-| Item rarity | Stamina Potion Effect Bonus grant |
+| Item rarity | Stamina Potion effect grant |
 | --- | --- |
-| Uncommon | `+5..10 percentage points` |
-| Rare | `+11..20 percentage points` |
-| Epic | `+21..30 percentage points` |
-| Legendary | `+31..40 percentage points` |
-| Mythical | `+50..60 percentage points` |
+| Uncommon | `+5..10% Stamina Potion effect` |
+| Rare | `+11..20% Stamina Potion effect` |
+| Epic | `+21..30% Stamina Potion effect` |
+| Legendary | `+31..40% Stamina Potion effect` |
+| Mythical | `+50..60% Stamina Potion effect` |
 
 Example with `46,415` Maximum Stamina:
 

@@ -19,7 +19,8 @@ It affects five traits:
 The inventory is the place where unused RPG items are stored. Equipped clothing is not counted as inventory load, but its weight can still matter because equipped weight affects stamina costs during quest mining.
 
 {% hint style="info" %}
-If a user's inventory is overloaded, the user cannot perform actions that add new items to the inventory, such as opening loot boxes, buying items from the marketplace, or bringing an item from NFT into the game.
+In production rules, if a user's inventory is overloaded, the user cannot perform actions that add new items to the inventory, such as opening loot boxes, buying items from the marketplace, or bringing an item from NFT into the game.
+During the current internal testing release, this intake gate is temporarily disabled so the team can receive new items while testing builds. Inventory capacity and overload state are still calculated and displayed.
 {% endhint %}
 
 To free inventory space, an RPG item can be [scrapped](crafting.md#scrapping) for Essence, sold on the [marketplace](../../../infrastructure/marketplace.md), equipped if it is clothing, or withdrawn as an NFT when the item type and rarity support withdrawal.
@@ -72,18 +73,18 @@ Base capacity before item grants:
 
 Capacity has two types of item grants:
 
-| Item rarity | Flat Capacity grant | Percent Capacity grant |
+| Item rarity | Inventory weight limit grant (flat) | Inventory weight limit grant (percent) |
 | --- | --- | --- |
-| Uncommon | `+10,000..20,000 g` | `+5..10%` |
-| Rare | `+21,000..40,000 g` | `+11..25%` |
-| Epic | `+41,000..60,000 g` | `+26..50%` |
-| Legendary | `+61,000..80,000 g` | `+51..75%` |
-| Mythical | `+81,000..100,000 g` | `+76..100%` |
+| Uncommon | `+10..20 kg to inventory weight limit` | `+5..10% to inventory weight limit` |
+| Rare | `+21..40 kg to inventory weight limit` | `+11..25% to inventory weight limit` |
+| Epic | `+41..60 kg to inventory weight limit` | `+26..50% to inventory weight limit` |
+| Legendary | `+61..80 kg to inventory weight limit` | `+51..75% to inventory weight limit` |
+| Mythical | `+81..100 kg to inventory weight limit` | `+76..100% to inventory weight limit` |
 
 Percent grants apply to the base capacity first. Flat grants are added after that, so Capacity grants do not multiply each other.
 
 {% hint style="info" %}
-Example: a player has `1,000` Capacity, so the base inventory limit is `50 kg`. A Mythical item with `+100% Capacity` and `+100,000 g Capacity` raises the final limit to `200 kg`: `50 kg` base, `+50 kg` from percent, and `+100 kg` from flat grant.
+Example: a player has `1,000` Capacity, so the base inventory limit is `50 kg`. A Mythical item with `+100% to inventory weight limit` and `+100 kg to inventory weight limit` raises the final limit to `200 kg`: `50 kg` base, `+50 kg` from percent, and `+100 kg` from flat grant.
 {% endhint %}
 
 ***
@@ -114,16 +115,16 @@ Base ignored items before item grants:
 
 Item grants add more ignored heavy items:
 
-| Item rarity | Ignored Heavy Inventory Items grant |
+| Item rarity | Heaviest items ignored in inventory grant |
 | --- | --- |
-| Uncommon | `+1..2` |
-| Rare | `+3..4` |
-| Epic | `+5..6` |
-| Legendary | `+7..8` |
-| Mythical | `+9..10` |
+| Uncommon | `+1..2 heaviest items ignored in inventory` |
+| Rare | `+3..4 heaviest items ignored in inventory` |
+| Epic | `+5..6 heaviest items ignored in inventory` |
+| Legendary | `+7..8 heaviest items ignored in inventory` |
+| Mythical | `+9..10 heaviest items ignored in inventory` |
 
 {% hint style="info" %}
-Example: a player has `1,000` Exemption, so the base value is `5` ignored items. If items add `+14 Ignored Heavy Inventory Items`, the final value becomes `19`, and the 19 heaviest inventory items are ignored before Levitation is calculated.
+Example: a player has `1,000` Exemption, so the base value is `5` ignored items. If items add `+14 heaviest items ignored in inventory`, the final value becomes `19`, and the 19 heaviest inventory items are ignored before Levitation is calculated.
 {% endhint %}
 
 ***
@@ -155,13 +156,13 @@ Base reduction before item grants:
 
 Levitation has two types of item grants:
 
-| Item rarity | Weight Reduction grant | Each Inventory Item Weight grant |
+| Item rarity | Item weight in inventory grant | Each item in inventory grant |
 | --- | --- | --- |
-| Uncommon | `+1 percentage point` | `-10..15 g` |
-| Rare | `+2 percentage points` | `-16..30 g` |
-| Epic | `+3 percentage points` | `-31..50 g` |
-| Legendary | `+4 percentage points` | `-51..75 g` |
-| Mythical | `+5 percentage points` | `-76..100 g` |
+| Uncommon | `-1% item weight in inventory` | `-10..15 grams for each item in inventory` |
+| Rare | `-2% item weight in inventory` | `-16..30 grams for each item in inventory` |
+| Epic | `-3% item weight in inventory` | `-31..50 grams for each item in inventory` |
+| Legendary | `-4% item weight in inventory` | `-51..75 grams for each item in inventory` |
+| Mythical | `-5% item weight in inventory` | `-76..100 grams for each item in inventory` |
 
 The final weight for each non-ignored item is:
 
@@ -174,7 +175,7 @@ $$EffectiveWeight_{g}=max(MinimumWeight_{g},WeightAfterPercent_{g}-FlatWeightGra
 {% endhint %}
 
 {% hint style="info" %}
-Example: a `1,000 g` item is not ignored by Exemption. The player has `100` Levitation, one Mythical `+5 percentage points` grant, and `-100 g` flat weight grants.
+Example: a `1,000 g` item is not ignored by Exemption. The player has `100` Levitation, one Mythical `-5% item weight in inventory` grant, and `-100 grams for each item in inventory` flat grants.
 
 The base reduction is `40%`, the final reduction is `45%`, and the item becomes `550 g` after percent reduction. The flat grant then reduces it to `450 g`. Since the minimum is `100 g`, the final weight is `450 g`.
 {% endhint %}
@@ -184,6 +185,10 @@ The base reduction is `40%`, the final reduction is `45%`, and the item becomes 
 ### **Equipping**
 
 `Equipping` reduces the Essence cost paid when clothing is equipped.
+
+{% hint style="warning" %}
+During the current internal testing release, equipment changes do not spend Essence. The Equipping value is still calculated and displayed so builds and grant text can be tested freely.
+{% endhint %}
 
 The base cost depends on item rarity and item level. Item level uses a cube-root curve, so high-level items cost more to equip, but the price does not grow linearly.
 
@@ -225,18 +230,18 @@ Trait reduction before item grants:
 
 Equipping grants reduce the base equipment cost before the trait reduction. Several grants multiply the remaining cost, so the order of grants does not matter.
 
-| Item rarity | Equipment Base Essence Cost Reduction grant |
+| Item rarity | Essence cost to equip items grant |
 | --- | --- |
-| Uncommon | `+5..10%` |
-| Rare | `+11..20%` |
-| Epic | `+21..30%` |
-| Legendary | `+31..40%` |
-| Mythical | `+41..50%` |
+| Uncommon | `-5..10% Essence cost to equip items` |
+| Rare | `-11..20% Essence cost to equip items` |
+| Epic | `-21..30% Essence cost to equip items` |
+| Legendary | `-31..40% Essence cost to equip items` |
+| Mythical | `-41..50% Essence cost to equip items` |
 
 {% hint style="info" %}
 Example: a Mythical level 100 item has base equip cost `28 Essence`. A player with `1,000` Equipping has `30%` base reduction, so the cost becomes `20 Essence`.
 
-If one Mythical item has a maximum `+50% Equipment Base Essence Cost Reduction` grant, it cuts the base cost to `14 Essence` before the trait. Then `1,000` Equipping applies its `30%` trait reduction, so the final cost is `10 Essence`.
+If one Mythical item has a maximum `-50% Essence cost to equip items` grant, it cuts the base cost to `14 Essence` before the trait. Then `1,000` Equipping applies its `30%` trait reduction, so the final cost is `10 Essence`.
 
 Six maximum Mythical Equipping grants apply `0.5^6`, leaving only `1.5625%` of the base cost before the trait. The final cost still cannot go below `1 Essence`.
 {% endhint %}
@@ -285,13 +290,13 @@ Base free levels before item grants:
 
 Overlevel has two types of item grants:
 
-| Item rarity | Absolute Free Levels grant | Relative Free Levels grant |
+| Item rarity | Overlevel allowance grant | Character-level overlevel allowance grant |
 | --- | --- | --- |
-| Uncommon | `+1..2` | `+1..2% of character level` |
-| Rare | `+3..4` | `+3..4% of character level` |
-| Epic | `+5..6` | `+5..6% of character level` |
-| Legendary | `+7..8` | `+7..8% of character level` |
-| Mythical | `+9..10` | `+9..10% of character level` |
+| Uncommon | `+1..2 levels of overlevel allowance` | `+1..2% character level as overlevel allowance` |
+| Rare | `+3..4 levels of overlevel allowance` | `+3..4% character level as overlevel allowance` |
+| Epic | `+5..6 levels of overlevel allowance` | `+5..6% character level as overlevel allowance` |
+| Legendary | `+7..8 levels of overlevel allowance` | `+7..8% character level as overlevel allowance` |
+| Mythical | `+9..10 levels of overlevel allowance` | `+9..10% character level as overlevel allowance` |
 
 For a level 20 character before item grants:
 
@@ -303,7 +308,7 @@ For a level 20 character before item grants:
 | `50` | `100%` power | `100%` power | `70%` power |
 
 {% hint style="info" %}
-Example: a level 20 player has `1,000` Overlevel, an Epic `+6 Free Levels` grant, and a Legendary `+8% of character level` grant.
+Example: a level 20 player has `1,000` Overlevel, an Epic `+6 levels of overlevel allowance` grant, and a Legendary `+8% character level as overlevel allowance` grant.
 
 The base value is `+5` free levels. The relative grant adds `floor(20*8/100)=1` more free level. The final free level value is `12`, so the character can use items up to level `32` at full strength.
 

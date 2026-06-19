@@ -4,237 +4,232 @@ icon: clover
 
 # Luck
 
-Luck affects three different parts of Questfall:
+Luck is the attribute for players who want more value from random outcomes: better Common Lootbox openings, faster Chest Shard completion, extra lootbox chances, and stronger lucky effects during economy actions.
 
-* collecting Chest Shards for free Common loot boxes;
-* opening Common loot boxes through the card system;
-* receiving lucky bonuses and discounts during economy actions.
+It is built around five traits:
 
-Luck is split into five traits:
-
-| Trait | Meaning |
+| Trait | What it improves |
 | --- | --- |
-| Shards | Makes missing Chest Shards more likely to drop. |
-| Intuition | Gives card checks during Common loot box opening. |
-| Chance | Makes lucky bonuses happen more often. |
-| Bonus | Makes lucky bonuses and lucky discounts stronger. |
-| Opportunity | Gives more turns during Common loot box opening. |
+| Cards | Increases turns during Common Lootbox openings. |
+| Shards | Makes missing Chest Shards more likely than duplicates. |
+| Boxes | Adds a chance to receive an extra higher-rarity Lootbox when a Common Lootbox opening starts. |
+| Chance | Makes Luck activate more often. |
+| Bonus | Makes activated lucky rewards and lucky discounts stronger. |
 
 RPG items can also add direct grants to these traits' final effects. Grant values depend on item rarity.
 
 ***
 
+### **Cards**
+
+Common Lootboxes use a card opening flow. Each turn lets the player choose one card. Safe cards can award items. Dead cards end the opening, but already won items are kept.
+
+`Cards` controls how many turns a Common Lootbox opening can have. More turns means more chances to claim item cards before the opening ends.
+
+{% hint style="info" %}
+$$CommonLootboxTurns=floor(log_{10}(max(1,Cards)))+1+TurnGrants$$
+{% endhint %}
+
+Base turns before item grants:
+
+| Cards | Common Lootbox turns |
+| ---: | ---: |
+| 1 | 1 |
+| 10 | 2 |
+| 100 | 3 |
+| 1,000 | 4 |
+| 10,000 | 5 |
+| 1,000,000 | 7 |
+
+Cards grants add exact extra turns:
+
+| Item rarity | Turns in Common Lootboxes grant |
+| --- | ---: |
+| Uncommon | `+1 turn in Common Lootboxes` |
+| Rare | `+2 turns in Common Lootboxes` |
+| Epic | `+3 turns in Common Lootboxes` |
+| Legendary | `+4 turns in Common Lootboxes` |
+| Mythical | `+5 turns in Common Lootboxes` |
+
+{% hint style="info" %}
+Example: a player has `1,000` Cards, so they receive `4` base turns. If a Mythical item grants `+5 turns in Common Lootboxes`, the opening starts with `9` turns.
+{% endhint %}
+
+Higher-rarity Lootboxes do not use the card flow. They open immediately and mint one item at the box floor rarity or higher.
+
+***
+
 ### **Shards**
 
-Chest Shards work like a weekly puzzle. Each shard reward gives one puzzle piece. When all piece types are collected, the player receives a free Common loot box, one of each piece is consumed, and any duplicate pieces remain for the same weekly puzzle.
+Chest Shards work like a weekly puzzle. Each shard reward gives one puzzle piece. When all piece types are collected, the player receives a free Common Lootbox, one of each piece is consumed, and any duplicate pieces remain for the same weekly puzzle.
 
 `Shards` does not decide how many shard pieces a quest gives. That is controlled by the Mining trait `Loot`. `Shards` decides which piece type is selected after a shard drop has already happened.
 
-At the start, missing pieces are intentionally harder to hit than duplicate pieces. This creates pressure to improve `Shards`: without it, players will often collect duplicate pieces while still missing the last piece needed for the next loot box.
-
-The system uses weights:
+The system intentionally makes missing pieces harder to hit at low Shards. Increasing `Shards` raises Missing Shard bias, which makes incomplete sets easier to finish.
 
 {% hint style="info" %}
-$$MissingBias=floor(100*log_{10}(max(1,Shards)))+ShardGrants$$
+$$MissingBias=floor(100*log_{10}(max(1,Shards)))+MissingShardBiasGrants$$
 
 $$CollectedPieceWeight=2$$
 
 $$MissingPieceWeight=2^{MissingBias/100}$$
 {% endhint %}
 
-At low `Shards`, each already collected piece type has more weight than each missing piece type. As `Shards` grows, missing pieces become more likely. There is no point where the chance becomes exactly 100%, but very high `Shards` can make missing pieces much more likely.
-
 For a 10-piece puzzle where the player has 9 piece types and is missing 1 piece type:
 
 | Shards | Missing Bias | Chance that the next piece is the missing type |
-| --- | --- | --- |
-| `1` | `0` | `5.3%` |
-| `10` | `100` | `10.0%` |
-| `100` | `200` | `18.2%` |
-| `1,000` | `300` | `30.8%` |
-| `10,000` | `400` | `47.1%` |
-| `1,000,000` | `600` | `78.0%` |
+| ---: | ---: | ---: |
+| 1 | 0 | 5.3% |
+| 10 | 100 | 10.0% |
+| 100 | 200 | 18.2% |
+| 1,000 | 300 | 30.8% |
+| 10,000 | 400 | 47.1% |
+| 1,000,000 | 600 | 78.0% |
 
-Item grants add to `Missing Bias` after the trait formula:
+Shards grants add direct Missing Shard bias:
 
-| Item rarity | Missing Shard Bias grant |
-| --- | --- |
-| Uncommon | `+5..10` |
-| Rare | `+10..25` |
-| Epic | `+25..50` |
-| Legendary | `+50..75` |
-| Mythical | `+75..100` |
+| Item rarity | Missing Shard bias grant |
+| --- | ---: |
+| Uncommon | `+5..10 Missing Shard bias` |
+| Rare | `+10..25 Missing Shard bias` |
+| Epic | `+25..50 Missing Shard bias` |
+| Legendary | `+50..75 Missing Shard bias` |
+| Mythical | `+75..100 Missing Shard bias` |
 
 {% hint style="info" %}
-Example: a player has `100` Shards. The base bias is `200`. If an item adds `+80 Missing Shard Bias`, the final bias becomes `280`, so missing pieces are treated as if the player had a much stronger Shards build.
+Example: a player has `100` Shards. The base bias is `200`. If an item adds `+80 Missing Shard bias`, the final bias becomes `280`, so missing pieces are treated as if the player had a stronger Shards build.
 {% endhint %}
 
 ***
 
-### **Intuition**
+### **Boxes**
 
-Common loot boxes use a card opening flow. The player chooses cards over several turns. Some cards are safe and can award items. Some cards are dead, and choosing a dead card ends the opening. Already won items are kept.
+`Boxes` adds a chance to receive one extra higher-rarity Lootbox when a Common Lootbox opening starts. This is a separate reward from the items inside the Common Lootbox opening itself.
 
-`Intuition` gives card checks before choosing. A check reveals only whether one card is `safe` or `dead`. It does not reveal item identity, rarity, market value, or any other hidden item details.
-
-The number of checks is:
+First, the system rolls whether the extra Lootbox appears. Then, if it appears, the rarity is rolled separately. Each next rarity is about 5x less likely than the previous one.
 
 {% hint style="info" %}
-$$CardChecks=floor(log_{10}(max(1,Intuition)))+1+CardCheckGrants$$
+$$t=log_{10}(max(1,Boxes))$$
+
+$$ExtraLootboxChance=1\%+9\%*{t \over t+1}+BoxChanceGrants$$
 {% endhint %}
 
-Base checks before item grants:
+Base chance before item grants:
 
-| Intuition | Card checks |
-| --- | --- |
-| `1` | `1` |
-| `10` | `2` |
-| `100` | `3` |
-| `1,000` | `4` |
-| `10,000` | `5` |
-| `1,000,000` | `7` |
+| Boxes | Extra higher-rarity Lootbox chance |
+| ---: | ---: |
+| 1 | 1.00% |
+| 10 | 5.50% |
+| 100 | 7.00% |
+| 1,000 | 7.75% |
+| 10,000 | 8.20% |
+| 1,000,000 | 8.71% |
 
-Item grants add fixed whole checks:
+Boxes grants add direct percentage points:
 
-| Item rarity | Card Check grant |
-| --- | --- |
-| Uncommon | `+1` |
-| Rare | `+2` |
-| Epic | `+3` |
-| Legendary | `+4` |
-| Mythical | `+5` |
+| Item rarity | Extra higher-rarity Lootbox chance grant |
+| --- | ---: |
+| Uncommon | `+0.5% extra higher-rarity Lootbox chance` |
+| Rare | `+1% extra higher-rarity Lootbox chance` |
+| Epic | `+1.5% extra higher-rarity Lootbox chance` |
+| Legendary | `+2% extra higher-rarity Lootbox chance` |
+| Mythical | `+2.5% extra higher-rarity Lootbox chance` |
 
-{% hint style="info" %}
-Example: a player has `1,000` Intuition, so they receive `4` base checks. If an Epic item grants `+3 Card Checks`, the opening starts with `7` checks.
-{% endhint %}
+If the extra Lootbox appears, its rarity is rolled with these weights:
 
-Checks make card openings easier to read, but they do not guarantee a perfect opening. A player still needs enough turns from `Opportunity`, and a checked card can only reveal safe/dead status.
-
-***
-
-### **Opportunity**
-
-`Opportunity` controls how many turns a Common loot box opening can have. More turns means more chances to pick item cards before the opening ends.
-
-Turns are stronger than checks because each successful turn can become an item. For that reason, turn grants are fixed by rarity instead of rolled from wide ranges.
-
-{% hint style="info" %}
-$$CommonTurns=floor(log_{10}(max(1,Opportunity)))+1+TurnGrants$$
-{% endhint %}
-
-Base turns before item grants:
-
-| Opportunity | Common loot box turns |
-| --- | --- |
-| `1` | `1` |
-| `10` | `2` |
-| `100` | `3` |
-| `1,000` | `4` |
-| `10,000` | `5` |
-| `1,000,000` | `7` |
-
-Item grants add fixed turn counts:
-
-| Item rarity | Common Turn grant |
-| --- | --- |
-| Uncommon | `+1` |
-| Rare | `+2` |
-| Epic | `+3` |
-| Legendary | `+4` |
-| Mythical | `+5` |
-
-{% hint style="info" %}
-Example: a player has `100` Opportunity, so they receive `3` base turns. A Legendary item with `+4 Common Turns` raises that opening to `7` turns.
-{% endhint %}
-
-Higher-rarity loot boxes do not use this card flow. They open immediately and mint one item at the box floor rarity or higher. `Intuition` and `Opportunity` affect Common loot boxes only.
+| Bonus Lootbox | Relative weight | Approximate chance after trigger |
+| --- | ---: | ---: |
+| Uncommon | 625 | 80.0% |
+| Rare | 125 | 16.0% |
+| Epic | 25 | 3.2% |
+| Legendary | 5 | 0.6% |
+| Mythical | 1 | 0.1% |
 
 ***
 
 ### **Chance**
 
-Some economy actions can receive a lucky bonus or lucky discount. `Chance` decides whether the lucky proc happens. It does not control how strong the proc is. Strength is controlled by `Bonus`.
-
-The lucky proc chance is:
+Some actions can receive a lucky reward or lucky discount. `Chance` decides whether Luck activates. It does not control how strong the lucky result is. Strength is controlled by `Bonus`.
 
 {% hint style="info" %}
 $$BaseChance=100*(1-0.99*e^{-0.1*(log_{10}(max(1,Chance)))^{1.2}})$$
 
-$$LuckyBonusChance=min(99.99\%,BaseChance+ChanceGrants)$$
+$$LuckActivationChance=min(99.99\%,BaseChance+LuckActivationGrants)$$
 {% endhint %}
 
 Base chance before item grants:
 
-| Chance | Lucky proc chance |
-| --- | --- |
-| `1` | `1%` |
-| `10` | `10.4%` |
-| `100` | `21.3%` |
-| `1,000` | `31.9%` |
-| `10,000` | `41.6%` |
-| `100,000` | `50.3%` |
-| `1,000,000` | `58.0%` |
+| Chance | Luck activation chance |
+| ---: | ---: |
+| 1 | 1.0% |
+| 10 | 10.4% |
+| 100 | 21.3% |
+| 1,000 | 31.9% |
+| 10,000 | 41.6% |
+| 100,000 | 50.3% |
+| 1,000,000 | 58.0% |
 
-Item grants add percentage points to the proc chance:
+Chance grants add percentage points to Luck activation:
 
-| Item rarity | Lucky Bonus Chance grant |
-| --- | --- |
-| Uncommon | `+1..2 percentage points` |
-| Rare | `+3..4 percentage points` |
-| Epic | `+5..6 percentage points` |
-| Legendary | `+7..8 percentage points` |
-| Mythical | `+9..10 percentage points` |
+| Item rarity | Luck activation chance grant |
+| --- | ---: |
+| Uncommon | `+1..2% Luck activation chance` |
+| Rare | `+3..4% Luck activation chance` |
+| Epic | `+5..6% Luck activation chance` |
+| Legendary | `+7..8% Luck activation chance` |
+| Mythical | `+9..10% Luck activation chance` |
 
-{% hint style="info" %}
-Example: a player has `1,000` Chance, so their base lucky proc chance is `31.9%`. If items add `+14 percentage points`, the final chance becomes `45.9%`.
-{% endhint %}
-
-Lucky proc chance is capped at `99.99%`. The cap exists so lucky actions remain random even for extremely strong builds.
+Luck activation chance is capped at `99.99%`, so lucky actions remain random even for extremely strong Chance builds.
 
 ***
 
 ### **Bonus**
 
-`Bonus` controls how strong a lucky proc is after `Chance` has already triggered it.
+`Bonus` controls how strong a lucky result is after `Chance` has activated it.
 
-This trait produces `Lucky Bonus Power`:
+There are two Bonus outputs:
+
+| Output | Used for |
+| --- | --- |
+| Lucky reward power | Adds extra reward value, such as bonus XP or bonus Essence. |
+| Lucky discount power | Reduces a cost or fee, such as crafting upgrade cost or marketplace sale fee. |
+
+The shared base power is:
 
 {% hint style="info" %}
 $$LuckyBonusPower=floor({100 \over 3}*log_{10}(max(1,Bonus))+{10 \over max(1,Bonus)})$$
 {% endhint %}
 
-Base power before action-specific item grants:
+Base power before item grants:
 
 | Bonus | Lucky Bonus Power |
-| --- | --- |
-| `1` | `10%` |
-| `10` | `34%` |
-| `100` | `66%` |
-| `1,000` | `100%` |
-| `1,000,000` | `200%` |
-| `1,000,000,000` | `300%` |
+| ---: | ---: |
+| 1 | 10% |
+| 10 | 34% |
+| 100 | 66% |
+| 1,000 | 100% |
+| 1,000,000 | 200% |
+| 1,000,000,000 | 300% |
 
-There is no hard `100%` cap on `Lucky Bonus Power`. A very strong `Bonus` build can make reward-style lucky procs larger than the base action value.
+#### Reward power
 
-#### Reward bonuses
-
-For reward-style actions, item grants add directly to the reward rate:
+Reward-style actions use Lucky Bonus Power directly. Reward grants add percentage points on top, and the final reward power is capped at `900%`.
 
 {% hint style="info" %}
-$$RewardRate=LuckyBonusPower+RewardBonusGrants$$
+$$RewardPower=min(900\%,LuckyBonusPower+RewardPowerGrants)$$
 
-$$BonusValue=floor(BaseReward*RewardRate/100)$$
+$$BonusReward=floor(BaseReward*RewardPower/100)$$
 {% endhint %}
 
-Reward-style grants are rolled by rarity:
+Reward grants are rolled by rarity:
 
-| Item rarity | Lucky Reward Bonus Rate grant |
-| --- | --- |
-| Uncommon | `+1..2 percentage points` |
-| Rare | `+3..4 percentage points` |
-| Epic | `+5..6 percentage points` |
-| Legendary | `+7..8 percentage points` |
-| Mythical | `+9..10 percentage points` |
+| Item rarity | Lucky reward power grant |
+| --- | ---: |
+| Uncommon | `+1..2% lucky reward power` |
+| Rare | `+3..4% lucky reward power` |
+| Epic | `+5..6% lucky reward power` |
+| Legendary | `+7..8% lucky reward power` |
+| Mythical | `+9..10% lucky reward power` |
 
 Current reward-style lucky actions:
 
@@ -243,33 +238,27 @@ Current reward-style lucky actions:
 | XP purchase | Adds bonus XP. |
 | Crafting scrap | Adds bonus Essence. |
 
-{% hint style="info" %}
-Example: a player buys `1,000` XP. Their lucky proc happens. They have `1,000` Bonus, so `Lucky Bonus Power = 100%`. They also have an Epic XP reward grant of `+6 percentage points`. The reward rate is `106%`, so the proc adds `1,060` bonus XP.
-{% endhint %}
+#### Discount power
 
-#### Discount bonuses
-
-For discount-style actions, `Lucky Bonus Power` first creates a base discount curve. Then direct discount grants are added on top of the final discount rate:
+Discount-style actions turn Lucky Bonus Power into a discount curve. Discount grants then add percentage points on top, and the final discount power is capped at `75%`.
 
 {% hint style="info" %}
-$$BaseDiscount=50\%*LuckyBonusPower/(LuckyBonusPower+100)$$
+$$BaseDiscount=50\%*{LuckyBonusPower \over LuckyBonusPower+100}$$
 
-$$DiscountRate=BaseDiscount+DirectDiscountGrants$$
+$$DiscountPower=min(75\%,BaseDiscount+DiscountGrants)$$
 
-$$DiscountValue=floor(BaseCostOrFee*DiscountRate)$$
-
-$$FinalCostOrFee=BaseCostOrFee-DiscountValue$$
+$$DiscountValue=floor(BaseCostOrFee*DiscountPower/100)$$
 {% endhint %}
 
-Direct discount grants are fixed by rarity:
+Discount grants are fixed by rarity:
 
-| Item rarity | Lucky Discount grant |
-| --- | --- |
-| Uncommon | `+1 percentage point` |
-| Rare | `+2 percentage points` |
-| Epic | `+3 percentage points` |
-| Legendary | `+4 percentage points` |
-| Mythical | `+5 percentage points` |
+| Item rarity | Lucky discount power grant |
+| --- | ---: |
+| Uncommon | `+1% lucky discount power` |
+| Rare | `+2% lucky discount power` |
+| Epic | `+3% lucky discount power` |
+| Legendary | `+4% lucky discount power` |
+| Mythical | `+5% lucky discount power` |
 
 Current discount-style lucky actions:
 
@@ -278,21 +267,15 @@ Current discount-style lucky actions:
 | Crafting upgrade | Reduces Essence cost. |
 | Marketplace sale fee | Reduces the Gold fee burned on sale. |
 
-The base discount approaches `50%` but does not reach it. Direct discount grants are added on top and are felt immediately. With six Mythical discount grants, direct grants can add `+30 percentage points`, so the theoretical maximum approaches `80%`. The discount never turns into cashback.
-
-{% hint style="info" %}
-Example: a crafting upgrade costs `1,000` Essence. The lucky proc happens. The player has `1,000` Bonus, so `Lucky Bonus Power = 100%`. The base discount is `25%`. If the player also has one Mythical upgrade discount grant, it adds `+5 percentage points`, so the final discount is `30%`. The player saves `300` Essence and pays `700`.
-{% endhint %}
-
 Example discount rates:
 
-| Lucky Bonus Power | Direct discount grants | Final discount |
-| --- | --- | --- |
-| `100%` | none | `25.0%` |
-| `100%` | one Mythical, `+5 pp` | `30.0%` |
-| `200%` | none | `33.3%` |
-| `200%` | six Mythical, `+30 pp` | `63.3%` |
-| `1,000%` | six Mythical, `+30 pp` | `75.5%` |
+| Lucky Bonus Power | Discount grants | Final discount |
+| ---: | ---: | ---: |
+| 100% | none | 25.0% |
+| 100% | one Mythical, `+5%` | 30.0% |
+| 200% | none | 33.3% |
+| 200% | six Mythical, `+30%` | 63.3% |
+| 1,000% | six Mythical, `+30%` | 75.0% cap |
 
 ***
 
@@ -300,10 +283,10 @@ Example discount rates:
 
 | Trait | What it improves | Where it matters |
 | --- | --- | --- |
-| Shards | Chance to receive missing Chest Shards instead of duplicates. | Weekly Chest Shard puzzle and free Common loot boxes. |
-| Intuition | Number of safe/dead card checks. | Common loot box opening. |
-| Opportunity | Number of turns. | Common loot box opening. |
-| Chance | Probability that a lucky proc happens. | XP purchase, crafting, marketplace sale fee. |
-| Bonus | Strength of a lucky proc after it happens. | Bonus XP, bonus Essence, upgrade discounts, marketplace fee discounts. |
+| Cards | Number of turns. | Common Lootbox opening. |
+| Shards | Chance to receive missing Chest Shards instead of duplicates. | Weekly Chest Shard puzzle and free Common Lootboxes. |
+| Boxes | Chance to receive an extra higher-rarity Lootbox. | Starting a Common Lootbox opening. |
+| Chance | Probability that Luck activates. | XP purchase, crafting, marketplace sale fee, and other lucky actions. |
+| Bonus | Strength of a lucky result after activation. | Bonus XP, bonus Essence, upgrade discounts, marketplace fee discounts. |
 
-`Chance` and `Bonus` work together: `Chance` answers "did the lucky proc happen?", while `Bonus` answers "how strong is the proc?".
+`Chance` and `Bonus` work together: `Chance` answers "did Luck activate?", while `Bonus` answers "how strong is the lucky result?".

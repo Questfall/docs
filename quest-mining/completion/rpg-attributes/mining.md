@@ -79,20 +79,20 @@ Item grants increase Mining Power multiplicatively. Multiple grants are added to
 
 | Item rarity | Mining Power grant |
 | --- | --- |
-| Uncommon | `+5..10%` |
-| Rare | `+11..20%` |
-| Epic | `+21..30%` |
-| Legendary | `+31..40%` |
-| Mythical | `+50..60%` |
+| Uncommon | `+5..10% Mining Power` |
+| Rare | `+11..20% Mining Power` |
+| Epic | `+21..30% Mining Power` |
+| Legendary | `+31..40% Mining Power` |
+| Mythical | `+50..60% Mining Power` |
 
 Examples:
 
 | Build | Final Mining Power |
 | --- | --- |
 | `1,000` Power, no grants | `1,000%` |
-| `1,000` Power, one Rare `+20%` grant | `1,200%` |
-| `1,000` Power, one Mythical `+60%` grant | `1,600%` |
-| `1,000` Power, two Mythical `+60%` grants | `2,200%` |
+| `1,000` Power, one Rare `+20% Mining Power` grant | `1,200%` |
+| `1,000` Power, one Mythical `+60% Mining Power` grant | `1,600%` |
+| `1,000` Power, two Mythical `+60% Mining Power` grants | `2,200%` |
 
 {% hint style="info" %}
 With `100` Quest Bounty and `1,000%` Mining Power, the quest gives `1,100` Mining Points before Flow and Mining Boost.
@@ -130,16 +130,16 @@ Base Flow before item grants:
 
 The base curve approaches `+100%`, which means a strong Flow build can roughly double Mining Points while flow is active. Item grants can push the bonus above that soft limit.
 
-| Item rarity | Flow Mining Points Bonus grant |
+| Item rarity | Flow bonus grant |
 | --- | --- |
-| Uncommon | `+5..10 percentage points` |
-| Rare | `+11..20 percentage points` |
-| Epic | `+21..30 percentage points` |
-| Legendary | `+31..40 percentage points` |
-| Mythical | `+41..50 percentage points` |
+| Uncommon | `+5..10% Flow bonus` |
+| Rare | `+11..20% Flow bonus` |
+| Epic | `+21..30% Flow bonus` |
+| Legendary | `+31..40% Flow bonus` |
+| Mythical | `+41..50% Flow bonus` |
 
 {% hint style="info" %}
-Example: a player has `1,000` Flow, so the base Flow bonus is `+50%`. A Mythical item with `+50 percentage points` raises the final Flow bonus to `+100%`, so active flow gives `x2` Mining Points.
+Example: a player has `1,000` Flow, so the base Flow bonus is `+50%`. A Mythical item with `+50% Flow bonus` raises the final Flow bonus to `+100%`, so active flow gives `x2` Mining Points.
 {% endhint %}
 
 ***
@@ -174,16 +174,16 @@ Base Focus window before item grants:
 
 The base curve approaches `240 minutes`, or `4 hours`, but does not reach it. Item grants add direct minutes on top.
 
-| Item rarity | Flow Retention Window grant |
+| Item rarity | Flow window grant |
 | --- | --- |
-| Uncommon | `+5..10 min` |
-| Rare | `+11..20 min` |
-| Epic | `+21..30 min` |
-| Legendary | `+31..45 min` |
-| Mythical | `+46..60 min` |
+| Uncommon | `+5..10 minutes Flow window` |
+| Rare | `+11..20 minutes Flow window` |
+| Epic | `+21..30 minutes Flow window` |
+| Legendary | `+31..45 minutes Flow window` |
+| Mythical | `+46..60 minutes Flow window` |
 
 {% hint style="info" %}
-Example: a player has `1,000` Focus, so the base window is `64 min`. A Mythical item with `+60 min` raises the final window to `124 min`.
+Example: a player has `1,000` Focus, so the base window is `64 minutes`. A Mythical item with `+60 minutes Flow window` raises the final window to `124 minutes`.
 {% endhint %}
 
 ***
@@ -218,18 +218,18 @@ Base drop rate before item grants:
 | `100,000` | `250%` |
 | `1,000,000` | `300%` |
 
-Item grants add percentage points directly to the final drop rate:
+Item grants add directly to the final shard roll chance:
 
-| Item rarity | Quest Shard Drop Rate grant |
+| Item rarity | Shard roll chance grant |
 | --- | --- |
-| Uncommon | `+5..10 percentage points` |
-| Rare | `+10..25 percentage points` |
-| Epic | `+25..50 percentage points` |
-| Legendary | `+50..75 percentage points` |
-| Mythical | `+75..100 percentage points` |
+| Uncommon | `+5..10% shard roll chance` |
+| Rare | `+11..25% shard roll chance` |
+| Epic | `+26..50% shard roll chance` |
+| Legendary | `+51..75% shard roll chance` |
+| Mythical | `+76..100% shard roll chance` |
 
 {% hint style="info" %}
-Example: a player has `1,000` Loot, so the base drop rate is `150%`. A Mythical item with `+100 percentage points` raises it to `250%`: two guaranteed shard rolls and a 50% chance for a third.
+Example: a player has `1,000` Loot, so the base drop rate is `150%`. A Mythical item with `+100% shard roll chance` raises it to `250%`: two guaranteed shard rolls and a 50% chance for a third.
 {% endhint %}
 
 ***
@@ -248,21 +248,21 @@ $$FinalCompletionModerationPriority=BaseCompletionModerationPriority*(1+\frac{Pr
 
 Item grants increase Completion Moderation Priority multiplicatively. Multiple grants are added together first, then applied as one multiplier.
 
-| Item rarity | Completion Moderation Priority grant |
+| Item rarity | Quest moderation priority grant |
 | --- | --- |
-| Uncommon | `+5..10%` |
-| Rare | `+11..20%` |
-| Epic | `+21..30%` |
-| Legendary | `+31..40%` |
-| Mythical | `+50..60%` |
+| Uncommon | `+5..10% quest moderation priority` |
+| Rare | `+11..20% quest moderation priority` |
+| Epic | `+21..30% quest moderation priority` |
+| Legendary | `+31..40% quest moderation priority` |
+| Mythical | `+50..60% quest moderation priority` |
 
 Examples:
 
 | Build | Final Completion Moderation Priority |
 | --- | --- |
 | `1,000` Priority, no grants | `1,000` |
-| `1,000` Priority, one Rare `+20%` grant | `1,200` |
-| `1,000` Priority, one Mythical `+60%` grant | `1,600` |
+| `1,000` Priority, one Rare `+20% quest moderation priority` grant | `1,200` |
+| `1,000` Priority, one Mythical `+60% quest moderation priority` grant | `1,600` |
 
 To keep low-priority users from being stuck forever, waiting time also matters. Every `10 minutes` already spent in the moderation queue is treated like roughly `+100` Completion Moderation Priority when the queue is compared.
 
