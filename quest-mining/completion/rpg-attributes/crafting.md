@@ -37,13 +37,6 @@ Increases how much Essence is returned when clothing is scrapped.
 | Flat scrapping Essence | Adds Essence after the percentage bonus. | +1 Essence | +2 Essence | +3 Essence | +4 Essence | +5 Essence |
 | Scrapping Essence bonus | Adds percentage points to Essence gained from scrapping. | +2% to +4% | +5% to +8% | +9% to +12% | +13% to +16% | +17% to +20% |
 
-### Examples
-
-| Situation | Calculation | Result |
-| --- | --- | --- |
-| Rare (D) level `10` item, Specialist Scrapping, one A flat grant `+5 Essence` | `floor(32.7 x 160%) + 5` | `57 Essence` returned |
-| Rare (D) level `10` item, Specialist Scrapping, one A bonus grant `+20 pp` | `floor(32.7 x 180%)` | `58 Essence` returned |
-
 ### Mastery Start Values
 
 | Mastery | Trait value at start | System value without direct grants |
@@ -61,6 +54,20 @@ Increases how much Essence is returned when clothing is scrapped.
 | Immortal | `1,000,000` | +150% Essence from scrapping |
 | Absolute | `3,000,000` | +165% Essence from scrapping |
 
+### Examples
+
+**Example 1.** Rare (D) level `10` item, Specialist Scrapping, one A flat grant `+5 Essence`
+
+Calculation: `floor(32.7 x 160%) + 5`.
+
+Result: `57 Essence` returned.
+
+**Example 2.** Rare (D) level `10` item, Specialist Scrapping, one A bonus grant `+20 pp`
+
+Calculation: `floor(32.7 x 180%)`.
+
+Result: `58 Essence` returned.
+
 ## Leveling
 
 **Status:** Live.
@@ -74,13 +81,6 @@ Reduces the Essence cost of raising clothing level.
 | Direct grant | What one grant changes | E | D | C | B | A |
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
 | Level-up cost reduction | Adds percentage points of Essence cost reduction. | +1% to +2% | +3% to +4% | +5% to +6% | +7% to +8% | +9% to +10% |
-
-### Examples
-
-| Situation | Calculation | Result |
-| --- | --- | --- |
-| Rare (D) item to level `10`, Specialist Leveling, no direct grant | `30 x 55%`, rounded up | `17 Essence` level-up cost |
-| Rare (D) item to level `10`, Specialist Leveling, one A grant `+10 pp` | `30 x 90% x 55%`, rounded up | `15 Essence` level-up cost |
 
 ### Mastery Start Values
 
@@ -99,6 +99,20 @@ Reduces the Essence cost of raising clothing level.
 | Immortal | `1,000,000` | 28% level-up cost remains |
 | Absolute | `3,000,000` | 26% level-up cost remains |
 
+### Examples
+
+**Example 1.** Rare (D) item to level `10`, Specialist Leveling, no direct grant
+
+Calculation: `30 x 55%`, rounded up.
+
+Result: `17 Essence` level-up cost.
+
+**Example 2.** Rare (D) item to level `10`, Specialist Leveling, one A grant `+10 pp`
+
+Calculation: `30 x 90% x 55%`, rounded up.
+
+Result: `15 Essence` level-up cost.
+
 ## Merging
 
 **Status:** Planned.
@@ -112,13 +126,6 @@ Planned cost-efficiency trait for merging simple rarity-based consumables such a
 | Direct grant | What one grant changes | E | D | C | B | A |
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
 | Merge cost efficiency | Shrinks the reducible part of the merge cost. | +3% to +5% | +6% to +10% | +11% to +15% | +16% to +20% | +21% to +25% |
-
-### Examples
-
-| Situation | Calculation | Result |
-| --- | --- | --- |
-| Rare (D) merge base `750 Essence`, Specialist Merging, no direct grant | `25% core + 75% reducible curve` | `434 Essence` merge cost |
-| Rare (D) merge base `750 Essence`, Specialist Merging, one A grant `+25% efficiency` | `25% core + reduced 75% part` | `385 Essence` merge cost |
 
 ### Mastery Start Values
 
@@ -137,6 +144,20 @@ Planned cost-efficiency trait for merging simple rarity-based consumables such a
 | Immortal | `1,000,000` | 37.21% merge cost remains |
 | Absolute | `3,000,000` | 35.72% merge cost remains |
 
+### Examples
+
+**Example 1.** Rare (D) merge base `750 Essence`, Specialist Merging, no direct grant
+
+Calculation: `25% core + 75% reducible curve`.
+
+Result: `434 Essence` merge cost.
+
+**Example 2.** Rare (D) merge base `750 Essence`, Specialist Merging, one A grant `+25% efficiency`
+
+Calculation: `25% core + reduced 75% part`.
+
+Result: `385 Essence` merge cost.
+
 ## Rarity
 
 **Status:** Planned.
@@ -150,13 +171,6 @@ Planned cost-efficiency trait for raising rarity on level-based items, especiall
 | Direct grant | What one grant changes | E | D | C | B | A |
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
 | Rarity upgrade efficiency | Shrinks the reducible part of the rarity-upgrade cost. | +3% to +5% | +6% to +10% | +11% to +15% | +16% to +20% | +21% to +25% |
-
-### Examples
-
-| Situation | Calculation | Result |
-| --- | --- | --- |
-| Rare (D) level `10` rarity-upgrade base `285 Essence`, Specialist Rarity, no direct grant | `20% core + 80% reducible curve` | `171 Essence` rarity-upgrade cost |
-| Rare (D) level `10` rarity-upgrade base `285 Essence`, Specialist Rarity, one A grant `+25% efficiency` | `20% core + reduced 80% part` | `149 Essence` rarity-upgrade cost |
 
 ### Mastery Start Values
 
@@ -175,6 +189,20 @@ Planned cost-efficiency trait for raising rarity on level-based items, especiall
 | Immortal | `1,000,000` | 36% rarity-upgrade cost remains |
 | Absolute | `3,000,000` | 34.13% rarity-upgrade cost remains |
 
+### Examples
+
+**Example 1.** Rare (D) level `10` rarity-upgrade base `285 Essence`, Specialist Rarity, no direct grant
+
+Calculation: `20% core + 80% reducible curve`.
+
+Result: `171 Essence` rarity-upgrade cost.
+
+**Example 2.** Rare (D) level `10` rarity-upgrade base `285 Essence`, Specialist Rarity, one A grant `+25% efficiency`
+
+Calculation: `20% core + reduced 80% part`.
+
+Result: `149 Essence` rarity-upgrade cost.
+
 ## Quality
 
 **Status:** Planned.
@@ -188,13 +216,6 @@ Planned perk-roll pressure trait for upgrades and new perk rolls.
 | Direct grant | What one grant changes | E | D | C | B | A |
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
 | Perk roll quality pressure | Adds roll pressure before the quality bias curve. | +1 pressure to +2 pressure | +2 pressure to +3 pressure | +3 pressure to +4 pressure | +4 pressure to +5 pressure | +5 pressure to +6 pressure |
-
-### Examples
-
-| Situation | Calculation | Result |
-| --- | --- | --- |
-| Specialist Quality, one C grant `+4 pressure` | `37.17%` base bias with added pressure | `45.74%` roll bias |
-| Specialist Quality, one A grant `+6 pressure` | `37.17%` base bias with added pressure | `49.14%` roll bias |
 
 ### Mastery Start Values
 
@@ -212,3 +233,17 @@ Planned perk-roll pressure trait for upgrades and new perk rolls.
 | Mystic | `300,000` | 64.77% roll bias |
 | Immortal | `1,000,000` | 68.4% roll bias |
 | Absolute | `3,000,000` | 71.23% roll bias |
+
+### Examples
+
+**Example 1.** Specialist Quality, one C grant `+4 pressure`
+
+Calculation: `37.17%` base bias with added pressure.
+
+Result: `45.74%` roll bias.
+
+**Example 2.** Specialist Quality, one A grant `+6 pressure`
+
+Calculation: `37.17%` base bias with added pressure.
+
+Result: `49.14%` roll bias.

@@ -37,13 +37,6 @@ Moves moderation-required quest completions higher in the review queue.
 | Flat moderation priority | Adds queue priority measured as minutes of waiting advantage. | +10 min | +20 min | +30 min | +40 min | +50 min |
 | Percent moderation priority | Scales the base priority from the trait. | +3% to +5% | +6% to +10% | +11% to +15% | +16% to +20% | +21% to +25% |
 
-### Examples
-
-| Situation | Calculation | Result |
-| --- | --- | --- |
-| Specialist Priority, one A flat grant `+50 min` | `40 min + 50 min` | `90 min` queue advantage |
-| Specialist Priority, one A percent grant `+25%` | `40 min x 125%` | `50 min` queue advantage |
-
 ### Mastery Start Values
 
 | Mastery | Trait value at start | System value without direct grants |
@@ -61,6 +54,20 @@ Moves moderation-required quest completions higher in the review queue.
 | Immortal | `1,000,000` | 100 min queue advantage |
 | Absolute | `3,000,000` | 110 min queue advantage |
 
+### Examples
+
+**Example 1.** Specialist Priority, one A flat grant `+50 min`
+
+Calculation: `40 min + 50 min`.
+
+Result: `90 min` queue advantage.
+
+**Example 2.** Specialist Priority, one A percent grant `+25%`
+
+Calculation: `40 min x 125%`.
+
+Result: `50 min` queue advantage.
+
 ## Flow
 
 **Status:** Live.
@@ -74,13 +81,6 @@ Increases Mining Point rewards while the player keeps completing quests inside t
 | Direct grant | What one grant changes | E | D | C | B | A |
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
 | Flow bonus | Adds percentage points to the active Flow reward bonus. | +1% to +2% | +3% to +4% | +5% to +6% | +7% to +8% | +9% to +10% |
-
-### Examples
-
-| Situation | Calculation | Result |
-| --- | --- | --- |
-| Specialist Flow, one D grant `+4 pp` | `45% + 4 pp` | `49%` active Flow bonus |
-| Specialist Flow, one A grant `+10 pp` | `45% + 10 pp` | `55%` active Flow bonus |
 
 ### Mastery Start Values
 
@@ -99,6 +99,20 @@ Increases Mining Point rewards while the player keeps completing quests inside t
 | Immortal | `1,000,000` | +72% active Flow bonus |
 | Absolute | `3,000,000` | +74% active Flow bonus |
 
+### Examples
+
+**Example 1.** Specialist Flow, one D grant `+4 pp`
+
+Calculation: `45% + 4 pp`.
+
+Result: `49%` active Flow bonus.
+
+**Example 2.** Specialist Flow, one A grant `+10 pp`
+
+Calculation: `45% + 10 pp`.
+
+Result: `55%` active Flow bonus.
+
 ## Focus
 
 **Status:** Live.
@@ -112,13 +126,6 @@ Sets how long Flow stays active after a successful mining action.
 | Direct grant | What one grant changes | E | D | C | B | A |
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
 | Flow window | Adds minutes to the active Flow window. | +5 min to +10 min | +11 min to +20 min | +21 min to +30 min | +31 min to +45 min | +46 min to +60 min |
-
-### Examples
-
-| Situation | Calculation | Result |
-| --- | --- | --- |
-| Specialist Focus, one C grant `+30 min` | `80 min + 30 min` | `110 min` Flow window |
-| Specialist Focus, one A grant `+60 min` | `80 min + 60 min` | `140 min` Flow window |
 
 ### Mastery Start Values
 
@@ -137,6 +144,20 @@ Sets how long Flow stays active after a successful mining action.
 | Immortal | `1,000,000` | 200 min Flow window |
 | Absolute | `3,000,000` | 220 min Flow window |
 
+### Examples
+
+**Example 1.** Specialist Focus, one C grant `+30 min`
+
+Calculation: `80 min + 30 min`.
+
+Result: `110 min` Flow window.
+
+**Example 2.** Specialist Focus, one A grant `+60 min`
+
+Calculation: `80 min + 60 min`.
+
+Result: `140 min` Flow window.
+
 ## Power
 
 **Status:** Live.
@@ -150,13 +171,6 @@ Increases Mining Power, so the same completed quests earn more Mining Points.
 | Direct grant | What one grant changes | E | D | C | B | A |
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
 | Mining Power | Increases the trait-derived Mining Power by percent. | +3% to +5% | +6% to +10% | +11% to +15% | +16% to +20% | +21% to +25% |
-
-### Examples
-
-| Situation | Calculation | Result |
-| --- | --- | --- |
-| Specialist Power, one D grant `+10%` | `45% + floor(45 x 10%)` | `49%` Mining Power |
-| Specialist Power, one A grant `+25%` | `45% + floor(45 x 25%)` | `56%` Mining Power |
 
 ### Mastery Start Values
 
@@ -175,6 +189,20 @@ Increases Mining Power, so the same completed quests earn more Mining Points.
 | Immortal | `1,000,000` | +72% Mining Power |
 | Absolute | `3,000,000` | +74% Mining Power |
 
+### Examples
+
+**Example 1.** Specialist Power, one D grant `+10%`
+
+Calculation: `45% + floor(45 x 10%)`.
+
+Result: `49%` Mining Power.
+
+**Example 2.** Specialist Power, one A grant `+25%`
+
+Calculation: `45% + floor(45 x 25%)`.
+
+Result: `56%` Mining Power.
+
 ## Loot
 
 **Status:** Live.
@@ -188,13 +216,6 @@ Controls how often quest rewards produce Chest Shard rolls.
 | Direct grant | What one grant changes | E | D | C | B | A |
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
 | Shard roll chance | Adds percentage points to the shard-roll rate. | +5% to +10% | +11% to +20% | +21% to +30% | +31% to +40% | +41% to +50% |
-
-### Examples
-
-| Situation | Calculation | Result |
-| --- | --- | --- |
-| Specialist Loot, one E grant `+10 pp` | `90% + 10 pp` | `1` guaranteed shard roll |
-| Specialist Loot, one A grant `+50 pp` | `90% + 50 pp` | `1` guaranteed shard roll + `40%` extra roll chance |
 
 ### Mastery Start Values
 
@@ -212,3 +233,17 @@ Controls how often quest rewards produce Chest Shard rolls.
 | Mystic | `300,000` | 1 guaranteed + 90% extra shard roll |
 | Immortal | `1,000,000` | 2 guaranteed + 10% extra shard roll |
 | Absolute | `3,000,000` | 2 guaranteed + 30% extra shard roll |
+
+### Examples
+
+**Example 1.** Specialist Loot, one E grant `+10 pp`
+
+Calculation: `90% + 10 pp`.
+
+Result: `1` guaranteed shard roll.
+
+**Example 2.** Specialist Loot, one A grant `+50 pp`
+
+Calculation: `90% + 50 pp`.
+
+Result: `1` guaranteed shard roll + `40%` extra roll chance.

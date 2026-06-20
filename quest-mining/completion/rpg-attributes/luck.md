@@ -36,13 +36,6 @@ Makes missing shard pieces more likely when shard rewards are rolled.
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
 | Missing shard weight | Increases the weight of missing shard pieces. | +50% to +100% | +101% to +175% | +176% to +250% | +251% to +325% | +326% to +400% |
 
-### Examples
-
-| Situation | Calculation | Result |
-| --- | --- | --- |
-| Specialist Shards, one D grant `+175%` | `x8 x 275%` | `x22` missing shard weight |
-| Specialist Shards, one A grant `+400%` | `x8 x 500%` | `x40` missing shard weight |
-
 ### Mastery Start Values
 
 | Mastery | Trait value at start | System value without direct grants |
@@ -60,6 +53,20 @@ Makes missing shard pieces more likely when shard rewards are rolled.
 | Immortal | `1,000,000` | x64 missing shard weight |
 | Absolute | `3,000,000` | x88.65 missing shard weight |
 
+### Examples
+
+**Example 1.** Specialist Shards, one D grant `+175%`
+
+Calculation: `x8 x 275%`.
+
+Result: `x22` missing shard weight.
+
+**Example 2.** Specialist Shards, one A grant `+400%`
+
+Calculation: `x8 x 500%`.
+
+Result: `x40` missing shard weight.
+
 ## Boxes
 
 **Status:** Live.
@@ -73,13 +80,6 @@ Adds a chance to receive one extra higher-rarity lootbox when opening a Common L
 | Direct grant | What one grant changes | E | D | C | B | A |
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
 | Extra higher-rarity lootbox chance | Adds percentage points to the bonus lootbox chance. | +0.5 pp | +1 pp | +1.5 pp | +2 pp | +2.5 pp |
-
-### Examples
-
-| Situation | Calculation | Result |
-| --- | --- | --- |
-| Specialist Boxes, one D grant `+1 pp` | `8% + 1 pp` | `9%` extra higher-rarity lootbox chance |
-| Specialist Boxes, one A grant `+2.5 pp` | `8% + 2.5 pp` | `10.5%` extra higher-rarity lootbox chance |
 
 ### Mastery Start Values
 
@@ -98,6 +98,20 @@ Adds a chance to receive one extra higher-rarity lootbox when opening a Common L
 | Immortal | `1,000,000` | 12.2% extra higher-rarity lootbox chance |
 | Absolute | `3,000,000` | 12.53% extra higher-rarity lootbox chance |
 
+### Examples
+
+**Example 1.** Specialist Boxes, one D grant `+1 pp`
+
+Calculation: `8% + 1 pp`.
+
+Result: `9%` extra higher-rarity lootbox chance.
+
+**Example 2.** Specialist Boxes, one A grant `+2.5 pp`
+
+Calculation: `8% + 2.5 pp`.
+
+Result: `10.5%` extra higher-rarity lootbox chance.
+
 ## Chance
 
 **Status:** Live.
@@ -111,13 +125,6 @@ Controls how often Luck activates on actions that support lucky effects.
 | Direct grant | What one grant changes | E | D | C | B | A |
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
 | Luck activation weight | Increases activation weight before final chance is calculated. | +25% to +50% | +51% to +75% | +76% to +100% | +101% to +125% | +126% to +150% |
-
-### Examples
-
-| Situation | Calculation | Result |
-| --- | --- | --- |
-| Specialist Chance, one C grant `+100%` activation weight | `25.5%` base chance after doubled weight | `33.77%` Luck activation chance |
-| Specialist Chance, one A grant `+150%` activation weight | `25.5%` base chance after 2.5x weight | `36.12%` Luck activation chance |
 
 ### Mastery Start Values
 
@@ -136,6 +143,20 @@ Controls how often Luck activates on actions that support lucky effects.
 | Immortal | `1,000,000` | 40.2% Luck activation chance |
 | Absolute | `3,000,000` | 41.34% Luck activation chance |
 
+### Examples
+
+**Example 1.** Specialist Chance, one C grant `+100%` activation weight
+
+Calculation: `25.5%` base chance after doubled weight.
+
+Result: `33.77%` Luck activation chance.
+
+**Example 2.** Specialist Chance, one A grant `+150%` activation weight
+
+Calculation: `25.5%` base chance after 2.5x weight.
+
+Result: `36.12%` Luck activation chance.
+
 ## Bonus
 
 **Status:** Live.
@@ -150,13 +171,6 @@ Controls how strong lucky outcomes are after Luck activates.
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
 | Lucky reward power | Adds percentage points to lucky reward power. | +3% to +5% | +6% to +10% | +11% to +15% | +16% to +20% | +21% to +25% |
 | Lucky discount power | Adds percentage points to lucky discount strength, subject to the 75% discount cap. | +1% | +2% | +3% | +4% | +5% |
-
-### Examples
-
-| Situation | Calculation | Result |
-| --- | --- | --- |
-| Specialist Bonus, one A reward grant `+25 pp` | `123% + 25 pp` | `148%` lucky reward power |
-| Specialist Bonus, one A discount grant `+5 pp` | `27.58% + 5 pp` | `32.58%` lucky discount rate |
 
 ### Mastery Start Values
 
@@ -175,28 +189,33 @@ Controls how strong lucky outcomes are after Luck activates.
 | Immortal | `1,000,000` | +218% reward power / 34.3% discount |
 | Absolute | `3,000,000` | +227% reward power / 34.7% discount |
 
+### Examples
+
+**Example 1.** Specialist Bonus, one A reward grant `+25 pp`
+
+Calculation: `123% + 25 pp`.
+
+Result: `148%` lucky reward power.
+
+**Example 2.** Specialist Bonus, one A discount grant `+5 pp`
+
+Calculation: `27.58% + 5 pp`.
+
+Result: `32.58%` lucky discount rate.
+
 ## Cards
 
 **Status:** Live.
 
 Increases the number of turns in Common Lootbox openings.
 
-**How it resolves.** Base turns are `floor(log10(Cards)) + 1`. Direct turn grants increase expected turns. The integer part is guaranteed; the fractional part is a roll for one extra turn. This is why the same build can sometimes open 4 turns and sometimes 5.
-
-Example: at Specialist (`1,000` Cards), base is `4` turns. One Mythical Cards grant can roll `+21%` to `+25%`, so expected turns become `4.84` to `5.00`. That means `4` guaranteed turns plus an `84%` chance for a fifth turn at `+21%`, and `5` guaranteed turns at `+25%`.
+**How it resolves.** Base turns are `floor(log10(Cards)) + 1`. Direct turn grants increase expected turns. Expected turns are then resolved into guaranteed turns and a possible extra-turn roll: the integer part is guaranteed, and the fractional part is the chance to receive one additional turn.
 
 ### Direct Grant Ranges
 
 | Direct grant | What one grant changes | E | D | C | B | A |
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
 | Common Lootbox expected turns | Increases expected turns before guaranteed and extra-turn resolution. | +3% to +5% | +6% to +10% | +11% to +15% | +16% to +20% | +21% to +25% |
-
-### Examples
-
-| Situation | Calculation | Result |
-| --- | --- | --- |
-| Specialist Cards, one A grant at `+21%` | `4 x 121% = 4.84 expected` | `4` guaranteed turns + `84%` chance for a fifth |
-| Specialist Cards, one A grant at `+25%` | `4 x 125% = 5 expected` | `5` guaranteed turns |
 
 ### Mastery Start Values
 
@@ -214,3 +233,25 @@ Example: at Specialist (`1,000` Cards), base is `4` turns. One Mythical Cards gr
 | Mystic | `300,000` | 6 turns |
 | Immortal | `1,000,000` | 7 turns |
 | Absolute | `3,000,000` | 7 turns |
+
+### Examples
+
+**Example 1. Specialist Cards, one low A grant at `+21%`.**
+
+Start from the mastery table: Specialist Cards gives `4` base turns.
+
+Apply the direct grant: `4 x 121% = 4.84` expected turns.
+
+Resolve expected turns: `floor(4.84) = 4` guaranteed turns, and the remaining `0.84` becomes an `84%` chance for one extra turn.
+
+Result: the opening starts with `4` turns and has an `84%` chance to become `5` turns.
+
+**Example 2. Specialist Cards, one high A grant at `+25%`.**
+
+Start from the mastery table: Specialist Cards gives `4` base turns.
+
+Apply the direct grant: `4 x 125% = 5.00` expected turns.
+
+Resolve expected turns: `floor(5.00) = 5` guaranteed turns, with no fractional part left for an extra-turn roll.
+
+Result: the opening starts with `5` guaranteed turns.
