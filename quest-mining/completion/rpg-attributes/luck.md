@@ -209,7 +209,7 @@ Result: `32.58%` lucky discount rate.
 
 Increases the number of turns in Common Lootbox openings.
 
-**How it resolves.** Base turns are `floor(log10(Cards)) + 1`. Direct turn grants increase expected turns. Expected turns are then resolved into guaranteed turns and a possible extra-turn roll: the integer part is guaranteed, and the fractional part is the chance to receive one additional turn.
+**How it resolves.** Base turns come from the current mastery row in the table below. Guest Cards remain at 1 turn until the trait reaches Novice at `25`. Direct turn grants increase expected turns. Expected turns are then resolved into guaranteed turns and a possible extra-turn roll: the integer part is guaranteed, and the fractional part is the chance to receive one additional turn.
 
 ### Direct Grant Ranges
 
