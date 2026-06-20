@@ -36,6 +36,13 @@ Reduces the marketplace commission paid by the seller when an item sells.
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
 | Marketplace fee efficiency | Shrinks the reducible part of the seller fee. | +3% to +5% | +6% to +10% | +11% to +15% | +16% to +20% | +21% to +25% |
 
+### Examples
+
+| Situation | Calculation | Result |
+| --- | --- | --- |
+| `1,000 Gold` item sale, Specialist Fee, no direct grant | `1,000 x 16.5%` | `165 Gold` seller fee |
+| `1,000 Gold` item sale, Specialist Fee, one A grant `+25% efficiency` | `1,000 x 13.8%` | `138 Gold` seller fee |
+
 ### Mastery Start Values
 
 | Mastery | Trait value at start | System value without direct grants |
@@ -67,6 +74,13 @@ Planned auction trait that makes the same Gold bid compete as a stronger offer.
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
 | Auction bid efficiency | Improves the effective bid power of Gold auction offers. | +3% to +5% | +6% to +10% | +11% to +15% | +16% to +20% | +21% to +25% |
 
+### Examples
+
+| Situation | Calculation | Result |
+| --- | --- | --- |
+| Planned auction, listed price `1,000 Gold`, Specialist Bid, no direct grant | `1,000 x 90%` effective price | `900 Gold` effective requirement |
+| Planned auction, listed price `1,000 Gold`, Specialist Bid, one A grant `+25% efficiency` | `1,000 x 88%` effective price | `880 Gold` effective requirement |
+
 ### Mastery Start Values
 
 | Mastery | Trait value at start | System value without direct grants |
@@ -97,6 +111,13 @@ Planned Gem Points efficiency trait for liquidity positioning.
 | Direct grant | What one grant changes | E | D | C | B | A |
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
 | Gem Points efficiency | Improves Gem Points efficiency for planned liquidity actions. | +3% to +5% | +6% to +10% | +11% to +15% | +16% to +20% | +21% to +25% |
+
+### Examples
+
+| Situation | Calculation | Result |
+| --- | --- | --- |
+| Planned Gem Points action, base requirement `1,000`, Specialist Liquidity, no direct grant | `1,000 x 90%` | `900` effective requirement |
+| Planned Gem Points action, base requirement `1,000`, Specialist Liquidity, one A grant `+25% efficiency` | `1,000 x 88%` | `880` effective requirement |
 
 ### Mastery Start Values
 
@@ -130,6 +151,13 @@ Improves how much Silver a player receives for each Gold converted.
 | Flat Gold to Silver conversion | Adds exact Silver per Gold after the conversion curve. | +0.5 Silver/Gold | +1 Silver/Gold | +1.5 Silver/Gold | +2 Silver/Gold | +2.5 Silver/Gold |
 | Conversion pressure | Adds pressure before the conversion rate is derived. | +0.5 pressure to +1 pressure | +1 pressure to +1.5 pressure | +1.5 pressure to +2 pressure | +2 pressure to +2.5 pressure | +2.5 pressure to +3 pressure |
 
+### Examples
+
+| Situation | Calculation | Result |
+| --- | --- | --- |
+| `100 Gold`, Specialist Conversion, one A flat grant `+2.5 Silver/Gold` | `100 x 20.3261` | `2,032.61 Silver` |
+| `100 Gold`, Specialist Conversion, one A pressure grant `+3 pressure` | `100 x 19.2308` | `1,923.08 Silver` |
+
 ### Mastery Start Values
 
 | Mastery | Trait value at start | System value without direct grants |
@@ -161,6 +189,13 @@ Increases how many active marketplace listings a player can keep.
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
 | Flat marketplace slots | Adds active listing slots directly. | +1 slot | +2 slots | +3 slots | +4 slots | +5 slots |
 | Marketplace slot percent | Scales the trait-derived base listing slots. | +3% to +5% | +6% to +10% | +11% to +15% | +16% to +20% | +21% to +25% |
+
+### Examples
+
+| Situation | Calculation | Result |
+| --- | --- | --- |
+| Specialist Slots, one A flat grant `+5 slots` | `37 + 5` | `42` active marketplace slots |
+| Specialist Slots, one A percent grant `+25%` | `floor(37 x 125%)` | `46` active marketplace slots |
 
 ### Mastery Start Values
 

@@ -37,6 +37,13 @@ Makes carried items count as lighter while they are in inventory. It does not re
 | Flat item weight reduction | Subtracts grams from each counted carried item before percent reductions. | +1 kg to +2 kg | +3 kg to +4 kg | +5 kg to +6 kg | +7 kg to +8 kg | +9 kg to +10 kg |
 | Carried item weight reduction | Reduces the remaining carried item weight before the trait reduction. | +1% to +2% | +3% to +4% | +5% to +6% | +7% to +8% | +9% to +10% |
 
+### Examples
+
+| Situation | Calculation | Result |
+| --- | --- | --- |
+| `20 kg` counted item, Specialist Levitation, one A flat grant `+10 kg` | `(20 - 10) x 55%` | `5.5 kg` counted weight |
+| `20 kg` counted item, Specialist Levitation, one A percent grant `+10%` | `20 x 90% x 55%` | `9.9 kg` counted weight |
+
 ### Mastery Start Values
 
 | Mastery | Trait value at start | System value without direct grants |
@@ -68,6 +75,13 @@ Reduces the Essence cost of equipping or unequipping clothing.
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
 | Flat equip cost reduction | Subtracts Essence from the base equip cost. | -1 Essence | -2 Essence | -3 Essence | -4 Essence | -5 Essence |
 | Equip cost reduction | Reduces the base equip cost by percent before the trait reduction. | +1% to +3% | +4% to +6% | +7% to +9% | +10% to +12% | +13% to +15% |
+
+### Examples
+
+| Situation | Calculation | Result |
+| --- | --- | --- |
+| Rare (D) level `10` item, Specialist Equipping, one A flat grant `-5 Essence` | `(7 - 5) x 55%`, rounded up | `2 Essence` equip cost |
+| Rare (D) level `10` item, Specialist Equipping, one A percent grant `+15%` | `7 x 85% x 55%`, rounded up | `4 Essence` equip cost |
 
 ### Mastery Start Values
 
@@ -101,6 +115,13 @@ Lets a character use more of a high-level item before fully matching the item le
 | Flat level-gap reduction | Subtracts levels from the item-level gap. | -1 level | -2 levels | -3 levels | -4 levels | -5 levels |
 | Percent level-gap reduction | Reduces the remaining item-level gap before Overlevel applies. | +1% | +2% | +3% | +4% | +5% |
 
+### Examples
+
+| Situation | Calculation | Result |
+| --- | --- | --- |
+| Character level `10`, item level `20`, Specialist Overlevel, one A flat grant `-5 levels` | `(10 - 5) x 55%` | `2.75` levels remain; Level Fit is `86.25%` |
+| Character level `10`, item level `20`, Specialist Overlevel, one A percent grant `-5%` | `10 x 95% x 55%` | `5.23` levels remain; Level Fit is `73.88%` |
+
 ### Mastery Start Values
 
 | Mastery | Trait value at start | System value without direct grants |
@@ -133,6 +154,13 @@ Increases the total carried weight limit of the inventory.
 | Flat inventory limit | Adds carrying weight directly. | +5 kg to +10 kg | +11 kg to +20 kg | +21 kg to +30 kg | +31 kg to +40 kg | +41 kg to +50 kg |
 | Inventory limit percent | Scales the base-plus-flat carrying limit. | +3% to +5% | +6% to +10% | +11% to +15% | +16% to +20% | +21% to +25% |
 
+### Examples
+
+| Situation | Calculation | Result |
+| --- | --- | --- |
+| Specialist Capacity, one A flat grant `+50 kg` | `50 kg + 50 kg` | `100 kg` inventory limit |
+| Specialist Capacity, one A percent grant `+25%` | `50 kg x 125%` | `62.5 kg` inventory limit |
+
 ### Mastery Start Values
 
 | Mastery | Trait value at start | System value without direct grants |
@@ -163,6 +191,13 @@ Ignores the heaviest carried items before inventory weight is counted.
 | Direct grant | What one grant changes | E | D | C | B | A |
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
 | Ignored heavy items | Adds more of the heaviest carried items to the ignored set. | +1 item | +2 items | +3 items | +4 items | +5 items |
+
+### Examples
+
+| Situation | Calculation | Result |
+| --- | --- | --- |
+| Specialist Exemption, one D grant `+2 items` | `4 + 2` | `6` heaviest carried items ignored |
+| Specialist Exemption, one A grant `+5 items` | `4 + 5` | `9` heaviest carried items ignored |
 
 ### Mastery Start Values
 

@@ -37,6 +37,13 @@ Reduces the base stamina cost of actions before equipment pressure is added.
 | Base stamina cost reduction | Reduces raw base action cost by percent before the trait multiplier. | +1% | +2% | +3% | +4% | +5% |
 | Flat stamina cost reduction | Subtracts stamina from raw base action cost before the trait multiplier. | -1 stamina | -1 stamina to -2 stamina | -2 stamina to -3 stamina | -3 stamina to -4 stamina | -4 stamina to -5 stamina |
 
+### Examples
+
+| Situation | Calculation | Result |
+| --- | --- | --- |
+| Raw action cost `100`, Specialist Efficiency, one A rate grant `+5%` | `100 x 95% x 0.6478`, rounded up | `62 stamina` base action cost |
+| Raw action cost `100`, Specialist Efficiency, one A flat grant `-5 stamina` | `(100 - 5) x 0.6478`, rounded up | `62 stamina` base action cost |
+
 ### Mastery Start Values
 
 | Mastery | Trait value at start | System value without direct grants |
@@ -67,6 +74,13 @@ Planned trait for improving future Stamina Potion effects.
 | Direct grant | What one grant changes | E | D | C | B | A |
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
 | Stamina Potion effect | Adds percentage points to potion effect before the trait curve. | +2% to +3% | +4% to +6% | +7% to +9% | +10% to +12% | +13% to +15% |
+
+### Examples
+
+| Situation | Calculation | Result |
+| --- | --- | --- |
+| Future potion with `100` base effect, Specialist Absorption, no direct grant | `100 x (1 + 97.83%)` | `197.83` effective potion value |
+| Future potion with `100` base effect, Specialist Absorption, one A grant `+15 pp` | `100 x (1 + 106.96%)` | `206.96` effective potion value |
 
 ### Mastery Start Values
 
@@ -100,6 +114,13 @@ Increases Maximum Stamina, letting a character perform more actions before resti
 | Flat Maximum Stamina | Adds Maximum Stamina directly. | +100 stamina to +250 stamina | +251 stamina to +500 stamina | +501 stamina to +1,000 stamina | +1,001 stamina to +2,000 stamina | +2,001 stamina to +5,000 stamina |
 | Maximum Stamina percent | Scales the trait-derived stamina pool. | +2% to +3% | +4% to +6% | +7% to +9% | +10% to +12% | +13% to +15% |
 
+### Examples
+
+| Situation | Calculation | Result |
+| --- | --- | --- |
+| Specialist Reserve, one A flat grant `+5,000 stamina` | `6,009 + 5,000` | `11,009` Maximum Stamina |
+| Specialist Reserve, one A percent grant `+15%` | `floor(6,009 x 115%)` | `6,910` Maximum Stamina |
+
 ### Mastery Start Values
 
 | Mastery | Trait value at start | System value without direct grants |
@@ -132,6 +153,13 @@ Increases stamina recovered per minute.
 | Flat stamina recovery | Adds stamina recovered per minute. | +4 stamina/min to +8 stamina/min | +12 stamina/min to +16 stamina/min | +20 stamina/min to +24 stamina/min | +28 stamina/min to +32 stamina/min | +36 stamina/min to +40 stamina/min |
 | Stamina recovery speed | Scales stamina recovery speed by percent. | +2% to +3% | +4% to +6% | +7% to +9% | +10% to +12% | +13% to +15% |
 
+### Examples
+
+| Situation | Calculation | Result |
+| --- | --- | --- |
+| Specialist Recovery, one A flat grant `+40 stamina/min` | `12.52 + 40` | `52.52 stamina/min` |
+| Specialist Recovery, one A percent grant `+15%` | `12.52 x 115%` | `14.4 stamina/min` |
+
 ### Mastery Start Values
 
 | Mastery | Trait value at start | System value without direct grants |
@@ -162,6 +190,13 @@ Reduces the stamina pressure created by equipped item weight.
 | Direct grant | What one grant changes | E | D | C | B | A |
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
 | Equipment pressure reduction | Reduces raw equipment stamina pressure before the trait reduction. | +2% to +3% | +4% to +6% | +7% to +9% | +10% to +12% | +13% to +15% |
+
+### Examples
+
+| Situation | Calculation | Result |
+| --- | --- | --- |
+| Raw equipment pressure `100`, Specialist Relief, no direct grant | `100 x 100 / (100 + 225)` | `31` pressure points remain |
+| Raw equipment pressure `100`, Specialist Relief, one A grant `+15%` | `100 x 85% x 100 / (100 + 225)` | `27` pressure points remain |
 
 ### Mastery Start Values
 
