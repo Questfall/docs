@@ -4,32 +4,48 @@ icon: cart-shopping
 
 # Marketplace
 
-Many crypto projects consider popular third-party marketplaces such as OpenSea as a means of attracting an audience and selling their NFTs.
+The marketplace lets players trade RPG items with each other. It is a core part of the item economy because clothing value depends on build fit, not only on rarity.
 
-Unlike this approach, the marketplace in Questfall plays a crucial role in the overall mechanic as a means of extracting value from the system through trading, and is a necessary piece needed for various user strategies based on crafting and trading.
+## Live Status
 
-The main idea behind item trading in Questfall is that there are actually two marketplaces: one for trading of low rarity items (F,E,D) with Gold, and another for trading of higher rarity items (C,B,A) with QFT.
+The current live marketplace supports item listings, purchases, seller fees, and marketplace slot limits.
 
-{% hint style="info" %}
-Two different marketplaces are brought together under one interface.
-{% endhint %}
+| Surface | Status |
+| --- | --- |
+| Gold-denominated item trading | Live |
+| Marketplace listing slots | Live |
+| Trading Fee reduction | Live |
+| Lucky fee discount | Live |
+| QFT-denominated high-rarity marketplace | Planned |
+| Gem-based rarity evolution trade loop | Planned |
+| Auction-style item pricing | Planned |
 
-This approach allows the value of in-game Gold to be extracted onto the blockchain by crafting higher rarity items and selling those items for QFT.
+## Why The Marketplace Matters
 
-For example, a user can use Gold to purchase an item and a Gem, both of rarity D, and then consume the Gem to evolve the item to rarity C, which can be sold for QFT.
+Players need different items:
 
-In both marketplaces, 10% of the item price is burned as a fee - Gold for lower rarity items and QFT for higher rarity items. The fee is deducted from the total amount a seller pays, so a buyer receives the price paid minus the fee.
+* miners may want Mining Aspect and Loot or Power perks;
+* traders may want Fee, Conversion, or Slots support;
+* stamina-heavy players may want Reserve, Recovery, Efficiency, or Relief;
+* luck players may want Cards, Shards, Boxes, Chance, or Bonus;
+* advanced builds may care about exact slot, set, origin, and booster links.
 
-{% hint style="info" %}
-While in Questfall v.1 a seller must set a price to list an item on the marketplace, we are looking to implement auction-based pricing for both marketplaces in [future releases](../roadmap/future-versions.md).
-{% endhint %}
+This makes the same clothing item valuable to one player and less useful to another.
 
-Since items listed on the in-game marketplace do not take up inventory space, the marketplace can be used as storage space, making the inventory weight limit meaningless. To prevent such abuse, there are a finite number of marketplace slots.
+## Fees
 
-A first-level character starts with 1 marketplace slot, which can be increased by adding attribute points to the character's [Trading](../quest-mining/completion/rpg-attributes/trading.md) attribute - each point opens another slot.
+When an item sells, the marketplace charges a seller fee. The fee is burned.
 
-{% hint style="info" %}
-The trading attribute also [reduces](../quest-mining/completion/rpg-attributes/trading.md#marketplace-fee) the fee a seller pays for each trade.
-{% endhint %}
+The [Trading Fee](../quest-mining/completion/rpg-attributes/trading.md#fee) trait and related item grants can reduce this fee. Luck can also activate on a sale and discount the fee.
 
-In summary, the entire marketplace mechanic in Questfall allows for convenient RPG item trading, which forces Gold and QFT burning, and complements crafting, enabling value extraction on the blockchain. It also makes mining much more personal, engaging, and dependent on the results of the work of others.
+## Marketplace Slots
+
+Marketplace listings do not count as inventory weight. To prevent the marketplace from becoming unlimited storage, each player has a limited number of active listing slots.
+
+[Trading Slots](../quest-mining/completion/rpg-attributes/trading.md#slots) increases that active listing capacity.
+
+If equipment changes reduce a player's slot capacity below their active listing count, listings above the limit can be returned to inventory.
+
+## Planned Economy Links
+
+The broader economy still includes planned surfaces such as QFT-denominated high-rarity trading, Gem-based item rarity evolution, and auction-style pricing. These are important for the long-term design, but they should not be described as live marketplace behavior until their product surfaces are launched.

@@ -22,17 +22,17 @@ For example, if the price of a QFT is $10 and the weekly issuance is 30,000 QFTs
 
 However, over the course of a year, assuming the price of QFT and issuance remain the same, the total increase in liquidity will be $780,000. And if the QFT price doubles, the dollar estimate of liquidity growth will also double.
 
-To further increase the rate at which liquidity grows, there will be an additional reward to incentivize the burning of liquidity - Gems that allow users to increase the rarity tier of clothing RPG items.
+To further increase the rate at which liquidity grows, the broader RPG economy plans an additional reward layer: Gems that can support future clothing rarity evolution.
 
-Obviously, users will increase their chances of getting more rare Gems by maximizing their total share of burnt liquidity over the course of the week.
+The Gem reward layer is planned, not part of the current live RPG item loop. When it is launched, users should be able to improve their Gem reward position by increasing their share of burnt liquidity over the course of the week.
 
 {% hint style="info" %}
 However, the amount of liquidity burned is not the only parameter that affects the distribution of Gem rewards. See the [Gems](../quest-mining/completion/rpg-items/gems.md) article to learn more.
 {% endhint %}
 
-In this way, the more activity in the system, the higher the demand for Gems, the more their price will rise in the secondary market, and the faster liquidity will grow, since the Liquidity Program is the only way to release Gems into circulation.&#x20;
+In this way, future demand for Gems can support liquidity growth: the more valuable Gems become in the secondary market, the stronger the incentive to support the liquidity program.
 
-Therefore, depending on the price of Gems on the secondary market, users will be adding significantly more liquidity than the weekly QFT reward.
+Therefore, depending on the future price of Gems on the secondary market, users may add significantly more liquidity than the weekly QFT reward alone would imply.
 
 {% hint style="info" %}
 In our estimation, orders of magnitude more.

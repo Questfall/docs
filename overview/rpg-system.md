@@ -4,71 +4,65 @@ icon: dice-d8
 
 # RPG System
 
-As shown in previous articles, Deflationary Mining has many advantages that cannot be achieved with more conventional approaches. However, it is still not a silver bullet because it creates new challenges to overcome as the main advantage of deflation becomes its main weakness.
+Questfall's RPG system turns quest activity into character progression, item demand, and player strategy.
 
-On the one hand, deflation makes any asset a good investment because of its potential price increase, but on the other hand, if that increase is realized, it pushes up the real cost of using the system when payments are denominated in the currency that gets stronger over time.
+At a high level, the live loop is:
 
-{% hint style="info" %}
-This can be clearly seen in the examples of BTC or ETH - as the price of blockchain cryptocurrencies rises, the fees denominated in them become very expensive in dollars.
-{% endhint %}
+```text
+complete quests
+-> earn character progress, Mining rewards, and Chest Shards
+-> open lootboxes
+-> receive clothing items
+-> equip, sell, scrap, or level up those items
+-> improve future questing, crafting, trading, stamina, and luck outcomes
+```
 
-This problem can be easily solved by introducing another token for payments. In this case, two distinct functions of money - store of value and medium of exchange - which for some reason are always combined in a single currency, are instead assigned to different assets.
+## What Is Live Now
 
-While a store of value must be deflationary to fulfil its function, the medium of exchange should not be too volatile so that prices do not fluctuate too much relative to other goods and services in the economy.
+| Area | Live gameplay |
+| --- | --- |
+| Character attributes | Players level up and spend attribute points across six attributes. |
+| Clothing | Lootboxes create clothing with rarity, level, weight, Aspect, perks, set, and origin. |
+| Equipment | Clothing can be equipped, unequipped, sold, scrapped, and levelled up. |
+| Marketplace | Items can be listed and sold. Trading affects fees and active listing slots. |
+| Mining rewards | Mining affects quest reward power, Flow, moderation priority, and Chest Shard rolls. |
+| Stamina | Quest actions spend stamina. Reserve, Recovery, Efficiency, and Relief affect how long and how comfortably a player can keep acting. |
+| Luck | Luck affects Common Lootbox turns, shard completion, bonus lootboxes, lucky rewards, and lucky discounts. |
 
-In Questfall, deflationary [QFT](../assets/qft.md) is the main store of value, while [Gold](../assets/gold.md) (a dollar-based in-game currency) is used to pay into the system for mining bonuses, leveling up, or quest promotions. As a result, system prices are set in dollars and are independent of the price of QFT.
+Some model surfaces are intentionally present before their public feature is launched. For example, Potions, Gems, item rarity evolution, Gold auctions, and liquidity-program rewards belong to the broader RPG economy, but they should be treated as planned systems unless their own product surface is live.
 
-However, this introduces another problem: since QFT tokens are burned when Gold is issued, there is nothing left on the chain to be returned in exchange for Gold when a user wants to withdraw it. In other words, there's no liquidity pool to back up user withdrawals.
+## Character Power
 
-{% hint style="info" %}
-Standalone liquidity pools, which are typically used to support withdrawals, are a prime target for hackers, who can drain the liquidity completely, leaving in-game assets worthless.
-{% endhint %}
+Every character has six attributes:
 
-However, beyond liquidity pools, there are two other ways to extract value from the system.
+| Attribute | What it is for |
+| --- | --- |
+| [Inventory](../quest-mining/completion/rpg-attributes/inventory.md) | Carrying items, changing equipment, and using higher-level gear. |
+| [Mining](../quest-mining/completion/rpg-attributes/mining.md) | Earning more from quest completion and getting more shard chances. |
+| [Crafting](../quest-mining/completion/rpg-attributes/crafting.md) | Turning spare items into Essence and improving clothing. |
+| [Trading](../quest-mining/completion/rpg-attributes/trading.md) | Paying lower marketplace fees, converting Gold, and listing more items. |
+| [Stamina](../quest-mining/completion/rpg-attributes/stamina.md) | Doing more actions before resting and wearing heavier gear. |
+| [Luck](../quest-mining/completion/rpg-attributes/luck.md) | Improving random outcomes such as shards, lootboxes, and lucky bonuses. |
 
-The first is direct and simple - mining itself. In Questfall, this approach is implemented by using a portion of the weekly QFT issue to buy back and burn Gold from users in a [system auction](<../infrastructure/gold withdrawals.md>).
+Characters start with one point in every attribute. Each new character level gives `5` more attribute points. Spending a point in an attribute improves all five traits inside that attribute, so broad build choices matter.
 
-Another approach is much more complex - trading. It assumes that the role of liquidity pools is filled by a [marketplace](../infrastructure/marketplace.md). And the more active the trading, the greater the speed and efficiency with which users can monetize their goods. In other words, demand should be high.
+## Item Power
 
-To create a constant demand, Questfall implements an RPG system that fits like a glove to the user levels that are part of the protection against Sybil attacks.
+Clothing is the live tradeable item type. A clothing item can matter because of:
 
-The heart of the RPG system in Questfall is the character that represents the user. The character has a number of attributes that set the default values for stamina reserve, possible inventory weight, etc.
+* **Rarity.** Higher rarity gives more perk slots and stronger growth.
+* **Level.** Higher level gives more Aspect and stronger terminal perk value, but also more weight.
+* **Aspect.** Broad attribute power added by the item.
+* **Perks.** Direct trait power, direct grants, attribute grants, or booster links.
+* **Slot.** The item can only be equipped in its clothing slot.
+* **Set and origin.** Matching items can make booster links stronger.
 
-Users can level up their characters through proper community moderation voting or by burning Gold, both of which benefit the entire community. With each new level, users receive free attribute points that can be used to customize their character according to their chosen strategy.
+This makes item value contextual. An item is not valuable only because it is rare; it is valuable when it fits a real build.
 
-But more important to extracting value from the system are in-game items, which create a trade opportunity and, along with attributes, play an important role in a character's performance:
+## Economy Link
 
-* Clothing enhances character;
-* Potions replenish stamina;
-* Gems are used in crafting.
+The RPG economy works because items can be useful, scarce, and build-specific at the same time.
 
-All RPG items (except Gems) can only be minted through loot boxes, which can be opened for free as a reward for completing quests, or by burning Gold. When minted, each RPG item is one of six rarity tiers:
+Spare items are not dead inventory: they can be scrapped into Essence or sold. Strong items create demand because they improve future play. Heavy items create a tradeoff because they can increase stamina pressure. Higher-level items can be worn early, but their useful power can be reduced by Overlevel if the character is not ready for them.
 
-* Common (F);
-* Uncommon (E);
-* Rare (D);
-* Epic (C);
-* Legendary (B);
-* Mythical (A).
-
-Unlike many common RPG systems, Questfall allows users to increase the rarity of certain item types by destroying other items, or in other words, by crafting.&#x20;
-
-Rarity tiers are a key aspect of the system, as common items (F, E, D) can only be traded for Gold, while the more rare items (C, B, A) are traded for QFT.
-
-{% hint style="info" %}
-Both of these rarity groups will be traded on the Questfall [marketplace](../infrastructure/marketplace.md).
-{% endhint %}
-
-In this way, a user can craft a rarer item using more accessible items purchased with Gold, and then withdraw it as NFT or sell it for QFT. This enables the user to extract value from the system through trading (exchanging in-game Gold for QFT).
-
-{% hint style="info" %}
-There are many ideas for further development of the RPG system, read more in the [Future Versions](../roadmap/future-versions.md) article.
-{% endhint %}
-
-Of course, this is just the big picture, and there are many more nuances to how Questfall's RPG system works. Fortunately, we have a number of articles that cover every aspect of the RPG system in detail. For an overview, the main takeaway is that the RPG system brings many great benefits to the platform.
-
-* **Crafting enables the extraction of Gold.** By separating craftable rarity tiers into two groups - one that is traded for Gold, and another that is traded for QFT - Questfall creates a distinct mechanic for extracting value from the system.
-* **RPG makes mining more interesting.** There are several types of activities that interact with each other and can be developed: crafting, mining, trading. This will allow users to master their skills and create individual, complex strategies beyond the basic quest grinding.
-* **RPG significantly increases trading activity.** Since users cannot progress in all areas at the same rate, some will focus on mining while others will focus on crafting or trading. This is similar to how manufacturers and merchants provide better equipment that increases efficiency.
-* **Gold gains a lot more utility.** Outside of the RPG system, Gold is only used for quest promotion or leveling up. However, item rarity tiers and crafting assume that trade and loot boxes that can be opened with Gold play a crucial role in the miners' competition.
-* **User levels gain value.** With each level, characters become more powerful and specific, allowing users to not only advance to higher leagues, but also to crystallize their play style and mining strategy to gain an edge over users in the same league.
+That is the core design: quest activity creates items, items create strategy, strategy creates trade, and trade feeds back into progression.

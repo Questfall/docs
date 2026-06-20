@@ -103,25 +103,18 @@ Even if a user avoids unrated quests and takes no risks, the higher the league, 
 
 ### Loot Boxes
 
-All RPG items except Gems are released into circulation through loot boxes, which can be opened by either spending 100 Gold ($1) or collecting a full weekly set of Chest Shards.
+Lootboxes are the live source of RPG clothing items. A Common Lootbox can be opened with Gold or by collecting a full weekly Chest Shard set.
 
 {% hint style="info" %}
 A user can collect a full weekly set of Chest Shards an unlimited number of times during a week. Next week, however, a new set will be released, making any unused shards from the previous week obsolete.
 {% endhint %}
 
-By default, a loot box offers a single item based on a chance that depends on the rarity and level of the item. The higher the rarity or level, the lower the chance of receiving the item.
+Lootbox rarity is a floor. A Common Lootbox creates Common or better clothing. A higher-rarity lootbox creates clothing at that rarity or better.
 
-And while users can't increase their odds of getting rarer items, they can get more than one item from a single loot box, providing the space needed for the chances of rarer items to work.
+Common Lootboxes use a turn-based card opening. The [Luck Cards](rpg-attributes/luck.md#cards) trait increases the number of turns, which creates more chances to receive item cards before the opening ends.
 
-The process of opening loot boxes is turn-based, and while users only have one turn by default, the higher a character's Luck attribute, the more turns a user will have when opening a loot box.&#x20;
+Higher-rarity lootboxes do not use the Common card flow. They open directly and create one clothing item at their rarity floor or higher.
 
 {% hint style="info" %}
-The [Luck](rpg-attributes/luck.md) attribute plays a crucial role not only in opening loot boxes, but also in collecting shards.
+The [Luck](rpg-attributes/luck.md) attribute matters both for Common Lootbox openings and for completing Chest Shard sets.
 {% endhint %}
-
-To illustrate the mechanics, here is an example for a user with 4 turns:
-
-* **Turn 1**: The user is dealt 4 cards face down and must blindly choose one. All four cards contain items, so the user is guaranteed to receive an item after the first turn.
-* **Turn 2**: The user is dealt 4 more cards. One card is a "finish" card, which ends the opening process, while the remaining three are item cards, which give the user one more item and continue the opening into the next turn.
-* **Turn 3**: The user is dealt another 4 cards. This time, 2 out of the 4 cards are finish cards. Choosing a finish card will end the opening, leaving the user with two items won in previous turns.
-* **Turn 4**: The user is dealt 4 cards for the last time. Only 1 card contains an item, while the other 3 are finish cards. Since a hypothetical fifth turn would consist entirely of finish cards, this is the last turn. If the user selects a finish card, he will end the loot box opening with a total of 3 items. But if the user selects the item card, he will receive 4 items in total.

@@ -4,28 +4,35 @@ icon: chart-simple
 
 # RPG Attributes
 
-The common RPG approach assumes that users are represented by a character that becomes more powerful by investing stat points gained with each new level into pre-defined character attributes.
+Attributes are the player's build choices. They decide what kind of character the player is creating: miner, trader, crafter, stamina-heavy quester, luck-focused opener, or some hybrid.
 
-Questfall uses the same mechanic - users gain one stat point per [level](../levels.md) and can use it to improve any of the following attributes:
+Characters start at level `1` with one point in each attribute. Every new level gives `5` attribute points to spend. One point in an attribute improves all five traits inside that attribute.
 
-* [Inventory](inventory.md): improves inventory weight, equipment costs, and higher-level clothing;
-* [Mining](mining.md): increases Mining Points, Flow, Chest Shard drops, and moderation priority;
-* [Crafting](crafting.md): increases efficiency when working with Essence or Gems;
-* [Trading](trading.md): improves marketplace fees, auction bids, liquidity Gem Points, Gold conversion, and listing slots;
-* [Stamina](stamina.md): improves maximum stamina, recovery, action costs, equipment weight pressure, and potion effects;
-* [Luck](luck.md): increases chance of getting missing chest shards and other bonuses, adds loot box turns.
+| Attribute | Main player benefit | Traits |
+| --- | --- | --- |
+| [Inventory](inventory.md) | Carry more, swap gear cheaper, use higher-level items better. | Levitation, Equipping, Overlevel, Capacity, Exemption |
+| [Mining](mining.md) | Earn more from quests and receive more Chest Shard rolls. | Priority, Flow, Focus, Power, Loot |
+| [Crafting](crafting.md) | Get more Essence and level up useful clothing cheaper. | Scrapping, Leveling, Merging, Rarity, Quality |
+| [Trading](trading.md) | Pay lower marketplace fees, convert Gold better, list more items. | Fee, Bid, Liquidity, Conversion, Slots |
+| [Stamina](stamina.md) | Perform more actions and handle heavier equipment. | Efficiency, Absorption, Reserve, Recovery, Relief |
+| [Luck](luck.md) | Improve random outcomes and lucky bonuses. | Shards, Boxes, Chance, Bonus, Cards |
 
-{% hint style="info" %}
-There are at least two more attributes waiting to be implemented in [future versions](../../../roadmap/future-versions.md) of Questfall: Magic and Warfare.
-{% endhint %}
+## How Items Affect Attributes
 
-Because users can allocate stat points to any attribute, they can focus on certain areas and gain specific benefits in those areas, customizing a character to fit their individual mining strategy.
+Items can improve a character in several different ways:
 
-Of course, users can make mistakes as their characters evolve, so when users join a new [league](../leagues.md), they can redistribute attribute points once for free.&#x20;
+| Item effect | What it means for the player |
+| --- | --- |
+| Aspect | Adds broad power to one attribute, improving all five traits inside it. |
+| Attribute grant | Adds more broad power to one attribute. |
+| Trait terminal perk | Adds power to one concrete trait, such as Mining Loot or Trading Slots. |
+| Direct grant | Improves one final system output directly, such as marketplace slots or stamina recovery. |
+| Booster perk | Amplifies another perk on another equipped item. |
 
-However, any subsequent redistribution within that league will cost a certain amount of [Gold](../../../assets/gold.md), depending on the league. For example, in League I the cost is 1000 Gold ($10), in League II it is 2000 ($20), and so on.
+Equipped items above the character's own level still work, but useful item effects can be reduced by [Inventory Overlevel](inventory.md#overlevel). Item weight is not reduced by Overlevel, so wearing a very heavy high-level item early can still hurt stamina use.
 
-{% hint style="info" %}
-While the Hall is considered a tutorial and there is no cost to redistribute attribute points, for the actual league it is calculated by the formula:\
-$$Cost_{gold}=1000*League_{count}$$
-{% endhint %}
+## Live And Planned Traits
+
+Most traits already affect live gameplay. Some traits are part of the broader model but their public feature is not live yet. Those traits can still appear in the build model and item system, but players should not treat them as active strategy until the connected feature launches.
+
+The individual attribute pages call this out directly.
