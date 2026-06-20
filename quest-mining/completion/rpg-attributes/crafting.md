@@ -4,103 +4,176 @@ icon: hammer
 
 # Crafting
 
-Crafting is for players who want to turn unwanted items into Essence and spend less Essence improving clothing they actually want to use or sell.
+Crafting controls Essence return, item level-up costs, and planned upgrade quality systems.
 
 ## Live Status
 
-| Trait | Status | What it changes |
-| --- | --- | --- |
-| Scrapping | Live | Essence received when an inventory item is destroyed. |
-| Leveling | Live | Essence cost to raise clothing by one level. |
-| Merging | Planned | Future cost pressure for merging level-less consumables. |
-| Rarity | Planned | Future cost pressure for clothing rarity evolution with Gems. |
-| Quality | Planned | Future perk-roll strength during rarity evolution. |
+Scrapping and Leveling are live. Merging, Rarity, and Quality are model/planned surfaces until their connected product flows launch.
 
-The current live crafting actions are:
+## How To Read These Tables
 
-| Action | Status |
-| --- | --- |
-| Scrap item | Live for items in inventory. |
-| Level up clothing | Live for clothing in inventory or equipped. |
-| Evolve rarity | Not live yet. The model exists, but the public action is disabled until Gems and evolution are launched. |
+A trait value is the total character value for that trait after character points, item Aspect, attribute grants, and trait terminal perks. Direct grants are different: they do not increase the trait value itself, but modify the final system value after the trait is read.
 
-## Why Invest In Crafting
+The rarity columns show the generated range for one direct grant on one item. Multiple grants add together unless the trait text says they multiply, such as Stamina Relief pressure reduction.
 
-Crafting is an economy attribute. It helps players:
+Common (F) clothing has no perk slots, so direct grant ranges start at Uncommon (E).
 
-* get more Essence back from spare drops;
-* make useful clothing cheaper to level;
-* turn low-value loot into upgrade fuel;
-* prepare for future item-production loops such as consumable merging and rarity evolution.
+Rarity letters in grant tables: E = Uncommon, D = Rare, C = Epic, B = Legendary, A = Mythical.
 
-Crafting is most valuable for players who open many lootboxes, handle many items, and care about improving or producing equipment instead of only buying finished items.
+`pp` means percentage points: `+2 pp` changes a `8%` chance into `10%`, not into `8.16%`.
 
 ## Scrapping
 
-Scrapping destroys an item and gives Essence.
+**Status:** Live.
 
-Essence is the main live crafting resource. It has no inventory weight and is used to level up clothing.
+Increases how much Essence is returned when clothing is scrapped.
 
-Player impact:
+**How it resolves.** The trait gives a percent Essence bonus. Flat scrapping grants add Essence after the percent bonus.
 
-* Spare items become useful instead of just clutter.
-* Higher rarity and higher level items usually return more Essence.
-* Scrapping investment and item grants can increase the Essence return.
-* Luck can activate on a scrap and add extra Essence.
+### Direct Grant Ranges
 
-Tradeoff:
+| Direct grant | What one grant changes | E | D | C | B | A |
+| --- | --- | ---: | ---: | ---: | ---: | ---: |
+| Flat scrapping Essence | Adds Essence after the percentage bonus. | +1 Essence | +2 Essence | +3 Essence | +4 Essence | +5 Essence |
+| Scrapping Essence bonus | Adds percentage points to Essence gained from scrapping. | +2% to +4% | +5% to +8% | +9% to +12% | +13% to +16% | +17% to +20% |
 
-* Scrapping is permanent. If an item has marketplace value or future build value, selling or keeping it may be better.
+### Mastery Start Values
+
+| Mastery | Trait value at start | System value without direct grants |
+| --- | ---: | --- |
+| Guest | `0` | +0% Essence from scrapping |
+| Novice | `25` | +15% Essence from scrapping |
+| Apprentice | `100` | +30% Essence from scrapping |
+| Adept | `300` | +45% Essence from scrapping |
+| Specialist | `1,000` | +60% Essence from scrapping |
+| Expert | `3,000` | +75% Essence from scrapping |
+| Master | `10,000` | +90% Essence from scrapping |
+| Grandmaster | `30,000` | +105% Essence from scrapping |
+| Wizard | `100,000` | +120% Essence from scrapping |
+| Mystic | `300,000` | +135% Essence from scrapping |
+| Immortal | `1,000,000` | +150% Essence from scrapping |
+| Absolute | `3,000,000` | +165% Essence from scrapping |
 
 ## Leveling
 
-Leveling raises a clothing item by one level and costs Essence.
+**Status:** Live.
 
-When clothing levels up, its broad Aspect grows, its weight is recalculated upward, and terminal trait perks gain their stored level step. Higher-level clothing can be stronger, but it can also become heavier and harder for low-level characters to use fully.
+Reduces the Essence cost of raising clothing level.
 
-Player impact:
+**How it resolves.** The trait and direct grants reduce level-up cost, but final cost cannot go below 2 x item rarity or 8% of base cost.
 
-* Leveling makes a good item scale with the character.
-* Crafting investment reduces the Essence pressure of upgrades.
-* Luck can activate on a level-up and discount the Essence cost.
-* A high-level item can still suffer [Overlevel](inventory.md#overlevel) reduction if the character is not ready for it.
+### Direct Grant Ranges
 
-Tradeoff:
+| Direct grant | What one grant changes | E | D | C | B | A |
+| --- | --- | ---: | ---: | ---: | ---: | ---: |
+| Level-up cost reduction | Adds percentage points of Essence cost reduction. | +1% to +2% | +3% to +4% | +5% to +6% | +7% to +8% | +9% to +10% |
 
-* Leveling an item is not automatically correct. If the item's Aspect, perks, slot, set, or origin do not fit the build, Essence may be better spent elsewhere.
+### Mastery Start Values
+
+| Mastery | Trait value at start | System value without direct grants |
+| --- | ---: | --- |
+| Guest | `0` | 100% level-up cost remains |
+| Novice | `25` | 84% level-up cost remains |
+| Apprentice | `100` | 73% level-up cost remains |
+| Adept | `300` | 64% level-up cost remains |
+| Specialist | `1,000` | 55% level-up cost remains |
+| Expert | `3,000` | 49% level-up cost remains |
+| Master | `10,000` | 43% level-up cost remains |
+| Grandmaster | `30,000` | 38% level-up cost remains |
+| Wizard | `100,000` | 34% level-up cost remains |
+| Mystic | `300,000` | 31% level-up cost remains |
+| Immortal | `1,000,000` | 28% level-up cost remains |
+| Absolute | `3,000,000` | 26% level-up cost remains |
 
 ## Merging
 
-Merging is planned for level-less consumables. It is not a live player action yet.
+**Status:** Planned.
 
-Business role:
+Planned cost-efficiency trait for merging simple rarity-based consumables such as future Potions and Gems.
 
-* It is intended to make consumables part of the crafting economy.
-* It gives crafters a way to turn lower-rarity consumables into higher-rarity ones.
-* The Merging trait is meant to reduce the Essence pressure of that production path.
+**How it resolves.** The cost keeps a 25% core. Trait and grants shrink only the reducible 75% part.
 
-Until the consumable merge surface is live, players should not treat Merging as an active return-on-investment strategy.
+### Direct Grant Ranges
+
+| Direct grant | What one grant changes | E | D | C | B | A |
+| --- | --- | ---: | ---: | ---: | ---: | ---: |
+| Merge cost efficiency | Shrinks the reducible part of the merge cost. | +3% to +5% | +6% to +10% | +11% to +15% | +16% to +20% | +21% to +25% |
+
+### Mastery Start Values
+
+| Mastery | Trait value at start | System value without direct grants |
+| --- | ---: | --- |
+| Guest | `0` | 100% merge cost remains |
+| Novice | `25` | 83.63% merge cost remains |
+| Apprentice | `100` | 72.73% merge cost remains |
+| Adept | `300` | 64.97% merge cost remains |
+| Specialist | `1,000` | 57.81% merge cost remains |
+| Expert | `3,000` | 52.5% merge cost remains |
+| Master | `10,000` | 47.83% merge cost remains |
+| Grandmaster | `30,000` | 44.41% merge cost remains |
+| Wizard | `100,000` | 41.41% merge cost remains |
+| Mystic | `300,000` | 39.19% merge cost remains |
+| Immortal | `1,000,000` | 37.21% merge cost remains |
+| Absolute | `3,000,000` | 35.72% merge cost remains |
 
 ## Rarity
 
-Rarity is planned for clothing rarity evolution with Gems. It is not a live player action yet.
+**Status:** Planned.
 
-Business role:
+Planned cost-efficiency trait for raising rarity on level-based items, especially equipment.
 
-* It is intended to let strong items move into higher rarity tiers instead of being replaced.
-* Gems are intended to be the scarce limiter for this path.
-* The Rarity trait is meant to reduce the Essence pressure of the upgrade.
+**How it resolves.** The cost keeps a 20% core. Trait and grants shrink only the reducible 80% part; Gems remain the main limiter when evolution launches.
 
-Until Gems and item rarity evolution are live, Rarity is a future-facing trait.
+### Direct Grant Ranges
+
+| Direct grant | What one grant changes | E | D | C | B | A |
+| --- | --- | ---: | ---: | ---: | ---: | ---: |
+| Rarity upgrade efficiency | Shrinks the reducible part of the rarity-upgrade cost. | +3% to +5% | +6% to +10% | +11% to +15% | +16% to +20% | +21% to +25% |
+
+### Mastery Start Values
+
+| Mastery | Trait value at start | System value without direct grants |
+| --- | ---: | --- |
+| Guest | `0` | 100% rarity-upgrade cost remains |
+| Novice | `25` | 85.73% rarity-upgrade cost remains |
+| Apprentice | `100` | 75.38% rarity-upgrade cost remains |
+| Adept | `300` | 67.57% rarity-upgrade cost remains |
+| Specialist | `1,000` | 60% rarity-upgrade cost remains |
+| Expert | `3,000` | 54.14% rarity-upgrade cost remains |
+| Master | `10,000` | 48.8% rarity-upgrade cost remains |
+| Grandmaster | `30,000` | 44.79% rarity-upgrade cost remains |
+| Wizard | `100,000` | 41.18% rarity-upgrade cost remains |
+| Mystic | `300,000` | 38.46% rarity-upgrade cost remains |
+| Immortal | `1,000,000` | 36% rarity-upgrade cost remains |
+| Absolute | `3,000,000` | 34.13% rarity-upgrade cost remains |
 
 ## Quality
 
-Quality is planned for future rarity evolution and perk roll improvement. It is not a live player action yet.
+**Status:** Planned.
 
-Business role:
+Planned perk-roll pressure trait for upgrades and new perk rolls.
 
-* It is intended to make specialist crafters better at producing high-quality upgraded items.
-* It should matter when new or upgraded perk values are rolled.
-* It supports a future production strategy where crafters create better marketplace items.
+**How it resolves.** Quality adds pressure toward the upper part of perk value ranges. Direct Quality grants add more pressure before the final bias is derived.
 
-Until rarity evolution is live, Quality does not currently change a player's live crafting action by itself.
+### Direct Grant Ranges
+
+| Direct grant | What one grant changes | E | D | C | B | A |
+| --- | --- | ---: | ---: | ---: | ---: | ---: |
+| Perk roll quality pressure | Adds roll pressure before the quality bias curve. | +1 pressure to +2 pressure | +2 pressure to +3 pressure | +3 pressure to +4 pressure | +4 pressure to +5 pressure | +5 pressure to +6 pressure |
+
+### Mastery Start Values
+
+| Mastery | Trait value at start | System value without direct grants |
+| --- | ---: | --- |
+| Guest | `0` | 0% roll bias |
+| Novice | `25` | 11.64% roll bias |
+| Apprentice | `100` | 21.11% roll bias |
+| Adept | `300` | 28.95% roll bias |
+| Specialist | `1,000` | 37.17% roll bias |
+| Expert | `3,000` | 44.02% roll bias |
+| Master | `10,000` | 50.67% roll bias |
+| Grandmaster | `30,000` | 55.93% roll bias |
+| Wizard | `100,000` | 60.9% roll bias |
+| Mystic | `300,000` | 64.77% roll bias |
+| Immortal | `1,000,000` | 68.4% roll bias |
+| Absolute | `3,000,000` | 71.23% roll bias |

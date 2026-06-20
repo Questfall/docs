@@ -1,90 +1,180 @@
 ---
-icon: scale-unbalanced
+icon: cart-shopping
 ---
 
 # Trading
 
-Trading is for players who want to earn through the marketplace, manage more active listings, and convert Gold into Silver more efficiently.
+Trading controls seller fees, conversion, listing slots, and planned auction/liquidity surfaces.
 
 ## Live Status
 
-| Trait | Status | What it changes |
-| --- | --- | --- |
-| Fee | Live | Marketplace fee paid when an item is sold. |
-| Conversion | Live | Silver received when burning Gold for Silver. |
-| Slots | Live | Number of active marketplace listings. |
-| Bid | Planned | Future Gold auction positioning. |
-| Liquidity | Planned | Future liquidity-program reward positioning. |
+Fee, Conversion, and Slots are live. Bid and Liquidity are model/planned until auction and Gem Points surfaces launch.
 
-## Why Invest In Trading
+## How To Read These Tables
 
-Trading is for players who see items as an economy, not only as personal equipment.
+A trait value is the total character value for that trait after character points, item Aspect, attribute grants, and trait terminal perks. Direct grants are different: they do not increase the trait value itself, but modify the final system value after the trait is read.
 
-It helps players:
+The rarity columns show the generated range for one direct grant on one item. Multiple grants add together unless the trait text says they multiply, such as Stamina Relief pressure reduction.
 
-* keep more items listed at the same time;
-* lose less value to marketplace fees;
-* convert Gold into more Silver;
-* prepare for future auction and liquidity-program surfaces.
+Common (F) clothing has no perk slots, so direct grant ranges start at Uncommon (E).
 
-Trading is strongest for players who list many items, flip build-specific gear, or regularly move value between Gold, Silver, marketplace items, and future withdrawal paths.
+Rarity letters in grant tables: E = Uncommon, D = Rare, C = Epic, B = Legendary, A = Mythical.
+
+`pp` means percentage points: `+2 pp` changes a `8%` chance into `10%`, not into `8.16%`.
 
 ## Fee
 
-Fee reduces the marketplace commission paid when a listed item sells.
+**Status:** Live.
 
-The fee is burned from the sale. Lower Fee means the seller keeps more of the item price.
+Reduces the marketplace commission paid by the seller when an item sells.
 
-Player impact:
+**How it resolves.** The fee has a 3% core and a reducible part between 30% and 3%. Fee grants make only the reducible part shrink faster.
 
-* Better margins when selling items.
-* More room to price competitively.
-* Stronger value for active marketplace sellers.
+### Direct Grant Ranges
 
-Luck can also activate on a marketplace sale and discount the sale fee.
+| Direct grant | What one grant changes | E | D | C | B | A |
+| --- | --- | ---: | ---: | ---: | ---: | ---: |
+| Marketplace fee efficiency | Shrinks the reducible part of the seller fee. | +3% to +5% | +6% to +10% | +11% to +15% | +16% to +20% | +21% to +25% |
 
-## Slots
+### Mastery Start Values
 
-Slots increases how many marketplace listings a player can keep active at once.
-
-Player impact:
-
-* More items can be listed without constantly cancelling or rotating stock.
-* Traders can cover more builds, slots, rarities, and price points.
-* Slot-granting equipment can matter directly to marketplace strategy.
-
-If a player loses marketplace slot capacity after changing equipment, active listings above the new limit can be returned from the marketplace to inventory.
-
-## Conversion
-
-Conversion improves the Gold -> Silver exchange rate.
-
-Gold is burned, and the player receives Silver. A fresh character starts from the base conversion rate. Trading Conversion and item grants can improve that rate.
-
-Player impact:
-
-* More Silver from the same Gold.
-* Better efficiency when funding character progression or Silver-based actions.
-* A stronger bridge between marketplace activity and progression spending.
+| Mastery | Trait value at start | System value without direct grants |
+| --- | ---: | --- |
+| Guest | `0` | 30% seller fee |
+| Novice | `25` | 25.18% seller fee |
+| Apprentice | `100` | 21.69% seller fee |
+| Adept | `300` | 19.05% seller fee |
+| Specialist | `1,000` | 16.5% seller fee |
+| Expert | `3,000` | 14.52% seller fee |
+| Master | `10,000` | 12.72% seller fee |
+| Grandmaster | `30,000` | 11.37% seller fee |
+| Wizard | `100,000` | 10.15% seller fee |
+| Mystic | `300,000` | 9.23% seller fee |
+| Immortal | `1,000,000` | 8.4% seller fee |
+| Absolute | `3,000,000` | 7.77% seller fee |
 
 ## Bid
 
-Bid is planned for future Gold auction mechanics. It is part of the RPG model, but it is not a live public earning surface yet.
+**Status:** Planned.
 
-Business role:
+Planned auction trait that makes the same Gold bid compete as a stronger offer.
 
-* It is intended to improve effective position in Gold-related auction or withdrawal flows.
-* It should make trading-focused characters better at competing for those flows.
+**How it resolves.** Bid has an 80% core and a reducible 20% price part. Bid grants shrink the reducible part faster.
 
-Until that auction surface is live, players should not treat Bid as an active marketplace benefit.
+### Direct Grant Ranges
+
+| Direct grant | What one grant changes | E | D | C | B | A |
+| --- | --- | ---: | ---: | ---: | ---: | ---: |
+| Auction bid efficiency | Improves the effective bid power of Gold auction offers. | +3% to +5% | +6% to +10% | +11% to +15% | +16% to +20% | +21% to +25% |
+
+### Mastery Start Values
+
+| Mastery | Trait value at start | System value without direct grants |
+| --- | ---: | --- |
+| Guest | `0` | +0% auction bid power |
+| Novice | `25` | +3.57% auction bid power |
+| Apprentice | `100` | +6.15% auction bid power |
+| Adept | `300` | +8.11% auction bid power |
+| Specialist | `1,000` | +10% auction bid power |
+| Expert | `3,000` | +11.47% auction bid power |
+| Master | `10,000` | +12.8% auction bid power |
+| Grandmaster | `30,000` | +13.8% auction bid power |
+| Wizard | `100,000` | +14.71% auction bid power |
+| Mystic | `300,000` | +15.38% auction bid power |
+| Immortal | `1,000,000` | +16% auction bid power |
+| Absolute | `3,000,000` | +16.47% auction bid power |
 
 ## Liquidity
 
-Liquidity is planned for future liquidity-program reward positioning. It is part of the RPG model, but it is not a live public reward surface yet.
+**Status:** Planned.
 
-Business role:
+Planned Gem Points efficiency trait for liquidity positioning.
 
-* It is intended to improve how strongly a player counts in liquidity-program reward distribution.
-* It connects Trading builds to infrastructure support and future Gem-related economy.
+**How it resolves.** Liquidity uses an 80% core and a reducible 20% requirement part. Grants make the reducible part shrink faster.
 
-Until the liquidity reward surface is live, players should not treat Liquidity as an active source of reward.
+### Direct Grant Ranges
+
+| Direct grant | What one grant changes | E | D | C | B | A |
+| --- | --- | ---: | ---: | ---: | ---: | ---: |
+| Gem Points efficiency | Improves Gem Points efficiency for planned liquidity actions. | +3% to +5% | +6% to +10% | +11% to +15% | +16% to +20% | +21% to +25% |
+
+### Mastery Start Values
+
+| Mastery | Trait value at start | System value without direct grants |
+| --- | ---: | --- |
+| Guest | `0` | +0% Gem Points Power |
+| Novice | `25` | +3.7% Gem Points Power |
+| Apprentice | `100` | +6.56% Gem Points Power |
+| Adept | `300` | +8.82% Gem Points Power |
+| Specialist | `1,000` | +11.11% Gem Points Power |
+| Expert | `3,000` | +12.95% Gem Points Power |
+| Master | `10,000` | +14.68% Gem Points Power |
+| Grandmaster | `30,000` | +16.01% Gem Points Power |
+| Wizard | `100,000` | +17.24% Gem Points Power |
+| Mystic | `300,000` | +18.18% Gem Points Power |
+| Immortal | `1,000,000` | +19.05% Gem Points Power |
+| Absolute | `3,000,000` | +19.71% Gem Points Power |
+
+## Conversion
+
+**Status:** Live.
+
+Improves how much Silver a player receives for each Gold converted.
+
+**How it resolves.** The trait creates conversion pressure from 10 toward 30 Silver per Gold. Pressure grants push that curve; flat grants add exact Silver per Gold after the curve.
+
+### Direct Grant Ranges
+
+| Direct grant | What one grant changes | E | D | C | B | A |
+| --- | --- | ---: | ---: | ---: | ---: | ---: |
+| Flat Gold to Silver conversion | Adds exact Silver per Gold after the conversion curve. | +0.5 Silver/Gold | +1 Silver/Gold | +1.5 Silver/Gold | +2 Silver/Gold | +2.5 Silver/Gold |
+| Conversion pressure | Adds pressure before the conversion rate is derived. | +0.5 pressure to +1 pressure | +1 pressure to +1.5 pressure | +1.5 pressure to +2 pressure | +2 pressure to +2.5 pressure | +2.5 pressure to +3 pressure |
+
+### Mastery Start Values
+
+| Mastery | Trait value at start | System value without direct grants |
+| --- | ---: | --- |
+| Guest | `0` | 1 Gold -> 10 Silver |
+| Novice | `25` | 1 Gold -> 12.45 Silver |
+| Apprentice | `100` | 1 Gold -> 14.44 Silver |
+| Adept | `300` | 1 Gold -> 16.09 Silver |
+| Specialist | `1,000` | 1 Gold -> 17.83 Silver |
+| Expert | `3,000` | 1 Gold -> 19.27 Silver |
+| Master | `10,000` | 1 Gold -> 20.67 Silver |
+| Grandmaster | `30,000` | 1 Gold -> 21.78 Silver |
+| Wizard | `100,000` | 1 Gold -> 22.82 Silver |
+| Mystic | `300,000` | 1 Gold -> 23.64 Silver |
+| Immortal | `1,000,000` | 1 Gold -> 24.4 Silver |
+| Absolute | `3,000,000` | 1 Gold -> 25 Silver |
+
+## Slots
+
+**Status:** Live.
+
+Increases how many active marketplace listings a player can keep.
+
+**How it resolves.** The trait gives base listing slots. Percent grants scale that base; flat grants add slots after scaling.
+
+### Direct Grant Ranges
+
+| Direct grant | What one grant changes | E | D | C | B | A |
+| --- | --- | ---: | ---: | ---: | ---: | ---: |
+| Flat marketplace slots | Adds active listing slots directly. | +1 slot | +2 slots | +3 slots | +4 slots | +5 slots |
+| Marketplace slot percent | Scales the trait-derived base listing slots. | +3% to +5% | +6% to +10% | +11% to +15% | +16% to +20% | +21% to +25% |
+
+### Mastery Start Values
+
+| Mastery | Trait value at start | System value without direct grants |
+| --- | ---: | --- |
+| Guest | `0` | 1 marketplace slot |
+| Novice | `25` | 11 marketplace slots |
+| Apprentice | `100` | 21 marketplace slots |
+| Adept | `300` | 29 marketplace slots |
+| Specialist | `1,000` | 37 marketplace slots |
+| Expert | `3,000` | 45 marketplace slots |
+| Master | `10,000` | 52 marketplace slots |
+| Grandmaster | `30,000` | 57 marketplace slots |
+| Wizard | `100,000` | 62 marketplace slots |
+| Mystic | `300,000` | 67 marketplace slots |
+| Immortal | `1,000,000` | 70 marketplace slots |
+| Absolute | `3,000,000` | 74 marketplace slots |
