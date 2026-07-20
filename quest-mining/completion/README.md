@@ -4,7 +4,7 @@ icon: pickaxe
 
 # Quest Completion (40%)
 
-In Questfall, users will not have to grind quests for nothing or wait for rewards that will never arrive. The [mining approach](broken-reference) ensures that the system fairly rewards miners with [QFT](../../assets/qft.md) for their weekly work in completing quests.
+In Questfall, users will not have to grind quests for nothing or wait for rewards that will never arrive. The [mining approach](../../overview/quest-mining.md) ensures that the system fairly rewards miners with [QFT](../../assets/qft.md) for their weekly work in completing quests.
 
 Quest completion is considered the most important activity on the platform, and as such, the largest portion of the weekly QFT issue (40%) is dedicated to rewarding it.
 
@@ -21,6 +21,10 @@ The formula for calculating the reward for a given quest is as follows:\
 $$MiningPoints=floor(QuestBounty*(1+\frac{MiningPower}{100})*FlowMultiplier*MiningBoost)$$
 {% endhint %}
 
+Mining Power is a bonus percentage. Therefore `0% Mining Power` produces a
+`x1.00` multiplier and preserves the complete base Quest Bounty; it does not
+reduce the reward to zero.
+
 The amount of Mining Points earned throughout the week results in an individual weekly Mining Score for each user. And the league reward pool is distributed according to each user's share of the league's total Mining Score.
 
 {% hint style="info" %}
@@ -29,7 +33,7 @@ The individual Mining Score is simply the total number of Mining Points earned b
 
 In addition to Mining Points, completed quests can also create Chest Shard rolls. The frequency of those rolls is controlled by the [Mining](rpg-attributes/mining.md) trait `Loot`, while the chance to receive a missing piece instead of a duplicate is controlled by the [Luck](rpg-attributes/luck.md) trait `Shards`.&#x20;
 
-Chest Shards, like a mosaic puzzle, make up a weekly set of up to 100 pieces, and when a user collects a full set of shards, they are rewarded with a free loot box. Therefore, the more quests a user completes in a week, the more free loot boxes they will open.
+Chest Shards, like a mosaic puzzle, make up a weekly set whose size can vary. The initial product target is roughly 10 to 20 pieces, but the reward definition may supply a different non-empty piece pool. When a user collects a full set of shards, they are rewarded with a free loot box. Therefore, the more quests a user completes in a week, the more free loot boxes they will open.
 
 ***
 
@@ -103,7 +107,7 @@ Even if a user avoids unrated quests and takes no risks, the higher the league, 
 
 ### Loot Boxes
 
-Lootboxes are the live source of RPG clothing items. A Common Lootbox can be opened with Gold or by collecting a full weekly Chest Shard set.
+Lootboxes are the live source of RPG clothing items. Common Lootboxes can currently be opened with Gold. Collecting a full weekly Chest Shard set will also award a Common Lootbox once quest-completion shard rewards are connected.
 
 {% hint style="info" %}
 A user can collect a full weekly set of Chest Shards an unlimited number of times during a week. Next week, however, a new set will be released, making any unused shards from the previous week obsolete.

@@ -7,8 +7,8 @@ icon: stairs
 In Questfall, level is a key characteristic of users who complete quests, which heavily influences many aspects of the quest mining:
 
 * Level determines which [league](leagues.md) a user belongs to, allowing a higher level user to mine [rewards](../creation/rewards.md) with less competition.&#x20;
-* Each level grants one attribute point, which can be used to improve any of a [character's attributes](rpg-attributes/).&#x20;
-* The level of [clothing](rpg-items/items.md) items is limited by the user's level, so progressing through the levels allows for clothing upgrades.
+* Each level grants six attribute points, which can be distributed freely across a [character's attributes](rpg-attributes/).&#x20;
+* [Clothing](rpg-items/items.md) can be levelled beyond the user's level, but [Overlevel](rpg-attributes/inventory.md#overlevel) reduces how much of an overlevelled item's power is currently usable.
 * Level increases the weight of a user's vote in [community moderation](../moderation/) decisions and [quest ratings](../creation/karma.md).
 
 {% hint style="info" %}
@@ -27,6 +27,8 @@ When miners buy XP or authors pay for Quest Bounties, the Silver is burned.
 
 Newly registered users start at level 1, and to advance to higher levels, they must gain XP by burning Silver. Each level requires more XP than the previous one, specifically, to get to level 2, a user would need 1000 XP, and with each subsequent level, the amount of XP required would increase by 1000 XP.
 
+Character level has no product cap.
+
 {% hint style="info" %}
 The amount of XP required to advance to the next level can be calculated using the following formula:\
 $$XP_{level}=1000*(Level-1)$$
@@ -34,7 +36,7 @@ $$XP_{level}=1000*(Level-1)$$
 
 <table><thead><tr><th width="97" align="center">Level</th><th width="106" align="center">XP Level</th></tr></thead><tbody><tr><td align="center">2</td><td align="center">1,000</td></tr><tr><td align="center">3</td><td align="center">2,000</td></tr><tr><td align="center">4</td><td align="center">3,000</td></tr><tr><td align="center">5</td><td align="center">4,000</td></tr></tbody></table>
 
-Since each level requires more XP than the previous one, the total XP required to reach higher levels from the first level increases exponentially.
+Since each level requires more XP than the previous one, the total XP required to reach higher levels from the first level increases quadratically.
 
 {% hint style="info" %}
 To calculate the total amount of XP needed to reach a given level from level 1, the following formula can be used:\

@@ -40,6 +40,16 @@ Weight matters in two different places:
 
 Inventory traits do not reduce equipped weight for stamina. That is Relief's job.
 
+Generated item weight follows one consistent formula:
+
+```text
+weight in grams = round(100 x rarity^0.9 x sqrt(level) x slot factor)
+```
+
+Rarity uses the values F `1`, E `2`, D `3`, C `4`, B `5`, and A `6`. The slot factor is rolled once inside the range shown in the Slots table and stays with the item. When an item is levelled, its personal density is preserved, so its weight changes in proportion to `sqrt(new level / old level)`.
+
+This means weight grows forever but slower than item level. For example, moving the same item from level `1` to level `100` makes it `10x` heavier; moving it from level `100` to level `10,000` makes it another `10x` heavier.
+
 ## Rarity
 
 Rarity controls perk slots and growth strength.
@@ -64,6 +74,8 @@ Clothing has an item level. Level affects:
 * item weight.
 
 Leveling an item increases its power, but it can also make the item heavier. If the item level is above the character level, [Overlevel](../rpg-attributes/inventory.md#overlevel) decides how much useful item power remains.
+
+Item level has no product cap and is not limited by character level. Progression is constrained economically by growing upgrade costs and mechanically by increasing item weight.
 
 ## Aspect
 

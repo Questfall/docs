@@ -6,9 +6,9 @@ icon: clover
 
 Luck controls shard targeting, Common Lootbox turns, bonus lootboxes, lucky activation, and lucky reward strength.
 
-## Live Status
+## Implementation Status
 
-All five Luck traits are live in current lootbox, shard, marketplace, crafting, and leveling flows.
+Boxes and Cards are connected to Common Lootbox openings. Chance and Bonus are connected to supported marketplace, crafting, and character-leveling actions. Shards is fully modelled, but becomes actionable when quest-completion shard rewards are connected.
 
 ## How To Read These Tables
 
@@ -24,11 +24,11 @@ Rarity letters in grant tables: E = Uncommon, D = Rare, C = Epic, B = Legendary,
 
 ## Shards
 
-**Status:** Live.
+**Status:** Modelled. Activates when quest-completion shard rewards are connected.
 
 Makes missing shard pieces more likely when shard rewards are rolled.
 
-**How it resolves.** The trait creates missing-shard weight. Direct grants multiply that weight upward. Duplicate shards can still appear; this is a weight, not a guarantee.
+**How it resolves.** The trait creates missing-shard weight. Every reached mastery rank adds `20 percentage points` to that weight multiplier, and direct grants add their percentage points alongside mastery. An already-owned piece keeps weight `2`, so Guest characters are intentionally more likely to receive duplicates as a puzzle fills. Duplicate shards can always appear; this is a weight, not a guarantee. A puzzle may contain any number of pieces, with the initial product target expected to be roughly `10` to `20`.
 
 ### Direct Grant Ranges
 
@@ -41,31 +41,31 @@ Makes missing shard pieces more likely when shard rewards are rolled.
 | Mastery | Trait value at start | System value without direct grants |
 | --- | ---: | --- |
 | Guest | `0` | x1 missing shard weight |
-| Novice | `25` | x2.62 missing shard weight |
-| Apprentice | `100` | x4 missing shard weight |
-| Adept | `300` | x5.54 missing shard weight |
-| Specialist | `1,000` | x8 missing shard weight |
-| Expert | `3,000` | x11.08 missing shard weight |
-| Master | `10,000` | x16 missing shard weight |
-| Grandmaster | `30,000` | x22.16 missing shard weight |
-| Wizard | `100,000` | x32 missing shard weight |
-| Mystic | `300,000` | x44.32 missing shard weight |
-| Immortal | `1,000,000` | x64 missing shard weight |
-| Absolute | `3,000,000` | x88.65 missing shard weight |
+| Novice | `25` | x3.14 missing shard weight |
+| Apprentice | `100` | x5.6 missing shard weight |
+| Adept | `300` | x8.86 missing shard weight |
+| Specialist | `1,000` | x14.4 missing shard weight |
+| Expert | `3,000` | x22.16 missing shard weight |
+| Master | `10,000` | x35.2 missing shard weight |
+| Grandmaster | `30,000` | x53.18 missing shard weight |
+| Wizard | `100,000` | x83.2 missing shard weight |
+| Mystic | `300,000` | x124.1 missing shard weight |
+| Immortal | `1,000,000` | x192 missing shard weight |
+| Absolute | `3,000,000` | x283.67 missing shard weight |
 
 ### Examples
 
 **Example 1.** Specialist Shards, one D grant `+175%`
 
-Calculation: `x8 x 275%`.
+Calculation: base `x8`, then `+80%` from four mastery ranks and `+175%` from the grant.
 
-Result: `x22` missing shard weight.
+Result: `x28.4` missing shard weight.
 
 **Example 2.** Specialist Shards, one A grant `+400%`
 
-Calculation: `x8 x 500%`.
+Calculation: base `x8`, then `+80%` from four mastery ranks and `+400%` from the grant.
 
-Result: `x40` missing shard weight.
+Result: `x46.4` missing shard weight.
 
 ## Boxes
 
@@ -73,7 +73,7 @@ Result: `x40` missing shard weight.
 
 Adds a chance to receive one extra higher-rarity lootbox when opening a Common Lootbox.
 
-**How it resolves.** The trait chance plus direct grants is capped at 30%. If it triggers, the bonus-box rarity is rolled separately, with each next rarity 5x less likely.
+**How it resolves.** The trait creates the base chance. Every reached mastery rank adds `0.25 percentage points`, and direct grants add their percentage points alongside mastery. The final chance is capped at `30%`. If it triggers, the bonus-box rarity is rolled separately, with each next rarity 5x less likely. Only Common Lootbox openings roll Boxes, so the higher-rarity reward cannot trigger another Boxes reward.
 
 ### Direct Grant Ranges
 
@@ -86,31 +86,31 @@ Adds a chance to receive one extra higher-rarity lootbox when opening a Common L
 | Mastery | Trait value at start | System value without direct grants |
 | --- | ---: | --- |
 | Guest | `0` | 1% extra higher-rarity lootbox chance |
-| Novice | `25` | 3.5% extra higher-rarity lootbox chance |
-| Apprentice | `100` | 5.31% extra higher-rarity lootbox chance |
-| Adept | `300` | 6.68% extra higher-rarity lootbox chance |
-| Specialist | `1,000` | 8% extra higher-rarity lootbox chance |
-| Expert | `3,000` | 9.03% extra higher-rarity lootbox chance |
-| Master | `10,000` | 9.96% extra higher-rarity lootbox chance |
-| Grandmaster | `30,000` | 10.66% extra higher-rarity lootbox chance |
-| Wizard | `100,000` | 11.29% extra higher-rarity lootbox chance |
-| Mystic | `300,000` | 11.77% extra higher-rarity lootbox chance |
-| Immortal | `1,000,000` | 12.2% extra higher-rarity lootbox chance |
-| Absolute | `3,000,000` | 12.53% extra higher-rarity lootbox chance |
+| Novice | `25` | 3.75% extra higher-rarity lootbox chance |
+| Apprentice | `100` | 5.81% extra higher-rarity lootbox chance |
+| Adept | `300` | 7.43% extra higher-rarity lootbox chance |
+| Specialist | `1,000` | 9% extra higher-rarity lootbox chance |
+| Expert | `3,000` | 10.28% extra higher-rarity lootbox chance |
+| Master | `10,000` | 11.46% extra higher-rarity lootbox chance |
+| Grandmaster | `30,000` | 12.41% extra higher-rarity lootbox chance |
+| Wizard | `100,000` | 13.29% extra higher-rarity lootbox chance |
+| Mystic | `300,000` | 14.02% extra higher-rarity lootbox chance |
+| Immortal | `1,000,000` | 14.7% extra higher-rarity lootbox chance |
+| Absolute | `3,000,000` | 15.28% extra higher-rarity lootbox chance |
 
 ### Examples
 
 **Example 1.** Specialist Boxes, one D grant `+1 pp`
 
-Calculation: `8% + 1 pp`.
+Calculation: `8% trait chance + 1 pp` from four mastery ranks `+ 1 pp` from the grant.
 
-Result: `9%` extra higher-rarity lootbox chance.
+Result: `10%` extra higher-rarity lootbox chance.
 
 **Example 2.** Specialist Boxes, one A grant `+2.5 pp`
 
-Calculation: `8% + 2.5 pp`.
+Calculation: `8% trait chance + 1 pp` from four mastery ranks `+ 2.5 pp` from the grant.
 
-Result: `10.5%` extra higher-rarity lootbox chance.
+Result: `11.5%` extra higher-rarity lootbox chance.
 
 ## Chance
 
@@ -118,7 +118,7 @@ Result: `10.5%` extra higher-rarity lootbox chance.
 
 Controls how often Luck activates on actions that support lucky effects.
 
-**How it resolves.** The trait creates activation weight and converts it into chance. Direct grants increase the weight before the final chance is derived. The result approaches but never reaches 50%.
+**How it resolves.** The trait creates activation weight and converts it into chance. Every reached mastery rank adds `10%` activation weight, and direct grants add their percentages alongside mastery before the final chance is derived. The result approaches but never reaches `50%`; this is an asymptote, not a hard cap.
 
 ### Direct Grant Ranges
 
@@ -131,31 +131,31 @@ Controls how often Luck activates on actions that support lucky effects.
 | Mastery | Trait value at start | System value without direct grants |
 | --- | ---: | --- |
 | Guest | `0` | 1% Luck activation chance |
-| Novice | `25` | 9.74% Luck activation chance |
-| Apprentice | `100` | 16.08% Luck activation chance |
-| Adept | `300` | 20.86% Luck activation chance |
-| Specialist | `1,000` | 25.5% Luck activation chance |
-| Expert | `3,000` | 29.09% Luck activation chance |
-| Master | `10,000` | 32.36% Luck activation chance |
-| Grandmaster | `30,000` | 34.82% Luck activation chance |
-| Wizard | `100,000` | 37.03% Luck activation chance |
-| Mystic | `300,000` | 38.69% Luck activation chance |
-| Immortal | `1,000,000` | 40.2% Luck activation chance |
-| Absolute | `3,000,000` | 41.34% Luck activation chance |
+| Novice | `25` | 10.51% Luck activation chance |
+| Apprentice | `100` | 18.13% Luck activation chance |
+| Adept | `300` | 24.11% Luck activation chance |
+| Specialist | `1,000` | 29.65% Luck activation chance |
+| Expert | `3,000` | 33.8% Luck activation chance |
+| Master | `10,000` | 37.29% Luck activation chance |
+| Grandmaster | `30,000` | 39.79% Luck activation chance |
+| Wizard | `100,000` | 41.86% Luck activation chance |
+| Mystic | `300,000` | 43.33% Luck activation chance |
+| Immortal | `1,000,000` | 44.57% Luck activation chance |
+| Absolute | `3,000,000` | 45.47% Luck activation chance |
 
 ### Examples
 
 **Example 1.** Specialist Chance, one C grant `+100%` activation weight
 
-Calculation: `25.5%` base chance after doubled weight.
+Calculation: the base activation weight receives `+40%` from four mastery ranks and `+100%` from the grant.
 
-Result: `33.77%` Luck activation chance.
+Result: `35.71%` Luck activation chance.
 
 **Example 2.** Specialist Chance, one A grant `+150%` activation weight
 
-Calculation: `25.5%` base chance after 2.5x weight.
+Calculation: the base activation weight receives `+40%` from four mastery ranks and `+150%` from the grant.
 
-Result: `36.12%` Luck activation chance.
+Result: `37.56%` Luck activation chance.
 
 ## Bonus
 
@@ -163,7 +163,7 @@ Result: `36.12%` Luck activation chance.
 
 Controls how strong lucky outcomes are after Luck activates.
 
-**How it resolves.** Reward power can keep growing through the trait and reward grants. Discount-style bonuses use the same Bonus trait but cap at 75%.
+**How it resolves.** The trait creates Lucky Power, and every reached mastery rank adds `2` more power before the effect splits. Reward-style outcomes add reward grants directly to that effective power. Discount-style outcomes pass the same effective power through a softer curve, then add discount grants; the final discount is capped at `75%`.
 
 ### Direct Grant Ranges
 
@@ -177,31 +177,31 @@ Controls how strong lucky outcomes are after Luck activates.
 | Mastery | Trait value at start | System value without direct grants |
 | --- | ---: | --- |
 | Guest | `0` | +10% reward power / 4.5% discount |
-| Novice | `25` | +45% reward power / 15.5% discount |
-| Apprentice | `100` | +74% reward power / 21.3% discount |
-| Adept | `300` | +98% reward power / 24.7% discount |
-| Specialist | `1,000` | +123% reward power / 27.6% discount |
-| Expert | `3,000` | +144% reward power / 29.5% discount |
-| Master | `10,000` | +164% reward power / 31.1% discount |
-| Grandmaster | `30,000` | +180% reward power / 32.1% discount |
-| Wizard | `100,000` | +195% reward power / 33.1% discount |
-| Mystic | `300,000` | +207% reward power / 33.7% discount |
-| Immortal | `1,000,000` | +218% reward power / 34.3% discount |
-| Absolute | `3,000,000` | +227% reward power / 34.7% discount |
+| Novice | `25` | +47% reward power / 15.99% discount |
+| Apprentice | `100` | +78% reward power / 21.91% discount |
+| Adept | `300` | +104% reward power / 25.49% discount |
+| Specialist | `1,000` | +131% reward power / 28.35% discount |
+| Expert | `3,000` | +154% reward power / 30.31% discount |
+| Master | `10,000` | +176% reward power / 31.88% discount |
+| Grandmaster | `30,000` | +194% reward power / 32.99% discount |
+| Wizard | `100,000` | +211% reward power / 33.92% discount |
+| Mystic | `300,000` | +225% reward power / 34.62% discount |
+| Immortal | `1,000,000` | +238% reward power / 35.21% discount |
+| Absolute | `3,000,000` | +249% reward power / 35.67% discount |
 
 ### Examples
 
 **Example 1.** Specialist Bonus, one A reward grant `+25 pp`
 
-Calculation: `123% + 25 pp`.
+Calculation: `123%` trait power `+ 8 pp` from four mastery ranks `+ 25 pp` from the grant.
 
-Result: `148%` lucky reward power.
+Result: `156%` lucky reward power.
 
 **Example 2.** Specialist Bonus, one A discount grant `+5 pp`
 
-Calculation: `27.58% + 5 pp`.
+Calculation: `131` effective Lucky Power becomes a `28.35%` base discount, then the grant adds `5 pp`.
 
-Result: `32.58%` lucky discount rate.
+Result: `33.35%` lucky discount rate.
 
 ## Cards
 
@@ -209,7 +209,9 @@ Result: `32.58%` lucky discount rate.
 
 Increases the number of turns in Common Lootbox openings.
 
-**How it resolves.** Base turns come from the current mastery row in the table below. Guest Cards remain at 1 turn until the trait reaches Novice at `25`. Direct turn grants increase expected turns. Expected turns are then resolved into guaranteed turns and a possible extra-turn roll: the integer part is guaranteed, and the fractional part is the chance to receive one additional turn.
+**How it resolves.** Every opening starts with one turn. The Cards trait then adds a smooth fractional number of expected turns, approaching `+6` from the trait itself. Every reached mastery rank separately adds `+0.15` expected turns. The trait is the main source of additional turns, while mastery is a smaller permanent reward for reaching each rank. Mastery keeps growing after Absolute, so Cards has no hard total-turn cap. Direct grants scale all earned turns but never the starter turn.
+
+The final expected number is split into guaranteed turns and one possible extra turn. For example, `4.73` means `4` guaranteed turns and a `73%` chance of receiving a fifth turn. This roll happens once when the Common Lootbox opening is created.
 
 ### Direct Grant Ranges
 
@@ -222,36 +224,32 @@ Increases the number of turns in Common Lootbox openings.
 | Mastery | Trait value at start | System value without direct grants |
 | --- | ---: | --- |
 | Guest | `0` | 1 turn |
-| Novice | `25` | 2 turns |
-| Apprentice | `100` | 3 turns |
-| Adept | `300` | 3 turns |
-| Specialist | `1,000` | 4 turns |
-| Expert | `3,000` | 4 turns |
-| Master | `10,000` | 5 turns |
-| Grandmaster | `30,000` | 5 turns |
-| Wizard | `100,000` | 6 turns |
-| Mystic | `300,000` | 6 turns |
-| Immortal | `1,000,000` | 7 turns |
-| Absolute | `3,000,000` | 7 turns |
+| Novice | `25` | 1 guaranteed + 88.5% for one extra |
+| Apprentice | `100` | 2 guaranteed + 63.3% for one extra |
+| Adept | `300` | 3 guaranteed + 27.8% for one extra |
+| Specialist | `1,000` | 3 guaranteed + 94.8% for one extra |
+| Expert | `3,000` | 4 guaranteed + 53.0% for one extra |
+| Master | `10,000` | 5 guaranteed + 10.0% for one extra |
+| Grandmaster | `30,000` | 5 guaranteed + 58.3% for one extra |
+| Wizard | `100,000` | 6 guaranteed + 4.6% for one extra |
+| Mystic | `300,000` | 6 guaranteed + 44.1% for one extra |
+| Immortal | `1,000,000` | 6 guaranteed + 82.0% for one extra |
+| Absolute | `3,000,000` | 7 guaranteed + 14.9% for one extra |
 
 ### Examples
 
 **Example 1. Specialist Cards, one low A grant at `+21%`.**
 
-Start from the mastery table: Specialist Cards gives `4` base turns.
+At Specialist, the trait contributes `2.348` expected turns and four mastery ranks contribute `0.6`. Together, that is `2.948` earned turns in addition to the starter turn.
 
-Apply the direct grant: `4 x 121% = 4.84` expected turns.
+Apply the direct grant only to the earned turns: `1 + 2.948 x 121% = 4.567` expected turns.
 
-Resolve expected turns: `floor(4.84) = 4` guaranteed turns, and the remaining `0.84` becomes an `84%` chance for one extra turn.
-
-Result: the opening starts with `4` turns and has an `84%` chance to become `5` turns.
+Result: the opening receives `4` guaranteed turns and a `56.7%` chance for one extra turn.
 
 **Example 2. Specialist Cards, one high A grant at `+25%`.**
 
-Start from the mastery table: Specialist Cards gives `4` base turns.
+Start from the same `2.948` earned turns and keep the starter turn outside the multiplier.
 
-Apply the direct grant: `4 x 125% = 5.00` expected turns.
+Calculation: `1 + 2.948 x 125% = 4.685` expected turns.
 
-Resolve expected turns: `floor(5.00) = 5` guaranteed turns, with no fractional part left for an extra-turn roll.
-
-Result: the opening starts with `5` guaranteed turns.
+Result: the opening receives `4` guaranteed turns and a `68.5%` chance for one extra turn.

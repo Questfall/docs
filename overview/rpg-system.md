@@ -6,7 +6,7 @@ icon: dice-d8
 
 Questfall's RPG system turns quest activity into character progression, item demand, and player strategy.
 
-At a high level, the live loop is:
+At a high level, the complete product loop is:
 
 ```text
 complete quests
@@ -17,17 +17,17 @@ complete quests
 -> improve future questing, crafting, trading, stamina, and luck outcomes
 ```
 
-## What Is Live Now
+## Current Implementation Status
 
-| Area | Live gameplay |
+| Area | Current status |
 | --- | --- |
-| Character attributes | Players level up and spend attribute points across six attributes. |
-| Clothing | Lootboxes create clothing with rarity, level, weight, Aspect, perks, set, and origin. |
-| Equipment | Clothing can be equipped, unequipped, sold, scrapped, and levelled up. |
-| Marketplace | Items can be listed and sold. Trading affects fees and active listing slots. |
-| Mining rewards | Mining affects quest reward power, Flow, moderation priority, and Chest Shard rolls. |
-| Stamina | Quest actions spend stamina. Reserve, Recovery, Efficiency, and Relief affect how long and how comfortably a player can keep acting. |
-| Luck | Luck affects Common Lootbox turns, shard completion, bonus lootboxes, lucky rewards, and lucky discounts. |
+| Character attributes | Live. Players level up and spend attribute points across six attributes. |
+| Clothing and equipment | Live. Lootboxes create clothing that can be equipped, unequipped, sold, scrapped, and levelled up. Equipping cost is calculated but not charged yet. |
+| Marketplace | Live. Items can be listed, sold, and claimed. Trading Fee, Conversion, and Slots are connected. |
+| Crafting | Scrapping and clothing Leveling are live. Merging, Rarity, and Quality are modelled for future product flows. |
+| Mining rewards | The RPG formulas are finalized. Quest rewards, Flow, moderation priority, and Chest Shard rolls activate with the quest and moderation product flows. |
+| Stamina | Character state, recovery, equipment pressure, and formulas are implemented. Quest-driven stamina spending activates with quests; potions are planned. |
+| Luck | Common Lootbox Cards and Boxes are live. Chance and Bonus support current lucky actions. Shards activates with quest-completion shard rewards. |
 
 Some model surfaces are intentionally present before their public feature is launched. For example, Potions, Gems, item rarity evolution, Gold auctions, and liquidity-program rewards belong to the broader RPG economy, but they should be treated as planned systems unless their own product surface is live.
 
@@ -44,7 +44,7 @@ Every character has six attributes:
 | [Stamina](../quest-mining/completion/rpg-attributes/stamina.md) | Doing more actions before resting and wearing heavier gear. |
 | [Luck](../quest-mining/completion/rpg-attributes/luck.md) | Improving random outcomes such as shards, lootboxes, and lucky bonuses. |
 
-Characters start with one point in every attribute. Each new character level gives `5` more attribute points. Spending a point in an attribute improves all five traits inside that attribute, so broad build choices matter.
+Characters start with one point in every attribute. Each new character level gives `6` more attribute points. Spending a point in an attribute improves all five traits inside that attribute, so broad build choices matter.
 
 ## Item Power
 

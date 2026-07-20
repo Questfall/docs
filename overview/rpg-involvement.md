@@ -20,9 +20,9 @@ A miner may want better Mining and Stamina gear. A trader may want more Slots an
 
 That variety is what makes item trading meaningful.
 
-## Current Live Loop
+## Complete Product Loop
 
-The live RPG economy is centered on clothing:
+The complete RPG economy is centered on clothing:
 
 ```text
 quest activity
@@ -55,4 +55,4 @@ This creates several player paths:
 
 The broader design still includes future RPG economy surfaces such as Potions, Gems, item rarity evolution, QFT-denominated high-rarity trading, and liquidity-linked Gem rewards.
 
-Those systems should be treated as planned until their product surfaces are live. The current live RPG economy is clothing, attributes, lootboxes, Essence, stamina, luck, and marketplace trading.
+Those systems should be treated as planned until their product surfaces are live. The current connected RPG economy is clothing, attributes, lootboxes, Essence, character progression, lucky actions, and marketplace trading. Mining rewards and quest-driven stamina use activate with the quest product flow.

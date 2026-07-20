@@ -26,47 +26,86 @@ Rarity letters in grant tables: E = Uncommon, D = Rare, C = Epic, B = Legendary,
 
 **Status:** Live.
 
-Increases how much Essence is returned when clothing is scrapped.
+Scrapping destroys an item and returns two separate parts of Essence:
 
-**How it resolves.** The trait gives a percent Essence bonus. Flat scrapping grants add Essence after the percent bonus.
+1. a guaranteed base value from the item's rarity;
+2. a growing share of the Essence actually paid for its level upgrades.
+
+Every item stores its own **Essence invested** value. Only real payments are recorded, after any Lucky Discount. The value stays with the item when it is traded. It is shown in the large item popup in both Inventory and Marketplace, so a buyer can judge an item's scrapping value before purchase.
+
+A newly generated item starts with zero invested Essence, but still returns its rarity base:
+
+| Rarity | F | E | D | C | B | A |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| Guaranteed base Essence | 10 | 20 | 30 | 40 | 50 | 60 |
+
+The trait recovers an asymptotically growing share of invested Essence:
+
+```text
+t = log10(max(1, Scrapping))
+trait_recovery = t² / (t² + 9)
+```
+
+It approaches `100%` but never reaches it at a finite trait value. Every completed mastery rank also adds `1` guaranteed Essence independently of rarity.
 
 ### Direct Grant Ranges
 
 | Direct grant | What one grant changes | E | D | C | B | A |
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
-| Flat scrapping Essence | Adds Essence after the percentage bonus. | +1 Essence | +2 Essence | +3 Essence | +4 Essence | +5 Essence |
-| Scrapping Essence bonus | Adds percentage points to Essence gained from scrapping. | +2% to +4% | +5% to +8% | +9% to +12% | +13% to +16% | +17% to +20% |
+| Base Scrapping Essence | Adds guaranteed Essence independently of investment. | +1 | +2 | +3 | +4 | +5 |
+| Scrapping Recovery Efficiency | Closes part of the remaining gap between trait recovery and 100%. | +2 to +4 | +5 to +8 | +9 to +12 | +13 to +16 | +17 to +20 |
+
+Recovery Efficiency does not add percentage points directly:
+
+```text
+final_recovery =
+  1 - (1 - trait_recovery) / (1 + recovery_efficiency / 100)
+```
 
 ### Mastery Start Values
 
-| Mastery | Trait value at start | System value without direct grants |
-| --- | ---: | --- |
-| Guest | `0` | +0% Essence from scrapping |
-| Novice | `25` | +15% Essence from scrapping |
-| Apprentice | `100` | +30% Essence from scrapping |
-| Adept | `300` | +45% Essence from scrapping |
-| Specialist | `1,000` | +60% Essence from scrapping |
-| Expert | `3,000` | +75% Essence from scrapping |
-| Master | `10,000` | +90% Essence from scrapping |
-| Grandmaster | `30,000` | +105% Essence from scrapping |
-| Wizard | `100,000` | +120% Essence from scrapping |
-| Mystic | `300,000` | +135% Essence from scrapping |
-| Immortal | `1,000,000` | +150% Essence from scrapping |
-| Absolute | `3,000,000` | +165% Essence from scrapping |
+| Mastery | Trait value at start | Invested Essence recovered | Guaranteed mastery Essence |
+| --- | ---: | ---: | ---: |
+| Guest | `0` | 0% | +0 |
+| Novice | `25` | 17.84% | +1 |
+| Apprentice | `100` | 30.77% | +2 |
+| Adept | `300` | 40.54% | +3 |
+| Specialist | `1,000` | 50% | +4 |
+| Expert | `3,000` | 57.33% | +5 |
+| Master | `10,000` | 64% | +6 |
+| Grandmaster | `30,000` | 69.01% | +7 |
+| Wizard | `100,000` | 73.53% | +8 |
+| Mystic | `300,000` | 76.92% | +9 |
+| Immortal | `1,000,000` | 80% | +10 |
+| Absolute | `3,000,000` | 82.34% | +11 |
+
+### Lucky Scrapping
+
+When Luck activates, it works only on the invested Essence still unrecovered after the guaranteed calculation. If the final Lucky Reward power is `Q`, Luck recovers this share of that remainder:
+
+```text
+lucky_remainder_share = Q / (Q + 100)
+```
+
+Luck therefore cannot return more than the remaining investment and never multiplies the rarity base, mastery reward, flat grants, or already recovered Essence.
 
 ### Examples
 
-**Example 1.** Rare (D) level `10` item, Specialist Scrapping, one A flat grant `+5 Essence`
+**Example 1.** Rare (D), `100 Essence` invested, Specialist Scrapping, one A flat grant `+5`
 
-Calculation: `floor(32.7 x 160%) + 5`.
+Guaranteed rarity and flat value: `30 + 4 mastery + 5 grant = 39`.
 
-Result: `57 Essence` returned.
+Investment recovery: `floor(100 x 50%) = 50`.
 
-**Example 2.** Rare (D) level `10` item, Specialist Scrapping, one A bonus grant `+20 pp`
+Result before Luck: `89 Essence`.
 
-Calculation: `floor(32.7 x 180%)`.
+**Example 2.** Rare (D), `100 Essence` invested, Specialist Scrapping, one A Efficiency grant `+20`
 
-Result: `58 Essence` returned.
+Final recovery: `1 - (1 - 50%) / 1.2 = 58.33%`.
+
+Result before Luck: `30 rarity + 4 mastery + floor(100 x 58.33%) = 92 Essence`.
+
+If Luck activates with `Q = 100`, it recovers `50%` of the remaining `42 Essence`, adding `21 Essence`.
 
 ## Leveling
 
@@ -74,44 +113,56 @@ Result: `58 Essence` returned.
 
 Reduces the Essence cost of raising clothing level.
 
-**How it resolves.** The trait and direct grants reduce level-up cost, but final cost cannot go below 2 x item rarity or 8% of base cost.
+**How it resolves.** The base price is the target item level multiplied by its rarity scale:
+
+| Rarity | F | E | D | C | B | A |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| Leveling scale | 1 | 2 | 3 | 5 | 8 | 13 |
+
+Leveling follows an asymptotic curve: it keeps reducing the remaining share of that base price without using a percentage floor. Every completed mastery rank adds `5 Leveling Efficiency`. Mastery and direct-grant Efficiency divide the remaining cost, so they have diminishing returns instead of subtracting direct percentage points. The final ordinary price has a minimum of `1 Essence`.
+
+Item level has no product cap. The target-level factor keeps making each next upgrade more expensive, while item weight continues to grow with level.
+
+A successful Lucky Discount is applied afterward. Only the Essence actually paid is recorded as invested in the item.
 
 ### Direct Grant Ranges
 
 | Direct grant | What one grant changes | E | D | C | B | A |
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
-| Level-up cost reduction | Adds percentage points of Essence cost reduction. | +1% to +2% | +3% to +4% | +5% to +6% | +7% to +8% | +9% to +10% |
+| Leveling Efficiency | Divides the remaining level-up cost. | +1 to +2 | +3 to +4 | +5 to +6 | +7 to +8 | +9 to +10 |
 
 ### Mastery Start Values
 
-| Mastery | Trait value at start | System value without direct grants |
-| --- | ---: | --- |
-| Guest | `0` | 100% level-up cost remains |
-| Novice | `25` | 84% level-up cost remains |
-| Apprentice | `100` | 73% level-up cost remains |
-| Adept | `300` | 64% level-up cost remains |
-| Specialist | `1,000` | 55% level-up cost remains |
-| Expert | `3,000` | 49% level-up cost remains |
-| Master | `10,000` | 43% level-up cost remains |
-| Grandmaster | `30,000` | 38% level-up cost remains |
-| Wizard | `100,000` | 34% level-up cost remains |
-| Mystic | `300,000` | 31% level-up cost remains |
-| Immortal | `1,000,000` | 28% level-up cost remains |
-| Absolute | `3,000,000` | 26% level-up cost remains |
+| Mastery | Trait value at start | Mastery Efficiency | Ordinary base cost remaining without direct grants |
+| --- | ---: | ---: | ---: |
+| Guest | `0` | 0 | 100% |
+| Novice | `25` | 5 | 78.25% |
+| Apprentice | `100` | 10 | 62.94% |
+| Adept | `300` | 15 | 51.70% |
+| Specialist | `1,000` | 20 | 41.67% |
+| Expert | `3,000` | 25 | 34.14% |
+| Master | `10,000` | 30 | 27.69% |
+| Grandmaster | `30,000` | 35 | 22.95% |
+| Wizard | `100,000` | 40 | 18.91% |
+| Mystic | `300,000` | 45 | 15.92% |
+| Immortal | `1,000,000` | 50 | 13.33% |
+| Absolute | `3,000,000` | 55 | 11.40% |
 
 ### Examples
 
 **Example 1.** Rare (D) item to level `10`, Specialist Leveling, no direct grant
 
-Calculation: `30 x 55%`, rounded up.
+Calculation: `30 x 50% x 100 / 120`, rounded up.
 
-Result: `17 Essence` level-up cost.
+Result: `13 Essence` ordinary level-up cost.
 
-**Example 2.** Rare (D) item to level `10`, Specialist Leveling, one A grant `+10 pp`
+**Example 2.** Rare (D) item to level `10`, Specialist Leveling, one A grant `+10 Efficiency`
 
-Calculation: `30 x 90% x 55%`, rounded up.
+Calculation: `30 x 50% x 100 / 130`, rounded up.
 
-Result: `15 Essence` level-up cost.
+Result: `12 Essence` ordinary level-up cost.
+
+If Luck activates, Lucky Discount is calculated from that ordinary price and can reduce the actual payment further.
 
 ## Merging
 
@@ -119,44 +170,44 @@ Result: `15 Essence` level-up cost.
 
 Planned cost-efficiency trait for merging simple rarity-based consumables such as future Potions and Gems.
 
-**How it resolves.** The cost keeps a 25% core. Trait and grants shrink only the reducible 75% part.
+**How it resolves.** The cost keeps a 25% core. Every completed Merging mastery rank adds `5 Merging Efficiency`. Mastery and direct-grant Efficiency are added together, then divide only the reducible 75% part of the cost.
 
 ### Direct Grant Ranges
 
 | Direct grant | What one grant changes | E | D | C | B | A |
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
-| Merge cost efficiency | Shrinks the reducible part of the merge cost. | +3% to +5% | +6% to +10% | +11% to +15% | +16% to +20% | +21% to +25% |
+| Merge cost efficiency | Shrinks the reducible part of the merge cost. | +2% to +4% | +5% to +8% | +9% to +12% | +13% to +16% | +17% to +20% |
 
 ### Mastery Start Values
 
-| Mastery | Trait value at start | System value without direct grants |
-| --- | ---: | --- |
-| Guest | `0` | 100% merge cost remains |
-| Novice | `25` | 83.63% merge cost remains |
-| Apprentice | `100` | 72.73% merge cost remains |
-| Adept | `300` | 64.97% merge cost remains |
-| Specialist | `1,000` | 57.81% merge cost remains |
-| Expert | `3,000` | 52.5% merge cost remains |
-| Master | `10,000` | 47.83% merge cost remains |
-| Grandmaster | `30,000` | 44.41% merge cost remains |
-| Wizard | `100,000` | 41.41% merge cost remains |
-| Mystic | `300,000` | 39.19% merge cost remains |
-| Immortal | `1,000,000` | 37.21% merge cost remains |
-| Absolute | `3,000,000` | 35.72% merge cost remains |
+| Mastery | Trait value at start | Mastery Efficiency | Merge cost remaining without direct grants |
+| --- | ---: | ---: | ---: |
+| Guest | `0` | 0 | 100% |
+| Novice | `25` | +5 | 80.84% |
+| Apprentice | `100` | +10 | 68.39% |
+| Adept | `300` | +15 | 59.75% |
+| Specialist | `1,000` | +20 | 52.34% |
+| Expert | `3,000` | +25 | 47% |
+| Master | `10,000` | +30 | 42.56% |
+| Grandmaster | `30,000` | +35 | 39.38% |
+| Wizard | `100,000` | +40 | 36.72% |
+| Mystic | `300,000` | +45 | 34.79% |
+| Immortal | `1,000,000` | +50 | 33.14% |
+| Absolute | `3,000,000` | +55 | 31.92% |
 
 ### Examples
 
 **Example 1.** Rare (D) merge base `750 Essence`, Specialist Merging, no direct grant
 
-Calculation: `25% core + 75% reducible curve`.
+Calculation: `25% core + 75% reducible curve / (1 + 20 mastery Efficiency / 100)`.
 
-Result: `434 Essence` merge cost.
+Result: `393 Essence` merge cost.
 
-**Example 2.** Rare (D) merge base `750 Essence`, Specialist Merging, one A grant `+25% efficiency`
+**Example 2.** Rare (D) merge base `750 Essence`, Specialist Merging, one A grant `+20 Efficiency`
 
-Calculation: `25% core + reduced 75% part`.
+Calculation: `25% core + 75% reducible curve / (1 + (20 mastery + 20 grant) Efficiency / 100)`.
 
-Result: `385 Essence` merge cost.
+Result: `364 Essence` merge cost.
 
 ## Rarity
 
@@ -164,7 +215,7 @@ Result: `385 Essence` merge cost.
 
 Planned cost-efficiency trait for raising rarity on level-based items, especially equipment.
 
-**How it resolves.** The cost keeps a 20% core. Trait and grants shrink only the reducible 80% part; Gems remain the main limiter when evolution launches.
+**How it resolves.** The cost keeps a 20% core. Every completed Rarity mastery rank adds `5 Rarity Efficiency`. Mastery and direct-grant Efficiency are added together, then divide only the reducible 80% Essence fee. One Gem of the source rarity remains required when evolution launches.
 
 ### Direct Grant Ranges
 
@@ -174,34 +225,34 @@ Planned cost-efficiency trait for raising rarity on level-based items, especiall
 
 ### Mastery Start Values
 
-| Mastery | Trait value at start | System value without direct grants |
-| --- | ---: | --- |
-| Guest | `0` | 100% rarity-upgrade cost remains |
-| Novice | `25` | 85.73% rarity-upgrade cost remains |
-| Apprentice | `100` | 75.38% rarity-upgrade cost remains |
-| Adept | `300` | 67.57% rarity-upgrade cost remains |
-| Specialist | `1,000` | 60% rarity-upgrade cost remains |
-| Expert | `3,000` | 54.14% rarity-upgrade cost remains |
-| Master | `10,000` | 48.8% rarity-upgrade cost remains |
-| Grandmaster | `30,000` | 44.79% rarity-upgrade cost remains |
-| Wizard | `100,000` | 41.18% rarity-upgrade cost remains |
-| Mystic | `300,000` | 38.46% rarity-upgrade cost remains |
-| Immortal | `1,000,000` | 36% rarity-upgrade cost remains |
-| Absolute | `3,000,000` | 34.13% rarity-upgrade cost remains |
+| Mastery | Trait value at start | Mastery Efficiency | Rarity-upgrade cost remaining without direct grants |
+| --- | ---: | ---: | ---: |
+| Guest | `0` | 0 | 100% |
+| Novice | `25` | +5 | 82.6% |
+| Apprentice | `100` | +10 | 70.35% |
+| Adept | `300` | +15 | 61.36% |
+| Specialist | `1,000` | +20 | 53.33% |
+| Expert | `3,000` | +25 | 47.31% |
+| Master | `10,000` | +30 | 42.15% |
+| Grandmaster | `30,000` | +35 | 38.36% |
+| Wizard | `100,000` | +40 | 35.13% |
+| Mystic | `300,000` | +45 | 32.73% |
+| Immortal | `1,000,000` | +50 | 30.67% |
+| Absolute | `3,000,000` | +55 | 29.12% |
 
 ### Examples
 
 **Example 1.** Rare (D) level `10` rarity-upgrade base `285 Essence`, Specialist Rarity, no direct grant
 
-Calculation: `20% core + 80% reducible curve`.
+Calculation: `20% core + 80% reducible curve / (1 + 20 mastery Efficiency / 100)`.
 
-Result: `171 Essence` rarity-upgrade cost.
+Result: `152 Essence` rarity-upgrade cost.
 
 **Example 2.** Rare (D) level `10` rarity-upgrade base `285 Essence`, Specialist Rarity, one A grant `+25% efficiency`
 
-Calculation: `20% core + reduced 80% part`.
+Calculation: `20% core + 80% reducible curve / (1 + (20 mastery + 25 grant) Efficiency / 100)`.
 
-Result: `149 Essence` rarity-upgrade cost.
+Result: `136 Essence` rarity-upgrade cost.
 
 ## Quality
 
@@ -209,7 +260,7 @@ Result: `149 Essence` rarity-upgrade cost.
 
 Planned perk-roll pressure trait for upgrades and new perk rolls.
 
-**How it resolves.** Quality adds pressure toward the upper part of perk value ranges. Direct Quality grants add more pressure before the final bias is derived.
+**How it resolves.** Every completed Quality mastery rank adds `1 Quality Pressure`. Trait pressure, mastery pressure, and direct-grant pressure combine before the final roll floor is derived. Quality applies only to crafting operations: it does not improve Lootbox drops or rewrite value already accumulated by a perk.
 
 ### Direct Grant Ranges
 
@@ -219,31 +270,33 @@ Planned perk-roll pressure trait for upgrades and new perk rolls.
 
 ### Mastery Start Values
 
-| Mastery | Trait value at start | System value without direct grants |
-| --- | ---: | --- |
-| Guest | `0` | 0% roll bias |
-| Novice | `25` | 11.64% roll bias |
-| Apprentice | `100` | 21.11% roll bias |
-| Adept | `300` | 28.95% roll bias |
-| Specialist | `1,000` | 37.17% roll bias |
-| Expert | `3,000` | 44.02% roll bias |
-| Master | `10,000` | 50.67% roll bias |
-| Grandmaster | `30,000` | 55.93% roll bias |
-| Wizard | `100,000` | 60.9% roll bias |
-| Mystic | `300,000` | 64.77% roll bias |
-| Immortal | `1,000,000` | 68.4% roll bias |
-| Absolute | `3,000,000` | 71.23% roll bias |
+| Mastery | Trait value at start | Mastery Pressure | Roll floor without direct grants |
+| --- | ---: | ---: | ---: |
+| Guest | `0` | 0 | 0% |
+| Novice | `25` | +1 | 16.55% |
+| Apprentice | `100` | +2 | 28.5% |
+| Adept | `300` | +3 | 37.51% |
+| Specialist | `1,000` | +4 | 45.74% |
+| Expert | `3,000` | +5 | 52.22% |
+| Master | `10,000` | +6 | 58.06% |
+| Grandmaster | `30,000` | +7 | 62.6% |
+| Wizard | `100,000` | +8 | 66.7% |
+| Mystic | `300,000` | +9 | 69.91% |
+| Immortal | `1,000,000` | +10 | 72.83% |
+| Absolute | `3,000,000` | +11 | 75.14% |
 
 ### Examples
 
 **Example 1.** Specialist Quality, one C grant `+4 pressure`
 
-Calculation: `37.17%` base bias with added pressure.
+Calculation: `9 trait pressure + 4 mastery pressure + 4 grant pressure`.
 
-Result: `45.74%` roll bias.
+Result: `52.10%` roll floor.
 
 **Example 2.** Specialist Quality, one A grant `+6 pressure`
 
-Calculation: `37.17%` base bias with added pressure.
+Calculation: `9 trait pressure + 4 mastery pressure + 6 grant pressure`.
 
-Result: `49.14%` roll bias.
+Result: `54.70%` roll floor.
+
+For an existing terminal, this floor improves only the remaining distance from its current roll to `100%`. The terminal's accumulated value stays unchanged; only its future per-level step is recalculated.

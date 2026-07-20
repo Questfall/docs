@@ -6,13 +6,15 @@ icon: bolt
 
 Stamina controls action cost, maximum stamina, recovery, equipment pressure, and planned potion absorption.
 
-## Live Status
+## Implementation Status
 
-Efficiency, Reserve, Recovery, and Relief are live. Absorption is planned for potion systems.
+Stamina formulas, character state, grants, and equipment pressure are implemented. Quest-driven stamina spending will activate with the quest block. Absorption will activate with the potion system.
 
 ## How To Read These Tables
 
 A trait value is the total character value for that trait after character points, item Aspect, attribute grants, and trait terminal perks. Direct grants are different: they do not increase the trait value itself, but modify the final system value after the trait is read.
+
+Mastery uses this final trait value, including boosted terminal perks. A boosted terminal perk may therefore unlock a mastery rank. Direct system grants do not add trait value. The mastery reward is applied once and is not recursively fed back into mastery or multiplied again by a booster.
 
 The rarity columns show the generated range for one direct grant on one item. Multiple grants add together unless the trait text says they multiply, such as Stamina Relief pressure reduction.
 
@@ -24,11 +26,13 @@ Rarity letters in grant tables: E = Uncommon, D = Rare, C = Epic, B = Legendary,
 
 ## Efficiency
 
-**Status:** Live.
+**Status:** Formula and state implemented; quest use activates with quests.
 
 Reduces the base stamina cost of actions before equipment pressure is added.
 
-**How it resolves.** Direct rate and flat grants reduce the raw base action cost first. The Efficiency trait multiplier is applied after those grants.
+**How it resolves.** Every reached Efficiency mastery rank reduces raw base action cost by `1 pp`. This mastery reward and direct rate grants add together, up to a combined `90%` reduction. Flat grants are subtracted next. The Efficiency trait multiplier is applied after all three pre-curve effects.
+
+The shared mastery-input rule above applies to Efficiency.
 
 ### Direct Grant Ranges
 
@@ -41,32 +45,32 @@ Reduces the base stamina cost of actions before equipment pressure is added.
 
 | Mastery | Trait value at start | System value without direct grants |
 | --- | ---: | --- |
-| Guest | `0` | 100% raw base action cost remains |
-| Novice | `25` | 89% raw base action cost remains |
-| Apprentice | `100` | 80% raw base action cost remains |
-| Adept | `300` | 73% raw base action cost remains |
-| Specialist | `1,000` | 65% raw base action cost remains |
-| Expert | `3,000` | 59% raw base action cost remains |
-| Master | `10,000` | 52% raw base action cost remains |
-| Grandmaster | `30,000` | 48% raw base action cost remains |
-| Wizard | `100,000` | 43% raw base action cost remains |
-| Mystic | `300,000` | 39% raw base action cost remains |
-| Immortal | `1,000,000` | 36% raw base action cost remains |
-| Absolute | `3,000,000` | 33% raw base action cost remains |
+| Guest | `0` | 100% raw base action cost remains; `+0 pp` from mastery |
+| Novice | `25` | 89% remains; `+1 pp` from mastery |
+| Apprentice | `100` | 79% remains; `+2 pp` from mastery |
+| Adept | `300` | 71% remains; `+3 pp` from mastery |
+| Specialist | `1,000` | 63% remains; `+4 pp` from mastery |
+| Expert | `3,000` | 56% remains; `+5 pp` from mastery |
+| Master | `10,000` | 49% remains; `+6 pp` from mastery |
+| Grandmaster | `30,000` | 44% remains; `+7 pp` from mastery |
+| Wizard | `100,000` | 39% remains; `+8 pp` from mastery |
+| Mystic | `300,000` | 36% remains; `+9 pp` from mastery |
+| Immortal | `1,000,000` | 32% remains; `+10 pp` from mastery |
+| Absolute | `3,000,000` | 29% remains; `+11 pp` from mastery |
 
 ### Examples
 
 **Example 1.** Raw action cost `100`, Specialist Efficiency, one A rate grant `+5%`
 
-Calculation: `100 x 95% x 0.6478`, rounded up.
+Calculation: `100 x (100% - 4% mastery - 5% grant) x 0.6478`, rounded up.
 
-Result: `62 stamina` base action cost.
+Result: `59 stamina` base action cost.
 
 **Example 2.** Raw action cost `100`, Specialist Efficiency, one A flat grant `-5 stamina`
 
-Calculation: `(100 - 5) x 0.6478`, rounded up.
+Calculation: `(100 x 96% - 5) x 0.6478`, rounded up.
 
-Result: `62 stamina` base action cost.
+Result: `59 stamina` base action cost.
 
 ## Absorption
 
@@ -74,7 +78,9 @@ Result: `62 stamina` base action cost.
 
 Planned trait for improving future Stamina Potion effects.
 
-**How it resolves.** Direct Absorption grants add potion effect first. The trait then scales the remaining distance toward the 250% effect ceiling.
+**How it resolves.** Every reached Absorption mastery rank adds `5 pp` to the starting Potion Effect bonus. This reward and direct Absorption grants add together, up to `250%`. The trait then scales the remaining distance toward the same `250%` effect ceiling.
+
+The shared mastery-input rule above applies to Absorption.
 
 ### Direct Grant Ranges
 
@@ -87,39 +93,43 @@ Planned trait for improving future Stamina Potion effects.
 | Mastery | Trait value at start | System value without direct grants |
 | --- | ---: | --- |
 | Guest | `0` | +0% potion effect |
-| Novice | `25` | +30.62% potion effect |
-| Apprentice | `100` | +55.56% potion effect |
-| Adept | `300` | +76.18% potion effect |
-| Specialist | `1,000` | +97.83% potion effect |
-| Expert | `3,000` | +115.85% potion effect |
-| Master | `10,000` | +133.33% potion effect |
-| Grandmaster | `30,000` | +147.19% potion effect |
-| Wizard | `100,000` | +160.26% potion effect |
-| Mystic | `300,000` | +170.45% potion effect |
-| Immortal | `1,000,000` | +180% potion effect |
-| Absolute | `3,000,000` | +187.45% potion effect |
+| Novice | `25` | +35.01% potion effect; `+5 pp` mastery seed |
+| Apprentice | `100` | +63.33% potion effect; `+10 pp` mastery seed |
+| Adept | `300` | +86.61% potion effect; `+15 pp` mastery seed |
+| Specialist | `1,000` | +110% potion effect; `+20 pp` mastery seed |
+| Expert | `3,000` | +129.27% potion effect; `+25 pp` mastery seed |
+| Master | `10,000` | +147.33% potion effect; `+30 pp` mastery seed |
+| Grandmaster | `30,000` | +161.59% potion effect; `+35 pp` mastery seed |
+| Wizard | `100,000` | +174.62% potion effect; `+40 pp` mastery seed |
+| Mystic | `300,000` | +184.77% potion effect; `+45 pp` mastery seed |
+| Immortal | `1,000,000` | +194% potion effect; `+50 pp` mastery seed |
+| Absolute | `3,000,000` | +201.21% potion effect; `+55 pp` mastery seed |
 
 ### Examples
 
 **Example 1.** Future potion with `100` base effect, Specialist Absorption, no direct grant
 
-Calculation: `100 x (1 + 97.83%)`.
+Calculation: `20 pp mastery seed` becomes a `+110%` bonus through the trait curve; `100 x (1 + 110%)`.
 
-Result: `197.83` effective potion value.
+Result: `210` effective potion value.
 
 **Example 2.** Future potion with `100` base effect, Specialist Absorption, one A grant `+15 pp`
 
-Calculation: `100 x (1 + 106.96%)`.
+Calculation: `20 pp mastery + 15 pp grant` becomes a `+119.13%` bonus through the trait curve; `100 x (1 + 119.13%)`.
 
-Result: `206.96` effective potion value.
+Result: `219.13` effective potion value.
+
+Before potion use is activated, the potion system will define base restore values and any practical overflow limit. The Absorption formula itself is already fixed.
 
 ## Reserve
 
-**Status:** Live.
+**Status:** Formula and state implemented; quest use activates with quests.
 
 Increases Maximum Stamina, letting a character perform more actions before resting or using future potions.
 
-**How it resolves.** The Reserve trait creates the base stamina pool. Percent grants scale it; flat grants add stamina on top.
+**How it resolves.** The Reserve trait creates the base stamina pool. Every reached Reserve mastery rank adds `2 pp` Maximum Stamina. This mastery reward and direct percentage grants add together before scaling the base pool; flat grants add stamina on top.
+
+The shared mastery-input rule above applies to Reserve.
 
 ### Direct Grant Ranges
 
@@ -133,39 +143,41 @@ Increases Maximum Stamina, letting a character perform more actions before resti
 | Mastery | Trait value at start | System value without direct grants |
 | --- | ---: | --- |
 | Guest | `0` | 2,208 Maximum Stamina |
-| Novice | `25` | 2,689 Maximum Stamina |
-| Apprentice | `100` | 3,246 Maximum Stamina |
-| Adept | `300` | 4,105 Maximum Stamina |
-| Specialist | `1,000` | 6,009 Maximum Stamina |
-| Expert | `3,000` | 9,723 Maximum Stamina |
-| Master | `10,000` | 18,988 Maximum Stamina |
-| Grandmaster | `30,000` | 38,748 Maximum Stamina |
-| Wizard | `100,000` | 91,283 Maximum Stamina |
-| Mystic | `300,000` | 208,046 Maximum Stamina |
-| Immortal | `1,000,000` | 526,765 Maximum Stamina |
-| Absolute | `3,000,000` | 1,246,434 Maximum Stamina |
+| Novice | `25` | 2,742 Maximum Stamina; `+2 pp` from mastery |
+| Apprentice | `100` | 3,375 Maximum Stamina; `+4 pp` from mastery |
+| Adept | `300` | 4,351 Maximum Stamina; `+6 pp` from mastery |
+| Specialist | `1,000` | 6,489 Maximum Stamina; `+8 pp` from mastery |
+| Expert | `3,000` | 10,695 Maximum Stamina; `+10 pp` from mastery |
+| Master | `10,000` | 21,266 Maximum Stamina; `+12 pp` from mastery |
+| Grandmaster | `30,000` | 44,172 Maximum Stamina; `+14 pp` from mastery |
+| Wizard | `100,000` | 105,888 Maximum Stamina; `+16 pp` from mastery |
+| Mystic | `300,000` | 245,494 Maximum Stamina; `+18 pp` from mastery |
+| Immortal | `1,000,000` | 632,118 Maximum Stamina; `+20 pp` from mastery |
+| Absolute | `3,000,000` | 1,520,649 Maximum Stamina; `+22 pp` from mastery |
 
 ### Examples
 
 **Example 1.** Specialist Reserve, one A flat grant `+5,000 stamina`
 
-Calculation: `6,009 + 5,000`.
+Calculation: `floor(6,009 x 108%) + 5,000`.
 
-Result: `11,009` Maximum Stamina.
+Result: `11,489` Maximum Stamina.
 
 **Example 2.** Specialist Reserve, one A percent grant `+15%`
 
-Calculation: `floor(6,009 x 115%)`.
+Calculation: `floor(6,009 x (100% + 8% mastery + 15% grant))`.
 
-Result: `6,910` Maximum Stamina.
+Result: `7,391` Maximum Stamina.
 
 ## Recovery
 
-**Status:** Live.
+**Status:** Formula and state implemented; quest use activates with quests.
 
 Increases stamina recovered per minute.
 
-**How it resolves.** Recovery starts from the trait-derived base reserve divided by 480. Percent grants scale recovery speed; flat grants add stamina per minute.
+**How it resolves.** Recovery starts from the trait-derived base reserve divided by 480. Every reached Recovery mastery rank adds `2 pp` Recovery Speed. This mastery reward and direct percentage grants add together before scaling base recovery; flat grants add stamina per minute on top.
+
+The shared mastery-input rule above applies to Recovery. Because Reserve uses the same `+2 pp` reward, equal Reserve and Recovery values without direct grants refill an empty bar in approximately `8 hours` at every mastery band.
 
 ### Direct Grant Ranges
 
@@ -179,39 +191,41 @@ Increases stamina recovered per minute.
 | Mastery | Trait value at start | System value without direct grants |
 | --- | ---: | --- |
 | Guest | `0` | 4.6 stamina/min |
-| Novice | `25` | 5.6 stamina/min |
-| Apprentice | `100` | 6.76 stamina/min |
-| Adept | `300` | 8.55 stamina/min |
-| Specialist | `1,000` | 12.52 stamina/min |
-| Expert | `3,000` | 20.26 stamina/min |
-| Master | `10,000` | 39.56 stamina/min |
-| Grandmaster | `30,000` | 80.72 stamina/min |
-| Wizard | `100,000` | 190.17 stamina/min |
-| Mystic | `300,000` | 433.43 stamina/min |
-| Immortal | `1,000,000` | 1,097 stamina/min |
-| Absolute | `3,000,000` | 2,597 stamina/min |
+| Novice | `25` | 5.71 stamina/min; `+2 pp` from mastery |
+| Apprentice | `100` | 7.03 stamina/min; `+4 pp` from mastery |
+| Adept | `300` | 9.07 stamina/min; `+6 pp` from mastery |
+| Specialist | `1,000` | 13.52 stamina/min; `+8 pp` from mastery |
+| Expert | `3,000` | 22.28 stamina/min; `+10 pp` from mastery |
+| Master | `10,000` | 44.31 stamina/min; `+12 pp` from mastery |
+| Grandmaster | `30,000` | 92.03 stamina/min; `+14 pp` from mastery |
+| Wizard | `100,000` | 220.6 stamina/min; `+16 pp` from mastery |
+| Mystic | `300,000` | 511.45 stamina/min; `+18 pp` from mastery |
+| Immortal | `1,000,000` | 1,316.91 stamina/min; `+20 pp` from mastery |
+| Absolute | `3,000,000` | 3,168.02 stamina/min; `+22 pp` from mastery |
 
 ### Examples
 
 **Example 1.** Specialist Recovery, one A flat grant `+40 stamina/min`
 
-Calculation: `12.52 + 40`.
+Calculation: `12.51875 x 108% + 40`.
 
-Result: `52.52 stamina/min`.
+Result: `53.52 stamina/min`.
 
 **Example 2.** Specialist Recovery, one A percent grant `+15%`
 
-Calculation: `12.52 x 115%`.
+Calculation: `12.51875 x (100% + 8% mastery + 15% grant)`.
 
-Result: `14.4 stamina/min`.
+Result: `15.4 stamina/min`.
 
 ## Relief
 
-**Status:** Live.
+**Status:** Formula and state implemented; quest use activates with quests.
 
 Reduces the stamina pressure created by equipped item weight.
 
-**How it resolves.** Direct Relief grants reduce raw equipment pressure first. The Relief trait then divides the remaining pressure by its power.
+**How it resolves.** Every reached Relief mastery rank makes total equipped weight count as `1%` less for stamina pressure, up to a distant `90%` safety cap. Pressure is calculated from the square of that effective weight. Direct Relief grants reduce the resulting raw pressure, then the Relief trait divides what remains by its power.
+
+The shared mastery-input rule above applies to Relief. Stored item weight and inventory weight do not change.
 
 ### Direct Grant Ranges
 
@@ -221,31 +235,31 @@ Reduces the stamina pressure created by equipped item weight.
 
 ### Mastery Start Values
 
-| Mastery | Trait value at start | System value without direct grants |
-| --- | ---: | --- |
-| Guest | `0` | 100% equipment pressure remains |
-| Novice | `25` | 67.57% equipment pressure remains |
-| Apprentice | `100` | 50% equipment pressure remains |
-| Adept | `300` | 39.53% equipment pressure remains |
-| Specialist | `1,000` | 30.77% equipment pressure remains |
-| Expert | `3,000` | 24.88% equipment pressure remains |
-| Master | `10,000` | 20% equipment pressure remains |
-| Grandmaster | `30,000` | 16.64% equipment pressure remains |
-| Wizard | `100,000` | 13.79% equipment pressure remains |
-| Mystic | `300,000` | 11.78% equipment pressure remains |
-| Immortal | `1,000,000` | 10% equipment pressure remains |
-| Absolute | `3,000,000` | 8.71% equipment pressure remains |
+| Mastery | Trait value at start | Weight used for pressure | System value without direct grants |
+| --- | ---: | ---: | --- |
+| Guest | `0` | 100% | 100% equipment pressure remains |
+| Novice | `25` | 99% | 66.22% equipment pressure remains |
+| Apprentice | `100` | 98% | 48.02% equipment pressure remains |
+| Adept | `300` | 97% | 37.19% equipment pressure remains |
+| Specialist | `1,000` | 96% | 28.36% equipment pressure remains |
+| Expert | `3,000` | 95% | 22.45% equipment pressure remains |
+| Master | `10,000` | 94% | 17.67% equipment pressure remains |
+| Grandmaster | `30,000` | 93% | 14.39% equipment pressure remains |
+| Wizard | `100,000` | 92% | 11.67% equipment pressure remains |
+| Mystic | `300,000` | 91% | 9.75% equipment pressure remains |
+| Immortal | `1,000,000` | 90% | 8.1% equipment pressure remains |
+| Absolute | `3,000,000` | 89% | 6.9% equipment pressure remains |
 
 ### Examples
 
-**Example 1.** Raw equipment pressure `100`, Specialist Relief, no direct grant
+**Example 1.** Equipped weight `10 kg`, Specialist Relief, no direct grant
 
-Calculation: `100 x 100 / (100 + 225)`.
+Calculation: mastery makes weight count as `9.6 kg`; `floor(9.6^2) = 92` raw pressure; `ceil(92 x 100 / (100 + 225))`.
 
-Result: `31` pressure points remain.
+Result: `29` pressure points remain.
 
-**Example 2.** Raw equipment pressure `100`, Specialist Relief, one A grant `+15%`
+**Example 2.** Equipped weight `10 kg`, Specialist Relief, one A grant `+15%`
 
-Calculation: `100 x 85% x 100 / (100 + 225)`.
+Calculation: `ceil(92 x 85% x 100 / (100 + 225))`.
 
-Result: `27` pressure points remain.
+Result: `25` pressure points remain.

@@ -37,4 +37,20 @@ Intended behavior:
 * can interact with the Stamina [Absorption](../rpg-attributes/stamina.md#absorption) trait;
 * may create overcap stamina if the restore amount goes above Maximum Stamina.
 
+Planned base restoration before Absorption:
+
+| Rarity | Maximum Stamina restored |
+| --- | ---: |
+| Common | `10%` |
+| Uncommon | `20%` |
+| Rare | `40%` |
+| Epic | `80%` |
+| Legendary | `160%` |
+| Mythical | `320%` |
+
+Absorption multiplies this base restoration through its Potion Effect bonus. Any
+result above Maximum Stamina becomes temporary overflow and follows the Stamina
+overflow decay rules. Overflow loses `25%` of Maximum Stamina per hour until the
+current amount reaches Maximum Stamina again.
+
 Until potions are live, players should not expect potion drops, potion consumption, or potion-based marketplace demand in the current system.
