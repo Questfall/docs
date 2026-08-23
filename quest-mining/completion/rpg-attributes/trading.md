@@ -165,7 +165,7 @@ Result: `868.97` effective requirement. Equivalently, `1,000` raw LP points coun
 
 Improves how much Silver a player receives for each Gold converted.
 
-**How it resolves.** The trait creates conversion pressure from 10 toward 30 Silver per Gold. Pressure grants push that curve. Every mastery rank then adds +0.5 Silver per Gold, and flat equipment grants add their exact value alongside that mastery reward. The live conversion action rounds the final Silver payout down to a whole number.
+**How it resolves.** The trait creates conversion pressure from 10 toward 30 Silver per Gold. Its progress uses `log10(1 + Conversion / 30)`, keeping early growth calm while preserving the long-term soft limit. Pressure grants push that curve. Every mastery rank then adds +0.5 Silver per Gold, and flat equipment grants add their exact value alongside that mastery reward. The live conversion action rounds the final Silver payout down to a whole number.
 
 ### Direct Grant Ranges
 
@@ -179,31 +179,31 @@ Improves how much Silver a player receives for each Gold converted.
 | Mastery | Trait value at start | System value without direct grants |
 | --- | ---: | --- |
 | Guest | `0` | 1 Gold -> 10 Silver |
-| Novice | `25` | 1 Gold -> 12.95 Silver |
-| Apprentice | `100` | 1 Gold -> 15.44 Silver |
-| Adept | `300` | 1 Gold -> 17.59 Silver |
-| Specialist | `1,000` | 1 Gold -> 19.83 Silver |
-| Expert | `3,000` | 1 Gold -> 21.77 Silver |
-| Master | `10,000` | 1 Gold -> 23.67 Silver |
-| Grandmaster | `30,000` | 1 Gold -> 25.28 Silver |
-| Wizard | `100,000` | 1 Gold -> 26.82 Silver |
-| Mystic | `300,000` | 1 Gold -> 28.14 Silver |
-| Immortal | `1,000,000` | 1 Gold -> 29.4 Silver |
-| Absolute | `3,000,000` | 1 Gold -> 30.5 Silver |
+| Novice | `25` | 1 Gold -> 10.6 Silver |
+| Apprentice | `100` | 1 Gold -> 11.56 Silver |
+| Adept | `300` | 1 Gold -> 12.94 Silver |
+| Specialist | `1,000` | 1 Gold -> 14.88 Silver |
+| Expert | `3,000` | 1 Gold -> 16.96 Silver |
+| Master | `10,000` | 1 Gold -> 19.26 Silver |
+| Grandmaster | `30,000` | 1 Gold -> 21.33 Silver |
+| Wizard | `100,000` | 1 Gold -> 23.4 Silver |
+| Mystic | `300,000` | 1 Gold -> 25.17 Silver |
+| Immortal | `1,000,000` | 1 Gold -> 26.87 Silver |
+| Absolute | `3,000,000` | 1 Gold -> 28.32 Silver |
 
 ### Examples
 
 **Example 1.** `100 Gold`, Specialist Conversion, one A flat grant `+2.5 Silver/Gold`
 
-Calculation: `100 x (17.8261 curve + 2 mastery + 2.5 flat) = 2,232.61`, rounded down to whole Silver.
+Calculation: `100 x (12.8834 curve + 2 mastery + 2.5 flat) = 1,738.34`, rounded down to whole Silver.
 
-Result: `2,232 Silver`.
+Result: `1,738 Silver`.
 
 **Example 2.** `100 Gold`, Specialist Conversion, one A pressure grant `+3 pressure`
 
-Calculation: `100 x (19.2308 pressure curve + 2 mastery) = 2,123.08`, rounded down to whole Silver.
+Calculation: `100 x (15.5360 pressure curve + 2 mastery) = 1,753.60`, rounded down to whole Silver.
 
-Result: `2,123 Silver`.
+Result: `1,753 Silver`.
 
 ## Slots
 

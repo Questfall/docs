@@ -18,9 +18,11 @@ However, the way in which the rewards are divided between these two groups is di
 
 The user leaderboard is based on the total [Quest Bounties](creation/quest-bounty.md) received. In other words, this leaderboard is created without taking into account the individual [mining power](completion/#mining-power) and [mining boost](completion/#mining-boost).
 
+Seasonal Quest Bounty starts accumulating from a user's first accepted feed quest. However, a user enters the seasonal payout leaderboard only after reaching Level 5 and League I, with both email and wallet verified. Until then, the score remains accumulated but unranked. Eligibility is checked again at season settlement, so Hall and incomplete-identity accounts cannot change the payout denominator.
+
 The author leaderboard is based on the average rating of the quests created during the season. However, authors will have to create at least 12 quests per season to be eligible for the leaderboard. This way, popular authors will not have an edge, and at the same time, authors will be motivated to create at least one quest per week.
 
-The reward distribution mechanism is the same for both users and authors - the top 10% of each leaderboard is eligible for rewards, while the remaining 90% is not.
+The reward distribution mechanism is the same for both users and authors - the top 10% of eligible participants in each leaderboard is rewarded, while the remaining participants are not. The number of rewarded places is rounded down so it never exceeds 10%; a non-empty eligible leaderboard always retains at least one rewarded place.
 
 {% hint style="info" %}
 This is necessary for protection against Sybil attacks.
