@@ -33,6 +33,8 @@ Future systems may connect Gold to higher-rarity production, Gem-based rarity ev
 
 Gold can be burned for Silver. The base rate is `10 Silver` per `1 Gold`, and the [Trading Conversion](../quest-mining/completion/rpg-attributes/trading.md#conversion) trait can improve the rate.
 
+Author Space weekly and seasonal rewards use a distinct system settlement path: allocated Gold is converted automatically at exactly `1 Gold = 10 Silver` and credited to the Space treasury. Trading Conversion does not modify this rate, and no claimable Space Gold balance is created.
+
 ## Marketplace Role
 
 Gold is the live marketplace currency for RPG item trading. Active traders care about:

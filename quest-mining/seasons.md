@@ -20,7 +20,9 @@ The user leaderboard is based on the total [Quest Bounties](creation/quest-bount
 
 Seasonal Quest Bounty starts accumulating from a user's first accepted feed quest. However, a user enters the seasonal payout leaderboard only after reaching Level 5 and League I, with both email and wallet verified. Until then, the score remains accumulated but unranked. Eligibility is checked again at season settlement, so Hall and incomplete-identity accounts cannot change the payout denominator.
 
-The author leaderboard is based on the average rating of the quests created during the season. However, authors will have to create at least 12 quests per season to be eligible for the leaderboard. This way, popular authors will not have an edge, and at the same time, authors will be motivated to create at least one quest per week.
+The Author Space leaderboard uses Feed quests that were both published and received their final consensus rating within the same UTC calendar quarter. Retroactive ratings do not move quests into another season. An Author Space needs at least 12 such quests to qualify.
+
+Spaces are sorted by average final rating, then by the greater number of rated quests, then by stable Author Space ID. Below 12 quests, the product may show an explicitly conditional projection that assumes the current average rating remains unchanged through quest 12.
 
 The reward distribution mechanism is the same for both users and authors - the top 10% of eligible participants in each leaderboard is rewarded, while the remaining participants are not. The number of rewarded places is rounded down so it never exceeds 10%; a non-empty eligible leaderboard always retains at least one rewarded place.
 
@@ -35,6 +37,8 @@ For example, if there are 1000 users in the leaderboard, the top 100 will be rew
 {% hint style="info" %}
 This mechanic applies to each leaderboard individually, distributing each leaderboard's share of the seasonal reward pool.
 {% endhint %}
+
+The Author Space season uses its own independently configured Gold pool. At settlement, integer Gold is allocated by linear Rank Shares using the largest-remainder method. Every Author Gold reward is then automatically converted at the fixed system rate of `1 Gold = 10 Silver` and credited to the Author Space treasury with an immutable receipt. There is no personal claim, Space Gold balance, or owner withdrawal.
 
 As a result, the concept of seasons adds another dimension to the competition in the long run, allowing the most diligent and dedicated users to earn regardless of their previous history in Questfall.
 

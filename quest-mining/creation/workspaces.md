@@ -16,7 +16,7 @@ Each user in Questfall can only create one Workspace and automatically becomes i
 
 Therefore, users can be part of an unlimited number of Workspaces to which they have been invited.
 
-<table><thead><tr><th width="132">Roles</th><th width="460">Permissions</th></tr></thead><tbody><tr><td>Owner</td><td><ul><li>Deposit Silver to Workspace balance</li><li>Claim and withdraw QFT rewards received by Workspace</li><li>Define roles and the permissions associated with them</li></ul></td></tr><tr><td>Assignable</td><td><ul><li>Create quest drafts</li><li>Publish drafts by spending Silver on the Quest Bounty</li><li>Purchase banner promotion slots with Silver</li><li>Edit the Workspace design and description</li><li>Assign roles and invite users</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="132">Roles</th><th width="460">Permissions</th></tr></thead><tbody><tr><td>Owner</td><td><ul><li>Deposit Silver to Workspace balance</li><li>View weekly and seasonal reward receipts credited to the treasury</li><li>Define roles and the permissions associated with them</li></ul></td></tr><tr><td>Assignable</td><td><ul><li>Create quest drafts</li><li>Publish drafts by spending Silver on the Quest Bounty</li><li>Purchase banner promotion slots with Silver</li><li>Edit the Workspace design and description</li><li>Assign roles and invite users</li></ul></td></tr></tbody></table>
 
 To make it easier for members of a Workspace to navigate, quests are divided into four different groups based on their status:
 
@@ -30,3 +30,5 @@ As a result, the Workspace implementation makes it possible to simulate the work
 {% hint style="info" %}
 Workspaces have separate Silver balances from their owners, and once deposited, Silver can only be used to pay for Quest Bounties and cannot be withdrawn. This is necessary to allow users to donate to their favorite authors in [future versions](../../roadmap/future-versions.md) of Questfall.
 {% endhint %}
+
+Weekly and seasonal Author Gold rewards are converted at the fixed settlement rate of `1 Gold = 10 Silver` and credited to this separate treasury. They appear as system settlement entries in balance history and cannot be claimed or withdrawn personally.

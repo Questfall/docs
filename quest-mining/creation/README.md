@@ -4,7 +4,7 @@ icon: feather-pointed
 
 # Quest Creation (10%)
 
-Existing quest platforms require authors to spend resources on user rewards. In contrast, Questfall rewards users for completing quests on behalf of the system. Even better, authors are rewarded with 10% of the weekly [QFT](../../assets/qft.md) issue for creating popular quests.
+Existing quest platforms require authors to spend resources on user rewards. In contrast, Questfall rewards users for completing quests on behalf of the system. Questfall also operates independent weekly and seasonal Author Gold pools that reward Author Spaces for popular, well-rated quests.
 
 This creates a new authoring paradigm that coexists with the traditional one - while some project teams can still use money to promote their quests to the Questfall audience, other authors can earn from their creativity without any investment.
 
