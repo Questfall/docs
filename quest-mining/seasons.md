@@ -38,7 +38,7 @@ For example, if there are 1000 users in the leaderboard, the top 100 will be rew
 This mechanic applies to each leaderboard individually, distributing each leaderboard's share of the seasonal reward pool.
 {% endhint %}
 
-The Author Space season uses its own independently configured Gold pool. At settlement, integer Gold is allocated by linear Rank Shares using the largest-remainder method. Every Author Gold reward is then automatically converted at the fixed system rate of `1 Gold = 10 Silver` and credited to the Author Space treasury with an immutable receipt. There is no personal claim, Space Gold balance, or owner withdrawal.
+The Author Space season uses its own independently configured Gold pool. At settlement, integer Gold is allocated by linear Rank Shares using the largest-remainder method and stored as immutable pending receipts. Receipts from different periods accumulate without expiry; the owner can withdraw all pending rewards of one currency to their personal balance. Future QFT receipts can coexist with older pending Gold, and neither currency is converted into the Author Space Silver treasury.
 
 As a result, the concept of seasons adds another dimension to the competition in the long run, allowing the most diligent and dedicated users to earn regardless of their previous history in Questfall.
 

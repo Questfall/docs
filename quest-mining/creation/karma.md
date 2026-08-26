@@ -6,40 +6,38 @@ icon: heart
 
 One of the key attributes of any [Workspace](workspaces.md) is its Karma, which gives users confidence in the quests they choose to complete and, more importantly, provides an exponential discount on the [Quest Bounty](quest-bounty.md).
 
-Karma can range from 0 for a new Workspace to 10 for a Workspace with an excellent history, and the only source of Karma is the quest ratings, also ranging from 0 to 10, that users must vote on when completing unrated quests.
+Karma can range from 0 for a new Workspace to 10 for a Workspace with an excellent history, and the only source of Karma is final quest ratings, which also range from 0 to 10.
 
-When a new quest is published, it will initially have an unrated status. Then, the system randomly selects users and increases the Bounty for that unrated quest, making it much more visible in the feed to only those selected users. To finalize the completion of such an unrated quest, each user must rate it from 0 to 10.
+When a new Feed quest is published, it initially has no consensus rating. The system assigns it to selected users, raises its effective Bounty when necessary, and inserts it into a random Top-10 position for those users. A rating from 0 to 10 is required on the selected user's first structurally valid attempt, whether the answer is accepted or rejected. The vote is then immutable, and retries do not ask for another rating. Ordinary quest completions neither ask for nor record a rating, so users cannot choose a convenient quest and coordinate votes across accounts.
 
 {% hint style="info" %}
 Similarly, Google collects initial statistics by showing new sites on the first page when random users search for keyword phrases.
 {% endhint %}
 
-Users are motivated to vote correctly because they are rewarded or penalized with [Mining Boost](../completion/#mining-boost) depending on how far their rating estimate is from the average, which is based on league-based vote segmentation, similar to how [moderation consensus](../moderation/consensus.md) works.
+Users are motivated to vote correctly because they are rewarded or penalized with [Mining Boost](../completion/#mining-boost) depending on how far their rating estimate is from the final consensus.
 
-The unrated quest will receive votes from users in different leagues, and the final rating will be calculated as a simple average of the league results.
+### Balanced league consensus
 
-<table><thead><tr><th width="121">League</th><th width="78" align="center">Votes</th><th width="97" align="center">Average</th></tr></thead><tbody><tr><td>League 0</td><td align="center">7</td><td align="center">6.7</td></tr><tr><td>League 1</td><td align="center">5</td><td align="center">7.1</td></tr><tr><td>League 2</td><td align="center">3</td><td align="center">7.5</td></tr><tr><td>League 3</td><td align="center">1</td><td align="center">7.0</td></tr><tr><td>Total</td><td align="center">16</td><td align="center">7.08</td></tr></tbody></table>
+The rating committee is built from users who are verified and were active during the previous 24 hours. If one to three league segments are available, the committee uses all of them; with four to six segments it uses three; with seven or more it uses five.
 
-This league-based vote segmentation provides a solid defense, as no league can outvote others, and an attacker would need to have a majority of users in all leagues to manipulate quest ratings. More importantly, the votes are very diverse, and not many voters are needed to achieve valid results.
+Selected segments are ordered from the highest league down. Their minimum quorums are `1 / 3 / 5 / 7 / 9`, with every further segment also requiring 9 votes. Hall always requires at least 3 votes. The system chooses segments by the lowest projected outstanding rating work per active miner. This keeps higher leagues from being flooded merely because their votes are trusted.
+
+Within each selected segment, all canonical votes contribute to one segment average, even when more votes than the minimum quorum have already arrived. Every real league average has weight `1`; the entire Hall average has weight `0.25`, regardless of the number of Hall accounts. The final rating is the weighted average of these segment averages.
+
+For example, if League I averages `8.0` and Hall averages `4.0`, the final rating is:
+
+$$\frac{8*1+4*0.25}{1+0.25}=7.2$$
 
 {% hint style="info" %}
-The protection works reliably because users cannot choose unrated quests to complete, as such quests are assigned by the system. Thus, an attacker cannot synchronize voting from different accounts.
+Users cannot choose rating assignments. The system serves older open rounds before new unrated quests, prioritizes Bounty within each queue, and safely randomizes equal candidates.
 {% endhint %}
 
-This approach also implies that there are certain requirements for voting diversity, and if they are met, the quest could be considered to be ranked by community consensus.&#x20;
+Each user can hold up to four active rating assignments. The one-hour assignment is a Top-10 visibility lease, not a permanent exclusion. If it expires without a vote, the same assignment may be offered to that user again after a six-hour cooldown while its round still needs the user's segment; users who have not seen the quest are preferred. The same assignment record is reused, so reissuing never creates a second vote. A segment receives a small logarithmic reserve of parallel assignments, capped at eight, so the first submitted votes can fill its quorum without concentrating all work on a few miners.
 
-For example, such requirements could be an increasing odd number of users for each league, starting at the top. One user from the top league, three users from the league below, five from the next lower league, and so on.
-
-{% hint style="info" %}
-Depending on user feedback and overall experience, these consensus requirements will be adjusted after the launch of Questfall.
-{% endhint %}
-
-In some cases, quests may not be able to meet the consensus requirements to be rated. For example, it may be a quest that no one wants to complete, or there may be too many new quests relative to the number of active users in the system.
-
-But more importantly, it allows the system to know with certainty that if the community consensus has been reached, it can be considered valid. And if it is not, then either the quest was not interesting enough, or the Bounty was set as low as possible, while there were many spam quests in the system.
+When a segment reaches its quorum, its remaining active copies are removed from rating rotation. A miner who already received one of those copies may still finish it before the original expiry and keeps the promised Bounty and the eventual Mining Boost adjustment, but that late vote does not change the consensus rating. A selected segment that has received no votes for 24 hours may be replaced by a less loaded segment; a segment that already has a canonical vote is never replaced.
 
 {% hint style="info" %}
-The system will prioritize quests with a higher bounty in order to rate them.
+Existing open rounds adopt this strategy when they are next claimed, voted on, or finalized. Their stored votes remain valid and use the participant level captured when the vote was recorded. Closed rounds are immutable and are never reopened or recalculated.
 {% endhint %}
 
 In other words, quest ratings are a solid basis for calculating Karma. Therefore, Karma is built solely on quest ratings by consuming them using the 10% weighting.
@@ -50,6 +48,6 @@ More specifically, Karma is updated when a new quest is rated according to the f
 $$Karma_n=0.9*Karma_{n-1}+0.1*QuestRating_n$$
 {% endhint %}
 
-As a result of this approach to Karma calculation, it is updated with each new rated quest and reacts quickly to changes in the quality of the author's quests.&#x20;
+As a result of this approach to Karma calculation, it is updated exactly once when a quest first reaches consensus and reacts quickly to changes in the quality of the author's quests.&#x20;
 
 This also means that new authors only need to create 10 quests to get a fair estimate of their Karma and the corresponding Bounty discount, without having to invest much in the beginning.
