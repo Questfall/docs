@@ -24,18 +24,18 @@ The Author Space leaderboard uses Feed quests that were both published and recei
 
 Spaces are sorted by average final rating, then by the greater number of rated quests, then by stable Author Space ID. Below 12 quests, the product may show an explicitly conditional projection that assumes the current average rating remains unchanged through quest 12.
 
-The reward distribution mechanism is the same for both users and authors - the top 10% of eligible participants in each leaderboard is rewarded, while the remaining participants are not. The number of rewarded places is rounded down so it never exceeds 10%; a non-empty eligible leaderboard always retains at least one rewarded place.
+The Quest Completion leaderboard protects the launch-stage competition from becoming winner-takes-all. If there are ten or fewer eligible miners, all of them are rewarded. Otherwise at least ten places are rewarded; once a rounded-down top 10% is greater than ten, that larger number becomes the reward cutoff. In compact form, the number of base reward places is `min(eligible miners, max(10, floor(eligible miners × 10%)))`.
 
 {% hint style="info" %}
-This is necessary for protection against Sybil attacks.
+The minimum keeps early seasons competitive, while the percentage cutoff becomes the Sybil-control layer after the eligible audience grows. League I and verified email and wallet remain the entry requirements before an account affects the payout denominator.
 {% endhint %}
 
-Rewards are distributed linearly to these 10% of places on each leaderboard, so the lowest rewarded place gets one share, the next place gets two shares, and so on up to the 1st place on the leaderboard.
+Quest Completion rewards are distributed linearly across these places: the lowest base reward place gets one Rank Share, the next gets two, and so on up to first place. Miners with the same seasonal Quest Bounty share the sum of the Rank Shares occupied by their tied positions equally. If a tie crosses the cutoff, the complete tied group is rewarded and splits the remaining cutoff shares.
 
 For example, if there are 1000 users in the leaderboard, the top 100 will be rewarded in such a way that the 1st user will get x100 more reward than the 100th, while the 101st and below will get no reward. If there are 2000 users, the 1st user will get x200 more reward than the 200th. And so on.
 
 {% hint style="info" %}
-This mechanic applies to each leaderboard individually, distributing each leaderboard's share of the seasonal reward pool.
+The Author Space leaderboard keeps its separate qualification and Top-10% policy described below; its independently configured pool is not taken from the miner pool at settlement.
 {% endhint %}
 
 The Author Space season uses its own independently configured Gold pool. At settlement, integer Gold is allocated by linear Rank Shares using the largest-remainder method and stored as immutable pending receipts. Receipts from different periods accumulate without expiry; the owner can withdraw all pending rewards of one currency to their personal balance. Future QFT receipts can coexist with older pending Gold, and neither currency is converted into the Author Space Silver treasury.
