@@ -62,10 +62,10 @@ As there are no restrictions on who can become a miner, a malicious actor could 
 
 To solve this problem, we need to consider that users form a pyramid - the number of users will decrease with each level, as each new level requires more of the limited resources a user should have spent to reach it.
 
-To take advantage of this, the global mining reward in Questfall will be divided into fixed portions that will be distributed to different [leagues ](../user-mining/leagues.md)that group users of different level ranges. This means that the reward for a particular league does not depend on the activity in other leagues. As a result, competition decreases as a user progresses through levels and therefore leagues.
+To take advantage of this, the global mining reward in Questfall is divided into fixed portions distributed to open leagues that group users by level. A future league opens only through a sequential manual decision. Until it opens, users above its threshold stay in the highest open frontier league, and no extra reward portion is created.
 
 {% hint style="info" %}
-The rewards for each league only depend on the number of leagues with active miners. So any user can level up to the point where he can open a new league as the top user and mine the full reward without any competition.
+The rewards for each league only depend on open leagues with active miners. A single top user cannot create a new reward segment merely by crossing a level threshold.
 {% endhint %}
 
 So if a good miner is not getting paid enough for his efforts because of bots (or any other reason), all he has to do is level up and enter the higher league by adding value to the system in the form of moderation or QFT burning.

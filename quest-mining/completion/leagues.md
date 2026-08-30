@@ -8,13 +8,17 @@ In Questfall, the weekly [rewards](rewards.md) for miners are segmented based on
 
 Since progress through the levels will be quite fast (at least in the beginning), the rewards for existing segments would also decrease rapidly. To slow down the process of segmentation, Questfall introduces the concept of leagues, in which users of levels within a certain range are grouped together.
 
-To protect the system from Sybil attacks, the range of 1-4 levels forms the Hall, which is not a league and therefore does not have weekly rewards. The first league starts at level 5 and ends at level 14, containing a range of 10 levels, and each subsequent league contains an additional 5 levels.
+To protect the system from Sybil attacks, the range of 1-4 levels forms the Hall, which is not a league and therefore does not have weekly rewards. League I starts at level 5, and each subsequent canonical bracket contains an additional 5 levels.
+
+New leagues are opened manually and strictly in sequence. Until the next league opens, the highest open league has no upper level limit: every verified user above its starting level remains in that frontier league. When the next league opens, the previous league receives its canonical upper boundary and every eligible user at or above the new starting level moves into the new league immediately, together with their current weekly Mining Points. Closed future leagues are visible but have no members, competition, or reward pool.
 
 <table><thead><tr><th width="132">Name</th><th width="114" align="center">Start Level</th><th width="111" align="center">End Level</th><th width="121" align="center">Range Size</th></tr></thead><tbody><tr><td>Hall</td><td align="center">1</td><td align="center">4</td><td align="center">4</td></tr><tr><td>League I</td><td align="center">5</td><td align="center">14</td><td align="center">10</td></tr><tr><td>League II</td><td align="center">15</td><td align="center">29</td><td align="center">15</td></tr><tr><td>League III</td><td align="center">30</td><td align="center">49</td><td align="center">20</td></tr><tr><td>League IV</td><td align="center">50</td><td align="center">74</td><td align="center">25</td></tr><tr><td>League V</td><td align="center">75</td><td align="center">104</td><td align="center">30</td></tr><tr><td>League VI</td><td align="center">105</td><td align="center">139</td><td align="center">35</td></tr><tr><td>League VII</td><td align="center">140</td><td align="center">179</td><td align="center">40</td></tr><tr><td>League VIII</td><td align="center">180</td><td align="center">224</td><td align="center">45</td></tr><tr><td>League IX</td><td align="center">225</td><td align="center">274</td><td align="center">50</td></tr><tr><td>League X</td><td align="center">275</td><td align="center">329</td><td align="center">55</td></tr><tr><td>...</td><td align="center"></td><td align="center"></td><td align="center"></td></tr></tbody></table>
 
 {% hint style="info" %}
 Since there is no cap on user level, the number of leagues in the system can theoretically be infinite.
 {% endhint %}
+
+For example, while only League I is open its live range is **Level 5+**. A Level 16 miner still competes in League I. After League II is opened, League I becomes **Levels 5–14**, League II becomes **Level 15+**, and normal automatic movement between those two open brackets resumes.
 
 Leagues not only drastically slow down the appearance of new segments, but also add an internal dynamic. The higher the league, the greater the level difference between users at the bottom of the league and those at the top.
 

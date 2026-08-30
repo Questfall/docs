@@ -62,7 +62,7 @@ If mining in traditional PoW consists of a single rewarded activity, in Questfal
 
 While quest completion directly mines QFT, community moderation enables progression through user levels, which play a critical role in miners' earnings as the global mining reward pool is divided equally among user level groups, or leagues.
 
-This league-based reward segmentation makes the rewards for users in each league independent of mining activity in other leagues. It also ensures that users in a higher league will earn larger rewards due to less competition (but of course they will have to put in a lot of effort in community moderation to get there).
+This league-based reward segmentation makes the rewards for users in each open league independent of mining activity in other leagues. New leagues are opened manually and sequentially: until then, users who pass the next bracket's starting level remain in the highest open league. This prevents a single early outlier from creating a new reward segment before the broader field is ready.
 
 The key to defending against Sybil attacks is that community moderation cannot be automated, so all users have an equal opportunity to level up, which is limited by human nature itself. Therefore, users who focus on a single account will consistently outlevel those who spread their efforts across multiple accounts.
 
