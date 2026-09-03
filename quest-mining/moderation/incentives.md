@@ -103,6 +103,10 @@ However, many quests will require something to be done outside of Questfall on t
 
 And these types of quest completions cannot be validated by the computer, so they should be validated by the moderators. If such a completion passes moderation, the user's mining score will increase, otherwise it will not.&#x20;
 
+{% hint style="warning" %}
+Early access exception: if a moderator has no ordinary assignable case, an eligible Witness case may be issued without a Witness Credit and without prepayment. This temporary subsidy bootstraps the first `Witness -> Judge -> Witness Credits` cycle when the moderation queue is still sparse. Participant, author, and Author Space team exclusions still apply, and the case keeps its full participant and trust requirements. The exception should be removed once the active population and normal moderation flow are large enough to sustain Witness Credits without bootstrap help.
+{% endhint %}
+
 <table><thead><tr><th width="235">Quest Completion</th><th width="135" align="center">Reward</th><th width="111" align="center">Penalty</th></tr></thead><tbody><tr><td>Completing (user)</td><td align="center">Mining Points</td><td align="center">-</td></tr><tr><td>Witnessing (moderators)</td><td align="center">+10 Silver</td><td align="center">-</td></tr><tr><td>Judging (moderators)</td><td align="center">-</td><td align="center">-30 Silver</td></tr></tbody></table>
 
 This approach means that there is no explicit penalty for a bad completion, since it is nearly impossible to distinguish bad completions based on the user's intent.
