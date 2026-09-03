@@ -79,7 +79,7 @@ Thus, a user must develop a character with a limited amount of resources accordi
 
 The Mining Boost parameter is used to incentivize users to vote correctly when estimating the rating of unrated quests. Its initial value is 1, and it increases or decreases depending on the accuracy of users' quest rating votes.
 
-On the first structurally valid attempt at a quest specifically assigned for rating, users must choose one of eleven values (ranging from 0 to 10). The vote is recorded even if the answer itself is rejected: rating measures the quest experience, while Quest Bounty and Mining Points still require a correct completion. The vote cannot be changed, and later retries do not show the rating control. The control is never shown for ordinary completions. After the system collects the selected league and Hall quorums, the final quest rating is calculated from their weighted segment averages.
+On the first structurally valid attempt at a quest specifically assigned for rating, users must choose one of eleven values (ranging from 0 to 10). The vote is recorded even if the answer itself is rejected: rating measures the quest experience, while Quest Bounty and Mining Points still require a correct completion. The vote cannot be changed, and later retries do not show the rating control. The control is never shown for ordinary completions. The final quest rating is calculated from level-weighted votes after the round reaches its trust target and minimum voter count.
 
 {% hint style="info" %}
 For more details on the final rating results, see the author's [Karma](../creation/karma.md) article.
@@ -91,7 +91,7 @@ $$\Delta Boost = 0.002 - 0.001 \times |Vote - ComparisonRating|$$
 
 An exact match therefore adds `0.002` (`0.2%`), and every full rating point of distance lowers the adjustment by `0.001` (`0.1%`). Fractional distances produce proportional results: for example, a distance of `0.4` adds `0.0016`. Adjustments are stored to the nearest `0.0001` of Mining Boost. To prevent a voter from moving the target toward their own answer, canonical voters are compared with a leave-one-out consensus calculated without their own vote. If removing a lone vote leaves no independent comparison at all, that vote produces no Boost change.
 
-If another miner fills the segment quorum while the overall rating round is still open, an already issued assignment may submit a late non-canonical vote. That vote is excluded from the rating distribution and receives its Boost adjustment only when consensus is published. Once the final rating is published, the round accepts no new votes and applies no new Boost changes. An unvoted assignment remains redeemable until its original expiry and keeps the promised completion reward, but no longer asks for a rating.
+Once the trust target is reached, the round accepts no new votes and applies no new Boost changes. Any remaining unvoted assignment is removed from rating rotation but remains redeemable until its original expiry and keeps the promised completion reward; it simply no longer asks for a rating.
 
 After publication, every authenticated voter can click a rating-distribution bar in their rating history to see the names and avatars of the canonical users counted in that bar. Voter identities and the distribution remain hidden while the round is open.
 

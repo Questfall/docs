@@ -20,10 +20,20 @@ Therefore, users can be part of an unlimited number of Workspaces to which they 
 
 To make it easier for members of a Workspace to navigate, quests are divided into four different groups based on their status:
 
-* **Drafts.** Drafts of new quests that have not yet been published.
+* **Drafts.** New quests and editable working copies of previously published quests that are currently inactive.
 * **Active.** Published quests that users are currently completing for a reward.
 * **Banned.** Quests that were published, but got reported and then banned.
-* **Ended.** Quests that are no longer active, as they have expired.
+* **Ended.** Quests that are no longer active because their paid period expired.
+
+## Feed quest lifecycle
+
+A Feed quest keeps one stable identity throughout its lifetime, while each activation creates a separate immutable publication snapshot. An active quest cannot be edited: the Team must first unpublish it, after which its working copy appears in Drafts. An ended quest may be reactivated unchanged or opened for full editing and saved as a draft. Content may change completely between publications without changing submissions that were already started against an older snapshot.
+
+A user who has ever successfully completed the stable quest will not receive it again. Publication-specific states such as hidden, exhausted attempts, and unsuccessful attempts reset on reactivation. An unresolved submission and an already issued rating assignment remain valid against their original publication until their original deadline, even if the quest is later unpublished or edited.
+
+Draft, active, and ended Feed quests may be duplicated. A duplicate is a new quest with no publication history, completions, or rating and therefore starts pricing from day 1. Banned quests cannot be duplicated or reactivated. Only a draft that has never had a publication can be deleted.
+
+The `quests_publish` permission controls activation, reactivation, extension, and unpublishing. The `drafts_manage` permission controls editing, tags, and duplication.
 
 As a result, the Workspace implementation makes it possible to simulate the workflow of an entire magazine newsroom, if necessary. The owner can focus only on costs and profits, while hired users can handle all content-related tasks.
 

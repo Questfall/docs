@@ -8,6 +8,10 @@ In Questfall, anyone can create a quest and publish it to the Quest Feed for oth
 
 To protect the system from all of these threats, every published quest should have a Bounty that requires the burning of Silver. And since Silver can only be earned by burning Gold or through proper moderation, in order to publish a quest, an author should first earn Silver by providing value to the entire community.
 
+{% hint style="warning" %}
+Early access exception: while Questfall is attracting its first creators, every publication period with the minimum Bounty of 1 receives a 100% launch subsidy. Activation, reactivation, and extension cost no Silver at Bounty 1. The normal pricing rules below continue to apply from Bounty 2 and remain the long-term model.
+{% endhint %}
+
 {% hint style="info" %}
 This puts creators who want to monetize their content for free on an equal footing with projects that have marketing budgets.
 {% endhint %}
@@ -20,7 +24,7 @@ The Quest Bounty also directly affects a quest's position in the feed, since it 
 Setting a relatively high Quest Bounty is the primary way to promote quests.
 {% endhint %}
 
-The Bounty can range from 1 to 1000, and each additional point in the Bounty costs more Silver. For the most basic scenario, where a new author with no Karma publishes the quest for one day, the amounts of Silver required for different Quest Bounties are as follows:
+The Bounty can range from 1 to 1000, and each additional point in the Bounty costs more Silver. Before the temporary early access subsidy, the base amounts for a new author with no Karma publishing for one day are as follows:
 
 <table><thead><tr><th width="110">Bounty</th><th width="141" align="right">Silver</th><th width="116" align="right">USD Price</th></tr></thead><tbody><tr><td>1</td><td align="right">100</td><td align="right">$0.1</td></tr><tr><td>10</td><td align="right">10,000</td><td align="right">$10</td></tr><tr><td>100</td><td align="right">1,000,000</td><td align="right">$1,000</td></tr><tr><td>1000</td><td align="right">100,000,000</td><td align="right">$100,000</td></tr></tbody></table>
 
@@ -29,16 +33,26 @@ The basic formula for the amount of Silver required for a day's Bounty is:\
 $$Silver=(10*Bounty)^{2}$$
 {% endhint %}
 
-The quest can be published for a period of up to 30 days, and the number of days determines the cost of a Bounty. While the first day should be paid at full price, each subsequent day will receive a 10% incremental discount.
+A quest can buy between 1 and 30 days in one operation, while its total lifetime is not limited. The first pricing day is paid at full price and each subsequent pricing day receives a 10% incremental discount. Starting with pricing day 31, the daily price stays at the day-30 level instead of decreasing further.
 
-For example, publishing the quest with the Bounty of 1 for the author with no Karma for 10 days will cost 652 Silver:
+For example, the base schedule for publishing a Bounty 1 quest for 10 days totals 652 Silver. During early access the launch subsidy discounts this complete amount to 0 Silver:
 
 <table><thead><tr><th width="79">Day</th><th width="106" align="right">Day Cost</th><th width="112" align="right">Total Cost</th></tr></thead><tbody><tr><td>1</td><td align="right">100 Silver</td><td align="right">100 Silver</td></tr><tr><td>2</td><td align="right">90 Silver</td><td align="right">190 Silver</td></tr><tr><td>3</td><td align="right">81 Silver</td><td align="right">271 Silver</td></tr><tr><td>4</td><td align="right">73 Silver</td><td align="right">344 Silver</td></tr><tr><td>5</td><td align="right">66 Silver</td><td align="right">410 Silver</td></tr><tr><td>6</td><td align="right">59 Silver</td><td align="right">469 Silver</td></tr><tr><td>7</td><td align="right">53 Silver</td><td align="right">522 Silver</td></tr><tr><td>8</td><td align="right">48 Silver</td><td align="right">570 Silver</td></tr><tr><td>9</td><td align="right">43 Silver</td><td align="right">613 Silver</td></tr><tr><td>10</td><td align="right">39 Silver</td><td align="right">652 Silver</td></tr></tbody></table>
 
 {% hint style="info" %}
 The amount of Silver required for a given Bounty and number of days is:\
-$$Silver=(10*Bounty)^{2}*\sum_{n=1}^{days}0.9^{n-1}$$
+$$Silver=(10*Bounty)^{2}*\sum_{n=start}^{end}0.9^{min(n,30)-1}$$
 {% endhint %}
+
+## Extensions and reactivation
+
+Every activation creates a separate immutable publication of the same quest. Extending an active publication adds paid time without changing its original Feed publication time. Reactivating an ended or unpublished quest creates a new publication and gives it a new place among quests with the same Bounty.
+
+When the Bounty is unchanged, an extension or reactivation continues from the first unused pricing day. Editing the content, waiting between publications, or entering a new season does not reset this sequence. A successfully purchased activation with a different Bounty starts again at pricing day 1 and replaces the previous sequence; changing back later also starts from day 1.
+
+Karma is captured separately for every purchase of days. Consequently, later Karma changes affect new extensions or activations but never rewrite a previous debit or refund.
+
+An author can unpublish an active quest. The currently started 24-hour block is consumed, while all paid blocks that have not started are returned to the same Workspace Silver treasury at their exact recorded net price. Refunded days do not count as used pricing days. A moderation ban provides no refund.
 
 In addition to the decreasing price for each consecutive day of publication, there is another global discount based on the author's [Karma](karma.md). Each point of Karma increases the discount exponentially from 0% to 90%.
 

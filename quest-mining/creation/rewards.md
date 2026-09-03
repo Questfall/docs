@@ -6,7 +6,7 @@ icon: coins
 
 To motivate authors to create interesting, educational, or fun quests that are appreciated by the community, Questfall can configure an independent weekly Author Gold pool. This pool is separate from miner rewards: an absent Author pool never blocks the miner competition.
 
-Only accepted completions of quests published in the Quest Feed are counted. A completion stores the participant's level when it is accepted, so later level changes cannot rewrite an Author Space's result. When a pool is enabled during an already-running week, tracking begins at the returned UTC `tracking_start`; earlier completions are not backfilled.
+Only accepted completions of quests published in the Quest Feed are counted. All publications of the same stable quest are grouped as one quest before its weekly score is calculated. A completion stores the participant's level when it is accepted, so later level changes cannot rewrite an Author Space's result. When a pool is enabled during an already-running week, tracking begins at the returned UTC `tracking_start`; earlier completions are not backfilled.
 
 Since quest completions are not protected from Sybil attacks, malicious actors can generate new accounts, quests, and their completions at will. For this reason, the reward distribution mechanics take into account author Karma and the number and variety of completions.
 

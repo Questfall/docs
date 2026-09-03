@@ -16,6 +16,25 @@ Since bad actors have multidirectional interest vectors, the majority of moderat
 This acts as a canonical self-fulfilling prophecy.
 {% endhint %}
 
+## Adaptive moderation market
+
+The values in the tables below are the **base values** and the minimum price of moderation. Questfall recalculates one global market multiplier every ten minutes. It does not create a separate market for each moderator or let the trust of one voter multiply a reward.
+
+Capacity is measured in the same level-trust units used by consensus. Let `T24` be the trust carried by recorded real moderation votes during the previous 24 hours. Ten-minute capacity is `max(60, T24 / 144)` trust; if the 24-hour sample is empty, the last capacity is retained, with 60 trust as the bootstrap minimum.
+
+For every open or queued case, the system subtracts already-cast vote trust from the case's fixed consensus trust requirement. The remaining amount is multiplied by the number of ten-minute windows for which the work has waited. Summing those values gives the age-weighted backlog `E`:
+
+```text
+pressure = E / capacity
+multiplier = max(1, pressure ^ 0.75)
+```
+
+The first window after activation is always `1×`. Later windows have no economic multiplier cap: sustained overload can keep making moderation more valuable, while the `0.75` exponent slows the rate of growth. A single isolated Initial case requiring 6 trust therefore does not move the global price immediately; against the 60-trust bootstrap capacity, it first exceeds `1×` after roughly 100 minutes without progress.
+
+The resulting multiplier scales every moderator-facing correct-vote reward, wrong-vote penalty, Bypass cost, and Witness prepayment. It does **not** scale reporter economics, appeal or re-review stakes, penalties applied to a reported target, or quest/workspace sanctions.
+
+When a moderator claims an assignment, its exact reward, penalty, Bypass cost, Witness cost, and market revision are locked for ten minutes. A later market window cannot reprice that assignment. If it expires, it is released and the next claim receives a new quote. Legacy assignments and votes without a quote settle at `1×`.
+
 ***
 
 ### Domains
@@ -34,7 +53,7 @@ Therefore, since marking a domain as safe for use by quest authors has its own v
 In addition, to avoid whitelisting millions of sites, only level 10 and above users with a positive Silver balance will be allowed to whitelist one domain per week.
 {% endhint %}
 
-<table><thead><tr><th width="192">Domain Whitelist</th><th width="117" align="center">Reward</th><th width="126" align="center">Penalty</th></tr></thead><tbody><tr><td>Initiator</td><td align="center">-</td><td align="center">-500 Silver</td></tr><tr><td>Moderators</td><td align="center">+20 Silver</td><td align="center">-40 Silver</td></tr></tbody></table>
+<table><thead><tr><th width="192">Domain Whitelist</th><th width="117" align="center">Base reward</th><th width="126" align="center">Base penalty</th></tr></thead><tbody><tr><td>Initiator</td><td align="center">-</td><td align="center">-500 Silver</td></tr><tr><td>Moderators</td><td align="center">+20 Silver</td><td align="center">-40 Silver</td></tr></tbody></table>
 
 Inclusion in the safe domain whitelist does not mean that the site will be considered safe forever. Users can report any whitelisted domain as risky, and if the community decides it is so, it will be removed from the whitelist.
 

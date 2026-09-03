@@ -45,23 +45,21 @@ from many accounts.
 
 Specific moderation can be bypassed only by spending energy. 
 
-The system keeps a balance by providing users with different types
-of moderation and an equal amount of right/wrong answers.
+The system balances canonical Approve/Reject outcomes globally and independently
+for Witness and Judge. It does not enforce a personal pattern for a moderator.
 
-* **Fake moderations** - Along with the real problems that need
-moderation system generates fakes, that should not pass moderation.
-Since the system knows what should be the correct vote it can
-punish malicious voters and reward good ones independent of who is
-the majority. In other words, such fakes are used as honeypots.
+* **Control moderations** - Once a real Witness or Judge case reaches
+consensus, its immutable evidence can become a limited control reference.
+Since the canonical answer is already known, the vote settles immediately
+without waiting for a new majority. These control assignments are honeypots.
 
 {% hint style="info" %}
-In fake moderation, the quest information is mixed in such a way
-that humans can recognize it being a non-valid completion but bots
-can’t. 
+Controls use already settled real evidence. They have the same public payload
+as an ordinary assignment and expose no source identifiers or control flags.
 {% endhint %}
 
-Fake quests allow the system to keep a 50/50 balance between right
-and wrong answers so the user can’t succeed by accepting every
-moderation. 
+For each type, the scheduler uses the last 100 settled real votes and inserts
+the missing canonical outcome with a dynamic probability. A `90/10` window
+uses `44.4%` controls, `100/0` uses at most `50%`, and `50/50` uses none.
 
 * * *

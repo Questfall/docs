@@ -16,34 +16,49 @@ Binary choices also make voting easy and straightforward for moderators, and imp
 There are other approaches, such as the range voting that Questfall uses for [quest ratings](../creation/karma.md). However, votes in such ratings are only right to a certain degree.
 {% endhint %}
 
-With binary votes, it is fairly easy to calculate the majority. However, the straightforward approach when all votes are equal opens the door to Sybil attacks. The problem is not solved even if the system weights votes by user level. An attacker could still create many low-level accounts and gain the overall weight in the system needed to change the voting results.
+### Level trust
 
-In Questfall, to prevent vote manipulation by many low-level accounts, voting is segmented by league and individual league results are generated. Each league result has the same weight, and the final result is determined by a simple majority.
+Consensus uses a continuous trust weight based on the moderator's level. It does not use leagues, so manually opening or closing a league has no effect on moderation or quest-rating consensus.
 
-<table><thead><tr><th width="147">League</th><th width="92" align="center">Yes</th><th width="86" align="center">No</th><th width="82" align="center">Result</th></tr></thead><tbody><tr><td>1</td><td align="center">156</td><td align="center">633</td><td align="center">No</td></tr><tr><td>2</td><td align="center">142</td><td align="center">43</td><td align="center">Yes</td></tr><tr><td>3</td><td align="center">53</td><td align="center">2</td><td align="center">Yes</td></tr><tr><td>4</td><td align="center">12</td><td align="center">4</td><td align="center">Yes</td></tr><tr><td>Final</td><td align="center">363</td><td align="center">682</td><td align="center">Yes</td></tr></tbody></table>
+$$Trust=\sqrt{\max(1,\lfloor Level\rfloor)}$$
 
-{% hint style="info" %}
-In cases where the league results are evenly split, the highest league is given double weight.
-{% endhint %}
+The implementation stores this as fixed-point units using `round(1000 × trust)`. Levels `1 / 4 / 9 / 16` therefore contribute `1 / 2 / 3 / 4` trust. The square root gives developed accounts more influence while making each additional level progressively less powerful.
 
-This approach protects the results from both sides - many low-level accounts as well as a few high-level accounts will not be able to manipulate the consensus, since an attacker would need a majority in most leagues to abuse a voting system.&#x20;
+The level and trust weight are captured when an assignment is issued. A later level change cannot change an open ballot. Rewards and penalties remain per vote and are never multiplied by an individual moderator's trust weight. Trust also measures the global amount of unfinished work for adaptive pricing, but only as an aggregate backlog relative to aggregate ten-minute capacity.
 
-{% hint style="info" %}
-This is analogous to the 51% attack in Bitcoin.
-{% endhint %}
+### Fixed requirements
 
-Since the votes are quite diverse when segmented by league, the number of votes for a solid consensus can be much smaller than just a percentage of all moderator votes.&#x20;
+The active pool contains verified users seen during the previous 24 hours, after removing everyone excluded from the case. Each case has two independent minimums: a minimum number of participants and a minimum sum of trust. Both conditions use `≥` and must be true. The size of the active pool does not change either minimum; it only determines whether enough eligible people and trust are currently available to open the case.
 
-For example, the requirement could be at least 11 votes from each of 5 leagues, for a total of 55. This will be sufficient even if there are millions of moderators in the system.
+The launch policy is:
 
-{% hint style="info" %}
-Of course, these requirements will evolve over time, adjusting to the number of leagues and overall experience, as we are in uncharted territory here. For example, when Questfall launches, user levels will likely be used instead of leagues.
-{% endhint %}
+| Scenario | Minimum participants | Minimum trust |
+| --- | ---: | ---: |
+| Rating | 2 | 6 |
+| Moderation Initial / Review | 2 | 6 |
+| Appeal I | 4 | 18 |
+| Final Appeal | 7 | 54 |
 
-However, to achieve this efficiency, users should not be able to choose the topic they want to vote on - instead, the system should assign moderators from different leagues to voting topics as needed.
+Witnessing, judging, domain proposals, reports, and re-reviews all use the Initial profile. Appeals use their stronger profile and exclude every moderator who voted in an earlier decision in the same chain.
+
+### Decision and tie-break
+
+For example, Initial consensus can reach its `2 users + 6 trust` minimums with two level-9 users (`3 + 3 trust`) or six level-1 users (`1 × 6 trust`). One level-36 user contributes all `6 trust` but still cannot decide alone because the two-user minimum remains unmet.
+
+After both minimums are met, the result is the weighted majority of approve trust versus reject trust. If the two totals are exactly equal, only ballots at the highest captured level are considered. Their simple majority decides the result because all ballots at that level have the same trust weight. If that strongest level is also evenly split, the case stays open and receives another vote.
+
+A case that cannot currently form its minimum active pool remains queued. An open case that stops receiving enough trust remains open and is marked as stalled for administrators. Requirements never weaken on a timer.
+
+Open and queued cases both contribute their remaining required trust to the adaptive moderation market. Participant shortage does not invent extra economic work: only the missing trust is counted, and already-cast votes reduce it immediately. Unfinished work becomes more urgent once per ten-minute window, while active assignments do not reduce the backlog until their votes are actually recorded.
+
+### Immutable policy snapshots
+
+Administrators manage the three moderation tiers and the rating profile in **Security → Consensus**. The square-root curve itself is fixed as `sqrt-level-v1`; only minimum participants and minimum trust can change. Every save creates an append-only policy revision with an audit diff.
+
+New rating rounds and moderation cases capture the current revision and both minimums. An open decision keeps its minimums and participant snapshots even after administrators save another revision. A queued case also remembers its revision and opens only when the eligible active pool can supply both minimums.
+
+Users should not be able to choose the topic they want to vote on - instead, the system assigns moderation cases as needed.
 
 This also provides another layer of protection, because when topics are assigned by the system, there is no way for multiple accounts to synchronize an attack on a given vote, since each account is given an unpredictable topic.
 
-{% hint style="info" %}
-Depending on the number of completions and active moderators, it should take anywhere from a few minutes to a few hours to reach a consensus. After that, moderators will be rewarded or penalized based on their vote, according to the voting topic [incentives](incentives.md).
-{% endhint %}
+After consensus, every real ballot receives the same canonical outcome and is added to its kind's settled-vote balance window. A complete real Witness or Judge case also becomes an immutable, exposure-limited honeypot reference. Honeypot votes remain separate: their answer is already known, so they settle immediately and never feed consensus or create more references.

@@ -20,7 +20,7 @@ The user leaderboard is based on the total [Quest Bounties](creation/quest-bount
 
 Seasonal Quest Bounty starts accumulating from a user's first accepted feed quest. However, a user enters the seasonal payout leaderboard only after reaching Level 5 and League I, with both email and wallet verified. Until then, the score remains accumulated but unranked. Eligibility is checked again at season settlement, so Hall and incomplete-identity accounts cannot change the payout denominator.
 
-The Author Space leaderboard uses Feed quests that were both published and received their final consensus rating within the same UTC calendar quarter. Retroactive ratings do not move quests into another season. An Author Space needs at least 12 such quests to qualify.
+The Author Space leaderboard uses stable Feed quests whose first publication and first final consensus rating occurred within the same UTC calendar quarter. Each quest can be counted only once, in the quarter of its first publication. Reactivation cannot help a Space reach the 12-quest minimum, and later publications or aggregate-rating changes never rewrite an already settled period.
 
 Spaces are sorted by average final rating, then by the greater number of rated quests, then by stable Author Space ID. Below 12 quests, the product may show an explicitly conditional projection that assumes the current average rating remains unchanged through quest 12.
 

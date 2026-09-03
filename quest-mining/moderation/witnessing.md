@@ -30,13 +30,9 @@ Moderators would first vote to approve that the screenshot represents the actual
 Screenshots will be stored within the Questfall infrastructure to ensure that no one will be able to alter them after they are uploaded.
 {% endhint %}
 
-These two steps, witnessing a screenshot and then judging its content, are actually two separate voting topics, and are voted on by different sets of moderators. But they are still two sides of the same coin, and represent the same issue, meaning that the amount of witnessing and judging in the system will always be equal.
+These two steps, witnessing a screenshot and then judging its content, are separate voting topics and are handled by different sets of moderators. They are nevertheless two sides of the same completion flow: an approved Witness case creates its Judge case.
 
-Therefore, if there are many such completions, the system would be able to balance such split topics for each moderator individually over many iterations.
-
-{% hint style="info" %}
-So that out of 100 votings, 50 are witnessing and 50 are judging.
-{% endhint %}
+Honeypot answer balance is global rather than personalized. Witness Approve/Reject and Judge Approve/Reject each use their own rolling window of the last 100 settled real votes. An individual moderator's short sequence remains random and is not guaranteed to contain any fixed ratio or pattern.
 
 The main advantage of splitting an issue into two voting topics is that the incentives can be split as well - while the reward portion goes to witnessing, the penalty portion remains for judging. And since this approach does not penalize witnessing, users would not be able to punish good moderators by changing content.
 
@@ -44,4 +40,4 @@ The main advantage of splitting an issue into two voting topics is that the ince
 In short, witnessing allows moderators to earn, while judging allows them to not lose.
 {% endhint %}
 
-However, witnessing is on average profitable in random voting. Therefore, the average profit from witnessing should be outweighed by the penalties in the judging moderation step and the cost of bypassing. This makes it impossible to earn by randomly voting on these two alternating topics over many iterations.
+However, witnessing by itself is on average profitable under random voting. The globally balanced canonical answers remove the advantage of always pressing Approve or Reject, while the Judge penalty and Bypass costs make the combined long-run sequence economically negative for blind voting.
