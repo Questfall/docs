@@ -33,7 +33,7 @@ The first window after activation is always `1×`. Later windows have no economi
 
 The resulting multiplier scales every moderator-facing correct-vote reward, wrong-vote penalty, Bypass cost, and Witness prepayment. It does **not** scale reporter economics, appeal or re-review stakes, penalties applied to a reported target, or quest/workspace sanctions.
 
-When a moderator claims an assignment, its exact reward, penalty, Bypass cost, Witness cost, and market revision are locked for ten minutes. A later market window cannot reprice that assignment. If it expires, it is released and the next claim receives a new quote. Legacy assignments and votes without a quote settle at `1×`.
+Market windows are shared server intervals aligned to `:00 / :10 / :20 / :30 / :40 / :50`. An assignment does not expire when a window ends. Its card stays in place and displays the current window's reward, penalty, Bypass cost, and Witness cost. Vote, Bypass, Witness switch, and Witness prepayment use the quote active when the server receives the request, even if the moderator clicked near a boundary. The exact quote used for a vote is stored with that vote and remains its settlement basis. Legacy votes without a quote settle at `1×`; the legacy assignment `expires` field is temporarily returned as an alias of the current pricing window end for older clients.
 
 ***
 

@@ -46,7 +46,7 @@ Before the moderator acts, a control has the same public fields, instructions, e
 
 The control uses an isolated internal case. It never enters the real queue, consensus, or later reference generation, and it cannot change the source submission, participant, quest, or case.
 
-Because the canonical outcome is already known, a vote settles immediately with the normal completion economics. The values below are the `1×` bases; the assignment receives the same locked adaptive quote as real work:
+Because the canonical outcome is already known, a vote settles immediately with the normal completion economics. The values below are the `1×` bases; the action uses the same current server-window quote as real work:
 
 | Assignment | Correct | Incorrect |
 | --- | ---: | ---: |
@@ -55,6 +55,6 @@ Because the canonical outcome is already known, a vote settles immediately with 
 
 A Judge control grants one Witness credit and resets the Bypass step after voting, just like an ordinary Judge vote. A Witness control consumes a credit when assigned.
 
-Bypass is identical to ordinary moderation. Report on a control intentionally follows the same Bypass path: Witness returns its credit for free; Judge charges the assignment's locked Bypass cost and advances the step. It creates no report case, consumes no Stamina, and has no effect on the source user or submission. Control votes are excluded from the 24-hour trust throughput used to calculate market capacity.
+Bypass is identical to ordinary moderation. Report on a control intentionally follows the same Bypass path: Witness returns its credit for free; Judge charges the Bypass cost active when the server receives the request and advances the step. It creates no report case, consumes no Stamina, and has no effect on the source user or submission. Control votes are excluded from the 24-hour trust throughput used to calculate market capacity.
 
 Controls appear as ordinary completed votes in history and the Silver ledger. A wrong control vote creates no strike, automatic ban, or extra risk signal. Protection comes from the negative expected value of a long blind-voting sequence, not from assuming that honest moderators never make mistakes.

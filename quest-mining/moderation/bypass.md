@@ -18,15 +18,11 @@ In Questfall, the base cost of the first bypass is free, while each subsequent b
 
 <table><thead><tr><th width="213">Voting Topic</th><th width="161" align="center">Max Bypass Cost</th><th width="112" align="center">Reset On Vote</th></tr></thead><tbody><tr><td><a data-footnote-ref href="#user-content-fn-1">Completion Validation</a></td><td align="center"></td><td align="center"></td></tr><tr><td><ul><li><a data-footnote-ref href="#user-content-fn-2">Witnessing</a></li></ul></td><td align="center"></td><td align="center"></td></tr><tr><td><ul><li><a data-footnote-ref href="#user-content-fn-3">Judging</a></li></ul></td><td align="center">-5 Silver</td><td align="center">+</td></tr><tr><td><a data-footnote-ref href="#user-content-fn-4">Whitelisting Domain</a></td><td align="center">-5 Silver</td><td align="center">+</td></tr><tr><td><a data-footnote-ref href="#user-content-fn-5">Domain Report</a></td><td align="center">-5 Silver</td><td align="center">+</td></tr><tr><td><a data-footnote-ref href="#user-content-fn-6">Completion Report</a></td><td align="center">-5 Silver</td><td align="center">+</td></tr><tr><td><a data-footnote-ref href="#user-content-fn-7">Quest Report</a></td><td align="center">-5 Silver</td><td align="center">+</td></tr></tbody></table>
 
-There is another way to bypass a topic for free. All a moderator needs to do is wait for the voting to reach a consensus. When the voting is over, the moderator will be assigned a new topic to vote on.
-
-{% hint style="info" %}
-This is not a threat, because if consensus is reached on this particular topic, all other topics in the system are likely to be voted on as well. So users will not be able to get to any particular topic this way.
-{% endhint %}
+Waiting is not a free Bypass. An assignment remains with its moderator after its ten-minute reservation and after the case reaches consensus. The moderator must Vote, Bypass, Report when that action is available, or wait for an explicit system cancellation. A vote submitted after consensus is settled against the canonical answer but cannot change it.
 
 The witnessing voting topic is a special case because it has no penalty. This not only means that this type of topic can always be bypassed for free, but also implies that there should be a balance between witnessing and judging topics.
 
-Therefore, to get a witnessing topic, a user should either vote on a judging topic first, or prepay the current adaptive Witness price. Its base value is 25 Silver. A prepayment or switch uses the quote shown to the moderator; a claimed assignment keeps that quote for its ten-minute lifetime.
+Therefore, to get a witnessing topic, a user should either vote on a judging topic first, or prepay the current adaptive Witness price. Its base value is 25 Silver. Prepayment and switching use the server quote active when the request arrives; the visible rate refreshes in place at each shared ten-minute market boundary.
 
 [^1]: Quest completions published on third-party platforms, which can theoretically be changed by the author at any time.
 
