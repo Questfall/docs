@@ -20,6 +20,8 @@ Penalties, however, are a key part of voting protection and cannot be removed, o
 
 To solve this contradiction, Questfall implements the concept of witnessing, which implies that users provide two types of information: a link to the content and a screenshot of that content.
 
+An account on a third-party platform can be used as proof by only one Questfall account. Reusing evidence already submitted by another account is not a valid completion and is resolved through the same rejected-completion flow as other failed evidence.
+
 {% hint style="info" %}
 Although we implemented this approach specifically for quest completions, it can be used with any external content.
 {% endhint %}
