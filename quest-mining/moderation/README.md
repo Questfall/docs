@@ -38,3 +38,7 @@ This will force moderators to vote from the majority's point of view, rather tha
 The [incentives](https://docs.questfall.xyz/quest-mining/community-moderation/incentives) are balanced so that, on average, the penalties of random or blind voting outweigh the rewards, making it a losing strategy. The system also derives limited [honeypot](honeypots.md) references from settled real consensus to balance canonical Approve/Reject opportunities.
 
 There are other safeguards, such as balancing [bypass costs](bypass.md) with rewards, and splitting completion moderation into [two phases](witnessing.md) to protect community moderation from any possible abuse.
+
+## First Quest Review
+
+New versions of author Feed Action and Screenshot quests use a prioritized [First Quest Review](first-quest-review.md) before the remaining completions enter ordinary moderation. It checks instructions and the first completion in two steps, with a third insufficient-instructions outcome.

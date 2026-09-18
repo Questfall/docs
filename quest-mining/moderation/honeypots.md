@@ -58,3 +58,7 @@ A Judge control grants one Witness credit and resets the Bypass step after votin
 Bypass is identical to ordinary moderation. Report on a control intentionally follows the same Bypass path: Witness returns its credit for free; Judge charges the Bypass cost active when the server receives the request and advances the step. It creates no report case, consumes no Stamina, and has no effect on the source user or submission. Control votes are excluded from the 24-hour trust throughput used to calculate market capacity.
 
 Controls appear as ordinary completed votes in history and the Silver ledger. A wrong control vote creates no strike, automatic ban, or extra risk signal. Protection comes from the negative expected value of a long blind-voting sequence, not from assuming that honest moderators never make mistakes.
+
+## First Quest Review
+
+[First Quest Review controls](first-quest-review.md#controls-and-initial-scope) form a separate three-answer pool. A source needs 80% agreement by both weight and people. Scheduling balances the last 100 settled real first-review decisions, choosing a least-represented alternative when the dominant answer exceeds half; it never mixes these controls into binary pools.

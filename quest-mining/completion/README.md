@@ -49,6 +49,8 @@ While the Quest Bounty concept assumes that it is the same for everyone, and the
 
 The system may increase the effective Quest Bounty for a new [unrated quest](../creation/karma.md) assigned to a small rotating set of users, thus motivating them to attempt the quest and vote on its rating. A user can hold at most four such assignments, each as a one-hour Top-10 visibility lease. An expired unvoted lease can be offered again after a six-hour cooldown, with unseen users preferred. Ordinary Feed completions are never treated as rating votes.
 
+The effective Bounty is fixed when an assignment is issued, using the slot in that user's visible Feed. Feed refreshes, new quests, and neighbouring publications expiring do not change this Bounty during the lease. A new assignment issued after expiry receives a fresh slot price. Personal Mining modifiers and the retry penalty still apply; a completion submitted for moderation saves its reward at submission and uses that snapshot when approved.
+
 {% hint style="info" %}
 The Quest Bounty will also change if the quest allows multiple attempts. For example, if a quest allows five retries, each failed attempt will reduce the Quest Bounty by 20%.
 {% endhint %}

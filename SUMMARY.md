@@ -35,6 +35,7 @@
   * [Leagues](quest-mining/completion/leagues.md)
   * [Rewards](quest-mining/completion/rewards.md)
 * [Community Moderation](quest-mining/moderation/README.md)
+  * [First Quest Review](quest-mining/moderation/first-quest-review.md)
   * [Community Cases](quest-mining/moderation/community-cases.md)
   * [Overdraft](quest-mining/moderation/overdraft.md)
   * [Consensus](quest-mining/moderation/consensus.md)

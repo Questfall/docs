@@ -120,3 +120,7 @@ Voting on the completion will be paused until a report is moderated.
 {% endhint %}
 
 <table><thead><tr><th width="196">Completion Report</th><th width="138" align="center">Reward</th><th width="138" align="center">Penalty</th></tr></thead><tbody><tr><td>Reporter</td><td align="center">+1,000 Silver</td><td align="center">-2,000 Silver</td></tr><tr><td>Moderators</td><td align="center">+40 Silver</td><td align="center">-60 Silver</td></tr><tr><td>User</td><td align="center">-</td><td align="center">-10,000 Silver</td></tr></tbody></table>
+
+## First Quest Review
+
+[First Quest Review](first-quest-review.md), for both Action and Screenshot, pays +20/−40 Silver before the shared market multiplier and gives no Witness Credit. Later stages retain their ordinary prices. Instruction cancellation grants players max(1, floor(50% of snapshotted MP)), without Stamina, shards, seasonal or completion credit; it is separate from successful completion rewards.
