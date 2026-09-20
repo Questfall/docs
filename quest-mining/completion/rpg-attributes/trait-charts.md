@@ -17,10 +17,10 @@ Every RPG trait has a growth chart on its attribute page. The charts are generat
 
 ## Interactive Explorer
 
-Download the interactive trait explorer below and open the HTML file in a browser. It includes all 30 traits, works offline, and needs no account or installation.
+Download and unzip the archive below, then open `explorer.html` in a browser. It includes all 30 traits, works offline, and needs no account or installation.
 
-{% file src="../../../.gitbook/assets/trait-charts/explorer.html" %}
-Interactive trait explorer — all 30 traits, offline HTML.
+{% file src="../../../.gitbook/assets/trait-charts/trait-explorer.zip" %}
+Interactive trait explorer — all 30 traits, offline HTML in a ZIP archive.
 {% endfile %}
 
 Choose an attribute and a trait, switch between early progression and the long-term range, and move across a curve to inspect its sampled values. The slider provides the same inspection with a keyboard. Each trait also has a table of values at Mastery thresholds. Luck Bonus has separate plots for reward power and discount rate.
