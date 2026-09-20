@@ -1,4 +1,4 @@
-# Account ownership claims
+# Account Ownership Claims
 
 Questfall reserves external usernames and wallet addresses on their first quest
 submission. Routine submissions require no ownership verification. A participant
