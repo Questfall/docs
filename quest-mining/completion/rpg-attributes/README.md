@@ -19,6 +19,8 @@ Characters start at level `1` with one point in each attribute. Every new level 
 
 ## Mastery Ranks
 
+See [Trait Charts](trait-charts.md) for generated growth curves for all 30 traits and an offline interactive explorer. Each attribute page also includes the saved charts beside its explanations and tables.
+
 Each trait has its own mastery rank. The rank is calculated from that trait's final value after character points, Aspect, attribute grants, terminal perks, and booster effects. A booster can therefore help a terminal perk cross a mastery threshold. Direct grants do not add trait value and cannot unlock mastery.
 
 | Mastery | Trait value required |
@@ -69,4 +71,15 @@ Equipped items above the character's own level still work, but useful item effec
 
 Some traits already affect live gameplay. Others are part of the finalized RPG model but their public feature is not live yet. Those traits can still appear in the build model and item system, but players should not treat them as active strategy until the connected feature launches.
 
-The individual attribute pages call this out directly.
+The individual attribute pages call this out directly. The current boundaries are:
+
+| Attribute | Connected to current gameplay | Modelled or planned limitation |
+| --- | --- | --- |
+| Inventory | Levitation, Overlevel, Capacity, Exemption. | Equipping does not charge Essence; overload is informational and does not block actions. |
+| Mining | Flow, Focus, Power, Loot. | Priority does not affect the moderation queue yet. |
+| Crafting | Scrapping, Leveling. | Merging, Rarity, Quality await their product flows. |
+| Trading | Fee, Conversion, Slots. | Bid and Liquidity await auctions and Gem Points. |
+| Stamina | Efficiency, Reserve, Recovery, Relief. | Absorption awaits potion consumption. |
+| Luck | Shards, Boxes, Chance, Bonus, Cards. | Each effect applies only to the actions described on its trait page. |
+
+A growth chart describes a formula even when the associated feature is not yet available; it does not change that feature's status.

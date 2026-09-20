@@ -36,6 +36,18 @@ Reduces the marketplace commission paid by the seller when an item sells.
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
 | Marketplace fee efficiency | Shrinks the reducible part of the seller fee. | +3% to +5% | +6% to +10% | +11% to +15% | +16% to +20% | +21% to +25% |
 
+<!-- trait-chart:trading-fee:start -->
+### Growth Chart
+
+![Trading Fee: Seller commission versus Trait Units](../../../.gitbook/assets/trait-charts/trading-fee.svg)
+
+Seller commission before Lucky Discount. Lower is better; the curve retains a 3% soft core. The final Gold fee is rounded down.
+
+The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
+
+[Chart guide and interactive explorer](trait-charts.md).
+<!-- trait-chart:trading-fee:end -->
+
 ### Mastery Start Values
 
 | Mastery | Trait value at start | System value without direct grants |
@@ -83,6 +95,18 @@ Planned auction trait that makes the same Gold bid compete as a stronger offer.
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
 | Auction bid efficiency | Improves the effective bid power of Gold auction offers. | +3% to +5% | +6% to +10% | +11% to +15% | +16% to +20% | +21% to +25% |
 
+<!-- trait-chart:trading-bid:start -->
+### Growth Chart
+
+![Trading Bid: Effective sorting price versus Trait Units](../../../.gitbook/assets/trait-charts/trading-bid.svg)
+
+Effective sorting price as a share of the actual Gold bid. Lower is better; settlement still uses the actual bid. Auction surface is planned.
+
+The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
+
+[Chart guide and interactive explorer](trait-charts.md).
+<!-- trait-chart:trading-bid:end -->
+
 ### Mastery Start Values
 
 | Mastery | Trait value at start | System value without direct grants |
@@ -127,6 +151,18 @@ Planned Gem Points efficiency trait for liquidity positioning.
 | Direct grant | What one grant changes | E | D | C | B | A |
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
 | Gem Points efficiency | Improves Gem Points efficiency for planned liquidity actions. | +3% to +5% | +6% to +10% | +11% to +15% | +16% to +20% | +21% to +25% |
+
+<!-- trait-chart:trading-liquidity:start -->
+### Growth Chart
+
+![Trading Liquidity: LP requirement remaining versus Trait Units](../../../.gitbook/assets/trait-charts/trading-liquidity.svg)
+
+Effective LP requirement as a share of the base requirement. Lower is better. The Gem Points surface is planned; this does not increase direct QFT rewards.
+
+The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
+
+[Chart guide and interactive explorer](trait-charts.md).
+<!-- trait-chart:trading-liquidity:end -->
 
 ### Mastery Start Values
 
@@ -174,6 +210,18 @@ Improves how much Silver a player receives for each Gold converted.
 | Flat Gold to Silver conversion | Adds exact Silver per Gold after the conversion curve. | +0.5 Silver/Gold | +1 Silver/Gold | +1.5 Silver/Gold | +2 Silver/Gold | +2.5 Silver/Gold |
 | Conversion pressure | Adds pressure before the conversion rate is derived. | +0.5 pressure to +1 pressure | +1 pressure to +1.5 pressure | +1.5 pressure to +2 pressure | +2 pressure to +2.5 pressure | +2.5 pressure to +3 pressure |
 
+<!-- trait-chart:trading-conversion:start -->
+### Growth Chart
+
+![Trading Conversion: Gold to Silver rate versus Trait Units](../../../.gitbook/assets/trait-charts/trading-conversion.svg)
+
+Silver received per Gold burned. Mastery and flat grants are added after the pressure curve, so 30 is not a final cap. Actual Silver payout is rounded down.
+
+The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
+
+[Chart guide and interactive explorer](trait-charts.md).
+<!-- trait-chart:trading-conversion:end -->
+
 ### Mastery Start Values
 
 | Mastery | Trait value at start | System value without direct grants |
@@ -219,6 +267,18 @@ Increases how many active marketplace listings a player can keep.
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
 | Flat marketplace slots | Adds active listing slots directly. | +1 to +2 slots | +3 to +4 slots | +5 to +6 slots | +7 to +8 slots | +9 to +10 slots |
 | Marketplace slot percent | Scales the trait-derived base listing slots. | +3% to +5% | +6% to +10% | +11% to +15% | +16% to +20% | +21% to +25% |
+
+<!-- trait-chart:trading-slots:start -->
+### Growth Chart
+
+![Trading Slots: Marketplace slots versus Trait Units](../../../.gitbook/assets/trait-charts/trading-slots.svg)
+
+Maximum active marketplace listings. Percent grants scale only the trait base; Mastery and flat grants are added separately.
+
+The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
+
+[Chart guide and interactive explorer](trait-charts.md).
+<!-- trait-chart:trading-slots:end -->
 
 ### Mastery Start Values
 

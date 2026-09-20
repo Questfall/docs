@@ -94,7 +94,7 @@ For this reason, the rewards for quest reports in Questfall are not fixed and ar
 Users can select any quest from the [Quest Feed](../../overview/global-feed.md), complete it properly, and increase their mining score by a number of mining points depending on the [Quest Bounty](../creation/quest-bounty.md) and the user's individual parameters such as [Mining Power](../completion/#mining-power) and [Mining Boost](../completion/#mining-boost).
 
 {% hint style="info" %}
-Each completion consumes stamina to protect community moderation from DDoS attacks that can be caused by generating tons of completions.
+Moderated quest submissions spend Stamina to limit the volume of review work. The base cost is 1, adjusted by Stamina traits and equipment pressure. Automatic Question, Quiz, and Survey answer submissions do not currently spend Stamina.
 {% endhint %}
 
 Many types of quests imply that the completion can be automatically validated by the system, for example, it can be a logic puzzle with the known answer, or it can be a survey with predefined options.
@@ -102,6 +102,10 @@ Many types of quests imply that the completion can be automatically validated by
 However, many quests will require something to be done outside of Questfall on third-party platforms: from blockchain transactions to posting some content on one of the social media platforms.&#x20;
 
 And these types of quest completions cannot be validated by the computer, so they should be validated by the moderators. If such a completion passes moderation, the user's mining score will increase, otherwise it will not.&#x20;
+
+Current [Action quests](../creation/action-quests.md) use direct screenshot or platform review. Their ordinary binary reviews pay **+20 Silver** for agreement with consensus and charge **−40 Silver** for disagreement, before the adaptive market multiplier. They do not require or award Witness Credits. The first review uses the same base amounts with its additional insufficient-instructions outcome.
+
+The Witness/Judge rules and table below apply to legacy publications that still use that two-stage flow.
 
 {% hint style="warning" %}
 Early access exception: if a moderator has no ordinary assignable case, an eligible Witness case may be issued without a Witness Credit and without prepayment. This temporary subsidy bootstraps the first `Witness -> Judge -> Witness Credits` cycle when the moderation queue is still sparse. Participant, author, and Author Space team exclusions still apply, and the case keeps its full participant and trust requirements. The exception should be removed once the active population and normal moderation flow are large enough to sustain Witness Credits without bootstrap help.
@@ -123,4 +127,4 @@ Voting on the completion will be paused until a report is moderated.
 
 ## First Quest Review
 
-[First Quest Review](first-quest-review.md), for both Action and Screenshot, pays +20/−40 Silver before the shared market multiplier and gives no Witness Credit. Later stages retain their ordinary prices. Instruction cancellation grants players max(1, floor(50% of snapshotted MP)), without Stamina, shards, seasonal or completion credit; it is separate from successful completion rewards.
+[First Quest Review](first-quest-review.md), for current Action methods and supported legacy publications, pays +20/−40 Silver before the shared market multiplier and gives no Witness Credit. Later stages retain their ordinary prices. Instruction cancellation grants players max(1, floor(50% of snapshotted MP)), without Stamina, shards, seasonal or completion credit; it is separate from successful completion rewards.

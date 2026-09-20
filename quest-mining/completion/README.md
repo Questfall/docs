@@ -52,7 +52,7 @@ The system may increase the effective Quest Bounty for a new [unrated quest](../
 The effective Bounty is fixed when an assignment is issued, using the slot in that user's visible Feed. Feed refreshes, new quests, and neighbouring publications expiring do not change this Bounty during the lease. A new assignment issued after expiry receives a fresh slot price. Personal Mining modifiers and the retry penalty still apply; a completion submitted for moderation saves its reward at submission and uses that snapshot when approved.
 
 {% hint style="info" %}
-The Quest Bounty will also change if the quest allows multiple attempts. For example, if a quest allows five retries, each failed attempt will reduce the Quest Bounty by 20%.
+The Quest Bounty will also change if the quest allows multiple attempts. For example, Question and Quiz permit five attempts with reward multipliers of 100%, 80%, 60%, 40%, and 20%. Survey accepts a valid choice at the full multiplier.
 {% endhint %}
 
 Quest Bounties will be driven mainly by competition between authors trying to get as many completions for their quests as possible, and will increase as the platform becomes more popular.
@@ -113,7 +113,7 @@ Even if a user avoids unrated quests and takes no risks, the higher the league, 
 
 ### Loot Boxes
 
-Lootboxes are the live source of RPG clothing items. Common Lootboxes can currently be opened with Gold. Collecting a full weekly Chest Shard set will also award a Common Lootbox once quest-completion shard rewards are connected.
+Lootboxes are the live source of RPG clothing items. Common Lootboxes can currently be opened with Gold. Collecting a full weekly Chest Shard set also awards a Common Lootbox. Automatic rewards settle on successful completion; moderated quests apply their saved shard rolls to the set active at approval.
 
 {% hint style="info" %}
 A user can collect a full weekly set of Chest Shards an unlimited number of times during a week. Next week, however, a new set will be released, making any unused shards from the previous week obsolete.

@@ -1,15 +1,18 @@
 # First Quest Review
 
-Author Feed quests can launch immediately. A new version of an Action or
-Screenshot quest starts with one stronger completion review. Other submissions
+Author Feed quests can launch immediately. New [Action quest](../creation/action-quests.md)
+materials start with one stronger completion review. Other submissions
 are saved and wait for that review to finish. Available first reviews take
 priority over ordinary moderation; older first reviews are offered first.
 
-For Screenshot, the first submission eligible for manual review starts this
-case. Action keeps its Witness stage: the first submission that passes Witness
-starts the first review instead of ordinary Judge. Its Witness reviewers cannot
-judge that same completion. Other Action submissions can finish Witness while
-they wait for Judge. A shortage of independent moderators does not lower the
+For current Action methods (screenshot, individual link, or confirmation only),
+the first submission eligible for manual review starts this case directly.
+Older separate Screenshot quests follow the same direct path. A legacy Action
+publication that requires both a link and screenshots keeps its Witness stage:
+the first submission that passes Witness starts the first review instead of
+ordinary Judge. Its Witness reviewers cannot judge that same completion. Other
+legacy submissions can finish Witness while they wait for Judge.
+A shortage of independent moderators does not lower the
 requirements or approve anything automatically.
 
 ## Two steps, one decision
@@ -59,8 +62,9 @@ late votes cannot change the result or the reference sample.
 
 A matching first-review vote earns **20 Silver**, and a conflicting vote costs
 **40 Silver**, before the current market multiplier. Neither outcome creates
-Witness Credit. Later Screenshot and Action Witness/Judge work keeps its normal
-incentives. Late votes settle against the saved outcome without changing it.
+Witness Credit. Later direct Action and Screenshot reviews use the ordinary
++20/−40 Silver base amounts without Witness Credits. Legacy Witness/Judge work
+keeps its own incentives. Late votes settle against the saved outcome without changing it.
 
 ## What the result changes
 

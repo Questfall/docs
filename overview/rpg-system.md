@@ -25,9 +25,9 @@ complete quests
 | Clothing and equipment | Live. Lootboxes create clothing that can be equipped, unequipped, sold, scrapped, and levelled up. Equipping cost is calculated but not charged yet. |
 | Marketplace | Live. Items can be listed, sold, and claimed. Trading Fee, Conversion, and Slots are connected. |
 | Crafting | Scrapping and clothing Leveling are live. Merging, Rarity, and Quality are modelled for future product flows. |
-| Mining rewards | The RPG formulas are finalized. Quest rewards, Flow, moderation priority, and Chest Shard rolls activate with the quest and moderation product flows. |
-| Stamina | Character state, recovery, equipment pressure, and formulas are implemented. Quest-driven stamina spending activates with quests; potions are planned. |
-| Luck | Common Lootbox Cards and Boxes are live. Chance and Bonus support current lucky actions. Shards activates with quest-completion shard rewards. |
+| Mining rewards | Live. Power, Flow, Focus, and Loot affect quest rewards; full Chest Shard sets award Common Lootboxes. Priority is modelled but not connected to the moderation queue. |
+| Stamina | Live. Moderated submissions and reports spend Stamina using Efficiency and equipment pressure; Reserve and Recovery affect the character state. Automatic answer submissions do not spend Stamina. Potions and Absorption remain planned. |
+| Luck | Common Lootbox Cards and Boxes are live. Chance and Bonus support current lucky actions. Shards affects quest-completion shard selection. |
 
 Some model surfaces are intentionally present before their public feature is launched. For example, Potions, Gems, item rarity evolution, Gold auctions, and liquidity-program rewards belong to the broader RPG economy, but they should be treated as planned systems unless their own product surface is live.
 

@@ -20,7 +20,9 @@ In Questfall, the base cost of the first bypass is free, while each subsequent b
 
 Waiting is not a free Bypass. An assignment remains with its moderator after its ten-minute reservation and after the case reaches consensus. The moderator must Vote, Bypass, Report when that action is available, or wait for an explicit system cancellation. A vote submitted after consensus is settled against the canonical answer but cannot change it.
 
-The witnessing voting topic is a special case because it has no penalty. This not only means that this type of topic can always be bypassed for free, but also implies that there should be a balance between witnessing and judging topics.
+Current [Action](../creation/action-quests.md) screenshot and platform reviews, including First Quest Review, use the ordinary Bypass sequence: 0, 1, 2, 3, 4, then 5 Silver before the market multiplier. A vote resets that sequence. They do not require Witness Credits or prepayment.
+
+Legacy witnessing is a special case because it has no penalty. This not only means that this type of topic can always be bypassed for free, but also implies that there should be a balance between witnessing and judging topics.
 
 Therefore, to get a witnessing topic, a user should either vote on a judging topic first, or prepay the current adaptive Witness price. Its base value is 25 Silver. Prepayment and switching use the server quote active when the request arrives; the visible rate refreshes in place at each shared ten-minute market boundary.
 

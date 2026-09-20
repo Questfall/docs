@@ -4,6 +4,10 @@ icon: glasses
 
 # Witnessing
 
+{% hint style="info" %}
+This page describes the two-stage flow retained by legacy publications that require a link and screenshots. New [Action quests](../creation/action-quests.md) offer screenshot, individual link, or confirmation-only verification and go directly to review, without Witness or Witness Credits.
+{% endhint %}
+
 In many cases, moderators would have to vote on some content outside of Questfall, which often can be edited by the author at any time (e.g. a post on Facebook). And this is a problem.
 
 {% hint style="info" %}

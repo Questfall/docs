@@ -25,7 +25,7 @@ For this reason, Questfall relies entirely on the help of its users to solve suc
 * public profiles,
 * Author Spaces.
 
-The complete report, appeal, re-review, identity-restriction, and domain-trust lifecycle is described in [Community Cases](community-cases.md).
+The complete report, appeal, re-review, identity-restriction, and domain-trust lifecycle is described in [Community Cases](community-cases.md). Disputes about who controls an external username or wallet use [Account Ownership Claims](account-claims.md).
 
 In addition, community moderation is the cornerstone of the defense against Sybil attacks used to secure mining. Therefore, the voting itself must be protected from any kind of manipulation, multi-accounts, bots, and blind/random voting. And it is.
 
@@ -35,10 +35,10 @@ The main principle of securing the community moderation voting is that moderator
 This will force moderators to vote from the majority's point of view, rather than their own personal perspective. For example, you may not personally like a movie, but you think that the majority will like it. How would you vote?
 {% endhint %}
 
-The [incentives](https://docs.questfall.xyz/quest-mining/community-moderation/incentives) are balanced so that, on average, the penalties of random or blind voting outweigh the rewards, making it a losing strategy. The system also derives limited [honeypot](honeypots.md) references from settled real consensus to balance canonical Approve/Reject opportunities.
+The [incentives](incentives.md) are balanced so that, on average, the penalties of random or blind voting outweigh the rewards, making it a losing strategy. The system also derives limited [honeypot](honeypots.md) references from settled real consensus to balance canonical Approve/Reject opportunities.
 
-There are other safeguards, such as balancing [bypass costs](bypass.md) with rewards, and splitting completion moderation into [two phases](witnessing.md) to protect community moderation from any possible abuse.
+Other safeguards include [bypass costs](bypass.md), independent reviewer selection, and controls based on settled cases. Current [Action quests](../creation/action-quests.md) use direct screenshot or platform review. The [two-phase Witness/Judge flow](witnessing.md) remains relevant to older publications that require a link and screenshots.
 
 ## First Quest Review
 
-New versions of author Feed Action and Screenshot quests use a prioritized [First Quest Review](first-quest-review.md) before the remaining completions enter ordinary moderation. It checks instructions and the first completion in two steps, with a third insufficient-instructions outcome.
+New author Feed Action materials use a prioritized [First Quest Review](first-quest-review.md) before the remaining completions enter ordinary moderation. It checks instructions and the first completion in two steps, with a third insufficient-instructions outcome. Existing separate Screenshot publications are also supported.

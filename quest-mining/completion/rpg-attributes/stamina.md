@@ -8,7 +8,7 @@ Stamina controls action cost, maximum stamina, recovery, equipment pressure, and
 
 ## Implementation Status
 
-Stamina formulas, character state, grants, and equipment pressure are implemented. Quest-driven stamina spending will activate with the quest block. Absorption will activate with the potion system.
+Efficiency, Reserve, Recovery, and Relief are live. Moderated quest submissions and reports spend Stamina; the base cost of 1 is adjusted by Efficiency, Relief, and equipment weight. Automatic Question, Quiz, and Survey answer submissions do not currently spend Stamina. The character state applies the current maximum and recovery rules. Absorption remains planned until potion consumption is available.
 
 ## How To Read These Tables
 
@@ -26,7 +26,7 @@ Rarity letters in grant tables: E = Uncommon, D = Rare, C = Epic, B = Legendary,
 
 ## Efficiency
 
-**Status:** Formula and state implemented; quest use activates with quests.
+**Status:** Live in character Stamina and supported action costs.
 
 Reduces the base stamina cost of actions before equipment pressure is added.
 
@@ -40,6 +40,18 @@ The shared mastery-input rule above applies to Efficiency.
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
 | Base stamina cost reduction | Reduces raw base action cost by percent before the trait multiplier. | +1% | +2% | +3% | +4% | +5% |
 | Flat stamina cost reduction | Subtracts stamina from raw base action cost before the trait multiplier. | -1 stamina | -1 stamina to -2 stamina | -2 stamina to -3 stamina | -3 stamina to -4 stamina | -4 stamina to -5 stamina |
+
+<!-- trait-chart:stamina-efficiency:start -->
+### Growth Chart
+
+![Stamina Efficiency: Base action cost versus Trait Units](../../../.gitbook/assets/trait-charts/stamina-efficiency.svg)
+
+Base cost of an action that normally costs 100 Stamina, before equipped-weight pressure. Lower is better. The backend applies its usual rounding.
+
+The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
+
+[Chart guide and interactive explorer](trait-charts.md).
+<!-- trait-chart:stamina-efficiency:end -->
 
 ### Mastery Start Values
 
@@ -88,6 +100,18 @@ The shared mastery-input rule above applies to Absorption.
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
 | Stamina Potion effect | Adds percentage points to potion effect before the trait curve. | +2% to +3% | +4% to +6% | +7% to +9% | +10% to +12% | +13% to +15% |
 
+<!-- trait-chart:stamina-absorption:start -->
+### Growth Chart
+
+![Stamina Absorption: Potion recovery bonus versus Trait Units](../../../.gitbook/assets/trait-charts/stamina-absorption.svg)
+
+Additional recovery from a Stamina Potion, up to +250%. Potion integration is planned; this plots the RPG formula.
+
+The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
+
+[Chart guide and interactive explorer](trait-charts.md).
+<!-- trait-chart:stamina-absorption:end -->
+
 ### Mastery Start Values
 
 | Mastery | Trait value at start | System value without direct grants |
@@ -123,7 +147,7 @@ Before potion use is activated, the potion system will define base restore value
 
 ## Reserve
 
-**Status:** Formula and state implemented; quest use activates with quests.
+**Status:** Live in character Stamina and supported action costs.
 
 Increases Maximum Stamina, letting a character perform more actions before resting or using future potions.
 
@@ -137,6 +161,18 @@ The shared mastery-input rule above applies to Reserve.
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
 | Flat Maximum Stamina | Adds Maximum Stamina directly. | +100 stamina to +250 stamina | +251 stamina to +500 stamina | +501 stamina to +1,000 stamina | +1,001 stamina to +2,000 stamina | +2,001 stamina to +5,000 stamina |
 | Maximum Stamina percent | Scales the trait-derived stamina pool. | +2% to +3% | +4% to +6% | +7% to +9% | +10% to +12% | +13% to +15% |
+
+<!-- trait-chart:stamina-reserve:start -->
+### Growth Chart
+
+![Stamina Reserve: Maximum Stamina versus Trait Units](../../../.gitbook/assets/trait-charts/stamina-reserve.svg)
+
+Maximum Stamina, including starter reserve and Mastery. The vertical axis is logarithmic. This is capacity, not the current Stamina balance.
+
+The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
+
+[Chart guide and interactive explorer](trait-charts.md).
+<!-- trait-chart:stamina-reserve:end -->
 
 ### Mastery Start Values
 
@@ -171,7 +207,7 @@ Result: `7,391` Maximum Stamina.
 
 ## Recovery
 
-**Status:** Formula and state implemented; quest use activates with quests.
+**Status:** Live in character Stamina and supported action costs.
 
 Increases stamina recovered per minute.
 
@@ -185,6 +221,18 @@ The shared mastery-input rule above applies to Recovery. Because Reserve uses th
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
 | Flat stamina recovery | Adds stamina recovered per minute. | +4 stamina/min to +8 stamina/min | +12 stamina/min to +16 stamina/min | +20 stamina/min to +24 stamina/min | +28 stamina/min to +32 stamina/min | +36 stamina/min to +40 stamina/min |
 | Stamina recovery speed | Scales stamina recovery speed by percent. | +2% to +3% | +4% to +6% | +7% to +9% | +10% to +12% | +13% to +15% |
+
+<!-- trait-chart:stamina-recovery:start -->
+### Growth Chart
+
+![Stamina Recovery: Stamina recovery versus Trait Units](../../../.gitbook/assets/trait-charts/stamina-recovery.svg)
+
+Stamina recovered per minute, including Mastery. The vertical axis is logarithmic. This is a rate, not time to refill a separate Reserve build.
+
+The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
+
+[Chart guide and interactive explorer](trait-charts.md).
+<!-- trait-chart:stamina-recovery:end -->
 
 ### Mastery Start Values
 
@@ -219,7 +267,7 @@ Result: `15.4 stamina/min`.
 
 ## Relief
 
-**Status:** Formula and state implemented; quest use activates with quests.
+**Status:** Live in character Stamina and supported action costs.
 
 Reduces the stamina pressure created by equipped item weight.
 
@@ -232,6 +280,18 @@ The shared mastery-input rule above applies to Relief. Stored item weight and in
 | Direct grant | What one grant changes | E | D | C | B | A |
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
 | Equipment pressure reduction | Reduces raw equipment stamina pressure before the trait reduction. | +2% to +3% | +4% to +6% | +7% to +9% | +10% to +12% | +13% to +15% |
+
+<!-- trait-chart:stamina-relief:start -->
+### Growth Chart
+
+![Stamina Relief: Equipped-weight pressure versus Trait Units](../../../.gitbook/assets/trait-charts/stamina-relief.svg)
+
+Extra action-cost pressure from 10 kg of equipped items. Lower is better; 25% pressure means a 1.25 multiplier on base action cost. Carried inventory is excluded.
+
+The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
+
+[Chart guide and interactive explorer](trait-charts.md).
+<!-- trait-chart:stamina-relief:end -->
 
 ### Mastery Start Values
 

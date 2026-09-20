@@ -62,6 +62,18 @@ final_recovery =
   1 - (1 - trait_recovery) / (1 + recovery_efficiency / 100)
 ```
 
+<!-- trait-chart:crafting-scrapping:start -->
+### Growth Chart
+
+![Crafting Scrapping: Scrapping return versus Trait Units](../../../.gitbook/assets/trait-charts/crafting-scrapping.svg)
+
+Essence returned from a Rare (D) item with 1,000 invested Essence. Includes rarity base, recovered investment and Mastery; excludes Lucky Scrapping.
+
+The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
+
+[Chart guide and interactive explorer](trait-charts.md).
+<!-- trait-chart:crafting-scrapping:end -->
+
 ### Mastery Start Values
 
 | Mastery | Trait value at start | Invested Essence recovered | Guaranteed mastery Essence |
@@ -131,6 +143,18 @@ A successful Lucky Discount is applied afterward. Only the Essence actually paid
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
 | Leveling Efficiency | Divides the remaining level-up cost. | +1 to +2 | +3 to +4 | +5 to +6 | +7 to +8 | +9 to +10 |
 
+<!-- trait-chart:crafting-leveling:start -->
+### Growth Chart
+
+![Crafting Leveling: Base level-up price remaining versus Trait Units](../../../.gitbook/assets/trait-charts/crafting-leveling.svg)
+
+Share of the base level-up price remaining after the trait and Mastery. Lower is better. Actual payment is rounded up and cannot fall below 1 Essence.
+
+The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
+
+[Chart guide and interactive explorer](trait-charts.md).
+<!-- trait-chart:crafting-leveling:end -->
+
 ### Mastery Start Values
 
 | Mastery | Trait value at start | Mastery Efficiency | Ordinary base cost remaining without direct grants |
@@ -178,6 +202,18 @@ Planned cost-efficiency trait for merging simple rarity-based consumables such a
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
 | Merge cost efficiency | Shrinks the reducible part of the merge cost. | +2% to +4% | +5% to +8% | +9% to +12% | +13% to +16% | +17% to +20% |
 
+<!-- trait-chart:crafting-merging:start -->
+### Growth Chart
+
+![Crafting Merging: Base merge price remaining versus Trait Units](../../../.gitbook/assets/trait-charts/crafting-merging.svg)
+
+Share of the base merge price remaining, including Mastery. Lower is better; the curve retains a 25% soft core. Actual payment is rounded up.
+
+The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
+
+[Chart guide and interactive explorer](trait-charts.md).
+<!-- trait-chart:crafting-merging:end -->
+
 ### Mastery Start Values
 
 | Mastery | Trait value at start | Mastery Efficiency | Merge cost remaining without direct grants |
@@ -223,6 +259,18 @@ Planned cost-efficiency trait for raising rarity on level-based items, especiall
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
 | Rarity upgrade efficiency | Shrinks the reducible part of the rarity-upgrade cost. | +3% to +5% | +6% to +10% | +11% to +15% | +16% to +20% | +21% to +25% |
 
+<!-- trait-chart:crafting-rarity:start -->
+### Growth Chart
+
+![Crafting Rarity: Base evolution price remaining versus Trait Units](../../../.gitbook/assets/trait-charts/crafting-rarity.svg)
+
+Share of the base rarity-evolution price remaining, including Mastery. Lower is better; the curve retains a 20% soft core. Actual payment is rounded up.
+
+The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
+
+[Chart guide and interactive explorer](trait-charts.md).
+<!-- trait-chart:crafting-rarity:end -->
+
 ### Mastery Start Values
 
 | Mastery | Trait value at start | Mastery Efficiency | Rarity-upgrade cost remaining without direct grants |
@@ -267,6 +315,18 @@ Planned perk-roll pressure trait for upgrades and new perk rolls.
 | Direct grant | What one grant changes | E | D | C | B | A |
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
 | Perk roll quality pressure | Adds roll pressure before the quality bias curve. | +1 pressure to +2 pressure | +2 pressure to +3 pressure | +3 pressure to +4 pressure | +4 pressure to +5 pressure | +5 pressure to +6 pressure |
+
+<!-- trait-chart:crafting-quality:start -->
+### Growth Chart
+
+![Crafting Quality: Remaining quality gap closed versus Trait Units](../../../.gitbook/assets/trait-charts/crafting-quality.svg)
+
+Minimum share of the remaining quality gap closed by an improvement. This is a roll floor, not the average result or the absolute final quality.
+
+The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
+
+[Chart guide and interactive explorer](trait-charts.md).
+<!-- trait-chart:crafting-quality:end -->
 
 ### Mastery Start Values
 

@@ -8,10 +8,9 @@ Mining controls quest reward strength, Flow behavior, moderation priority, and s
 
 ## Implementation Status
 
-All five Mining traits are fully modelled in the RPG system. Their items and
-grants can exist before the corresponding platform feature is connected.
-Quest reward and moderation integrations will be enabled as those product
-flows are implemented.
+Flow, Focus, Power, and Loot are connected to quest completion rewards. Successful automatic completions settle immediately. Moderated submissions save their Mining Points and shard-roll count when submitted, then receive them if approved.
+
+Priority has an RPG formula and item grants, but the current moderation queue does not use this trait. It does not yet shorten a player's review wait.
 
 ## How To Read These Tables
 
@@ -27,9 +26,9 @@ Rarity letters in grant tables: E = Uncommon, D = Rare, C = Epic, B = Legendary,
 
 ## Priority
 
-**Status:** Modelled. Activates when the moderation flow is connected.
+**Status:** Modelled; not connected to the current moderation queue.
 
-Moves moderation-required quest completions higher in the review queue.
+Intended to move moderation-required quest completions higher in the review queue. The values below describe the model, not the current queue order.
 
 **How it resolves.** Priority adds queue advantage. Inside every mastery band,
 the trait grows continuously by up to 5 minutes. Reaching a new mastery rank
@@ -42,6 +41,18 @@ adds 100 queue points.
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
 | Flat moderation priority | Adds queue priority measured as minutes of waiting advantage. | +2 min | +4 min | +6 min | +8 min | +10 min |
 | Percent moderation priority | Scales the base priority from the trait and mastery rewards. | +2% to +4% | +5% to +8% | +9% to +12% | +13% to +16% | +17% to +20% |
+
+<!-- trait-chart:mining-priority:start -->
+### Growth Chart
+
+![Mining Priority: Queue-time advantage versus Trait Units](../../../.gitbook/assets/trait-charts/mining-priority.svg)
+
+Modelled queue-time advantage. Priority is not connected to the current moderation queue; this curve does not describe an active reduction in waiting time.
+
+The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
+
+[Chart guide and interactive explorer](trait-charts.md).
+<!-- trait-chart:mining-priority:end -->
 
 ### Mastery Start Values
 
@@ -77,17 +88,31 @@ the `+10 min` Mythical flat grant.
 
 ## Flow
 
-**Status:** Modelled. Activates when quest completion rewards are connected.
+**Status:** Live in quest reward calculations.
 
 Increases Mining Point rewards while the player keeps completing quests inside the Focus window.
 
 **How it resolves.** Flow gives at least a 5% active bonus. Every mastery rank adds another `+2 percentage points`, and direct Flow grants add percentage points after mastery. Flow is binary: the full bonus applies while active, but it does not grow with the length of the chain.
+
+A successful automatic completion or a moderated submission starts or refreshes the Focus window. Each reward uses the Flow state before that action. A moderated reward is saved at submission; later approval pays it without restarting Flow.
 
 ### Direct Grant Ranges
 
 | Direct grant | What one grant changes | E | D | C | B | A |
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
 | Flow bonus | Adds percentage points to the active Flow reward bonus. | +2 to +4 pp | +6 to +8 pp | +10 to +12 pp | +14 to +16 pp | +18 to +20 pp |
+
+<!-- trait-chart:mining-flow:start -->
+### Growth Chart
+
+![Mining Flow: Active Flow bonus versus Trait Units](../../../.gitbook/assets/trait-charts/mining-flow.svg)
+
+Mining Points bonus while Flow is active. A 5% bonus means a 1.05 multiplier; the chart does not assume Flow is always active.
+
+The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
+
+[Chart guide and interactive explorer](trait-charts.md).
+<!-- trait-chart:mining-flow:end -->
 
 ### Mastery Start Values
 
@@ -122,9 +147,9 @@ Result: `73%` active Flow bonus, or an active multiplier of `x1.73`.
 
 ## Focus
 
-**Status:** Modelled. Activates when quest completion rewards are connected.
+**Status:** Live in quest reward calculations.
 
-Sets how long Flow stays active after a successful mining action.
+Sets how long Flow stays active after a successful automatic completion or a moderated quest submission.
 
 **How it resolves.** Focus grows inside every mastery range. Trait progress adds up to 10 minutes across the current range, and every achieved mastery rank adds a separate 10-minute reward. Direct Focus grants add minutes after both parts. The final window caps at 720 minutes (12 hours).
 
@@ -133,6 +158,18 @@ Sets how long Flow stays active after a successful mining action.
 | Direct grant | What one grant changes | E | D | C | B | A |
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
 | Flow window | Adds minutes to the active Flow window. | +5 min to +10 min | +11 min to +20 min | +21 min to +30 min | +31 min to +40 min | +41 min to +50 min |
+
+<!-- trait-chart:mining-focus:start -->
+### Growth Chart
+
+![Mining Focus: Flow window versus Trait Units](../../../.gitbook/assets/trait-charts/mining-focus.svg)
+
+Time window for keeping Flow active. Includes the starter window and Mastery. The final window cannot exceed 720 minutes.
+
+The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
+
+[Chart guide and interactive explorer](trait-charts.md).
+<!-- trait-chart:mining-focus:end -->
 
 ### Mastery Start Values
 
@@ -169,7 +206,7 @@ Result: `130 min` Flow window.
 
 ## Power
 
-**Status:** Modelled. Activates when quest completion rewards are connected.
+**Status:** Live in quest reward calculations.
 
 Increases Mining Power, so the same completed quests earn more Mining Points.
 
@@ -184,6 +221,18 @@ Bounty. Active Flow and Mining Boost multiply that base result separately.
 | Direct grant | What one grant changes | E | D | C | B | A |
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
 | Mining Power | Increases the combined trait and mastery Mining Power by percent. | +3% to +5% | +6% to +10% | +11% to +15% | +16% to +20% | +21% to +25% |
+
+<!-- trait-chart:mining-power:start -->
+### Growth Chart
+
+![Mining Power: Mining reward bonus versus Trait Units](../../../.gitbook/assets/trait-charts/mining-power.svg)
+
+Mining reward bonus, including Mastery. Zero bonus means a 1.00 multiplier. The direct grant scales the bonus rather than adding percentage points.
+
+The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
+
+[Chart guide and interactive explorer](trait-charts.md).
+<!-- trait-chart:mining-power:end -->
 
 ### Mastery Start Values
 
@@ -218,7 +267,7 @@ Result: `66%` Mining Power.
 
 ## Loot
 
-**Status:** Modelled. Activates when quest completion shard rewards are connected.
+**Status:** Live. Determines Chest Shard rolls for successful quest completions.
 
 Controls how often quest rewards produce Chest Shard rolls.
 
@@ -231,6 +280,18 @@ Controls how often quest rewards produce Chest Shard rolls.
 | Direct grant | What one grant changes | E | D | C | B | A |
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
 | Shard roll chance | Adds percentage points to the shard-roll rate. | +5 to +10 pp | +11 to +20 pp | +21 to +30 pp | +31 to +40 pp | +41 to +50 pp |
+
+<!-- trait-chart:mining-loot:start -->
+### Growth Chart
+
+![Mining Loot: Expected shard rolls versus Trait Units](../../../.gitbook/assets/trait-charts/mining-loot.svg)
+
+Expected Chest Shard rolls per eligible completion. For example, 1.25 means one guaranteed roll and a 25% chance of another roll.
+
+The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
+
+[Chart guide and interactive explorer](trait-charts.md).
+<!-- trait-chart:mining-loot:end -->
 
 ### Mastery Start Values
 

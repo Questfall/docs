@@ -10,20 +10,24 @@ This creates a new authoring paradigm that coexists with the traditional one - w
 
 In Questfall, authors can create quests with any tasks that do not break the rules, but the system must ensure that users have actually performed the required quest actions to keep mining fair. Therefore, there are several predefined types of quests, each with its own way of completion that ensures the system can properly validate them.
 
-{% hint style="info" %}
-New quest types will be implemented as Questfall evolves.
-{% endhint %}
+## Available Quest Types
 
-The first group of quests have the same correct answers for everyone and can therefore be validated instantly by the system without community moderation. Validating the completion of these quests is inexpensive in terms of system load, so the system allows multiple attempts to complete them.
+The author editor offers four types:
 
-* **Text** - a user must enter text that is evaluated against one or more predefined correct answers.
-* **Quiz** - a user has to choose between several options, one of which is secretly the correct one.
-* **Survey** - a user must select one of the options, each of which is considered correct.
+| Type | What the participant submits | How it is checked |
+| --- | --- | --- |
+| **Question** | A short text answer. | Automatically compared with the author's accepted answers. |
+| **Quiz** | One option from a list. | Automatically compared with the correct option. |
+| **Survey** | One option from a list. | Every valid option is accepted. |
+| **Action** | Screenshots, an individual result link, or confirmation only, as chosen by the author. | [Community moderation](../moderation/) checks the result against the requirements and Moderator guide. |
 
-The second group requires [community moderation](../moderation/) for each completion and therefore only allows one attempt to complete the quest, as such an approach places a heavy load on the system in terms of moderator work.
+Question and Quiz allow up to five attempts per publication. The reward multiplier is 100%, 80%, 60%, 40%, then 20%; a wrong answer earns no completion reward. Survey accepts a valid choice at the full multiplier. These automatic answer submissions do not currently spend Stamina.
 
-* **Action** - a user must perform an action on a third-party platform and provide a link and screenshot for moderation.
-* **Transaction** - a user must provide a link and screenshot of a specific transaction in the given blockchain.
+[Action quests](action-quests.md) allow one moderated attempt per participant per publication and spend Stamina when submitted. The screenshot option requires exactly 1, 2, or 3 images in the current editor. An individual link requires no screenshot, and confirmation only requires neither files nor a participant link.
+
+Screenshot is now an option inside Action, rather than a separate type for new quests. Existing publications keep their saved conditions. The separate Transaction type is not available for creation or completion; a verifiable wallet-related task can use Action with wallet identification.
+
+## Attracting Participants
 
 The number of users who complete a quest is directly affected by its position in the [Quest Feed](../../overview/global-feed.md), which is ordered by the quest's reward. In other words, to make a popular quest, an author should set a relatively high [Quest Bounty](quest-bounty.md).
 
@@ -31,14 +35,14 @@ The number of users who complete a quest is directly affected by its position in
 Of course, the reward is not the only factor people rely on when choosing a quest to complete - a high Bounty just ensures that people will notice the quest.
 {% endhint %}
 
-As a result, authors compete with each other for users' attention through the Quest Bounty, which can only be set by burning [Silver](../../assets/silver.md). To provide room for author competition while keeping the Bounty capped, the Silver price of each Bounty point increases exponentially.
+Authors compete for attention through Quest Bounty. During early access, Bounty 1 publication is free under the launch subsidy. Higher Bounties require [Silver](../../assets/silver.md), with prices increasing as the Bounty rises. See [Quest Bounty](quest-bounty.md) for duration, Karma discounts, extensions, and refunds.
 
 Since Silver can be earned by participating in community moderation, authors are not forced to spend money to promote their quests.&#x20;
 
 {% hint style="info" %}
-To support talented and dedicated creators who create quests that the community values, they will receive up to a 90% discount, depending on their [Karma](karma.md), when paying for the Quest Bounty.
+Creators receive up to a 90% discount, depending on their [Karma](karma.md), when paying for Quest Bounty.
 {% endhint %}
 
-Therefore, in order to make a quest popular, which will allow project teams to attract new users or creators to earn, authors should burn Silver, which can only be acquired through QFT burning or through proper moderation, both of which add value to the community.
+Authors can start with a free Bounty 1 publication, then spend Silver to compete for more visibility. Silver can be earned through community moderation or acquired through the supported Gold and QFT conversion flows.
 
 In addition, to be successful in the long run, an author should create quests that are highly rated by the community, thus earning Karma, which gives a huge boost to the promotion of subsequent quests.
