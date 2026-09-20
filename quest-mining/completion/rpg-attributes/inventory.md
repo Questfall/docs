@@ -47,8 +47,6 @@ Makes carried items count as lighter while they are in inventory. It does not re
 Counted weight of one 20 kg carried item, after Mastery. The item is not exempted. Lower is better; this does not change equipped weight.
 
 The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
-
-[Chart guide and interactive explorer](trait-charts.md).
 <!-- trait-chart:inventory-levitation:end -->
 
 ### Mastery Start Values
@@ -109,8 +107,6 @@ Reduces the Essence cost of equipping clothing. Unequipping is free. Replacing c
 Calculated equip cost of one Mythical (A), level 1,000 item. Minimum 1 Essence. Charging is intentionally deferred; this is the modelled price.
 
 The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
-
-[Chart guide and interactive explorer](trait-charts.md).
 <!-- trait-chart:inventory-equipping:end -->
 
 ### Mastery Start Values
@@ -169,8 +165,6 @@ Lets a character use more of a high-level item before fully matching the item le
 Level Fit for a level 10 character wearing a level 100 item. Higher is better; 100% means full item effect. Weight is not scaled by Level Fit.
 
 The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
-
-[Chart guide and interactive explorer](trait-charts.md).
 <!-- trait-chart:inventory-overlevel:end -->
 
 ### Mastery Start Values
@@ -233,8 +227,6 @@ Overload is calculated and displayed, but it does not block inventory or craftin
 Total inventory weight capacity, including Mastery. The vertical axis is logarithmic. Capacity does not imply that overload enforcement is active.
 
 The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
-
-[Chart guide and interactive explorer](trait-charts.md).
 <!-- trait-chart:inventory-capacity:end -->
 
 ### Mastery Start Values
@@ -290,8 +282,6 @@ Ignores the heaviest carried items before inventory weight is counted.
 Number of heaviest carried items excluded from inventory weight. Exemption grows in whole slots at Mastery thresholds.
 
 The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
-
-[Chart guide and interactive explorer](trait-charts.md).
 <!-- trait-chart:inventory-exemption:end -->
 
 ### Mastery Start Values

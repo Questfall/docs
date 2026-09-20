@@ -44,8 +44,6 @@ Reduces the marketplace commission paid by the seller when an item sells.
 Seller commission before Lucky Discount. Lower is better; the curve retains a 3% soft core. The final Gold fee is rounded down.
 
 The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
-
-[Chart guide and interactive explorer](trait-charts.md).
 <!-- trait-chart:trading-fee:end -->
 
 ### Mastery Start Values
@@ -103,8 +101,6 @@ Planned auction trait that makes the same Gold bid compete as a stronger offer.
 Effective sorting price as a share of the actual Gold bid. Lower is better; settlement still uses the actual bid. Auction surface is planned.
 
 The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
-
-[Chart guide and interactive explorer](trait-charts.md).
 <!-- trait-chart:trading-bid:end -->
 
 ### Mastery Start Values
@@ -160,8 +156,6 @@ Planned Gem Points efficiency trait for liquidity positioning.
 Effective LP requirement as a share of the base requirement. Lower is better. The Gem Points surface is planned; this does not increase direct QFT rewards.
 
 The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
-
-[Chart guide and interactive explorer](trait-charts.md).
 <!-- trait-chart:trading-liquidity:end -->
 
 ### Mastery Start Values
@@ -218,8 +212,6 @@ Improves how much Silver a player receives for each Gold converted.
 Silver received per Gold burned. Mastery and flat grants are added after the pressure curve, so 30 is not a final cap. Actual Silver payout is rounded down.
 
 The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
-
-[Chart guide and interactive explorer](trait-charts.md).
 <!-- trait-chart:trading-conversion:end -->
 
 ### Mastery Start Values
@@ -276,8 +268,6 @@ Increases how many active marketplace listings a player can keep.
 Maximum active marketplace listings. Percent grants scale only the trait base; Mastery and flat grants are added separately.
 
 The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
-
-[Chart guide and interactive explorer](trait-charts.md).
 <!-- trait-chart:trading-slots:end -->
 
 ### Mastery Start Values

@@ -50,8 +50,6 @@ adds 100 queue points.
 Modelled queue-time advantage. Priority is not connected to the current moderation queue; this curve does not describe an active reduction in waiting time.
 
 The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
-
-[Chart guide and interactive explorer](trait-charts.md).
 <!-- trait-chart:mining-priority:end -->
 
 ### Mastery Start Values
@@ -110,8 +108,6 @@ A successful automatic completion or a moderated submission starts or refreshes 
 Mining Points bonus while Flow is active. A 5% bonus means a 1.05 multiplier; the chart does not assume Flow is always active.
 
 The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
-
-[Chart guide and interactive explorer](trait-charts.md).
 <!-- trait-chart:mining-flow:end -->
 
 ### Mastery Start Values
@@ -167,8 +163,6 @@ Sets how long Flow stays active after a successful automatic completion or a mod
 Time window for keeping Flow active. Includes the starter window and Mastery. The final window cannot exceed 720 minutes.
 
 The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
-
-[Chart guide and interactive explorer](trait-charts.md).
 <!-- trait-chart:mining-focus:end -->
 
 ### Mastery Start Values
@@ -230,8 +224,6 @@ Bounty. Active Flow and Mining Boost multiply that base result separately.
 Mining reward bonus, including Mastery. Zero bonus means a 1.00 multiplier. The direct grant scales the bonus rather than adding percentage points.
 
 The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
-
-[Chart guide and interactive explorer](trait-charts.md).
 <!-- trait-chart:mining-power:end -->
 
 ### Mastery Start Values
@@ -289,8 +281,6 @@ Controls how often quest rewards produce Chest Shard rolls.
 Expected Chest Shard rolls per eligible completion. For example, 1.25 means one guaranteed roll and a 25% chance of another roll.
 
 The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
-
-[Chart guide and interactive explorer](trait-charts.md).
 <!-- trait-chart:mining-loot:end -->
 
 ### Mastery Start Values

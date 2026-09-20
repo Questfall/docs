@@ -44,8 +44,6 @@ Makes missing shard pieces more likely when shard rewards are rolled.
 Weight of each missing shard relative to each owned shard. The vertical axis is logarithmic. This is not a drop probability; probability also depends on the shard pool.
 
 The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
-
-[Chart guide and interactive explorer](trait-charts.md).
 <!-- trait-chart:luck-shards:end -->
 
 ### Mastery Start Values
@@ -101,8 +99,6 @@ Adds a chance to receive one extra higher-rarity lootbox when opening a Common L
 Chance to receive one extra higher-rarity lootbox from a Common Lootbox opening, including Mastery. This is not an upgrade to the opened box. The final chance is capped at 30%.
 
 The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
-
-[Chart guide and interactive explorer](trait-charts.md).
 <!-- trait-chart:luck-boxes:end -->
 
 ### Mastery Start Values
@@ -158,8 +154,6 @@ Controls how often Luck activates on actions that support lucky effects.
 Chance of a Lucky proc. Mastery and grants scale chance weight, not percentage points; the result approaches 50%.
 
 The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
-
-[Chart guide and interactive explorer](trait-charts.md).
 <!-- trait-chart:luck-chance:end -->
 
 ### Mastery Start Values
@@ -216,8 +210,6 @@ Controls how strong lucky outcomes are after Luck activates.
 Effects conditional on a Lucky proc, not expected value per action. Reward power and discount rate are separate outputs. Lucky Scrapping applies reward power only to unrecovered investment.
 
 The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
-
-[Chart guide and interactive explorer](trait-charts.md).
 <!-- trait-chart:luck-bonus:end -->
 
 ### Mastery Start Values
@@ -275,8 +267,6 @@ The final expected number is split into guaranteed turns and one possible extra 
 Expected turns in a Common Lootbox, including its starter turn. A value of 4.73 means four guaranteed turns and a 73% chance of one more turn.
 
 The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
-
-[Chart guide and interactive explorer](trait-charts.md).
 <!-- trait-chart:luck-cards:end -->
 
 ### Mastery Start Values

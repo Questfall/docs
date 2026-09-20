@@ -70,8 +70,6 @@ final_recovery =
 Essence returned from a Rare (D) item with 1,000 invested Essence. Includes rarity base, recovered investment and Mastery; excludes Lucky Scrapping.
 
 The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
-
-[Chart guide and interactive explorer](trait-charts.md).
 <!-- trait-chart:crafting-scrapping:end -->
 
 ### Mastery Start Values
@@ -151,8 +149,6 @@ A successful Lucky Discount is applied afterward. Only the Essence actually paid
 Share of the base level-up price remaining after the trait and Mastery. Lower is better. Actual payment is rounded up and cannot fall below 1 Essence.
 
 The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
-
-[Chart guide and interactive explorer](trait-charts.md).
 <!-- trait-chart:crafting-leveling:end -->
 
 ### Mastery Start Values
@@ -210,8 +206,6 @@ Planned cost-efficiency trait for merging simple rarity-based consumables such a
 Share of the base merge price remaining, including Mastery. Lower is better; the curve retains a 25% soft core. Actual payment is rounded up.
 
 The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
-
-[Chart guide and interactive explorer](trait-charts.md).
 <!-- trait-chart:crafting-merging:end -->
 
 ### Mastery Start Values
@@ -267,8 +261,6 @@ Planned cost-efficiency trait for raising rarity on level-based items, especiall
 Share of the base rarity-evolution price remaining, including Mastery. Lower is better; the curve retains a 20% soft core. Actual payment is rounded up.
 
 The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
-
-[Chart guide and interactive explorer](trait-charts.md).
 <!-- trait-chart:crafting-rarity:end -->
 
 ### Mastery Start Values
@@ -324,8 +316,6 @@ Planned perk-roll pressure trait for upgrades and new perk rolls.
 Minimum share of the remaining quality gap closed by an improvement. This is a roll floor, not the average result or the absolute final quality.
 
 The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
-
-[Chart guide and interactive explorer](trait-charts.md).
 <!-- trait-chart:crafting-quality:end -->
 
 ### Mastery Start Values

@@ -49,8 +49,6 @@ The shared mastery-input rule above applies to Efficiency.
 Base cost of an action that normally costs 100 Stamina, before equipped-weight pressure. Lower is better. The backend applies its usual rounding.
 
 The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
-
-[Chart guide and interactive explorer](trait-charts.md).
 <!-- trait-chart:stamina-efficiency:end -->
 
 ### Mastery Start Values
@@ -108,8 +106,6 @@ The shared mastery-input rule above applies to Absorption.
 Additional recovery from a Stamina Potion, up to +250%. Potion integration is planned; this plots the RPG formula.
 
 The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
-
-[Chart guide and interactive explorer](trait-charts.md).
 <!-- trait-chart:stamina-absorption:end -->
 
 ### Mastery Start Values
@@ -170,8 +166,6 @@ The shared mastery-input rule above applies to Reserve.
 Maximum Stamina, including starter reserve and Mastery. The vertical axis is logarithmic. This is capacity, not the current Stamina balance.
 
 The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
-
-[Chart guide and interactive explorer](trait-charts.md).
 <!-- trait-chart:stamina-reserve:end -->
 
 ### Mastery Start Values
@@ -230,8 +224,6 @@ The shared mastery-input rule above applies to Recovery. Because Reserve uses th
 Stamina recovered per minute, including Mastery. The vertical axis is logarithmic. This is a rate, not time to refill a separate Reserve build.
 
 The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
-
-[Chart guide and interactive explorer](trait-charts.md).
 <!-- trait-chart:stamina-recovery:end -->
 
 ### Mastery Start Values
@@ -289,8 +281,6 @@ The shared mastery-input rule above applies to Relief. Stored item weight and in
 Extra action-cost pressure from 10 kg of equipped items. Lower is better; 25% pressure means a 1.25 multiplier on base action cost. Carried inventory is excluded.
 
 The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
-
-[Chart guide and interactive explorer](trait-charts.md).
 <!-- trait-chart:stamina-relief:end -->
 
 ### Mastery Start Values

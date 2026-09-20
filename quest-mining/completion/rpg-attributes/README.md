@@ -17,9 +17,15 @@ Characters start at level `1` with one point in each attribute. Every new level 
 | [Stamina](stamina.md) | Perform more actions and handle heavier equipment. | Efficiency, Absorption, Reserve, Recovery, Relief |
 | [Luck](luck.md) | Improve random outcomes and lucky bonuses. | Shards, Boxes, Chance, Bonus, Cards |
 
-## Mastery Ranks
+## Reading The Charts
 
-See [Trait Charts](trait-charts.md) for generated growth curves for all 30 traits and an offline interactive explorer. Each attribute page also includes the saved charts beside its explanations and tables.
+Each trait has a growth chart directly beside its explanation and tables on the attribute page. The charts use the backend formulas and include Mastery effects.
+
+**Trait Units (TU)** are the trait's final value after character and equipment effects, not character levels or spent attribute points. The horizontal axis is logarithmic: equal distances represent equal multiplication of TU. Zero-value effects appear in the Mastery tables. The upper plotted value is a viewing limit, not a gameplay cap.
+
+The blue curve has no direct grants. Each additional curve adds one maximum Mythical (A) direct grant independently; the curves are not a combined equipment build. Each chart states its units and any fixed example inputs. Capacity, Reserve, Recovery, and Shards also use a logarithmic vertical axis. A formula can be charted before its feature launches; check the trait's status on the same page.
+
+## Mastery Ranks
 
 Each trait has its own mastery rank. The rank is calculated from that trait's final value after character points, Aspect, attribute grants, terminal perks, and booster effects. A booster can therefore help a terminal perk cross a mastery threshold. Direct grants do not add trait value and cannot unlock mastery.
 
