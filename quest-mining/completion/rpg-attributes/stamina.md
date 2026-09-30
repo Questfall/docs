@@ -4,11 +4,11 @@ icon: bolt
 
 # Stamina
 
-Stamina controls action cost, maximum stamina, recovery, equipment pressure, and planned potion absorption.
+Stamina controls action cost, maximum stamina, recovery, equipment pressure, and potion absorption.
 
 ## Implementation Status
 
-Efficiency, Reserve, Recovery, and Relief are live. Moderated quest submissions and reports spend Stamina; the base cost of 1 is adjusted by Efficiency, Relief, and equipment weight. Automatic Question, Quiz, and Survey answer submissions do not currently spend Stamina. The character state applies the current maximum and recovery rules. Absorption remains planned until potion consumption is available.
+The local implementation includes the complete potion cycle. Valid automatic answers and Action quest submissions spend Stamina with base cost 32, adjusted by Efficiency, Relief and equipment weight. Wrong answers also spend it; invalid requests and idempotent retries do not. Reports and moderation actions retain their separate base cost of 1. Absorption increases Stamina Potion restoration. Production availability follows the application/backend release.
 
 ## How To Read These Tables
 
@@ -103,7 +103,7 @@ The shared mastery-input rule above applies to Absorption.
 
 ![Stamina Absorption: Potion recovery bonus versus Trait Units](../../../.gitbook/assets/trait-charts/stamina-absorption.svg)
 
-Additional recovery from a Stamina Potion, up to +250%. Potion integration is planned; this plots the RPG formula.
+Additional recovery from a Stamina Potion, up to +250%. The local potion implementation uses this formula; production availability follows its release.
 
 The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
 <!-- trait-chart:stamina-absorption:end -->
@@ -127,25 +127,25 @@ The blue curve includes Mastery and no direct grants. Each additional grant curv
 
 ### Examples
 
-**Example 1.** Future potion with `100` base effect, Specialist Absorption, no direct grant
+**Example 1.** Potion with `100` base effect, Specialist Absorption, no direct grant
 
 Calculation: `20 pp mastery seed` becomes a `+110%` bonus through the trait curve; `100 x (1 + 110%)`.
 
 Result: `210` effective potion value.
 
-**Example 2.** Future potion with `100` base effect, Specialist Absorption, one A grant `+15 pp`
+**Example 2.** Potion with `100` base effect, Specialist Absorption, one A grant `+15 pp`
 
 Calculation: `20 pp mastery + 15 pp grant` becomes a `+119.13%` bonus through the trait curve; `100 x (1 + 119.13%)`.
 
 Result: `219.13` effective potion value.
 
-Before potion use is activated, the potion system will define base restore values and any practical overflow limit. The Absorption formula itself is already fixed.
+[Potions](../rpg-items/potions.md) define restoration by rarity. There is no additional overflow cap; existing decay applies.
 
 ## Reserve
 
 **Status:** Live in character Stamina and supported action costs.
 
-Increases Maximum Stamina, letting a character perform more actions before resting or using future potions.
+Increases Maximum Stamina, letting a character perform more actions before resting or using potions.
 
 **How it resolves.** The Reserve trait creates the base stamina pool. Every reached Reserve mastery rank adds `2 pp` Maximum Stamina. This mastery reward and direct percentage grants add together before scaling the base pool; flat grants add stamina on top.
 

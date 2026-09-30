@@ -6,19 +6,24 @@ icon: box-open-full
 
 RPG items are the tradeable power layer of Questfall. They make character builds personal: one item can be ordinary for one player and extremely valuable for another because of its slot, Aspect, perks, set, origin, level, and rarity.
 
-## Live Status
+## Release Status
+
+The consumable actions below are prepared locally for the next production release.
+The [dated settings snapshot](../../../assets/economy-settings.md) records the
+prices and recipes; availability follows the application/backend release.
 
 | Item type | Status | Current role |
 | --- | --- | --- |
 | [Clothing](items.md) | Live | Drops from lootboxes, can be equipped, sold, scrapped, and levelled up. |
-| [Potions](potions.md) | Planned | Future consumable item type. |
-| [Gems](gems.md) | Planned | Future item type for rarity evolution and liquidity-linked economy. |
+| [Potions](potions.md) | Included in the next release | Common-box drops, Stamina recovery, merging and Gold trading. |
+| [Gems](gems.md) | Included in the next release | Weekly Gold-buyer rewards, merging, clothing evolution, permanent Perfect status and Gold trading. |
+| [Dice](dice.md) | Included in the next release | Scrapping rewards, perk rerolls, merging and Gold trading. |
 
-Clothing is the active RPG item loop right now.
+Clothing is equipped. Consumables stay in inventory and are spent on their own actions.
 
 ## Rarity
 
-Every RPG item concept uses six rarity tiers:
+Clothing, Potions and Gems use six rarity tiers. Dice start at Uncommon (E):
 
 | Rarity | Letter | Item value | Clothing perk slots |
 | --- | --- | ---: | ---: |
@@ -29,7 +34,9 @@ Every RPG item concept uses six rarity tiers:
 | Legendary | B | `5` | `4` |
 | Mythical | A | `6` | `5` |
 
-Lootbox rarity is a floor. A Rare Lootbox creates a Rare or better item; a Common Lootbox creates a Common or better item. Each rarity above the floor is much rarer than the previous one.
+Lootbox rarity is a clothing floor. A Rare Lootbox creates Rare or better clothing.
+A won Common-box item card rolls clothing or a Potion using the configured drop
+policy. Gems and Dice do not drop from lootboxes.
 
 ## What Makes An Item Valuable
 
@@ -49,14 +56,19 @@ This is why the marketplace is not only about rarity. A lower-rarity item with t
 
 ## Item Actions
 
-Live clothing actions:
+Clothing actions in the prepared release:
 
 | Action | Meaning |
 | --- | --- |
 | Equip | Put the item into its clothing slot and apply its effects. |
 | Unequip | Move equipped clothing back to inventory. |
 | Sell | List the item on the marketplace. |
-| Scrap | Destroy the item for Essence. |
+| Scrap | Destroy the item for Essence; E–A clothing also grants matching Dice. |
 | Level up | Spend Essence to increase item level by one. |
+| Evolve | Consume a matching Gem and Essence to raise clothing rarity. |
+| Max Out | Consume a Mythical Gem and Essence to make the whole item permanently Perfect. |
+| Reroll | Consume matching Dice and Essence to replace one perk. |
 
-Future item actions such as consumable use, consumable merging, and rarity evolution are not part of the current live item loop yet.
+Potions restore Stamina. Potions, Gems and Dice merge into the next rarity using
+their separate recipes. The common Consumables category keeps stacks separate
+by kind and rarity; all three types can trade for Gold.

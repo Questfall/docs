@@ -4,7 +4,7 @@ icon: shirt
 
 # Clothing
 
-Clothing is the live RPG item type in Questfall. It drops from lootboxes, can be equipped by the character, can be traded on the marketplace, can be scrapped for Essence, and can be levelled up with Essence.
+Clothing is the live RPG item type in Questfall. It drops from lootboxes, can be equipped by the character, can be traded on the marketplace, can be scrapped for Essence and Dice, can be levelled up with Essence, and can have one selected perk replaced with a matching Dice and an Essence fee.
 
 ## Why Clothing Matters
 
@@ -32,6 +32,15 @@ Each clothing item belongs to one equipment slot:
 | Legs | pants, trousers, leggings, chaps | Medium |
 | Feet | boots, shoes, sandals, sabatons | Very heavy |
 | Outer | cape, coat, mantle, shawl | Heavy |
+
+For each clothing drop, rarity is rolled first. Each of the six equipment slots
+then has an equal **1/6 chance**, independently of how many artwork bundles exist
+for that slot. One complete published bundle is chosen uniformly within the slot;
+it supplies the clothing type, set and image for the rolled rarity.
+
+Adding artwork changes the choices within its slot, not the frequency of the slot
+itself. Clothing types have no separate probability weights. Unpublished drafts
+do not participate, and replacing an existing image does not change drop chances.
 
 Weight matters in two different places:
 

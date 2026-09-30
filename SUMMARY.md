@@ -32,6 +32,7 @@
     * [Clothing](quest-mining/completion/rpg-items/items.md)
     * [Potions](quest-mining/completion/rpg-items/potions.md)
     * [Gems](quest-mining/completion/rpg-items/gems.md)
+    * [Dice](quest-mining/completion/rpg-items/dice.md)
   * [Levels](quest-mining/completion/levels.md)
   * [Leagues](quest-mining/completion/leagues.md)
   * [Rewards](quest-mining/completion/rewards.md)
@@ -54,12 +55,15 @@
 * [Referral Program (5%)](infrastructure/referral-program.md)
 * [Liquidity Program (5%)](infrastructure/liquidity-program.md)
 * [QFT Freezing (5%)](infrastructure/qft-freezing.md)
+* [Gold Freezing](infrastructure/gold-freezing.md)
 * [Project Expenses (5%)](infrastructure/project-expenses.md)
 * [Gold Withdrawals (5%)](<infrastructure/gold withdrawals.md>)
 * [Founders' Revenue (10%)](infrastructure/founders-revenue.md)
 
 ## Assets
 
+* [Unified Reward Budget](assets/reward-budget.md)
+* [Economy Settings](assets/economy-settings.md)
 * [Questfall Tokens (QFT)](assets/qft.md)
 * [Founder NFTs](assets/founder-nfts.md)
 * [Gold (in-game)](assets/gold.md)
@@ -67,6 +71,7 @@
 
 ## Roadmap
 
+* [Economy Before QFT](roadmap/pre-qft-economy.md)
 * [Detailed Project Description](roadmap/project-overview.md)
 * [Initial Funding Events](roadmap/initial-funding-events.md)
 * [Questfall v1.0](roadmap/platform-v1.0-and-beyond.md)

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" class="trait-chart" role="img" aria-labelledby="inventory-equipping-title inventory-equipping-desc" width="920" height="439" viewBox="0 0 920 439">
 <title id="inventory-equipping-title">Inventory / Equipping</title>
-<desc id="inventory-equipping-desc">Calculated equip cost of one Mythical (A), level 1,000 item. Minimum 1 Essence. Charging is intentionally deferred; this is the modelled price. Trait values use a logarithmic horizontal axis. Mastery is included in the no-direct-grants series. Each grant series adds only its named grant.</desc>
+<desc id="inventory-equipping-desc">Equip cost of one Mythical (A), level 1,000 item in League II or above. Minimum 1 Essence. Equipping in the Hall and League I is always free. Trait values use a logarithmic horizontal axis. Mastery is included in the no-direct-grants series. Each grant series adds only its named grant.</desc>
 <style>
   .trait-chart { --paper: #fff; --ink: #202731; --muted: #68707e; --grid: #e5e8ed; background: var(--paper); color: var(--ink); font-family: system-ui, -apple-system, sans-serif; }
   .trait-chart text { fill: var(--ink); font-size: 12px; }

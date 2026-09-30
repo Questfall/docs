@@ -6,11 +6,16 @@ icon: calendar-clock
 
 While the concept of mining is fair enough, new users will find themselves in a weak position as Questfall becomes more popular, because dedicated veterans will have a huge advantage over newcomers, either through [user level](completion/levels.md) or [author karma](creation/karma.md).
 
-In order to allow new users to compete with existing veterans on an equal footing, Questfall implements seasons, each of which lasts twelve weeks, or an average of three months. During the season, 14% of each weekly issue of QFT goes into the seasonal reward pool.
+Seasons follow UTC calendar quarters: January–March, April–June, July–September
+and October–December. Their target QFT weight is 14%, divided into 11.2 for miners
+and 2.8 for authors. While five Gold programs are active, those amounts are
+normalized against the active weight total of 69.
 
-{% hint style="info" %}
-Approximately 168% of the average weekly issue is collected this way over the course of a season.
-{% endhint %}
+Each week's seasonal contributions are added exactly once at its opening to the
+quarter containing Monday 00:00 UTC. A week crossing the quarter boundary belongs
+to that Monday's quarter. The existing season's promised pool is retained as an
+initial balance; subsequent contributions accumulate on top. An unallocated
+seasonal amount carries within its own program. See [Unified Reward Budget](../assets/reward-budget.md).
 
 At the end of each season, the accumulated reward pool is divided between the users who complete quests and the authors who create them. The split between users and authors is the same as the weekly rewards: 80% goes to users and 20% goes to authors.&#x20;
 

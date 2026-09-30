@@ -17,19 +17,27 @@ complete quests
 -> improve future questing, crafting, trading, stamina, and luck outcomes
 ```
 
-## Current Implementation Status
+## Current Implementation And Prepared Release
+
+The next production release adds consumable actions and their connected traits.
+The [RPG Items](../quest-mining/completion/rpg-items/README.md) page and
+[dated settings snapshot](../assets/economy-settings.md) describe that prepared
+update; production availability follows the application/backend release.
 
 | Area | Current status |
 | --- | --- |
 | Character attributes | Live. Players level up and spend attribute points across six attributes. |
-| Clothing and equipment | Live. Lootboxes create clothing that can be equipped, unequipped, sold, scrapped, and levelled up. Equipping cost is calculated but not charged yet. |
+| Clothing and equipment | Live. Lootboxes create clothing that can be equipped, unequipped, sold, scrapped, and levelled up. Equipping is free in the Hall and League I, and costs Essence from the current open League II onward. |
 | Marketplace | Live. Items can be listed, sold, and claimed. Trading Fee, Conversion, and Slots are connected. |
-| Crafting | Scrapping and clothing Leveling are live. Merging, Rarity, and Quality are modelled for future product flows. |
-| Mining rewards | Live. Power, Flow, Focus, and Loot affect quest rewards; full Chest Shard sets award Common Lootboxes. Priority is modelled but not connected to the moderation queue. |
-| Stamina | Live. Moderated submissions and reports spend Stamina using Efficiency and equipment pressure; Reserve and Recovery affect the character state. Automatic answer submissions do not spend Stamina. Potions and Absorption remain planned. |
+| Crafting | Scrapping and clothing Leveling are live. The prepared release adds Potion/Gem/Dice merging, Gem evolution, permanent Perfect clothing and Dice rerolls, connecting Merging, Rarity and Quality. |
+| Mining rewards | Live. Power, Flow, Focus, and Loot affect quest rewards; full Chest Shard sets award Common Lootboxes. Priority gives completion submissions a snapshotted queue advantage while preserving system review precedence. |
+| Stamina | Efficiency, Reserve, Recovery and Relief affect character state and spending. In the prepared release, valid automatic answers and Action submissions spend a base 32 Stamina adjusted by Efficiency, Relief and equipment weight; wrong answers also spend it. Invalid requests and idempotent retries do not. Reports and moderation retain a base cost of 1. Potions restore Stamina using Absorption. |
 | Luck | Common Lootbox Cards and Boxes are live. Chance and Bonus support current lucky actions. Shards affects quest-completion shard selection. |
 
-Some model surfaces are intentionally present before their public feature is launched. For example, Potions, Gems, item rarity evolution, Gold auctions, and liquidity-program rewards belong to the broader RPG economy, but they should be treated as planned systems unless their own product surface is live.
+Some model surfaces are intentionally present before their public feature is
+launched. Potions, Gems, Dice and clothing evolution belong to the prepared
+release. Gold bid auctions and on-chain liquidity contributions remain planned;
+their growth charts do not imply that those actions are available.
 
 ## Character Power
 
@@ -48,7 +56,9 @@ Characters start with one point in every attribute. Each new character level giv
 
 ## Item Power
 
-Clothing is the live tradeable item type. A clothing item can matter because of:
+Clothing is equipped to improve the character. Potions, Gems and Dice are
+tradeable consumables in the prepared release. A clothing item can matter
+because of:
 
 * **Rarity.** Higher rarity gives more perk slots and stronger growth.
 * **Level.** Higher level gives more Aspect and stronger terminal perk value, but also more weight.

@@ -1,0 +1,276 @@
+{
+  "captured_at": "2026-09-30T12:57:54.741Z",
+  "schema": 1,
+  "source": "local release preparation",
+  "values": {
+    "budget": {
+      "current": null,
+      "selected": {
+        "allocations": [
+          {
+            "amount": 74595,
+            "id": "mining_week",
+            "label": "Weekly miners",
+            "share": 0.5405405405405406,
+            "weight": 400
+          },
+          {
+            "amount": 18649,
+            "id": "author_week",
+            "label": "Weekly authors",
+            "share": 0.13513513513513514,
+            "weight": 100
+          },
+          {
+            "amount": 20886,
+            "id": "mining_season",
+            "label": "Seasonal miners",
+            "share": 0.15135135135135136,
+            "weight": 112
+          },
+          {
+            "amount": 5222,
+            "id": "author_season",
+            "label": "Seasonal authors",
+            "share": 0.03783783783783784,
+            "weight": 28
+          },
+          {
+            "amount": 9324,
+            "id": "referrals",
+            "label": "Referrals",
+            "share": 0.06756756756756757,
+            "weight": 50
+          },
+          {
+            "amount": 9324,
+            "id": "freezing",
+            "label": "Gold freezing",
+            "share": 0.06756756756756757,
+            "weight": 50
+          }
+        ],
+        "amount": 138000,
+        "currency": "gold",
+        "frozen": false,
+        "period": "2026-W41",
+        "version": 1
+      },
+      "starts": 1791158400000
+    },
+    "consensus": {
+      "curve": "sqrt-level-v1",
+      "moderation": {
+        "appeal_1": {
+          "min_participants": 4,
+          "min_trust": 18
+        },
+        "appeal_2": {
+          "min_participants": 7,
+          "min_trust": 54
+        },
+        "initial": {
+          "min_participants": 2,
+          "min_trust": 6
+        }
+      },
+      "rating": {
+        "min_participants": 3,
+        "min_trust": 6
+      },
+      "revision": 1
+    },
+    "crafting": {
+      "revision": 3,
+      "settings": {
+        "evolve": {
+          "b": 250,
+          "c": 160,
+          "d": 90,
+          "e": 40,
+          "f": 10
+        },
+        "maxout": {
+          "cost": 500
+        },
+        "merge": {
+          "dice": {
+            "b": 810,
+            "c": 270,
+            "d": 90,
+            "e": 30
+          },
+          "gem": {
+            "b": 810,
+            "c": 270,
+            "d": 90,
+            "e": 30,
+            "f": 10
+          },
+          "potion": {
+            "b": 160,
+            "c": 80,
+            "d": 40,
+            "e": 20,
+            "f": 10
+          }
+        },
+        "reroll": {
+          "a": 140,
+          "b": 100,
+          "c": 70,
+          "d": 50,
+          "e": 30
+        },
+        "scrap": {
+          "a": 60,
+          "b": 50,
+          "c": 40,
+          "d": 30,
+          "e": 20,
+          "f": 10
+        },
+        "upgrade": {
+          "a": 13,
+          "b": 8,
+          "c": 5,
+          "d": 3,
+          "e": 2,
+          "f": 1
+        }
+      }
+    },
+    "gems": {
+      "revision": 1,
+      "rules": {
+        "bonus": 0.1,
+        "distribution": "shares",
+        "excluded": {
+          "denominator": 1,
+          "numerator": 0
+        },
+        "root": 0,
+        "share": 1,
+        "shares": [
+          {
+            "denominator": 3,
+            "numerator": 2
+          },
+          {
+            "denominator": 3,
+            "numerator": 2
+          },
+          {
+            "denominator": 3,
+            "numerator": 2
+          },
+          {
+            "denominator": 3,
+            "numerator": 2
+          },
+          {
+            "denominator": 3,
+            "numerator": 2
+          },
+          {
+            "denominator": 1,
+            "numerator": 1
+          }
+        ],
+        "thresholds": [
+          1,
+          3,
+          9,
+          27,
+          81,
+          243
+        ],
+        "version": 1
+      },
+      "scheduled": []
+    },
+    "lootboxes": {
+      "clothing_frequencies": {
+        "a": 3125,
+        "b": 625,
+        "c": 125,
+        "d": 25,
+        "e": 5,
+        "f": 1
+      },
+      "potion_chance": 1,
+      "potion_frequencies": {
+        "a": 97.65625,
+        "b": 39.0625,
+        "c": 15.625,
+        "d": 6.25,
+        "e": 2.5,
+        "f": 1
+      },
+      "revision": 0
+    },
+    "merge": {
+      "inputs": {
+        "dice": {
+          "b": 5,
+          "c": 5,
+          "d": 5,
+          "e": 5
+        },
+        "gem": {
+          "b": 5,
+          "c": 5,
+          "d": 5,
+          "e": 5,
+          "f": 5
+        },
+        "potion": {
+          "b": 2,
+          "c": 2,
+          "d": 2,
+          "e": 2,
+          "f": 2
+        }
+      },
+      "revision": 1
+    },
+    "stamina": {
+      "parameters": {
+        "overflow_decay_rate": 0.25,
+        "quest_cost": 32,
+        "recovery_minutes": 480
+      },
+      "potions": {
+        "a": {
+          "restore_percent": 2430,
+          "weight": 419
+        },
+        "b": {
+          "restore_percent": 810,
+          "weight": 362
+        },
+        "c": {
+          "restore_percent": 270,
+          "weight": 303
+        },
+        "d": {
+          "restore_percent": 90,
+          "weight": 241
+        },
+        "e": {
+          "restore_percent": 30,
+          "weight": 174
+        },
+        "f": {
+          "restore_percent": 10,
+          "weight": 100
+        }
+      },
+      "starter": {
+        "max": 2208,
+        "quest_cost": 32,
+        "recovery": 4.6
+      }
+    }
+  }
+}

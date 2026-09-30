@@ -4,70 +4,127 @@ icon: user-plus
 
 # Referral Program (5%)
 
-Marketing is one of the most important factors for the success of any project, especially in the case of Questfall, where the tokenomics is mainly based on user activity.&#x20;
+Invite new people and earn a share of the weekly referral pool from their progress.
+The base program pays the inviter only. It does not require the inviter to mine,
+reach a level, buy XP or wait for a qualifying period. Existing verified users can
+invite immediately. Both players also receive the milestone boxes below, independently
+of the weekly Gold budget. Founder discount codes remain a separate mechanism.
 
-While most of the Questfall mechanics are aimed at user retention, the Referral Program is aimed at marketing activities to attract and engage new users.
+## Invitation
 
-{% hint style="info" %}
-This referral program will be launched together with Questfall, so it is not affiliated with [IFE](../roadmap/initial-funding-events.md), which has its own referral program.
-{% endhint %}
+The first valid invitation is remembered in the browser for up to 30 days. A new
+account receives one inviter when its first email or wallet registration is
+confirmed. Requesting an email code alone does not create an attribution.
+The link cannot be changed. Existing accounts cannot add an inviter themselves;
+self-referrals, repeat attribution and referral cycles are rejected or ignored.
+Only direct referrals count.
 
-In order to carry out the program, 5% of the weekly QFT issue will be used to reward users from both sides: ambassadors, who attract audience, and new users, who apply referral code when signing up in the system.
+## Milestone Boxes For Both Players
 
-The weekly program rewards are distributed according to the user's individual mining score, which is calculated based on the amount of [Silver](../assets/silver.md) the user burns during the week to level up. For example, if Bob used Alice's referral code to join the platform, both his and Alice's mining score will increase as Bob progresses through the levels over the course of a week.
+For every new confirmed referral, the inviter and the invited player each receive:
 
-{% hint style="info" %}
-The mining score is calculated as the product of the base, which depends on the amount of Silver burned during the week, and the personal mining power:\
-$$MSCORE=BASE*MPOWER$$
-{% endhint %}
+| Milestone | One box for each player |
+| --- | --- |
+| Confirmed email or wallet registration | Common Box |
+| Level 5 | Uncommon Box |
+| Level 8 | Rare Box |
+| Level 15 | Epic Box |
 
-In this way, the interests of both parties are aligned to achieve the main goal of the referral program - ambassadors are motivated to bring new active users to the platforms, while users are incentivized to use the referral codes by receiving additional rewards for their activity.
+Boxes are automatically added to the existing Lootboxes balance. There is no Claim;
+open them in Lootboxes as usual. The inviter needs no level or activity. A signup
+without an inviter does not receive these referral rewards.
 
-{% hint style="info" %}
-This will encourage users to look for referral codes when they get the Questfall link, for example from a search engine, and increase the value of the Questfall community, where new users looking for a referral code and ambassadors can meet.
-{% endhint %}
+Level milestones must be reached strictly before the six-calendar-month deadline.
+At the exact end of the term no new boxes are awarded. A jump across several levels
+awards all missing stages. Each stage is awarded once per referral, even after a
+retry, login, level reset or server restart. Received rewards remain in the history
+after expiration. Relations that predate this feature are not automatically enrolled.
 
-However, there are two issues that should be addressed to prevent abuse and make the program sustainable. And the availability of this referral program, which is open to everyone, is the first issue.
+Each participant receives an unread Tracker update with the box, its rarity and the
+reason. Updates for one referral are grouped into a card with milestone history and
+a link to `/referrals/`. The page shows the invited player's own progress and each
+referral's received, pending or expired stages. Box grants are transactional with
+both balances, ledger records and Tracker events; they never consume the Gold pool.
 
-There is no need to get the ambassador role from the team. Every user in the system will have a referral code from the beginning and will be able to become an ambassador by spreading the word about Questfall and getting referrals that way.
+## Manual Assignment in Admin
 
-This is a threat because it allows users to create fake accounts to increase their share of the rewards offered by the program, which is a classic [Sybil attack](../overview/sybil-defense.md).
+An admin may link a known existing, confirmed user who has no inviter. This remains
+available as a regular administrative function. Open the inviter's user card and
+the Referrals tab to see their invited players, including automatic, manual,
+pre-program and expired relationships. The list is paginated, and each player
+shows their participation dates and four reward stages.
 
-To solve this issue and protect the referral program from fake account manipulation, the base for calculating the mining score will be an exponent of the amount of Silver burned for leveling up.
+Search for the invited player above the list and use the plus icon in the result
+to preview the two recipients and their exact boxes. No reason or evidence field
+is required. Self-referrals, cycles, changing an existing link and stale previews
+are rejected. The action records its administrator, participants and time in the
+audit log.
 
-{% hint style="info" %}
-The simple mathematical inequality of the exponent protects against Sybil attacks:\
-$$(a+b)^{p}>a^{p}+b^{p}$$, if p>1.
+The term starts when the assignment is saved, giving a full six calendar months.
+Both players immediately receive Common plus the boxes for the invited player's
+current level: level 8 gives Common, Uncommon and Rare; level 15 gives all four.
+Later level-ups use the same rules as new registrations.
 
-The exponent does not have to be much greater than one (p = 1.1 will be sufficient):\
-$$BASE=S_{week}^{1.1}$$
-{% endhint %}
+Only XP purchases made after this binding count toward the weekly score. Earlier
+Silver spending, closed weeks and payouts are not recalculated. There is no import
+completion switch or time limit on manual assignment. Assigning real users remains
+an explicit administrative operation, not an automatic migration.
 
-This will discourage fake accounts, because if a user burns Silver on multiple accounts, his mining score will be less than if he burns the same amount on a single account.
+## Weekly Score
 
-{% hint style="info" %}
-While a referrer's mining score is based on the amount of Silver he burns, an ambassador's mining score is based on the difference between two parts of the inequality:\
-$$MSCORE_{ambassador}=(\sum_{n=0}^{refs}MSCORE_{referrer_n})^{1.1}-\sum_{n=0}^{refs}MSCORE_{referrer_n}^{1.1}$$
-{% endhint %}
+Weeks run from Monday 00:00 UTC through Sunday. For each direct referral:
 
-This exponent approach not only protects against Sybil attacks, but also motivates users to burn as much Silver as possible, as each additional unit increases the mining score in a non-linear fashion, assuming mining power remains the same (which is equal to 1 in the table below).
+$$x_j=S_{j,week}\cdot d_j$$
 
-<table><thead><tr><th width="180">Accounts</th><th width="140" align="right">Burned Silver</th><th width="132" align="right">Mining Score</th><th width="104" align="right">Increase</th></tr></thead><tbody><tr><td>Multiple accounts</td><td align="right">111,110,000</td><td align="right">708,481,415</td><td align="right">637.64%</td></tr><tr><td>    Ambassador</td><td align="right"></td><td align="right">23,082,929</td><td align="right"></td></tr><tr><td>        Referrer 1</td><td align="right">10,000</td><td align="right">25,119</td><td align="right">251.19%</td></tr><tr><td>        Referrer 2</td><td align="right">100,000</td><td align="right">316,228</td><td align="right">316.23%</td></tr><tr><td>        Referrer 3</td><td align="right">1,000,000</td><td align="right">3,981,072</td><td align="right">398.11%</td></tr><tr><td>        Referrer 4</td><td align="right">10,000,000</td><td align="right">50,118,723</td><td align="right">501.19%</td></tr><tr><td>        Referrer 5</td><td align="right">100,000,000</td><td align="right">630,957,344</td><td align="right">630.96%</td></tr><tr><td>Single account</td><td align="right">111,110,000</td><td align="right">708,481,415</td><td align="right">637.64%</td></tr></tbody></table>
+Here, $S_{j,week}$ is Silver actually spent on purchasing XP during that week,
+recorded in the server ledger after referral binding. Other Silver spending,
+balances, transfers and the inviter's own purchases are excluded.
 
-The second problem that arises is that with a straightforward approach, new users will get a smaller and smaller share of the program's rewards over time, since higher levels will have far more resources and thus generate most of the total mining score due to the exponential nature of the base formula.
+Let $t_j$ be the binding time (confirmed signup, or the explicit Admin assignment) and
+$e_j$ be six calendar months later.
+An invalid day at the target month end is clamped to that month's last day, retaining
+the UTC time. The time-based weight is:
 
-To solve this problem and make the program sustainable over time, the mining power will decrease as the user burns more Silver. In other words, as the user progresses through the levels, his reward in the referral program will decrease.
+$$d_j(t)=\max(0,\min(1,(e_j-t)/(e_j-t_j)))$$
 
-{% hint style="info" %}
-Mining power decreases based on the total amount of Silver burned from the start of an account using the formula:\
-$$MPOWER=max(1-10^{-8}*S_{total},0)$$
-{% endhint %}
+The page uses the current time. Final settlement uses the end of the week. Buying
+more XP never renews the six-month term. An expired referral contributes zero,
+even if the person remains active.
 
-This approach assumes that the user needs to create a new account to reset the mining power, but it makes no sense to switch from the high-level main account just for the referral program rewards.
+The inviter's score is:
 
-As a result, ambassadors will be forced to constantly recruit new users to keep their earnings high, as the mining score of previously recruited users will slowly decrease.
+$$Score=\left(\sum_j x_j\right)^{1.1}-\sum_j x_j^{1.1}$$
 
-{% hint style="info" %}
-The final formula for calculating the mining score is as follows:\
-$$MSCORE=S_{week}^{1.1}*max(1-10^{-8}*S_{total},0)$$
-{% endhint %}
+Zero or one referral with a positive contribution gives exactly zero score.
+Two or more positive contributions can earn a reward. All inviters compete in
+one pool; there are no referral-count leagues or personal mining multipliers.
+
+$$Reward=Pool\cdot Score/\sum Score$$
+
+Gold is allocated as whole units using largest remainders, with stable user-ID
+ordering for ties. If every score is zero, the entire pool carries into the next
+referral week. It is not burned or redistributed to another program.
+
+The economic barrier to account splitting combines this formula with character
+progression: dividing progression between characters sacrifices the benefit of
+advancing one character into higher leagues. This is not an absolute guarantee
+against multi-account activity.
+
+## Funding And Claim
+
+The target QFT weight is 5%. While five programs are active, their weights total
+69 and referrals receive $5/69$ (approximately 7.25%) of each new Gold budget.
+See [Unified Reward Budget](../assets/reward-budget.md). Previous referral carry
+is shown separately from the new weekly contribution.
+
+The page at `/referrals/` shows a preliminary reward, score and pool share, the
+anonymous distribution of competing scores, and the inviter's share over the
+week. “Your people” contains only the viewer's own referrals, with weekly Silver,
+decay, weighted contribution and registration/expiry dates.
+
+Closing a week freezes contributions, scores and pending payouts. Later activity
+cannot rewrite that result. Referral rewards are available in the personal Claim
+alongside weekly and seasonal miner rewards. Claim is transactional and replaying
+a request cannot pay twice. Author Space withdrawals retain their separate flow.
+New budget and payout records retain their explicit currency; historical and
+pending Gold rewards remain Gold when a future QFT adapter is introduced.

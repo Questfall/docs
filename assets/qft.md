@@ -12,6 +12,11 @@ Each week, the pre-determined number of QFTs are issued and distributed in pre-d
 
 <table><thead><tr><th width="215">Activity Type</th><th width="115" align="right">QFT Share</th></tr></thead><tbody><tr><td>Burning Founder NFTs</td><td align="right">1%</td></tr><tr><td>Referral Program</td><td align="right">5%</td></tr><tr><td>Liquidity Program</td><td align="right">5%</td></tr><tr><td>QFT Freezing</td><td align="right">5%</td></tr><tr><td>Project Development</td><td align="right">5%</td></tr><tr><td>Gold Withdrawals</td><td align="right">5%</td></tr><tr><td>Founders</td><td align="right">10%</td></tr><tr><td>Quest Creation</td><td align="right">12.8%</td></tr><tr><td>Quest Completion</td><td align="right">51.2%</td></tr></tbody></table>
 
+Quest Creation's 12.8% consists of 10% weekly rewards and 2.8% seasonal
+contributions. Quest Completion's 51.2% consists of 40% weekly rewards and 11.2%
+seasonal contributions. Before QFT, the [Unified Reward Budget](reward-budget.md)
+uses these weights in Gold, normalized over implemented active programs.
+
 Unlike Bitcoin, where the reward issued per block decreases every four years, the number of QFTs issued decreases with each weekly issue. With this approach, the time between halvings increases: 2.5 years for the first halving, 3.5 years for the second, 5.1 years for the fourth, 7.1 years for the fifth, and so on.&#x20;
 
 {% hint style="info" %}

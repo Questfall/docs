@@ -8,7 +8,9 @@ Trading controls seller fees, conversion, listing slots, and planned auction/liq
 
 ## Live Status
 
-Fee, Conversion, and Slots are live. Bid and Liquidity have finalized RPG models, but their auction and Gem Points surfaces are planned.
+Fee, Conversion, and Slots are live. Liquidity contributes to the Gold-buyer Gem
+leaderboard in the next release. Bid auctions and on-chain LP contributions
+remain planned.
 
 ## How To Read These Tables
 
@@ -136,9 +138,12 @@ Result: `868.97 Gold` effective sorting price. The actual bid remains `1,000 Gol
 
 ## Liquidity
 
-**Status:** RPG model finalized; Gem Points surface planned.
+**Status:** Used by the Gold-buyer Gem leaderboard in the next release; on-chain LP actions remain planned.
 
-Planned Gem Points efficiency trait for liquidity positioning.
+Improves Gem Points for weekly Gold-buyer positioning. Each paid purchase uses
+the resolved Liquidity multiplier at Gold credit; changing equipment afterward
+does not recalculate earlier points. The weekly time bonus applies separately.
+See [Gems](../rpg-items/gems.md#weekly-gold-buyer-competition).
 
 **How it resolves.** Liquidity has an 80% soft core and a reducible 20% LP requirement. Every mastery rank gives +5 Liquidity Efficiency. Mastery efficiency and Liquidity grants add together, then make only the reducible part shrink faster. They do not add percentage points directly to Gem Points Power or increase direct QFT rewards.
 
@@ -153,7 +158,9 @@ Planned Gem Points efficiency trait for liquidity positioning.
 
 ![Trading Liquidity: LP requirement remaining versus Trait Units](../../../.gitbook/assets/trait-charts/trading-liquidity.svg)
 
-Effective LP requirement as a share of the base requirement. Lower is better. The Gem Points surface is planned; this does not increase direct QFT rewards.
+Effective requirement as a share of the base requirement. Lower is better. Its
+reciprocal gives the Gold-purchase Gem Points multiplier; this does not increase
+direct QFT rewards.
 
 The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
 <!-- trait-chart:trading-liquidity:end -->
@@ -177,17 +184,19 @@ The blue curve includes Mastery and no direct grants. Each additional grant curv
 
 ### Examples
 
-**Example 1.** Planned Gem Points action, base requirement `1,000`, Specialist Liquidity, no direct grant
+**Example 1.** Purchase of `1,000 Gold`, Specialist Liquidity, no direct grant, before the time bonus
 
 Calculation: `1,000 x 88.3333%` effective LP requirement.
 
-Result: `883.33` effective requirement. Equivalently, `1,000` raw LP points count as `1,132.08` for Gem positioning.
+Result: `883.33` effective requirement. Its reciprocal makes `1,000 Gold` count
+as `1,132.08 Gem Points` before the time bonus.
 
-**Example 2.** Planned Gem Points action, base requirement `1,000`, Specialist Liquidity, one A grant `+25% efficiency`
+**Example 2.** Purchase of `1,000 Gold`, Specialist Liquidity, one A grant `+25% efficiency`, before the time bonus
 
 Calculation: `1,000 x 86.8966%` effective LP requirement.
 
-Result: `868.97` effective requirement. Equivalently, `1,000` raw LP points count as `1,150.79` for Gem positioning.
+Result: `868.97` effective requirement. Its reciprocal makes `1,000 Gold` count
+as `1,150.79 Gem Points` before the time bonus.
 
 ## Conversion
 

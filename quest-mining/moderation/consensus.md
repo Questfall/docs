@@ -30,11 +30,11 @@ The level and trust weight are captured when an assignment is issued. A later le
 
 The active pool contains verified users seen during the previous 24 hours, after removing everyone excluded from the case. Each case has two independent minimums: a minimum number of participants and a minimum sum of trust. Both conditions use `≥` and must be true. The size of the active pool does not change either minimum; it only determines whether enough eligible people and trust are currently available to open the case.
 
-The launch policy is:
+The [30 September settings snapshot](../../assets/economy-settings.md#consensus) is:
 
 | Scenario | Minimum participants | Minimum trust |
 | --- | ---: | ---: |
-| Rating | 2 | 6 |
+| Rating | 3 | 6 |
 | Moderation Initial / Review | 2 | 6 |
 | Appeal I | 4 | 18 |
 | Final Appeal | 7 | 54 |

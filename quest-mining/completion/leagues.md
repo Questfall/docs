@@ -20,6 +20,8 @@ Since there is no cap on user level, the number of leagues in the system can the
 
 For example, while only League I is open its live range is **Level 5+**. A Level 16 miner still competes in League I. After League II is opened, League I becomes **Levels 5–14**, League II becomes **Level 15+**, and normal automatic movement between those two open brackets resumes.
 
+Equipping clothing is always free in the Hall and League I, so beginners can experiment with builds. From the current League II onward, equipping costs Essence under the [Equipping formula](rpg-attributes/inventory.md#equipping). The current open league determines this exemption, not the character's level alone. Unequipping remains free in every league.
+
 Leagues not only drastically slow down the appearance of new segments, but also add an internal dynamic. The higher the league, the greater the level difference between users at the bottom of the league and those at the top.
 
 While attribute points lose value with each new point due to the growing base, even small advantages become valuable again as the range size increases with leagues. This applies not only to attribute points, but also to all other RPG items.
@@ -27,5 +29,5 @@ While attribute points lose value with each new point due to the growing base, e
 As a result, users are motivated to move up in the league as well as to move up to the next league. Even though they will be at the bottom of the new league, the overall competition will decrease.
 
 {% hint style="info" %}
-Joining a new league also allows a user to reset attribute points once for free.
+Resetting attribute points is always free in the Hall and League I. From the current League II onward, joining a new league grants one free reset in that league; later resets cost [50 Gold](../../assets/gold.md#resetting-attribute-points). Unused resets from earlier leagues do not accumulate. The open league frontier determines the exemption, just as it does for equipping.
 {% endhint %}

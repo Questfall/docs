@@ -28,11 +28,11 @@ For example, levels `1 / 4 / 9 / 16` have weights `1 / 2 / 3 / 4`. The square ro
 
 $$QuestRating=\frac{\sum Rating_i*\sqrt{Level_i}}{\sum \sqrt{Level_i}}$$
 
-A normal round has two fixed minimums: 6 trust units and at least two independent voters. One account therefore cannot publish its own opinion even when its level alone reaches the minimum trust. The size of the active pool does not change these requirements.
+A normal round currently requires 6 trust units and at least three independent voters. One account therefore cannot publish its own opinion even when its level alone reaches the minimum trust. The size of the active pool does not change these requirements. See the [dated consensus settings](../../assets/economy-settings.md#consensus).
 
 The formula is fixed as `sqrt-level-v1`. Administrators may revise the minimum participants and minimum summed trust in **Security → Consensus**. Every round stores both minimums with the complete policy revision when it is created, so later settings changes apply only to new rounds.
 
-For example, a level 16 vote has weight `4` and a level 9 vote has weight `3`. Together they reach 7 trust units and can settle a round with two votes. Seven level 1 votes would carry the same total weight, although the assignment reserve normally avoids issuing unnecessary copies once enough trust is already in flight.
+For example, levels 9, 4 and 1 contribute `3 + 2 + 1 = 6` trust and meet the three-participant minimum. Two level-16 voters supply enough trust but still need an independent third voter. Six level-1 votes also meet both minima, although the assignment reserve normally avoids issuing unnecessary copies once enough trust is already in flight.
 
 {% hint style="info" %}
 Users cannot choose rating assignments. The system serves older open rounds before new unrated quests, prioritizes Bounty within each queue, and safely randomizes equal candidates.
@@ -42,7 +42,7 @@ Each user can hold up to four active rating assignments. The one-hour assignment
 
 When minimum trust and minimum voter count are reached, remaining active copies are removed from rating rotation. Once the final rating is published, no new vote or Boost adjustment is accepted. A miner may still finish a cancelled unvoted copy before its original expiry and keeps the promised Bounty, but that completion no longer asks for a rating.
 
-If at least two votes have arrived but minimum trust is still underfilled, the round closes with the collected weighted votes after 24 hours without a new vote. This prevents a quest from remaining unrated forever when the active population changes or issued assignments are abandoned.
+If the round's saved minimum participant count is met but minimum trust is still underfilled, the round closes with the collected weighted votes after 24 hours without a new vote. Under the current policy this requires at least three voters. This prevents a quest from remaining unrated forever when the active population changes or issued assignments are abandoned.
 
 {% hint style="info" %}
 Existing open rounds adopt this strategy during background reconciliation or when they are next claimed, voted on, or finalized. Their stored votes remain valid and use the participant level captured when the vote was recorded. For an older legacy vote that predates level snapshots, migration captures the user's current level once and then keeps that weight immutable. Closed rounds are immutable and are never reopened or recalculated.

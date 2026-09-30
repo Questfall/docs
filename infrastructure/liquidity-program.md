@@ -4,6 +4,11 @@ icon: coins
 
 # Liquidity Program (5%)
 
+Before QFT, the planned [Gold purchase and Gem reward phase](../roadmap/pre-qft-economy.md)
+will exercise the Gem distribution loop using purchase contributions. It does
+not provide DEX liquidity or enable this program's QFT allocation. The design
+below describes the later liquidity phase.
+
 In order for investors to buy Questfall Token (QFT) or for miners to cash out their earnings by selling their QFTs without significant price impact, sufficient liquidity is required.
 
 However, with the mining approach, it is impossible to build liquidity before token issuance begins. Furthermore, there is no fair mechanism for attracting liquidity until the initial circulating supply is formed and the market is saturated.&#x20;
@@ -39,3 +44,10 @@ In our estimation, orders of magnitude more.
 {% endhint %}
 
 As a result, the Liquidity Program encourages the infinite organic growth of liquidity through an endless stream of weekly rewards, eliminating any possibility of manipulation or rug-pulling by anyone, including the Team.
+
+## Pre-QFT Gem Rehearsal
+
+The [weekly Gold buyer competition](../quest-mining/completion/rpg-items/gems.md)
+exercises Gem standings, settlement, claims and crafting before QFT. Gold purchases
+are a separate contribution source, not on-chain liquidity or LP burns. This does
+not enable the Liquidity Program allocation or change existing Gold reward shares.

@@ -4,11 +4,20 @@ icon: hammer
 
 # Crafting
 
-Crafting controls Essence return, item level-up costs, and planned upgrade quality systems.
+Crafting controls Essence return, item level-up and merging costs, clothing evolution and perk quality.
 
 ## Live Status
 
-Scrapping and Leveling are live. Merging, Rarity, and Quality are model/planned surfaces until their connected product flows launch.
+Scrapping and Leveling are live. The Gem release connects Rarity and Quality to clothing evolution; its reward program starts only after explicit activation. Gem merging is prepared locally and uses Merging to reduce its Essence fee.
+
+The locally prepared Admin **Crafting** section configures base Essence prices
+for Upgrade, Evolve, Scrap, Max Out and Reroll, plus independent Merge quantities
+and fees for each consumable and rarity. These values are stored as audited
+database revisions and used by real server quotes and commands. Tables below
+reflect the [30 September settings snapshot](../../../assets/economy-settings.md#crafting);
+saved settings can change the base prices without changing trait curves, mastery
+or grants. Quality remains a read-only calculator in Admin and affects Evolve
+and Reroll results. Server quotes show the current payment before confirmation.
 
 ## How To Read These Tables
 
@@ -30,6 +39,20 @@ Scrapping destroys an item and returns two separate parts of Essence:
 
 1. a guaranteed base value from the item's rarity;
 2. a growing share of the Essence actually paid for its level upgrades.
+
+Scrapping Uncommon (E) through Mythical (A) clothing also grants one Dice of the same rarity. The existing Luck proc for that scrap grants a second Dice, even when it adds no Essence because the item has no invested Essence. Common (F) clothing grants no Dice, and there is no Common Dice. Luck Bonus changes the Essence reward, but not the number of Dice. The Dice and Essence are granted together with the scrap in one transaction; the result shows the Dice count.
+
+Dice are separate inventory items, each weighing as much as a Gem of the same rarity. They stack by rarity in Inventory and can be listed and sold one at a time on the Marketplace.
+
+## Rerolling a Perk
+
+Use one Dice on owned clothing of the same rarity, either carried or equipped, and pay the Essence fee below. Choose one existing perk; the replacement is generated immediately and cannot be declined after viewing it. It must differ in type, effect or condition, though its numerical value may be worse. Other item properties remain unchanged. The reroll fee is consumed by the attempt and is not added to the item's invested Essence.
+
+| Clothing rarity | E | D | C | B | A |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Reroll Essence fee | 30 | 50 | 70 | 100 | 140 |
+
+The existing Crafting Quality value biases the numerical roll. A newly rolled terminal perk starts with a value appropriate to the **current item level**, so rerolling high-level clothing does not reset that perk to level-one strength. If a valid replacement cannot be generated, the Dice, Essence and clothing remain untouched.
 
 Every item stores its own **Essence invested** value. Only real payments are recorded, after any Lucky Discount. The value stays with the item when it is traded. It is shown in the large item popup in both Inventory and Marketplace, so a buyer can judge an item's scrapping value before purchase.
 
@@ -186,9 +209,9 @@ If Luck activates, Lucky Discount is calculated from that ordinary price and can
 
 ## Merging
 
-**Status:** Planned.
+**Status:** Potion, Gem and Dice merging are included in the next release.
 
-Planned cost-efficiency trait for merging simple rarity-based consumables such as future Potions and Gems.
+Cost-efficiency trait for merging rarity-based consumables. The saved recipes use two matching Potions or five matching Gems or Dice. Admin can configure each transition independently. Each recipe has its own base Essence fee; Merging reduces that fee without changing the required number of items. See [Merge Recipes](../../../assets/economy-settings.md#merge-recipes).
 
 **How it resolves.** The cost keeps a 25% core. Every completed Merging mastery rank adds `5 Merging Efficiency`. Mastery and direct-grant Efficiency are added together, then divide only the reducible 75% part of the cost.
 
@@ -227,25 +250,35 @@ The blue curve includes Mastery and no direct grants. Each additional grant curv
 
 ### Examples
 
-**Example 1.** Rare (D) merge base `750 Essence`, Specialist Merging, no direct grant
+**Example 1.** Rare (D) Gem merge base `90 Essence`, Specialist Merging, no direct grant
 
 Calculation: `25% core + 75% reducible curve / (1 + 20 mastery Efficiency / 100)`.
 
-Result: `393 Essence` merge cost.
+Result: `48 Essence` merge cost.
 
-**Example 2.** Rare (D) merge base `750 Essence`, Specialist Merging, one A grant `+20 Efficiency`
+**Example 2.** Rare (D) Gem merge base `90 Essence`, Specialist Merging, one A grant `+20 Efficiency`
 
 Calculation: `25% core + 75% reducible curve / (1 + (20 mastery + 20 grant) Efficiency / 100)`.
 
-Result: `364 Essence` merge cost.
+Result: `44 Essence` merge cost.
 
 ## Rarity
 
-**Status:** Planned.
+**Status:** Included in the Gem release.
 
-Planned cost-efficiency trait for raising rarity on level-based items, especially equipment.
+Cost-efficiency trait for clothing evolution with one matching Gem and Essence.
 
-**How it resolves.** The cost keeps a 20% core. Every completed Rarity mastery rank adds `5 Rarity Efficiency`. Mastery and direct-grant Efficiency are added together, then divide only the reducible 80% Essence fee. One Gem of the source rarity remains required when evolution launches.
+**How it resolves.** The cost keeps a 20% core. Every completed Rarity mastery rank adds `5 Rarity Efficiency`. Mastery and direct-grant Efficiency are added together, then divide only the reducible 80% Essence fee. One Gem of the source rarity is required.
+
+The current base is `ceil(coefficient × sqrt(current item level))`, before the
+Rarity discount. The source-rarity coefficients are:
+
+| Transition | F → E | E → D | D → C | C → B | B → A |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Base Essence coefficient | 10 | 40 | 90 | 160 | 250 |
+
+Mythical clothing cannot evolve further. The level-10 Rare example below uses
+`ceil(90 × sqrt(10)) = 285 Essence` as its base.
 
 ### Direct Grant Ranges
 
@@ -296,11 +329,13 @@ Result: `136 Essence` rarity-upgrade cost.
 
 ## Quality
 
-**Status:** Planned.
+**Status:** Included in the Gem release.
 
-Planned perk-roll pressure trait for upgrades and new perk rolls.
+Perk-roll pressure for existing and newly generated perks during clothing evolution.
 
 **How it resolves.** Every completed Quality mastery rank adds `1 Quality Pressure`. Trait pressure, mastery pressure, and direct-grant pressure combine before the final roll floor is derived. Quality applies only to crafting operations: it does not improve Lootbox drops or rewrite value already accumulated by a perk.
+
+**Perfect clothing:** Max Out with one Mythical Gem and the configured fee, currently 500 Essence, permanently gives maximum perks and Aspect, including full current-rarity growth history. Quality does not affect its numeric values. Upgrade and Evolve retain these maxima; a new evolution perk is still chosen randomly. This fee is independent of rarity, level, Crafting and Luck. It counts as invested Essence for Scrapping. Ordinary Upgrade/Evolve costs are unchanged. See [Gems](../rpg-items/gems.md#mythical-gem-max-out--perfect).
 
 ### Direct Grant Ranges
 

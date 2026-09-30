@@ -4,6 +4,24 @@ icon: coins
 
 # Rewards
 
+## Current Gold Rewards
+
+Before QFT launches, weekly mining pays Gold from the [Unified Reward Budget](../../assets/reward-budget.md).
+The next release's baseline assigns miners 40/74 of the fixed weekly total,
+approximately 54.05%, with Gold Freezing enabled. Admin may configure future
+totals and Gold shares; the [dated settings snapshot](../../assets/economy-settings.md#reward-budget)
+records the selected week's values. An opened week keeps its promised pool.
+
+The weekly miner pool is divided equally among open leagues with active miners.
+Within each league, a miner's share follows their weekly Mining Points. The Hall
+does not receive league payouts. Eligibility and verified-account requirements
+are described in [Leagues](leagues.md). Rewards already earned remain Gold
+obligations and are not renamed when QFT is introduced.
+
+## Target QFT Model
+
+The issuance percentages and QFT examples below describe the future token model.
+
 There is no way to protect quest completion from multiple accounts and bots. For example, a user could register several accounts and use a bot to clone the completion of a quest with a common answer on all of them.
 
 In Questfall, to protect legitimate miners from such abuse and to keep mining fair, the total weekly reward pool, made up of 40% of the weekly [QFT](../../assets/qft.md) issue, is divided equally among the **open** [leagues](leagues.md) that had at least one active miner during the week. A closed future league cannot receive a share. Miners who have passed its starting level remain in the highest open frontier league, so their Mining Points and rewards remain in that league until the next league is opened manually.

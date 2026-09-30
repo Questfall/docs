@@ -17,6 +17,10 @@ Characters start at level `1` with one point in each attribute. Every new level 
 | [Stamina](stamina.md) | Perform more actions and handle heavier equipment. | Efficiency, Absorption, Reserve, Recovery, Relief |
 | [Luck](luck.md) | Improve random outcomes and lucky bonuses. | Shards, Boxes, Chance, Bonus, Cards |
 
+## Resetting Points
+
+All spent points can be returned and redistributed. Resetting is always free in the Hall and League I. From the current League II onward, one reset in each new league is free and subsequent resets cost [50 Gold](../../../assets/gold.md#resetting-attribute-points). Equipped items remain equipped; their effective bonuses and dependent capacities are recalculated for the new build.
+
 ## Reading The Charts
 
 Each trait has a growth chart directly beside its explanation and tables on the attribute page. The charts use the backend formulas and include Mastery effects.
@@ -77,15 +81,17 @@ Equipped items above the character's own level still work, but useful item effec
 
 Some traits already affect live gameplay. Others are part of the finalized RPG model but their public feature is not live yet. Those traits can still appear in the build model and item system, but players should not treat them as active strategy until the connected feature launches.
 
-The individual attribute pages call this out directly. The current boundaries are:
+The individual attribute pages call this out directly. The table distinguishes
+current gameplay from the locally prepared release; availability of that update
+follows the application/backend release.
 
 | Attribute | Connected to current gameplay | Modelled or planned limitation |
 | --- | --- | --- |
-| Inventory | Levitation, Overlevel, Capacity, Exemption. | Equipping does not charge Essence; overload is informational and does not block actions. |
-| Mining | Flow, Focus, Power, Loot. | Priority does not affect the moderation queue yet. |
-| Crafting | Scrapping, Leveling. | Merging, Rarity, Quality await their product flows. |
-| Trading | Fee, Conversion, Slots. | Bid and Liquidity await auctions and Gem Points. |
-| Stamina | Efficiency, Reserve, Recovery, Relief. | Absorption awaits potion consumption. |
+| Inventory | Levitation, Equipping, Overlevel, Capacity, Exemption. | Equipping is free in the Hall and League I, paid from League II; overload remains informational. |
+| Mining | Priority, Flow, Focus, Power, Loot. | Priority is captured at submission and respects system review precedence. |
+| Crafting | Scrapping, Leveling. | The prepared release connects Merging to Potion/Gem/Dice recipes, Rarity to Gem evolution and Quality to ordinary evolution/rerolls. Perfect clothing keeps its maximum values independently of Quality. |
+| Trading | Fee, Conversion, Slots. | The prepared Gold-buyer Gem leaderboard uses Liquidity. Bid auctions and on-chain liquidity actions remain planned. |
+| Stamina | Efficiency, Reserve, Recovery, Relief. | The prepared release connects Absorption to Stamina Potion restoration. |
 | Luck | Shards, Boxes, Chance, Bonus, Cards. | Each effect applies only to the actions described on its trait page. |
 
 A growth chart describes a formula even when the associated feature is not yet available; it does not change that feature's status.

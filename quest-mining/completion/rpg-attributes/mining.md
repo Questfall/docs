@@ -10,7 +10,7 @@ Mining controls quest reward strength, Flow behavior, moderation priority, and s
 
 Flow, Focus, Power, and Loot are connected to quest completion rewards. Successful automatic completions settle immediately. Moderated submissions save their Mining Points and shard-roll count when submitted, then receive them if approved.
 
-Priority has an RPG formula and item grants, but the current moderation queue does not use this trait. It does not yet shorten a player's review wait.
+Priority applies its RPG formula and item grants to moderation-required submissions. The bonus is captured when evidence is submitted and is retained while that submission waits for review.
 
 ## How To Read These Tables
 
@@ -26,14 +26,16 @@ Rarity letters in grant tables: E = Uncommon, D = Rare, C = Epic, B = Legendary,
 
 ## Priority
 
-**Status:** Modelled; not connected to the current moderation queue.
+**Status:** Live in completion moderation.
 
-Intended to move moderation-required quest completions higher in the review queue. The values below describe the model, not the current queue order.
+Moves moderation-required quest completions higher in the review queue. It does not change the reward or guarantee a fixed review time.
 
 **How it resolves.** Priority adds queue advantage. Inside every mastery band,
 the trait grows continuously by up to 5 minutes. Reaching a new mastery rank
 adds another 5-minute reward. Quest age still matters: every 10 minutes waiting
 adds 100 queue points.
+
+The bonus and submission time are saved at submission. Changing equipment later does not change an existing submission's priority, and waiting for instruction approval does not reset its age. First Quest Review retains precedence over ordinary work. System report priorities and finishing already-started live platform checks also retain their precedence; Priority orders work within those rules. Reports do not receive the player's Mining Priority bonus. Older cases without a saved bonus use zero bonus and their case creation time.
 
 ### Direct Grant Ranges
 
@@ -47,7 +49,7 @@ adds 100 queue points.
 
 ![Mining Priority: Queue-time advantage versus Trait Units](../../../.gitbook/assets/trait-charts/mining-priority.svg)
 
-Modelled queue-time advantage. Priority is not connected to the current moderation queue; this curve does not describe an active reduction in waiting time.
+Queue-time advantage captured when a completion is submitted for moderation. System review precedence still applies; this is not a guaranteed reduction in review time.
 
 The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
 <!-- trait-chart:mining-priority:end -->

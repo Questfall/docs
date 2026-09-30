@@ -10,7 +10,7 @@ Inventory controls how comfortably a character can carry clothing, change equipm
 
 All five Inventory traits and their formulas are part of the current character model. Levitation, Overlevel, Capacity, and Exemption are already calculated in normal play.
 
-Equipping cost is visible and fully calculated, but charging Essence for equipping is intentionally disabled until the equipment economy is activated. Inventory overload is also informational for now: the interface shows it, but actions are not blocked by it yet.
+Equipping is permanently free in the Hall and League I. From League II onward it costs Essence according to the formula below. The exemption follows the current open league: even a high-level character remains exempt while League II is closed. Inventory overload is still informational: the interface shows it, but actions are not blocked by it yet.
 
 ## How To Read These Tables
 
@@ -86,11 +86,11 @@ Result: `9.70 kg` counted weight.
 
 ## Equipping
 
-**Status:** Formula and interface ready; Essence charging intentionally deferred.
+**Status:** Live from League II; free in the Hall and League I.
 
 Reduces the Essence cost of equipping clothing. Unequipping is free. Replacing clothing is one equip operation, so only the new item has a price.
 
-**How it resolves.** Mastery and direct flat grants reduce the base equip cost first. Direct percent grants and then the Equipping trait reduce what remains. Final calculated cost cannot go below 1 Essence.
+**How it resolves.** In League II and above, Mastery and direct flat grants reduce the base equip cost first. Direct percent grants and then the Equipping trait reduce what remains. The paid cost cannot go below 1 Essence. The server calculates the price from the character's current equipment before the new item is equipped, and charges it atomically with the equip operation.
 
 ### Direct Grant Ranges
 
@@ -104,7 +104,7 @@ Reduces the Essence cost of equipping clothing. Unequipping is free. Replacing c
 
 ![Inventory Equipping: Calculated equip cost versus Trait Units](../../../.gitbook/assets/trait-charts/inventory-equipping.svg)
 
-Calculated equip cost of one Mythical (A), level 1,000 item. Minimum 1 Essence. Charging is intentionally deferred; this is the modelled price.
+Equip cost of one Mythical (A), level 1,000 item in League II or above. Minimum 1 Essence. Equipping in the Hall and League I is always free.
 
 The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
 <!-- trait-chart:inventory-equipping:end -->
