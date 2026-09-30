@@ -4,11 +4,10 @@ icon: gem
 
 # Gems
 
-Gems are individual crafting items in six rarities. The pre-QFT release introduces
-them through a weekly Gold-purchase competition. The next production release
-activates the program before opening Gold purchases; purchases earn points only
-after that activation. Under the locally
-prepared `shares` policy, every qualifying weekly buyer receives one Gem.
+Gems are individual crafting items in six rarities, earned through the active
+weekly Gold-purchase competition. The program was activated before Gold sales
+opened; purchases earn points only after that activation. Under the current
+`shares` policy, every qualifying weekly buyer receives one Gem.
 Existing weeks retain their saved rules. The [dated settings snapshot](../../../assets/economy-settings.md#gem-leaderboard)
 records the configured percentages, thresholds and scheduled rules.
 
@@ -39,7 +38,7 @@ the account that reached its final total earlier, then the account ID.
 
 ### Prize Fund
 
-The prepared default is `distribution: shares`. For `N` unique buyers, there are
+The current policy is `distribution: shares`. For `N` unique buyers, there are
 `N` prizes. Assign the lower two thirds, rounded up, a Common Gem; repeat with the
 remaining buyers for Uncommon, Rare, Epic and Legendary. Stop when no buyers
 remain. All buyers remaining after Legendary receive Mythical, the highest rarity.
@@ -95,7 +94,7 @@ Saved rules without `distribution` use the historical weighted policy:
 `P = min(N − 1, round(0.1 × N + 0.8 × √N))`, with no prizes below two buyers
 and rarity thresholds 2/3/9/27/81/243. Its allocation and existing rewards are
 preserved. Updating an active program requires scheduling the new rules for
-the next Monday; this local preparation does not change production settings.
+the next Monday; historical rules and rewards are not rewritten.
 
 Current results are provisional. Weekly settlement fixes ranks and rewards.
 Winners claim their Gem from Buy Gold; claims never expire. Repeated requests
@@ -110,7 +109,7 @@ keeping their stacks separate. Gems have
 no level, equipped slot, Aspect or perks and never drop from lootboxes. All six
 rarities can trade for Gold through the existing Marketplace fees, slots and
 payout process. A listing sells one Gem from the stack. Trades appear in Tracker.
-Gem merging is prepared locally as described below. Gem scrapping is not available.
+Gem merging is live as described below. Gem scrapping is not available.
 
 ## Merging Gems
 

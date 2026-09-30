@@ -5,8 +5,7 @@ icon: flask-round-potion
 # Potions
 
 Stamina Potions are consumable inventory items with six rarities and no levels.
-The complete cycle is implemented locally; production availability follows the
-application/backend release.
+Drops, drinking, merging and Gold Marketplace trading are live.
 
 ## Acquisition
 

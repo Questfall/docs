@@ -15,8 +15,8 @@ Gold is an in-game currency used for practical system actions and low-rarity ite
 | Buy and sell RPG items on the marketplace | Live |
 | Pay marketplace fees on Gold sales | Live |
 | Reset character attribute points | 50 Gold from League II, with beginner and new-league exemptions |
-| Buy Gold with native USDC on Polygon | Prepared for activation in the next release |
-| Freeze personal Gold for weekly rewards | Included in the next release |
+| Buy Gold with native USDC on Polygon | Live; purchases may be paused |
+| Freeze personal Gold for weekly rewards | Live |
 | Participate in future Gold withdrawal auctions | Planned |
 
 ## Resetting Attribute Points
@@ -27,7 +27,7 @@ The exemption follows the currently open league, not level alone: while League I
 
 ## Gold And RPG Items
 
-In the prepared RPG item loop, Gold is connected to clothing and consumables:
+In the RPG item loop, Gold is connected to clothing and consumables:
 
 * players can use Gold to open Common Lootboxes;
 * Common-box item cards can create clothing or Stamina Potions;
@@ -61,7 +61,7 @@ Gold itself has no inventory weight.
 
 ## Temporary Purchase Offer Before QFT
 
-A temporary USDC checkout is prepared for activation with the next production release, together with Gem rewards. Availability is shown on the **Buy Gold** page; it may be paused. Buying Gold supports Questfall’s development and growth. During this offer, packages of 5, 10, 25 and 50 USDC grant 1,000, 2,000, 5,000 and 10,000 Gold — a 50% discount from the standard $1 per 100 Gold.
+The temporary USDC checkout and weekly Gem rewards are active. Availability is shown on the **Buy Gold** page; it may be paused. Buying Gold supports Questfall’s development and growth. During this offer, packages of 5, 10, 25 and 50 USDC grant 1,000, 2,000, 5,000 and 10,000 Gold — a 50% discount from the standard $1 per 100 Gold.
 
 Checkout accepts **native USDC on Polygon PoS only**. Create an order while signed in, then copy its saved recipient and exact six-decimal amount. The exact amount is slightly lower than the nominal package to identify the order. Transfer fees are paid separately: the full displayed amount must reach the recipient. A transfer can come from an exchange or any wallet; the payment wallet does not need to be linked to the Questfall account. The QR contains only the address, so enter the amount separately.
 

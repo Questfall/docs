@@ -8,16 +8,16 @@ RPG items are the tradeable power layer of Questfall. They make character builds
 
 ## Release Status
 
-The consumable actions below are prepared locally for the next production release.
-The [dated settings snapshot](../../../assets/economy-settings.md) records the
-prices and recipes; availability follows the application/backend release.
+Clothing and the consumable actions below are live in App 0.7.01. The
+[dated production settings snapshot](../../../assets/economy-settings.md) records
+the configured prices and recipes.
 
 | Item type | Status | Current role |
 | --- | --- | --- |
 | [Clothing](items.md) | Live | Drops from lootboxes, can be equipped, sold, scrapped, and levelled up. |
-| [Potions](potions.md) | Included in the next release | Common-box drops, Stamina recovery, merging and Gold trading. |
-| [Gems](gems.md) | Included in the next release | Weekly Gold-buyer rewards, merging, clothing evolution, permanent Perfect status and Gold trading. |
-| [Dice](dice.md) | Included in the next release | Scrapping rewards, perk rerolls, merging and Gold trading. |
+| [Potions](potions.md) | Live | Common-box drops, Stamina recovery, merging and Gold trading. |
+| [Gems](gems.md) | Live | Weekly Gold-buyer rewards, merging, clothing evolution, permanent Perfect status and Gold trading. |
+| [Dice](dice.md) | Live | Scrapping rewards, perk rerolls, merging and Gold trading. |
 
 Clothing is equipped. Consumables stay in inventory and are spent on their own actions.
 
@@ -56,7 +56,7 @@ This is why the marketplace is not only about rarity. A lower-rarity item with t
 
 ## Item Actions
 
-Clothing actions in the prepared release:
+Available clothing actions:
 
 | Action | Meaning |
 | --- | --- |

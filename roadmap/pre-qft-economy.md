@@ -4,11 +4,10 @@ icon: coins
 
 # Economy Before QFT
 
-Release scope updated on 30 September 2026. Gold purchases and weekly Gem rewards
-must be activated before the next App publication. Gold Freezing, consumable
-merging and permanent Perfect clothing are prepared
-for the same release. The [settings snapshot](../assets/economy-settings.md)
-records the current local configuration; production values are refreshed at release.
+App 0.7.01 was activated on 30 September 2026 UTC (1 October in Moscow). Gold
+purchases, weekly Gem rewards, Gold Freezing, consumable merging and permanent
+Perfect clothing are live. The [settings snapshot](../assets/economy-settings.md)
+records the refreshed production configuration, including planned future weeks.
 
 ## Purpose
 

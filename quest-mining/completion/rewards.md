@@ -6,8 +6,9 @@ icon: coins
 
 ## Current Gold Rewards
 
-Before QFT launches, weekly mining pays Gold from the [Unified Reward Budget](../../assets/reward-budget.md).
-The next release's baseline assigns miners 40/74 of the fixed weekly total,
+Before QFT launches, weekly mining pays Gold. The [Unified Reward Budget](../../assets/reward-budget.md)
+is scheduled from 2026-W41 (5 October 2026, 00:00 UTC); the already open week
+retains its original pool. The baseline assigns miners 40/74 of the fixed weekly total,
 approximately 54.05%, with Gold Freezing enabled. Admin may configure future
 totals and Gold shares; the [dated settings snapshot](../../assets/economy-settings.md#reward-budget)
 records the selected week's values. An opened week keeps its promised pool.

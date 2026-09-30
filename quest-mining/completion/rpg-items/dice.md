@@ -4,8 +4,8 @@ icon: dice
 
 # Dice
 
-Dice are consumables for rerolling one clothing perk. The next release includes
-acquisition through Scrapping, rarity merging and Gold Marketplace trading.
+Dice are consumables for rerolling one clothing perk. Acquisition through
+Scrapping, rarity merging and Gold Marketplace trading are live.
 There are five Dice rarities, E–A. Common clothing has no perks, so there is
 no Common Dice.
 

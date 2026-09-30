@@ -8,9 +8,9 @@ Crafting controls Essence return, item level-up and merging costs, clothing evol
 
 ## Live Status
 
-Scrapping and Leveling are live. The Gem release connects Rarity and Quality to clothing evolution; its reward program starts only after explicit activation. Gem merging is prepared locally and uses Merging to reduce its Essence fee.
+Scrapping, Leveling, consumable Merging, clothing Rarity evolution and Quality are live. Merging reduces Potion/Gem/Dice Essence fees; Rarity reduces clothing evolution cost and Quality improves ordinary evolution and rerolls. The Gold-buyer Gem reward program is active.
 
-The locally prepared Admin **Crafting** section configures base Essence prices
+The Admin **Crafting** section configures base Essence prices
 for Upgrade, Evolve, Scrap, Max Out and Reroll, plus independent Merge quantities
 and fees for each consumable and rarity. These values are stored as audited
 database revisions and used by real server quotes and commands. Tables below
@@ -209,7 +209,7 @@ If Luck activates, Lucky Discount is calculated from that ordinary price and can
 
 ## Merging
 
-**Status:** Potion, Gem and Dice merging are included in the next release.
+**Status:** Live for Potion, Gem and Dice merging.
 
 Cost-efficiency trait for merging rarity-based consumables. The saved recipes use two matching Potions or five matching Gems or Dice. Admin can configure each transition independently. Each recipe has its own base Essence fee; Merging reduces that fee without changing the required number of items. See [Merge Recipes](../../../assets/economy-settings.md#merge-recipes).
 
@@ -264,7 +264,7 @@ Result: `44 Essence` merge cost.
 
 ## Rarity
 
-**Status:** Included in the Gem release.
+**Status:** Live.
 
 Cost-efficiency trait for clothing evolution with one matching Gem and Essence.
 
@@ -329,7 +329,7 @@ Result: `136 Essence` rarity-upgrade cost.
 
 ## Quality
 
-**Status:** Included in the Gem release.
+**Status:** Live.
 
 Perk-roll pressure for existing and newly generated perks during clothing evolution.
 

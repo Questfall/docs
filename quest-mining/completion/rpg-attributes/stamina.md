@@ -8,7 +8,7 @@ Stamina controls action cost, maximum stamina, recovery, equipment pressure, and
 
 ## Implementation Status
 
-The local implementation includes the complete potion cycle. Valid automatic answers and Action quest submissions spend Stamina with base cost 32, adjusted by Efficiency, Relief and equipment weight. Wrong answers also spend it; invalid requests and idempotent retries do not. Reports and moderation actions retain their separate base cost of 1. Absorption increases Stamina Potion restoration. Production availability follows the application/backend release.
+The complete potion cycle is live. Valid automatic answers and Action quest submissions spend Stamina with base cost 32, adjusted by Efficiency, Relief and equipment weight. Wrong answers also spend it; invalid requests and idempotent retries do not. Reports and moderation actions retain their separate base cost of 1. Absorption increases Stamina Potion restoration.
 
 ## How To Read These Tables
 
@@ -84,9 +84,9 @@ Result: `59 stamina` base action cost.
 
 ## Absorption
 
-**Status:** Planned.
+**Status:** Live for Stamina Potion restoration.
 
-Planned trait for improving future Stamina Potion effects.
+Improves the amount restored by Stamina Potions.
 
 **How it resolves.** Every reached Absorption mastery rank adds `5 pp` to the starting Potion Effect bonus. This reward and direct Absorption grants add together, up to `250%`. The trait then scales the remaining distance toward the same `250%` effect ceiling.
 
@@ -103,7 +103,7 @@ The shared mastery-input rule above applies to Absorption.
 
 ![Stamina Absorption: Potion recovery bonus versus Trait Units](../../../.gitbook/assets/trait-charts/stamina-absorption.svg)
 
-Additional recovery from a Stamina Potion, up to +250%. The local potion implementation uses this formula; production availability follows its release.
+Additional recovery from a Stamina Potion, up to +250%. Stamina Potion restoration uses this formula.
 
 The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
 <!-- trait-chart:stamina-absorption:end -->

@@ -1,8 +1,9 @@
-# Updating the next release documentation
+# Updating product documentation
 
-The current documentation changes are local drafts. Fedor requested on
-30 September 2026 that they stay unpublished until the next production release.
-Do not push or publish this repository as part of local documentation edits.
+The App 0.7.01 documentation was refreshed after verified production activation
+on 30 September 2026 UTC (1 October in Moscow). Keep future local changes as
+drafts until their application/backend behavior is active and verified.
+Publish only within Fedor's authorized documentation update.
 
 ## Static settings snapshot
 
@@ -13,7 +14,7 @@ does not change prices or activate programs. Keep credentials in the private
 PocketBase environment file. Raw Admin responses, tokens, receiver records,
 audit entries and user data must never be copied into the documentation.
 
-From this repository, refresh the local release draft:
+From this repository, refresh a local draft from the local runtime:
 
 ```bash
 bun --env-file=../questfall-pocketbase/.env.local scripts/sync-settings.js --refresh

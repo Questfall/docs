@@ -82,16 +82,15 @@ Equipped items above the character's own level still work, but useful item effec
 Some traits already affect live gameplay. Others are part of the finalized RPG model but their public feature is not live yet. Those traits can still appear in the build model and item system, but players should not treat them as active strategy until the connected feature launches.
 
 The individual attribute pages call this out directly. The table distinguishes
-current gameplay from the locally prepared release; availability of that update
-follows the application/backend release.
+current gameplay from the remaining planned surfaces.
 
 | Attribute | Connected to current gameplay | Modelled or planned limitation |
 | --- | --- | --- |
 | Inventory | Levitation, Equipping, Overlevel, Capacity, Exemption. | Equipping is free in the Hall and League I, paid from League II; overload remains informational. |
 | Mining | Priority, Flow, Focus, Power, Loot. | Priority is captured at submission and respects system review precedence. |
-| Crafting | Scrapping, Leveling. | The prepared release connects Merging to Potion/Gem/Dice recipes, Rarity to Gem evolution and Quality to ordinary evolution/rerolls. Perfect clothing keeps its maximum values independently of Quality. |
-| Trading | Fee, Conversion, Slots. | The prepared Gold-buyer Gem leaderboard uses Liquidity. Bid auctions and on-chain liquidity actions remain planned. |
-| Stamina | Efficiency, Reserve, Recovery, Relief. | The prepared release connects Absorption to Stamina Potion restoration. |
+| Crafting | Scrapping, Leveling, Merging, Rarity, Quality. | Merging reduces Potion/Gem/Dice fees, Rarity reduces Gem evolution cost and Quality improves ordinary evolution/rerolls. Perfect clothing keeps its maximum values independently of Quality. |
+| Trading | Fee, Conversion, Slots, Liquidity. | The Gold-buyer Gem leaderboard uses Liquidity. Bid auctions and on-chain liquidity actions remain planned. |
+| Stamina | Efficiency, Reserve, Recovery, Relief, Absorption. | Absorption improves Stamina Potion restoration. |
 | Luck | Shards, Boxes, Chance, Bonus, Cards. | Each effect applies only to the actions described on its trait page. |
 
 A growth chart describes a formula even when the associated feature is not yet available; it does not change that feature's status.

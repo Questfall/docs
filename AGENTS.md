@@ -3,9 +3,10 @@
 Follow the workspace [AGENTS.md](../AGENTS.md). Read [CONTRIBUTING.md](CONTRIBUTING.md)
 before refreshing settings or preparing documentation publication.
 
-The changes prepared on 30 September 2026 are local drafts for the next App
-release. Fedor explicitly requested no documentation publication before that
-release. Preserve existing draft changes; do not push while doing local edits.
+App 0.7.01, Admin 0.3.03, Gold/Gem activation and News were verified on
+production on 30 September 2026 UTC (1 October in Moscow). This documentation
+uses the refreshed production settings snapshot. Future local edits remain
+drafts; push only when Fedor has authorized documentation publication.
 
 Product documentation covers the fundamental progression, RPG, consensus and
 economy mechanics. Daily tasks and their rapidly changing rewards, Chat and

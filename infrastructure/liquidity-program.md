@@ -4,8 +4,8 @@ icon: coins
 
 # Liquidity Program (5%)
 
-Before QFT, the planned [Gold purchase and Gem reward phase](../roadmap/pre-qft-economy.md)
-will exercise the Gem distribution loop using purchase contributions. It does
+Before QFT, the active [Gold purchase and Gem reward phase](../roadmap/pre-qft-economy.md)
+exercises the Gem distribution loop using purchase contributions. It does
 not provide DEX liquidity or enable this program's QFT allocation. The design
 below describes the later liquidity phase.
 
@@ -27,9 +27,9 @@ For example, if the price of a QFT is $10 and the weekly issuance is 30,000 QFTs
 
 However, over the course of a year, assuming the price of QFT and issuance remain the same, the total increase in liquidity will be $780,000. And if the QFT price doubles, the dollar estimate of liquidity growth will also double.
 
-To further increase the rate at which liquidity grows, the broader RPG economy plans an additional reward layer: Gems that can support future clothing rarity evolution.
+The later Liquidity Program plans an additional reward source for Gems, which already support clothing rarity evolution.
 
-The Gem reward layer is planned, not part of the current live RPG item loop. When it is launched, users should be able to improve their Gem reward position by increasing their share of burnt liquidity over the course of the week.
+Gem rewards from burnt on-chain liquidity remain planned. In that phase, users should be able to improve their Gem reward position by increasing their share of burnt liquidity over the week. The current Gold-buyer Gem competition uses purchase contributions instead.
 
 {% hint style="info" %}
 However, the amount of liquidity burned is not the only parameter that affects the distribution of Gem rewards. See the [Gems](../quest-mining/completion/rpg-items/gems.md) article to learn more.

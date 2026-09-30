@@ -17,7 +17,7 @@ The current live marketplace supports item listings, purchases, seller fees, and
 | Trading Fee reduction | Live |
 | Lucky fee discount | Live |
 | QFT-denominated high-rarity marketplace | Planned |
-| Gem-based rarity evolution trade loop | Planned |
+| Gems, Potions and Dice trading for Gold | Live |
 | Auction-style item pricing | Planned |
 
 ## Why The Marketplace Matters
@@ -48,4 +48,4 @@ If equipment changes reduce a player's slot capacity below their active listing 
 
 ## Planned Economy Links
 
-The broader economy still includes planned surfaces such as QFT-denominated high-rarity trading, Gem-based item rarity evolution, and auction-style pricing. These are important for the long-term design, but they should not be described as live marketplace behavior until their product surfaces are launched.
+Gems, Potions and Dice trade for Gold alongside clothing. Gems support clothing rarity evolution, and Dice support perk rerolls; these actions connect crafting to marketplace demand. QFT-denominated high-rarity trading and auction-style pricing remain planned.

@@ -1,7 +1,7 @@
 {
-  "captured_at": "2026-09-30T12:57:54.741Z",
+  "captured_at": "2026-09-30T21:53:30.164Z",
   "schema": 1,
-  "source": "local release preparation",
+  "source": "production",
   "values": {
     "budget": {
       "current": null,
@@ -81,7 +81,7 @@
       "revision": 1
     },
     "crafting": {
-      "revision": 3,
+      "revision": 1,
       "settings": {
         "evolve": {
           "b": 250,

@@ -8,7 +8,7 @@ The reward economy uses one weekly budget. Gold is the current reward currency;
 the QFT issuance source and blockchain payout adapter are a separate future stage.
 Program scoring is independent of the budget source and payout currency.
 
-The prepared release includes Gold Freezing. With the QFT-based baseline split,
+Gold Freezing is active. With the QFT-based baseline split,
 the enabled weights total 74:
 
 | Active program | QFT weight | Baseline Gold share with Freezing |
@@ -50,8 +50,10 @@ carry and quarter boundaries remain consistent.
 
 ## Transition
 
-The first unopened week uses the unified budget; the already open week finishes
-under its original terms. The starting total before Freezing is approximately 1.725 times the old
+The production snapshot schedules the unified budget from **2026-W41**,
+Monday **5 October 2026 at 00:00 UTC**. Its selected total is **138,000 Gold**,
+still planned rather than opened; Admin can revise a future week. The already
+open 2026-W40 week finishes under its original terms. The starting total before Freezing is approximately 1.725 times the old
 weekly miner pool and is selected using the integer allocator to preserve that
 miner amount exactly. Adding Freezing to future weeks redistributes this fixed
 total; it does not increase it. The one-time midweek launch supplement is

@@ -9,7 +9,7 @@ Trading controls seller fees, conversion, listing slots, and planned auction/liq
 ## Live Status
 
 Fee, Conversion, and Slots are live. Liquidity contributes to the Gold-buyer Gem
-leaderboard in the next release. Bid auctions and on-chain LP contributions
+leaderboard. Bid auctions and on-chain LP contributions
 remain planned.
 
 ## How To Read These Tables
@@ -138,7 +138,7 @@ Result: `868.97 Gold` effective sorting price. The actual bid remains `1,000 Gol
 
 ## Liquidity
 
-**Status:** Used by the Gold-buyer Gem leaderboard in the next release; on-chain LP actions remain planned.
+**Status:** Live in the Gold-buyer Gem leaderboard; on-chain LP actions remain planned.
 
 Improves Gem Points for weekly Gold-buyer positioning. Each paid purchase uses
 the resolved Liquidity multiplier at Gold credit; changing equipment afterward

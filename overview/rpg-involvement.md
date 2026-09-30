@@ -27,8 +27,8 @@ The complete RPG economy is centered on clothing:
 ```text
 quest activity
 -> Chest Shards and lootboxes
--> clothing items
--> equip, sell, scrap, or level up
+-> clothing or Stamina Potions
+-> equip, sell, scrap, level up, or drink
 -> stronger or more specialized character
 ```
 
@@ -42,7 +42,7 @@ The current RPG loop uses several resources:
 | --- | --- |
 | Gold | Opens Common Lootboxes, trades marketplace items, and converts into Silver. |
 | Silver | Supports character progression and other system actions. |
-| Essence | Comes from scrapping items and is spent to level up clothing. |
+| Essence | Comes from scrapping clothing and pays for leveling, consumable merging, clothing evolution and perk rerolls. |
 
 This creates several player paths:
 
@@ -53,6 +53,6 @@ This creates several player paths:
 
 ## Planned Expansion
 
-The broader design still includes future RPG economy surfaces such as Potions, Gems, item rarity evolution, QFT-denominated high-rarity trading, and liquidity-linked Gem rewards.
+Potions, Gems, Dice, clothing rarity evolution and weekly Gold-buyer Gem rewards are live. They connect Stamina recovery, crafting and marketplace demand to the clothing and quest economy.
 
-Those systems should be treated as planned until their product surfaces are live. The current connected RPG economy is clothing, attributes, lootboxes, Essence, character progression, lucky actions, and marketplace trading. Mining rewards and quest-driven stamina use activate with the quest product flow.
+QFT-denominated high-rarity trading and Gem rewards from on-chain liquidity contributions remain planned. The Gold purchase competition is a separate pre-QFT contribution source; it does not add DEX liquidity or burn LP tokens.
