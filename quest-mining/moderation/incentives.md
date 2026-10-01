@@ -108,7 +108,7 @@ Current [Action quests](../creation/action-quests.md) use direct screenshot or p
 The Witness/Judge rules and table below apply to legacy publications that still use that two-stage flow.
 
 {% hint style="warning" %}
-Legacy compatibility only: if a moderator has no ordinary assignable case, an eligible historical Witness case may be issued without a Witness Credit and without prepayment. Participant, author, and Author Space team exclusions still apply, and the case keeps its full participant and trust requirements. Current Action quests do not use this flow. Removing this compatibility layer requires accounting for unfinished historical assignments and disputes.
+Legacy compatibility only: if a moderator has no ordinary assignable case, an eligible historical Witness case may be issued without a Witness Credit and without prepayment. Participant, author, and Author Space team exclusions still apply, and the case keeps its full participant and trust requirements. Current Action quests do not use this flow.
 {% endhint %}
 
 <table><thead><tr><th width="235">Quest Completion</th><th width="135" align="center">Reward</th><th width="111" align="center">Penalty</th></tr></thead><tbody><tr><td>Completing (user)</td><td align="center">Mining Points</td><td align="center">-</td></tr><tr><td>Witnessing (moderators)</td><td align="center">+10 Silver</td><td align="center">-</td></tr><tr><td>Judging (moderators)</td><td align="center">-</td><td align="center">-30 Silver</td></tr></tbody></table>

@@ -7,7 +7,7 @@ icon: gem
 Gems are individual crafting items in six rarities, earned through the active
 weekly Gold-purchase competition. The program was activated before Gold sales
 opened; purchases earn points only after that activation. Under the current
-`shares` policy, every qualifying weekly buyer receives one Gem.
+percentage-based policy, every qualifying weekly buyer receives one Gem.
 Existing weeks retain their saved rules. The [dated settings snapshot](../../../assets/economy-settings.md#gem-leaderboard)
 records the configured percentages, thresholds and scheduled rules.
 
@@ -26,19 +26,18 @@ is credited and cannot change an already completed leaderboard.
 Gem Points = purchased Gold × Trading Liquidity multiplier × time bonus
 ```
 
-The multiplier comes from the canonical RPG Trading Liquidity engine. Attributes,
-resolved multiplier and rules version are saved for each purchase when Gold is
-credited. Changing equipment affects future purchases only. The time bonus falls
+The multiplier uses the player's Trading Liquidity when Gold is credited.
+Changing equipment affects future purchases only. The time bonus falls
 linearly from 1.10 at Monday 00:00 to 1.00 at the end of the week. A midweek launch
 uses the remaining portion of that calendar week. Each purchase is rounded once
-to six decimal places; totals sum integer micropoints.
+to six decimal places before being added to the weekly total.
 
 One buyer is one participant. Purchases add points to that account. Ties favor
 the account that reached its final total earlier, then the account ID.
 
 ### Prize Fund
 
-The current policy is `distribution: shares`. For `N` unique buyers, there are
+Under the current percentage-based policy, for `N` unique buyers there are
 `N` prizes. Assign the lower two thirds, rounded up, a Common Gem; repeat with the
 remaining buyers for Uncommon, Rare, Epic and Legendary. Stop when no buyers
 remain. All buyers remaining after Legendary receive Mythical, the highest rarity.
@@ -69,28 +68,26 @@ buyer. Repeated payments add points without increasing the buyer count.
 | 100 | 100 | B, C × 2, D × 8, E × 22, F × 67 |
 | 243 | 243 | A, B × 2, C × 6, D × 18, E × 54, F × 162 |
 
-Admin **Gold → Sale → Gems** configures F–B percentages independently, each
-applied to the remaining buyers and rounded up. A always receives all remaining
+The F–B percentages are configurable independently, each applied to the
+remaining buyers and rounded up. A always receives all remaining
 buyers. Percentages do not sum to 100%. Zero disables a rarity; 100% assigns
-the whole remainder and prevents higher rarities. The editor previews both
-rarity thresholds and the fund for a chosen unique-buyer count. Its Two thirds
-preset stores exact 2/3 fractions; Half restores 1/2 at each step.
+the whole remainder and prevents higher rarities. The current Two thirds
+setting uses exact 2/3 fractions; Half uses 1/2 at each step.
 
 The **No reward** row before F can exclude the bottom part of the ranking.
 Its default is 0%. With a nonzero percentage, round up the excluded buyer count
 first, then distribute Gems among the remaining buyers. Excluded accounts keep
-their points and rank, but have no weekly Gem to claim. The calculator shows
-the no-reward count separately and sums only awarded Gems in Total Gems.
+their points and rank, but have no weekly Gem to claim.
 For example, 20% excludes 16 of 80 buyers; the other 64 receive 43 F, 14 E,
 5 D and 2 C under the Two thirds preset. Rarity thresholds become
 2/4/12/34/102/304 buyers. Setting 100% awards no Gems.
 
 Saving while disabled does not activate rewards. After activation, edits are
 scheduled for next Monday 00:00 UTC and can be revised before then. This week,
-past contributions and settled rewards retain their saved rules. A previously
-stored `halves` policy retains its 1/2 allocation and thresholds 1/2/4/8/16/32.
+past contributions and settled rewards retain their saved rules. Earlier weeks
+using the Half preset retain their 1/2 allocation and thresholds 1/2/4/8/16/32.
 
-Saved rules without `distribution` use the historical weighted policy:
+Earlier weeks using the weighted policy retain its prize formula:
 `P = min(N − 1, round(0.1 × N + 0.8 × √N))`, with no prizes below two buyers
 and rarity thresholds 2/3/9/27/81/243. Its allocation and existing rewards are
 preserved. Updating an active program requires scheduling the new rules for
@@ -134,12 +131,8 @@ starting entirely from Common Gems, one Mythical takes
 3,125 Common Gems and 14,410 Essence before discounts. Higher-rarity ingredients
 shorten the chain. Max Out uses its separately configured Essence fee.
 
-The confirmation shows the configured number of source Gems, one resulting Gem and the exact fee.
-A changed input count, price or item revision requires a new quote. Spending, inventory updates,
-ledger and the retry receipt are atomic. Retries cannot consume another set of
-Gems. The result retains the selected item's ID and the ledger records all
-inputs. Paid merging Essence is tracked on the resulting Gem; it does not create
-a new Essence recovery or scrapping action.
+The confirmation shows the required source Gems, one resulting Gem and the
+exact fee. Gems cannot be scrapped to recover merging Essence.
 
 Merging recipes do not change the weekly prize distribution.
 
@@ -154,8 +147,7 @@ improves rolls. Accumulated terminal values are historical and never rerolled;
 only future per-level growth improves. Equipped items refresh character stats.
 
 The quote shows the required Gem, Essence and resulting rarity. Both ingredients
-are consumed atomically. Listed items cannot be improved. Unsupported historical
-perk data or a missing original artwork family requires review instead of guessing.
+are consumed together. Listed items cannot be improved.
 
 ## Mythical Gem: Max Out → ★ Perfect
 
@@ -163,7 +155,7 @@ One A Gem and the configured Max Out fee, currently **500 Essence**, make
 **the entire clothing item permanently Perfect**. The same fee applies to every
 rarity and level, without Crafting or Luck discounts.
 The fee is recorded as invested Essence and follows the ordinary Scrapping
-recovery rules. Both resources are consumed atomically.
+recovery rules. Both resources are consumed together.
 Any rarity F–A is eligible, including Common clothing with no perks. All existing
 perks and the Aspect immediately reach their full maximum at the current rarity
 and level. Terminal perks receive maximum quality and step, and their accumulated
@@ -186,8 +178,7 @@ item retains its historical accumulation as described above.
 The golden ★ appears with the rarity in Inventory, equipment, Marketplace and
 Tracker. Sale, cancellation and ownership transfer preserve the status. The
 confirmation previews the whole item, the consumed Mythical Gem and −500 Essence. Listed items
-cannot be improved. Unsupported historical values require review and are never
-silently lowered or reconstructed.
+cannot be improved.
 
 ## Tracker And QFT Transition
 
@@ -195,8 +186,7 @@ One Tracker card follows each Gold order from creation through payment confirmat
 and credit, including earned points and its week. A separate weekly card shows an
 available reward, claimed Gem or result without a prize.
 
-Purchase contributions carry their source and immutable snapshots separately from
-weekly awards. Future verified liquidity contributions may become another source;
-they will not recount purchases or replace historical obligations. Existing Gold
+Future liquidity contributions may also earn rewards; earlier purchases and
+weekly rewards will retain their original rules. Existing Gold
 reward shares and the disabled Liquidity allocation are unchanged. See
 [Economy Before QFT](../../../roadmap/pre-qft-economy.md).

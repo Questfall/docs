@@ -18,8 +18,8 @@ source and reward currency where appropriate.
 
 Gold remains an in-game currency. Moving future rewards to QFT does not rename
 existing Gold, convert historical balances or cancel pending Gold claims.
-On-chain liquidity provision, LP ownership burning and token custody still
-require their own implementation and verification after QFT exists.
+On-chain liquidity provision, LP ownership burning and QFT Freezing remain
+planned for after QFT launches.
 
 ## Gold Purchases And Gems
 
@@ -30,10 +30,10 @@ Liquidity Program's reward loop. They support project development; they are
 not DEX liquidity deposits or LP ownership burns.
 
 ```text
-finalized USDC payment + Gold credit (one transaction)
--> purchase contribution with Trading Liquidity snapshot
+confirmed USDC payment + Gold credit
+-> Gem Points using Trading Liquidity
 -> UTC weekly standings
--> immutable results and a non-expiring Gem claim
+-> final results and a non-expiring Gem claim
 -> inventory, Gold Marketplace or clothing improvement
 ```
 
@@ -42,8 +42,7 @@ and connected wallets are not eligibility conditions. Only on-chain receipts
 at or after program activation qualify. The week is determined by Gold credit
 rather than payment discovery time or order creation. No historical backfill.
 
-The contribution source is stored separately from weekly results. A later QFT
-or LP source must not recount Gold purchases, convert historical obligations,
+Future QFT or liquidity rewards will not count earlier Gold purchases again
 or change settled rewards. Existing Gold payout shares and the disabled
 Liquidity allocation remain separate from purchase-based Gem rewards. Gold
 Freezing adds its own share to future weekly Gold allocations as described below.
@@ -85,17 +84,12 @@ High-rarity trading for QFT is another token-dependent surface, rather than a
 separate reward program. Marketplace behavior can be exercised with Gold;
 QFT settlement still needs a separate release.
 
-## Activation And Separate Work
+## Planned Features
 
-The Gem release includes inventory, Gold Marketplace trading, clothing evolution
-and permanent Perfect status for the entire clothing item. Gem activation is an
-explicit release step before Gold sales open; deploying the code alone does not
-enable Gem rewards. Gold Freezing activates at normal release startup. No active orders
-or historical purchases are rewritten.
-
-Gem scrapping, independent Aspect replacement, QFT payments and real liquidity
-contributions remain outside this release. [Dice](../quest-mining/completion/rpg-items/dice.md)
-have their own crafting rules and do not change historical mining or purchase rewards.
+Gem scrapping, independent Aspect replacement, QFT payments and on-chain
+liquidity contributions are not yet available. [Dice](../quest-mining/completion/rpg-items/dice.md)
+have their own crafting rules and do not change historical mining or purchase
+rewards.
 
 ## References
 

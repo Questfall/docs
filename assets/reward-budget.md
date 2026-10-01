@@ -5,7 +5,7 @@ icon: coins
 # Unified Reward Budget
 
 The reward economy uses one weekly budget. Gold is the current reward currency;
-the QFT issuance source and blockchain payout adapter are a separate future stage.
+QFT rewards will become available after the token launches.
 Program scoring is independent of the budget source and payout currency.
 
 Gold Freezing is active. With the QFT-based baseline split,
@@ -34,8 +34,8 @@ all of the weekly total is assigned, including very small budgets.
 
 Admin configures the default total from a future week or overrides a single future
 week. Miner and author amounts are calculated from that total. At Monday 00:00 UTC,
-the server freezes the week's total, currency, rules version, active programs and
-allocations. Changes cannot alter an already opened week.
+the week's total and allocations are fixed. Changes cannot alter an already
+opened week.
 
 A weekly program pays from its new allocation plus its own previous unallocated
 amount. An empty program carries its full pool; carry remains inside that program
@@ -64,7 +64,7 @@ initial balances. New seasonal contributions are added on top. Future seasons
 start from program carry and their weekly contributions, without inheriting the
 old manually promised seasonal pool again.
 
-Historical payouts and claimable rewards are never recalculated. New records keep
-currency explicitly. A later QFT transition preserves historical Gold obligations;
+Historical payouts and claimable rewards are never recalculated.
+A later QFT transition preserves historical Gold obligations;
 it does not rename balances or silently convert pending claims. Author Space
 rewards remain withdrawable by their owner through the existing separate flow.

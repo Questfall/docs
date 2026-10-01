@@ -36,14 +36,9 @@ weight ratio `3125:1250:500:200:80:32`. Conditional chances are approximately 60
 24.10%, 9.64%, 3.86%, 1.54%, and 0.62%. Multiply by the current Common-box
 potion chance for the chance per won item card. Clothing rarity frequencies are
 also configurable in the same Admin screen and apply above each box's rarity floor.
-Admin shows only Common Box as the shared configuration. Higher boxes exclude
-lower clothing rarities and recalculate their chances from the same settings;
-there are no separate editable policies per box. Clothing frequencies retain
-their existing positive-integer scale and integer ticket calculation.
+Higher boxes exclude lower clothing rarities and recalculate their chances
+from the same settings.
 
-New policy revisions store `potion_frequencies`. Historical revisions with
-`potion_weights` are read as `maximum_weight / weight` (zero stays disabled),
-preserving their probabilities and leaving the original records intact.
 The item distribution is not the number of boxes earned per quest:
 shard collection, Cards, and bonus-box rewards remain their existing mechanics.
 
@@ -83,8 +78,7 @@ the ingredients and include no Merging discount.
 
 Potions have no levels, equipment slot, Aspect, perks, Upgrade, Evolve or Scrap.
 A potion listed on the Marketplace must first be cancelled before it can be
-consumed or merged. Merging and consumption are atomic: retrying cannot consume
-the same ingredient or potion twice.
+consumed or merged.
 
 ## Marketplace and balance
 
@@ -106,13 +100,7 @@ counts across a large population, available Essence and full use of the effect;
 it is not a guaranteed individual return or a free supply per quest.
 
 A new unequipped character has 2208 Stamina, recovers 4.6/min and pays a base
-32 per valid quest attempt. The continuous-rate estimate at one attempt/minute is
-81 minutes. A discrete simulation with the first submission at time zero and
-integer recovery between submissions reaches the first blocked attempt at minute
-78. Both meet the beginner 1–2 hour target. Higher-level equipment increases pressure; Efficiency, Relief,
-Reserve, Recovery, Absorption and potion purchases remain meaningful choices.
-The 1–2 hour target is a starting-character anchor, not a cap imposed on all builds.
-
-Runtime values: `questfall-pocketbase/src/catalog/potions.imba` and
-`src/rpg/system-values.imba`. Reproduce the economic anchors with
-`bun run balance:potions` in the backend repository.
+32 per valid quest attempt. At one attempt per minute, this supports about
+80 minutes of continuous play without Potions. Higher-level equipment increases pressure; Efficiency,
+Relief, Reserve, Recovery, Absorption and potion purchases remain meaningful
+choices.

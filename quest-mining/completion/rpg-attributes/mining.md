@@ -35,7 +35,7 @@ the trait grows continuously by up to 5 minutes. Reaching a new mastery rank
 adds another 5-minute reward. Quest age still matters: every 10 minutes waiting
 adds 100 queue points.
 
-The bonus and submission time are saved at submission. Changing equipment later does not change an existing submission's priority, and waiting for instruction approval does not reset its age. First Quest Review retains precedence over ordinary work. System report priorities and finishing already-started live platform checks also retain their precedence; Priority orders work within those rules. Reports do not receive the player's Mining Priority bonus. Older cases without a saved bonus use zero bonus and their case creation time.
+The bonus and submission time are saved at submission. Changing equipment later does not change an existing submission's priority, and waiting for instruction approval does not reset its age. First Quest Review retains precedence over ordinary work. System report priorities and finishing already-started live platform checks also retain their precedence; Priority orders work within those rules. Reports do not receive the player's Mining Priority bonus.
 
 ### Direct Grant Ranges
 

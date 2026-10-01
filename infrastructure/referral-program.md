@@ -43,22 +43,12 @@ after expiration. Relations that predate this feature are not automatically enro
 Each participant receives an unread Tracker update with the box, its rarity and the
 reason. Updates for one referral are grouped into a card with milestone history and
 a link to `/referrals/`. The page shows the invited player's own progress and each
-referral's received, pending or expired stages. Box grants are transactional with
-both balances, ledger records and Tracker events; they never consume the Gold pool.
+referral's received, pending or expired stages. Boxes never consume the Gold pool.
 
 ## Manual Assignment in Admin
 
-An admin may link a known existing, confirmed user who has no inviter. This remains
-available as a regular administrative function. Open the inviter's user card and
-the Referrals tab to see their invited players, including automatic, manual,
-pre-program and expired relationships. The list is paginated, and each player
-shows their participation dates and four reward stages.
-
-Search for the invited player above the list and use the plus icon in the result
-to preview the two recipients and their exact boxes. No reason or evidence field
-is required. Self-referrals, cycles, changing an existing link and stale previews
-are rejected. The action records its administrator, participants and time in the
-audit log.
+An admin may link an existing, confirmed user who has no inviter.
+Self-referrals, cycles and changing an existing link are not allowed.
 
 The term starts when the assignment is saved, giving a full six calendar months.
 Both players immediately receive Common plus the boxes for the invited player's
@@ -66,9 +56,7 @@ current level: level 8 gives Common, Uncommon and Rare; level 15 gives all four.
 Later level-ups use the same rules as new registrations.
 
 Only XP purchases made after this binding count toward the weekly score. Earlier
-Silver spending, closed weeks and payouts are not recalculated. There is no import
-completion switch or time limit on manual assignment. Assigning real users remains
-an explicit administrative operation, not an automatic migration.
+Silver spending, closed weeks and payouts are not recalculated.
 
 ## Weekly Score
 
@@ -76,8 +64,8 @@ Weeks run from Monday 00:00 UTC through Sunday. For each direct referral:
 
 $$x_j=S_{j,week}\cdot d_j$$
 
-Here, $S_{j,week}$ is Silver actually spent on purchasing XP during that week,
-recorded in the server ledger after referral binding. Other Silver spending,
+Here, $S_{j,week}$ is Silver actually spent on purchasing XP during that week
+after referral binding. Other Silver spending,
 balances, transfers and the inviter's own purchases are excluded.
 
 Let $t_j$ be the binding time (confirmed signup, or the explicit Admin assignment) and
@@ -124,7 +112,6 @@ decay, weighted contribution and registration/expiry dates.
 
 Closing a week freezes contributions, scores and pending payouts. Later activity
 cannot rewrite that result. Referral rewards are available in the personal Claim
-alongside weekly and seasonal miner rewards. Claim is transactional and replaying
-a request cannot pay twice. Author Space withdrawals retain their separate flow.
-New budget and payout records retain their explicit currency; historical and
-pending Gold rewards remain Gold when a future QFT adapter is introduced.
+alongside weekly and seasonal miner rewards. Author Space withdrawals retain
+their separate flow. Historical and pending Gold rewards remain Gold after a
+future QFT transition.

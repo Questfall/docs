@@ -12,12 +12,10 @@ Scrapping, Leveling, consumable Merging, clothing Rarity evolution and Quality a
 
 The Admin **Crafting** section configures base Essence prices
 for Upgrade, Evolve, Scrap, Max Out and Reroll, plus independent Merge quantities
-and fees for each consumable and rarity. These values are stored as audited
-database revisions and used by real server quotes and commands. Tables below
+and fees for each consumable and rarity. Tables below
 reflect the [30 September settings snapshot](../../../assets/economy-settings.md#crafting);
 saved settings can change the base prices without changing trait curves, mastery
-or grants. Quality remains a read-only calculator in Admin and affects Evolve
-and Reroll results. Server quotes show the current payment before confirmation.
+or grants. Quality affects Evolve and Reroll results. Server quotes show the current payment before confirmation.
 
 ## How To Read These Tables
 
@@ -40,7 +38,7 @@ Scrapping destroys an item and returns two separate parts of Essence:
 1. a guaranteed base value from the item's rarity;
 2. a growing share of the Essence actually paid for its level upgrades.
 
-Scrapping Uncommon (E) through Mythical (A) clothing also grants one Dice of the same rarity. The existing Luck proc for that scrap grants a second Dice, even when it adds no Essence because the item has no invested Essence. Common (F) clothing grants no Dice, and there is no Common Dice. Luck Bonus changes the Essence reward, but not the number of Dice. The Dice and Essence are granted together with the scrap in one transaction; the result shows the Dice count.
+Scrapping Uncommon (E) through Mythical (A) clothing also grants one Dice of the same rarity. The existing Luck proc for that scrap grants a second Dice, even when it adds no Essence because the item has no invested Essence. Common (F) clothing grants no Dice, and there is no Common Dice. Luck Bonus changes the Essence reward, but not the number of Dice.
 
 Dice are separate inventory items, each weighing as much as a Gem of the same rarity. They stack by rarity in Inventory and can be listed and sold one at a time on the Marketplace.
 
