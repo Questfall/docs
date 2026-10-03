@@ -66,14 +66,12 @@ Claim flow.
 
 ## Funding and activation
 
-The freezing program uses the existing QFT target weight of 5 in the unified
-weekly Gold budget. With the currently enabled weights totaling 69, each week
-with freezing enabled allocates `5 / 74` of its fixed Gold total to freezing.
-The other programs' allocations shrink proportionally in unopened weeks; their
-weekly total does not increase. Allocations are frozen when a week opens.
-Admin may configure future weekly Gold budgets using
-the existing reward-budget controls; the default freezing weight comes from
-the QFT program allocation.
+The freezing program's QFT baseline weight is 5 in the unified weekly Gold
+budget. With the other enabled weights totaling 69, the baseline allocates
+`5 / 74` of its fixed Gold total to freezing. Admin may instead configure an
+explicit freezing Gold amount alongside the other five allocations. Their derived
+percentages total 100% of the same weekly budget. Existing five-program plans keep their original
+`5 / 74` reserve until edited. Allocations are frozen when a week opens.
 
 If the launch week already has promised rewards, its first freezing pool is a
 separate, one-time supplement. It uses the canonical `5 / 74` allocation of the
@@ -105,3 +103,8 @@ claimable without expiry and are never renamed or converted to QFT. QFT Freezing
 deposits and its own reward currency; a Gold position never becomes a QFT
 position. Any unallocated Gold freezing carry left after the final week is
 closed as unused budget, not converted into QFT or paid to another program.
+
+Future unified budgets exclude Freezing after cutover and retain the relative
+shares of the other programs. If a plan assigned 100% to Freezing, the remaining
+programs return to their QFT baseline because there are no saved nonzero shares
+to redistribute.

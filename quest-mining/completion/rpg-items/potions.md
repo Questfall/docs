@@ -55,11 +55,13 @@ only while current Stamina is **strictly below 100%**. At 100% or during overflo
 the potion stays in inventory and the server rejects consumption, including a
 request made with an earlier quote. One allowed drink can still restore the full
 amount beyond Maximum Stamina. Above the maximum, ordinary recovery pauses and overflow
-loses **25% of Maximum Stamina per hour**. Quest actions also spend overflow.
+loses **25% per hour of the reserve from invested Stamina points and their Reserve
+Mastery, excluding all equipment bonuses**. Changing equipment changes capacity,
+but does not change this loss rate or discard stored Stamina. Quest actions also spend overflow.
 There is no extra cap on the potion's effect.
 
-One Mythical potion from empty gives 24.3 reserves before Absorption. With no
-further actions, its overflow lasts **93.2 hours**. Storing the potion avoids
+One Mythical potion from empty gives 24.3 reserves before Absorption. Without
+equipment bonuses, Absorption or further actions, its overflow lasts **93.2 hours**. Storing the potion avoids
 starting this decay; drinking it creates an incentive to use the recovered Stamina.
 
 ## Merging

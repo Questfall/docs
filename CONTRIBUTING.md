@@ -1,7 +1,7 @@
 # Updating product documentation
 
-The App 0.7.01 documentation was refreshed after verified production activation
-on 30 September 2026 UTC (1 October in Moscow). Keep future local changes as
+The App 0.7.03 documentation was refreshed after verified production activation
+on 3 October 2026 UTC. Keep future local changes as
 drafts until their application/backend behavior is active and verified.
 Publish only within Fedor's authorized documentation update.
 

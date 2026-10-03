@@ -20,10 +20,15 @@ the enabled weights total 74:
 | Referrals | 5 | 5/74 ≈ 6.76% |
 | Gold Freezing | 5 | 5/74 ≈ 6.76% |
 
-Before Freezing, the five enabled weights total 69. Admin may configure their
-relative Gold shares independently of the target QFT weights. With Freezing
-enabled, those five shares are scaled to 69/74 of the total and Freezing receives
-5/74; their relative proportions remain unchanged. The
+Before Freezing, the five enabled weights total 69. Admin may configure all six
+Gold allocations, including Freezing, independently of the target QFT weights.
+Admins enter whole Gold amounts; percentages are calculated automatically from
+the weekly total. Editing a program's allocation updates the total; editing the
+total scales all allocations using their current proportions. Allocations retain
+their exact entered amounts when saved. Existing
+five-program plans retain their relative split of 69/74, with 5/74 for Freezing,
+until replaced with explicit six-program shares. Reset to QFT baseline restores
+the proportions in the table. The
 [dated settings snapshot](economy-settings.md#reward-budget) records actual
 period totals and allocations. A selected future week is a plan, not a guarantee.
 
@@ -32,10 +37,18 @@ all of the weekly total is assigned, including very small budgets.
 
 ## Periods And Administration
 
-Admin configures the default total from a future week or overrides a single future
-week. Miner and author amounts are calculated from that total. At Monday 00:00 UTC,
+Admin configures the default total and allocation proportions from a future week
+or overrides a single future week. Reset to QFT baseline redistributes the total
+into whole Gold amounts using the target weights. At Monday 00:00 UTC,
 the week's total and allocations are fixed. Changes cannot alter an already
 opened week.
+
+The Admin planner shows currently frozen principal and estimates the selected
+week's average return as `freezing allocation / current frozen principal`.
+It also shows Gold per 1,000 frozen Gold and simple
+`APR = weekly return × 365 / 7`, without compounding or previous-week carry.
+These are planning estimates; individual rewards use multipliers and time-weighted
+points, and future deposits or unlocks change the actual return.
 
 A weekly program pays from its new allocation plus its own previous unallocated
 amount. An empty program carries its full pool; carry remains inside that program

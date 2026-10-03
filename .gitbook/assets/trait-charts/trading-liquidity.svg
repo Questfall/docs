@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" class="trait-chart" role="img" aria-labelledby="trading-liquidity-title trading-liquidity-desc" width="920" height="416" viewBox="0 0 920 416">
 <title id="trading-liquidity-title">Trading / Liquidity</title>
-<desc id="trading-liquidity-desc">Effective LP requirement as a share of the base requirement. Lower is better. The Gem Points surface is planned; this does not increase direct QFT rewards. Trait values use a logarithmic horizontal axis. Mastery is included in the no-direct-grants series. Each grant series adds only its named grant.</desc>
+<desc id="trading-liquidity-desc">Effective requirement as a share of the base requirement. Lower is better. Its reciprocal gives the Gold-purchase Gem Points multiplier; this does not increase direct QFT rewards. Trait values use a logarithmic horizontal axis. Mastery is included in the no-direct-grants series. Each grant series adds only its named grant.</desc>
 <style>
   .trait-chart { --paper: #fff; --ink: #202731; --muted: #68707e; --grid: #e5e8ed; background: var(--paper); color: var(--ink); font-family: system-ui, -apple-system, sans-serif; }
   .trait-chart text { fill: var(--ink); font-size: 12px; }

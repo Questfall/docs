@@ -139,7 +139,11 @@ Calculation: `20 pp mastery + 15 pp grant` becomes a `+119.13%` bonus through th
 
 Result: `219.13` effective potion value.
 
-[Potions](../rpg-items/potions.md) define restoration by rarity. There is no additional overflow cap; existing decay applies.
+[Potions](../rpg-items/potions.md) define restoration by rarity. There is no additional overflow cap.
+Overflow loses 25% per hour of the reserve from invested Stamina points and their
+Reserve Mastery, excluding equipment. Changing equipment preserves stored Stamina
+and does not change this loss rate. Investing or resetting Stamina points changes
+the rate after the previous interval has been settled.
 
 ## Reserve
 

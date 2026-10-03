@@ -158,9 +158,7 @@ See [Gems](../rpg-items/gems.md#weekly-gold-buyer-competition).
 
 ![Trading Liquidity: LP requirement remaining versus Trait Units](../../../.gitbook/assets/trait-charts/trading-liquidity.svg)
 
-Effective requirement as a share of the base requirement. Lower is better. Its
-reciprocal gives the Gold-purchase Gem Points multiplier; this does not increase
-direct QFT rewards.
+Effective requirement as a share of the base requirement. Lower is better. Its reciprocal gives the Gold-purchase Gem Points multiplier; this does not increase direct QFT rewards.
 
 The blue curve includes Mastery and no direct grants. Each additional grant curve applies **one maximum Mythical (A) grant**, independently of the other grants. The horizontal axis starts at 1 TU and is logarithmic.
 <!-- trait-chart:trading-liquidity:end -->

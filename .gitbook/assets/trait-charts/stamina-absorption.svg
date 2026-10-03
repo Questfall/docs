@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" class="trait-chart" role="img" aria-labelledby="stamina-absorption-title stamina-absorption-desc" width="920" height="416" viewBox="0 0 920 416">
 <title id="stamina-absorption-title">Stamina / Absorption</title>
-<desc id="stamina-absorption-desc">Additional recovery from a Stamina Potion, up to +250%. Potion integration is planned; this plots the RPG formula. Trait values use a logarithmic horizontal axis. Mastery is included in the no-direct-grants series. Each grant series adds only its named grant.</desc>
+<desc id="stamina-absorption-desc">Additional recovery from a Stamina Potion, up to +250%. Stamina Potion restoration uses this formula. Trait values use a logarithmic horizontal axis. Mastery is included in the no-direct-grants series. Each grant series adds only its named grant.</desc>
 <style>
   .trait-chart { --paper: #fff; --ink: #202731; --muted: #68707e; --grid: #e5e8ed; background: var(--paper); color: var(--ink); font-family: system-ui, -apple-system, sans-serif; }
   .trait-chart text { fill: var(--ink); font-size: 12px; }

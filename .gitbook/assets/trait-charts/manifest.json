@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "sourceHash": "76ba79c7aec68724eb1aec2bc0d1e505525f1b62edf4c7190fbe4319eabfbe11",
+  "sourceHash": "36228a9d564242458821d539d501a80ab9186ba6135031c6cb4d12761f30ea24",
   "sources": {
-    "src/rpg/system-values.imba": "9884aaffd17406c4d73ec411734603019c495fb867df81fb163d2dae9dc9a993",
-    "src/catalog/char-traits.imba": "fa1eecd4d0db8ae60bcfca1cc9d493acc326908ccd0ef47b727baecd429a1935",
-    "src/catalog/perk-generation.imba": "42c895973cb03fb4303b9b648fd60648fc17756d04c79712aa424ea8f5d33acc",
-    "src/catalog/item-rarities.imba": "1777b7109294de8f442f00310e044c2877675d5e83c713543201bd691520ace3",
-    "src/catalog/locales/en.json": "d5b66e32317a5c699fe704d79ac3f4696eb07313ebc5d96d6e195f76912654c7"
+    "src/rpg/system-values.imba": "b0dbc839212273f23016fc5742a935c272c55e18f8f58f17f0d8763b8eb67ab3",
+    "src/catalog/char-traits.imba": "774f8fdcfc5794078e087473e52421286e38582e4677550524db8c1e79aec355",
+    "src/catalog/perk-generation.imba": "026006624f1a0bc95fb89a377570ef82488f03e18449e667220e48e159d8e1ba",
+    "src/catalog/item-rarities.imba": "adab38e184694d14d071ffff8db75afddc1f18ff0229fa413d71449dcca08f11",
+    "src/catalog/locales/en.json": "91c9e486028849243ec0ce257716a8951938cbfdae249e6710cb6db5ae9727c9"
   },
   "traits": [
     "inventory-levitation",
