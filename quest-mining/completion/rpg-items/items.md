@@ -114,6 +114,10 @@ Non-Common clothing has perks. Perks are what make items deeply build-specific.
 
 Some terminal perks are conditional. For example, they may only work if another equipped item has a matching slot, wear type, or Aspect. Boosters also target another item, not the item they are on.
 
+### Rerolling a Perk
+
+You can [reroll one chosen perk](dice.md#reroll) by spending one Dice of the clothing's rarity and an Essence fee. The new perk replaces it immediately and may have a lower numerical value.
+
 ## Set And Origin
 
 Items have set and origin identity. When booster links connect matching items, set and origin affinity can strengthen the link.

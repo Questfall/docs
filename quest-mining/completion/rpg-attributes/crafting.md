@@ -42,16 +42,6 @@ Scrapping Uncommon (E) through Mythical (A) clothing also grants one Dice of the
 
 Dice are separate inventory items, each weighing as much as a Gem of the same rarity. They stack by rarity in Inventory and can be listed and sold one at a time on the Marketplace.
 
-## Rerolling a Perk
-
-Use one Dice on owned clothing of the same rarity, either carried or equipped, and pay the Essence fee below. Choose one existing perk; the replacement is generated immediately and cannot be declined after viewing it. It must differ in type, effect or condition, though its numerical value may be worse. Other item properties remain unchanged. The reroll fee is consumed by the attempt and is not added to the item's invested Essence.
-
-| Clothing rarity | E | D | C | B | A |
-| --- | ---: | ---: | ---: | ---: | ---: |
-| Reroll Essence fee | 30 | 50 | 70 | 100 | 140 |
-
-The existing Crafting Quality value biases the numerical roll. A newly rolled terminal perk starts with a value appropriate to the **current item level**, so rerolling high-level clothing does not reset that perk to level-one strength. If a valid replacement cannot be generated, the Dice, Essence and clothing remain untouched.
-
 Every item stores its own **Essence invested** value. Only real payments are recorded, after any Lucky Discount. The value stays with the item when it is traded. It is shown in the large item popup in both Inventory and Marketplace, so a buyer can judge an item's scrapping value before purchase.
 
 A newly generated item starts with zero invested Essence, but still returns its rarity base:
@@ -329,7 +319,7 @@ Result: `136 Essence` rarity-upgrade cost.
 
 **Status:** Live.
 
-Perk-roll pressure for existing and newly generated perks during clothing evolution.
+Perk-roll pressure for existing and newly generated perks during clothing evolution, and for [perk rerolls](../rpg-items/dice.md#reroll).
 
 **How it resolves.** Every completed Quality mastery rank adds `1 Quality Pressure`. Trait pressure, mastery pressure, and direct-grant pressure combine before the final roll floor is derived. Quality applies only to crafting operations: it does not improve Lootbox drops or rewrite value already accumulated by a perk.
 
